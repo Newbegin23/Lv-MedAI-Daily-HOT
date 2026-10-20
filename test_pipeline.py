@@ -96,6 +96,17 @@ class PipelineTests(unittest.TestCase):
         evalset.evaluate(True)
         self.assertIn('precision：1.000',Path('eval/last_report.md').read_text(encoding='utf-8'))
 
+    def test_failed_model_does_not_drop_metadata_retry_queue(self):
+        pending=dict(id='pending',title='Medical imaging agent',source='PubMed',source_group='PubMed',
+                     day=run.hub.TODAY,date=run.hub.NOW.isoformat(),link='https://example.org/pending',
+                     abstract='Medical image evidence. '*20,tags=[],processing='metadata-only',score=None)
+        saved=json.dumps([pending]);Path('data/items.json').write_text(saved)
+        with patch.dict(os.environ,{'LLM_BASE_URL':'https://example.invalid','LLM_API_KEY':'test','LLM_MODEL':'test'}), patch.object(run.hub,'fill_abstract'), patch.object(run.hub,'enrich_all',return_value=[]):
+            with self.assertRaisesRegex(RuntimeError,'no usable results'):
+                run.collect(lambda src:(src,[],None),use_llm=True)
+        self.assertEqual(Path('data/items.json').read_text(),saved)
+        self.assertTrue(list(Path('data/pool').glob('*.jsonl')))
+
 
 if __name__ == '__main__':
     unittest.main()

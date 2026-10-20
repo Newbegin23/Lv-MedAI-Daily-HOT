@@ -53,7 +53,6 @@ def collect(fetcher=hub.fetch_source, use_llm=False, max_new=None):
     seen = {p['id'] for p in previous} | set(rejected)
     candidates = [dict(p, desc=p.get('abstract', '')) for p in pending]
     seen.update(pending_ids)
-    candidates = []
     for source, rows, _ in results:
         for item in rows:
             published = hub.parse_date(item.get('date', ''), None)
