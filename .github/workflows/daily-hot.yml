@@ -1,0 +1,96 @@
+name: Independent Daily HOT
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['run.py', 'weekly.py', 'alerts.py', 'vendor/**', 'requirements.txt', '.github/workflows/daily-hot.yml']
+  schedule:
+    - cron: '30 23,1,3 * * *'
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-hot
+  cancel-in-progress: false
+jobs:
+  collect-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      collect_state: ${{ steps.collect.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -W ignore::ResourceWarning -m unittest test_pipeline.py
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Collect and build
+        id: collect
+        continue-on-error: true
+        env:
+          PYTHONUTF8: '1'
+          SITE_URL: ${{ steps.pages.outputs.base_url }}/
+          REPOSITORY_URL: https://github.com/${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          SPRINGER_API_KEY: ${{ secrets.SPRINGER_API_KEY }}
+          MAX_NEW: ${{ vars.MAX_NEW || '200' }}
+        shell: bash
+        run: |
+          if [ -n "$LLM_API_KEY" ] && [ -n "$LLM_BASE_URL" ] && [ -n "$LLM_MODEL" ]; then
+            python run.py --llm
+          else
+            python run.py
+          fi
+      - name: Publish source status while retaining last digest after failure
+        if: steps.collect.outcome == 'failure'
+        env:
+          PYTHONUTF8: '1'
+          SITE_URL: ${{ steps.pages.outputs.base_url }}/
+          REPOSITORY_URL: https://github.com/${{ github.repository }}
+        run: python run.py --build-only
+      - name: Sync repeated source alerts
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python alerts.py
+      - name: Persist public collection history
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Update public medical AI digest"
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Write run summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## Daily HOT collection: ${{ steps.collect.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Public-source candidates are not final selected items. Model configuration is required for AI summaries." >> "$GITHUB_STEP_SUMMARY"
+  deploy:
+    needs: collect-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Surface collection failure after source-status page is deployed
+        if: needs.collect-build.outputs.collect_state == 'failure'
+        run: exit 1
