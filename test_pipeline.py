@@ -64,10 +64,20 @@ class PipelineTests(unittest.TestCase):
             return items
         with patch.dict(os.environ, {'LLM_BASE_URL':'https://example.invalid','LLM_API_KEY':'test','LLM_MODEL':'test'}), patch.object(run.hub,'fill_abstract') as fill, patch.object(run.hub,'enrich_all',side_effect=enrich), patch.object(run.hub,'translate_all') as translate, patch.object(run.hub,'backfill') as backfill, patch.object(run.hub,'cluster',side_effect=lambda done, old: done):
             db, stats = run.collect(fetch, use_llm=True)
-        self.assertEqual(stats['budget'],200); self.assertEqual(db[0]['processing'],'model-enriched')
+        self.assertEqual(stats['budget'],50); self.assertEqual(db[0]['processing'],'model-enriched')
         fill.assert_called_once(); translate.assert_called_once(); backfill.assert_called_once()
         self.assertTrue(list(Path('data/pool').glob('*.jsonl')))
         self.assertIn('abstract',db[0])
+
+    def test_daily_allowance_survives_reruns(self):
+        day = run.hub.NOW.astimezone(run.hub.CST).strftime('%Y-%m-%d')
+        Path('data/daily-budget.json').write_text(json.dumps({day: 50}))
+        with patch.dict(os.environ, {'LLM_BASE_URL':'test','LLM_API_KEY':'test','LLM_MODEL':'test'}), patch.object(run.hub,'fill_abstract') as fill, patch.object(run.hub,'enrich_all',return_value=[]), patch.object(run.hub,'translate_all'), patch.object(run.hub,'backfill') as backfill, patch.object(run.hub,'cluster',return_value=[]):
+            _, stats = run.collect(lambda src:(src,[],None), use_llm=True)
+        self.assertEqual(stats['processed'], 0)
+        self.assertEqual(stats['budget'], 0)
+        fill.assert_not_called()
+        backfill.assert_not_called()
 
     def test_weekly_and_alerts(self):
         from weekly import generate

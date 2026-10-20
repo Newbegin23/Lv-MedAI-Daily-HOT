@@ -67,7 +67,22 @@ def collect(fetcher=hub.fetch_source, use_llm=False, max_new=None):
                 continue
             candidates.append(item)
     # Source-balanced selection; no claim that metadata ranking is a full-paper review.
-    picked = hub.select(candidates, limit)
+    daily_limit = int(os.getenv('DAILY_LIMIT', '50'))
+    if daily_limit < 0:
+        raise ValueError('DAILY_LIMIT must not be negative')
+    if daily_limit and use_llm:
+        budget_path = Path('data/daily-budget.json')
+        budget = json.loads(budget_path.read_text(encoding='utf-8')) if budget_path.exists() else {}
+        day = hub.NOW.astimezone(hub.CST).strftime('%Y-%m-%d')
+        pool_path = Path('data/pool') / (day + '.jsonl')
+        prior_count = len([line for line in pool_path.read_text(encoding='utf-8').splitlines() if line.strip()]) if pool_path.exists() else 0
+        used = max(int(budget.get(day, 0)), prior_count)
+        limit = min(limit, max(0, daily_limit - used))
+    picked = hub.select(candidates, limit) if limit else []
+    if daily_limit and use_llm:
+        # Reserve before API calls; failed attempts still consume the daily allowance.
+        budget[day] = used + len(picked)
+        budget_path.write_text(json.dumps(budget), encoding='utf-8')
     if use_llm:
         with concurrent.futures.ThreadPoolExecutor(6) as pool:
             list(pool.map(hub.fill_abstract, picked))
@@ -85,7 +100,8 @@ def collect(fetcher=hub.fetch_source, use_llm=False, max_new=None):
         hub.translate_all(done)
         for p in done:
             p['day'] = hub.TODAY
-        hub.backfill(previous + done, results)
+        if picked:
+            hub.backfill(previous + done, results)
         done = hub.cluster(done, [p for p in previous if p.get('day', '') >= (hub.NOW - dt.timedelta(days=3)).strftime('%Y-%m-%d')])
     else:
         done = []
