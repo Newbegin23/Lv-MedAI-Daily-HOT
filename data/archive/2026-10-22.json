@@ -36,6 +36,43 @@
 "reason": "RCT前瞻性设计并报告工作流与沟通结局，但未见结果与样本量，仅给到重要档下限"
 },
 {
+"title": "Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages",
+"link": "https://www.nature.com/articles/s41746-026-03211-2",
+"date": "2026-10-21T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03211-2",
+"pop": null,
+"id": "1d4e30feffcb",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "自动指标评估AI临床消息的有效性依赖情境",
+"summary": "研究利用患者门户消息的分阶段部署，对比AI草稿展示组与未展示组，发现BLEU、ROUGE、BERTScore等自动指标与医生盲评的相关性随情境变化。",
+"key_points": [
+"展示组21073条，未展示组45127条",
+"自动指标与医生盲评相关性依赖情境",
+"2264条（11%）草稿被采纳，BERTScore F1为0.93"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床NLP",
+"基准"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "大样本分阶段部署＋医生盲评，但无临床结局与外部验证，属值得一看档",
+"processing": "model-enriched",
+"day": "2026-10-22",
+"abstract": "Abstract Evaluation of AI-generated patient communication lacks standardized frameworks, and automated metrics may not reflect clinical utility. We leveraged a staged rollout of GPT-generated draft responses (GDRs) to patient portal messages. Thirty primary care physicians received drafts from September 2023 to August 2024 under two conditions: an intervention group where AI drafts were displayed and edited ( n = 21,073), and a non-displayed group where drafts were generated but never shown to physicians, who composed responses independently ( n = 45,127). We evaluated messages using BLEU, ROUGE, BERTScore, and Flesch Reading Ease, and then correlated automated metrics with blinded physician ratings of effectiveness, misunderstanding potential, and harm. In the intervention group, 2264 (11%) drafts were incorporated into final messages with high semantic alignment (BERTScore F1 = 0.93). In the non-displayed group, independent physician messages showed moderate similarity to unseen drafts (BERTScore F1 = 0.83). Despite comparable semantic scores, physicians preferred human-authored messages (4.24/5). BERTScore correlated with physician quality ratings in the intervention group but not in the non-displayed. Automated metrics demonstrated context-dependent validity; they assessed editing fidelity but failed to evaluate whether AI-generated content matches independent human performance. Rigorous evaluation of clinical generative AI requires validation of metric meaning within specific use contexts.",
+"zh_abstract": "对 AI 生成的患者沟通进行评估缺乏标准化框架，自动化指标可能无法反映临床效用。我们利用 GPT 生成的草稿回复（GDRs）在患者门户消息中的分阶段推广。30 名基层医生在 2023 年 9 月至 2024 年 8 月期间在两种条件下接收草稿：干预组显示并编辑 AI 草稿（n = 21,073），非显示组生成草稿但从未向医生展示，医生独立撰写回复（n = 45,127）。我们使用 BLEU、ROUGE、BERTScore 和 Flesch Reading Ease 评估消息，然后将自动化指标与盲法医生对有效性、误解可能性和危害的评分进行相关性分析。在干预组中，2264 份（11%）草稿被纳入最终消息，且语义一致性高（BERTScore F1 = 0.93）。在非显示组中，医生独立撰写的消息与未显示的草稿显示出中等相似性（BERTScore F1 = 0.83）。尽管语义得分相当，医生更偏好人类撰写的消息（4.24/5）。BERTScore 在干预组中与医生质量评分相关，但在非显示组中不相关。自动化指标表现出依赖情境的有效性；它们评估了编辑保真度，但未能评估 AI 生成内容是否与独立的人类表现相匹配。对临床生成式 AI 的严格评估需要在特定使用情境中验证指标含义。"
+},
+{
 "title": "Artificial Intelligence–Enhanced Auscultation to Identify Left Ventricular Dysfunction — Development and External Validation in Prospective Multicenter Studies",
 "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue",
 "date": "2026-10-15T05:00:00+00:00",
@@ -142,45 +179,6 @@
 "type": "论文",
 "reason": "对220名医生开展随机对照实验、设计规范，但属模拟情景、无临床结局",
 "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 临床医生对人工智能（AI）的信任是常被提及的采用障碍，然而关于透明度特征如何影响信任的实证证据有限。本研究旨在填补这一证据空白。我们开展了一项随机对照实验，将 220 名临床医生随机分配到 3 种条件中的 1 种：无透明度（对照）、数字置信度评分，或带有引用的叙述性解释，并在临床病例情景中使用模拟 AI 诊断辅助。透明度未影响工具特定信任 [F(2, 214) = 0.38, P = .68]、总体信任 [F(2, 217) = 0.13, P = .88] 或感知信息可信度 [F(2, 210) = 0.42, P = .66]。在任何 AI 辅助后置信度均增加（+6.7%），但与对照（P = .024）和数字置信度（P = .0051）相比，叙述性解释与更大的置信度变化相关。参与者在查看 AI 输出后改变或细化诊断的比例为 45.8%（SD 23.4%），其中对照组参与者表现出比透明度条件更高的行为影响水平（P = .0006）。信任、置信度和行为影响代表不同的构念，并受到透明度方法的不同影响。在设计安全的信任校准时应考虑这些对临床医生-AI 伙伴关系的贡献差异，尤其要考虑信任与置信度之间的分离。这些发现表明，仅常见的界面透明度特征未能对临床医生对 AI 辅助的信任产生可检测的、有意义的转变，并且这些变化可能反而改变行为影响和置信度，而没有相应的信任变化。"
-},
-{
-"title": "Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages",
-"link": "https://www.nature.com/articles/s41746-026-03211-2",
-"date": "2026-10-21T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03211-2",
-"pop": null,
-"id": "1d4e30feffcb",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AI生成临床信息的自动化评估指标有效性依赖语境",
-"summary": "npj Digital Medicine刊文指出，对AI生成临床信息进行自动化指标评估时，其有效性随语境变化，需谨慎解读。",
-"key_points": [
-"关注AI生成临床信息的自动化评价指标",
-"研究提示指标有效性受语境影响",
-"仅见标题与摘要句，未见具体方法与数据"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"基准",
-"临床NLP",
-"医学大模型"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "属大模型临床文本评测方法学议题，但可见信息有限",
-"processing": "model-enriched",
-"day": "2026-10-22",
-"abstract_days": [
-"2026-10-22"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "[Articles] Status, challenges, and future directions of machine learning in the management of epilepsy: a systematic review and meta-analysis",
