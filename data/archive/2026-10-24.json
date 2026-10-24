@@ -36,6 +36,112 @@
 "day": "2026-10-24"
 },
 {
+"title": "Agentic artificial intelligence for code status extraction from clinical notes: a cross-model comparison of single agent, reflective agent, and multiagent extractor-reviewer system.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42901486/",
+"date": "2026-10-20T00:00:00+00:00",
+"badge": "DOI 10.1093/jamia/ocag179",
+"source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "4ed972b8bda4",
+"keep": true,
+"zh_title": "智能体架构用于病历复苏意愿代码提取的跨模型比较",
+"summary": "JAMIA 研究在 1000 份 MIMIC-IV 出院小结上比较单智能体、自反思单智能体与多智能体抽取-复核三种架构，用四个开源大模型提取 DNR/DNI/CMO。",
+"key_points": [
+"三种智能体架构在四个开源大模型上做受控交叉比较",
+"数据为 1000 份 MIMIC-IV 出院小结，属回顾性单库来源",
+"金标准由医师与 AI 双人复核裁定，κ 为 0.98–0.99"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"智能体",
+"电子病历"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "同行评审、样本量可观且标注严谨，但为单库回顾性研究，无外部验证或临床结局",
+"processing": "model-enriched",
+"abstract": "[Journal of the American Medical Informatics Association : JAMIA] To evaluate whether increasing agentic architectural complexity via self-reflection or multiagent design improves clinical code status extraction (Do Not Resuscitate [DNR], Do Not Intubate [DNI], Comfort Measures Only [CMO]) across open-source large language models (LLMs) of varying capabilities. We conducted a controlled cross-model comparison evaluating 3 architectures: (1) single extractor agent, (2) single agent with self-reflection, and (3) sequential multiagent extractor-reviewer system. Four open-source LLMs (DeepSeek-R1-Distill-LLaMA-8B, GPT-OSS-20B, MedGemma-27B-IT, Qwen3.5-27B) were evaluated on 1000 Medical Information Mart for Intensive Care IV-Note discharge summaries. Ground truth labels were established through a physician-AI dual review with adjudication (Cohen's κ = 0.98-0.99). Models were evaluated on accuracy, precision, recall, F1-score, Cohen's κ, token consumption, and processing latency. McNemar's test was used for paired comparisons. For capable larger models (GPT-OSS-20B, MedGemma-27B-IT, Qwen3.5-27B), single-agent architectures achieved comparable or superior performance for explicit code status (DNR, DNI) relative to complex systems, whereas multiagent review doubled token consumption and latency without accuracy gains. Reflective self-review significantly impaired MedGemma-27B-IT on DNI extraction (P = .047). For the smaller DeepSeek-R1-Distill-LLaMA-8B, multiagent review provided statistically significant corrective benefits for DNR (P = .017) and CMO (P < .001), demonstrating a capability-threshold effect, though performance remained below clinically acceptable levels. Architectural complexity does not enhance extraction performance for capable LLMs, and reflective self-review may cause conservative overcorrection. Multiagent verification value is inversely related to model capability. Single-agent LLMs provide optimal accuracy and efficiency for explicit clinical extraction in capable models. Agentic complexity must be matched to both task characteristics and model capability rather than adopted by default.",
+"zh_abstract": "［Journal of the American Medical Informatics Association : JAMIA］评估通过自我反思或多智能体设计增加智能体架构复杂性，是否能在能力各异的开源大语言模型（LLMs）中改善临床抢救状态（code status）提取（不进行复苏 [DNR]、不进行插管 [DNI]、仅采取舒适措施 [CMO]）。我们进行了一项受控的跨模型比较，评估3种架构：(1) 单一提取智能体；(2) 具备自我反思的单一智能体；(3) 顺序式多智能体提取器-审核器系统。在1,000份Medical Information Mart for Intensive Care IV-Note出院小结上评估了四个开源LLM（DeepSeek-R1-Distill-LLaMA-8B、GPT-OSS-20B、MedGemma-27B-IT、Qwen3.5-27B）。真实标签通过医师-AI双重审核并裁决建立（Cohen's κ = 0.98-0.99）。模型按准确率、精确率、召回率、F1分数、Cohen's κ、token消耗和处理延迟进行评估。采用McNemar检验进行配对比较。对于能力较强的大型模型（GPT-OSS-20B、MedGemma-27B-IT、Qwen3.5-27B），单智能体架构在明确的抢救状态（DNR、DNI）方面相对于复杂系统达到相当或更优的性能，而多智能体审核使token消耗和延迟翻倍，却没有准确率提升。反思性自我审核显著损害了MedGemma-27B-IT在DNI提取上的表现（P = .047）。对于较小的DeepSeek-R1-Distill-LLaMA-8B，多智能体审核对DNR（P = .017）和CMO（P < .001）提供了统计学显著的纠正获益，显示出能力阈值效应，尽管性能仍低于临床可接受水平。架构复杂性并不会提升有能力LLM的提取性能，且反思性自我审核可能导致保守性过度纠正。多智能体验证的价值与模型能力呈负相关。在能力较强的模型中，单智能体LLM为明确的临床提取提供最佳准确性和效率。智能体复杂性必须与任务特征和模型能力相匹配，而不是默认采用。",
+"day": "2026-10-24"
+},
+{
+"title": "Does AI-Powered Clinical Documentation Enhance Clinician Efficiency? A Longitudinal Study",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIx2601335?af=R&rss=currentIssue",
+"date": "2026-10-23T07:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": true,
+"badge": "DOI 10.1056/AIx2601335",
+"pop": null,
+"id": "433f52857dbf",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "AI临床文书能否提升医生效率：纵向研究",
+"summary": "仅见标题：一项纵向研究评估AI驱动的临床文书生成是否提升临床医生工作效率。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"电子病历"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "AI文书落地效果纵向研究，但仅有标题无摘要，按标题上限给中档",
+"processing": "model-enriched",
+"day": "2026-10-24",
+"abstract_days": [
+"2026-10-24"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
+},
+{
+"title": "Association of ambient artificial intelligence scribe availability with patient instruction documentation and readability in ambulatory care.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42914097/",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "DOI 10.1093/jamia/ocag177",
+"source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "bb04198dffa6",
+"keep": true,
+"zh_title": "AI scribe可用性与患者指导文书质量关联",
+"summary": "单中心回顾性队列分析39万余次门诊就诊，AI scribe可用性与患者指导文书记录频率、长度及可读性的关联。",
+"key_points": [
+"39.1万次成人门诊就诊，单中心回顾性",
+"双重差分法估计AI scribe与文书频率关联",
+"对比AI独写、AI辅助与医生独写的可读性"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"电子病历",
+"临床NLP"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "大样本回顾性单中心研究，无外部验证，属值得一看档",
+"processing": "model-enriched",
+"abstract": "[Journal of the American Medical Informatics Association : JAMIA] This retrospective cohort study evaluated the effect of an artificial intelligence (AI) scribe on patient instructions documentation in ambulatory internal medicine settings. We analyzed 391 061 adult encounters at a single medical center from December 2023 to July 2025. A difference-in-differences analysis estimated the relationship of AI scribe availability with patient instructions documentation frequency. Mixed-effects logistic regression estimated the association between encounter-level AI scribe utilization and documentation, adjusted for patient, clinician, and encounter characteristics. Length and readability were compared across instructions created by AI alone, clinicians assisted by AI, and clinicians alone. Character-level edit distances between AI drafts and final documentation were calculated. AI scribe availability was associated with a 10.5 percentage-point increase in patient instructions documentation frequency (P = .018), and encounter-level AI use was associated with higher odds of documentation (aOR 4.32; 95% CI, 4.14-4.50). AI instructions were longer than clinician-authored content (median 1994 vs 482 characters) and scored higher on 3 text-complexity indices (all P < .001). Clinician editing of AI content increased length without meaningfully reducing complexity. AI drafts and final documentation differed substantially, with a median character-level edit distance of 39.7%. AI scribe availability was associated with increased patient instructions documentation. However, AI-generated instructions were longer and scored as more linguistically complex than clinician-authored instructions, and clinician editing did not close this gap. Ambient AI scribes can improve availability but may increase complexity of patient instructions. Research into downstream effects including patient comprehension and satisfaction is warranted.",
+"zh_abstract": "[《美国医学信息学协会杂志：JAMIA》] 这项回顾性队列研究评估了人工智能（AI）记录员（AI scribe）对门诊内科环境中患者指导文书记录的影响。我们分析了2023年12月至2025年7月期间单一医疗中心的391 061次成人就诊。双重差分分析估计了AI记录员可用性与患者指导文书记录频率之间的关系。混合效应逻辑回归估计了就诊层面AI记录员使用与文书记录之间的关联，并调整了患者、临床医生和就诊特征。比较了仅由AI创建、临床医生在AI辅助下创建以及仅由临床医生创建的指导文书在长度和可读性上的差异。计算了AI草稿与最终文书之间的字符级编辑距离。AI记录员可用性与患者指导文书记录频率增加10.5个百分点相关（P = .018），就诊层面AI使用与更高的文书记录几率相关（aOR 4.32；95% CI，4.14-4.50）。AI指导文书比临床医生撰写的内容更长（中位数1994个字符 vs 482个字符），并且在3项文本复杂度指数上得分更高（均P < .001）。临床医生对AI内容的编辑增加了长度，但未显著降低复杂度。AI草稿与最终文书差异很大，字符级编辑距离中位数为39.7%。AI记录员可用性与患者指导文书记录增加相关。然而，AI生成的指导文书比临床医生撰写的指导文书更长，且在语言上被评为更复杂，临床医生的编辑并未缩小这一差距。环境AI记录员可以提高可用性，但可能增加患者指导文书的复杂度。有必要研究下游影响，包括患者理解和满意度。",
+"day": "2026-10-24"
+},
+{
 "title": "Preserving Clinical Judgment in AI-Assisted Diagnosis",
 "link": "https://ai.nejm.org/doi/full/10.1056/AIltr2601100?af=R&rss=currentIssue",
 "date": "2026-10-22T04:00:00+00:00",
@@ -68,6 +174,78 @@
 "2026-10-24"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
+"title": "Automatic segmentation and modeling of the aortic vessel tree: Overview of the SEG.A 2023 aorta segmentation challenge",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526003932?dgcid=rss_sd_all",
+"date": "2026-10-20T03:40:50.887105+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "5470712d4087",
+"score": 5,
+"zh_title": "SEG.A 2023主动脉血管树分割挑战赛综述",
+"tags": [
+"医学影像",
+"基准",
+"数据集"
+],
+"evidence": "同行评审",
+"summary": "综述SEG.A 2023主动脉自动分割与建模挑战赛，汇总多团队方法与结果。",
+"abstract": "Publication date: January 2027 Source: Medical Image Analysis, Volume 115 Author(s): Yuan Jin, Antonio Pepe, Gian Marco Melito, Yuxuan Chen, Gege Ma, Yunsu Byeon, Hyeseong Kim, Kyungwon Kim, Doohyun Park, Euijoon Choi, Dosik Hwang, Andriy Myronenko, Dong Yang, Yufan He, Daguang Xu, Ayman El-Ghotni, Mohamed Nabil, Hossam El-Kady, Ahmed Ayyad, Amr Nasr",
+"key_points": [
+"主动脉血管树自动分割与建模挑战赛综述",
+"汇总多支参赛团队的算法方案",
+"发表于Medical Image Analysis"
+],
+"processing": "model-enriched",
+"section": "影像与病理",
+"day": "2026-10-24",
+"keep": true,
+"type": "论文",
+"reason": "公开挑战赛总结与基准，方法对比充分但非新临床证据",
+"zh_abstract": "出版日期：2027年1月；来源：《Medical Image Analysis》第115卷；作者：Yuan Jin、Antonio Pepe、Gian Marco Melito、Yuxuan Chen、Gege Ma、Yunsu Byeon、Hyeseong Kim、Kyungwon Kim、Doohyun Park、Euijoon Choi、Dosik Hwang、Andriy Myronenko、Dong Yang、Yufan He、Daguang Xu、Ayman El-Ghotni、Mohamed Nabil、Hossam El-Kady、Ahmed Ayyad、Amr Nasr"
+},
+{
+"title": "PRET is a few-shot system for pan-cancer recognition without example training",
+"link": "https://arxiv.org/abs/2610.25054",
+"date": "2026-10-18T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2610.25054",
+"pop": null,
+"id": "84fca3292a56",
+"score": 7,
+"zh_title": "PRET：无需示例训练的全癌种少样本识别系统",
+"tags": [
+"病理",
+"基准",
+"医学影像"
+],
+"evidence": "预印本",
+"summary": "预印本提出少样本病理系统PRET，在23个国际基准、4484张全切片图像上无需训练即可跨器官识别癌症。",
+"abstract": "Pathological examination stands as the cornerstone in cancer diagnosis, impacting millions worldwide annually. With the shortage of pathologists globally, artificial intelligence (AI) has emerged rapidly to automate the diagnostics process. However, conventional AI models require substantial labeled data for each disease, posing huge challenges in scalability and practicality. Therefore, we introduce PRET (pan-cancer recognition without examples training), a few-shot system to achieve flexible, scalable, and effective cancer recognition across diverse organs, hospitals and tasks without training. Evaluated on 23 international benchmarks comprising 4,484 whole-slide images, our method outperforms existing approaches across 20 tasks, achieving over 97% area under the curve on 15 benchmarks with a maximum improvement of 36.76%. Notably, PRET delivers clinical-grade diagnostic performance in",
+"key_points": [
+"在23个国际基准、4484张全切片图像上评测",
+"20项任务优于现有方法，15项AUC超97%",
+"称在部分任务上最高提升36.76%"
+],
+"processing": "model-enriched",
+"section": "影像与病理",
+"day": "2026-10-24",
+"keep": true,
+"type": "论文",
+"reason": "多基准大规模外部评测（23基准/4484张WSI），属重要档；预印本不高于8分",
+"zh_abstract": "病理检查是癌症诊断的基石，每年影响全球数百万人。由于全球病理学家短缺，人工智能（AI）迅速兴起，以实现诊断流程自动化。然而，传统AI模型需要针对每种疾病的大量标注数据，这给可扩展性和实用性带来了巨大挑战。因此，我们引入了PRET（pan-cancer recognition without examples training，无示例训练的全癌种识别），这是一种少样本系统，无需训练即可在不同器官、医院和任务中实现灵活、可扩展且有效的癌症识别。在包含4,484张全切片图像的23个国际基准上评估，我们的方法在20项任务中优于现有方法，在15个基准上达到超过97%的曲线下面积，最大提升为36.76%。值得注意的是，PRET在……中提供临床级诊断性能"
 },
 {
 "title": "Large language models for depression assessment from brief daily diaries",
@@ -130,6 +308,40 @@
 "keep": true,
 "type": "论文",
 "reason": "仅标题与作者信息，属影像配准方法学研究，无证据细节，按增量档"
+},
+{
+"title": "Clinical AI governance for scalable innovation in value based healthcare systems",
+"link": "https://www.nature.com/articles/s41746-026-03409-4",
+"date": "2026-10-23T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03409-4",
+"pop": null,
+"id": "77bdb192b888",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "价值医疗体系中可扩展的临床AI治理",
+"summary": "仅见标题：讨论价值医疗体系下临床AI治理如何支撑可规模化的创新。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "治理类观点文章，仅有标题无实质内容，属增量档",
+"processing": "model-enriched",
+"day": "2026-10-24",
+"abstract_days": [
+"2026-10-24"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: empty"
 },
 {
 "title": "Explainable Multimodal AI for In-Hospital Detection of Lung Cancer and Heart Failure Using Routine Data: Development, Internal Validation, and Simulated Federated Evaluation",
@@ -233,6 +445,35 @@
 "day": "2026-10-24"
 },
 {
+"title": "Developers, not doctors, should be held accountable for generative AI medical devices, providers say",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbURiMDdtRktfZ3c4eDczeEdYMUdENTI4ejhuTW8tSDlYcFNjckpvMXhMY0xWeXl1YkhXSFlfWjF0U3JHdlctU0xjNGs0ZmVEbFFmT0F6VlBlYXBVek1CVF80dFVhaE5IZWYtbTdHUlJHN3dxeTNWNjFVRjU1RUgyTVpDM05KYk1xMG5PNHI1Q3hkSmNJZjRwczRFS2xEenM5Q1ZQN1IxZkpqclcxMzNmXzZvdWVNUHE1?oc=5",
+"date": "2026-10-22T16:45:57+00:00",
+"source": "Healthcare Dive",
+"source_group": "Google News · FDA AI",
+"home": "https://www.healthcaredive.com",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "6e7640be1b58",
+"keep": true,
+"zh_title": "服务方：生成式AI医疗器械责任应归于开发者而非医生",
+"summary": "标题称医疗机构方主张，生成式AI医疗器械的问责应落在开发者而非医生身上。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"公平与安全"
+],
+"evidence": "新闻",
+"score": 5,
+"reason": "AI医疗器械责任归属议题有监管参考价值，但仅标题、无细节，最高6分内取中",
+"processing": "model-enriched",
+"day": "2026-10-24"
+},
+{
 "title": "From Clinical Risk Prediction to Operational Decisions: An Uncertainty-Aware Framework for ICU Staffing",
 "link": "https://arxiv.org/abs/2610.25530",
 "date": "2026-10-18T00:00:00+00:00",
@@ -268,6 +509,37 @@
 "zh_abstract": "电子健康记录（EHR）和大规模重症监护数据库的进展，使得用于早期发现患者病情恶化的机器学习模型得以开发。尽管这些模型对于脓毒症和死亡等结局通常能取得很强的预测性能，但大多数研究仅基于区分度指标对其进行评估。这留下了一个关键缺口：如何在现实世界约束（如班次刚性和招聘延迟）下，将概率性临床风险估计系统地转化为下游运营决策。本研究提出了一个不确定性感知的前瞻性人员配置框架，该框架在不改变上游预测模型的情况下，衔接短期患者风险预测与人员规划。该框架不依赖于朴素的确定性聚合或固定安全缓冲，而是显式建模动态预测不确定性以及 e"
 },
 {
+"title": "Moving AI Development and Health Care Adoption at the Speed of Trust",
+"link": "https://ai.nejm.org/doi/full/10.1056/AI-S2600964%4010.1056/ai_2026.3.issue-10?af=R&rss=currentIssue",
+"date": "2026-09-24T04:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AI-S2600964",
+"pop": null,
+"id": "961b6f45f775",
+"score": 3,
+"zh_title": "以信任的速度推进 AI 研发与医疗落地",
+"tags": [
+"临床落地",
+"公平与安全"
+],
+"evidence": "同行评审",
+"summary": "NEJM AI 2026 年第 3 卷第 10 期刊发文章，主题为以信任为前提推进 AI 开发与医疗应用；仅见标题与卷期信息，未见正文内容。",
+"abstract": "NEJM AI, Volume 3, Issue 10, October 2026.",
+"key_points": [],
+"processing": "model-enriched",
+"section": "落地与监管",
+"day": "2026-10-24",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"type": "观点",
+"reason": "仅有标题与卷期，无摘要与实质内容，属观点类且信息量有限"
+},
+{
 "title": "Sentara Health deploys new AI case management tool co-developed with Regard",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/sentara-health-deploys-new-ai-case-management-tool-co-developed-regard",
 "date": "2026-10-24T01:46:04.534599+00:00",
@@ -298,6 +570,77 @@
 "score": 4,
 "reason": "单家医疗机构部署动态，仅有院方自述节省工时，无量化评估，属增量档",
 "processing": "model-enriched",
+"day": "2026-10-24"
+},
+{
+"title": "Doximity adds UpToDate to Ask in push to become doctors’ go-to AI platform",
+"link": "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-adds-uptodate-ask-push-become-doctors-go-ai-platform",
+"date": "2026-10-24T08:18:43.539320+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Fierce Healthcare",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "aa4631d760bf",
+"keep": true,
+"zh_title": "Doximity将UpToDate内容接入其AI临床决策支持工具Ask",
+"summary": "Doximity与Wolters Kluwer合作，将UpToDate循证临床内容嵌入其AI临床决策支持工具Doximity Ask。",
+"key_points": [
+"与Wolters Kluwer Health达成合作",
+"UpToDate循证内容嵌入Doximity Ask",
+"定位为医生常用AI平台"
+],
+"section": "产业动态",
+"type": "观点",
+"tags": [
+"临床决策支持",
+"临床落地"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "一般性行业产品合作动态，无效果数据，属增量档",
+"processing": "model-enriched",
+"abstract": "Doximity inked a partnership with Wolters Kluwer Health to embed UpToDate's evidence-based clinical content directly within Doximity Ask, the company’s AI clinical decision support tool. | Doximity inked a partnership with Wolters Kluwer to embed UpToDate's evidence-based clinical content directly within Doximity Ask, the company’s AI clinical decision support tool.",
+"zh_abstract": "Doximity 与 Wolters Kluwer Health 达成合作，将 UpToDate 的循证临床内容直接嵌入 Doximity Ask——该公司的 AI 临床决策支持工具。 | Doximity 与 Wolters Kluwer 达成合作，将 UpToDate 的循证临床内容直接嵌入 Doximity Ask——该公司的 AI 临床决策支持工具。",
+"day": "2026-10-24"
+},
+{
+"title": "Development and Preliminary Evaluation of the Patient-Artificial Intelligence Rating Instrument",
+"link": "https://www.medrxiv.org/content/10.64898/2026.10.20.26366053v1?rss=1",
+"date": "2026-10-22T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.10.20.26366053",
+"pop": null,
+"id": "1a88a1d3be4b",
+"keep": true,
+"zh_title": "患者-AI健康对话质量评价工具初步开发",
+"summary": "预印本报告患者视角的AI健康对话质量评价量表开发与初步评估，基于便利样本在线调查。",
+"key_points": [
+"预印本，2026年6月横断面在线调查",
+"12个条目评估沟通质量与患者参与",
+"便利样本，仅初步评估"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"基准",
+"临床落地"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "从患者视角补评价空白，但便利样本、预印本且仅初步验证",
+"processing": "model-enriched",
+"abstract": "Importance: Patients increasingly use artificial intelligence (AI) for health-related conversations, but evaluation measures largely reflect clinician judgment. Objective: To develop and preliminarily evaluate a patient instrument assessing the quality of patient-AI health conversations. Design: Cross-sectional survey conducted June 5-14, 2026, following patient-partnered instrument development and cognitive interviews. Setting: An anonymous online survey. Participants: A convenience sample of adults with prior use of large language models for personal health-related queries, recruited from an academic medical center-affiliated Insight Panel and patient peers. Exposures: Participants' own prior health-related conversations with AI tools of their choosing. Main Outcomes and Measures: The Patient-AI Rating instrument comprised 12 communication-quality and patient engagement items rated from 1 to 5 and a separately scored patient-perceived-harm item. Internal consistency was assessed using Cronbach alpha, with sensitivity analyses using first ratings only for those using the tool to rate multiple conversations and participant-mean profiles. We examined item-total correlations, inter-item structure, and between- and within-participant variation. Results: Fourteen participants contributed 46 complete ratings; among 13 providing demographics, median age was 63 years (IQR, 53-70 years), and 8 (62%) reported female gender. Participants provided a median of 2 ratings (range, 1-17). Cronbach alpha was 0.88 (95% CI, 0.83-0.93) across all ratings, 0.85 using first ratings only, and 0.92 using participant-mean profiles. Corrected item-total correlations ranged from 0.42 to 0.72; mean inter-item correlation was 0.40. No item deletion improved Cronbach alpha. The mean quality score was 4.43 (SD, 0.45). Among 9 participants contributing multiple ratings, the intraclass correlation coefficient was 0.45, suggesting inter-conversation variability. No perceived harm was reported in 44 of 46 ratings (96%); the harm item correlated minimally with the instrument total (r = 0.09). Conclusions and Relevance: In this small cross-sectional study of engaged patients, the Patient-AI Rating instrument showed promising internal consistency and variation across rated conversations. These findings support further evaluation of patient-reported communication quality alongside clinician-based measures. Validation in larger, more diverse populations, including assessment of construct and cri",
+"zh_abstract": "【重要性】患者越来越多地使用人工智能（AI）进行健康相关对话，但评估指标在很大程度上反映的是临床医生的判断。【目的】开发并初步评估一种患者工具，用于评估患者-AI健康对话的质量。【设计】在患者参与的工具开发和认知访谈之后，于2026年6月5日至14日开展的横断面调查。【环境】一项匿名在线调查。【参与者】便利样本，为曾使用大语言模型进行个人健康相关查询的成年人，从某学术医疗中心附属的Insight Panel和患者同伴中招募。【暴露】参与者本人既往使用其选择的AI工具进行的健康相关对话。【主要结局和测量】患者-AI评分工具（Patient-AI Rating instrument）由12个沟通质量和患者参与条目组成，按1至5分评分，另有一个单独评分的患者感知伤害条目。使用Cronbach alpha评估内部一致性，并进行敏感性分析：对使用该工具评价多次对话者仅使用首次评分，以及使用参与者均值剖面。我们检查了条目-总分相关性、条目间结构以及参与者间和参与者内变异。【结果】14名参与者提供了46份完整评分；在13名提供人口统计学信息者中，年龄中位数为63岁（IQR，53-70岁），8人（62%）报告为女性。参与者提供评分的中位数为2份（范围，1-17）。Cronbach alpha在所有评分中为0.88（95% CI，0.83-0.93），仅使用首次评分时为0.85，使用参与者均值剖面时为0.92。校正条目-总分相关性范围为0.42至0.72；平均条目间相关性为0.40。删除任何条目均未提高Cronbach alpha。平均质量评分为4.43（SD，0.45）。在提供多次评分的9名参与者中，组内相关系数为0.45，提示对话间存在变异。46份评分中有44份（96%）未报告感知伤害；伤害条目与工具总分的相关性极小（r = 0.09）。【结论与意义】在这项针对积极参与患者的小型横断面研究中，患者-AI评分工具显示出有前景的内部一致性以及所评价对话之间的变异。这些发现支持在基于临床医生的测量之外，进一步评估患者报告的沟通质量。需要在更大、更多样化的人群中进行验证，包括评估结构效度和 cri",
 "day": "2026-10-24"
 },
 {
@@ -334,5 +677,40 @@
 "abstract": "[Newly registered clinical trial, no results yet; sponsor: Cedars-Sinai Medical Center; conditions: Clinical Decision Support; type: INTERVENTIONAL; phase: NA; enrollment: 20; status: NOT_YET_RECRUITING] This study will evaluate the feasibility of using artificial intelligence (AI)-generated clinical decision support during routine inpatient hospital medicine care. Participating hospitalist physicians may receive AI-generated recommendations for eligible hospitalized patients under their care. Eligible patient cases will be randomly assigned to one of three AI prompting strategies that differ in the clinical information provided to the AI system. After reviewing each recommendation, participating physicians will complete a brief survey assessing the clinical usefulness of the recommendation, how they interpreted it, and whether it was or will be incorporated into patient management. The study will assess whether AI-generated recommendations can be successfully generated and delivered during routine clinical care and whether physicians complete the study surveys and adopt the recommendations. It will also provide preliminary information about physicians' perceptions of AI-generated recommendations across the three prompting strategies. The findings will be used to inform the design of a future larger randomized trial of AI-initiated clinical decision support.",
 "zh_abstract": "[新注册临床试验，尚无结果；申办方：Cedars-Sinai Medical Center；研究条件：临床决策支持；类型：干预性（INTERVENTIONAL）；阶段：NA；入组人数：20；状态：尚未招募（NOT_YET_RECRUITING）] 本研究将评估在常规住院医院内科诊疗中利用人工智能（AI）生成的临床决策支持的可行性。参与研究的住院医学医师（hospitalist physicians）可能会收到针对其照护下符合条件的住院患者的人工智能生成建议。符合条件的患者病例将被随机分配到三种人工智能提示策略之一，这些策略在向人工智能系统提供的临床信息上有所不同。在审阅每条建议后，参与医师将完成一份简短调查，评估该建议的临床有用性、他们如何解读该建议，以及该建议是否已经或将被纳入患者管理。该研究将评估人工智能生成的建议能否在常规临床诊疗中成功生成并交付，以及医师是否完成研究调查并采纳这些建议。它还将提供关于医师在三种提示策略下对人工智能生成建议看法的初步信息。研究结果将用于指导未来更大规模的人工智能发起临床决策支持随机试验的设计。",
 "day": "2026-10-24"
+},
+{
+"title": "Machine Learning to Predict Fever After Labor Analgesia",
+"link": "https://clinicaltrials.gov/study/NCT07880665",
+"date": "2026-10-19T00:00:00+00:00",
+"badge": "NCT07880665",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "bbf79a95346c",
+"score": 3,
+"zh_title": "机器学习预测分娩镇痛后产时发热",
+"tags": [
+"临床预测",
+"电子病历"
+],
+"evidence": "新闻",
+"summary": "新注册观察性研究，拟用三院6144例病历开发机器学习模型预测分娩镇痛后产时发热。",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Chengdu Jinjiang Maternity and Child Health Hospital; conditions: Intrapartum Fever; type: OBSERVATIONAL; enrollment: 6144; status: NOT_YET_RECRUITING] Post-labor analgesia intrapartum fever (PAIF) is a serious complication that increases the risk of cesarean delivery, postpartum bleeding, and health problems for newborns. Currently, doctors lack a simple tool to predict which mothers will develop a fever before they start labor analgesia. This study aims to develop and test a computer prediction tool (using machine learning) to estimate the risk of PAIF. The investigators will review the medical records of mothers who received labor analgesia and delivered at term in three hospitals in China. Information that is available before the mothers receive analgesia, such as maternal age, gestational age, blood test results, and labor progress, will be collected. Using artificial intelligence, the investigators will build a prediction model. This model will then be tested on a separate group of women from a different hospital to ensure it works well in different settings. Finally, an open-access, interactive online calculator will be developed for clinicians. The goal of this study is to provide doctors with a practical tool to quickly assess a mother's risk level before starting analgesia. This will help doctors monitor high-risk mothers more closely and prepare for possible complications. This study only uses existing medical records and will not change the routine care of any patients. Further studies will be needed to see if using this tool improves the health of mothers and babies.",
+"key_points": [
+"观察性研究，计划纳入6144例",
+"回顾三中心病历，构建机器学习预测工具",
+"尚未开始招募，无结果"
+],
+"processing": "model-enriched",
+"section": "临床预测与决策",
+"day": "2026-10-24",
+"keep": true,
+"type": "论文",
+"reason": "仅试验注册，无数据与结果，样本量可观但证据为零",
+"zh_abstract": "[新注册临床试验，尚无结果；申办方：成都市锦江区妇幼保健院；疾病：产时发热；类型：观察性；入组人数：6144；状态：尚未招募] 分娩镇痛后产时发热（post-labor analgesia intrapartum fever, PAIF）是一种严重并发症，会增加剖宫产、产后出血和新生儿健康问题的风险。目前，医生缺乏一种简单工具来预测哪些母亲在开始分娩镇痛前会发生发热。本研究旨在开发并测试一种计算机预测工具（使用机器学习）来估计PAIF的风险。研究者将审查在中国三家医院接受分娩镇痛并足月分娩的母亲的病历。将收集母亲接受镇痛前可获得的信息，如母亲年龄、孕周、血液检查结果和产程进展。研究者将使用人工智能构建预测模型。然后，该模型将在来自另一家医院的独立女性群体中进行测试，以确保其在不同环境中也能良好运作。最后，将为临床医生开发一个开放获取的交互式在线计算器。本研究的目标是为医生提供一种实用工具，在开始镇痛前快速评估母亲的风险水平。这将帮助医生更密切地监测高风险母亲，并为可能的并发症做好准备。本研究仅使用现有病历，不会改变任何患者的常规护理。还需要进一步研究来观察使用该工具是否能改善母婴健康。"
 }
 ]
