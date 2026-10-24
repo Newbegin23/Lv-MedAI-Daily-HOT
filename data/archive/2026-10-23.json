@@ -174,7 +174,8 @@
 "processing": "model-enriched",
 "day": "2026-10-23",
 "abstract_days": [
-"2026-10-23"
+"2026-10-23",
+"2026-10-24"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
@@ -446,7 +447,13 @@
 "processing": "model-enriched",
 "abstract": "As generative AI moves toward performing increasingly consequential clinical functions, the American Medical Association (AMA) is urging the U.S. Food and Drug Administration to address a foundational question: Who is responsible for ensuring that these tools remain safe once they enter clinical practice? The post AMA Calls for Risk-Based GenAI Oversight to Protect Patients and Support Responsible Innovation appeared first on MedCity News .",
 "zh_abstract": "随着生成式 AI 朝着执行日益具有重大后果的临床功能迈进，美国医学会（American Medical Association, AMA）正敦促美国食品药品监督管理局（U.S. Food and Drug Administration, FDA）解决一个根本性问题：一旦这些工具进入临床实践，谁负责确保其持续安全？这篇题为《AMA 呼吁对生成式 AI 实施基于风险的监督，以保护患者并支持负责任创新》的文章首先发表于 MedCity News。",
-"day": "2026-10-23"
+"day": "2026-10-23",
+"also": [
+{
+"source": "MedCity News",
+"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeTVjanl1TTkzYUpkNGwwNGFpaUVuMTdwLUhDdjBWcTUzVXU3YklPdmQwN1A2VkxVM2Jnak9hY3h6X3dRUW00VktWUXFYYWlqc3E3UUJwc0oyUG11Yi1JakZMUDRPX0pmTEdaLUpZc0x0T05KTGVjb2ZVVjNzaTBpOHR1Wkp1SktPMDUzWURVVUlqZmV1cnJoenduSEctM2dUVGdJYXhjWUREZEtRRXNoYzlUeDlMU09uRWpfSmpmeU9VVnZzN0w0?oc=5"
+}
+]
 },
 {
 "title": "AI chatbots abandon sleep apnoea referral when simulated patients minimise symptoms",
