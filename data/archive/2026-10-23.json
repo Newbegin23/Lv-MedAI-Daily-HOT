@@ -690,7 +690,13 @@
 "score": 4,
 "reason": "公司自述榜单成绩的产品升级，无第三方验证细节；仅标题，上限 6 分",
 "processing": "model-enriched",
-"day": "2026-10-23"
+"day": "2026-10-23",
+"also": [
+{
+"source": "证券之星",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYMnl0dEZZQU01eDkyeC1MNllaekllOXFTQWl2a24zcG5DSVE4c3laNEE5YkFUX3Z6Skc4dURoLWh3MHZ4UnV3c2RHWG5XY1hDNnNlZFNGVWVpcXNBalI3M2RR?oc=5"
+}
+]
 },
 {
 "title": "pardesline/pardesline",
