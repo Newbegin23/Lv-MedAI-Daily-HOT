@@ -101,9 +101,46 @@
 "processing": "model-enriched",
 "day": "2026-10-24",
 "abstract_days": [
-"2026-10-24"
+"2026-10-24",
+"2026-10-25"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
+"title": "Clinical AI governance for scalable innovation in value based healthcare systems",
+"link": "https://www.nature.com/articles/s41746-026-03409-4",
+"date": "2026-10-23T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03409-4",
+"pop": null,
+"id": "77bdb192b888",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "SCPMG提出C-TACT临床AI治理框架",
+"summary": "SCPMG提出C-TACT临床AI治理框架，以三支柱、四阶段和加权评分卡覆盖从供应商评估到规模化维护。",
+"key_points": [
+"框架含人员、流程、技术三支柱",
+"覆盖供应商评估、试点、规模化、维护四阶段",
+"示例性回顾中试点评分卡区分两组部署"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床落地",
+"监管政策"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "同行评审治理框架，示例性回顾应用无前瞻外部验证，观点类上限6分，取5分。",
+"processing": "model-enriched",
+"day": "2026-10-24",
+"abstract": "Health systems are deploying clinical artificial intelligence (AI) faster than they can govern it, and existing frameworks emphasize risk oversight over operational learning and scale. The Collaborative Technology Adoption for Care Transformation (C-TACT) framework, developed at Southern California Permanente Medical Group (SCPMG), organizes governance across three pillars (People, Process, Technology) and four lifecycle stages (Vendor Evaluation, Pilot, Scale, Maintenance), each operationalized through a domain-weighted scorecard. Scale and Maintenance scorecards incorporate business and operational execution as weighted domains, with Analytic Hierarchy Process methods (consistency ratio 0.0037). In an illustrative, retrospective application, the Pilot Score Card separated two published SCPMG AI deployments and four anonymized comparators (47.0–53.5) by approximately thirty points across three weighting schemes. This separation illustrates how the framework behaves in this comparison. It is not evidence of validated discriminative performance, because the comparator scores were reconstructed retrospectively and were not scored under blinded conditions. C-TACT is presented here as a governance framework and a methodological demonstration. Prospective, blinded validation is needed to establish its discriminative and predictive performance under real-world conditions.",
+"zh_abstract": "卫生系统部署临床人工智能（AI）的速度快于其治理能力，现有框架更强调风险监督，而非运营学习与规模化。协作技术采纳促进照护转型（Collaborative Technology Adoption for Care Transformation，C-TACT）框架由南加州永久医疗集团（Southern California Permanente Medical Group，SCPMG）开发，将治理组织为三大支柱（人员、流程、技术）和四个生命周期阶段（供应商评估、试点、规模化、维护），每个阶段均通过领域加权评分卡进行操作化。规模化与维护评分卡将业务与运营执行作为加权领域纳入，采用层次分析法（Analytic Hierarchy Process）方法（一致性比率 0.0037）。在一项示例性的回顾性应用中，试点评分卡在三种权重方案下将两个已发表的 SCPMG AI 部署与四个匿名对照（47.0–53.5）区分开，差距约三十分。这种区分说明了该框架在此比较中的表现方式。它并非经过验证的判别性能证据，因为对照评分是回顾性重建的，且并非在盲法条件下评分。本文仅将 C-TACT 作为治理框架和方法学示范进行展示。需要前瞻性、盲法验证，以确立其在真实世界条件下的判别与预测性能。"
 },
 {
 "title": "Association of ambient artificial intelligence scribe availability with patient instruction documentation and readability in ambulatory care.",
@@ -171,7 +208,8 @@
 "processing": "model-enriched",
 "day": "2026-10-24",
 "abstract_days": [
-"2026-10-24"
+"2026-10-24",
+"2026-10-25"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -308,40 +346,6 @@
 "keep": true,
 "type": "论文",
 "reason": "仅标题与作者信息，属影像配准方法学研究，无证据细节，按增量档"
-},
-{
-"title": "Clinical AI governance for scalable innovation in value based healthcare systems",
-"link": "https://www.nature.com/articles/s41746-026-03409-4",
-"date": "2026-10-23T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03409-4",
-"pop": null,
-"id": "77bdb192b888",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "价值医疗体系中可扩展的临床AI治理",
-"summary": "仅见标题：讨论价值医疗体系下临床AI治理如何支撑可规模化的创新。",
-"key_points": [],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"监管政策",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 3,
-"reason": "治理类观点文章，仅有标题无实质内容，属增量档",
-"processing": "model-enriched",
-"day": "2026-10-24",
-"abstract_days": [
-"2026-10-24"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: empty"
 },
 {
 "title": "Explainable Multimodal AI for In-Hospital Detection of Lung Cancer and Heart Failure Using Routine Data: Development, Internal Validation, and Simulated Federated Evaluation",
