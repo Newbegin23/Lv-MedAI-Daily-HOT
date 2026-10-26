@@ -37,6 +37,82 @@
 "zh_abstract": "摘要 本研究旨在开发并验证一个全自动流程，用于在T1加权脑MRI中识别上颈段脊髓（SC）的椎体水平（C1–C3），并带有质量控制模块以评估生成的掩膜。使用来自998名对照者和879名遗传性共济失调患者（32个中心；年龄5–85岁；46%为男性）的MRI数据，训练深度学习模型（nnU-Net、带深监督的U-Net、SwinUNETR）以自动标记C1–C3水平的椎体。还训练了一个基于VGG、ResNet和EfficientNet架构的二级模型，用于识别椎体标记错误。该流程还生成图像质量指标，包括信噪比、对比噪声比、联合变异系数和熵聚焦准则。使用来自四个公共数据集的2737例MRI进行外部验证，并在51例多发性硬化患者的纵向队列中证明了临床实用性。nnU-Net取得了最高性能（Dice：C1 = 0.85，C2 = 0.89，C3 = 0.89），标记了来自Spinal Cord Toolbox的95.8%的错误标记病例。基于VGG的分类器达到97.9%的准确率和98.7%的敏感性。外部验证显示，在五个数据集中的四个中标记准确率超过92%，并且对多发性硬化中的纵向SC萎缩具有敏感性。该流程能够为多中心研究实现可扩展、可靠的椎体标记和上颈段SC的形态学提取，并支持神经退行性疾病中的生物标志物开发。"
 },
 {
+"title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
+"link": "https://www.nature.com/articles/s41746-026-03326-6",
+"date": "2026-10-26T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03326-6",
+"pop": null,
+"id": "43ad87bd837e",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "学术医疗系统内AI病历助手采纳模式",
+"summary": "npj Digital Medicine 发表某整合型学术医疗系统内环境AI病历助手在全系统范围的采纳模式分析。",
+"key_points": [
+"整合型学术医疗系统全系统范围",
+"对象为环境AI病历记录助手",
+"聚焦采纳模式分布"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"电子病历"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "规模化部署的采纳数据，有实施价值但未见临床结局或外部验证",
+"processing": "model-enriched",
+"day": "2026-10-26",
+"abstract_days": [
+"2026-10-26"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
+"title": "Putting conversational AI to the test in primary care",
+"link": "https://www.nature.com/articles/d41591-026-00054-y",
+"date": "2026-10-23T00:00:00+00:00",
+"source": "Nature Medicine",
+"source_group": "Nature Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/d41591-026-00054-y",
+"pop": null,
+"id": "042b30c1289c",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "对话式AI在基层医疗接受实测",
+"summary": "《自然·医学》报道：单中心基层医疗场景中，面向患者的对话式AI在可行性与安全性上表现初步积极，作者称需更大规模评估。",
+"key_points": [
+"单中心基层医疗场景",
+"面向患者的对话式AI",
+"仅初步可行性与安全性，需扩大评估"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "前瞻性单中心可行性与安全性评估，无外部验证，属值得一看档",
+"processing": "model-enriched",
+"day": "2026-10-26",
+"abstract_days": [
+"2026-10-26"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+},
+{
 "title": "HistoDiffusion++: A generative visual foundation model for histopathology",
 "link": "https://www.sciencedirect.com/science/article/pii/S136184152600397X?dgcid=rss_sd_all",
 "date": "2026-10-26T01:27:10.586690+00:00",
@@ -178,6 +254,152 @@
 "day": "2026-10-26"
 },
 {
+"title": "Mind the Gap: A survey of chronic wound datasets, methods, and clinical translation",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004135?dgcid=rss_sd_all",
+"date": "2026-10-26T06:43:06.986990+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "12a59b2b2c82",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "慢性创面数据集、方法与临床转化综述",
+"summary": "《医学图像分析》刊出综述，梳理慢性创面相关数据集、方法及临床转化现状与差距。",
+"key_points": [
+"综述慢性创面影像数据集",
+"归纳现有方法与转化差距",
+"题目指向“缺口”讨论"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"数据集"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "有信息量的领域综述，按规则综述类最高6分，给5分",
+"processing": "model-enriched",
+"day": "2026-10-26",
+"abstract_days": [
+"2026-10-26"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "Towards scalable cancer prognosis by aligning semi-supervised learning with survival modeling",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004160?dgcid=rss_sd_all",
+"date": "2026-10-26T06:43:06.986990+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "320735107de6",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "半监督学习与生存模型对齐的可扩展癌症预后",
+"summary": "该文提出将半监督学习与生存建模对齐的方法，用于可扩展的癌症预后预测。",
+"key_points": [
+"提出半监督学习与生存模型对齐的方法",
+"目标是实现可扩展的癌症预后预测",
+"发表于 Medical Image Analysis，同行评审"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "同行评审方法论文，仅题录信息，未见外部验证或数据公开，属值得一看档。",
+"processing": "model-enriched",
+"day": "2026-10-26",
+"abstract_days": [
+"2026-10-26"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "Multimodal Generative AI Assists Comprehensive Echocardiographic Interpretation",
+"link": "https://arxiv.org/abs/2610.32880",
+"date": "2026-10-23T16:47:01+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2610.32880",
+"pop": null,
+"id": "8eaaf0efc612",
+"keep": true,
+"zh_title": "多模态生成式AI辅助超声心动图综合解读",
+"summary": "预印本提出生成式视觉语言模型EchoChat，基于46,358例超声心动图指令数据训练，在六个国际队列上评测。",
+"key_points": [
+"多模态视觉语言模型，采用思维链推理并给出视觉证据依据",
+"训练数据来自46,358例超声心动图检查的指令对",
+"在六个国际队列上报告了当前最优性能，属预印本尚未经同行评审"
+],
+"section": "影像与病理",
+"type": "模型",
+"tags": [
+"医学影像",
+"多模态",
+"医学大模型"
+],
+"evidence": "预印本",
+"score": 7,
+"reason": "多队列外部评测和大规模训练数据，但为未评审预印本，属重要档",
+"processing": "model-enriched",
+"abstract": "Echocardiography is the cornerstone of cardiovascular diagnostics, yet its global utility is constrained by a critical shortage of experienced interpreters. Current artificial intelligence (AI) solutions remain limited, typically operating as opaque \"black boxes\" or focusing on narrow tasks that fail to capture the holistic, guideline-driven reasoning of a clinician. Here we introduce EchoChat, a generative multimodal vision-language model that performs comprehensive echocardiographic analysis to support clinician interpretation. By emulating the cognitive workflow of a cardiologist, EchoChat integrates vast medical knowledge with a chain-of-thought reasoning mechanism to explicitly ground its conclusions in visual evidence. Trained on echocardiography-instruction pairs from 46,358 examinations, our model establishes a new state-of-the-art across diverse cohorts from six international medical centers. It supports the broadest diagnostic scope of 33 cardiac conditions and findings, including 15 newly added conditions for which it achieves an average F1 of 73.7% across available external evaluations. It surpasses existing best-performing foundation models in cardiac condition recognition (improving average recall by 13.54% on shared tasks) and quantification (average R2 score increase of 0.275 on shared tasks). Furthermore, in a source-blinded echocardiographer reader study, echocardiography reports co-generated with EchoChat were rated higher in diagnostic accuracy and completeness by two senior echocardiographers, and improved diagnostic performance from 72.78% to 82.75% in terms of F1 score over routine-reader only reports. These results demonstrate that integrating clinical reasoning into multimodal AI can democratize specialist expertise and transform the standard of cardiovascular care.",
+"zh_abstract": "超声心动图是心血管诊断的基石，但其全球应用受到经验丰富解读人员严重短缺的制约。当前的人工智能（AI）解决方案仍然有限，通常作为不透明的“黑箱”运行，或聚焦于狭窄任务，无法捕捉临床医生整体性、指南驱动的推理。在此我们介绍EchoChat，一种生成式多模态视觉-语言模型，可执行全面的超声心动图分析以支持临床医生解读。通过模拟心脏病学家的认知工作流程，EchoChat将大量医学知识与思维链推理机制相结合，将其结论明确建立在视觉证据之上。基于来自46,358次检查的超声心动图-指令对进行训练，我们的模型在来自六家国际医学中心的不同队列中确立了新的最先进水平。它支持最广泛的诊断范围，涵盖33种心脏疾病和发现，包括15种新增疾病/状况，在可用的外部评估中其平均F1为73.7%。它在心脏疾病识别（在共同任务上平均召回率提高13.54%）和定量分析（在共同任务上平均R2分数提高0.275）方面超越现有表现最佳的基础模型。此外，在一项对来源设盲的超声心动图医师阅片研究中，与EchoChat共同生成的超声心动图报告被两名资深超声心动图医师评为诊断准确性和完整性更高，并且相较于仅由常规阅片者出具的报告，F1分数从72.78%提高到82.75%，改善了诊断性能。这些结果表明，将临床推理整合到多模态AI中可以使专科专长普及化，并改变心血管诊疗标准。",
+"day": "2026-10-26"
+},
+{
+"title": "Automation Bias and the Erosion of Physicians’ Cognitive Sovereignty",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIltr2600987?af=R&rss=currentIssue",
+"date": "2026-10-22T04:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": true,
+"badge": "DOI 10.1056/AIltr2600987",
+"pop": null,
+"id": "7e1e4a882f48",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "自动化偏见与医生认知主权的侵蚀",
+"summary": "仅有标题与出处：该文讨论自动化偏见如何侵蚀医生的认知主权，属观点类文章。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"公平与安全",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "仅标题、观点类文章，信息量有限，按上限下调至增量档。",
+"processing": "model-enriched",
+"day": "2026-10-26",
+"abstract_days": [
+"2026-10-26"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
 "title": "AI-Assisted Molecular Review Refines SMO Inhibitor Candidacy in SHH Medulloblastoma",
 "link": "https://ai.nejm.org/doi/full/10.1056/AIcs2600997?af=R&rss=currentIssue",
 "date": "2026-10-16T05:00:00+00:00",
@@ -207,6 +429,36 @@
 "keep": true,
 "type": "论文",
 "reason": "仅标题与在线发表信息，无摘要细节，属信息有限档"
+},
+{
+"title": "Eko Health Launches CORE 300: FDA-Cleared AI Stethoscope Unifying Traditional and Digital Listening for Adult and Pediatric Care",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZFFsS1QxcGYxX0JJQm9MMUIxYUFWbE5aUkNYcTEyN3JWeTBKZEV0Qm9GcC1DUkQ2ZTA5LXZZN2htQXM1aUVaN0ZLMGNNMzFaWGFTVFpxZGJwRUJwOFY3WGgwZWNVS2JBaXB3S0dPektienpzbDQ1MFdpV0pBT3VvaUc4Ums0MDNUTGlha3VJbTRYNG1MeGhIMXV2Z2dRV1pJVi1aSkJiRDlCWEtHbG1qSjNSVU0wbENKeTYxRVlB?oc=5",
+"date": "2026-10-23T18:09:50+00:00",
+"source": "HIT Consultant",
+"source_group": "Google News · FDA AI",
+"home": "https://hitconsultant.net",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "5a8d178fca4b",
+"keep": true,
+"zh_title": "Eko CORE 300 AI听诊器获FDA许可",
+"summary": "仅标题：Eko Health发布获FDA许可的AI听诊器CORE 300，覆盖成人与儿科听诊。",
+"key_points": [],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"医疗器械",
+"监管政策",
+"临床落地"
+],
+"evidence": "已获批",
+"score": 5,
+"reason": "AI医疗器械获FDA许可属实质监管进展，但仅标题信息有限",
+"processing": "model-enriched",
+"day": "2026-10-26"
 },
 {
 "title": "The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study",
@@ -391,5 +643,112 @@
 "abstract": "[Newly registered clinical trial, no results yet; sponsor: University Medical Centre Maribor; conditions: Acute Coronary Syndromes, Chest Pain, Myocardial Infarction (MI), NSTEMI - Non-ST Segment Elevation MI, ST Elevation Myocardial Infarction; type: OBSERVATIONAL; enrollment: 1000; status: NOT_YET_RECRUITING] Chest pain is among the most common reasons people attend an emergency department, and the electrocardiogram (ECG) recorded at triage is the first test used to decide who needs urgent treatment for a blocked coronary artery. Recognising the ECG patterns that indicate an acutely blocked artery is difficult. Many such patterns do not produce the classic ST-segment elevation, and identifying them reliably requires a level of ECG expertise that is not always available at the point of triage - particularly at night and among clinicians who are not cardiologists. Artificial intelligence (AI) models that read the 12-lead ECG have been shown in several retrospective studies, mainly from Western Europe and the United States, to identify acute coronary occlusion more sensitively than conventional interpretation. These models are now in clinical use in a number of health systems. Their performance has not been assessed in a prospectively enrolled, unselected Slovenian emergency department population, and diagnostic accuracy commonly declines when a model is applied outside the setting in which it was developed. TRIACS is a prospective, single-centre, observational external validation study in the Emergency Department of University Medical Centre Maribor. All consecutive adults presenting with symptoms suggestive of acute coronary syndrome who have a 12-lead ECG recorded at triage as part of routine care will be enrolled. Each triage ECG is analysed by the AI model. The model's output is withheld from all treating clinicians and plays no part in patient care; every patient receives standard guideline-directed management. The main aim is to measure how accurately the AI model identifies angiographically confirmed occlusion myocardial infarction in this population, and to compare its accuracy with the triage decision actually made by the clinical team. The study is therefore designed to inform an adoption decision in either direction, rather than to demonstrate a predetermined conclusion.",
 "zh_abstract": "[新注册临床试验，尚无结果；申办者：马里博尔大学医学中心；疾病/状况：急性冠脉综合征、胸痛、心肌梗死（MI）、NSTEMI——非ST段抬高型心肌梗死、ST段抬高型心肌梗死；类型：观察性；入组人数：1000；状态：尚未招募] 胸痛是人们前往急诊科最常见的原因之一，而分诊时记录的心电图（ECG）是用于决定谁需要针对冠状动脉阻塞接受紧急治疗的首项检查。识别提示动脉急性阻塞的ECG模式很困难。许多此类模式并不产生典型的ST段抬高，可靠地识别它们需要一定水平的心电图专业知识，而这种专业知识在分诊时并非总能获得——尤其是在夜间以及非心内科临床医生中。阅读12导联ECG的人工智能（AI）模型已在若干回顾性研究中显示，其识别急性冠状动脉闭塞比传统判读更敏感，这些研究主要来自西欧和美国。这些模型目前已在多个卫生系统中投入临床使用。其性能尚未在经前瞻性入组、未经选择的斯洛文尼亚急诊科人群中评估，而且当模型在其开发环境之外应用时，诊断准确性通常会下降。TRIACS是一项前瞻性、单中心、观察性外部验证研究，地点位于马里博尔大学医学中心急诊科。所有连续就诊、出现提示急性冠脉综合征症状且作为常规诊疗的一部分在分诊时记录12导联ECG的成人患者都将被纳入。每份分诊ECG均由AI模型分析。模型输出对所有治疗临床医生保密，且不参与患者诊疗；每位患者均接受指南指导的标准管理。主要目的是测量AI模型在该人群中识别经血管造影证实的闭塞性心肌梗死的准确性，并将其准确性与临床团队实际做出的分诊决策进行比较。因此，本研究旨在为任一方向的采纳决策提供信息，而非展示预设结论。",
 "day": "2026-10-26"
+},
+{
+"title": "Diagnostic Performance of an AI-Based Multi-Omics Model for Early Lung Cancer",
+"link": "https://clinicaltrials.gov/study/NCT07882628",
+"date": "2026-10-20T00:00:00+00:00",
+"badge": "NCT07882628",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "dc48b0fd1abe",
+"keep": true,
+"zh_title": "AI多组学模型早期肺癌诊断前瞻队列",
+"summary": "北京朝阳医院发起的多中心前瞻观察性研究已注册，计划入组1050例肺结节患者，构建CT与多组学AI诊断模型。",
+"key_points": [
+"8家医院、计划1050例",
+"整合临床、CT与多组学",
+"验证支气管镜标本快速评估，尚无结果"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"多模态",
+"肿瘤",
+"医学影像"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅试验注册、无结果，前瞻多中心设计可期待但当前信息有限",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Beijing Chao Yang Hospital; conditions: Pulmonary Nodules, Early Detection of Cancer, Lung Neoplasms; type: OBSERVATIONAL; enrollment: 1050; status: NOT_YET_RECRUITING] This is a prospective, multicenter observational cohort study for patients with lung nodules suspicious for early-stage lung cancer. The study aims to build AI-assisted diagnostic models by integrating clinical data, CT imaging and multi-omics biomarkers, and validate a rapid evaluation system for bronchoscopic biopsy specimens. No investigational drugs or devices will be applied; all participants receive routine clinical care. We will collect clinical records, CT images, blood and tissue samples, and conduct long-term follow-up of disease outcomes. A total of 1050 subjects will be enrolled from 8 participating hospitals in China.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：北京朝阳医院；疾病/状况：肺结节、癌症早期检测、肺肿瘤；类型：观察性；入组人数：1050；状态：尚未招募] 这是一项针对疑似早期肺癌的肺结节患者的前瞻性、多中心观察性队列研究。该研究旨在通过整合临床数据、CT影像和多组学生物标志物构建AI辅助诊断模型，并验证用于支气管镜活检标本的快速评估系统。不应用研究性药物或器械；所有参与者接受常规临床诊疗。我们将收集临床记录、CT图像、血液和组织样本，并对疾病结局进行长期随访。将从中国8家参与医院共入组1050名受试者。",
+"day": "2026-10-26"
+},
+{
+"title": "Artificial Intelligence-Derived Computed Tomography Phenotyping for Cardiovascular Risk Stratification in Transcatheter Mitral Valve Replacement.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42881862/",
+"date": "2026-09-23T00:00:00+00:00",
+"badge": "DOI 10.3390/jcm15197400",
+"source": "PubMed · Journal of clinical medicine",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "efd36d737a4c",
+"score": 4,
+"zh_title": "AI CT表型用于TMVR心血管风险分层",
+"tags": [
+"医学影像",
+"临床预测",
+"肿瘤"
+],
+"evidence": "同行评审",
+"summary": "欧洲多中心回顾性注册研究用AI分割术前心脏CT，构建TMVR术后一年心血管死亡风险模型，共134例。",
+"abstract": "[Journal of clinical medicine] Background: Despite high procedural success of transcatheter mitral valve replacement (TMVR), mortality remains substantial, and conventional risk scores inadequately reflect the specific risk profile of this high-risk population. Artificial intelligence (AI)-derived analysis may enable TMVR-specific risk assessment using routinely acquired computed tomography (CT). Methods: In a retrospective European multicenter registry, AI-based segmentation of harmonized real-world pre-procedural cardiac CT with variable thoracic and upper-abdominal coverage was applied in patients undergoing TMVR with the TendyneTM system (134 patients; 346 CT-derived variables retained for high-dimensional screening). One-year cardiovascular mortality was assessed using Cox proportional hazards models with Benjamini-Hochberg false discovery rate correction. STS- and EuroSCORE II-adjusted analyses and a targeted coronary-ventricular coupling analysis were performed. Results: In the STS-adjusted Cox analysis, nine AI-derived CT parameters met the 10% FDR discovery threshold for cardiovascular mortality, spanning skeletal (n = 3), muscular (n = 1), and cardiopulmonary phenotypes (n = 5), whereas three parameters met this threshold in CT-only analyses. Coronary-ventricular coupling, defined as coronary artery volume relative to left ventricular end-diastolic volume, was significantly associated with lower 1-year cardiovascular mortality in the CT-only analysis (HR per IQR 0.47, 95% CI 0.22-1.00; p = 0.049) and after EuroSCORE II adjustment (HR 0.47, 95% CI 0.22-0.99; p = 0.046), while the STS-adjusted estimate remained directionally consistent but did not reach statistical significance (HR 0.49, 95% CI 0.23-1.05; p = 0.067). Conclusions: AI-based CT phenotyping identifies imaging-derived markers associated with cardiovascular mortality beyond information captured by conventional surgical risk scores in TMVR patients. Coronary-ventricular coupling emerges as a promising automated CT-derived imaging marker with a biologically plausible pathophysiological basis, linking coronary arterial volume to ventricular size in mitral valve disease.",
+"key_points": [
+"回顾性欧洲多中心注册，134例",
+"AI分割常规术前心脏CT",
+"终点为一年心血管死亡"
+],
+"processing": "model-enriched",
+"section": "影像与病理",
+"day": "2026-10-26",
+"keep": true,
+"type": "论文",
+"reason": "回顾性小样本（134例）影像组学风险建模，增量证据",
+"zh_abstract": "【背景】尽管经导管二尖瓣置换术（TMVR）的手术成功率高，但死亡率仍相当可观，传统风险评分不能充分反映这一高危人群的特定风险特征。人工智能（AI）衍生的分析可能利用常规获取的计算机断层扫描（CT）实现针对TMVR的风险评估。【方法】在一项回顾性欧洲多中心注册研究中，对接受TendyneTM系统TMVR的患者应用基于AI的分割，处理胸部及上腹部覆盖范围不一的统一真实世界术前心脏CT（134例患者；保留346个CT衍生变量用于高维筛查）。采用Cox比例风险模型评估1年心血管死亡，并用Benjamini-Hochberg错误发现率校正。进行了STS和EuroSCORE II校正分析以及针对性的冠状动脉-心室耦联分析。【结果】在STS校正的Cox分析中，九个AI衍生CT参数达到心血管死亡10% FDR发现阈值，涵盖骨骼（n=3）、肌肉（n=1）和心肺表型（n=5），而在仅CT分析中有三个参数达到该阈值。冠状动脉-心室耦联定义为冠状动脉体积相对于左心室舒张末期体积，在仅CT分析中与较低的1年心血管死亡显著相关（每IQR的HR 0.47，95% CI 0.22-1.00；p=0.049），在EuroSCORE II校正后亦如此（HR 0.47，95% CI 0.22-0.99；p=0.046），而STS校正后的估计方向一致但未达到统计学显著性（HR 0.49，95% CI 0.23-1.05；p=0.067）。【结论】基于AI的CT表型分析识别出在TMVR患者中与传统手术风险评分所捕获信息之外与心血管死亡相关的影像衍生标志物。冠状动脉-心室耦联成为一个有前景的自动化CT衍生影像标志物，具有生物学上合理的病理生理基础，将二尖瓣疾病中的冠状动脉体积与心室大小联系起来。"
+},
+{
+"title": "Counterfactual Policy Learning for Personalized Treatment Using SGLT2 Inhibitors",
+"link": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365465v1?rss=1",
+"date": "2026-10-19T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.10.15.26365465",
+"pop": null,
+"id": "7e458e6c6514",
+"score": 4,
+"zh_title": "SGLT2抑制剂个体化治疗的反事实策略学习",
+"tags": [
+"电子病历",
+"临床决策支持"
+],
+"evidence": "预印本",
+"summary": "medRxiv预印本提出反事实结构因果模型，用观察性电子病历数据估计SGLT2抑制剂的个体化治疗效应。",
+"abstract": "Personalized medicine aims to tailor treatments to individual patients, but its implementation is limited by scarce clinical resources and heterogeneous treatment effects. Electronic health records now offer longitudinal data that can support data-driven therapy selection. We focus on SGLT2 inhibitors, medications with broad metabolic and cardiovascular benefits, whose clinical impact varies significantly based on individual patient profiles. We propose a counterfactual Structural Causal Model (SCM) to estimate individual treatment effects (ITE) of SGLT2 inhibitors from observational data. The model assumes counterfactual stability and uses a Gumbel-Max sampling mechanism to capture stochastic treatment assignment while enabling differentiable inference. Optimal treatments are defined by maximizing the counterfactual value of future diagnostic outcomes. We evaluate the Counterfactual Gumbel-Max SCM using a doubly robust value estimator and show that, across diagnostic categories, it outperforms real-world prescriptions in predicted treatment value, highlighting subpopulations where SGLT2 inhibitors yield superior outcomes. By integrating causal inference with electronic health data, this framework provides individualized counterfactual reasoning about SGLT2 treatment effects and can support clinicians in identifying optimal therapies for type 2 diabetes and comorbid conditions.",
+"key_points": [
+"基于电子病历纵向观察数据",
+"反事实结构因果模型估计个体效应",
+"以未来诊断结局反事实价值选方案"
+],
+"processing": "model-enriched",
+"section": "临床预测与决策",
+"day": "2026-10-26",
+"keep": true,
+"type": "论文",
+"reason": "方法学预印本，未见外部验证或临床结局评估",
+"zh_abstract": "个性化医疗旨在为个体患者量身定制治疗，但其实施受到临床资源稀缺和治疗效应异质性的限制。电子健康记录现在提供纵向数据，可支持数据驱动的治疗选择。我们聚焦于SGLT2抑制剂，这是一类具有广泛代谢和心血管获益的药物，其临床影响因患者个体特征而显著不同。我们提出一种反事实结构因果模型（SCM），用于从观察性数据中估计SGLT2抑制剂的个体治疗效应（ITE）。该模型假设反事实稳定性，并使用Gumbel-Max采样机制来捕捉随机治疗分配，同时实现可微推断。最佳治疗定义为最大化未来诊断结局的反事实价值。我们使用双重稳健价值估计器评估反事实Gumbel-Max SCM，并显示在不同诊断类别中，其在预测治疗价值方面优于真实世界处方，突出显示了SGLT2抑制剂产生更优结局的亚人群。通过将因果推断与电子健康数据整合，该框架提供关于SGLT2治疗效应的个体化反事实推理，并可支持临床医生为2型糖尿病及合并症确定最佳治疗。"
 }
 ]

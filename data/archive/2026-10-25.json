@@ -208,7 +208,13 @@
 "score": 6,
 "reason": "FDA 510(k)许可属实质监管进展，但仅标题无细节，按上限取6分",
 "processing": "model-enriched",
-"day": "2026-10-25"
+"day": "2026-10-25",
+"also": [
+{
+"source": "Ortho Spine News",
+"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQX1pCdG9RQ2JyM2JRelNSa0lqajIyUDFHNFlGZE5ZR08wUnE5UmpWWk1OUExXdkR6NnBQNTZrRUFHUmJvVVh2VDRjS1V1ckVZYTlEcU9BY1ZObnhDMVBWTkJzZ2FpbnhQREstb1ZWZ0RaVnlqa25KeUdoeVVlYllrclh2anNmWGpnY2ptOWlLN3dnUUt0Uk1VTk04NVdmQVoyLXVERkI0d2taUUE3Y3NQN2ttc2p2MnctdG9yVVBPWXI3S2dZenBUck1ULVQtTlYwNDUwWlE3RFVxRmIwUDJBVEVoMXlwQ2hCeEdr?oc=5"
+}
+]
 },
 {
 "title": "Integrating Cultural Context into Personalized AI Mental Health Support",
