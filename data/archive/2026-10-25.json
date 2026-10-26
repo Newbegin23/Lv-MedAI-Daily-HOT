@@ -14,67 +14,27 @@
 "id": "e005df61bf6d",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "人类对错误临床AI与决策支持监督的系统综述",
-"summary": "npj Digital Medicine发表系统综述与meta分析，考察临床人员对错误AI输出与决策支持的人类监督效果。",
+"zh_title": "临床AI错误输出的人工监督：系统综述与荟萃分析",
+"summary": "荟萃46篇报告发现，正确自动建议下临床医生判断准确性显著更高，部分真实场景中AI错误解读未被纠正。",
 "key_points": [
-"聚焦AI出错时的人类监督环节",
-"采用系统综述与meta分析设计",
-"仅见标题与刊名信息"
+"46篇报告、41个独立队列，含40个核心队列",
+"正确建议下医生正确率显著更高（合并OR 10.19）",
+"四项真实心电图研究中26.6%错误解读未被识别或纠正"
 ],
 "section": "落地与监管",
 "type": "论文",
 "tags": [
 "公平与安全",
-"临床决策支持"
+"临床决策支持",
+"临床落地"
 ],
 "evidence": "同行评审",
-"score": 6,
-"reason": "系统综述+meta分析选题重要，但条目仅给出标题，无法判断规模与结论",
+"score": 7,
+"reason": "荟萃分析样本量大且结论明确，涉及AI安全与人工监督，属重要档",
 "processing": "model-enriched",
 "day": "2026-10-25",
-"abstract_days": [
-"2026-10-25"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
-},
-{
-"title": "From simulation to pedagogy: multi-model and randomized evaluation of structured AI standardized patients",
-"link": "https://www.nature.com/articles/s41746-026-03372-0",
-"date": "2026-10-23T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03372-0",
-"pop": null,
-"id": "b6b2f3e8bdf1",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "结构化AI标准化病人的多模型随机评估",
-"summary": "npj Digital Medicine在线发表，对结构化AI标准化病人开展多模型与随机化评估。",
-"key_points": [
-"多模型对比结构化AI标准化病人表现",
-"采用随机化评估设计",
-"发表于npj Digital Medicine，2026年10月"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"医学大模型",
-"临床落地",
-"基准"
-],
-"evidence": "同行评审",
-"score": 6,
-"reason": "随机化多模型评估且同行评审，但为医学教育场景，未涉及临床结局",
-"processing": "model-enriched",
-"day": "2026-10-25",
-"abstract_days": [
-"2026-10-25"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract": "Artificial intelligence (AI) increasingly supports clinical decisions, but human oversight is protective only if clinicians recognize and resist erroneous output. We systematically reviewed controlled and real-world studies of clinician responses to incorrect automated advice. Forty-six reports represented 41 independent cohort clusters, including 40 core cohorts. Across three adjusted cohorts, clinician correctness was substantially higher with correct than incorrect automated advice (pooled OR 10.19, 95% CI 7.43–13.98; I² = 0%); a ≥ 2020 sensitivity analysis was similar but imprecise (OR 9.22, 95% CI 2.06–41.13). In four heterogeneous real-world computerized ECG studies, 26.6% of erroneous interpretations were not corrected or recognized (95% CI 6.4–65.6%; I² = 95.8%). Contemporary AI and large language model studies also documented harmful reliance but were too heterogeneous for pooling. Patient-level adverse events were reported in one retrospective cohort. Human oversight should be evaluated as an error-interception capability rather than assumed to ensure safety.",
+"zh_abstract": "人工智能（AI）越来越多地支持临床决策，但只有当临床医生识别并抵制错误输出时，人工监督才具有保护作用。我们系统综述了关于临床医生对不正确自动化建议反应的对照研究和真实世界研究。46篇报告代表41个独立队列集群，包括40个核心队列。在三个校正队列中，临床医生在正确自动化建议下的正确性显著高于不正确自动化建议（合并OR 10.19，95% CI 7.43–13.98；I² = 0%）；≥2020年的敏感性分析结果相似但不精确（OR 9.22，95% CI 2.06–41.13）。在四项异质性真实世界计算机化心电图研究中，26.6%的错误解释未被纠正或识别（95% CI 6.4–65.6%；I² = 95.8%）。当代AI和大语言模型研究也记录到有害依赖，但异质性过大而无法合并。一项回顾性队列报告了患者层面的不良事件。人工监督应作为错误拦截能力进行评估，而不是假定其能确保安全。"
 },
 {
 "title": "Closing the Automation Gap in HPV-Based Cervical Cancer Screening: Independent External Validation of an AI Model for Dual-Stain Triage",
@@ -146,6 +106,43 @@
 "abstract": "[Journal of the American Medical Informatics Association : JAMIA] To systematically review and characterize methodological heterogeneity in sepsis case detection using the Medical Information Mart for Intensive Care III (MIMIC-III) and eICU-CRD databases. We conducted a PRISMA-guided systematic review of PubMed and Web of Science (publication years 2016-2024). Studies were eligible if they applied the SOFA-based Sepsis-3 definition to MIMIC-III or eICU-CRD, provided at least one explicit label-calculation detail, reported a traceable detection rate, and met further criteria detailed in the PRISMA flow diagram. We classified each study by study type and unit of analysis (patients, admissions, or ICU stays) and extracted methodological details on sepsis case detection across 6 domains. For studies with available source code, we additionally examined code structure and repository dependencies to identify methodological decisions across these domains. Of 396 publications screened, 64 met inclusion criteria and 12 provided source code. Sepsis detection rates ranged from 3.4% to 65.2% in MIMIC-III and from 9.8% to 47.9% in eICU-CRD. Substantial variability persisted among studies using identical cohort definitions within both databases (MIMIC-III: 16.9%-42.2%; eICU-CRD: 13.9%-31.4%). In a generalized linear mixed model, between-study heterogeneity was extreme (overall τ²≈0.79; 95% prediction interval for a new study's detection rate 5%-63%), and study-level characteristics-including database, study type, infection detection method, code availability, and unit of analysis-explained only a small proportion of this variance (≈9%), with no characteristic reaching statistical significance. The overall proportion of studies reporting methodological details varied by domain: SOFA calculation (53.1%), infection detection methods (42.2%), temporal windows (37.5%), aggregation methods (26.6%), and missing-data handling (17.2%). Source code analysis identified 321 implementation decisions, revealing heterogeneity in baseline SOFA definitions (SOFA = 0 vs dynamic baseline), temporal windows (infection-centered vs ICU-admission-centered) and infection detection methods (antibiotic-culture matching vs APACHE-based diagnosis). Dependencies among several MIMIC-III repositories suggested propagation of implementation decisions across studies. Clinically validated sepsis definitions yield substantially different detection rates across studies using identical datasets. Statistical modeling showed that this variability is driven almost entirely b",
 "zh_abstract": "【Journal of the American Medical Informatics Association : JAMIA】系统综述并描述使用重症监护医学信息库III（Medical Information Mart for Intensive Care III，MIMIC-III）和eICU-CRD数据库进行脓毒症病例检测时的方法学异质性。我们开展了PRISMA指导的PubMed和Web of Science系统综述（发表年份2016-2024）。研究纳入标准为：将基于SOFA的Sepsis-3定义应用于MIMIC-III或eICU-CRD，提供至少一项明确的标签计算细节，报告可追溯的检测率，并满足PRISMA流程图中详述的进一步标准。我们按研究类型和分析单位（患者、入院或ICU停留）对每项研究进行分类，并提取6个领域中脓毒症病例检测的方法学细节。对于有源代码可用的研究，我们还检查了代码结构和存储库依赖关系，以识别这些领域中的方法学决策。在筛选的396篇出版物中，64篇符合纳入标准，12篇提供了源代码。MIMIC-III中脓毒症检测率为3.4%至65.2%，eICU-CRD中为9.8%至47.9%。在两个数据库内使用相同队列定义的研究中，仍持续存在显著变异性（MIMIC-III：16.9%-42.2%；eICU-CRD：13.9%-31.4%）。在广义线性混合模型中，研究间异质性极大（总体τ²≈0.79；新研究检测率的95%预测区间为5%-63%），研究水平特征——包括数据库、研究类型、感染检测方法、代码可获取性和分析单位——仅解释这一方差的一小部分（≈9%），且没有任何特征达到统计学显著性。报告方法学细节的研究总体比例因领域而异：SOFA计算（53.1%）、感染检测方法（42.2%）、时间窗（37.5%）、聚合方法（26.6%）和缺失数据处理（17.2%）。源代码分析识别出321项实施决策，揭示了基线SOFA定义（SOFA = 0 vs 动态基线）、时间窗（以感染为中心 vs 以ICU入院为中心）和感染检测方法（抗生素-培养匹配 vs 基于APACHE的诊断）方面的异质性。若干MIMIC-III存储库之间的依赖关系提示实施决策在研究间传播。临床验证的脓毒症定义在使用相同数据集的研究中产生显著不同的检测率。统计建模显示，这种变异性几乎完全由 b",
 "day": "2026-10-25"
+},
+{
+"title": "From simulation to pedagogy: multi-model and randomized evaluation of structured AI standardized patients",
+"link": "https://www.nature.com/articles/s41746-026-03372-0",
+"date": "2026-10-23T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03372-0",
+"pop": null,
+"id": "b6b2f3e8bdf1",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "结构化AI标准化病人的多模型与随机化评估",
+"summary": "提出三层信息架构驱动的LLM标准化病人，用于临床沟通训练，并开展多模型盲评与随机化教学评估。",
+"key_points": [
+"对五个前沿LLM生成的350次模拟问诊做盲法专家评估",
+"学员水平对表现差异的解释力高于模型选择（η² 0.31 vs 0.06）",
+"155次真实学生问诊分析发现遗漏安全关键信息的系统性问题"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床落地",
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "医学教育场景随机化评估有新意，但非临床结局，属值得一看档",
+"processing": "model-enriched",
+"day": "2026-10-25",
+"abstract": "Standardized patients (SPs) are central to clinical communication training but remain constrained by cost, scalability, and reliance on trained actors. We present AI standardized patients (AI-SPs), large language model–driven patient simulators built on a three-layer information architecture that adaptively modulates information disclosure according to learner skill. In Phase 1, blinded expert assessment of 350 simulated consultations generated by five frontier LLMs showed that, under a common architecture, learner skill level accounted for more of the observed performance variation than model choice ( η 2 = 0.31 vs. 0.06); whether this reflects the architecture itself cannot be determined without comparing models with and without it. In Phase 1b, analysis of 155 live student consultations identified systematic failures to elicit safety-critical information, enabling automated curriculum diagnostics without expert observation. In a Phase 2 three-arm pilot randomized study ( n = 58), OSCE performance gains with AI-SP training did not differ significantly from those with human SP training; the trial was designed to estimate effect sizes for a future confirmatory study, not to demonstrate equivalence. Self-efficacy gains were numerically largest with AI-SP training, but this exploratory difference did not survive correction for multiple comparisons. These findings suggest that architecture-driven AI-SPs could provide a scalable, model-portable approach to clinical communication training.",
+"zh_abstract": "标准化病人（SP）是临床沟通培训的核心，但仍受成本、可扩展性和对受过训练演员的依赖所限制。我们提出AI标准化病人（AI-SP），即由大语言模型驱动的患者模拟器，其建立在三层信息架构之上，可根据学习者技能自适应调节信息披露。在第一阶段，对五个前沿LLM生成的350次模拟咨询进行盲法专家评估显示，在共同架构下，学习者技能水平比模型选择解释了更多观察到的表现变异（η² = 0.31 vs. 0.06）；若不比较有无该架构的模型，则无法确定这是否反映架构本身。在第一阶段b，对155次真实学生咨询的分析识别出未能引出安全关键信息的系统性失败，从而能够在无专家观察的情况下实现自动化课程诊断。在一项第二阶段三臂试点随机研究（n = 58）中，AI-SP培训的OSCE表现提升与人类SP培训无显著差异；该试验旨在为未来确证性研究估计效应量，而非证明等效性。AI-SP培训的自我效能提升在数值上最大，但这一探索性差异未通过多重比较校正。这些发现表明，架构驱动的AI-SP可为临床沟通培训提供一种可扩展、模型可移植的方法。"
 },
 {
 "title": "Feasibility of Real-Time Integration of a Large Language Model in the EHR to Identify Goals-of-Care Documentation.",
@@ -243,7 +240,8 @@
 "processing": "model-enriched",
 "day": "2026-10-25",
 "abstract_days": [
-"2026-10-25"
+"2026-10-25",
+"2026-10-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
