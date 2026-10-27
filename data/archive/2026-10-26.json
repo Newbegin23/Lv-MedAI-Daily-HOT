@@ -73,7 +73,7 @@
 "2026-10-26",
 "2026-10-27"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "Putting conversational AI to the test in primary care",
@@ -112,7 +112,7 @@
 "2026-10-26",
 "2026-10-27"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: empty"
 },
 {
 "title": "HistoDiffusion++: A generative visual foundation model for histopathology",

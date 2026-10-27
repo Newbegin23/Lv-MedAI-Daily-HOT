@@ -1,5 +1,39 @@
 [
  {
+  "title": "Radiographer fracture detection with and without AI assistance in prospective emergency department use",
+  "link": "https://www.nature.com/articles/s41746-026-03313-x",
+  "date": "2026-10-27T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03313-x",
+  "pop": null,
+  "id": "f3d5e98ddfe4",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "急诊前瞻性场景下放射技师联合 AI 辅助的骨折检出",
+  "summary": "仅见标题与刊载信息：在急诊科前瞻性使用中，比较放射技师有/无 AI 辅助的骨折检出表现。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "前瞻性真实急诊使用场景属加分，但仅标题信息，无法判断样本量与结局，取值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-10-27",
+  "abstract_days": [
+   "2026-10-27"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
+ },
+ {
   "title": "Masked Position Modeling as a Pre-Training Strategy for Foundational Deformable Image Registration Models.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42932211/",
   "date": "2026-10-26T00:00:00+00:00",
@@ -32,6 +66,41 @@
   "processing": "model-enriched",
   "abstract": "[IEEE transactions on medical imaging] The core objective of deformable image registration (DIR), estimating a displacement vector field that aligns two images, is fundamentally the same across imaging modalities and anatomical regions. Although this shared objective should imply the use of foundation models, most deep learning approaches for DIR operate within narrow domain-specific settings. Vision Transformers (ViTs) are the predominant choice for foundation models in many image processing tasks due to their excellent generalization capabilities and robustness to domain shifts. However, their use remains largely underexplored for DIR, which we attribute to a lack of suitable pre-training schemes. To address this need, we introduce MPM-Reg, a transferable, modality-agnostic training paradigm based on masked position modeling (MPM), enabling the use of fully transformer-based models as foundation models for image registration. Unlike conventional masked data modeling, which predicts the content of masked image patches, MPM masks the positional information and predicts the spatial relationship between image patches. Initially, we employ MPM on single images, which naturally aligns self-supervised pre-training of ViTs with the downstream registration task. Subsequently, we extend MPM to predict the positions of target patches within source images, re-formulating DIR through the lens of MPM. Experiments across eleven diverse datasets demonstrate MPM-Reg's competitive performance compared to state-of-the-art baselines. Crucially, MPM-Reg benefits from heterogeneous multi-domain data, which degrades the performance of existing methods, paving the way for scalable foundation models for DIR.",
   "zh_abstract": "[IEEE Transactions on Medical Imaging] 可变形图像配准（DIR）的核心目标是估计一个使两幅图像对齐的位移向量场，这一目标在成像模态和解剖区域之间从根本上相同。尽管这一共同目标应意味着使用基础模型，但大多数用于 DIR 的深度学习方法仍在狭窄的特定领域设置中运行。视觉 Transformer（ViT）因其出色的泛化能力以及对领域偏移的鲁棒性，在许多图像处理任务中是基础模型的主要选择。然而，它们在 DIR 中的使用仍很大程度上未被充分探索，我们将其归因于缺乏合适的预训练方案。为满足这一需求，我们提出 MPM-Reg，一种基于掩码位置建模（MPM）的可迁移、模态无关的训练范式，使完全基于 Transformer 的模型能够作为图像配准的基础模型。与预测掩码图像块内容的传统掩码数据建模不同，MPM 掩蔽位置信息并预测图像块之间的空间关系。首先，我们在单幅图像上使用 MPM，这自然地将 ViT 的自监督预训练与下游配准任务对齐。随后，我们将 MPM 扩展为预测源图像中目标图像块的位置，通过 MPM 的视角重新表述 DIR。在十一个多样化数据集上的实验表明，MPM-Reg 与最先进基线相比具有有竞争力的性能。关键是，MPM-Reg 受益于异构多领域数据，而这些数据会降低现有方法的性能，从而为可扩展的 DIR 基础模型铺平道路。",
+  "day": "2026-10-27"
+ },
+ {
+  "title": "Longitudinal AI-Assisted Management of Indeterminate Pulmonary Nodules",
+  "link": "https://clinicaltrials.gov/study/NCT07895277",
+  "date": "2026-10-26T00:00:00+00:00",
+  "badge": "NCT07895277",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "7296ace77d5f",
+  "keep": true,
+  "zh_title": "不确定肺结节的纵向 AI 辅助管理随机试验",
+  "summary": "注册一项 6000 例干预性试验，评估 AI 报告辅助纵向肺结节管理能否减少良性病理的肺切除。",
+  "key_points": [
+   "对真实序列 CT 做结节匹配与变化测量",
+   "主要终点为 24 个月内良性病理肺切除比例",
+   "同时评估诊断延迟、分期与并发症"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持"
+  ],
+  "evidence": "新闻",
+  "score": 7,
+  "reason": "大规模前瞻性干预试验并设定临床结局终点，但尚无结果，未达里程碑档。",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Union Hospital, Tongji Medical College, Huazhong University of Science and Technology; conditions: Pulmonary Nodules, Lung Neoplasms; type: INTERVENTIONAL; phase: NA; enrollment: 6000; status: RECRUITING] Patients with indeterminate lung nodules often face a choice between continued CT surveillance and invasive investigation. This trial compares management with or without access to an AI report that matches nodules across real serial CT scans, measures change, and estimates validated malignancy or invasiveness risks. The principal question is whether offering the report reduces lung resections that yield benign pathology over 24 months. Diagnostic delay, cancer stage, treatment opportunity, complications, and longer-term cancer outcomes are also assessed.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：华中科技大学同济医学院附属协和医院；疾病：肺结节、肺肿瘤；类型：干预性；分期：不适用；入组人数：6000；状态：招募中] 不确定性肺结节患者常面临继续CT监测与侵入性检查之间的选择。本试验比较在管理时是否可获得AI报告，该报告在真实连续CT扫描中匹配结节、测量变化，并估计经过验证的恶性或侵袭性风险。主要问题是提供该报告是否减少24个月内良性病理结果的肺切除术。还评估诊断延迟、癌症分期、治疗机会、并发症和较长程癌症结局。",
   "day": "2026-10-27"
  },
  {
@@ -71,6 +140,147 @@
    "2026-10-27"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "MoRe-3DGSMR: Motion-resolved reconstruction framework for free-breathing pulmonary MRI based on 3D Gaussian representation",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003956?dgcid=rss_sd_all",
+  "date": "2026-10-27T09:14:06.725928+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "086aeb8709d4",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "基于三维高斯表示的自由呼吸肺 MRI 运动分辨重建",
+  "summary": "提出 MoRe-3DGSMR 框架，用三维高斯表示实现自由呼吸肺部 MRI 的运动分辨重建。",
+  "key_points": [
+   "面向自由呼吸肺部 MRI 的重建难题",
+   "以三维高斯表示建模运动分辨信息",
+   "发表于 Medical Image Analysis，属同行评审方法研究"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法学论文，方向明确但条目未提供样本规模、对照或临床结局，属值得一看档。",
+  "processing": "model-enriched",
+  "day": "2026-10-27",
+  "abstract_days": [
+   "2026-10-27"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "T 2 I D : Towards trustworthy incomplete modality diagnosis via dual-axis adaptive completion and confidence-aware integration",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004007?dgcid=rss_sd_all",
+  "date": "2026-10-27T09:14:06.725928+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "c376551eacd6",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "T2ID：双轴自适应补全与置信度融合的不完整模态诊断",
+  "summary": "仅见标题与刊载信息：提出面向模态缺失的可信诊断方法，含双轴自适应补全与置信度感知融合。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "多模态",
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法类论文，缺模态鲁棒性有新意，但仅标题信息、无外部验证与开源说明，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Publication date: January 2027 Source: Medical Image Analysis, Volume 115 Author(s): Jing Li, Qinkai Yu, Feixiang Zhou, Dongbo Zhang, Bo Huang, Yitian Zhao, Deng-Ping Fan, Huazhu Fu, Yalin Zheng, Yanda Meng",
+  "zh_abstract": "出版日期：2027年1月 来源：Medical Image Analysis（医学图像分析），第115卷 作者：Jing Li、Qinkai Yu、Feixiang Zhou、Dongbo Zhang、Bo Huang、Yitian Zhao、Deng-Ping Fan、Huazhu Fu、Yalin Zheng、Yanda Meng",
+  "day": "2026-10-27"
+ },
+ {
+  "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+  "link": "https://arxiv.org/abs/2610.35847",
+  "date": "2026-10-26T17:56:26+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.35847",
+  "pop": null,
+  "id": "b96dd3267d88",
+  "keep": true,
+  "zh_title": "面向纵向肿瘤照护的患者特异性 LLM 评测基准",
+  "summary": "发布鼻咽癌纵向病程基准 NPC-RubricBench，用患者特异性评分细则评测 30 个大语言模型。",
+  "key_points": [
+   "取自两家中心 405 例患者的纵向病历",
+   "覆盖六个照护阶段的 941 个患者-阶段单元",
+   "结论：诊断强不代表下游照护表现好"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "基准",
+   "肿瘤"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "大规模纵向基准与多模型评测有新意，但为预印本且未说明公开情况，属值得一看档。",
+  "processing": "model-enriched",
+  "abstract": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma as a defined disease context. Curated from longitudinal records of 405 patients across two cancer centers, the benchmark comprises 941 patient-phase units across six sequential care phases and 17,688 patient-specific atomic criteria spanning five evaluation dimensions, with each assessment strictly restricted to decision-time clinical evidence. Evaluating 30 general-purpose and medical LLMs revealed that strong diagnostic performance does not carry over to downstream care. We evaluated 30 general-purpose and medical LLMs, showing that high diagnostic performance did not translate into improved downstream care. Instead, the dominant failure modes reversed across phases. Explicit decision errors dominated anatomical staging at 48.2%, whereas decision omissions dominated initial work-up and post-treatment follow-up at 33.4% and 30.4%, respectively. In the evaluated model set, medically adapted models showed higher omission rates than general-purpose models. Moreover, varying query granularity exposes a critical specification trade-off: broad open-ended requests degrade Decision Quality across all 30 models, while more detailed, checklist-like prompts raise Decision Quality but reduce Evidence Faithfulness and Safety Adherence. Furthermore, NPC-RubricBench demonstrates that static diagnostic benchmarks are insufficient to ensure consistent clinical reliability over time, highlighting the importance of phase-adaptive safeguards in multistage medical AI.",
+  "zh_abstract": "大型语言模型（LLMs）在专科医学中显示出前景，但现有评估大多集中于孤立临床诊疗事件，而非追踪临床责任如何在纵向照护路径中演变。在此，我们介绍 NPC-RubricBench，一个阶段感知基准，用于评估癌症照护连续体中的多阶段临床推理，并以鼻咽癌作为明确疾病背景。该基准来自两家癌症中心405例患者的纵向记录，包含跨越六个连续照护阶段的941个患者-阶段单元，以及覆盖五个评估维度的17,688条患者特异性原子标准，每项评估严格限于决策时点临床证据。评估30个通用和医学LLMs显示，强诊断性能不能延续到下游照护。我们评估了30个通用和医学LLMs，显示高诊断性能并未转化为改善的下游照护。相反，主要失败模式在各阶段发生反转。显性决策错误在解剖分期中占主导，为48.2%，而决策遗漏在初始检查和治疗后随访中占主导，分别为33.4%和30.4%。在受评估模型集中，医学适配模型比通用模型显示更高的遗漏率。此外，不同的查询粒度暴露出关键的规范权衡：宽泛的开放式请求降低所有30个模型的决策质量（Decision Quality），而更详细、清单式提示提高决策质量，但降低证据忠实性（Evidence Faithfulness）和安全依从性（Safety Adherence）。此外，NPC-RubricBench 表明，静态诊断基准不足以确保随时间保持一致临床可靠性，突显了多阶段医疗AI中阶段自适应保障措施的重要性。",
+  "day": "2026-10-27"
+ },
+ {
+  "title": "Artificial intelligence in modern medicine: a comprehensive review of technologies, applications, and future directions.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42924921/",
+  "date": "2026-10-23T00:00:00+00:00",
+  "badge": "DOI 10.1080/17410541.2026.2753744",
+  "source": "PubMed · Personalized medicine",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "aea28f9396e0",
+  "keep": true,
+  "zh_title": "人工智能在现代医学中的综合综述：技术、应用与方向",
+  "summary": "综述 2016–2024 年文献，区分回顾性算法性能与前瞻性临床有效性，覆盖影像、病理、药物发现等方向。",
+  "key_points": [
+   "检索 PubMed、Scopus、Web of Science 2016–2024 文献",
+   "区分回顾性诊断准确率与前瞻性临床有效性",
+   "覆盖影像、皮肤科、病理及多组学与药物发现"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "医学大模型",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "有明确检索策略的综合性综述，但结论为概括性判断、无新数据，综述类上限内取值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Personalized medicine] We evaluated the transformative impact of AI modalities on clinical practice, distinguishing between retrospective algorithmic performance and prospective clinical effectiveness. Comprehensive searches were executed [databases searched: January 2016 to October 2024] across PubMed/Medline, Scopus, and Web of Science, identifying peer-reviewed original research and clinical trials. Non-peer-reviewed materials and commercial web sources were strictly excluded. AI technologies-particularly deep learning (DL), natural language processing (NLP), and foundation models-demonstrate high diagnostic accuracy in retrospective cohorts across radiology, dermatology, and pathology. In precision therapeutics, AI accelerates drug discovery and facilitates multi-omics integration for individualized treatment planning. Furthermore, autonomous AI systems have proven cost-effective in nationwide diabetic retinopathy screening programs. However, significant gaps remain between in-silico success and real-world clinical utility. Primary barriers include the lack of prospective randomized trials, pervasive risks of algorithmic bias threatening health equity, the \"black box\" nature of deep neural networks, and stringent interoperability challenges. AI serves as a potent computational catalyst for advancing personalized medicine. To transition from retrospective experimental success to standard-of-care clinical integration, future research endeavors must prioritize Explainable AI (XAI), federated learning frameworks for privacy preservation, and rigorous prospective clinical validation under standardized regulatory oversight.",
+  "zh_abstract": "【个性化医疗】我们评估了人工智能模式对临床实践的变革性影响，并区分回顾性算法性能与前瞻性临床有效性。我们在PubMed/Medline、Scopus和Web of Science中执行了全面检索［检索数据库时间范围：2016年1月至2024年10月］，识别经同行评审的原创研究和临床试验。严格排除未经同行评审的材料和商业网络来源。人工智能技术——尤其是深度学习（deep learning, DL）、自然语言处理（natural language processing, NLP）和基础模型（foundation models）——在放射学、皮肤病学和病理学的回顾性队列中显示出高诊断准确性。在精准治疗中，人工智能加速药物发现，并促进多组学整合以用于个体化治疗规划。此外，自主人工智能系统已在全国性糖尿病视网膜病变筛查项目中证明具有成本效益。然而，计算机模拟（in-silico）成功与现实世界临床效用之间仍存在显著差距。主要障碍包括缺乏前瞻性随机试验、普遍存在的算法偏倚风险威胁健康公平、深度神经网络的“黑箱”性质，以及严峻的互操作性挑战。人工智能是推进个性化医疗的有力计算催化剂。为从回顾性实验成功过渡到临床标准诊疗整合，未来研究必须优先关注可解释人工智能（Explainable AI, XAI）、用于隐私保护的联邦学习框架，以及在标准化监管监督下进行严格的前瞻性临床验证。",
+  "day": "2026-10-27"
  },
  {
   "title": "ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents",
@@ -250,6 +460,77 @@
   "day": "2026-10-27"
  },
  {
+  "title": "Artificial intelligence in the diagnosis and identification of bacterial pathogens: Current advances and future perspectives.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42933051/",
+  "date": "2026-10-23T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.diagmicrobio.2026.117707",
+  "source": "PubMed · Diagnostic microbiology and infectious disease",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "a0280d6c9d5b",
+  "keep": true,
+  "zh_title": "AI 用于细菌病原体诊断与鉴定的进展综述",
+  "summary": "综述 AI 在细菌病原体快速鉴定中的作用，并讨论其现状与未来方向。",
+  "key_points": [
+   "传统培养、镜检与生化鉴定耗时长且依赖专家",
+   "AI 可加速复杂生物医学数据分析",
+   "文章为综述，未提供新实验数据"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "公共卫生",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "一般性综述，仅有摘要信息、无系统检索与量化结论，属增量档。",
+  "processing": "model-enriched",
+  "abstract": "[Diagnostic microbiology and infectious disease] Bacterial infections remain a major global health challenge, which are responsible for significant morbidity, mortality, and increasing antimicrobial resistance worldwide. Rapid and accurate identification of bacterial pathogens is therefore essential for guiding appropriate antimicrobial therapy, improving patient outcomes, and supporting effective infection control strategies. However, conventional microbiological diagnostic methods such as culture, microscopy, and biochemical testing are often time-consuming, labor-intensive, and dependent on expert interpretation. In recent years, artificial intelligence (AI) has increasingly emerged as a powerful tool capable of transforming clinical microbiology by enabling rapid analysis of complex biomedical data. This review aims to provide a comprehensive overview of the role of AI in the diagnosis and identification of bacterial pathogens and to discuss its current applications, advantages, limitations, and future perspectives. Key AI-assisted technologies, including machine learning and deep learning algorithms such as Random Forest, Support Vector Machines, Artificial Neural Networks, and Convolutional Neural Networks, are increasingly applied to diagnostic platforms, including automated microscopy, next-generation genomic sequencing, MALDI-TOF mass spectrometry, and clinical data analysis systems. Current evidence indicates that AI-assisted diagnostic approaches can substantially improve the speed, accuracy, and automation of microbial pathogen detection while enabling large-scale analysis of microbiological and clinical datasets. In the future, AI-integrated microbiology laboratories, rapid diagnostic platforms, genomic surveillance systems, and AI-assisted clinical decision support tools are expected to further enhance infectious disease diagnostics and contribute to improved antimicrobial stewardship and global infection management.",
+  "zh_abstract": "[Diagnostic microbiology and infectious disease] 细菌感染仍是全球重大健康挑战，其在全球范围内导致显著发病率、死亡率和日益增加的抗菌药物耐药性。因此，快速准确鉴定细菌病原体对于指导适当抗菌治疗、改善患者结局和支持有效感染控制策略至关重要。然而，传统微生物学诊断方法如培养、显微镜检查和生化检测往往耗时、费力且依赖专家判读。近年来，人工智能（AI）日益成为一种强大工具，能够通过快速分析复杂生物医学数据来变革临床微生物学。本综述旨在全面概述AI在细菌病原体诊断和鉴定中的作用，并讨论其当前应用、优势、局限性和未来前景。关键AI辅助技术，包括机器学习和深度学习算法，如随机森林（Random Forest）、支持向量机（Support Vector Machines）、人工神经网络（Artificial Neural Networks）和卷积神经网络（Convolutional Neural Networks），正越来越多地应用于诊断平台，包括自动显微镜检查、下一代基因组测序、MALDI-TOF质谱（MALDI-TOF mass spectrometry）和临床数据分析系统。当前证据表明，AI辅助诊断方法可显著提高微生物病原体检测的速度、准确性和自动化程度，同时能够对微生物学和临床数据集进行大规模分析。未来，AI整合的微生物学实验室、快速诊断平台、基因组监测系统和AI辅助临床决策支持工具有望进一步增强传染病诊断，并促进改善抗菌药物管理和全球感染管理。",
+  "day": "2026-10-27"
+ },
+ {
+  "title": "ChronIQ-DRx2: restoring unwritten clinical decision logic unlocks personalized chronic disease management",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.14.26365588v1?rss=1",
+  "date": "2026-10-16T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.14.26365588",
+  "pop": null,
+  "id": "e4361d746bc6",
+  "score": 6,
+  "zh_title": "ChronIQ-DRx2：显式重建临床决策逻辑用于慢病管理",
+  "tags": [
+   "医学大模型",
+   "临床决策支持",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "summary": "预印本：用专家引导方式在80亿参数Qwen3模型中将临床决策关系显式化，覆盖四种慢病，严重临床错误率由16.7%降至12.5%。",
+  "abstract": "Clinical records routinely document medical interventions but often omit the reasoning connecting patient-specific evidence to medical action. This limits the decision-relevant supervision available for training models for personalized care. Here we evaluate a data-augmentation approach that makes selected clinical decision relationships explicit in an 8-billion-parameter Qwen3 model, ChronIQ-DRx2. Using the same training cases and model architecture, expert-guided logic reconstruction was applied across four chronic diseases. On the held-out evaluation, the enhanced model had the highest plotted end-to-end task-completion rate among evaluated systems and higher plotted scores across diagnostic, medication and follow-up measures. The serious clinical error rates shown were 16.7% for the baseline and 12.5% for the enhanced model. In the human-AI evaluation, physician accuracy was 87.40% alone and 88.20% with AI assistance, while mean completion time was 0.959 and 0.780 min, respectively; medical-student accuracy was 62.71% and 74.80%, and mean completion time was 0.210 and 0.195 min. These results are descriptive point estimates; inferential comparisons are not reported here. Structured outputs may make recommendations easier to review, but rationale faithfulness, generalizability and effects on clinical safety require further evaluation.",
+  "key_points": [
+   "80亿参数Qwen3，专家引导重构决策逻辑",
+   "覆盖四种慢病，训练病例与架构相同",
+   "严重临床错误率16.7%降至12.5%"
+  ],
+  "processing": "model-enriched",
+  "section": "大模型与智能体",
+  "day": "2026-10-27",
+  "keep": true,
+  "type": "模型",
+  "reason": "预印本仅内部保留集评估，有错误率下降但无外部验证，属值得一看档",
+  "zh_abstract": "临床记录通常记录医疗干预，但常省略将患者特异性证据与医疗行动联系起来的推理。这限制了可用于训练个性化照护模型的决策相关监督。在此，我们评估一种数据增强方法，该方法在一个80亿参数 Qwen3 模型 ChronIQ-DRx2 中使选定的临床决策关系显式化。使用相同训练病例和模型架构，专家引导的逻辑重构应用于四种慢性病。在留出评估中，增强模型在受评估系统中具有最高的图示端到端任务完成率，并在诊断、用药和随访指标上具有更高的图示得分。所示的严重临床错误率为基线16.7%，增强模型12.5%。在人机评估中，医师单独准确率为87.40%，在AI辅助下为88.20%，平均完成时间分别为0.959和0.780分钟；医学生准确率分别为62.71%和74.80%，平均完成时间分别为0.210和0.195分钟。这些结果是描述性点估计；此处未报告推断性比较。结构化输出可能使建议更易审查，但理由忠实性、泛化性及对临床安全的影响需要进一步评估。"
+ },
+ {
   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
   "link": "https://huggingface.co/papers/2610.30418",
   "date": "2026-10-21T00:00:00.000Z",
@@ -286,6 +567,36 @@
   "day": "2026-10-27"
  },
  {
+  "title": "凯瑞医疗智能采血机器人M1获证上市 白鼠尾静脉实验成功率95%",
+  "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CVkxXb0w2OTdEUGN6UmstNWtBUm5YbHZnTHBNUktuODJkcG5YWFNSczVaV3c2QW9Lem5vaUhYU0tvZFpULXhKSm43OVRIUQ?oc=5",
+  "date": "2026-10-15T13:56:55+00:00",
+  "source": "观点网",
+  "source_group": "Google News · NMPA AI",
+  "home": "https://www.guandian.cn",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "f0e47a88d543",
+  "score": 4,
+  "zh_title": "凯瑞医疗智能采血机器人M1获证上市",
+  "tags": [
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "已获批",
+  "summary": "仅标题：凯瑞医疗智能采血机器人M1获证上市，称白鼠尾静脉实验成功率95%。",
+  "abstract": "",
+  "key_points": [],
+  "processing": "model-enriched",
+  "section": "落地与监管",
+  "day": "2026-10-27",
+  "keep": true,
+  "type": "监管",
+  "reason": "仅标题，证据为动物实验，小范围器械获批属增量消息"
+ },
+ {
   "title": "Stanford Scholars Respond to FDA on Regulating Gen-AI Medical Devices",
   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORkRoS1dWWktsT2wtY0J1U19yQUZVWjBvbDg5ZDNiVTAxZmxZM3pZY2NjakZyRk9wdmJJSnd1VV9zNm5SS3Y4UWtMcE5YTmpnQ2k0U0lacFlmM3Zpc2hnVXctS1dVeDdRd3hYZHJKZEJVUDB2c20yMTNGMTdra3RLN0tIUzhJVmw2OXIycExYUWhUbWVRRnpMeg?oc=5",
   "date": "2026-10-26T12:00:00+00:00",
@@ -311,6 +622,35 @@
   "evidence": "新闻",
   "score": 4,
   "reason": "仅标题、属学者意见回应而非监管决定，信息有限，限于增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-27"
+ },
+ {
+  "title": "ATA Action urges FDA to build risk-based framework for AI-enabled medical devices",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3ZuVDQ1SVB0S25jLXVrcXNpeEFhX0tLWHV4RVM5NUtWWDFiUkMtdjdGTHpGc2U1NHlzWG1qS25rWEdIZ1BST3JWZzJudVVNamg1UDB3WmhtOFZ5VEZrUEJXOW9ZWG5MRGFnXy1HckxSVDFrdWUybklmYmI5Z0hSSzY5aG5pNDFMSHBYNEN6UnA2c3dlUFZRaXFvNmt2UV9qd2haRkw5WXh3QWZDcDhJejVFQQ?oc=5",
+  "date": "2026-10-26T14:39:00+00:00",
+  "source": "HME News",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.hmenews.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "b71d00d00326",
+  "keep": true,
+  "zh_title": "ATA呼吁FDA为AI医疗器械建立风险分级框架",
+  "summary": "仅标题：行业协会ATA敦促FDA针对AI医疗器械构建基于风险的监管框架。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "医疗器械"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "仅标题，属行业协会倡议而非监管正式动作，信息有限",
   "processing": "model-enriched",
   "day": "2026-10-27"
  },
@@ -388,7 +728,7 @@
    "2026-10-26",
    "2026-10-27"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
  },
  {
   "title": "Putting conversational AI to the test in primary care",
@@ -427,7 +767,7 @@
    "2026-10-26",
    "2026-10-27"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: empty"
  },
  {
   "title": "HistoDiffusion++: A generative visual foundation model for histopathology",
@@ -2444,6 +2784,10 @@
    {
     "source": "新浪财经",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15NGpmVTZ2RTFJOWJDTHlMNGplaDg2NERUYUdWMFFxclZpOThJaWM5dWZCeEpIUHhSSnQ2NGVCelh0QkdDLVVBdVJwbEdjRjRqcGZ5WWRxRGRiaUpNNlVUWjNBbkxQRlhHWkU2cnV2bEY1ZE9uUE1Eag?oc=5"
+   },
+   {
+    "source": "动脉网",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9tNkFtQjN5RkZCVFJiT2hQSjJVZ1pMenNSVWtwT2hrQmJOb09OaU1UaVhabjZlaFloSElZdVFnWkxLQ2FBcVNJ?oc=5"
    }
   ]
  },
@@ -5979,31 +6323,6 @@
   "day": "2026-10-20"
  },
  {
-  "title": "医疗AI下一站：从单点辅助走向多智能体协同",
-  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQjBmemVlT0FHUG5lakZ0VnozYXhWX01DejBJTmRXRGMwSkFuMno3NE1KSkR4bll4WFdmVjQ1VW9mdERzQTVsWFJtekd1TExHem9va1NLN2tPbXpkMk14cEhiOGY1TTFRTmNzV3poblFZYlFXX0dEOTFkdm4zLWZrcUFFWUxsSlda?oc=5",
-  "desc": "",
-  "date": "2026-10-20T01:00:00+00:00",
-  "source": "搜狐",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://m.sohu.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "f396354f3c08",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "大模型与智能体",
-  "day": "2026-10-20"
- },
- {
   "title": "外商上门洽谈 关注AI技术",
   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaZ1FzOEZLVVVpM1BQdXJrdlhaakFDcVlzZEJ1VFp5ZUhWNmpQaVUyWmVya2lnNUdpQTVKOF85SkdMdnpvUnN6OG80YlpVY3FIMkEyajRPVER4U3ljb1Z0dzVBNVhHczgyUUdjUFFpck81QS1COFdURHdhbmREVGc?oc=5",
   "desc": "",
@@ -6262,31 +6581,6 @@
   "key_points": [],
   "processing": "metadata-only",
   "section": "大模型与智能体",
-  "day": "2026-10-20"
- },
- {
-  "title": "ChronIQ-DRx2: restoring unwritten clinical decision logic unlocks personalized chronic disease management",
-  "link": "https://www.medrxiv.org/content/10.64898/2026.10.14.26365588v1?rss=1",
-  "desc": "Clinical records routinely document medical interventions but often omit the reasoning connecting patient-specific evidence to medical action. This limits the decision-relevant supervision available for training models for personalized care. Here we evaluate a data-augmentation approach that makes selected clinical decision relationships explicit in an 8-billion-parameter Qwen3 model, ChronIQ-DRx2. Using the same training cases and model architecture, expert-guided logic reconstruction was applied across four chronic diseases. On the held-out evaluation, the enhanced model had the highest plotted end-to-end task-completion rate among evaluated systems and higher plotted scores across diagnostic, medication and follow-up measures. The serious clinical error rates shown were 16.7% for the baseline and 12.5% for the enhanced model. In the human-AI evaluation, physician accuracy was 87.40% alone and 88.20% with AI assistance, while mean completion time was 0.959 and 0.780 min, respectively; medical-student accuracy was 62.71% and 74.80%, and mean completion time was 0.210 and 0.195 min. These results are descriptive point estimates; inferential comparisons are not reported here. Structured outputs may make recommendations easier to review, but rationale faithfulness, generalizability and effects on clinical safety require further evaluation.",
-  "date": "2026-10-16T00:00:00+00:00",
-  "source": "medRxiv",
-  "source_group": "medRxiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.64898/2026.10.14.26365588",
-  "pop": null,
-  "id": "e4361d746bc6",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "Clinical records routinely document medical interventions but often omit the reasoning connecting patient-specific evidence to medical action. This limits the decision-relevant supervision available for training models for personalized care. Here we evaluate a data-augmentation approach that makes selected clinical decision relationships explicit in an 8-billion-parameter Qwen3 model, ChronIQ-DRx2. Using the same training cases and model architecture, expert-guided logic reconstruction was applied across four chronic diseases. On the held-out evaluation, the enhanced model had the highest plotted end-to-end task-completion rate among evaluated systems and higher plotted scores across diagnostic, medication and follow-up measures. The serious clinical error rates shown were 16.7% for the baseline and 12.5% for the enhanced model. In the human-AI evaluation, physician accuracy was 87.40% alone and 88.20% with AI assistance, while mean completion time was 0.959 and 0.780 min, respectively; medical-student accuracy was 62.71% and 74.80%, and mean completion time was 0.210 and 0.195 min. These results are descriptive point estimates; inferential comparisons are not reported here. Structured outputs may make recommendations easier to review, but rationale faithfulness, generalizability and effects on clinical safety require further evaluation.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
   "day": "2026-10-20"
  },
  {
@@ -6985,31 +7279,6 @@
   "type": "论文",
   "reason": "已完成的注册干预研究但无结果数据，样本153例偏小，属增量档",
   "zh_abstract": "[新注册的临床试验，尚无结果；申办方：蒙彼利埃大学医院；条件：健康沟通、患者出院；类型：干预性；分期：不适用；入组人数：153；状态：已完成] 本研究比较了为离开儿科急诊科的儿童及其家庭准备出院文件的两种方式。在常规工作流程中，电子健康记录中的信息被汇编到固定的文件模板中。在替代工作流程中，ERIOS Assistant（一种部署在医院内的人工智能系统）为卫生专业人员和家庭或儿童起草文件。在两种工作流程中，临床医生均在文件交给家庭之前对其进行审核和验证。根据已完成的研究报告，分组涉及作出出院决定后的文件生成，并不决定诊断、治疗或处置。出院后通过电话联系家庭，以评估其对照护和指示的陈述与医疗记录的一致性，以及他们感知到的理解程度、满意度和文件使用情况。方案还计划评估文件质量、可读性、临床医生体验、可用性和人工监督。本研究是在随机化部分完成后进行回顾性注册的。"
- },
- {
-  "title": "凯瑞医疗智能采血机器人M1获证上市 白鼠尾静脉实验成功率95%",
-  "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CVkxXb0w2OTdEUGN6UmstNWtBUm5YbHZnTHBNUktuODJkcG5YWFNSczVaV3c2QW9Lem5vaUhYU0tvZFpULXhKSm43OVRIUQ?oc=5",
-  "desc": "",
-  "date": "2026-10-15T13:56:55+00:00",
-  "source": "观点网",
-  "source_group": "Google News · NMPA AI",
-  "home": "https://www.guandian.cn",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "f0e47a88d543",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
  },
  {
   "title": "脑机接口“全球首证”来了！深扒上海模式如何跑通全产业链",
