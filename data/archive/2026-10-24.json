@@ -104,7 +104,8 @@
 "2026-10-24",
 "2026-10-25",
 "2026-10-26",
-"2026-10-27"
+"2026-10-27",
+"2026-10-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -213,7 +214,8 @@
 "2026-10-24",
 "2026-10-25",
 "2026-10-26",
-"2026-10-27"
+"2026-10-27",
+"2026-10-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -467,6 +469,14 @@
 {
 "source": "动脉网",
 "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9tNkFtQjN5RkZCVFJiT2hQSjJVZ1pMenNSVWtwT2hrQmJOb09OaU1UaVhabjZlaFloSElZdVFnWkxLQ2FBcVNJ?oc=5"
+},
+{
+"source": "手机新浪网",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uYkNwM1NTZ3dPa2N5VFBnWThIaV95ZkVoY2tVZlJsYU5TYVZDR1hWcmp3T3kwaldzSFhablA2MEVDeExwS0tHNnU2a3UzMHRSRmNfRk00cnhxZEVJS2plb0xfOWJyMkNRMjNiZ0s5UE84UkljNmtOLW12UUpzMEU?oc=5"
+},
+{
+"source": "新浪财经",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2Q0T2ZPWTdXWlVuRVVCbGpfalJBLUhQRG1oNUNTdWxWNDN3YkRCMVFha05ZZlRXcjFVTEI5Y3dWWW5MYnhIYkpCWDNpaUFvM2VYWEFDMTkzZXNoZGxvN0Rvc2w5OWNGWk1iMF92dnNtZGVmaG01UGdMMnZMcWtlU2hKVlk?oc=5"
 }
 ]
 },

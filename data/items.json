@@ -1,5 +1,307 @@
 [
  {
+  "title": "PDFormer: A Multimodal Transformer for Quantifying Motor Symptom Severity in Parkinson’s Disease",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003920?dgcid=rss_sd_all",
+  "date": "2026-10-28T02:29:33.466459+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "16b3801aef05",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "PDFormer：量化帕金森病运动症状的多模态Transformer",
+  "summary": "Medical Image Analysis刊出PDFormer，一种用于量化帕金森病运动症状严重程度的多模态Transformer模型；条目仅有题录信息，未见样本与验证细节。",
+  "key_points": [
+   "发表于《Medical Image Analysis》2027年1月号",
+   "提出PDFormer多模态Transformer模型",
+   "目标是量化帕金森病运动症状严重度"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "多模态",
+   "神经科学"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审期刊的多模态方法论文，但仅有题录、无样本与验证信息，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-10-28",
+  "abstract_days": [
+   "2026-10-28"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Artificial intelligence in hepatitis: Advances in diagnosis, treatment optimization, and prognostic prediction.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42920253/",
+  "date": "2026-10-23T00:00:00+00:00",
+  "badge": "DOI 10.1177/03000605261500644",
+  "source": "PubMed · The Journal of international medical research",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "12dd2d41de23",
+  "keep": true,
+  "zh_title": "人工智能在肝炎中的应用：诊断、治疗优化与预后预测进展",
+  "summary": "叙述性综述汇总近十年AI在肝炎诊断、治疗优化与预后预测三方面的应用进展，未提供原始研究数据。",
+  "key_points": [
+   "覆盖诊断、治疗优化、预后预测三领域",
+   "为叙述性综述，非系统综述或meta分析",
+   "聚焦机器学习与深度学习应用"
+  ],
+  "section": "临床预测与决策",
+  "type": "观点",
+  "tags": [
+   "临床决策支持",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "叙述性综述无原始数据，属泛泛综述，按规则限增量档",
+  "processing": "model-enriched",
+  "abstract": "[The Journal of international medical research] Hepatitis remains a major global health challenge and an important contributor to liver fibrosis, cirrhosis, hepatocellular carcinoma, and liver-related mortality worldwide. Early diagnosis, effective treatment selection, and accurate prognostic stratification remain critical unmet needs in clinical hepatology. Artificial intelligence, particularly machine learning and deep learning, has emerged as a promising approach to addressing these challenges through the integration and analysis of large-scale, heterogeneous biomedical datasets. This narrative review synthesizes advances in artificial intelligence applications in hepatitis research and clinical practice published over the past decade, organized across three clinical domains: diagnosis, treatment optimization, and prognosis prediction. In the diagnostic domain, artificial intelligence-based approaches have been applied to medical imaging, digital pathology, and multi-omics data to enhance the detection, classification, and staging of liver disease. In the therapeutic domain, machine learning models have been increasingly deployed to support drug discovery, optimize therapeutic regimens, and predict individual treatment responses. In the prognostic domain, artificial intelligence-driven models have shown promising performance in predicting disease progression, survival outcomes, and clinical complications. Nevertheless, key limitations persist, including data heterogeneity, limited external generalizability, and barriers to clinical translation. Future progress will depend on prospective multicenter evaluation, use of interoperable multimodal data, development of transparent models that account for uncertainty, and evidence that artificial intelligence improves clinical decisions and patient outcomes rather than performance metrics alone.",
+  "zh_abstract": "［《国际医学研究杂志》（The Journal of International Medical Research）］肝炎仍是全球重大健康挑战，也是全球肝纤维化、肝硬化、肝细胞癌和肝脏相关死亡的重要促成因素。早期诊断、有效治疗选择以及准确的预后分层仍是临床肝病学中关键且未被满足的需求。人工智能，尤其是机器学习和深度学习，通过整合和分析大规模、异质性生物医学数据集，已成为应对这些挑战的有前景的方法。本叙述性综述综合了过去十年发表的肝炎研究和临床实践中人工智能应用进展，按三个临床领域组织：诊断、治疗优化和预后预测。在诊断领域，基于人工智能的方法已应用于医学影像、数字病理学和多组学数据，以增强肝病的检测、分类和分期。在治疗领域，机器学习模型越来越多地被部署用于支持药物发现、优化治疗方案和预测个体治疗反应。在预后领域，人工智能驱动的模型在预测疾病进展、生存结局和临床并发症方面显示出有希望的性能。然而，关键局限性仍然存在，包括数据异质性、有限的外部可推广性以及临床转化障碍。未来的进展将取决于前瞻性多中心评估、使用可互操作的多模态数据、开发能够考虑不确定性的透明模型，以及证明人工智能改善临床决策和患者结局而不仅仅是性能指标的证据。",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "AI医生标准上新！《医疗健康行业智能体应用技术要求第9部分：儿科医生助手》标准发布_医疗人工智能",
+  "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiVDl1OHJNbGkzaDJGd0NmQy13ckhLci03Y2NsM3RlQjZLd2JKVzk0aHdMbUhRQzF3eHUxb2tLbV9FWUZwNmNLQWYtYnBVM1pRQ21acV9naDAySGtxd1E?oc=5",
+  "date": "2026-10-28T01:39:27+00:00",
+  "source": "大健康派",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "http://www.djkpai.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "6e61ccc4f054",
+  "keep": true,
+  "zh_title": "儿科医生助手智能体技术标准发布",
+  "summary": "《医疗健康行业智能体应用技术要求第9部分：儿科医生助手》标准发布，标题显示其为面向儿科医生助手的智能体技术规范（仅标题信息）。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "智能体",
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "行业团体标准发布属监管/规范层面动向，但仅标题信息、影响范围未明，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "Predicting the Optimal Empirical Antibiotic Therapy for Bacteremia Using an Artificial Intelligence-based Model",
+  "link": "https://clinicaltrials.gov/study/NCT07894237",
+  "date": "2026-10-26T00:00:00+00:00",
+  "badge": "NCT07894237",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "077dee5a00ce",
+  "keep": true,
+  "zh_title": "用AI模型预测菌血症最佳经验性抗生素治疗",
+  "summary": "法国南特大学医院注册OPTIBact观察性研究，拟基于医院数据仓库用机器学习预测菌血症患者最佳经验性抗生素，入组8765例，尚无结果。",
+  "key_points": [
+   "观察性研究，入组8765例，状态为已完成",
+   "基于2018年起运行的医院生物医学数据仓库",
+   "尚无公布结果，单中心设计"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床决策支持",
+   "临床预测",
+   "电子病历"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "注册信息显示样本量大但无结果、单中心，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Nantes University Hospital; conditions: Bacteremia; type: OBSERVATIONAL; enrollment: 8765; status: COMPLETED] Bacteremia, a common infection associated with high morbidity and mortality, requires prompt and appropriate antibiotic treatment. Numerous studies have shown that the appropriate use of antibiotics helps improve the prognosis of patients, reduce the selection of pathogenic organisms, the emergence of antibiotic resistance, adverse treatment effects, and healthcare costs. The Nantes University Hospital Center has operated a Biomedical Data Warehouse (BDW) since 2018. The growing availability of data through BDWs thus enables the development of decision-support tools based on machine learning. The primary objective of the OPTIBact project is to predict the optimal empirical antibiotic for hospitalized patients with bacteremia using a machine learning-based predictive model using data from the Nantes University Hospital's BDW. As secondary objectives, the study aims: * To compare the performance of the predictive model for the optimal empirical antibiotic against standard patient care * To estimate the expected benefit of the predictive model compared to real-world practice in terms of clinical outcomes * To predict the optimal dosage of empirical antibiotic therapy * To compare the performance of the predictive model for optimal empirical antibiotic therapy dosing with standard patient care * To describe inpatient patients in Nantes University Hospital who received optimal antibiotic therapy and those who did not * To Identify predictors of antibiotic resistance in bacteria isolated from blood cultures, stratified by pathogen type.",
+  "zh_abstract": "［新注册临床试验，尚无结果；申办者：南特大学医院；疾病：菌血症；类型：观察性；入组人数：8765；状态：已完成］菌血症是一种常见感染，与高发病率和死亡率相关，需要及时且适当的抗生素治疗。大量研究表明，适当使用抗生素有助于改善患者预后，减少病原菌选择、抗生素耐药性的出现、不良治疗效应以及医疗费用。南特大学医院中心自2018年起运营生物医学数据仓库（Biomedical Data Warehouse, BDW）。因此，通过BDW可获得的数据日益增多，使得能够开发基于机器学习的决策支持工具。OPTIBact项目的主要目标是利用南特大学医院BDW的数据，使用基于机器学习的预测模型，预测住院菌血症患者的最佳经验性抗生素。作为次要目标，本研究旨在：* 将最佳经验性抗生素预测模型的性能与标准患者诊疗进行比较 * 估计该预测模型与真实世界实践相比在临床结局方面的预期获益 * 预测经验性抗生素治疗的最佳剂量 * 将最佳经验性抗生素治疗剂量预测模型的性能与标准患者诊疗进行比较 * 描述南特大学医院接受最佳抗生素治疗和未接受最佳抗生素治疗的住院患者 * 识别从血培养中分离的细菌的抗生素耐药预测因素，并按病原体类型分层。",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "ClarityCare Raises $16.5M to Speed Up Prior Authorizations",
+  "link": "https://medcitynews.com/2026/10/claritycare-raises-16-5m-to-speed-up-prior-authorizations/",
+  "date": "2026-10-27T18:33:16+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "683a920f8f71",
+  "keep": true,
+  "zh_title": "ClarityCare 融资1650万美元加速事前授权",
+  "summary": "医疗AI初创公司ClarityCare获1650万美元融资，用于自动化事前授权行政流程。",
+  "key_points": [
+   "融资额1650万美元",
+   "聚焦事前授权自动化",
+   "背景为联邦审批时限新规"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "小额融资与常规行业动态，未披露技术与效果细节",
+  "processing": "model-enriched",
+  "abstract": "As health plans grapple with new federal deadlines for prior authorization decisions, healthcare AI startup ClarityCare has raised $16.5 million to automate the administrative workload that can keep patients waiting for the care they need. The post ClarityCare Raises $16.5M to Speed Up Prior Authorizations appeared first on MedCity News .",
+  "zh_abstract": "随着健康计划应对联邦政府对预先授权决定设定的新截止期限，医疗人工智能初创公司 ClarityCare 已筹集 1650 万美元，用于自动化可能使患者等待其所需护理的行政工作量。题为《ClarityCare 筹集 1650 万美元以加快预先授权》的文章最初发表于 MedCity News。",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "Instability as Signal: Diagnosing Latent Heterogeneity in Multimodal Survival Models",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365414v1?rss=1",
+  "date": "2026-10-14T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.13.26365414",
+  "pop": null,
+  "id": "42be958ef162",
+  "score": 5,
+  "zh_title": "多模态生存模型的不稳定性作为诊断信号",
+  "tags": [
+   "多模态",
+   "病理",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "summary": "预印本以TCGA-BRCA多模态融合模型为探针，分析生存预测不稳定的来源并识别稳定潜在亚组。",
+  "abstract": "Multimodal deep learning models for cancer survival prediction frequently exhibit unstable and irreproducible performance, limiting their clinical applicability. Rather than proposing a new predictive architecture, this work presents a diagnostic investigation into the sources of this instability. Using a transformer-based deep fusion model combining RNA sequencing and histopathology data from the TCGA-BRCA cohort as a diagnostic probe, we demonstrate that global survival prediction is highly unstable across data splits. We then analyze the learned multimodal embeddings in an unsupervised manner, revealing stable latent patient subgroups with significantly divergent survival outcomes. These subgroups are not explained by canonical receptor status or immune infiltration, but instead align with tumor-intrinsic proliferative activity. Conditioning survival modeling on the largest discovered subgroup recovers strong and stable prognostic performance, substantially outperforming unimodal baselines. These findings indicate that survival predictability is conditional on latent heterogeneity and suggest that heterogeneity-aware modeling strategies are essential for robust multimodal prognostication. This work establishes a methodological framework for interpreting instability in multimodal survival learning.",
+  "key_points": [
+   "多模态融合模型跨数据划分生存预测高度不稳定",
+   "无监督分析发现生存结局显著不同的稳定亚组",
+   "亚组与肿瘤增殖活性相关，非受体状态或免疫浸润"
+  ],
+  "processing": "model-enriched",
+  "section": "影像与病理",
+  "day": "2026-10-28",
+  "keep": true,
+  "type": "论文",
+  "reason": "诊断性分析有新意，但仅单一队列回顾性、无外部验证，属值得一看档",
+  "zh_abstract": "用于癌症生存预测的多模态深度学习模型经常表现出不稳定且不可重复的性能，限制了其临床适用性。本工作并非提出新的预测架构，而是对这种不稳定性的来源进行诊断性研究。我们使用一个基于Transformer的深度融合模型，该模型结合TCGA-BRCA队列的RNA测序和组织病理学数据，作为诊断探针，证明全局生存预测在不同数据划分间高度不稳定。然后，我们以无监督方式分析学习到的多模态嵌入，揭示了具有显著不同生存结局的稳定潜在患者亚组。这些亚组不能由经典受体状态或免疫浸润解释，而是与肿瘤内在的增殖活性一致。以发现的最大亚组为条件进行生存建模，可恢复强且稳定的预后性能，显著优于单模态基线。这些发现表明，生存可预测性以潜在异质性为条件，并提示异质性感知建模策略对于稳健的多模态预后至关重要。本工作为解释多模态生存学习中的不稳定性建立了一个方法学框架。"
+ },
+ {
+  "title": "AdvaMed Encourages Risk-Based FDA Approach to Generative AI Medical Devices",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMUVuMDhNcDVueW1hLVRXMXkxQ0Z5a2h1UkpjOHI1bFgzd2dqcld4MlU3TEkwVExvMUE5UXVhRWJTdUloLTNZSER5SzBGemt6SjVhQjlrRFJDMlR0TFMxenNENlBfUktUWm5Qc2R3M2VvZTYzQ0NaT0JkZmktVTFKYzhDRjJyeVp3Nm1NcFdmS2FlZm9OYWdwM0FrcjAycEk0T21SVnZmdlRkVUtmUXNUR0FfREMtdTJ3YmhfY1NRRQ?oc=5",
+  "date": "2026-10-27T19:01:30+00:00",
+  "source": "AdvaMed® - Advanced Medical Technology Association®",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.advamed.org",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "ae9320d34715",
+  "keep": true,
+  "zh_title": "AdvaMed建议FDA对生成式AI器械采风险分级",
+  "summary": "仅标题：AdvaMed呼吁FDA对生成式AI医疗器械采用基于风险的方法。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "生成模型",
+   "医疗器械"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业协会监管立场，仅标题无正文，信息有限",
+  "processing": "model-enriched",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "医疗AI诊断为何难以成为独立生意？深度解析行业商业化痛点与发展瓶颈",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wV25WekRfTnpHdFdlSjEwX1lqNmRLRnQ0Q0R1MWQ5b0NRZW5DVlV4X3NuSllpV3dzckZYSkhVWTZaNUlOQVFCYnlGbkNfVS0tMGFR?oc=5",
+  "date": "2026-10-27T09:38:00+00:00",
+  "source": "36Kr",
+  "source_group": "Google News · NMPA AI",
+  "home": "https://eu.36kr.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "66ecdf6e73a5",
+  "keep": true,
+  "zh_title": "医疗AI诊断商业化瓶颈分析",
+  "summary": "文章从商业化角度分析医疗AI诊断难以成为独立生意的痛点与发展瓶颈（仅标题信息，未阅读正文）。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "观点",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业观点分析类、仅标题、无数据与案例细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-28"
+ },
+ {
+  "title": "Interpretable Deep Learning Models for Breast Cancer Diagnosis Using Medical Imaging",
+  "link": "https://arxiv.org/abs/2610.37026",
+  "date": "2026-10-27T11:01:50+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.37026",
+  "pop": null,
+  "id": "22b85db7b0b1",
+  "keep": true,
+  "zh_title": "可解释深度学习用于乳腺病理影像诊断",
+  "summary": "预印本在BreakHis病理数据集上比较十种ImageNet预训练模型做良恶性分类，并用四种可解释方法剖析预测依据。",
+  "key_points": [
+   "DenseNet121最佳，测试准确率99.4%、AUC 0.999",
+   "仅用单一公开数据集，患者级划分",
+   "Transformer类模型表现不及CNN"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "score": 3,
+  "reason": "单数据集回顾性基准，无外部验证，属指标小幅领先的增量研究",
+  "processing": "model-enriched",
+  "abstract": "Deep learning shows promise for breast cancer diagnosis, but limited interpretability hinders clinical adoption. We benchmark ten ImageNet-pretrained models (ResNet50, VGG19, InceptionV3, DenseNet121, Xception, MobileNetV2, EfficientNet, ConvNeXt, ViT, and Swin Transformer) for benign-versus-malignant classification on the BreakHis histopathology dataset using a patient-level split, and explain their predictions with Grad-CAM, LIME, Integrated Gradients, and LRP. DenseNet121 performed best, with 99.4% test accuracy and an AUC-ROC of 0.999, and significantly outperformed all other models (p < 0.001). Transformer-based models trailed the CNNs. The explanations consistently highlighted nuclei-rich and glandular regions of diagnostic relevance. Combining transfer learning with explainable AI can thus yield accurate, interpretable tools for breast cancer diagnosis.",
+  "zh_abstract": "深度学习在乳腺癌诊断中显示出前景，但有限的可解释性阻碍了临床采用。我们在BreakHis组织病理学数据集上，使用患者水平划分，对十种ImageNet预训练模型（ResNet50、VGG19、InceptionV3、DenseNet121、Xception、MobileNetV2、EfficientNet、ConvNeXt、ViT和Swin Transformer）进行良性与恶性分类的基准测试，并用Grad-CAM、LIME、Integrated Gradients和LRP解释其预测。DenseNet121表现最佳，测试准确率为99.4%，AUC-ROC为0.999，并显著优于所有其他模型（p < 0.001）。基于Transformer的模型落后于CNN。这些解释一致地突出了具有诊断相关性的富含细胞核区域和腺体区域。因此，将迁移学习与可解释AI相结合，可以产生准确、可解释的乳腺癌诊断工具。",
+  "day": "2026-10-28"
+ },
+ {
   "title": "Radiographer fracture detection with and without AI assistance in prospective emergency department use",
   "link": "https://www.nature.com/articles/s41746-026-03313-x",
   "date": "2026-10-27T00:00:00+00:00",
@@ -29,9 +331,10 @@
   "processing": "model-enriched",
   "day": "2026-10-27",
   "abstract_days": [
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
  {
   "title": "Masked Position Modeling as a Pre-Training Strategy for Foundational Deformable Image Registration Models.",
@@ -137,7 +440,8 @@
   "processing": "model-enriched",
   "day": "2026-10-27",
   "abstract_days": [
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -175,7 +479,8 @@
   "processing": "model-enriched",
   "day": "2026-10-27",
   "abstract_days": [
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -692,45 +997,6 @@
   "zh_abstract": "摘要 本研究旨在开发并验证一个全自动流程，用于在T1加权脑MRI中识别上颈段脊髓（SC）的椎体水平（C1–C3），并带有质量控制模块以评估生成的掩膜。使用来自998名对照者和879名遗传性共济失调患者（32个中心；年龄5–85岁；46%为男性）的MRI数据，训练深度学习模型（nnU-Net、带深监督的U-Net、SwinUNETR）以自动标记C1–C3水平的椎体。还训练了一个基于VGG、ResNet和EfficientNet架构的二级模型，用于识别椎体标记错误。该流程还生成图像质量指标，包括信噪比、对比噪声比、联合变异系数和熵聚焦准则。使用来自四个公共数据集的2737例MRI进行外部验证，并在51例多发性硬化患者的纵向队列中证明了临床实用性。nnU-Net取得了最高性能（Dice：C1 = 0.85，C2 = 0.89，C3 = 0.89），标记了来自Spinal Cord Toolbox的95.8%的错误标记病例。基于VGG的分类器达到97.9%的准确率和98.7%的敏感性。外部验证显示，在五个数据集中的四个中标记准确率超过92%，并且对多发性硬化中的纵向SC萎缩具有敏感性。该流程能够为多中心研究实现可扩展、可靠的椎体标记和上颈段SC的形态学提取，并支持神经退行性疾病中的生物标志物开发。"
  },
  {
-  "title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
-  "link": "https://www.nature.com/articles/s41746-026-03326-6",
-  "date": "2026-10-26T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03326-6",
-  "pop": null,
-  "id": "43ad87bd837e",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "学术医疗系统内AI病历助手采纳模式",
-  "summary": "npj Digital Medicine 发表某整合型学术医疗系统内环境AI病历助手在全系统范围的采纳模式分析。",
-  "key_points": [
-   "整合型学术医疗系统全系统范围",
-   "对象为环境AI病历记录助手",
-   "聚焦采纳模式分布"
-  ],
-  "section": "落地与监管",
-  "type": "论文",
-  "tags": [
-   "临床落地",
-   "电子病历"
-  ],
-  "evidence": "同行评审",
-  "score": 6,
-  "reason": "规模化部署的采纳数据，有实施价值但未见临床结局或外部验证",
-  "processing": "model-enriched",
-  "day": "2026-10-26",
-  "abstract_days": [
-   "2026-10-26",
-   "2026-10-27"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: HTTP Error 404: Not Found"
- },
- {
   "title": "Putting conversational AI to the test in primary care",
   "link": "https://www.nature.com/articles/d41591-026-00054-y",
   "date": "2026-10-23T00:00:00+00:00",
@@ -765,9 +1031,10 @@
   "day": "2026-10-26",
   "abstract_days": [
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: HTTP Error 503: ; openalex: empty"
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
  },
  {
   "title": "HistoDiffusion++: A generative visual foundation model for histopathology",
@@ -804,7 +1071,8 @@
   "day": "2026-10-26",
   "abstract_days": [
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -881,6 +1149,43 @@
   "reason": "同行评审、与医生对照，但仅比较费用、未见外部验证或临床结局"
  },
  {
+  "title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
+  "link": "https://www.nature.com/articles/s41746-026-03326-6",
+  "date": "2026-10-26T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03326-6",
+  "pop": null,
+  "id": "43ad87bd837e",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "学术医疗系统环境AI记录员全院采纳模式",
+  "summary": "回顾性观察研究分析2901名门诊临床医生对环境AI记录员的采纳及月度使用差异。",
+  "key_points": [
+   "2901名门诊临床医生，2024年12月至2025年5月",
+   "社区内科67%、社区儿科69%、学术神经科53%采纳",
+   "学术普外16%、妇产科18%采纳较低"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "电子病历",
+   "医学大模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "单系统回顾性观察，样本大但仅报告采纳与使用，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-10-26",
+  "abstract": "Ambient artificial intelligence (AI) scribes may reduce documentation burden, but little is known about their adoption during enterprise-scale ambulatory rollout. We conducted a retrospective observational cohort study of 2901 ambulatory clinicians at an integrated academic health system using linked electronic health record and vendor usage data from December 2024 through May 2025. Clinician adoption was defined as any use during the study period, and monthly visit-level uptake as the proportion of eligible ambulatory visits in which the ambient AI scribe was used. Adoption and uptake varied substantially across practice settings, specialties, and clinician types. Clinician-level adoption was highest in community internal medicine (67%), community general pediatrics (69%), and academic neurology (53%), and lowest in academic general surgery (16%), obstetrics and gynecology (18%), and psychiatry (19%). Community attending physicians and advanced practice providers showed marked increases in median visit-level uptake, reaching approximately 80%-90% in some groups by May 2025. Distinct longitudinal patterns included slow and steady adoption, early use followed by discontinuation, transient use, and late adoption. These findings suggest that implementation support and evaluation strategies should be tailored to local practice context rather than applied uniformly across a health system.",
+  "zh_abstract": "环境人工智能（AI）记录员可能减轻文书负担，但对其在企业级门诊推广中的采用情况知之甚少。我们在一个整合型学术医疗系统中，对2901名门诊临床医生开展了一项回顾性观察性队列研究，使用了2024年12月至2025年5月期间关联的电子健康记录与供应商使用数据。临床医生采用定义为研究期间内的任何使用，月度就诊层面的使用率定义为符合条件的门诊就诊中使用环境AI记录员的比例。采用率和使用率在不同执业环境、专科和临床医生类型之间差异显著。临床医生层面的采用率在社区内科（67%）、社区普通儿科（69%）和学术神经科（53%）最高，在学术普外科（16%）、妇产科（18%）和精神科（19%）最低。社区主治医师和高级执业提供者的就诊层面使用率中位数显著上升，到2025年5月部分群体达到约80%-90%。不同的纵向模式包括缓慢而稳定的采用、早期使用后停用、短暂使用以及晚期采用。这些发现提示，实施支持和评估策略应针对当地执业背景进行定制，而非在全医疗系统内统一应用。"
+ },
+ {
   "title": "Anatomy-informed multi-task framework for visceral artery aneurysm screening on non-contrast CT",
   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003385?dgcid=rss_sd_all",
   "date": "2026-10-26T01:27:10.586690+00:00",
@@ -946,7 +1251,8 @@
   "day": "2026-10-26",
   "abstract_days": [
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -985,7 +1291,8 @@
   "day": "2026-10-26",
   "abstract_days": [
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1056,7 +1363,8 @@
   "day": "2026-10-26",
   "abstract_days": [
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -1661,7 +1969,8 @@
   "abstract_days": [
    "2026-10-25",
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -2425,7 +2734,8 @@
    "2026-10-24",
    "2026-10-25",
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -2534,7 +2844,8 @@
    "2026-10-24",
    "2026-10-25",
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -2788,6 +3099,14 @@
    {
     "source": "动脉网",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9tNkFtQjN5RkZCVFJiT2hQSjJVZ1pMenNSVWtwT2hrQmJOb09OaU1UaVhabjZlaFloSElZdVFnWkxLQ2FBcVNJ?oc=5"
+   },
+   {
+    "source": "手机新浪网",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uYkNwM1NTZ3dPa2N5VFBnWThIaV95ZkVoY2tVZlJsYU5TYVZDR1hWcmp3T3kwaldzSFhablA2MEVDeExwS0tHNnU2a3UzMHRSRmNfRk00cnhxZEVJS2plb0xfOWJyMkNRMjNiZ0s5UE84UkljNmtOLW12UUpzMEU?oc=5"
+   },
+   {
+    "source": "新浪财经",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2Q0T2ZPWTdXWlVuRVVCbGpfalJBLUhQRG1oNUNTdWxWNDN3YkRCMVFha05ZZlRXcjFVTEI5Y3dWWW5MYnhIYkpCWDNpaUFvM2VYWEFDMTkzZXNoZGxvN0Rvc2w5OWNGWk1iMF92dnNtZGVmaG01UGdMMnZMcWtlU2hKVlk?oc=5"
    }
   ]
  },
@@ -3239,7 +3558,8 @@
    "2026-10-24",
    "2026-10-25",
    "2026-10-26",
-   "2026-10-27"
+   "2026-10-27",
+   "2026-10-28"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
@@ -6999,31 +7319,6 @@
   "evidence": "待核验",
   "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
   "abstract": "[Diagnostics (Basel, Switzerland)] Artificial intelligence (AI) for thyroid nodules should be evaluated against the decisions it changes, not diagnostic accuracy alone. This critical narrative review examines ultrasound, cytology, histology, and molecular models and distinguishes modality-specific prediction from implemented multimodal learning. The original PubMed/MEDLINE search through 10 August 2026 was supplemented on 25 September 2026 by targeted OpenAlex searches and checks of primary publications, reporting standards, and regulatory sources. Selected studies are compared by sample size, reference standard, acquisition setting, testing design, and performance with confidence intervals where available. We explain feature concatenation, intermediate representation learning, cross-attention, and decision-level fusion, and examine whether integration improves on the strongest component. Reported gains are inconsistent, and complete-case multimodal datasets may exclude the low-risk nodules most relevant to avoiding biopsy. High discrimination for histological malignancy or occult nodal disease does not demonstrate reduced overdiagnosis, fewer operations, or improved survival. A thyroid-specific translation roadmap therefore addresses active surveillance, partial verification and spectrum bias, Hashimoto thyroiditis and multinodular disease, cytology preparation shifts, category-specific thresholds, operator dependence, reporting frameworks, and regulatory change control. The priority is a calibrated, externally tested tool using information available at a defined clinical decision, followed by prospective evaluation of patient and workflow outcomes. A unified imaging-pathology-omics system and reliable AI prediction of surveillance progression remain research objectives rather than established clinical capabilities.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "Instability as Signal: Diagnosing Latent Heterogeneity in Multimodal Survival Models",
-  "link": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365414v1?rss=1",
-  "desc": "Multimodal deep learning models for cancer survival prediction frequently exhibit unstable and irreproducible performance, limiting their clinical applicability. Rather than proposing a new predictive architecture, this work presents a diagnostic investigation into the sources of this instability. Using a transformer-based deep fusion model combining RNA sequencing and histopathology data from the TCGA-BRCA cohort as a diagnostic probe, we demonstrate that global survival prediction is highly unstable across data splits. We then analyze the learned multimodal embeddings in an unsupervised manner, revealing stable latent patient subgroups with significantly divergent survival outcomes. These subgroups are not explained by canonical receptor status or immune infiltration, but instead align with tumor-intrinsic proliferative activity. Conditioning survival modeling on the largest discovered subgroup recovers strong and stable prognostic performance, substantially outperforming unimodal baselines. These findings indicate that survival predictability is conditional on latent heterogeneity and suggest that heterogeneity-aware modeling strategies are essential for robust multimodal prognostication. This work establishes a methodological framework for interpreting instability in multimodal survival learning.",
-  "date": "2026-10-14T00:00:00+00:00",
-  "source": "medRxiv",
-  "source_group": "medRxiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.64898/2026.10.13.26365414",
-  "pop": null,
-  "id": "42be958ef162",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "Multimodal deep learning models for cancer survival prediction frequently exhibit unstable and irreproducible performance, limiting their clinical applicability. Rather than proposing a new predictive architecture, this work presents a diagnostic investigation into the sources of this instability. Using a transformer-based deep fusion model combining RNA sequencing and histopathology data from the TCGA-BRCA cohort as a diagnostic probe, we demonstrate that global survival prediction is highly unstable across data splits. We then analyze the learned multimodal embeddings in an unsupervised manner, revealing stable latent patient subgroups with significantly divergent survival outcomes. These subgroups are not explained by canonical receptor status or immune infiltration, but instead align with tumor-intrinsic proliferative activity. Conditioning survival modeling on the largest discovered subgroup recovers strong and stable prognostic performance, substantially outperforming unimodal baselines. These findings indicate that survival predictability is conditional on latent heterogeneity and suggest that heterogeneity-aware modeling strategies are essential for robust multimodal prognostication. This work establishes a methodological framework for interpreting instability in multimodal survival learning.",
   "key_points": [],
   "processing": "metadata-only",
   "section": "临床预测与决策",
