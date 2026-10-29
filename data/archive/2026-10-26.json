@@ -72,7 +72,8 @@
 "abstract_days": [
 "2026-10-26",
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -112,7 +113,8 @@
 "abstract_days": [
 "2026-10-26",
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -292,7 +294,8 @@
 "abstract_days": [
 "2026-10-26",
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -332,7 +335,8 @@
 "abstract_days": [
 "2026-10-26",
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -404,7 +408,8 @@
 "abstract_days": [
 "2026-10-26",
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },

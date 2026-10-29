@@ -14,25 +14,27 @@
 "id": "f3d5e98ddfe4",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "急诊前瞻性场景下放射技师联合 AI 辅助的骨折检出",
-"summary": "仅见标题与刊载信息：在急诊科前瞻性使用中，比较放射技师有/无 AI 辅助的骨折检出表现。",
-"key_points": [],
+"zh_title": "放射技师前瞻性使用AI骨折检测的真实世界评估",
+"summary": "单急诊科三个月前瞻部署中，13名放射技师读取2496例肌骨检查，AI辅助使准确率由97.6%小幅升至98.0%。",
+"key_points": [
+"2496例连续检查、2496次配对读片",
+"AI单独敏感度75.6%，隐匿骨折仅46.2%",
+"技师基线敏感度91.6%，AI辅助净纠正10例"
+],
 "section": "影像与病理",
 "type": "论文",
 "tags": [
 "医学影像",
-"临床落地"
+"临床落地",
+"临床决策支持"
 ],
 "evidence": "同行评审",
-"score": 6,
-"reason": "前瞻性真实急诊使用场景属加分，但仅标题信息，无法判断样本量与结局，取值得一看档",
+"score": 7,
+"reason": "前瞻性真实部署、样本数千且报告工作流效果，属重要档",
 "processing": "model-enriched",
 "day": "2026-10-27",
-"abstract_days": [
-"2026-10-27",
-"2026-10-28"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Artificial intelligence (AI) systems for fracture detection perform strongly in controlled settings, but prospective real-world evidence is limited. In a three-month deployment in one emergency department, thirteen radiographers in a radiographer-led screening programme independently interpreted 2496 consecutive musculoskeletal examinations (one radiographer per examination), reviewed output from a commercial deep-learning system, then recorded a final decision, giving 2496 paired reads against a radiologist reference standard. Standalone AI sensitivity was 75.6%, falling to 46.2% for subtle fractures, below the radiographers’ baseline sensitivity of 91.6%. Radiographers’ baseline accuracy was high (97.6%; specificity 99.0%) and improved modestly with AI assistance (98.0%; exact McNemar p = 0.0064). With AI assistance, radiographers corrected 11 errors and introduced 1, a net gain of 10 cases. Subgroup gains were directionally consistent but not significant after correction. Radiographers changed their decision in only 11 of 729 discordant cases, and most negative interactions were correct AI recommendations not adopted. No or incomplete AI output was returned for 8.8% of acquired examinations. AI assistance delivered a small, selective benefit arising from complementary rather than superior algorithmic performance. Operational reliability proved as consequential as diagnostic accuracy, and behavioural inferences rest on few events. Downstream clinical outcomes were not measured.",
+"zh_abstract": "用于骨折检测的人工智能（AI）系统在受控环境中表现强劲，但前瞻性真实世界证据有限。在一个急诊科为期三个月的部署中，13名放射技师在由放射技师主导的筛查项目中独立解读了2496次连续的肌肉骨骼检查（每次检查由一名放射技师解读），审查了商业深度学习系统的输出，然后记录最终决定，从而产生了2496次与放射科医生参考标准配对的判读。独立AI的敏感度为75.6%，对于细微骨折降至46.2%，低于放射技师的基线敏感度91.6%。放射技师的基线准确率高（97.6%；特异度99.0%），并在AI辅助下略有提高（98.0%；精确McNemar p = 0.0064）。在AI辅助下，放射技师纠正了11个错误并引入了1个错误，净增加10例。亚组获益方向一致，但校正后不显著。放射技师仅在729例不一致病例中的11例改变了决定，大多数负向交互是未采纳正确的AI建议。8.8%的已采集检查返回了无AI输出或不完整AI输出。AI辅助带来了小幅、选择性的获益，其来源于互补而非优越的算法性能。操作可靠性与诊断准确性同样重要，而行为推断仅基于少数事件。未测量下游临床结局。"
 },
 {
 "title": "Masked Position Modeling as a Pre-Training Strategy for Foundational Deformable Image Registration Models.",
@@ -139,7 +141,8 @@
 "day": "2026-10-27",
 "abstract_days": [
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -178,7 +181,8 @@
 "day": "2026-10-27",
 "abstract_days": [
 "2026-10-27",
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

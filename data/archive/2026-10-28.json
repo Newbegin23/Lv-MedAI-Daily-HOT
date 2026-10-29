@@ -14,29 +14,64 @@
 "id": "fe48cea15551",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "眼底荧光血管造影的可解释图推理诊断框架",
-"summary": "npj Digital Medicine 同行评审论文，提出用于眼底荧光血管造影辅助诊断的可解释图推理框架。",
+"zh_title": "眼底荧光血管造影可解释图推理诊断框架",
+"summary": "提出可解释图推理框架FFA-RGNet，基于多中心25,312张FFA图像建模病灶时序与解剖模式，内部测试F1达95.38%。",
 "key_points": [
-"面向眼底荧光血管造影",
-"采用图推理框架",
-"强调可解释性"
+"25,312张图像、2651例患者的多中心数据",
+"建模影像期相与解剖位置的细粒度病灶时序",
+"多中心与前瞻性验证集表现一致，优于九个基线"
 ],
 "section": "影像与病理",
-"type": "论文",
+"type": "模型",
 "tags": [
 "医学影像",
 "眼科",
 "可解释性"
 ],
 "evidence": "同行评审",
-"score": 5,
-"reason": "同行评审影像方法研究，但仅有标题信息，样本与外部验证情况不明",
+"score": 7,
+"reason": "多中心加前瞻性验证、大样本，属重要档",
 "processing": "model-enriched",
 "day": "2026-10-28",
-"abstract_days": [
-"2026-10-28"
+"abstract": "Fundus fluorescein angiography (FFA) is the gold standard for diagnosing retinal vascular diseases. However, interpretable artificial intelligence (AI) systems for FFA image analysis that align with clinicians’ reasoning processes and real-world diagnostic workflows remain scarce. In this study, we introduce an interpretable graph reasoning framework, FFA-RGNet, that explicitly models the temporal patterns of fine-grained lesions across imaging phases and anatomical locations for disease diagnosis from sequential FFA images. FFA-RGNet was trained and validated on a large, fine-grained, multi-center dataset consisting of 25,312 FFA images from 2651 patients. FFA-RGNet outperformed nine baseline models on the internal test set, achieving an F1-score of 95.38% (95% CI: 92.24%–97.88%), and demonstrated consistent performance across multi-center and prospective validation datasets. Its diagnostic performance not only surpassed that of ophthalmologists, residents and ophthalmology students, but also improved their diagnostic F1-score by 7.48% to 14.11% when used as an assistive tool. Comprehensive inference analysis further revealed its superior ability to correctly recognize fine-grained semantic entities, and to learn stable, disease-specific graph reasoning patterns aligned with clinical knowledge. These results suggest that FFA-RGNet enables accurate diagnosis with interpretable reasoning progresses, highlighting its strong potential as a reliable AI system for FFA interpretation and clinical decision support.",
+"zh_abstract": "眼底荧光素血管造影（fundus fluorescein angiography，FFA）是诊断视网膜血管疾病的金标准。然而，用于FFA图像分析、与临床医生推理过程和真实世界诊断工作流程相一致的可解释人工智能（AI）系统仍然稀缺。在本研究中，我们介绍了一个可解释的图推理框架FFA-RGNet，该框架明确建模细粒度病变在成像阶段和解剖位置上的时间模式，以从序列FFA图像中进行疾病诊断。FFA-RGNet在一个大型、细粒度、多中心数据集上进行了训练和验证，该数据集包含来自2651例患者的25,312张FFA图像。FFA-RGNet在内部测试集上优于九个基线模型，达到95.38%的F1分数（95% CI：92.24%–97.88%），并在多中心和前瞻性验证数据集上表现一致。其诊断性能不仅超过了眼科医生、住院医师和眼科学生，而且作为辅助工具使用时，将其诊断F1分数提高了7.48%至14.11%。全面的推理分析进一步揭示了其正确识别细粒度语义实体以及学习与临床知识一致的、稳定的疾病特异性图推理模式的优越能力。这些结果表明，FFA-RGNet能够以可解释的推理过程实现准确诊断，突显其作为用于FFA解读和临床决策支持的可靠AI系统的强大潜力。"
+},
+{
+"title": "Scalable drift monitoring in medical imaging AI",
+"link": "https://www.nature.com/articles/s41746-026-03301-1",
+"date": "2026-10-27T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03301-1",
+"pop": null,
+"id": "49c9a73c828d",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "医学影像AI的可扩展漂移监测框架MMC+",
+"summary": "提出模块化漂移监测框架MMC+，利用多模态数据一致性与基础模型嵌入实现持续性能监测，并以新冠期间麻省总医院数据验证。",
+"key_points": [
+"整合多数据流统计检验与距离度量",
+"用基础模型嵌入免去院内编码器训练",
+"量化不确定性以传达漂移显著性"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"section": "落地与监管",
+"type": "模型",
+"tags": [
+"医学影像",
+"临床落地",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "方法框架有新意、有真实数据验证，但限于单中心回顾，属值得一看",
+"processing": "model-enriched",
+"day": "2026-10-28",
+"abstract": "The integration of artificial intelligence (AI) into clinical medical imaging has advanced diagnostics but also poses challenges in maintaining long-term reliability as input data change. To address this, we present MMC+, a modular framework for scalable drift monitoring that builds on our CheXstray framework for real-time drift detection using multi-modal data concordance (MMC). MMC+ provides a flexible architecture that enables cost-effective continuous performance monitoring in real-world healthcare settings. The framework’s capabilities include aggregating information from multiple data streams using statistical tests or distance metrics, leveraging foundation model embeddings to remove the need for site-specific encoder training, and quantifying uncertainty to better communicate drift significance. Validated with data from Massachusetts General Hospital during the COVID-19 pandemic, MMC+ effectively detects significant data shifts that correlate with performance changes and indicates when AI systems may deviate from acceptable performance bounds. The code for MMC+ is publicly available (Link: https://github.com/FJDorfner/MedImaging-ModelDriftMonitoring/tree/MMC_plus ), promoting broader adoption of AI solutions in clinical settings. Our framework significantly advances drift detection while promoting transparency and collaboration in clinical AI research.",
+"zh_abstract": "将人工智能（AI）整合到临床医学影像中促进了诊断，但也带来了在输入数据变化时保持长期可靠性的挑战。为解决这一问题，我们提出MMC+，这是一个可扩展漂移监测的模块化框架，建立在我们CheXstray框架之上，该框架利用多模态数据一致性（multi-modal data concordance，MMC）进行实时漂移检测。MMC+提供了一种灵活的架构，可在真实世界医疗环境中实现具有成本效益的持续性能监测。该框架的能力包括：使用统计检验或距离度量聚合来自多个数据流的信息，利用基础模型嵌入以消除对站点特定编码器训练的需求，以及量化不确定性以更好地传达漂移显著性。MMC+在COVID-19大流行期间使用马萨诸塞州总医院（Massachusetts General Hospital）的数据进行了验证，能够有效检测与性能变化相关的显著数据偏移，并指示AI系统何时可能偏离可接受的性能界限。MMC+的代码已公开（链接：https://github.com/FJDorfner/MedImaging-ModelDriftMonitoring/tree/MMC_plus ），促进AI解决方案在临床环境中的更广泛采用。我们的框架显著推进了漂移检测，同时促进了临床AI研究的透明性和合作。"
 },
 {
 "title": "PDFormer: A Multimodal Transformer for Quantifying Motor Symptom Severity in Parkinson’s Disease",
@@ -72,7 +107,8 @@
 "processing": "model-enriched",
 "day": "2026-10-28",
 "abstract_days": [
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -111,44 +147,6 @@
 "abstract": "Publication date: January 2027 Source: Medical Image Analysis, Volume 115 Author(s): Yiming Huang, Long Bai, Beilei Cui, Kun Yuan, Guankun Wang, Mobarak I. Hoque, Nicolas Padoy, Nassir Navab, Hongliang Ren",
 "zh_abstract": "出版日期：2027年1月 来源：Medical Image Analysis，第115卷 作者：Yiming Huang、Long Bai、Beilei Cui、Kun Yuan、Guankun Wang、Mobarak I. Hoque、Nicolas Padoy、Nassir Navab、Hongliang Ren",
 "day": "2026-10-28"
-},
-{
-"title": "Scalable drift monitoring in medical imaging AI",
-"link": "https://www.nature.com/articles/s41746-026-03301-1",
-"date": "2026-10-27T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03301-1",
-"pop": null,
-"id": "49c9a73c828d",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "医学影像AI的可扩展漂移监测",
-"summary": "npj Digital Medicine 刊出，主题为医学影像AI的可扩展漂移监测；条目仅提供标题与期刊信息。",
-"key_points": [
-"主题为医学影像AI的漂移监测",
-"关注监测方案的可扩展性",
-"条目未提供摘要与方法细节"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"医学影像",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅标题级信息，方法与验证无法评估，属增量档",
-"processing": "model-enriched",
-"day": "2026-10-28",
-"abstract_days": [
-"2026-10-28"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
@@ -219,7 +217,8 @@
 "processing": "model-enriched",
 "day": "2026-10-28",
 "abstract_days": [
-"2026-10-28"
+"2026-10-28",
+"2026-10-29"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -492,7 +491,13 @@
 "processing": "model-enriched",
 "abstract": "[Dentistry journal] Background: The use of artificial intelligence (AI) is rapidly growing in the field of dental medicine and in oral and maxillofacial surgery (OMS). The aim of the present review is to assess current applications of AI in OMS, to evaluate their advantages and limitations, and to identify areas requiring further research. Materials and Methods: A comprehensive search was conducted using PubMed, Scopus, and Google Scholar, with targeted keywords including \"artificial intelligence,\" \"deep learning,\" \"machine learning,\" \"oral surgery,\" \"maxillofacial surgery,\" and \"diagnosis \"Artificial Intelligence\" OR \"Machine Learning\" OR \"Deep Learning\" AND \"Oral and Maxillofacial Surgery\" OR \"Oral Surgery\" OR \"Maxillofacial Surgery\" AND \"Diagnosis\". Of 308 identified studies, 37 met the inclusion criteria focusing on AI-assisted detection interpretation and surgical planning in OMS. Results: AI is effective in identifying anatomical landmarks, evaluating lesions and cysts, diagnosing bone disease like medication-related osteonecrosis of jaws (MRONJ), planning dental implants, and aiding in the classification of fractures and temporomandibular joint (TMJ) disorders. AI can match or outperform human experts in various diagnostic tasks, particularly in panoramic and cone-beam computed tomography (CBCT) image analysis. AI shows promise in early detection of impacted and supernumerary teeth, maxillofacial pathologies, neoplastic conditions, and soft tissue calcifications. Limitations: However, substantial methodological heterogeneity, inconsistent reporting of AI performance metrics, and limited external validation across the included studies constrain direct comparison of results and assessment of the generalizability of reported AI performance. Conclusions: AI may assist clinicians in diagnostic and treatment-related decision-making, but current evidence does not support its use as a replacement for comprehensive clinical assessment and professional judgment.",
 "zh_abstract": "[牙科期刊]【背景】人工智能（artificial intelligence, AI）在牙医学以及口腔颌面外科（oral and maxillofacial surgery, OMS）领域的使用正在迅速增长。本综述旨在评估AI在OMS中的当前应用，评价其优势与局限性，并识别需要进一步研究的领域。【材料与方法】使用PubMed、Scopus和Google Scholar进行了全面检索，目标关键词包括“artificial intelligence”“deep learning”“machine learning”“oral surgery”“maxillofacial surgery”和“diagnosis ‘Artificial Intelligence’ OR ‘Machine Learning’ OR ‘Deep Learning’ AND ‘Oral and Maxillofacial Surgery’ OR ‘Oral Surgery’ OR ‘Maxillofacial Surgery’ AND ‘Diagnosis’”。在308项已识别研究中，37项符合纳入标准，聚焦于OMS中AI辅助的检测解读和手术规划。【结果】AI在识别解剖标志、评估病变和囊肿、诊断药物相关性颌骨坏死（medication-related osteonecrosis of jaws, MRONJ）等骨病、规划牙种植体以及辅助骨折和颞下颌关节（temporomandibular joint, TMJ）疾病分类方面有效。AI在各种诊断任务中可达到或超过人类专家，尤其是在全景和锥形束计算机断层扫描（cone-beam computed tomography, CBCT）图像分析中。AI在阻生牙和多生牙、颌面部病变、肿瘤性疾病以及软组织钙化的早期检测中显示出前景。【局限性】然而，纳入研究之间存在显著的方法学异质性、AI性能指标报告不一致以及外部验证有限，限制了结果的直接比较和对所报告AI性能泛化能力的评估。【结论】AI可能辅助临床医生进行诊断和治疗相关决策，但当前证据不支持将其作为全面临床评估和专业判断的替代。",
-"day": "2026-10-28"
+"day": "2026-10-28",
+"also": [
+{
+"source": "PubMed · Clinical & experimental ophthalmology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42927942/"
+}
+]
 },
 {
 "title": "A Market, Not a Mandate, Is the Fastest Way to Bring AI Into Hospitals",
