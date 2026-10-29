@@ -73,6 +73,76 @@
   "day": "2026-10-29"
  },
  {
+  "title": "Patient trust in health education attributed to generative artificial intelligence versus a physician: a randomized survey study of pregnant and postpartum women.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42950882/",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "DOI 10.1093/jamia/ocag180",
+  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ec33bd731d70",
+  "keep": true,
+  "zh_title": "孕妇与产后女性对生成式AI健康教育内容的信任度随机调查",
+  "summary": "JAMIA随机调查研究比较孕妇及产后女性对署名医师、生成式AI、医AI协作或无署名健康教育文章的信任差异。",
+  "key_points": [
+   "预注册随机平行调查研究，n=400美国孕产期成人",
+   "同一文章随机署名医师、AI、医AI协作或无作者",
+   "评估文章吸引力、内容信任及对推荐医师信任",
+   "80%参与者通过时间与注意力检查"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "预注册随机设计但为信任度调查、样本400，无临床结局，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of the American Medical Informatics Association : JAMIA] To compare patient trust in educational health contentand the physician providing it, when authorship is attributed to a physician or generative artificial intelligence (AI). In a preregistered randomized, parallel survey study, participants read a health education article. Individuals were randomized to 1 of 4 conditions, attributing authorship of an identical article to (1) a physician author, (2) generative AI, (3) a physician assisted by AI (hybrid authorship), or (4) no author. Pregnant or postpartum English-speaking US adults (n = 400) were recruited in August-October 2025 via an online survey panel. Eighty percent passed timing and attention checks. Participants rated article engagement, content trust, and trust in the (hypothetical) recommending physician with Likert-scales. Bonferroni corrections were applied to post hoc pairwise comparisons (α = 0.05). Among participants who correctly recalled authorship (n = 195), AI-only authorship was associated with lower trust in content (mean, 9.43 vs 11.11; P = .001) and the recommending physician (mean, 8.93 vs 10.84; P = .03) compared with physician-only authorship, while hybrid authorship did not differ significantly from physician-only authorship for either outcome (content: P = .08; physician: P > .99). Sensitivity analyses including all participants (n = 321) were generally consistent with the primary findings. Engagement did not differ significantly across conditions in the primary analytic sample. As generative AI becomes increasingly integrated into clinical care, how AI involvement and physician oversight are communicated to patients could have important implications for patient trust. AI authorship was associated with reduced trust in patient-facing education despite identical, clinician-written content.",
+  "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 在作者署名归属于医生或生成式人工智能（AI）时，比较患者对教育性健康内容及提供该内容的医生的信任。在一项预注册的随机、平行调查研究中，参与者阅读一篇健康教育文章。个体被随机分配到4种条件之一，将同一篇文章的作者署名归于（1）医生作者、（2）生成式AI、（3）由AI协助的医生（混合署名）或（4）无作者。妊娠期或产后英语美国成年人（n = 400）于2025年8月至10月通过在线调查面板招募。80%通过了时间与注意力检查。参与者使用Likert量表对文章参与度、内容信任以及对（假设的）推荐医生的信任进行评分。事后两两比较采用Bonferroni校正（α = 0.05）。在正确回忆作者身份的参与者（n = 195）中，与仅医生署名相比，仅AI署名与对内容的信任较低相关（均值，9.43 vs 11.11；P = .001）以及对推荐医生的信任较低相关（均值，8.93 vs 10.84；P = .03），而混合署名在两项结局上均与仅医生署名无显著差异（内容：P = .08；医生：P > .99）。纳入所有参与者（n = 321）的敏感性分析总体上与主要发现一致。在主要分析样本中，参与度在各条件间无显著差异。随着生成式AI日益融入临床护理，如何向患者传达AI参与和医生监督可能对患者信任产生重要影响。尽管内容相同且由临床医生撰写，AI署名与对面向患者教育的信任降低相关。",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "Distribution matching based personalized federated learning for multi-center, cross-modal liver image registration",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004342?dgcid=rss_sd_all",
+  "date": "2026-10-29T10:17:13.734524+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "dd8126df0b01",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "分布匹配个性化联邦学习用于多中心跨模态肝脏图像配准",
+  "summary": "提出基于分布匹配的个性化联邦学习方法，用于多中心、跨模态肝脏图像配准。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "隐私与联邦学习"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法类同行评审论文，但仅有标题与著录信息、无摘要，证据细节不足，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-10-29",
+  "abstract_days": [
+   "2026-10-29"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
   "title": "Moving beyond overconfidence: A clinical roadmap for integrating uncertainty-aware AI models into medical workflows",
   "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00541-0?rss=yes",
   "date": "2026-10-28T00:00:00+00:00",
@@ -105,6 +175,113 @@
   "processing": "model-enriched",
   "abstract": "Luo et al. review uncertainty quantification in medical AI from a clinical perspective and propose a practical roadmap for translating uncertainty estimates into meaningful action. They highlight the need to validate uncertainty against clinically relevant errors and embed its use within real-world workflows and governance.",
   "zh_abstract": "Luo等从临床视角综述了医学AI中的不确定性量化，并提出了将不确定性估计转化为有意义行动的实用路线图。他们强调需要针对临床相关错误验证不确定性，并将其使用嵌入真实世界工作流程和治理中。",
+  "day": "2026-10-29",
+  "also": [
+   {
+    "source": "PubMed · Cell reports. Medicine",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42950830/"
+   }
+  ]
+ },
+ {
+  "title": "FDA clears Deep Reasoning AI’s NeuroDR for neurovascular CT scans",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajBmTjVGa1NqX1h6S0R0dzBncXNPR2oxamNwbWNWMU1WLWUxWEg5aWZ6UHhzanc2UzFUOUpvcmF2SXZkQXhHT2lXWS1DZkNsLTlYSWdMRVktOWUtNlFBYlA3U3o4SDF5ajJmbl96Yy1Sb0pzVEM0bEVLN2w2QjdndEw4VUlOUjJqSHBJ?oc=5",
+  "date": "2026-10-28T11:11:30+00:00",
+  "source": "Medical Device Network",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.medicaldevice-network.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "e8ec28d798f1",
+  "keep": true,
+  "zh_title": "FDA批准NeuroDR用于神经血管CT",
+  "summary": "仅据标题：FDA批准Deep Reasoning AI的NeuroDR用于神经血管CT扫描。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "监管",
+  "tags": [
+   "医学影像",
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "已获批",
+  "score": 6,
+  "reason": "FDA器械批准属实质监管进展，但仅有标题信息，按规则封顶6分",
+  "processing": "model-enriched",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "Recombinant Human Prourokinase for Acute Ischemic Stroke in the Extended Window Selected by CT-Based Artificial Intelligence",
+  "link": "https://clinicaltrials.gov/study/NCT07901842",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "NCT07901842",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "0c5d771c6608",
+  "keep": true,
+  "zh_title": "CT-AI筛选延长时间窗卒中溶栓三期随机试验注册",
+  "summary": "浙江大学团队注册多中心双盲随机三期试验，用非增强CT人工智能组织窗筛选卒中患者评估rhPro-UK。",
+  "key_points": [
+   "多中心前瞻随机双盲安慰剂对照，拟入组826例",
+   "发病4.5至24小时，CT-AI组织窗算法筛选",
+   "主要终点为改良Rankin量表达标比例",
+   "目前尚未开始招募，无结果"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持"
+  ],
+  "evidence": "新闻",
+  "score": 6,
+  "reason": "AI用于筛选的前瞻性多中心三期RCT设计，但仅注册无结果，未及重要档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Second Affiliated Hospital, Zhejiang University, School of Medicine; conditions: Acute Ischemic Stroke; type: INTERVENTIONAL; phase: PHASE3; enrollment: 826; status: NOT_YET_RECRUITING] This multicenter, prospective, randomized, double-blind, placebo-controlled trial aims to evaluate the efficacy and safety of intravenous recombinant human prourokinase (rhPro-UK) in patients with acute ischemic stroke treated more than 4.5 hours and up to 24 hours after stroke onset, selected using a noncontrast computed tomography-based artificial intelligence (CT-AI) tissue-window algorithm. A total of 826 participants will be randomly assigned in a 1:1 ratio to receive intravenous rhPro-UK or matching placebo, in addition to guideline-recommended standard stroke care. The primary outcome is the proportion of participants achieving a modified Rankin Scale (mRS) score of 0-1 at 90 ± 7 days. Secondary outcomes include functional outcomes, changes in neurological deficits, early neurological improvement at 24 hours and 7 days, and tissue reperfusion at 24-48 hours. Safety outcomes include symptomatic intracranial hemorrhage, parenchymal hematoma, all-cause mortality, and serious systemic bleeding.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：浙江大学医学院附属第二医院；疾病：急性缺血性卒中；类型：干预性；阶段：3期；入组人数：826；状态：尚未招募] 这项多中心、前瞻性、随机、双盲、安慰剂对照试验旨在评估静脉注射重组人尿激酶原（rhPro-UK）在卒中发作后超过4.5小时至24小时内接受治疗、并经基于非增强计算机断层扫描的人工智能（CT-AI）组织窗算法筛选的急性缺血性卒中患者中的疗效和安全性。共826名参与者将按1:1比例随机分配，在指南推荐的标准卒中护理基础上接受静脉注射rhPro-UK或匹配安慰剂。主要结局是90 ± 7天时达到改良Rankin量表（mRS）评分0-1分的参与者比例。次要结局包括功能结局、神经功能缺损变化、24小时和7天时的早期神经功能改善，以及24-48小时时的组织再灌注。安全性结局包括症状性颅内出血、实质性血肿、全因死亡率和严重全身性出血。",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "Deep learning models to detect neurodegenerative diseases across different modalities, datasets, and stages: A systematic review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42949499/",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "DOI 10.1177/09287329261502060",
+  "source": "PubMed · Technology and health care : official journal of the European Society for Engineering and Medicine",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "c3da364e9b2c",
+  "keep": true,
+  "zh_title": "跨模态跨数据集跨阶段的神经退行性疾病深度学习检测系统综述",
+  "summary": "PRISMA 系统综述纳入 2019 年至 2026 年 4 月的 111 项研究，评估多模态深度学习用于神经退行性疾病早期预测、诊断与进展监测。",
+  "key_points": [
+   "纳入 111 项研究，覆盖 2019–2026 年 4 月",
+   "按早期预测、诊断、进展三阶段分层评估",
+   "指出模型性能高度依赖数据可得性与多样性"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "神经科学",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "系统综述纳入研究数量较多但仅见摘要，结论细节有限，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Technology and health care : official journal of the European Society for Engineering and Medicine] BackgroundNeurodegenerative diseases like Alzheimer's and Parkinson's pose significant diagnostic challenges because they are incurable. Their symptoms often overlap with those of normal ageing and involve progressive neuronal loss. This makes early prediction, proper diagnosis, and ongoing monitoring crucial at every stage of the disease. Deep learning has become a useful tool for handling different types of data. However, the performance of these models relies heavily on the availability and variety of data, making it important to characterize datasets.ObjectiveThis PRISMA-based systematic review looks at 111 studies from 2019 to April 2026, organized into three clinical stages of neurodegenerative diseases: early prediction, diagnosis, and progression.MethodsEach study is assessed across four dimensions: data type (neuroimaging or non-neuroimaging), datasets (open-access, self-created, or hybrid), deep learning model architecture, and the use of explainable AI.ResultsMRI is the only imaging modality that spans all three stages. Speech is the most common non-neuroimaging method for diagnosis, while gait is used only for diagnosis and progression. The ADNI and PPMI datasets are the most commonly used. Self-created datasets introduce new modalities such as ECG and iPSCs, which are not found in open-access datasets. CNNs are the leading models for neuroimaging tasks, while LSTMs and RNNs capture temporal patterns in longitudinal datasets. Survival models are exclusively used for ALS and LATE. Fewer than 6% of the studies used confirmed XAI. Only 2 of the 111 studies validated their results on an independent external cohort.ConclusionThis review is the only one that covers all three disease stages across multiple neurodegenerative diseases.",
+  "zh_abstract": "[Technology and Health Care（欧洲工程与医学学会官方期刊）]【背景】阿尔茨海默病和帕金森病等神经退行性疾病因无法治愈而带来重大诊断挑战。其症状常与正常衰老的症状重叠，并涉及进行性神经元丢失。这使得在疾病的每个阶段进行早期预测、正确诊断和持续监测至关重要。深度学习已成为处理不同类型数据的有用工具。然而，这些模型的性能在很大程度上依赖于数据的可获得性和多样性，因此对数据集进行表征很重要。【目的】本项基于PRISMA的系统综述考察了2019年至2026年4月的111项研究，并按神经退行性疾病的三个临床阶段进行组织：早期预测、诊断和进展。【方法】每项研究均从四个维度进行评估：数据类型（神经影像或非神经影像）、数据集（开放获取、自建或混合）、深度学习模型架构，以及可解释人工智能（XAI）的使用情况。【结果】MRI是唯一涵盖全部三个阶段的影像模态。语音是诊断中最常用的非神经影像方法，而步态仅用于诊断和进展。ADNI和PPMI数据集是最常用的数据集。自建数据集引入了开放获取数据集中没有的新模态，如ECG和iPSCs。CNN是神经影像任务的主要模型，而LSTM和RNN用于捕捉纵向数据集中的时间模式。生存模型仅用于ALS和LATE。少于6%的研究使用了经确认的XAI。111项研究中仅有2项在独立外部队列上验证了其结果。【结论】本综述是唯一一项涵盖多种神经退行性疾病全部三个疾病阶段的综述。",
   "day": "2026-10-29"
  },
  {
@@ -137,6 +314,40 @@
   "evidence": "同行评审",
   "score": 4,
   "reason": "方法类论文但仅有标题信息，无法判断外部验证与效果，属增量档。",
+  "processing": "model-enriched",
+  "day": "2026-10-29",
+  "abstract_days": [
+   "2026-10-29"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Unsupervised monocular endoscopic depth estimation and overestimation",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004251?dgcid=rss_sd_all",
+  "date": "2026-10-29T10:17:13.734524+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "92a31e8c6ac9",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "无监督单目内镜深度估计及其高估问题",
+  "summary": "Medical Image Analysis刊出论文，题名涉及无监督单目内镜深度估计及深度高估问题（仅标题信息）。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "手术",
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题与作者信息，无摘要与验证细节，按标题信息判定为增量档",
   "processing": "model-enriched",
   "day": "2026-10-29",
   "abstract_days": [
@@ -320,6 +531,78 @@
   "day": "2026-10-29"
  },
  {
+  "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+  "link": "https://arxiv.org/abs/2610.36325",
+  "date": "2026-10-26T21:55:26+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.36325",
+  "pop": null,
+  "id": "d2a96d0f5e6e",
+  "keep": true,
+  "zh_title": "本体引导多智能体可解释鉴别诊断推理",
+  "summary": "arXiv预印本提出本体引导多智能体框架，模拟医师迭代推理以提升鉴别诊断可解释性。",
+  "key_points": [
+   "针对LLM依赖模式识别、依据不足的问题",
+   "本体引导多智能体复现医师迭代推理过程",
+   "目标是使诊断结论可追溯、可供临床评估"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "智能体",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "有新意的多智能体可解释方法预印本，未提供外部验证信息，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training data rather than grounded clinical evidence, and can generate plausible yet unsupported diagnostic conclusions. Their reasoning remains largely opaque, making it difficult for clinicians to assess the evidence and rationale behind a given recommendation. To address this gap, we propose an ontology-guided, multiagent differential diagnosis framework that replicates the iterative reasoning process of physicians. The framework grounds diagnostic inference in a structured, expert-curated medical knowledge base, enabling interpretation of symptoms, clinical findings, or disease relationships, while decomposing diagnosis into explicit, auditable reasoning steps. This ontology-based grounding constrains inference to evidence-backed associations, reducing hallucination and improving diagnostic transparency, traceability, and consistency. The system then identifies the most discriminative missing symptoms and generates targeted follow-up questions to reduce uncertainty through a process that mirrors to clinical inquiry. Together, these components improve the reliability, explainability, and diagnostic accuracy of AI-assisted differential diagnosis. The source code is publicly available.",
+  "zh_abstract": "有效的鉴别诊断依赖于结构良好且无歧义的患者病例描述，因为不完整或模糊的临床信息很容易导致诊断错误和不一致的推理。大型语言模型（LLMs）最近在医学问答和临床推理方面显示出有前景的能力；然而，即使在医学基准测试中达到有竞争力的表现，它们也常常依赖从训练数据中学到的模式识别，而非有依据的临床证据，并可能生成看似合理但缺乏支持的诊断结论。其推理在很大程度上仍不透明，使临床医生难以评估某一推荐背后的证据和理由。为解决这一差距，我们提出了一种本体引导的多智能体鉴别诊断框架，复现医生的迭代推理过程。该框架将诊断推断建立在结构化、由专家整理的医学知识库之上，从而能够解释症状、临床发现或疾病关系，同时将诊断分解为明确、可审计的推理步骤。这种基于本体的 grounding 将推断限制在有证据支持的关联上，减少幻觉并提高诊断透明度、可追溯性和一致性。随后，系统识别最具鉴别力的缺失症状，并生成有针对性的追问问题，通过一个镜像临床询问的过程来降低不确定性。这些组件共同提高了AI辅助鉴别诊断的可靠性、可解释性和诊断准确性。源代码公开可用。",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "Decision models can offload structured clinical tasks from large language models",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365130v1?rss=1",
+  "date": "2026-10-12T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.09.26365130",
+  "pop": null,
+  "id": "0a560b87aa15",
+  "score": 6,
+  "zh_title": "决策模型可承接大模型的结构化临床任务",
+  "tags": [
+   "医学大模型",
+   "临床NLP",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "summary": "预印本探索专用决策模型Jev在死亡率风险、Choosing Wisely问题与结肠癌分期任务上替代大语言模型的效果，并与五个旗舰大模型对比。",
+  "abstract": "Decision models like Jev read text and return probabilities, categories, or ordinal levels, with confidence scores for the latter two, at a fraction of large language models (LLMs) cost. We explored how Jev could be integrated into clinical workflows for all these output types: mortality risk estimation, categorical Choosing-Wisely decisions for patient questions, and ordinal colon cancer staging. With standard LLM-style inputs, Jev trailed five flagship LLMs: mortality AUROC was 0.822 versus 0.837-0.846; Choosing-Wisely accuracy, 87.7% versus 98.4-100%; and staging accuracy, 45.4% versus 94.2-100%. Developer-recommended input alterations improved staging accuracy to 75.8% with medical context, 82.1% with task decomposition, and 85.8% with both. None of Jevs staging errors had full confidence. Using Jev for fully confident staging decisions and LLMs for the rest was non-inferior to each LLM alone and cut flagship LLM costs by 33-44%. Prompted as designed, decision models may efficiently share structured clinical tasks with LLMs.",
+  "key_points": [
+   "死亡率AUROC 0.822，低于LLM的0.837–0.846",
+   "标准输入下分期准确率45.4%，LLM为94.2–100%",
+   "按开发者建议改写输入后分期准确率最高达85.8%"
+  ],
+  "processing": "model-enriched",
+  "section": "大模型与智能体",
+  "day": "2026-10-29",
+  "keep": true,
+  "type": "论文",
+  "reason": "预印本方法对比充分、含成本讨论，但无外部验证，属值得一看档",
+  "zh_abstract": "像Jev这样的决策模型读取文本并返回概率、类别或有序等级，对后两者还给出置信度分数，其成本仅为大型语言模型（LLMs）的一小部分。我们探索了如何将Jev整合到针对所有这些输出类型的临床工作流程中：死亡风险估计、针对患者问题的分类式Choosing Wisely决策，以及有序结肠癌分期。采用标准LLM风格输入时，Jev落后于五个旗舰LLM：死亡风险AUROC为0.822，而后者为0.837-0.846；Choosing Wisely准确率为87.7%，而后者为98.4-100%；分期准确率为45.4%，而后者为94.2-100%。开发者推荐的输入调整将分期准确率提高至75.8%（加入医学背景）、82.1%（任务分解）和85.8%（两者兼有）。Jev的分期错误均未具有完全置信度。将Jev用于完全置信的分期决策、LLM用于其余决策，不劣于任一LLM单独使用，并将旗舰LLM成本降低33-44%。按设计进行提示后，决策模型可与LLMs高效分担结构化临床任务。"
+ },
+ {
   "title": "When AI Becomes a Medical Device: FDA Boundaries for Patient-Facing Health Tools",
   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNblNJdnhfR0xYdDZqMzFZanpIYzlGR2V3NC1UMG9CM3c4OGl5NzdrQW4wU09aOWNKRWRwX0c2VW5PVmNtamFFUXpacEx3d2RkYnk4MlJwNTI0U3BNeFJLTGFmR2s4eC1LOGk0ejVBZnE2S0JQdjBKbkdfUUxqOHJEYzhfNFU5SkpldXdpVTJiNERsbS1qWFRXWmIwakFTS3JOeWlIaUI0dXZZXzUyQnlOVVJQd3ZqaV92Qm1pdzFTNUVJX2k1bC1meXZ0T204cGNxTVI3V1RwbVp4NmZGeGRvSi1fWjg1OExsRVNkQWs5RWVvTFM5OXJWc1Bn?oc=5",
   "date": "2026-10-26T19:28:01+00:00",
@@ -345,6 +628,69 @@
   "evidence": "新闻",
   "score": 4,
   "reason": "监管边界话题有信息价值，但仅标题无正文，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "Using an Artificial Intelligence Software Tool (iSeg) During Radiation Treatment Planning for Patients With Lung Tumors",
+  "link": "https://clinicaltrials.gov/study/NCT07898241",
+  "date": "2026-10-27T00:00:00+00:00",
+  "badge": "NCT07898241",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "64815f674703",
+  "keep": true,
+  "zh_title": "AI 工具 iSeg 用于肺部肿瘤放疗计划的多中心试验注册",
+  "summary": "新注册介入性试验拟评估 AI 工具 iSeg 在肺部肿瘤放疗计划中自动勾画靶区的安全性与有效性，计划入组 34 例，尚未开始招募。",
+  "key_points": [
+   "AI 基于 CT 生成肿瘤轮廓供医师审核修改",
+   "计划入组 34 例，尚未开始招募",
+   "暂无结果数据"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅试验注册信息，小样本且无结果，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Northwestern University; conditions: Lung Carcinoma, Lung Non-Small Cell Carcinoma, Metastatic Malignant Neoplasm in the Lung; type: INTERVENTIONAL; phase: NA; enrollment: 34; status: NOT_YET_RECRUITING] This clinical trial studies whether an artificial intelligence (AI) software tool called iSeg can be safely and effectively used during routine radiation treatment planning for patients with lung tumors. Typical radiation treatment planning involves physicians manually outlining the tumors to plan where the radiation therapy will be delivered. This process can be time consuming and may vary between physicians. iSeg uses AI to analyze computed tomography (CT) images and generate a proposed tumor outline that can then be reviewed and modified by the treating physician during radiation treatment planning which may help improve accuracy and provide more consistent results and better planning. iSeg may be safe and effective to use during radiation treatment planning for patients with lung tumors.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Northwestern University（西北大学）；疾病：肺癌、肺非小细胞癌、肺部转移性恶性肿瘤；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：34；状态：NOT_YET_RECRUITING（尚未招募）] 本临床试验研究名为iSeg的人工智能（AI）软件工具能否在肺肿瘤患者的常规放射治疗计划制定过程中安全有效地使用。典型的放射治疗计划制定包括医生手动勾画肿瘤，以规划放射治疗的照射位置。这一过程可能耗时，且不同医生之间可能存在差异。iSeg使用AI分析计算机断层扫描（CT）图像，并生成一个建议的肿瘤轮廓，随后可由治疗医生在放射治疗计划制定过程中进行审核和修改，这可能有助于提高准确性，并提供更一致的结果和更好的计划。iSeg在肺肿瘤患者的放射治疗计划制定过程中使用可能是安全有效的。",
+  "day": "2026-10-29"
+ },
+ {
+  "title": "医疗AI诊断：为什么很难成为一门独立生意？",
+  "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01b29aakp0dEFrSFNIdUMxX0g1UXZEWHdHWFNRX2Y0R0VoTWhOR3lvUmJXbFdSa0tTVEZPV0ZrQ2t4LUFfaV9nVUdQMDZSdw?oc=5",
+  "date": "2026-10-28T00:40:31+00:00",
+  "source": "36Kr",
+  "source_group": "Google News · NMPA AI",
+  "home": "https://m.36kr.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "5343e634e152",
+  "keep": true,
+  "zh_title": "医疗AI诊断为何难成独立生意",
+  "summary": "仅据标题：文章讨论医疗AI诊断业务为何难以成为一门独立生意。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "观点",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "商业化观点类文章，仅标题，增量有限",
   "processing": "model-enriched",
   "day": "2026-10-29"
  },
@@ -3944,6 +4290,10 @@
    {
     "source": "粤港澳都市网",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01S2hQdGJ4Y3Fyc0hvcVdGdF9vYXhkUjBCSUo3ZlhqaWthblc3TGx5TzlqcjNrOXhRTG9Ba3BkTGJGZnQ4c01CVjFZNUI3c2ZLY0ZkWFY0TzU4OWFKLXpnLQ?oc=5"
+   },
+   {
+    "source": "新浪财经",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlJMalBMNGRWTk1mTWpTNTlEc2VUSVEwX0RPSXZVRTlUSERqN1pqYkItcm5XYmNJLVRWaG85bUtadlFaaHU2WV9talp5Y0JiVzB4YlZiUzZPb1pOUjE0THdPaWFsSk5POHdzMGczSVE4d1pHUGlpT18xeHFZRzR0QXpsRQ?oc=5"
    }
   ]
  },
@@ -8172,31 +8522,6 @@
   "type": "观点",
   "reason": "叙述性综述无系统检索与定量合并，按综述档位取中低分",
   "zh_abstract": "[Healthcare (Basel, Switzerland)] 【背景】人工智能（AI）和大语言模型（LLM）可能使外科信息更易获取和理解。然而，这些工具不能取代临床医生在共享决策中的作用，也不能取代有效知情同意的要求。【方法】本叙述性综述沿外科患者路径展开，从诊断和解释到方案比较、共享决策和知情同意。它考察了传统数字工具、LLM辅助沟通、个性化预测、直接针对同意的研究、患者和专业人员视角以及法律、伦理和治理问题。未进行正式荟萃分析和研究层面偏倚风险评估。【结果】AI可能支持外科护理的若干阶段。诊断和预测系统可辅助临床医生。LLM可帮助解释已批准的信息、为患者咨询做准备并改进同意材料。传统交互式工具在改善理解方面证据最强。LLM辅助同意的证据仍主要基于模拟和文档分析。面向患者的使用需要来源控制、隐私保护和可见的临床监督。AI不能确立能力、自愿性或最终授权。我们提出一个五级框架，其中保障措施随临床影响力增加而增强。【结论】当AI使用已批准信息、服务于明确任务并始终处于临床监督之下时，它可能支持患者从诊断走向知情外科选择。当前证据不支持自主的AI介导同意或AI指导的治疗选择。目标应是更知情、偏好敏感的决定，而不是自动签名。"
- },
- {
-  "title": "Decision models can offload structured clinical tasks from large language models",
-  "link": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365130v1?rss=1",
-  "desc": "Decision models like Jev read text and return probabilities, categories, or ordinal levels, with confidence scores for the latter two, at a fraction of large language models (LLMs) cost. We explored how Jev could be integrated into clinical workflows for all these output types: mortality risk estimation, categorical Choosing-Wisely decisions for patient questions, and ordinal colon cancer staging. With standard LLM-style inputs, Jev trailed five flagship LLMs: mortality AUROC was 0.822 versus 0.837-0.846; Choosing-Wisely accuracy, 87.7% versus 98.4-100%; and staging accuracy, 45.4% versus 94.2-100%. Developer-recommended input alterations improved staging accuracy to 75.8% with medical context, 82.1% with task decomposition, and 85.8% with both. None of Jevs staging errors had full confidence. Using Jev for fully confident staging decisions and LLMs for the rest was non-inferior to each LLM alone and cut flagship LLM costs by 33-44%. Prompted as designed, decision models may efficiently share structured clinical tasks with LLMs.",
-  "date": "2026-10-12T00:00:00+00:00",
-  "source": "medRxiv",
-  "source_group": "medRxiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.64898/2026.10.09.26365130",
-  "pop": null,
-  "id": "0a560b87aa15",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "Decision models like Jev read text and return probabilities, categories, or ordinal levels, with confidence scores for the latter two, at a fraction of large language models (LLMs) cost. We explored how Jev could be integrated into clinical workflows for all these output types: mortality risk estimation, categorical Choosing-Wisely decisions for patient questions, and ordinal colon cancer staging. With standard LLM-style inputs, Jev trailed five flagship LLMs: mortality AUROC was 0.822 versus 0.837-0.846; Choosing-Wisely accuracy, 87.7% versus 98.4-100%; and staging accuracy, 45.4% versus 94.2-100%. Developer-recommended input alterations improved staging accuracy to 75.8% with medical context, 82.1% with task decomposition, and 85.8% with both. None of Jevs staging errors had full confidence. Using Jev for fully confident staging decisions and LLMs for the rest was non-inferior to each LLM alone and cut flagship LLM costs by 33-44%. Prompted as designed, decision models may efficiently share structured clinical tasks with LLMs.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
  },
  {
   "title": "fastino/Fastino-Nemotron-3.5-Super-VL-Healthcare",
