@@ -69,7 +69,13 @@
   "processing": "model-enriched",
   "abstract": "Liu et al. present MorphX, an interpretable deep learning framework that decodes cancer prognosis from whole-slide histological images and reveals morphological biomarkers. Across independent cohorts, MorphX identifies eight morphology-based biomarkers, supporting trustworthy, transparent, AI-driven precision oncology.",
   "zh_abstract": "Liu等人提出MorphX，一种可解释的深度学习框架，可从全切片组织学图像中解码癌症预后并揭示形态学生物标志物。在独立队列中，MorphX识别出八种基于形态学的生物标志物，支持可信、透明、人工智能驱动的精准肿瘤学。",
-  "day": "2026-10-30"
+  "day": "2026-10-30",
+  "also": [
+   {
+    "source": "PubMed · Cell reports. Medicine",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42956750/"
+   }
+  ]
  },
  {
   "title": "Large Language Model-Assisted Radiology Report Quality Assurance: Real-World Multicenter Evaluation.",
@@ -105,6 +111,42 @@
   "processing": "model-enriched",
   "abstract": "[Journal of medical Internet research] Radiology reports serve as the definitive clinical record of imaging diagnoses, with their accuracy being directly critical to patient safety. However, amid escalating workloads, manual review remains inadequate for capturing subtle errors in reports on a large scale. Although large language models (LLMs) have demonstrated considerable promise in medical text processing, previous studies have predominantly been confined to radiology report text from a single imaging modality or datasets with synthetic errors. This study aimed to evaluate the feasibility, accuracy, and generalizability of general-purpose LLMs for quality assurance of radiology report text from multiple imaging modalities (x-ray, computed tomography [CT], and magnetic resonance imaging [MRI]), multi-anatomical regions, and multicenter clinical settings, with head-to-head comparisons conducted against radiologists of varying seniority. Radiology report texts from 3 aforementioned imaging modalities and 5 anatomical regions (head, chest, abdomen, spine, and knee) were retrospectively collected from center 1 (March 2025-May 2025) and reviewed using a clinician-annotated 5-category error taxonomy (type 1: interpretive; type 2: factual). Five LLMs (Qwen3, GPT-5.4 Pro, Gemini 3.1 Pro, Llama 4, and DeepSeek-V3.1) were benchmarked on 10,000 randomly selected reports, and the best-performing model was evaluated on the full cohort. A blinded head-to-head comparison with 3 radiologists (3-10 years of experience) used a modality-stratified, error-enriched challenge set. The radiologists subsequently rated the model-generated explanations using a 5-point Likert scale. Cross-center performance was evaluated in an independent external cohort. The same 2 senior radiologists labeled reports from both centers using the same protocol, resolving disagreements by consensus. In total, 4.6% (4431/95,582) of the reports in center 1 contained at least one confirmed text internal error. Qwen3, the selected model, achieved a report-level sensitivity, specificity, positive predictive value, and F1-score of 0.99, 0.99, 0.90, and 0.94, respectively, with high performance across reports from the 3 imaging modalities and multiple anatomical regions and better detection of factual than interpretive errors. In the error-enriched challenge set, its error instance exact category recall exceeded that of the radiologists (0.96 vs 0.45-0.67; P<.001), with a shorter mean task completion time (5.80 vs 55.80-67.80 seconds per report",
   "zh_abstract": "[Journal of medical Internet research] 放射学报告是影像诊断的最终临床记录，其准确性直接对患者安全至关重要。然而，在工作量不断升级的情况下，人工审核仍不足以大规模捕捉报告中的细微错误。尽管大语言模型（LLMs）在医学文本处理中已展现出相当大的前景，但既往研究主要局限于单一成像模态的放射学报告文本或包含合成错误的数据集。本研究旨在评估通用LLMs对来自多种成像模态（X射线、计算机断层扫描[CT]和磁共振成像[MRI]）、多解剖区域和多中心临床环境的放射学报告文本进行质量保证的可行性、准确性和泛化性，并与不同资历的放射科医师进行头对头比较。从中心1（2025年3月至2025年5月）回顾性收集来自上述3种成像模态和5个解剖区域（头部、胸部、腹部、脊柱和膝部）的放射学报告文本，并使用由临床医生标注的5类错误分类法（类型1：解释性；类型2：事实性）进行审核。五种LLMs（Qwen3、GPT-5.4 Pro、Gemini 3.1 Pro、Llama 4和DeepSeek-V3.1）在10,000份随机抽取的报告上进行基准测试，表现最佳的模型在完整队列上接受评估。使用按成像模态分层、错误富集的挑战集，与3名放射科医师（3-10年经验）进行盲法头对头比较。放射科医师随后使用5点Likert量表对模型生成的解释进行评分。在独立外部队列中评估跨中心性能。同两名资深放射科医师使用相同方案对来自两个中心的报告进行标注，并通过共识解决分歧。中心1共有4.6%（4431/95,582）的报告包含至少一个经确认的文本内部错误。所选模型Qwen3达到报告级灵敏度、特异度、阳性预测值和F1分数分别为0.99、0.99、0.90和0.94，在来自3种成像模态和多个解剖区域的报告中均表现良好，并且对事实性错误的检测优于解释性错误。在错误富集的挑战集中，其错误实例精确类别召回率超过放射科医师（0.96 vs 0.45-0.67；P<.001），且平均任务完成时间更短（每份报告5.80 vs 55.80-67.80秒）。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "TRACER, a time-to-event EHR foundation model for disease detection across health systems",
+  "link": "https://arxiv.org/abs/2610.40536",
+  "date": "2026-10-29T17:34:52+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.40536",
+  "pop": null,
+  "id": "f6e6034b42c3",
+  "keep": true,
+  "zh_title": "TRACER：跨医疗系统的事件时间EHR基础模型",
+  "summary": "预印本提出基于EHR的基础模型TRACER，在两家外部医疗系统验证16种疾病1/2/5年风险预测。",
+  "key_points": [
+   "预训练覆盖4家系统450万患者",
+   "外部验证200万患者、16种疾病",
+   "按筛查可接受的低假阳性率评估"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "医学大模型",
+   "电子病历",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 7,
+  "reason": "大样本预训练+独立医疗系统外部验证，符合外部验证加分，但为预印本未经同行评审。",
+  "processing": "model-enriched",
+  "abstract": "Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based foundation model pretrained on data from over 4.5 million patients from four health systems, and evaluated it on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from two health systems excluded from model development. In contrast to typical evaluations that focus on global metrics (e.g., AUROC), we measured performance at the low false-positive rates that are realistic for screening. We found that TRACER retained its discrimination in external health systems, and at 95% specificity, the patients it flagged were up to eight times more likely to be diagnosed within a year than unselected patients. Evaluating at this operating point also revealed what global metrics alone did not: detection and false-alert burden varied across diseases and health systems, even when discrimination appeared stable. Our results illustrate the potential of foundation models for screening and underscore the need for evaluation in health systems excluded from development to assess disease detection and false-alert burden at levels appropriate for intended clinical use.}",
+  "zh_abstract": "基于纵向电子健康记录（EHRs）训练的基础模型能够预测未来数年的临床诊断，使其成为疾病筛查的潜在工具。我们开发了 TRACER（Temporal Risk Assessment with Clinical EHR Representations），这是一个基于解码器的基础模型，在来自四个卫生系统的超过 450 万名患者的数据上预训练，并在来自两个未参与模型开发的卫生系统的超过 200 万名患者中，对 16 种新发疾病在 1 年、2 年和 5 年时间范围内的预测进行了评估。与关注全局指标（如 AUROC）的典型评估不同，我们在符合筛查实际的低假阳性率下测量性能。我们发现 TRACER 在外部卫生系统中保持了区分能力；在 95% 特异度下，其标记的患者在一年内被诊断的可能性最高可达未筛选患者的八倍。在这一操作点进行评估还揭示了仅靠全局指标无法显示的内容：即使区分能力看起来稳定，检出负担和误报警负担也因疾病和卫生系统而异。我们的结果说明了基础模型用于筛查的潜力，并强调需要在未参与开发的卫生系统中进行评估，以在适合预期临床使用的水平上评估疾病检出和误报警负担。",
   "day": "2026-10-30"
  },
  {
@@ -216,6 +258,80 @@
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
  {
+  "title": "Med-REDUCE: Representation transfer and efficiency under resolution constraints",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003749?dgcid=rss_sd_all",
+  "date": "2026-10-30T10:18:53.165527+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "97c433cbf911",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "Med-REDUCE：分辨率约束下的表征迁移与效率",
+  "summary": "仅见题录：该文在医学图像分析期刊讨论分辨率约束下的表征迁移与效率问题。",
+  "key_points": [
+   "发表于Medical Image Analysis",
+   "主题为图像表征迁移与分辨率约束",
+   "无摘要与结果信息可见"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅题录与作者信息，无摘要、无样本与验证信息，属增量档。",
+  "processing": "model-enriched",
+  "day": "2026-10-30",
+  "abstract_days": [
+   "2026-10-30"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "CeLDA+: Prototypical learning for age-robust cephalometric landmark detection",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003993?dgcid=rss_sd_all",
+  "date": "2026-10-30T10:18:53.165527+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "38e8f3852451",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "CeLDA+：年龄鲁棒的头影测量标志点检测",
+  "summary": "《医学图像分析》刊出CeLDA+，以原型学习实现年龄鲁棒的头影测量标志点检测；仅见标题与作者等书目信息。",
+  "key_points": [
+   "发表于Medical Image Analysis 2027年1月号",
+   "方法核心为原型学习（prototypical learning）",
+   "目标为提升跨年龄段标志点检测鲁棒性"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "方法类论文，仅书目信息无摘要与验证细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-30",
+  "abstract_days": [
+   "2026-10-30"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
   "title": "Performance of a foundation model to generate thousands of predicted outcomes across multiple use cases",
   "link": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366723v1?rss=1",
   "date": "2026-10-29T00:00:00+00:00",
@@ -249,6 +365,42 @@
   "processing": "model-enriched",
   "abstract": "Background. Predictive artificial intelligence (AI) models hold great promise for medical care. While many types of models have proliferated across healthcare and the life sciences, systematic, rapid generation of multi-condition predictions of diagnoses, future medical events and future clinical outcomes from a single foundation-model architecture remains rare. PhenOM(R) is a generative AI foundation model trained and validated on longitudinal medical-event data from more than 400 million patient records in the OM1 Real World Data Cloud (RWDC) and designed to complete predictive tasks for a broad array of medical diagnoses, events and clinical outcomes (collectively outcomes) at varying time intervals, currently up to five (5) years. This paper describes the implementation of PhenOM to complete a vast number of predictive tasks across clinical domains and outcomes. Methods. PhenOM was evaluated across four outcome categories (Future Risk, Screening, Care Opportunity, and Treatment Effect) in multiple domains spanning chronic disease, acute medical events, healthcare utilization, and rare and frequently undiagnosed conditions. Performance was assessed using area under the receiver operating characteristic curve (AUROC). Outcomes were defined within an eligible-population framework using standardized medical code sets (ICD-10, SNOMED, CPT, NDC, LOINC) unless outcomes could not be specified with an existing code. All benchmarks reported were derived from data excluded from training. Results. As of this publication, the single PhenOM model has been used to complete and validate thousands of predictive tasks covering more than 1,770 outcomes spanning most organ systems and clinical specialties, with new predictive tasks being validated each day. Overall, 80 percent of predictive tasks achieved AUROC of at least 0.70 and 30 percent achieved AUROC of at least 0.80. We present a sample of 177 of these tasks as examples that show the breadth of tasks the model can complete. Performance varied systematically by outcome and clinical domain. Conclusions. PhenOM demonstrates the ability to complete thousands of predictive tasks across clinical domains and outcomes at the individual patient level, without additional training. Outcomes include screening for undiagnosed conditions, predicting future conditions, medical events, effects of treatments, and assessing care opportunities. These can be ascertained at the individual patient and population levels. These findings ",
   "zh_abstract": "【背景】预测性人工智能（AI）模型对医疗照护具有很大前景。尽管许多类型的模型已在医疗健康和生命科学领域不断涌现，但基于单一基础模型架构、系统且快速地生成对诊断、未来医疗事件和未来临床结局的多病种预测仍然少见。PhenOM(R) 是一种生成式 AI 基础模型，基于 OM1 Real World Data Cloud（RWDC）中超过4亿份患者记录的纵向医疗事件数据进行训练和验证，设计用于在不同时间间隔内完成广泛医学诊断、事件和临床结局（统称结局）的预测任务，目前最长可达五（5）年。本文描述了 PhenOM 的实施，以完成跨越临床领域和结局的大量预测任务。【方法】PhenOM 在四个结局类别（未来风险（Future Risk）、筛查（Screening）、照护机会（Care Opportunity）和治疗效果（Treatment Effect））中进行了评估，涉及慢性病、急性医疗事件、医疗资源利用以及罕见和常未被诊断的疾病等多个领域。性能使用受试者工作特征曲线下面积（AUROC）评估。除非结局无法用现有编码指定，否则结局均在合格人群框架内使用标准化医学编码集（ICD-10、SNOMED、CPT、NDC、LOINC）定义。所报告的所有基准均来自训练时排除的数据。【结果】截至本文发表时，单一 PhenOM 模型已用于完成和验证数千项预测任务，覆盖超过1,770种结局，涵盖大多数器官系统和临床专科，且每天都有新的预测任务得到验证。总体而言，80%的预测任务达到至少0.70的 AUROC，30%达到至少0.80的 AUROC。我们展示其中177项任务作为示例，以表明该模型可完成任务的范围广度。性能因结局和临床领域而系统性变化。【结论】PhenOM 证明能够在个体患者层面完成跨越临床领域和结局的数千项预测任务，而无需额外训练。结局包括筛查未诊断疾病、预测未来疾病、医疗事件、治疗效果以及评估照护机会。这些可在个体患者和人群层面确定。这些发现",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
+  "link": "https://huggingface.co/papers/2610.31566",
+  "date": "2026-10-22T00:00:00.000Z",
+  "pop": "▲ 3 upvotes",
+  "badge": "arXiv 2610.31566",
+  "source": "Hugging Face Daily Papers",
+  "source_group": "Hugging Face Daily Papers",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "id": "24d4cdce5f25",
+  "keep": true,
+  "zh_title": "CellTrack-Bench：视觉语言模型细胞追踪基准",
+  "summary": "预印本推出CellTrack-Bench，基于15个细胞追踪数据集、1537道题评测视觉语言模型并与专用追踪器对比。",
+  "key_points": [
+   "覆盖四种成像模态、9041次细胞连接判断",
+   "与专用细胞追踪算法进行对照",
+   "另设需更强推理的困难子集"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "基准",
+   "数据集",
+   "多模态"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "多数据集公开基准具一定规模，但为未经同行评审预印本",
+  "processing": "model-enriched",
+  "abstract": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenarios, their general-purpose accuracy compared with specialized algorithms remains in question. One such domain is cell tracking, which requires spatiotemporal awareness of cell dynamics. To evaluate this, we created a new benchmark, CellTrack-Bench, which assesses Vision-Language Models' (VLMs) cell-tracking-related performance against specialized trackers. The full benchmark draws from 15 standard cell-tracking datasets across four imaging modalities and comprises 1,537 problems corresponding to 9,041 cell-linking decisions. We selected a hard subset requiring greater reasoning effort by identifying failures shared across distinct algorithmic trackers. With this proposed dataset, we: (i) evaluated different environment harnesses for VLMs; (ii) benchmarked 9 frontier closed-source models and 13 open-weight models; and (iii) provided a detailed analysis of their failure modes. Code, the stored model outputs, and a pipeline that regenerates the benchmark from the source datasets are available at https://github.com/royerlab/celltrack-bench.",
+  "zh_abstract": "大型语言模型在编程、数学和写作等文本优先任务上已展现出卓越性能。近期的努力正在将模型的训练转向纳入科学问题，而这些问题往往存在于文本之外的高度专业化领域，例如蛋白质结构和生物图像。然而，在这些场景中，与专用算法相比，它们的通用准确性仍然存疑。细胞追踪就是这样一个领域，它需要对细胞动力学具备时空感知能力。为了评估这一点，我们创建了一个新基准 CellTrack-Bench，用于评估视觉-语言模型（Vision-Language Models，VLMs）在细胞追踪相关任务上的表现，并与专用追踪器进行比较。完整基准取自四种成像模态下的 15 个标准细胞追踪数据集，包含 1,537 个问题，对应 9,041 个细胞连接决策。我们通过识别不同算法追踪器共有的失败案例，选择了一个需要更强推理努力的困难子集。利用这一提出的数据集，我们：(i) 评估了用于 VLMs 的不同环境测试框架（environment harnesses）；(ii) 对 9 个前沿闭源模型和 13 个开放权重模型进行了基准测试；(iii) 对它们的失败模式进行了详细分析。代码、存储的模型输出以及从源数据集重新生成该基准的流水线可在 https://github.com/royerlab/celltrack-bench 获取。",
   "day": "2026-10-30"
  },
  {
@@ -288,6 +440,79 @@
   "day": "2026-10-30"
  },
  {
+  "title": "STAT+: FDA, CMS scramble to avoid regulatory logjam as more states look to test AI in clinical settings",
+  "link": "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/?utm_campaign=rss",
+  "date": "2026-10-30T08:30:00+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "29ac6d2b30c6",
+  "also": [
+   {
+    "source": "STAT",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRy1jVmpNYlAyVnFENy1NcS1NQUZQRUpvTXoybWhvYi1ySThET1JSbWpuYXBrRTNEMWJpQndmTXA0bFA0ZktZS1BmdjMxQW5BbTJHSGlWUmR3MU5pSkZsbnhrRmphVWtOOEt3aUI3NEVJTXR1c0hWTnJQM2lOMWZiQTZLd3RfRWYzWEI4NE11QmwxOGdPMU9ja0ZHYl9mTE1XbmJEZ3A5RQ?oc=5"
+   }
+  ],
+  "_abs_err": "page: no abstract in meta (181361 bytes; title: Feds scramble to avoid regulatory logjam as states look to t; text: Feds scramble to avoid regulatory logjam as states look to test AI in clinic | STAT Skip to Main Con)",
+  "keep": true,
+  "zh_title": "FDA与CMS着手应对各州测试临床AI的监管冲突",
+  "summary": "报道称联邦官员正幕后协调，以避免各州与联邦在AI临床使用监管上出现冲突。",
+  "key_points": [
+   "多州拟在临床场景中测试AI",
+   "FDA与CMS寻求避免监管僵局",
+   "细节未披露，属动态报道"
+  ],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "监管层面的实质动向但信息笼统、无具体文件，属值得一看档。",
+  "processing": "model-enriched",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Reproducibility without vendor names: emphasizing design over branding in AI evaluation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42956827/",
+  "date": "2026-10-29T00:00:00+00:00",
+  "badge": "DOI 10.1093/jamia/ocag173",
+  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": true,
+  "pop": null,
+  "id": "a136f4b61581",
+  "keep": true,
+  "zh_title": "可复现性不必点名厂商：AI评估应重设计而非品牌",
+  "summary": "仅见标题：该文主张AI评估的可复现性应强调研究设计而非厂商品牌。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "基准",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "仅标题无正文，观点类，信息量有限，按标题档从低给分。",
+  "processing": "model-enriched",
+  "day": "2026-10-30",
+  "abstract_days": [
+   "2026-10-30"
+  ],
+  "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
   "title": "NYU Langone brings OpenEvidence’s clinical AI into the EHR systemwide",
   "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/nyu-langone-brings-openevidences-clinical-ai-ehr-systemwide",
   "date": "2026-10-30T02:45:14.943383+00:00",
@@ -320,6 +545,99 @@
   "processing": "model-enriched",
   "abstract": "OpenEvidence is expanding its footprint in New York City through a partnership with NYU Langone Health, adding another marquee institution to an existing concentration of partnerships across the ci | OpenEvidence is expanding its footprint in New York City through a partnership with NYU Langone Health, adding another marquee institution to an existing concentration of partnerships across the city's academic medical centers.",
   "zh_abstract": "OpenEvidence 正通过与 NYU Langone Health 合作扩大其在纽约市的布局，在横跨该市（ci | OpenEvidence 正通过与 NYU Langone Health 合作扩大其在纽约市的布局，在纽约市学术医疗中心已有的合作集中度基础上，又增加了一家标志性机构。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "DiaBench: A Benchmarking Framework to Evaluate the Performance of LLMs in T2D Patient Education",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.26.26366562v1?rss=1",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.26.26366562",
+  "pop": null,
+  "id": "493675264cac",
+  "keep": true,
+  "zh_title": "DiaBench：评估大模型2型糖尿病患教能力的基准框架",
+  "summary": "预印本提出基于96组真实临床问答的基准框架，以多选题形式评估大模型面向不同健康素养人群的糖尿病教育表现。",
+  "key_points": [
+   "96组临床医患问答，其中问题与答案成对",
+   "三种配置模拟不同提问格式与用户背景",
+   "由糖尿病教育师、内科与内分泌医生小组验证"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "预印本基准框架，有专家验证但未见模型评测结果，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Background Effective type 2 diabetes (T2D) education improves patient outcomes, but clinician time constraints limit what can be covered during encounters. Large language models (LLMs) offer a scalable way to answer patient questions, yet their accuracy and reliability in T2D education across health literacy levels remain poorly characterized. Methods We developed DiaBench, a standardized benchmarking framework built from 96 question-and-answer pairs collected by clinicians from representative real-world patient encounters. GPT-5 transformed each pair into multiple-choice questions (MCQs) under three configurations (1-3) simulating different question formats and levels of user background. A five-member panel of certified diabetes care and education specialists (CDCESs), medical doctors (MDs), and endocrinologists validated the transformations, rating question rephrasing, answer rephrasing, and answer correctness. We then evaluated seven LLMs (GPT-51, Gemini-2.5-Flash2, Cohere Command3, Llama-44, DeepSeek-R15, Perplexity Sonar6, Mistral-Large-2.07) for accuracy and self-consistency across three runs. Results (i) Expert validation showed a consensus over MCQ transformation. For configuration 1, 98.1% (SD 0.01) of rephrased answers were appropriate, 98.1% (SD 0.01) of MCQ answers were correct, and 95.0% (SD 0.05) of rephrased questions were appropriate; corresponding values for configuration 2 were 96.3% (SD 0.05), 97.5% (SD 0.02), and 89.8% (SD 0.14). (ii) across benchmarking for configurations 1 and 2, most models achieved high accuracy ([≥]95%), but Mistral-Large-2.0, Llama 4, and Perplexity Sonar showed substantially lower self-consistency (60.4%-91.7%) than other models ([≥]95%). All models degraded in both accuracy and self-consistency on configuration 3. Conclusions DiaBench quantitatively differentiates LLM capability in T2D patient education, with Gemini, GPT-5, and DeepSeek-R1 performing strongly and other models suboptimally. DiaBench provides a transferable platform for evaluating existing and newly developed LLMs, addressing the need for standardized benchmarking before clinical deployment of LLM-based systems in patient education.",
+  "zh_abstract": "【背景】有效的 2 型糖尿病（T2D）教育可改善患者结局，但临床医生时间受限，限制了就诊期间可覆盖的内容。大语言模型（LLMs）提供了一种可扩展的方式来回答患者问题，但其在 T2D 教育中跨健康素养水平的准确性和可靠性仍缺乏充分描述。【方法】我们开发了 DiaBench，这是一个标准化基准测试框架，基于临床医生从有代表性的真实世界患者就诊中收集的 96 个问答对构建。GPT-5 在三种配置（1-3）下将每个问答对转换为多项选择题（MCQs），以模拟不同的问题格式和用户背景水平。一个由认证糖尿病护理与教育专家（CDCESs）、医学博士（MDs）和内分泌科医生组成的五人专家组验证了这些转换，并对问题改写、答案改写和答案正确性进行评分。随后，我们在三次运行中评估了七个 LLMs（GPT-51、Gemini-2.5-Flash2、Cohere Command3、Llama-44、DeepSeek-R15、Perplexity Sonar6、Mistral-Large-2.07）的准确性和自一致性。【结果】（i）专家验证显示对选择题转换达成共识。对于配置 1，98.1%（SD 0.01）的改写后答案恰当，98.1%（SD 0.01）的选择题答案正确，95.0%（SD 0.05）的改写后问题恰当；配置 2 的相应值分别为 96.3%（SD 0.05）、97.5%（SD 0.02）和 89.8%（SD 0.14）。（ii）在配置 1 和 2 的基准测试中，大多数模型达到高准确率（[≥]95%），但 Mistral-Large-2.0、Llama 4 和 Perplexity Sonar 的自一致性（60.4%-91.7%）显著低于其他模型（[≥]95%）。所有模型在配置 3 上准确性和自一致性均下降。【结论】DiaBench 定量区分了 LLM 在 T2D 患者教育中的能力，其中 Gemini、GPT-5 和 DeepSeek-R1 表现强劲，其他模型表现欠佳。DiaBench 提供了一个可迁移平台，用于评估现有和新开发的 LLMs，满足在患者教育中临床部署基于 LLM 的系统之前进行标准化基准测试的需求。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "At Johns Hopkins, shadow AI use linked to data breach",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQi1YbExJVzRSWVhLU1VNNHdVbFYzVGk3aWlMaWlZNGZOalJQbWZIdkU5ZVBFTUsyWXdpRFVJc3RxTFh3bERQU3JlcWd3Qi02ejJzSE1sU3Q3ZGExa1hTMWxkTHpxaUdveXVkcWkyNlF2OGxoTmcwT2lMeEd1YzRMSzJqSGtLT3J0WHhnbg?oc=5",
+  "date": "2026-10-29T15:00:00+00:00",
+  "source": "Healthcare IT News",
+  "source_group": "Google News · 行业媒体",
+  "home": "https://www.healthcareitnews.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "a96169458aca",
+  "keep": true,
+  "zh_title": "约翰霍普金斯大学影子AI使用与数据泄露相关",
+  "summary": "据媒体报道，约翰霍普金斯大学的影子AI使用被指与一起数据泄露事件相关联。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "隐私与联邦学习",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "头部医疗机构影子AI安全事件，涉及隐私治理但仅标题信息",
+  "processing": "model-enriched",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "FDA and CMS seek to avoid regulatory gridlock over medical AI — STAT News",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWRMUXViNzhSNF8tel9zUFFWZXRPcTd5dnk1ak9rVmhMbEtGMFVyNkVOSE83X3FVSlVwRUF0M2JnRDdaT3BpT3lVQXlTM3FzVHNOWmdpNXhLS1d0UXNYYWRQX3hUTndrVnpmd0Q2bzBFZzJsY1AyRnpPZEdOZGRFM19BOTBUZ1JMaUQ0TkdHbUd1NEFQWnVBaVFEWUhlUnB6SlNWTklWRUFOc1MyTERHYTNvRVQ?oc=5",
+  "date": "2026-10-30T08:50:07+00:00",
+  "source": "UA.NEWS",
+  "source_group": "Google News · FDA AI",
+  "home": "https://ua.news",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "20eb8d7835b7",
+  "keep": true,
+  "zh_title": "FDA与CMS寻求避免医疗AI监管僵局",
+  "summary": "据STAT News报道，FDA与CMS正设法协调，避免医疗AI在审批与支付环节出现监管僵持。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "医疗器械"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "两大监管机构协调属实质监管动向，但仅有标题无细节",
+  "processing": "model-enriched",
   "day": "2026-10-30"
  },
  {
@@ -386,6 +704,76 @@
   "processing": "model-enriched",
   "abstract": "[Newly registered clinical trial, no results yet; sponsor: Union Hospital, Tongji Medical College, Huazhong University of Science and Technology; conditions: Pulmonary Subsolid Nodules, Ground-Glass Nodules; type: OBSERVATIONAL; enrollment: 200; status: COMPLETED] The goal of this prospective, non-interventional study is to evaluate the predictive performance and potential clinical utility of an artificial intelligence (AI)-based virtual follow-up framework for incidentally detected pulmonary subsolid nodules (SSNs), including pure ground-glass and part-solid nodules. The main questions it aims to answer are: 1. Can the AI model accurately predict future CT appearances, quantitative growth characteristics, and morphological progression of pulmonary SSNs at specified follow-up intervals? 2. Does AI-assisted virtual follow-up improve radiologists' assessment of nodule progression and simulated surveillance management decisions compared with assessment without AI assistance? Researchers will compare radiologists' assessments with and without access to AI-generated future CT images and quantitative predictions. An additional reader evaluation will examine whether generated future images provide incremental value beyond quantitative predictions alone. Participants will undergo clinically indicated CT examinations and receive routine care according to standard clinical practice. The research team will: * Collect previously acquired CT images and clinical information. * Generate and lock AI predictions before the corresponding follow-up CT examinations occur. * Obtain and lock radiologists' assessments and simulated management recommendations before actual follow-up outcomes become available. * Compare predicted nodule progression with observed follow-up CT findings. AI predictions and research-related reader assessments will not be disclosed to treating clinicians or used to alter patients' actual surveillance or treatment decisions.",
   "zh_abstract": "[新注册临床试验，尚无结果；申办者：华中科技大学同济医学院附属协和医院；疾病：肺部亚实性结节、磨玻璃结节；类型：观察性（OBSERVATIONAL）；入组：200；状态：已完成（COMPLETED）] 这项前瞻性、非干预性研究的目标是评估基于人工智能（AI）的虚拟随访框架对偶然发现的肺部亚实性结节（SSNs），包括纯磨玻璃结节和部分实性结节，的预测性能和潜在临床效用。其主要旨在回答的问题包括：1. AI模型能否在指定随访间隔准确预测肺部SSNs的未来CT表现、定量生长特征和形态学进展？2. 与无AI辅助的评估相比，AI辅助虚拟随访是否改善放射科医师对结节进展的评估和模拟监测管理决策？研究者将比较放射科医师在可获取与不可获取AI生成的未来CT图像和定量预测时的评估。额外的阅片者评估将检查生成的未来图像是否在仅定量预测之外提供增量价值。参与者将接受临床指征的CT检查，并按照标准临床实践接受常规护理。研究团队将：* 收集既往采集的CT图像和临床信息。* 在相应随访CT检查发生之前生成并锁定AI预测。* 在实际随访结果可获得之前获取并锁定放射科医师的评估和模拟管理建议。* 将预测的结节进展与观察到的随访CT结果进行比较。AI预测和研究相关阅片者评估不会向治疗临床医生披露，也不会用于改变患者实际的监测或治疗决策。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Artificial Intelligence Software (Prostate Intelligence) for Detecting Clinically Significant Prostate Cancer on MRI",
+  "link": "https://clinicaltrials.gov/study/NCT07875491",
+  "date": "2026-10-15T00:00:00+00:00",
+  "badge": "NCT07875491",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "1b4bbea5f3e7",
+  "score": 5,
+  "zh_title": "前列腺MRI AI软件Pi诊断准确性试验注册",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "summary": "新注册前瞻性研究拟入组226例，比较AI软件Pi与放射科医师在前列腺MRI上检出临床显著癌的准确性。",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Fondazione Policlinico Universitario Agostino Gemelli IRCCS; conditions: Prostate Cancer; type: INTERVENTIONAL; phase: NA; enrollment: 226; status: NOT_YET_RECRUITING] The goal of this study is to learn how accurately an artificial intelligence (AI) software called Prostate Intelligence (Pi) detects clinically significant prostate cancer on prostate MRI in adults with a prostate gland who are referred for MRI because prostate cancer is suspected. The main question it aims to answer is: \\- How sensitive and specific is Pi, used on its own, in detecting clinically significant prostate cancer (Gleason grade 3+4 or higher) at the patient level? Researchers will also compare Pi, the radiologist alone, and the radiologist assisted by Pi, to see whether AI assistance changes cancer detection. Participants will: * Undergo prostate MRI as part of their usual clinical care. Each MRI is first read by a radiologist without the AI result; the Pi report is then shown to the radiologist, who produces a final combined report. * Undergo targeted prostate biopsy (up to two lesions) if the MRI is suspicious, as in routine practice. Areas flagged only by Pi may also be biopsied. * If not biopsied, be followed for 12 months after MRI with PSA tests at 6 and 12 months and clinical assessment, to confirm the absence of clinically significant cancer. About 226 participants will be enrolled at two Italian centres (Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome, and IRCCS Ospedale San Raffaele, Milan).",
+  "key_points": [
+   "尚未招募、暂无结果，仅注册信息",
+   "主要终点为患者层面敏感度与特异度",
+   "设AI独立、医师独立、医师+AI三组"
+  ],
+  "processing": "model-enriched",
+  "section": "影像与病理",
+  "day": "2026-10-30",
+  "keep": true,
+  "type": "论文",
+  "reason": "前瞻性设计含人机协作对照，但尚无结果、样本226例",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Fondazione Policlinico Universitario Agostino Gemelli IRCCS；疾病：前列腺癌；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：226；状态：NOT_YET_RECRUITING（尚未招募）] 本研究的目标是了解一种名为 Prostate Intelligence（Pi）的人工智能（AI）软件在因疑似前列腺癌而接受前列腺 MRI 的成年有前列腺腺体人群中，于前列腺 MRI 上检测临床显著前列腺癌的准确程度。其主要旨在回答的问题是：- 单独使用 Pi 在患者层面检测临床显著前列腺癌（Gleason 分级 3+4 或更高）的敏感度和特异度如何？研究人员还将比较 Pi、单独放射科医生以及由 Pi 辅助的放射科医生，以观察 AI 辅助是否改变癌症检出。参与者将：* 作为其常规临床照护的一部分接受前列腺 MRI。每份 MRI 首先由放射科医生在不查看 AI 结果的情况下阅片；随后向该放射科医生展示 Pi 报告，由其生成最终的联合报告。* 如果 MRI 可疑，按常规实践接受靶向前列腺活检（最多两个病灶）。仅由 Pi 标记的区域也可能被活检。* 如果未接受活检，则在 MRI 后随访 12 个月，在 6 和 12 个月时进行 PSA 检测和临床评估，以确认不存在临床显著癌症。约 226 名参与者将在意大利两家中心入组（Fondazione Policlinico Universitario A. Gemelli IRCCS，罗马；IRCCS Ospedale San Raffaele，米兰）。"
+ },
+ {
+  "title": "Artificial Intelligence in Healthcare: From Predictive Models to Generative, Multimodal, and Agentic AI.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42939030/",
+  "date": "2026-10-08T00:00:00+00:00",
+  "badge": "DOI 10.3390/bioengineering13101175",
+  "source": "PubMed · Bioengineering (Basel, Switzerland)",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "0f7717f38779",
+  "keep": true,
+  "zh_title": "医疗AI综述：从预测模型到生成、多模态与智能体",
+  "summary": "叙述性综述从诊断科学视角评估预测、生成、多模态与智能体AI，讨论其走向临床所需证据。",
+  "key_points": [
+   "回顾性高准确率不等于诊断效用",
+   "需考量人群、阈值、校准及误判后果",
+   "覆盖筛查至疗效评估的诊疗路径"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "医学大模型",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "叙述性综述，无新数据与系统检索，属常规观点档",
+  "processing": "model-enriched",
+  "abstract": "[Bioengineering (Basel, Switzerland)] Artificial intelligence (AI) is increasingly used across the diagnostic pathway, from screening and disease detection to differential diagnosis, prognostic stratification, and treatment-response assessment. This narrative review examines predictive, generative, multi-modal, and agentic AI through a diagnostic-science lens and evaluates the evidence required for translation into clinical practice. Predictive models can identify complex patterns in images, physiological signals, laboratory data, and electronic health records, but high retrospective accuracy does not establish diagnostic utility. Clinical validity and utility depend on the intended use, target population, disease spectrum and prevalence, reference standard, operating threshold, calibration, and the consequences of false-positive and false-negative results. Generative AI may support problem representation, differential diagnosis, information synthesis, and documentation, yet fluent outputs can omit critical alternatives, amplify false premises, or convey unjustified certainty. Multimodal systems may better reflect clinical reasoning by integrating imaging, text, signals, pathology, and molecular data, but they must demonstrate incremental value over the best single-modality test and remain robust to missing data. Agentic systems can coordinate evidence retrieval, test selection, and sequential workflows, thereby increasing the need for bounded permissions, auditability, error recovery, and human escalation. Across all paradigms, a credible pathway to diagnostic implementation requires independent external and prospective validation, representative consecutive patients, subgroup analysis, workflow and human-AI evaluation, clinical impact studies, and post-deployment surveillance. The field should therefore be judged not by model capability alone, but by whether AI measurably improves diagnostic yield, timeliness, safety, equity, and patient-relevant outcomes in real care settings.",
+  "zh_abstract": "[Bioengineering (Basel, Switzerland)] 人工智能（AI）正日益应用于整个诊断路径，从筛查和疾病检测到鉴别诊断、预后分层和治疗反应评估。本叙述性综述从诊断科学视角审视预测性、生成式、多模态和代理式 AI，并评估其转化为临床实践所需的证据。预测模型能够识别图像、生理信号、实验室数据和电子健康记录中的复杂模式，但高回顾性准确率并不能确立诊断效用。临床有效性和效用取决于预期用途、目标人群、疾病谱和患病率、参考标准、操作阈值、校准以及假阳性和假阴性结果的后果。生成式 AI 可能支持问题表征、鉴别诊断、信息综合和文档记录，但流畅的输出可能遗漏关键备选诊断、放大错误前提或传达不合理的确定性。多模态系统可能通过整合影像、文本、信号、病理和分子数据更好地反映临床推理，但它们必须证明相对于最佳单模态检查具有增量价值，并对缺失数据保持稳健。代理式系统可以协调证据检索、检查选择和序贯工作流程，从而增加对有界权限、可审计性、错误恢复和人工升级的需求。在所有范式中，可信的诊断实施路径需要独立的外部验证和前瞻性验证、具有代表性的连续患者、亚组分析、工作流程和人机协作评估、临床影响研究以及部署后监测。因此，不应仅以模型能力来评判该领域，而应看 AI 是否在真实照护环境中可测量地改善诊断产出、及时性、安全性、公平性和患者相关结局。",
   "day": "2026-10-30"
  },
  {
@@ -8135,31 +8523,6 @@
   "evidence": "待核验",
   "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
   "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "Artificial Intelligence Software (Prostate Intelligence) for Detecting Clinically Significant Prostate Cancer on MRI",
-  "link": "https://clinicaltrials.gov/study/NCT07875491",
-  "desc": "[Newly registered clinical trial, no results yet; sponsor: Fondazione Policlinico Universitario Agostino Gemelli IRCCS; conditions: Prostate Cancer; type: INTERVENTIONAL; phase: NA; enrollment: 226; status: NOT_YET_RECRUITING] The goal of this study is to learn how accurately an artificial intelligence (AI) software called Prostate Intelligence (Pi) detects clinically significant prostate cancer on prostate MRI in adults with a prostate gland who are referred for MRI because prostate cancer is suspected. The main question it aims to answer is: \\- How sensitive and specific is Pi, used on its own, in detecting clinically significant prostate cancer (Gleason grade 3+4 or higher) at the patient level? Researchers will also compare Pi, the radiologist alone, and the radiologist assisted by Pi, to see whether AI assistance changes cancer detection. Participants will: * Undergo prostate MRI as part of their usual clinical care. Each MRI is first read by a radiologist without the AI result; the Pi report is then shown to the radiologist, who produces a final combined report. * Undergo targeted prostate biopsy (up to two lesions) if the MRI is suspicious, as in routine practice. Areas flagged only by Pi may also be biopsied. * If not biopsied, be followed for 12 months after MRI with PSA tests at 6 and 12 months and clinical assessment, to confirm the absence of clinically significant cancer. About 226 participants will be enrolled at two Italian centres (Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome, and IRCCS Ospedale San Raffaele, Milan).",
-  "date": "2026-10-15T00:00:00+00:00",
-  "badge": "NCT07875491",
-  "source": "ClinicalTrials.gov",
-  "source_group": "ClinicalTrials.gov",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "1b4bbea5f3e7",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Fondazione Policlinico Universitario Agostino Gemelli IRCCS; conditions: Prostate Cancer; type: INTERVENTIONAL; phase: NA; enrollment: 226; status: NOT_YET_RECRUITING] The goal of this study is to learn how accurately an artificial intelligence (AI) software called Prostate Intelligence (Pi) detects clinically significant prostate cancer on prostate MRI in adults with a prostate gland who are referred for MRI because prostate cancer is suspected. The main question it aims to answer is: \\- How sensitive and specific is Pi, used on its own, in detecting clinically significant prostate cancer (Gleason grade 3+4 or higher) at the patient level? Researchers will also compare Pi, the radiologist alone, and the radiologist assisted by Pi, to see whether AI assistance changes cancer detection. Participants will: * Undergo prostate MRI as part of their usual clinical care. Each MRI is first read by a radiologist without the AI result; the Pi report is then shown to the radiologist, who produces a final combined report. * Undergo targeted prostate biopsy (up to two lesions) if the MRI is suspicious, as in routine practice. Areas flagged only by Pi may also be biopsied. * If not biopsied, be followed for 12 months after MRI with PSA tests at 6 and 12 months and clinical assessment, to confirm the absence of clinically significant cancer. About 226 participants will be enrolled at two Italian centres (Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome, and IRCCS Ospedale San Raffaele, Milan).",
   "key_points": [],
   "processing": "metadata-only",
   "section": "临床预测与决策",
