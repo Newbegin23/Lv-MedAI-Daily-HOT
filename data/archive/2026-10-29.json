@@ -138,7 +138,8 @@
 "processing": "model-enriched",
 "day": "2026-10-29",
 "abstract_days": [
-"2026-10-29"
+"2026-10-29",
+"2026-10-30"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -317,7 +318,8 @@
 "processing": "model-enriched",
 "day": "2026-10-29",
 "abstract_days": [
-"2026-10-29"
+"2026-10-29",
+"2026-10-30"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -351,7 +353,8 @@
 "processing": "model-enriched",
 "day": "2026-10-29",
 "abstract_days": [
-"2026-10-29"
+"2026-10-29",
+"2026-10-30"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -692,6 +695,12 @@
 "score": 3,
 "reason": "商业化观点类文章，仅标题，增量有限",
 "processing": "model-enriched",
-"day": "2026-10-29"
+"day": "2026-10-29",
+"also": [
+{
+"source": "搜狐网",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlJmelZUV0ltRzJDalBMZjJ3WElwb2o1akxwZ3RRYmlpQ0ttdzhJeTBLNjlJQkg5bWN1bzJZZ2dFenFyaV9YU2hUOUdUcnl2Y09zdmFTVUdDYlNaU0VKU1d2ekMxZ2V6QzdDMWFmYVVLcjM5S1pkLVpxcXNZdURFTkFFNVJQcHZEWF9R?oc=5"
+}
+]
 }
 ]

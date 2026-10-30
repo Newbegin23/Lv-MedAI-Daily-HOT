@@ -1,5 +1,394 @@
 [
  {
+  "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+  "link": "https://www.nature.com/articles/s41591-026-04655-5",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "Nature Medicine",
+  "source_group": "Nature Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41591-026-04655-5",
+  "pop": null,
+  "id": "86ae7eb5bd4f",
+  "keep": true,
+  "zh_title": "可解释多模态医学视觉语言基础模型EVLF-FM",
+  "summary": "EVLF-FM覆盖10种影像模态、18个数据集共130余万样本，外部验证1.3万余例，支持诊断、视觉问答与像素级定位。",
+  "key_points": [
+   "覆盖皮肤、病理、眼科等6个专科10种模态",
+   "开发与测试合计超130万样本、18个数据集",
+   "17个外部数据集13443例独立样本验证"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "多模态",
+   "医学大模型",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 8,
+  "reason": "大规模多模态基础模型+独立外部验证，同行评审，属重要档",
+  "processing": "model-enriched",
+  "abstract": "Despite their considerable promise, many current medical foundation models remain modality specific and lack transparent reasoning, limiting clinical adoption. To address this gap, we introduce Explainable Vision Language Foundation Model for Medicine (EVLF-FM), a multimodal vision language foundation model that combines broad diagnostic capabilities with fine-grained explainability. The development and testing of EVLF-FM encompassed more than 1.3 million total samples from 18 global datasets across 10 imaging modalities related to six clinical specialties: dermatology, hepatology, ophthalmology, pathology, pulmonology and radiology. External validation employed 13,443 independent test samples from 17 additional datasets across 10 imaging modalities. EVLF-FM supports disease diagnosis, visual question answering and pixel-level visual grounding with reasoning capabilities. In internal validation for disease diagnostics, EVLF-FM achieved the highest average accuracy, 0.895, outperforming leading generalist and specialist models. In medical visual grounding, EVLF-FM also achieved reasonable performance across nine modalities with average accuracy at 0.5 intersection over union (Acc@0.5) of 0.842. External testing further confirmed consistent zero-shot and few-shot performance, with competitive F1 scores despite a smaller model size. A hybrid training strategy combining supervised and visual reinforcement fine-tuning enables EVLF-FM to generate clinically interpretable explanations aligned with visual evidence. Human evaluation of these reasoning outputs using the S.C.O.R.E. framework yielded a high overall mean score of 4.25/5, supporting their clinical interpretability. Current limitations include the need for additional validation across diverse healthcare settings. Prospective clinical studies are required to evaluate the safety, effectiveness and clinical utility of EVLF-FM before routine clinical deployment.",
+  "zh_abstract": "尽管具有相当大的前景，许多当前的医学基础模型仍局限于特定模态，并缺乏透明推理，限制了临床采用。为弥补这一空白，我们引入可解释医学视觉语言基础模型（Explainable Vision Language Foundation Model for Medicine, EVLF-FM），这是一种多模态视觉语言基础模型，将广泛的诊断能力与细粒度可解释性相结合。EVLF-FM 的开发和测试涵盖来自18个全球数据集的超过130万份总样本，涉及10种成像模态，与六个临床专科相关：皮肤科、肝病科、眼科、病理科、肺科和放射科。外部验证使用了来自另外17个数据集的13,443份独立测试样本，涵盖10种成像模态。EVLF-FM 支持疾病诊断、视觉问答和具有推理能力的像素级视觉定位。在疾病诊断的内部验证中，EVLF-FM 取得最高平均准确率0.895，优于领先的通用型和专科模型。在医学视觉定位中，EVLF-FM 在九种模态上也取得了合理性能，交并比0.5下的平均准确率（Acc@0.5）为0.842。外部测试进一步证实了稳定的零样本和少样本性能，尽管模型规模较小，仍具有有竞争力的 F1 分数。结合监督学习和视觉强化微调的混合训练策略使 EVLF-FM 能够生成与视觉证据一致的临床可解释的说明。使用 S.C.O.R.E. 框架对这些推理输出进行人工评估，总体平均分高达4.25/5，支持其临床可解释性。当前局限包括需要在多样化医疗环境中进行额外验证。在常规临床部署之前，需要进行前瞻性临床研究以评估 EVLF-FM 的安全性、有效性和临床效用。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Interpretable deep learning maps spatial morphological phenotypes to HCC and LUAD survival",
+  "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00543-4?rss=yes",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "Cell Reports Medicine",
+  "source_group": "Cell Reports Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "e7acdc118d12",
+  "keep": true,
+  "zh_title": "MorphX：可解释深度学习从病理图像预测HCC与LUAD生存",
+  "summary": "提出可解释深度学习框架MorphX，从全切片组织学图像解码肿瘤预后，并在独立队列中识别8个形态学生物标志物。",
+  "key_points": [
+   "基于全切片病理图像的预后预测",
+   "跨独立队列验证，识别8个形态标志物",
+   "强调可解释与透明以支撑精准肿瘤学"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "可解释性",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "病理预后研究并提及独立队列验证，但样本量与结局细节未给出",
+  "processing": "model-enriched",
+  "abstract": "Liu et al. present MorphX, an interpretable deep learning framework that decodes cancer prognosis from whole-slide histological images and reveals morphological biomarkers. Across independent cohorts, MorphX identifies eight morphology-based biomarkers, supporting trustworthy, transparent, AI-driven precision oncology.",
+  "zh_abstract": "Liu等人提出MorphX，一种可解释的深度学习框架，可从全切片组织学图像中解码癌症预后并揭示形态学生物标志物。在独立队列中，MorphX识别出八种基于形态学的生物标志物，支持可信、透明、人工智能驱动的精准肿瘤学。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Large Language Model-Assisted Radiology Report Quality Assurance: Real-World Multicenter Evaluation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42954415/",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "DOI 10.2196/106250",
+  "source": "PubMed · Journal of medical Internet research",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "a5add15ca563",
+  "keep": true,
+  "zh_title": "大语言模型辅助放射报告质控：真实世界多中心评估",
+  "summary": "在多中心真实临床场景、多模态多解剖部位（X线/CT/MRI）中评估通用大语言模型对放射报告文本质控的可行性、准确性与泛化性。",
+  "key_points": [
+   "覆盖X线、CT、MRI多模态与多解剖部位",
+   "采用多中心真实报告，而非合成错误数据",
+   "与其他方法进行头对头比较"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "医学大模型",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "多中心真实世界评估设计较好，但条目未披露结果与样本量",
+  "processing": "model-enriched",
+  "abstract": "[Journal of medical Internet research] Radiology reports serve as the definitive clinical record of imaging diagnoses, with their accuracy being directly critical to patient safety. However, amid escalating workloads, manual review remains inadequate for capturing subtle errors in reports on a large scale. Although large language models (LLMs) have demonstrated considerable promise in medical text processing, previous studies have predominantly been confined to radiology report text from a single imaging modality or datasets with synthetic errors. This study aimed to evaluate the feasibility, accuracy, and generalizability of general-purpose LLMs for quality assurance of radiology report text from multiple imaging modalities (x-ray, computed tomography [CT], and magnetic resonance imaging [MRI]), multi-anatomical regions, and multicenter clinical settings, with head-to-head comparisons conducted against radiologists of varying seniority. Radiology report texts from 3 aforementioned imaging modalities and 5 anatomical regions (head, chest, abdomen, spine, and knee) were retrospectively collected from center 1 (March 2025-May 2025) and reviewed using a clinician-annotated 5-category error taxonomy (type 1: interpretive; type 2: factual). Five LLMs (Qwen3, GPT-5.4 Pro, Gemini 3.1 Pro, Llama 4, and DeepSeek-V3.1) were benchmarked on 10,000 randomly selected reports, and the best-performing model was evaluated on the full cohort. A blinded head-to-head comparison with 3 radiologists (3-10 years of experience) used a modality-stratified, error-enriched challenge set. The radiologists subsequently rated the model-generated explanations using a 5-point Likert scale. Cross-center performance was evaluated in an independent external cohort. The same 2 senior radiologists labeled reports from both centers using the same protocol, resolving disagreements by consensus. In total, 4.6% (4431/95,582) of the reports in center 1 contained at least one confirmed text internal error. Qwen3, the selected model, achieved a report-level sensitivity, specificity, positive predictive value, and F1-score of 0.99, 0.99, 0.90, and 0.94, respectively, with high performance across reports from the 3 imaging modalities and multiple anatomical regions and better detection of factual than interpretive errors. In the error-enriched challenge set, its error instance exact category recall exceeded that of the radiologists (0.96 vs 0.45-0.67; P<.001), with a shorter mean task completion time (5.80 vs 55.80-67.80 seconds per report",
+  "zh_abstract": "[Journal of medical Internet research] 放射学报告是影像诊断的最终临床记录，其准确性直接对患者安全至关重要。然而，在工作量不断升级的情况下，人工审核仍不足以大规模捕捉报告中的细微错误。尽管大语言模型（LLMs）在医学文本处理中已展现出相当大的前景，但既往研究主要局限于单一成像模态的放射学报告文本或包含合成错误的数据集。本研究旨在评估通用LLMs对来自多种成像模态（X射线、计算机断层扫描[CT]和磁共振成像[MRI]）、多解剖区域和多中心临床环境的放射学报告文本进行质量保证的可行性、准确性和泛化性，并与不同资历的放射科医师进行头对头比较。从中心1（2025年3月至2025年5月）回顾性收集来自上述3种成像模态和5个解剖区域（头部、胸部、腹部、脊柱和膝部）的放射学报告文本，并使用由临床医生标注的5类错误分类法（类型1：解释性；类型2：事实性）进行审核。五种LLMs（Qwen3、GPT-5.4 Pro、Gemini 3.1 Pro、Llama 4和DeepSeek-V3.1）在10,000份随机抽取的报告上进行基准测试，表现最佳的模型在完整队列上接受评估。使用按成像模态分层、错误富集的挑战集，与3名放射科医师（3-10年经验）进行盲法头对头比较。放射科医师随后使用5点Likert量表对模型生成的解释进行评分。在独立外部队列中评估跨中心性能。同两名资深放射科医师使用相同方案对来自两个中心的报告进行标注，并通过共识解决分歧。中心1共有4.6%（4431/95,582）的报告包含至少一个经确认的文本内部错误。所选模型Qwen3达到报告级灵敏度、特异度、阳性预测值和F1分数分别为0.99、0.99、0.90和0.94，在来自3种成像模态和多个解剖区域的报告中均表现良好，并且对事实性错误的检测优于解释性错误。在错误富集的挑战集中，其错误实例精确类别召回率超过放射科医师（0.96 vs 0.45-0.67；P<.001），且平均任务完成时间更短（每份报告5.80 vs 55.80-67.80秒）。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "GeoMind: Dancing with Geometric Brain Rhythm on Symmetric Positive Definite Manifolds.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42955763/",
+  "date": "2026-10-29T00:00:00+00:00",
+  "badge": "DOI 10.1109/TMI.2026.3745506",
+  "source": "PubMed · IEEE transactions on medical imaging",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "62020d8b3d00",
+  "keep": true,
+  "zh_title": "GeoMind：对称正定流形上的几何脑节律建模",
+  "summary": "提出基于对称正定流形与状态空间模型的深度学习方法，刻画脑功能连接的自组织动态演化。",
+  "key_points": [
+   "将脑状态演化视为自组织动力系统",
+   "在SPD黎曼流形上刻画功能连接共激活几何",
+   "发表于IEEE TMI的方法类研究"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "神经科学",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "功能神经影像方法创新，但条目未见外部验证或临床结局信息",
+  "processing": "model-enriched",
+  "abstract": "[IEEE transactions on medical imaging] State space model (SSM) is a powerful tool in neuroscience field to characterize the dynamic nature of brain functions by elucidating the mechanism of how brain system transits between brain states and how underlying states give rise to the observed neural activities. Although tremendous efforts have been made to lend the power of deep learning and mathematical insight of SSM in various functional neuroimaging studies, current state-of-the-art methods lack a holistic view of brain state evolution as a self-organized dynamical system where each part of the brain is functionally inter-connected. Since the topological co-activation of functional fluctuations exhibits an intrinsic geometric pattern (symmetric and positive definite, SPD) on the Riemannian manifold, the call for understanding how a selective set of functional connectivities in the brain supports diverse behavior and cognition emerge a new machine learning scenario of manifold-based SSM for largescale functional neuroimages. To that end, we propose a geometric neural network of SSM, coined GeoMind, designed to uncover evolving brain states by tracking the trajectory of functional dynamics on a high-dimensional Riemannian manifold of SPD matrices. GeoMind demonstrates promising results in identifying specific brain states on task-based functional Magnetic Resonance Imaging (fMRI) data, as well as in diseases early diagnosis for Alzheimer's disease, Parkinson's disease and Autism, by using resting-state fMRI. These results highlight the applicability of GeoMind in neuroscience research. To further evaluate generalizability of GeoMind, we applied GeoMind to electroencephalography (EEG) emotion datasets, outperforming competing methods and demonstrating scalability across neuroimaging modalities.",
+  "zh_abstract": "[IEEE transactions on medical imaging] 状态空间模型（SSM）是神经科学领域中的一个强大工具，可通过阐明大脑系统如何在不同脑状态之间转换以及潜在状态如何产生观察到的神经活动的机制，来刻画脑功能的动态特性。尽管已在各种功能神经影像研究中投入大量努力，以借助深度学习的威力与SSM的数学洞见，当前最先进的方法仍缺乏一种整体视角，即把脑状态演化视为一个自组织的动力系统，其中大脑各部分在功能上相互连接。由于功能波动的拓扑共激活在黎曼流形上表现出一种内在几何模式（对称正定，SPD），理解大脑中一组选择性功能连接如何支持多样行为与认知的需求，催生了一个新的机器学习场景：面向大规模功能神经影像的基于流形的SSM。为此，我们提出一种SSM的几何神经网络，命名为GeoMind，旨在通过追踪SPD矩阵高维黎曼流形上功能动力学的轨迹来揭示演化中的脑状态。GeoMind在任务态功能磁共振成像（fMRI）数据中识别特定脑状态，以及利用静息态fMRI对阿尔茨海默病、帕金森病和自闭症进行疾病早期诊断方面，均展现出有前景的结果。这些结果凸显了GeoMind在神经科学研究中的适用性。为进一步评估GeoMind的泛化性，我们将GeoMind应用于脑电图（EEG）情绪数据集，其表现优于竞争方法，并展示了跨神经影像模态的可扩展性。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "4DLoG: Generative modeling of neurodegenerative brain anatomy with 4D longitudinal diffusion model",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004378?dgcid=rss_sd_all",
+  "date": "2026-10-30T02:45:14.943383+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "3bba80d0d11a",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "4DLoG：四维纵向扩散模型生成神经退行性脑解剖",
+  "summary": "提出4D纵向扩散生成模型，对神经退行性疾病中的脑解剖随时间变化进行建模。",
+  "key_points": [
+   "采用四维纵向扩散模型建模脑解剖演变",
+   "面向神经退行性疾病影像分析",
+   "发表于Medical Image Analysis（同行评审）"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "神经科学",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "生成建模方法研究，条目未提供验证设计或性能对比细节",
+  "processing": "model-enriched",
+  "day": "2026-10-30",
+  "abstract_days": [
+   "2026-10-30"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "HyM 2 Surv: Hypergraph learning for cross-magnification and microbiome-attentive multimodal survival prediction",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004123?dgcid=rss_sd_all",
+  "date": "2026-10-30T02:45:14.943383+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "15f08fb2a579",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "HyM2Surv：跨倍率与微生物组多模态生存预测",
+  "summary": "《Medical Image Analysis》刊出HyM2Surv，以超图学习融合跨放大倍率图像与微生物组信息做生存预测。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "多模态",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅有题录信息，无摘要、数据与验证细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-30",
+  "abstract_days": [
+   "2026-10-30"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Performance of a foundation model to generate thousands of predicted outcomes across multiple use cases",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366723v1?rss=1",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.28.26366723",
+  "pop": null,
+  "id": "e2c06eeeb799",
+  "keep": true,
+  "zh_title": "PhenOM基础模型跨病种生成数千项预测结局",
+  "summary": "预印本：基于OM1真实世界数据云逾4亿份纵向病历训练并验证的生成式基础模型PhenOM，可跨临床领域生成最长5年的诊断、事件与结局预测。",
+  "key_points": [
+   "训练与验证基于逾4亿份纵向病历",
+   "覆盖多病种诊断、临床事件与结局",
+   "预测时间跨度目前最长5年"
+  ],
+  "section": "临床预测与决策",
+  "type": "模型",
+  "tags": [
+   "临床预测",
+   "医学大模型",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "数据规模极大、任务覆盖广，但为预印本且验证限于同一数据源，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Background. Predictive artificial intelligence (AI) models hold great promise for medical care. While many types of models have proliferated across healthcare and the life sciences, systematic, rapid generation of multi-condition predictions of diagnoses, future medical events and future clinical outcomes from a single foundation-model architecture remains rare. PhenOM(R) is a generative AI foundation model trained and validated on longitudinal medical-event data from more than 400 million patient records in the OM1 Real World Data Cloud (RWDC) and designed to complete predictive tasks for a broad array of medical diagnoses, events and clinical outcomes (collectively outcomes) at varying time intervals, currently up to five (5) years. This paper describes the implementation of PhenOM to complete a vast number of predictive tasks across clinical domains and outcomes. Methods. PhenOM was evaluated across four outcome categories (Future Risk, Screening, Care Opportunity, and Treatment Effect) in multiple domains spanning chronic disease, acute medical events, healthcare utilization, and rare and frequently undiagnosed conditions. Performance was assessed using area under the receiver operating characteristic curve (AUROC). Outcomes were defined within an eligible-population framework using standardized medical code sets (ICD-10, SNOMED, CPT, NDC, LOINC) unless outcomes could not be specified with an existing code. All benchmarks reported were derived from data excluded from training. Results. As of this publication, the single PhenOM model has been used to complete and validate thousands of predictive tasks covering more than 1,770 outcomes spanning most organ systems and clinical specialties, with new predictive tasks being validated each day. Overall, 80 percent of predictive tasks achieved AUROC of at least 0.70 and 30 percent achieved AUROC of at least 0.80. We present a sample of 177 of these tasks as examples that show the breadth of tasks the model can complete. Performance varied systematically by outcome and clinical domain. Conclusions. PhenOM demonstrates the ability to complete thousands of predictive tasks across clinical domains and outcomes at the individual patient level, without additional training. Outcomes include screening for undiagnosed conditions, predicting future conditions, medical events, effects of treatments, and assessing care opportunities. These can be ascertained at the individual patient and population levels. These findings ",
+  "zh_abstract": "【背景】预测性人工智能（AI）模型对医疗照护具有很大前景。尽管许多类型的模型已在医疗健康和生命科学领域不断涌现，但基于单一基础模型架构、系统且快速地生成对诊断、未来医疗事件和未来临床结局的多病种预测仍然少见。PhenOM(R) 是一种生成式 AI 基础模型，基于 OM1 Real World Data Cloud（RWDC）中超过4亿份患者记录的纵向医疗事件数据进行训练和验证，设计用于在不同时间间隔内完成广泛医学诊断、事件和临床结局（统称结局）的预测任务，目前最长可达五（5）年。本文描述了 PhenOM 的实施，以完成跨越临床领域和结局的大量预测任务。【方法】PhenOM 在四个结局类别（未来风险（Future Risk）、筛查（Screening）、照护机会（Care Opportunity）和治疗效果（Treatment Effect））中进行了评估，涉及慢性病、急性医疗事件、医疗资源利用以及罕见和常未被诊断的疾病等多个领域。性能使用受试者工作特征曲线下面积（AUROC）评估。除非结局无法用现有编码指定，否则结局均在合格人群框架内使用标准化医学编码集（ICD-10、SNOMED、CPT、NDC、LOINC）定义。所报告的所有基准均来自训练时排除的数据。【结果】截至本文发表时，单一 PhenOM 模型已用于完成和验证数千项预测任务，覆盖超过1,770种结局，涵盖大多数器官系统和临床专科，且每天都有新的预测任务得到验证。总体而言，80%的预测任务达到至少0.70的 AUROC，30%达到至少0.80的 AUROC。我们展示其中177项任务作为示例，以表明该模型可完成任务的范围广度。性能因结局和临床领域而系统性变化。【结论】PhenOM 证明能够在个体患者层面完成跨越临床领域和结局的数千项预测任务，而无需额外训练。结局包括筛查未诊断疾病、预测未来疾病、医疗事件、治疗效果以及评估照护机会。这些可在个体患者和人群层面确定。这些发现",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Large Language Models for Accurate Medical Chart Abstraction: Enabling Scalable and Secure Artificial Intelligence Deployment in Stroke",
+  "link": "https://arxiv.org/abs/2610.38009",
+  "date": "2026-10-27T22:00:24+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.38009",
+  "pop": null,
+  "id": "4b340fb16853",
+  "keep": true,
+  "zh_title": "开源大模型跨三院提取卒中报告变量",
+  "summary": "预印本：在3家医院2416份神经介入急性卒中报告中，评测22个开源指令微调大模型提取8项临床变量的准确率、延迟与专家一致性。",
+  "key_points": [
+   "3家医院2416份卒中介入报告",
+   "评测22个开源LLM，含思维链提示",
+   "以资深医师裁定不一致病例"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "医学大模型",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "多中心数据加专家裁定是加分项，但任务限于变量提取且为预印本，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Medical chart abstraction transforms unstructured clinical narratives into structured variables for research and quality monitoring. We evaluated a prompting-based large language model (LLM) framework for extracting eight clinical variables from 2,416 neurointerventional acute stroke intervention reports across three hospitals. Twenty-two instruction-tuned open-source LLMs were evaluated across architectures, model sizes, and biomedical adaptations using Quick Response and Chain-of-Thought (CoT) prompting. Non-expert staff annotations served as the cross-model reference standard. Evaluation was restricted to report-variable pairs with a valid LLaMA3.3-70B CoT prediction and a corresponding reference label. Performance measures included extraction accuracy, inference latency, and agreement with expert adjudication. Twenty discordant cases per variable underwent review by two senior physicians and four medical students. LLaMA3.3-70B achieved the highest overall accuracy (94.8%). CoT improved performance on inference-dependent variables such as site of occlusion, while Quick Response was optimal for directly stated procedural fields. Expert adjudication showed that AI predictions were more closely aligned with expert interpretations than non-expert annotations for most variables, with intracranial angioplasty remaining a challenge. Locally deployed LLMs can support scalable clinical information extraction and retrospective stroke registry curation, with expert oversight for ambiguous cases.",
+  "zh_abstract": "病历摘录将非结构化临床叙述转化为结构化变量，用于研究和质量监测。我们评估了一种基于提示的大型语言模型（LLM）框架，用于从三家医院的2,416份神经介入急性卒中干预报告中提取八项临床变量。使用快速响应（Quick Response）和思维链（Chain-of-Thought, CoT）提示，对22个经过指令微调的开源LLM在架构、模型规模和生物医学适配方面进行了评估。非专家工作人员的标注作为跨模型参考标准。评估仅限于具有有效 LLaMA3.3-70B CoT 预测和相应参考标签的报告-变量对。性能指标包括提取准确率、推理延迟以及与专家裁决的一致性。每个变量20个不一致病例由两名资深医师和四名医学生复核。LLaMA3.3-70B 取得最高总体准确率（94.8%）。CoT 改善了依赖推理的变量（如闭塞部位）的性能，而快速响应对于直接陈述的操作字段最优。专家裁决显示，对于大多数变量，AI 预测比非专家标注更接近专家解读，颅内血管成形术仍是一个挑战。本地部署的LLM可支持可扩展的临床信息提取和回顾性卒中登记库管理，并对模糊病例进行专家监督。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "NYU Langone brings OpenEvidence’s clinical AI into the EHR systemwide",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/nyu-langone-brings-openevidences-clinical-ai-ehr-systemwide",
+  "date": "2026-10-30T02:45:14.943383+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "121a59626ed2",
+  "keep": true,
+  "zh_title": "纽约大学朗格尼全院部署OpenEvidence临床AI",
+  "summary": "纽约大学朗格尼医疗系统与OpenEvidence合作，将该临床AI接入电子病历并在全系统推广。",
+  "key_points": [
+   "临床AI接入医院电子病历系统",
+   "在NYU Langone全系统范围部署",
+   "报道未给出效果或评价数据"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "临床落地",
+   "医学大模型"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "大型学术医疗中心全院级部署有一定信息量，但无效果数据，属一般行业动态",
+  "processing": "model-enriched",
+  "abstract": "OpenEvidence is expanding its footprint in New York City through a partnership with NYU Langone Health, adding another marquee institution to an existing concentration of partnerships across the ci | OpenEvidence is expanding its footprint in New York City through a partnership with NYU Langone Health, adding another marquee institution to an existing concentration of partnerships across the city's academic medical centers.",
+  "zh_abstract": "OpenEvidence 正通过与 NYU Langone Health 合作扩大其在纽约市的布局，在横跨该市（ci | OpenEvidence 正通过与 NYU Langone Health 合作扩大其在纽约市的布局，在纽约市学术医疗中心已有的合作集中度基础上，又增加了一家标志性机构。",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "精神看病不靠只靠聊，专科大模型助力临床提质｜Nat Mach Intell探索AI辅助精神科决策新路径- 医疗健康专区",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ud2hRdlM0Z1Rscm9venBMZXpjLUpuZmlpbnBLQUIyYUwtMDlUVVlaeWpiMGxSQzVPenlHSlN0R3JRVXl0elNneWtGdzNvM0FydU1vbUI3UVdhUHNR?oc=5",
+  "date": "2026-10-29T05:51:00+00:00",
+  "source": "生物谷",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://news.bioon.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "006924a2aa4d",
+  "keep": true,
+  "zh_title": "精神科专科大模型辅助临床决策（Nat Mach Intell）",
+  "summary": "标题显示《Nature Machine Intelligence》刊出研究，探索AI辅助精神科决策；正文未提供，方法与结果未知。",
+  "key_points": [],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "心理健康",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题、无方法与结果，按标题信息只能给增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-30"
+ },
+ {
+  "title": "Virtual Follow-up Prediction of Subsolid Pulmonary Nodules: A Prospective Silent Reader Study",
+  "link": "https://clinicaltrials.gov/study/NCT07900815",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "NCT07900815",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ff719b30e7df",
+  "keep": true,
+  "zh_title": "亚实性肺结节AI虚拟随访预测：前瞻性静默阅片研究",
+  "summary": "一项已完成入组的前瞻性观察研究方案，评估AI虚拟随访框架预测亚实性肺结节未来CT表现与形态学进展的性能及临床可用性。",
+  "key_points": [
+   "前瞻性、非干预观察设计，计划入组200例",
+   "预测结节未来CT表现与生长特征",
+   "同时评估对放射科医师判断的辅助作用"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持",
+   "肿瘤"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "前瞻性设计可加分，但仅注册信息、无结果，样本量200较小",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Union Hospital, Tongji Medical College, Huazhong University of Science and Technology; conditions: Pulmonary Subsolid Nodules, Ground-Glass Nodules; type: OBSERVATIONAL; enrollment: 200; status: COMPLETED] The goal of this prospective, non-interventional study is to evaluate the predictive performance and potential clinical utility of an artificial intelligence (AI)-based virtual follow-up framework for incidentally detected pulmonary subsolid nodules (SSNs), including pure ground-glass and part-solid nodules. The main questions it aims to answer are: 1. Can the AI model accurately predict future CT appearances, quantitative growth characteristics, and morphological progression of pulmonary SSNs at specified follow-up intervals? 2. Does AI-assisted virtual follow-up improve radiologists' assessment of nodule progression and simulated surveillance management decisions compared with assessment without AI assistance? Researchers will compare radiologists' assessments with and without access to AI-generated future CT images and quantitative predictions. An additional reader evaluation will examine whether generated future images provide incremental value beyond quantitative predictions alone. Participants will undergo clinically indicated CT examinations and receive routine care according to standard clinical practice. The research team will: * Collect previously acquired CT images and clinical information. * Generate and lock AI predictions before the corresponding follow-up CT examinations occur. * Obtain and lock radiologists' assessments and simulated management recommendations before actual follow-up outcomes become available. * Compare predicted nodule progression with observed follow-up CT findings. AI predictions and research-related reader assessments will not be disclosed to treating clinicians or used to alter patients' actual surveillance or treatment decisions.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：华中科技大学同济医学院附属协和医院；疾病：肺部亚实性结节、磨玻璃结节；类型：观察性（OBSERVATIONAL）；入组：200；状态：已完成（COMPLETED）] 这项前瞻性、非干预性研究的目标是评估基于人工智能（AI）的虚拟随访框架对偶然发现的肺部亚实性结节（SSNs），包括纯磨玻璃结节和部分实性结节，的预测性能和潜在临床效用。其主要旨在回答的问题包括：1. AI模型能否在指定随访间隔准确预测肺部SSNs的未来CT表现、定量生长特征和形态学进展？2. 与无AI辅助的评估相比，AI辅助虚拟随访是否改善放射科医师对结节进展的评估和模拟监测管理决策？研究者将比较放射科医师在可获取与不可获取AI生成的未来CT图像和定量预测时的评估。额外的阅片者评估将检查生成的未来图像是否在仅定量预测之外提供增量价值。参与者将接受临床指征的CT检查，并按照标准临床实践接受常规护理。研究团队将：* 收集既往采集的CT图像和临床信息。* 在相应随访CT检查发生之前生成并锁定AI预测。* 在实际随访结果可获得之前获取并锁定放射科医师的评估和模拟管理建议。* 将预测的结节进展与观察到的随访CT结果进行比较。AI预测和研究相关阅片者评估不会向治疗临床医生披露，也不会用于改变患者实际的监测或治疗决策。",
+  "day": "2026-10-30"
+ },
+ {
   "title": "Performance of artificial intelligence for fracture detection: an umbrella review and second-order-meta-analysis",
   "link": "https://www.nature.com/articles/s41746-026-03303-z",
   "date": "2026-10-27T00:00:00+00:00",
@@ -138,7 +527,8 @@
   "processing": "model-enriched",
   "day": "2026-10-29",
   "abstract_days": [
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -317,7 +707,8 @@
   "processing": "model-enriched",
   "day": "2026-10-29",
   "abstract_days": [
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -351,7 +742,8 @@
   "processing": "model-enriched",
   "day": "2026-10-29",
   "abstract_days": [
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -692,7 +1084,13 @@
   "score": 3,
   "reason": "商业化观点类文章，仅标题，增量有限",
   "processing": "model-enriched",
-  "day": "2026-10-29"
+  "day": "2026-10-29",
+  "also": [
+   {
+    "source": "搜狐网",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlJmelZUV0ltRzJDalBMZjJ3WElwb2o1akxwZ3RRYmlpQ0ttdzhJeTBLNjlJQkg5bWN1bzJZZ2dFenFyaV9YU2hUOUdUcnl2Y09zdmFTVUdDYlNaU0VKU1d2ekMxZ2V6QzdDMWFmYVVLcjM5S1pkLVpxcXNZdURFTkFFNVJQcHZEWF9R?oc=5"
+   }
+  ]
  },
  {
   "title": "An interpretable graph reasoning framework for enhanced diagnosis in fundus fluorescein angiography",
@@ -803,7 +1201,8 @@
   "day": "2026-10-28",
   "abstract_days": [
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -913,7 +1312,8 @@
   "day": "2026-10-28",
   "abstract_days": [
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1607,7 +2007,8 @@
   "abstract_days": [
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1647,7 +2048,8 @@
   "abstract_days": [
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2200,7 +2602,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
  },
@@ -2241,7 +2644,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2422,7 +2826,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2463,7 +2868,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2536,7 +2942,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -3143,7 +3550,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -3909,7 +4317,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -4020,7 +4429,8 @@
    "2026-10-26",
    "2026-10-27",
    "2026-10-28",
-   "2026-10-29"
+   "2026-10-29",
+   "2026-10-30"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
