@@ -1,5 +1,269 @@
 [
  {
+  "title": "Training language models in simulation for psychiatric intake",
+  "link": "https://arxiv.org/abs/2610.40476",
+  "date": "2026-10-29T17:10:32+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.40476",
+  "pop": null,
+  "id": "6cf80f3115ba",
+  "keep": true,
+  "zh_title": "模拟环境强化学习训练精神科接诊语言模型",
+  "summary": "预印本显示，多轮强化学习训练的模型在结构化精神科接诊中优于同源基座模型。",
+  "key_points": [
+   "随机双盲交叉，120次访谈",
+   "15名精神科医师独立盲评记录",
+   "76.7%配对场景优于基座模型"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "心理健康",
+   "智能体"
+  ],
+  "evidence": "预印本",
+  "score": 7,
+  "reason": "随机双盲交叉+精神科医师盲评属重要档，但为预印本且场景模拟，不给更高",
+  "processing": "model-enriched",
+  "abstract": "In psychiatric practice, the clinical intake interview remains a primary diagnostic instrument, requiring the clinician to establish rapport while disentangling complex, overlapping presentations. Here, we show that multi-turn reinforcement learning (RL) in simulation environments improves language model performance on structured text-based psychiatric intake, spanning history-taking, differential diagnosis, and initial management planning. In a randomized, double-blind crossover study ($N = 60$ matched scenario pairs, 120 encounters) comparing the RL-trained agent against its identically prompted base model, 32 board-certified psychiatrists role-played standardized patients while a separate panel of 15 independent, board-certified psychiatrists scored the de-identified transcripts. The trained agent outperformed the base model in 76.7% of matched scenario pairs ($p < 0.0001$), with gains on an adapted clinical-examination rubric ($d_z = 0.77$, $p < 0.0001$), patient-centered communication (82.0% vs. 65.2%, $p < 0.001$), and differential diagnosis appropriateness (68.3% vs. 33.3%, $p < 0.001$). Across 127 psychiatrist-validated simulated intake scenarios, the trained agent nearly doubled its base model's clinical rubric score (0.706 vs. 0.379; composite reward 0.564 vs. 0.294, $p < 0.0001$). To systematically probe conversational safety, we established two Delphi-consensus taxonomies, of clinical safety risks and relational competencies, from which 256 challenging adversarial presentations were derived; we find that training in simulation environments more than halved under-triage of acute safety risks (12.9% vs. 30.5%, $p < 0.0001$). Simulation environments thus provide a controlled testbed for training and stress-testing psychiatric conversational agents, with gains that transferred to psychiatrist-enacted encounters, though residual gaps require safeguards and clinician oversight.",
+  "zh_abstract": "在精神科实践中，临床接诊访谈仍是主要的诊断工具，要求临床医生在建立融洽关系的同时，理清复杂且相互重叠的表现。在此，我们展示，模拟环境中的多轮强化学习（reinforcement learning, RL）可提高语言模型在结构化文本精神科接诊中的表现，涵盖病史采集、鉴别诊断和初始管理计划。在一项随机、双盲交叉研究中（$N = 60$ 对匹配场景，120次接诊），将经RL训练的智能体与接受相同提示的基础模型进行比较，32名委员会认证的精神科医生角色扮演标准化患者，而由另一个由15名独立、委员会认证的精神科医生组成的小组对去标识化转录文本进行评分。训练后智能体在76.7%的匹配场景对中优于基础模型（$p < 0.0001$），并在改编的临床检查评分量表（$d_z = 0.77$，$p < 0.0001$）、以患者为中心的沟通（82.0% 对 65.2%，$p < 0.001$）和鉴别诊断适当性（68.3% 对 33.3%，$p < 0.001$）方面均有改善。在127个经精神科医生验证的模拟接诊场景中，训练后智能体的临床评分量表得分几乎为基础模型的两倍（0.706 对 0.379；复合奖励 0.564 对 0.294，$p < 0.0001$）。为系统探究对话安全性，我们建立了两个德尔菲共识分类体系，分别关于临床安全风险和关系能力，并从中衍生出256个具有挑战性的对抗性表现；我们发现，在模拟环境中进行训练使急性安全风险的分诊不足减少了一半以上（12.9% 对 30.5%，$p < 0.0001$）。因此，模拟环境为训练和压力测试精神科对话智能体提供了受控测试平台，其收益可迁移至由精神科医生实施的接诊中，但残余差距仍需要保障措施和临床医生监督。",
+  "day": "2026-10-31"
+ },
+ {
+  "title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
+  "link": "https://www.nature.com/articles/s41746-026-03398-4",
+  "date": "2026-10-30T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03398-4",
+  "pop": null,
+  "id": "8fc708f368bb",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "数字病理空间肿瘤微环境图学习用于胃癌预后",
+  "summary": "npj Digital Medicine 刊文，用可解释图学习建模数字病理中的空间肿瘤微环境模式以预测胃癌预后。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "肿瘤",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅有标题信息，无样本量、验证方式与结局数据，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-10-31",
+  "abstract_days": [
+   "2026-10-31"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
+  "link": "https://www.nature.com/articles/s41746-026-03444-1",
+  "date": "2026-10-30T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03444-1",
+  "pop": null,
+  "id": "f6945d7159cb",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "AI安全系统识别基层漏诊转诊的准确性与影响",
+  "summary": "仅见标题：该同行评审研究评估基层医疗中识别漏诊专科转诊的 AI 安全系统的准确性与影响。",
+  "key_points": [],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床决策支持",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题无摘要，无法判断样本与验证设计，按标题信息量偏低打分",
+  "processing": "model-enriched",
+  "day": "2026-10-31",
+  "abstract_days": [
+   "2026-10-31"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Learning discriminative prototypes via Variational Information Bottleneck for multimodal cancer survival prediction",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004305?dgcid=rss_sd_all",
+  "date": "2026-10-31T02:37:04.778076+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "4f8f17ff6c22",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "变分信息瓶颈判别原型用于多模态癌症生存预测",
+  "summary": "Medical Image Analysis 将发表研究，提出基于变分信息瓶颈学习判别性原型的多模态癌症生存预测方法。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "多模态",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅题录信息，方法细节与验证规模未知，按增量档给分",
+  "processing": "model-enriched",
+  "day": "2026-10-31",
+  "abstract_days": [
+   "2026-10-31"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Stability-guaranteed learning for partially supervised cardiac image segmentation via decomposition and conditional propagation",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004111?dgcid=rss_sd_all",
+  "date": "2026-10-31T02:37:04.778076+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "d3d014d1c2ba",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "部分监督心脏影像分割的稳定性保证学习",
+  "summary": "仅见标题：该文提出基于分解与条件传播的稳定性保证学习，用于部分监督心脏图像分割。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题的方法学论文，无数据、对比或外部验证信息，按低信息量打分",
+  "processing": "model-enriched",
+  "day": "2026-10-31",
+  "abstract_days": [
+   "2026-10-31"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Artificial intelligence-powered solutions for environmental sustainability in medical imaging: a scoping review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42958855/",
+  "date": "2026-10-30T00:00:00+00:00",
+  "badge": "DOI 10.4274/dir.2026.264308",
+  "source": "PubMed · Diagnostic and interventional radiology (Ankara, Turkey)",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ddab844da102",
+  "keep": true,
+  "zh_title": "医学影像环境可持续性的AI方案：范围综述",
+  "summary": "范围综述检索八个数据库，纳入23项研究，梳理AI用于降低医学影像环境影响的可能途径。",
+  "key_points": [
+   "检索8个数据库，纳入23项研究",
+   "采用JBI清单评估偏倚风险",
+   "主题为AI助力影像环境可持续"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "范围综述，主题偏可持续性、与临床AI效能关联弱，综述上限内偏低调",
+  "processing": "model-enriched",
+  "abstract": "[Diagnostic and interventional radiology (Ankara, Turkey)] Growing evidence shows that medical imaging has a substantial environmental impact. With the increasing adoption of artificial intelligence (AI) in clinical settings, it is important to explore how this technology may support environmental sustainability. Literature searches were performed across eight databases (PubMed, Wiley Online Library, Embase, Web of Science platform, the Cochrane Library, Cumulative Index to Nursing and Allied Health Literature Ultimate, Google Scholar, and MedRxiv) for the period January 2020-June 2026. Full-text sources in the English language were eligible for inclusion. The Joanna Briggs Institute checklists were employed for risk of bias assessment. All data were analyzed using a textual narrative synthesis. In total, 23 studies were deemed eligible for inclusion. The literature proposed that AI tools in medical imaging could be used to minimize energy consumption by optimizing patient scheduling, decreasing scanner idle times and workstation use, reducing computed tomography over-scanning, contrast agent usage, and radiation dose, harnessing low-field magnetic resonance imaging, and curtailing low-value imaging. However, AI technologies may also impact the environment in harmful ways. Although AI-powered solutions hold promise for improving sustainability in medical imaging, the true environmental impact remains largely unexplored. The findings of this work further strengthen the dual role of AI adoption in medical imaging related to environmental sustainability.",
+  "zh_abstract": "[诊断与介入放射学（Diagnostic and Interventional Radiology，安卡拉，土耳其）] 越来越多的证据表明，医学影像具有显著的环境影响。随着人工智能（artificial intelligence, AI）在临床环境中的采用日益增加，探索该技术如何支持环境可持续性十分重要。文献检索覆盖八个数据库（PubMed、Wiley Online Library、Embase、Web of Science 平台、Cochrane Library、Cumulative Index to Nursing and Allied Health Literature Ultimate、Google Scholar 和 MedRxiv），检索时段为2020年1月至2026年6月。英文全文来源符合纳入条件。采用 Joanna Briggs Institute 清单进行偏倚风险评估。所有数据均采用文本叙述综合进行分析。共有23项研究被认为符合纳入条件。文献提出，医学影像中的AI工具可通过优化患者排程、减少扫描仪空闲时间和工作站使用、减少计算机断层扫描过度扫描、对比剂使用和辐射剂量、利用低场磁共振成像以及削减低价值影像检查来最小化能耗。然而，AI技术也可能以有害方式影响环境。尽管AI驱动的解决方案有望改善医学影像的可持续性，其真实环境影响仍在很大程度上未被探索。本研究结果进一步强化了医学影像中AI采用与环境可持续性相关的双重作用。",
+  "day": "2026-10-31"
+ },
+ {
+  "title": "AI Tracker: Midstream Health secures $20M",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0Zsbm5XcmxTU0JuTzczTC1fUF9FVzB3LTJ3X2hLYVRJUFl3ZXB6TEZoMldEOXlkTXBTOVp2amNpLXFVeWlBUUd4X2dZNzlvUnB2LUoybW9LRThOY2pjN18tbnB3S2NieGMwSm9fVVBuZHprWUFrTU50Wk91ZVREV3NDZ1hvQ3RxcW9zeEMxMGs?oc=5",
+  "date": "2026-10-30T17:02:04+00:00",
+  "source": "Modern Healthcare News",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.modernhealthcare.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "7cea460efc40",
+  "keep": true,
+  "zh_title": "Midstream Health获2000万美元融资",
+  "summary": "标题显示医疗AI公司Midstream Health完成2000万美元融资。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小额融资且仅标题，无产品与效果细节，属增量信息",
+  "processing": "model-enriched",
+  "day": "2026-10-31"
+ },
+ {
+  "title": "从工具到生态，腾讯健康以Agent为抓手推进医疗AI规模化落地",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ydlpzVU9QYUpLMF9ja19jWnRqU3FzLXJ0Q3JIbXRwcW13bWo3UFBzdF8zMkVRZlFZbUplVUR4dFRGWHVUOWNkVTFBalZxd19PNEdtaXNuZ0Q4RDh6?oc=5",
+  "date": "2026-10-31T02:31:09+00:00",
+  "source": "粤港澳都市网",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://www.ygacity.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "02db299a6c61",
+  "keep": true,
+  "zh_title": "腾讯健康以Agent推进医疗AI规模化落地",
+  "summary": "标题称腾讯健康以智能体为抓手，推动医疗AI从工具走向生态的规模化落地。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "观点",
+  "tags": [
+   "智能体",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "厂商落地宣传，仅标题无部署规模与效果数据，信息有限",
+  "processing": "model-enriched",
+  "day": "2026-10-31"
+ },
+ {
   "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
   "link": "https://www.nature.com/articles/s41591-026-04655-5",
   "date": "2026-10-29T00:00:00+00:00",
@@ -218,7 +482,8 @@
   "processing": "model-enriched",
   "day": "2026-10-30",
   "abstract_days": [
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -253,7 +518,8 @@
   "processing": "model-enriched",
   "day": "2026-10-30",
   "abstract_days": [
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -290,7 +556,8 @@
   "processing": "model-enriched",
   "day": "2026-10-30",
   "abstract_days": [
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -327,7 +594,8 @@
   "processing": "model-enriched",
   "day": "2026-10-30",
   "abstract_days": [
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -508,9 +776,10 @@
   "processing": "model-enriched",
   "day": "2026-10-30",
   "abstract_days": [
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
-  "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
  {
   "title": "NYU Langone brings OpenEvidence’s clinical AI into the EHR systemwide",
@@ -916,7 +1185,8 @@
   "day": "2026-10-29",
   "abstract_days": [
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1096,7 +1366,8 @@
   "day": "2026-10-29",
   "abstract_days": [
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1131,7 +1402,8 @@
   "day": "2026-10-29",
   "abstract_days": [
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1590,7 +1862,8 @@
   "abstract_days": [
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1701,7 +1974,8 @@
   "abstract_days": [
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2396,7 +2670,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2437,7 +2712,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2991,7 +3267,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
  },
@@ -3033,7 +3310,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3215,7 +3493,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3257,7 +3536,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3331,7 +3611,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -3939,7 +4220,8 @@
    "2026-10-27",
    "2026-10-28",
    "2026-10-29",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-10-31"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -8202,31 +8484,6 @@
   "zh_abstract": "《Nature Machine Intelligence》，在线发表：2026年10月1日；doi:10.1038/s42256-026-01313-w 生物医学发现已进入一个时代，其中限制性资源不再是数据，而是我们整合和解释证据的能力。DeepEvidence是一种新的深度研究智能体，它超越了事实检索，并构建科学证据的显式表示。"
  },
  {
-  "title": "Sequential Digital Intervention to Increase Influenza Vaccination in Patients With Heart Failure",
-  "link": "https://clinicaltrials.gov/study/NCT07880158",
-  "desc": "[Newly registered clinical trial, no results yet; sponsor: Heart Health Research Center; conditions: Heart Failure, Influenza Vaccination; type: INTERVENTIONAL; phase: NA; enrollment: 588; status: NOT_YET_RECRUITING] Influenza vaccination is an important preventive measure for patients with heart failure (HF), but vaccination uptake remains low in China. Although previous studies have demonstrated the benefits of actively promoting influenza vaccination, scalable strategies to improve vaccination uptake among patients with HF after hospital discharge remain insufficiently evaluated. The PANDA-BOOST trial is a prospective, pragmatic, open-label, two-stage sequential randomized clinical trial involving participants previously enrolled in the PANDA II trial. The study aims to evaluate whether sequential digital interventions using artificial intelligence (AI)-assisted telephone calls and short message service (SMS) reminders improve influenza vaccination uptake compared with a single routine vaccination recommendation. After an initial AI-assisted telephone call providing a standardized influenza vaccination recommendation, eligible unvaccinated participants will be randomized in a 1:2 ratio to a routine recommendation group or a sequential digital intervention group. Participants in the sequential intervention group will receive additional AI-assisted telephone calls approximately 14 and 28 days after the initial call. Those who remain unvaccinated and meet eligibility criteria at the third call will undergo a second randomization in a 1:1:1 ratio to no additional SMS, gain-framed SMS, or loss-framed SMS. The primary outcome is influenza vaccination uptake within two months after the first-stage randomization.",
-  "date": "2026-10-19T00:00:00+00:00",
-  "badge": "NCT07880158",
-  "source": "ClinicalTrials.gov",
-  "source_group": "ClinicalTrials.gov",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "a6420ebb9113",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Heart Health Research Center; conditions: Heart Failure, Influenza Vaccination; type: INTERVENTIONAL; phase: NA; enrollment: 588; status: NOT_YET_RECRUITING] Influenza vaccination is an important preventive measure for patients with heart failure (HF), but vaccination uptake remains low in China. Although previous studies have demonstrated the benefits of actively promoting influenza vaccination, scalable strategies to improve vaccination uptake among patients with HF after hospital discharge remain insufficiently evaluated. The PANDA-BOOST trial is a prospective, pragmatic, open-label, two-stage sequential randomized clinical trial involving participants previously enrolled in the PANDA II trial. The study aims to evaluate whether sequential digital interventions using artificial intelligence (AI)-assisted telephone calls and short message service (SMS) reminders improve influenza vaccination uptake compared with a single routine vaccination recommendation. After an initial AI-assisted telephone call providing a standardized influenza vaccination recommendation, eligible unvaccinated participants will be randomized in a 1:2 ratio to a routine recommendation group or a sequential digital intervention group. Participants in the sequential intervention group will receive additional AI-assisted telephone calls approximately 14 and 28 days after the initial call. Those who remain unvaccinated and meet eligibility criteria at the third call will undergo a second randomization in a 1:1:1 ratio to no additional SMS, gain-framed SMS, or loss-framed SMS. The primary outcome is influenza vaccination uptake within two months after the first-stage randomization.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
   "title": "No Mastery without the Machine — Medical Education in the Age of Clinical AI",
   "link": "https://ai.nejm.org/doi/full/10.1056/AIp2600773?af=R&rss=currentIssue",
   "date": "2026-10-13T05:00:00+00:00",
@@ -8315,31 +8572,6 @@
   "processing": "model-enriched",
   "abstract": "[Journal of visualized experiments : JoVE] Artificial Intelligence (AI) has drastically enhanced healthcare diagnostics with automated disease detection, predictive analytics, and intelligent systems for clinical decision support. Nevertheless, the black-box nature of deep learning models hampers interpretability, clinical trust, and regulatory acceptance and raises concerns about data privacy and cybersecurity. This paper presents comprehensive experimental frameworks for developing and evaluating explainable AI models for secure healthcare diagnostics. The suggested model combines responsible data management, multimodal preprocessing, secure deep learning models, explainable artificial intelligence (XAI) methods, and reproducible validation procedures in a single healthcare diagnostic pipeline. Methods of explaining, such as Grad-CAM, SHAP, LIME, and counterfactual analysis, were used to make the models more transparent and understandable for clinicians. At the same time, federated learning and differential privacy methods were used to securely manage highly sensitive patient data. Experimental evaluation has shown 96% classification accuracy, 94% sensitivity, and 95% specificity. These results were consistent in heterogeneous healthcare datasets. Compared to traditional black-box models, the explainability framework not only enhanced the interpretability of the results but also more accurately identified the regions relevant for diagnosis. Moreover, the secure federated learning architecture minimized privacy leakages without sacrificing the predictive performance and remained robust even when exposed to adversarial perturbations. An external evaluation also confirmed the reproducibility and generalizability of the protocols involved. This methodology offers a comprehensive and reliable foundation for deploying AI-powered diagnostics across multiple healthcare domains: radiology, pathology, oncology, cardiology, neurology, and precision medicine.",
   "zh_abstract": "[Journal of Visualized Experiments : JoVE] 人工智能（AI）通过自动疾病检测、预测分析和用于临床决策支持的智能系统，极大地增强了医疗诊断能力。然而，深度学习模型的黑箱性质阻碍了可解释性、临床信任和监管接受，并引发了对数据隐私和网络安全的担忧。本文提出了用于开发和评估可解释AI模型以实现安全医疗诊断的综合实验框架。所建议的模型将负责任的数据管理、多模态预处理、安全的深度学习模型、可解释人工智能（XAI）方法以及可重复的验证程序整合到单一的医疗诊断流程中。使用Grad-CAM、SHAP、LIME和反事实分析等解释方法，使模型对临床医生更加透明和易懂。同时，使用联邦学习和差分隐私方法来安全管理高度敏感的患者数据。实验评估显示分类准确率为96%、敏感性为94%、特异性为95%。这些结果在异质性医疗数据集中保持一致。与传统黑箱模型相比，该可解释性框架不仅增强了结果的可解释性，还更准确地识别了与诊断相关的区域。此外，安全的联邦学习架构在不牺牲预测性能的情况下最大限度地减少了隐私泄露，并且即使在受到对抗性扰动时也保持稳健。外部评估还证实了所涉及方案的可重复性和泛化性。该方法为在多个医疗领域部署AI驱动的诊断提供了全面而可靠的基础：放射学、病理学、肿瘤学、心脏病学、神经病学和精准医学。",
-  "day": "2026-10-20"
- },
- {
-  "title": "Advancing nanomaterials for treatment of eye diseases: a review.",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/42887482/",
-  "desc": "[Experimental and molecular pathology] Ocular diseases involving both the anterior and posterior segments-such as dry eye disease, keratitis, glaucoma, cataracts, diabetic retinopathy, retinal vein occlusion, and ocular tumors-remain major contributors to global visual impairment. Conventional topical and systemic therapies are limited by rapid clearance, restricted penetration across ocular barriers, and poor bioavailability, particularly for posterior-segment targets. Nanotechnology has introduced a transformative therapeutic paradigm by enabling controlled pharmacokinetics, enhanced tissue penetration, and site-specific delivery. A wide range of engineered nanomaterials-including polymeric nanoparticles, lipid-based carriers, dendrimers, metallic and metal-oxide nanoparticles, mesoporous silica systems, cerium oxide nanozymes, carbon quantum dots, nanogels, and electrospun nanofibers-has demonstrated improved drug loading, sustained release, ocular surface retention, and compatibility with biologics and gene-based agents. Emerging minimally invasive platforms, such as 4D printed smart scaffolds, dissolving microneedles and magnetically driven microrobots, further enable precise transscleral or intravitreal delivery, active navigation through the vitreous, and targeted interaction with retinal lesions. Parallel clinical advances, including FDA-approved nanoformulations and ongoing trials, confirm the translational potential of these technologies. Plus, artificial intelligence now accelerates both ophthalmic diagnosis and nanocarrier design, enabling predictive modeling of nano-bio interactions, personalized delivery strategies, and real-time disease assessment. This review integrates current advances in nanomaterial engineering and AI-guided innovation, outlining their convergent roles in shaping next-generation precision therapeutics for vision preservation and restoration.",
-  "date": "2026-10-16T00:00:00+00:00",
-  "badge": "DOI 10.1016/j.yexmp.2026.105087",
-  "source": "PubMed · Experimental and molecular pathology",
-  "source_group": "PubMed",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "bc3574694e24",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "[Experimental and molecular pathology] Ocular diseases involving both the anterior and posterior segments-such as dry eye disease, keratitis, glaucoma, cataracts, diabetic retinopathy, retinal vein occlusion, and ocular tumors-remain major contributors to global visual impairment. Conventional topical and systemic therapies are limited by rapid clearance, restricted penetration across ocular barriers, and poor bioavailability, particularly for posterior-segment targets. Nanotechnology has introduced a transformative therapeutic paradigm by enabling controlled pharmacokinetics, enhanced tissue penetration, and site-specific delivery. A wide range of engineered nanomaterials-including polymeric nanoparticles, lipid-based carriers, dendrimers, metallic and metal-oxide nanoparticles, mesoporous silica systems, cerium oxide nanozymes, carbon quantum dots, nanogels, and electrospun nanofibers-has demonstrated improved drug loading, sustained release, ocular surface retention, and compatibility with biologics and gene-based agents. Emerging minimally invasive platforms, such as 4D printed smart scaffolds, dissolving microneedles and magnetically driven microrobots, further enable precise transscleral or intravitreal delivery, active navigation through the vitreous, and targeted interaction with retinal lesions. Parallel clinical advances, including FDA-approved nanoformulations and ongoing trials, confirm the translational potential of these technologies. Plus, artificial intelligence now accelerates both ophthalmic diagnosis and nanocarrier design, enabling predictive modeling of nano-bio interactions, personalized delivery strategies, and real-time disease assessment. This review integrates current advances in nanomaterial engineering and AI-guided innovation, outlining their convergent roles in shaping next-generation precision therapeutics for vision preservation and restoration.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
   "day": "2026-10-20"
  },
  {
@@ -9460,31 +9692,6 @@
   "type": "论文",
   "reason": "已完成的注册干预研究但无结果数据，样本153例偏小，属增量档",
   "zh_abstract": "[新注册的临床试验，尚无结果；申办方：蒙彼利埃大学医院；条件：健康沟通、患者出院；类型：干预性；分期：不适用；入组人数：153；状态：已完成] 本研究比较了为离开儿科急诊科的儿童及其家庭准备出院文件的两种方式。在常规工作流程中，电子健康记录中的信息被汇编到固定的文件模板中。在替代工作流程中，ERIOS Assistant（一种部署在医院内的人工智能系统）为卫生专业人员和家庭或儿童起草文件。在两种工作流程中，临床医生均在文件交给家庭之前对其进行审核和验证。根据已完成的研究报告，分组涉及作出出院决定后的文件生成，并不决定诊断、治疗或处置。出院后通过电话联系家庭，以评估其对照护和指示的陈述与医疗记录的一致性，以及他们感知到的理解程度、满意度和文件使用情况。方案还计划评估文件质量、可读性、临床医生体验、可用性和人工监督。本研究是在随机化部分完成后进行回顾性注册的。"
- },
- {
-  "title": "中新健康｜脑机接口告别“讲故事”？",
-  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOQjhPV3YtTWNPbXJ3MDdKYnc3YVZQMXlVTlBXQmw2MnhuVlViR3ZCWGtINzUtcllJS2YxQ1pMcjNqamY3c3gtY2xfNVVIODdtek9ldTN3TDhtOUJVUUpvWTJ0dlE2QWY3?oc=5",
-  "desc": "",
-  "date": "2026-10-13T13:45:48+00:00",
-  "source": "中国新闻网",
-  "source_group": "Google News · NMPA AI",
-  "home": "https://www.chinanews.com.cn",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "99a7519b3e04",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
  },
  {
   "title": "Healthleap Raises $38M to Expand AI Screening for Overlooked Conditions in Hospitalized Patients",
