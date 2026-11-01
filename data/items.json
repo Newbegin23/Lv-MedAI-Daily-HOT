@@ -114,6 +114,83 @@
   "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
  {
+  "title": "Generation of synthetic clinical text: a systematic review",
+  "link": "https://www.nature.com/articles/s41746-026-03438-z",
+  "date": "2026-10-31T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03438-z",
+  "pop": null,
+  "id": "b59e497d41c8",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "合成临床文本生成：系统综述",
+  "summary": "npj Digital Medicine 发表的系统综述，梳理合成临床文本生成领域的研究，来源仅提供题录信息，未给出纳入研究数量与结论。",
+  "key_points": [
+   "主题为合成临床文本的生成方法",
+   "发表于 npj Digital Medicine，同行评审",
+   "摘要与纳入研究细节未在来源中给出"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "系统综述属有信息量的综述档，但来源未给纳入研究数与结论，难上调",
+  "processing": "model-enriched",
+  "day": "2026-11-01",
+  "abstract_days": [
+   "2026-11-01"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Interpretability-driven feature engineering enables compact and accurate multi-outcome risk stratification at hospitalization for chronic hepatitis B",
+  "link": "https://www.nature.com/articles/s41746-026-03439-y",
+  "date": "2026-10-31T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03439-y",
+  "pop": null,
+  "id": "d82e04f00ec6",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "可解释性驱动特征工程助力慢性乙肝住院多结局风险分层",
+  "summary": "npj Digital Medicine 刊发研究，用可解释性驱动的特征工程构建慢性乙肝住院患者多结局风险分层模型，仅见标题与出处信息。",
+  "key_points": [
+   "发表于 npj Digital Medicine，同行评审",
+   "主题为慢性乙肝住院多结局风险分层",
+   "以可解释性驱动特征工程实现紧凑模型"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "可解释性",
+   "电子病历"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "规范期刊的临床预测建模研究，但仅见标题，无外部验证或样本量信息，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-01",
+  "abstract_days": [
+   "2026-11-01"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
   "title": "MSRepaint: Multiple Sclerosis Repaint with conditional denoising diffusion implicit model for bidirectional lesion filling and synthesis",
   "link": "https://www.sciencedirect.com/science/article/pii/S136184152600407X?dgcid=rss_sd_all",
   "date": "2026-11-01T02:24:43.544042+00:00",
@@ -149,6 +226,44 @@
   "abstract": "Publication date: January 2027 Source: Medical Image Analysis, Volume 115 Author(s): Jinwei Zhang, Lianrui Zuo, Yihao Liu, Hang Zhang, Samuel W. Remedios, Bennett A. Landman, Peter A. Calabresi, Shiv Saidha, Scott D. Newsome, Dzung L. Pham, Jerry L. Prince, Ellen M. Mowry, Aaron Carass",
   "zh_abstract": "出版日期：2027年1月；来源：《Medical Image Analysis》，第115卷；作者：Jinwei Zhang、Lianrui Zuo、Yihao Liu、Hang Zhang、Samuel W. Remedios、Bennett A. Landman、Peter A. Calabresi、Shiv Saidha、Scott D. Newsome、Dzung L. Pham、Jerry L. Prince、Ellen M. Mowry、Aaron Carass",
   "day": "2026-11-01"
+ },
+ {
+  "title": "Meta-analysis prompt guided multi-task graph transformer for joint analysis of cognitive deficits and psychiatric disorders",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003907?dgcid=rss_sd_all",
+  "date": "2026-11-01T10:42:06.019631+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "d9ca510f44d3",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "元分析提示引导多任务图Transformer联合分析认知缺陷与精神障碍",
+  "summary": "Medical Image Analysis 刊发方法研究，提出元分析提示引导的多任务图Transformer，用于联合分析认知缺陷与精神疾病。",
+  "key_points": [
+   "提出提示引导的多任务图Transformer方法",
+   "任务为认知缺陷与精神障碍联合分析",
+   "来源未提供样本量与外部验证信息"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "神经科学"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审的新方法研究，但缺少验证规模与外部验证信息，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-01",
+  "abstract_days": [
+   "2026-11-01"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
  {
   "title": "Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study",
@@ -221,6 +336,44 @@
   "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
  {
+  "title": "Topology-aware unsupervised domain adaptation for curvilinear structure segmentation",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003981?dgcid=rss_sd_all",
+  "date": "2026-11-01T10:42:06.019631+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "b27b2e366701",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "面向曲线结构分割的拓扑感知无监督域适应",
+  "summary": "Medical Image Analysis 刊出拓扑感知无监督域适应方法用于曲线结构分割，仅见标题与作者信息，未读到摘要。",
+  "key_points": [
+   "发表于 Medical Image Analysis，同行评审",
+   "方法为拓扑感知的无监督域适应",
+   "任务为曲线结构分割"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "数据集"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "分割方法学论文，仅见标题，无对比结果与验证设计信息，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-01",
+  "abstract_days": [
+   "2026-11-01"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
   "title": "DINOv2 for PET: A Pre-Training Domain Benchmark Across Classification, Segmentation, and Prognosis",
   "link": "https://arxiv.org/abs/2610.40018",
   "date": "2026-10-29T13:30:24+00:00",
@@ -257,6 +410,42 @@
   "day": "2026-11-01"
  },
  {
+  "title": "Multi-modal data Integration for Metastatic Risk Prediction of AJCC Stage I/II Melanomas: Results from the Population-based Dutch Early-stage Melanoma Study (D-ESMEL)",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366608v1?rss=1",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.29.26366608",
+  "pop": null,
+  "id": "7a5ae01dbfa6",
+  "keep": true,
+  "zh_title": "多模态数据整合预测早期黑色素瘤转移风险",
+  "summary": "基于荷兰D-ESMEL人群队列，比较四种多模态整合策略预测AJCC I/II期黑色素瘤转移，含独立验证集。",
+  "key_points": [
+   "整合临床病理、基因组、转录组与病理组学数据",
+   "发现集221组匹配病例对照，验证集154组",
+   "评估四种多模态整合策略，预印本未经同行评审"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "多模态",
+   "肿瘤"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "有人群基础验证集与多组学整合，但为病例对照设计、样本量有限且属预印本",
+  "processing": "model-enriched",
+  "abstract": "Early-stage melanoma accounts for 40-60% of melanoma-related deaths. Most prognostic modelling studies focus on unimodal approaches or a single multimodal integration strategy, overlooking alternative methods and biological processes underlying metastatic progression. We aimed to evaluate multi-modal data integration for predicting metastasis using the Dutch Early-Stage Melanoma (D-ESMEL) study, the worlds largest multi-modal cohort of American Joint Committee on Cancer (AJCC) stage I/II melanoma. We analysed clinicopathological, genomic, transcriptomic, and pathomics data from the D-ESMEL study. The discovery set included 221 case-control sets matched on follow-up time, age, sex, Breslow thickness, and ulceration. The validation cohort included 154 AJCC stage matched case-control sets based on a population of >5,500 stage I/II melanoma patients. We evaluated four integration strategies (early, intermediate, mixed, and late) using a repeated (n=5) nested 3-fold cross-validation in the discovery set. The best-performing models were evaluated in the validation cohort using the odds ratios (ORs) and a weighted C-index reflecting performance in the sampled population. In the discovery set, intermediate integration of genomics and transcriptomics achieved the highest balanced accuracy ({micro}: 0{middle dot}62; 95% CI: 0{middle dot}57-0{middle dot}66). Early and late integration of transcriptomics and pathomics, and the unimodal transcriptomics model showed similar performance ({micro}: 0{middle dot}61; 95% CI: 0{middle dot}58-0{middle dot}65). In the validation cohort both early integration, late integration, and the unimodal transcriptomics model achieved the highest balanced accuracy of 0{middle dot}60{middle dot} When adjusted for clinicopathological risk factors early integration remained an independent prognostic factor for metastasis (OR 1{middle dot}75; p<0{middle dot}01), outperforming transcriptomics alone (OR 1{middle dot}26; p<0{middle dot}01). Early integration reached a weighted C-index of 0{middle dot}83 outperforming AJCC stage (0{middle dot}81 C-index). When combined the population-weighted C-index was significantly improved to 0{middle dot}85 (p<0{middle dot}01). Early integration of transcriptomics and pathomics outperformed all unimodal models and improved prediction of distant metastasis independently of AJCC stage. Understanding the biological mechanisms underlying these predictions may further support clinical decision-making.",
+  "zh_abstract": "早期黑色素瘤占黑色素瘤相关死亡的 40–60%。大多数预后建模研究集中于单模态方法或单一多模态整合策略，忽视了其他方法以及转移进展背后的生物学过程。我们旨在利用荷兰早期黑色素瘤（Dutch Early-Stage Melanoma，D-ESMEL）研究——全球最大的美国癌症联合委员会（AJCC）I/II 期黑色素瘤多模态队列——评估多模态数据整合用于预测转移。我们分析了 D-ESMEL 研究的临床病理学、基因组学、转录组学和病理组学数据。发现集包括 221 个病例-对照集，按随访时间、年龄、性别、Breslow 厚度和溃疡进行匹配。验证队列包括 154 个按 AJCC 分期匹配的病例-对照集，基于超过 5,500 例 I/II 期黑色素瘤患者的人群。我们在发现集中使用重复（n=5）嵌套 3 折交叉验证评估了四种整合策略（早期、中间、混合和晚期）。表现最佳的模型在验证队列中使用比值比（ORs）和反映抽样人群中表现的加权 C 指数进行评估。在发现集中，基因组学和转录组学的中间整合获得了最高的平衡准确率（{micro}：0.62；95% CI：0.57–0.66）。转录组学和病理组学的早期与晚期整合，以及单模态转录组学模型表现出相似的表现（{micro}：0.61；95% CI：0.58–0.65）。在验证队列中，早期整合、晚期整合和单模态转录组学模型均达到最高的平衡准确率 0.60。当调整临床病理学危险因素后，早期整合仍是转移的独立预后因素（OR 1.75；p<0.01），优于单独转录组学（OR 1.26；p<0.01）。早期整合达到加权 C 指数 0.83，优于 AJCC 分期（C 指数 0.81）。当联合时，人群加权 C 指数显著提高至 0.85（p<0.01）。转录组学和病理组学的早期整合优于所有单模态模型，并独立于 AJCC 分期改善远处转移预测。理解这些预测背后的生物学机制可能进一步支持临床决策。",
+  "day": "2026-11-01"
+ },
+ {
   "title": "AI-Enabled Patient Profiling for Personalized Nursing Care and Health Support: Scoping Review.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42955065/",
   "date": "2026-10-29T00:00:00+00:00",
@@ -289,6 +478,76 @@
   "processing": "model-enriched",
   "abstract": "[Journal of medical Internet research] AI-enabled patient profiling has been proposed to organize heterogeneous patient data and support personalized nursing care and health support. Given the growing use of AI, machine learning, large language models (LLMs), digital phenotyping, and digital twins in health care, it is important to clarify how patient profiling has been conceptualized, applied, and evaluated in nursing-relevant contexts. This scoping review aimed to examine and report the available evidence on AI-enabled patient profiling for personalized nursing care and health support. This scoping review was conducted using the Joanna Briggs Institute methodological framework and the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews). Chinese and English databases were searched from inception to May 18, 2026, including China National Knowledge Infrastructure, Wanfang Data, VIP Database, Chinese Biomedical Literature Database, PubMed, CINAHL, Web of Science, and Embase. Eligible studies used AI or computational intelligence methods to construct, classify, apply, validate, or evaluate patient profiles or related patient representations relevant to personalized nursing care or health support. Two reviewers independently screened records, assessed full texts, and charted data using a predefined form. Data were synthesized descriptively and narratively using an input-process-output framework. A total of 61 studies were included. AI-enabled patient profiling was represented through patient profiles, patient or user personas, digital phenotypes, patient segments, clinical subtypes, digital twins, and LLM-enabled personalization. Included studies used diverse data sources, including electronic health records, nursing records, patient-reported outcomes, questionnaires, mobile app data, wearable and sensor data, engagement logs, and textual or conversational data. Common AI approaches included machine learning, clustering, deep learning, natural language processing, recommender systems, knowledge graphs, digital twin modeling, and LLMs. Applications focused on personalized education, self-management support, rehabilitation, chronic disease management, remote monitoring, decision support, follow-up care, and shared decision-making. Most studies evaluated algorithmic performance, feasibility, usability, or system development, whereas fewer studies examined profile validity, actionability, equity, workflow integration, or long-term nursing-sensit",
   "zh_abstract": "[Journal of Medical Internet Research] 已提出AI赋能的患者画像，用于组织异质性患者数据并支持个性化护理和健康支持。鉴于AI、机器学习、大语言模型（LLMs）、数字表型分析和数字孪生在医疗保健中的使用日益增多，有必要明确患者画像在护理相关情境中是如何被概念化、应用和评价的。本范围综述旨在审查并报告关于AI赋能患者画像用于个性化护理和健康支持的可获得证据。本范围综述采用Joanna Briggs Institute方法学框架和PRISMA-ScR（Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews）进行。检索中文和英文数据库，时间自建库至2026年5月18日，包括中国知网（China National Knowledge Infrastructure）、万方数据（Wanfang Data）、维普数据库（VIP Database）、中国生物医学文献数据库（Chinese Biomedical Literature Database）、PubMed、CINAHL、Web of Science和Embase。符合条件的研究使用AI或计算智能方法构建、分类、应用、验证或评价与个性化护理或健康支持相关的患者画像或相关患者表征。两名评价者独立筛选记录、评估全文，并使用预定义表格提取数据。采用输入-过程-输出框架对数据进行描述性和叙述性综合。共纳入61项研究。AI赋能的患者画像通过患者画像、患者或用户角色画像、数字表型、患者分群、临床亚型、数字孪生和LLM赋能的个性化来体现。纳入研究使用了多种数据来源，包括电子健康记录、护理记录、患者报告结局、问卷、移动应用数据、可穿戴设备和传感器数据、参与日志以及文本或对话数据。常见的AI方法包括机器学习、聚类、深度学习、自然语言处理、推荐系统、知识图谱、数字孪生建模和LLMs。应用集中于个性化教育、自我管理支持、康复、慢性病管理、远程监测、决策支持、随访照护和共享决策。大多数研究评价了算法性能、可行性、可用性或系统开发，而较少研究考察了画像有效性、可操作性、公平性、工作流程整合或长期护理敏感",
+  "day": "2026-11-01"
+ },
+ {
+  "title": "GENERATİVE AI-SUPPORTED NURSİNG PROCESS EDUCATİON AND NURSİNG STUDENTS' LEARNİNG OUTCOMES",
+  "link": "https://clinicaltrials.gov/study/NCT07905040",
+  "date": "2026-10-29T00:00:00+00:00",
+  "badge": "NCT07905040",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "d14d7f63cd00",
+  "keep": true,
+  "zh_title": "生成式AI支持的护理程序教育随机对照试验",
+  "summary": "土耳其某基金会的大学完成一项随机对照试验，173名护理本科生评估生成式AI支持教学对学习结果的影响，暂无结果。",
+  "key_points": [
+   "随机对照设计，入组173名护理本科生",
+   "干预为三个连续周的患者案例生成式AI练习",
+   "注册信息显示已完成，但尚未公布结果"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "RCT设计但为教育场景、样本173且无结果数据，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Istanbul Medipol University Hospital; conditions: Nursing Education, Nursing Process, Learning Outcome, Generative Artificial Intelligence; type: INTERVENTIONAL; phase: NA; enrollment: 173; status: COMPLETED] This randomized controlled trial evaluated the effect of generative artificial intelligence (AI)-supported education in teaching the nursing process on nursing students' learning outcomes. The study was conducted with undergraduate nursing students enrolled in the Nursing Process course for the first time at a foundation university in Istanbul, Türkiye. After a 7-week instructor-centered theoretical course, students were randomly assigned to an intervention or control group using computer-based simple randomization. Over three consecutive weeks, the intervention group worked on three patient case scenarios using a generative AI platform (Gemini), guided by pre-defined themes and prompts covering data collection, nursing diagnosis, planning, and implementation. The accuracy, consistency, and alignment of AI-generated responses with the nursing process steps were then discussed in class. During the same period, the control group completed three different case studies using the instructor's standard care plan template. Nursing process knowledge, self-efficacy in clinical performance, and clinical decision-making confidence and anxiety were measured before and after the intervention, and attitudes toward artificial intelligence and the course were measured after the intervention. A total of 173 eligible students were randomized (intervention n = 85; control n = 88), and the study was completed with 140 students (intervention n = 68; control n = 72). Students who were repeating the course or were horizontal or vertical transfer students were excluded. The primary outcome was nursing process knowledge, measured with a researcher-developed Nursing Process Knowledge Test. Secondary outcomes were measured with the Self-Efficacy in Clinical Performance Scale, the Nursing Anxiety and Self-Confidence with Clinical Decision Making Scale, and the Attitude Toward Artificial Intelligence and Its Course Scale. Data were collected through electronic forms and analyzed using IBM SPSS 22.0.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Istanbul Medipol University Hospital；条件：护理教育、护理程序、学习结果、生成式人工智能；类型：干预性；阶段：NA；入组：173；状态：COMPLETED（已完成）] 这项随机对照试验评估了生成式人工智能（AI）支持的护理程序教学对护理学生学习结果的影响。该研究在土耳其（Türkiye）伊斯坦布尔一所基金会大学首次注册护理程序课程的本科护理学生中开展。在为期7周的以教师为中心的理论课程后，使用基于计算机的简单随机化将学生随机分配到干预组或对照组。在连续三周内，干预组使用生成式AI平台（Gemini），在预先定义的涵盖数据收集、护理诊断、计划和实施的提纲与提示引导下，完成三个患者病例情景。随后在课堂上讨论AI生成回答的准确性、一致性及其与护理程序步骤的对齐程度。同一期间，对照组使用教师的标准护理计划模板完成三个不同的病例研究。在干预前后测量护理程序知识、临床实践自我效能感以及临床决策信心和焦虑，并在干预后测量对人工智能及该课程的态度。共有173名符合条件的学生被随机化（干预组n = 85；对照组n = 88），研究最终完成于140名学生（干预组n = 68；对照组n = 72）。复修该课程的学生或横向或纵向转学生被排除。主要结局为护理程序知识，采用研究者开发的护理程序知识测试（Nursing Process Knowledge Test）测量。次要结局采用临床实践自我效能感量表（Self-Efficacy in Clinical Performance Scale）、临床决策中的护理焦虑与自信量表（Nursing Anxiety and Self-Confidence with Clinical Decision Making Scale）以及对人工智能及其课程的态度量表（Attitude Toward Artificial Intelligence and Its Course Scale）测量。数据通过电子表格收集，并使用IBM SPSS 22.0进行分析。",
+  "day": "2026-11-01"
+ },
+ {
+  "title": "Translational maturity of artificial intelligence-enabled electrocardiography varies across cardiovascular diseases.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42964408/",
+  "date": "2026-10-16T00:00:00+00:00",
+  "badge": "DOI 10.3389/fcvm.2026.1940621",
+  "source": "PubMed · Frontiers in cardiovascular medicine",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "1f61f1c8bfdb",
+  "keep": true,
+  "zh_title": "AI心电图的转化成熟度在不同心血管疾病间存在差异",
+  "summary": "Frontiers in Cardiovascular Medicine 的批判性叙述综述，基于77篇文献评估 AI-ECG 在多种心血管疾病中的转化成熟度。",
+  "key_points": [
+   "检索2022至2026年文献，共77篇",
+   "按预期用途等五项临床导向标准评估",
+   "指出回顾性高区分度不等于临床可行动获益"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "临床预测",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "叙述性综述，覆盖77篇并有评估框架，但非系统综述/meta，最高属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in cardiovascular medicine] Electrocardiography is a widely available and low-cost cardiovascular test, and artificial intelligence-enabled electrocardiography (AI-ECG) can identify latent electrical phenotypes beyond conventional interpretation. However, high retrospective discrimination does not necessarily translate into clinically reliable or actionable benefit. This critical narrative review evaluates the translational maturity of AI-ECG across arrhythmias, acute myocardial infarction, heart failure, valvular heart disease, hypertrophic cardiomyopathy, and cardiac amyloidosis. PubMed, IEEE Xplore, and Web of Science were searched from January 1, 2022, through July 10, 2026, with earlier landmark studies added by backward citation tracking. Seventy-seven publications informed the review. Evidence was appraised using five clinically oriented criteria: intended use, reference-standard reliability, external validation and transportability, clinical actionability, and effects on workflow or patient outcomes. AI-ECG has progressed furthest in ST-segment elevation myocardial infarction triage and reduced-left-ventricular-ejection-fraction screening, where prospective or randomized studies have demonstrated workflow or diagnostic-yield benefits, whereas acute myocardial infarction rule-out has reached prospective multicenter diagnostic validation. Hypertrophic cardiomyopathy screening has also advanced through international validation and prospective implementation. By contrast, occlusion myocardial infarction detection, prediction of occult or future atrial fibrillation, valvular heart disease, heart failure with preserved ejection fraction, long-term heart-failure prediction, and cardiac amyloidosis remain primarily validation-stage or risk-enrichment applications. Across domains, broader adoption is constrained by label quality, calibration, transportability, operating-threshold selection, and limited patient-outcome evidence. AI-ECG is therefore best positioned as clinician-supervised decision support linked to explicit downstream testing and care pathways.",
+  "zh_abstract": "[Frontiers in cardiovascular medicine] 心电图是一种广泛可用且低成本的心血管检查，人工智能赋能的心电图（AI-ECG）能够识别超出传统解读的潜在电学表型。然而，高回顾性区分能力并不一定转化为临床可靠或可操作的获益。这篇批判性叙述综述评估了AI-ECG在心律失常、急性心肌梗死、心力衰竭、瓣膜性心脏病、肥厚型心肌病和心脏淀粉样变性中的转化成熟度。检索了PubMed、IEEE Xplore和Web of Science，时间范围为2022年1月1日至2026年7月10日，并通过回溯引文追踪补充了更早的里程碑研究。77篇出版物为综述提供了依据。采用五项面向临床的标准评估证据：预期用途、参考标准可靠性、外部验证与可迁移性、临床可操作性，以及对工作流程或患者结局的影响。AI-ECG在ST段抬高型心肌梗死分诊和左心室射血分数降低（reduced-LVEF）筛查中进展最为成熟，前瞻性或随机研究已证明其工作流程或诊断产出获益，而急性心肌梗死排除已达到前瞻性多中心诊断验证。肥厚型心肌病筛查也已通过国际验证和前瞻性实施取得进展。相比之下，闭塞性心肌梗死检测、隐匿性或未来心房颤动预测、瓣膜性心脏病、射血分数保留的心力衰竭、长期心力衰竭预测和心脏淀粉样变性仍主要处于验证阶段或风险富集应用。跨领域而言，更广泛的应用受到标签质量、校准、可迁移性、操作阈值选择以及有限的患者结局证据制约。因此，AI-ECG最适合定位为与明确的下游检测和护理路径相连接的、由临床医生监督的决策支持。",
   "day": "2026-11-01"
  },
  {
@@ -364,6 +623,42 @@
   "zh_abstract": "[Diagnostics (Basel, Switzerland)] 对甲状腺结节的人工智能（AI）应依据其改变的决策来评估，而不仅仅是诊断准确率。这篇批判性叙述性综述考察超声、细胞学、组织学和分子模型，并区分特定模态预测与已实施的多模态学习。原始 PubMed/MEDLINE 检索截至 2026 年 8 月 10 日，并于 2026 年 9 月 25 日通过有针对性的 OpenAlex 检索以及对原始出版物、报告标准和监管来源的核查进行补充。所选研究按样本量、参考标准、采集环境、测试设计以及（若有）带置信区间的性能进行比较。我们解释特征拼接、中间表示学习、交叉注意力和决策级融合，并考察整合是否优于最强组件。报道的增益并不一致，完整病例多模态数据集可能排除与避免活检最相关的低风险结节。对组织学恶性或隐匿性淋巴结病变的高区分度并不能证明可减少过度诊断、减少手术或改善生存。因此，针对甲状腺的转化路线图涉及主动监测、部分验证和谱偏倚、桥本甲状腺炎和多结节性疾病、细胞学制片变化、类别特异性阈值、操作者依赖性、报告框架和监管变更控制。优先事项是使用在明确临床决策时可获得的信息，开发经过校准和外部测试的工具，随后对患者和工作流程结局进行前瞻性评估。统一的影像-病理-组学系统以及对监测进展的可靠 AI 预测仍是研究目标，而非已确立的临床能力。"
  },
  {
+  "title": "Artificial Intelligence in Gastroenterology: Towards Explainable, Generalisable and Clinically Actionable Decision Support.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42882337/",
+  "date": "2026-09-30T00:00:00+00:00",
+  "badge": "DOI 10.3390/diagnostics16193182",
+  "source": "PubMed · Diagnostics (Basel, Switzerland)",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "b406818c5902",
+  "score": 5,
+  "zh_title": "消化病学中的可解释、可泛化、可落地的AI决策支持",
+  "tags": [
+   "医学影像",
+   "临床决策支持",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "summary": "结构化叙述性综述，从可解释性、可泛化性与临床可操作性三维度审视消化内镜、IBD、肝病及胰胆疾病AI决策支持的转化现状。",
+  "abstract": "[Diagnostics (Basel, Switzerland)] Artificial intelligence is increasingly used in gastroenterology for endoscopic detection and characterisation, disease-activity assessment, risk prediction, treatment-response estimation and workflow support. However, high retrospective accuracy does not necessarily translate into reliable or beneficial clinical decision support. This structured narrative review examines the clinical development of artificial intelligence across gastrointestinal endoscopy, inflammatory bowel disease, hepatology and pancreaticobiliary diseases through three translational dimensions: explainability, generalisability and clinical actionability. Communication, human oversight and lifecycle governance are considered cross-cutting determinants of implementation. The evidence is most mature in gastrointestinal endoscopy, particularly for computer-aided polyp detection, although benefits vary across operators, indications and practice settings. Applications in inflammatory bowel disease, hepatology and pancreaticobiliary care remain predominantly retrospective, with limited prospective evidence that model outputs alter management or improve patient outcomes. Explainability is commonly represented by heatmaps or feature-attribution methods, but rarely evaluated in terms of clinician understanding, calibrated trust or patient communication. External validation is becoming more frequent, yet geographic and technological transportability, calibration and performance under dataset shift remain insufficiently assessed. Prospective implementation and health-economic studies are uncommon, and available economic evidence is largely model-based. Clinical artificial intelligence should therefore be evaluated as a sociotechnical intervention comprising the model, interface, users, workflow, communication process and associated care pathway. Translation requires clinically defined use cases, representative multicentre validation, human-centred evaluation, prospective assessment of benefits and harms, and continuous post-deployment surveillance. Clinical AI in gastroenterology should complement clinical expertise through transparent, contestable and continuously monitored decision support that preserves clinician accountability and supports informed, patient-centred decisions.",
+  "key_points": [
+   "证据最成熟的是消化内镜，尤以计算机辅助息肉检出为代表",
+   "回顾性高准确率未必转化为可靠、有益的临床决策支持",
+   "沟通、人工监督与全生命周期治理是实施的关键横跨因素"
+  ],
+  "processing": "model-enriched",
+  "section": "影像与病理",
+  "day": "2026-11-01",
+  "keep": true,
+  "type": "观点",
+  "reason": "结构化叙述性综述，无新数据，属综述档上限6分，取5分",
+  "zh_abstract": "[Diagnostics (Basel, Switzerland)] 人工智能在胃肠病学中越来越多地用于内镜检测与特征描述、疾病活动度评估、风险预测、治疗反应估计和工作流程支持。然而，高回顾性准确率并不一定转化为可靠或有益的临床决策支持。本结构化叙述性综述从三个转化维度——可解释性、泛化性和临床可操作性——审视人工智能在胃肠内镜、炎症性肠病、肝病和胰胆疾病中的临床发展。沟通、人工监督和生命周期治理被视为实施的横跨性决定因素。证据在胃肠内镜中最为成熟，尤其是计算机辅助息肉检测，尽管获益因操作者、适应证和实践环境而异。炎症性肠病、肝病和胰胆疾病照护中的应用仍以回顾性研究为主，仅有有限的前瞻性证据表明模型输出会改变管理或改善患者结局。可解释性通常通过热图或特征归因方法表示，但很少从临床医生理解、校准信任或患者沟通的角度进行评估。外部验证正变得更加频繁，但地理和技术可迁移性、校准以及数据集偏移下的性能仍评估不足。前瞻性实施和卫生经济学研究并不常见，现有经济学证据大多基于模型。因此，临床人工智能应作为一种社会技术干预进行评估，包括模型、界面、用户、工作流程、沟通过程和相关照护路径。转化需要临床定义的使用场景、具有代表性的多中心验证、以人为中心的评估、对获益和危害的前瞻性评估，以及部署后持续监测。胃肠病学中的临床人工智能应通过透明、可质疑且持续监测的决策支持来补充临床专业知识，同时保留临床医生问责制并支持知情、以患者为中心的决策。"
+ },
+ {
   "title": "Integrating Heterogeneous Echocardiography AI Outputs in Language Space: Learnable Late Fusion with a Supervised LLM",
   "link": "https://arxiv.org/abs/2610.39464",
   "date": "2026-10-29T06:36:39+00:00",
@@ -400,6 +695,76 @@
   "day": "2026-11-01"
  },
  {
+  "title": "A 211K Parameter Foundation Model: Genetic Prompting in Neural Cellular Automata",
+  "link": "https://arxiv.org/abs/2610.38776",
+  "date": "2026-10-28T19:50:59+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.38776",
+  "pop": null,
+  "id": "7567f9fe7205",
+  "keep": true,
+  "zh_title": "21.1万参数基础模型：神经细胞自动机中的遗传提示",
+  "summary": "arXiv 预印本提出 Foundational-NCA，一种约21.1万参数、基于神经细胞自动机与遗传提示的轻量医学分割基础模型。",
+  "key_points": [
+   "面向低资源环境的轻量医学分割模型",
+   "结合梯度学习与潜在任务空间遗传优化",
+   "称无需重训即可跨任务适应，未经同行评审"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "生成模型"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "有新意的轻量方法预印本，但来源未体现外部验证与充分基线对比",
+  "processing": "model-enriched",
+  "abstract": "The scale of modern foundation models enables broad task generalization. In medical imaging, where segmentation demands vary widely across clinical contexts, such flexibility is invaluable. But current models, such as SAM trade adaptability for scale, locking their utility behind high-end infrastructure and leaving behind the low-resource environments most in need of diagnostic support. To bridge this gap, we introduce Foundational-NCA, a lightweight foundation model capable of adapting to a wide range of medical segmentation tasks without retraining. Built on Neural Cellular Automata (NCA), Foundational-NCA incorporates gradient-based learning with genetic optimization over a latent task space, using a compact task vector to guide predictions. This enables dynamic adaptation via a genetic prompt mechanism, allowing the model to generalize across tasks while keeping the parameter count magnitudes lower at just 211 thousand, compared to SAM-based models with 38.9 to 636 million parameters. We evaluate Foundational-NCA on 15 trained and 6 entirely unseen segmentation tasks from the TotalSegmentator dataset, achieving an average Dice score of 84.5% on known tasks and 60.4% on unseen ones. These results demonstrate that task generalization is possible in ultra-compact models, laying the groundwork for resource-efficient, deployable foundation models in clinical environments where infrastructure is limited. By reducing model size by over 180 times, Foundational-NCA takes a step toward a more equitable future for medical AI, one where powerful tools are within reach of every healthcare setting.",
+  "zh_abstract": "现代基础模型的规模使其能够实现广泛的任务泛化。在医学影像中，分割需求在不同临床情境下差异很大，这种灵活性极为宝贵。但当前模型（如SAM）以可适应性换取规模，使其效用受限于高端基础设施，并遗忘了最需要诊断支持的低资源环境。为弥合这一差距，我们提出Foundational-NCA，一种轻量级基础模型，能够在无需重新训练的情况下适应广泛的医学分割任务。Foundational-NCA建立在神经细胞自动机（Neural Cellular Automata, NCA）之上，将基于梯度的学习与潜在任务空间上的遗传优化相结合，使用紧凑的任务向量指导预测。这通过遗传提示机制实现动态适应，使模型能够在任务间泛化，同时参数量低数个数量级，仅为211 thousand，而基于SAM的模型参数量为38.9至636 million。我们在TotalSegmentator数据集中的15个已训练任务和6个完全未见过的分割任务上评估Foundational-NCA，在已知任务上达到平均Dice分数84.5%，在未见任务上达到60.4%。这些结果表明，超紧凑模型中的任务泛化是可能的，为在基础设施有限的临床环境中部署资源高效的基础模型奠定了基础。通过将模型规模缩小超过180倍，Foundational-NCA朝着医学AI更公平的未来迈出了一步，使强大工具能够惠及每一个医疗环境。",
+  "day": "2026-11-01"
+ },
+ {
+  "title": "Fu-TCM: a multimodal large language model that learns traditional Chinese medicine diagnostic reasoning",
+  "link": "https://arxiv.org/abs/2610.38333",
+  "date": "2026-10-28T06:33:04+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2610.38333",
+  "pop": null,
+  "id": "a4a7a31b7b0a",
+  "keep": true,
+  "zh_title": "Fu-TCM：学习中医辨证推理的多模态大模型",
+  "summary": "预印本提出基于约712万条中医数据训练的多模态大模型Fu-TCM，并用辨证导向的策略优化提升证候推理。",
+  "key_points": [
+   "训练数据约712万条，覆盖典籍、教材、医学图像与临床病例",
+   "提出BGPO强化学习方法，奖励格式、推理字段与证候预测",
+   "Fu-TCM-27B在6项中医基准中领先，但均为自建评测"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "医学大模型",
+   "多模态"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "领域专用多模态大模型加新强化学习目标，但仅自建基准、未经外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Large language models (LLMs) are advancing in multimodal understanding and reasoning, accelerating medical model development. Traditional Chinese medicine (TCM) uses evidence from the four examinations to determine disease location and nature, differentiate syndromes and guide treatment. This diagnostic process constitutes a complete chain of reasoning. We present Fu-TCM, a multimodal TCM LLM trained on data retained after cleaning and filtering an initial collection of approximately 7.12 million examples derived from classical texts, textbooks, medical images, clinical cases and publicly available datasets. The model was further optimized using Bianzheng-Grounded Policy Optimization (BGPO), which explicitly targets syndrome differentiation through rewards for response format, intermediate TCM reasoning fields and final syndrome predictions. Fu-TCM-27B led all six benchmarks spanning TCM reasoning, text and vision, achieving a macro-average accuracy of 81.01% and surpassing the strongest reference model with complete results across all six benchmarks by 7.13 percentage points. Its largest margin was 11.90 points on Fu-bianzheng. Case-level analyses further showed a positive association between intermediate-field accuracy and final syndrome-selection accuracy in most evaluated models. These findings suggest that TCM syndrome differentiation may be computationally learnable and that structured reasoning supervision can improve performance across TCM tasks.",
+  "zh_abstract": "大语言模型（LLMs）在多模态理解与推理方面不断进步，加速了医学模型的发展。中医（TCM）利用四诊证据确定病位与病性、辨证并指导治疗。这一诊断过程构成完整的推理链。我们提出 Fu-TCM，这是一种多模态中医大语言模型，其训练数据来自对初始收集的约 712 万条样本进行清洗和过滤后保留的数据，这些样本源自经典文献、教科书、医学图像、临床病例和公开可用数据集。该模型进一步使用辨证锚定策略优化（Bianzheng-Grounded Policy Optimization，BGPO）进行优化，该方法通过对响应格式、中间中医推理字段和最终证候预测给予奖励，明确以辨证为目标。Fu-TCM-27B 在涵盖中医推理、文本和视觉的全部六项基准中领先，达到 81.01% 的宏平均准确率，并比在全部六项基准上均有完整结果的最强参考模型高 7.13 个百分点。其最大领先幅度为 Fu-bianzheng 上的 11.90 分。病例层面分析进一步显示，在大多数受评估模型中，中间字段准确率与最终证候选择准确率之间存在正相关。这些发现提示，中医辨证可能是可计算学习的，并且结构化推理监督可以提升跨中医任务的性能。",
+  "day": "2026-11-01"
+ },
+ {
   "title": "Automated Language Analysis in Neurodegenerative Diseases: Application of Artificial Intelligence Models",
   "link": "https://clinicaltrials.gov/study/NCT07906769",
   "date": "2026-10-30T00:00:00+00:00",
@@ -432,6 +797,72 @@
   "processing": "model-enriched",
   "abstract": "[Newly registered clinical trial, no results yet; sponsor: Istituti Clinici Scientifici Maugeri SpA; conditions: Alzheimer's Disease (AD), Frontotemporal Dementia (FTD), Parkinsons Disease (PD), Lewy Body Dementia; type: INTERVENTIONAL; phase: NA; enrollment: 200; status: RECRUITING] This multicenter study aims to characterize the language profiles of patients with various neurodegenerative diseases, including Alzheimer's disease (AD), Primary Progressive Aphasia (PPA), behavioral variant Frontotemporal Dementia (bvFTD), Dementia with Lewy Bodies (DLB), and Parkinson's disease (PD), using artificial intelligence (AI) models. By analyzing speech and language data collected during remote neuropsychological assessments, the researchers intend to identify objective linguistic biomarkers suitable for early and differential diagnosis, overcoming the limitations of traditional, invasive, and costly diagnostic tools. The project will develop and validate an AI-driven pipeline to provide scalable and individualized linguistic profiles, ultimately supporting personalized treatment strategies and improving clinical workflow efficiency in the Italian population.",
   "zh_abstract": "[新注册临床试验，尚无结果；申办者：Istituti Clinici Scientifici Maugeri SpA；疾病：阿尔茨海默病（Alzheimer's Disease, AD）、额颞叶痴呆（Frontotemporal Dementia, FTD）、帕金森病（Parkinsons Disease, PD）、路易体痴呆（Lewy Body Dementia）；类型：干预性；分期：NA；入组人数：200；状态：招募中] 这项多中心研究旨在使用人工智能（artificial intelligence, AI）模型，刻画多种神经退行性疾病患者的语言特征，包括阿尔茨海默病（Alzheimer's disease, AD）、原发性进行性失语（Primary Progressive Aphasia, PPA）、行为变异型额颞叶痴呆（behavioral variant Frontotemporal Dementia, bvFTD）、路易体痴呆（Dementia with Lewy Bodies, DLB）和帕金森病（Parkinson's disease, PD）。通过分析在远程神经心理评估期间收集的言语和语言数据，研究人员打算识别适用于早期诊断和鉴别诊断的客观语言生物标志物，克服传统诊断工具有创且昂贵的局限性。该项目将开发并验证一个由AI驱动的流程，以提供可扩展且个体化的语言画像，最终支持个性化治疗策略并提高意大利人群的临床工作流程效率。",
+  "day": "2026-11-01"
+ },
+ {
+  "title": "医疗AI初创公司Ortet获5亿美元投资，拟从零构建原生医疗基础模型",
+  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNGhRZGpDcV9kNkxNbTR3MDUxekRkMzNROXBJdVlVSWZ3T1gyVXA1U0hTTnA5V2o2UEUtaWJtZEpyVV9idXJTUEp4UDlIQVlnMmZKTg?oc=5",
+  "date": "2026-10-19T00:09:30+00:00",
+  "source": "虎嗅网",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://www.huxiu.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "688e0f16d625",
+  "score": 6,
+  "zh_title": "Ortet获5亿美元投资打造医疗基础模型",
+  "tags": [
+   "融资与并购",
+   "医学大模型"
+  ],
+  "evidence": "新闻",
+  "summary": "仅据标题：医疗AI初创公司Ortet获5亿美元投资，计划从零构建原生医疗基础模型，未见产品、数据或临床验证细节。",
+  "abstract": "",
+  "key_points": [],
+  "processing": "model-enriched",
+  "section": "产业动态",
+  "day": "2026-11-01",
+  "keep": true,
+  "type": "融资",
+  "reason": "大额融资(≥1亿美元)本属7-8档信号，但仅有标题、无技术或临床细节，下调至6"
+ },
+ {
+  "title": "Using iterative agentic retrieval-augmented generation to refine the risk of infection from social contexts during the COVID-19 pandemic: Development and Evaluation Study",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.28.26366693v1?rss=1",
+  "date": "2026-10-29T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.28.26366693",
+  "pop": null,
+  "id": "bb5fc7b96c5b",
+  "keep": true,
+  "zh_title": "迭代式智能体RAG细化新冠感染风险估计",
+  "summary": "medRxiv 预印本开发迭代检索增强生成对话框架，基于社交互动描述与LSTM模型预测新冠感染风险。",
+  "key_points": [
+   "用19434条社交互动文本训练LSTM风险模型",
+   "将模型接入Llama3构建对话式智能体",
+   "目标是通过追问获取个性化风险因素"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "智能体",
+   "公共卫生",
+   "临床NLP"
+  ],
+  "evidence": "预印本",
+  "score": 4,
+  "reason": "预印本智能体应用，场景偏公共卫生风险估计，缺乏前瞻或外部验证信息",
+  "processing": "model-enriched",
+  "abstract": "Background: Contact tracing is crucial to limit pathogen transmission and to gather epidemiological data. However, despite machine learning optimizations, it remains time-consuming. Large language models have been used for infection risk prediction, but no existing application converses with a user to adapt its risk estimates. Objective: We aimed to develop an iterative retrieval-augmented generation conversational framework to predict coronavirus disease 2019 (COVID-19) infection risk from textual social data. The conversational agent aims to gather personalized risk factors based on descriptions of social interactions. Methods: We trained a long short-term memory (LSTM) model to predict the risk of COVID-19 infection from 19,434 textual descriptions of social interactions, collected during the pandemic in the Leuven student community, in Belgium. We integrated this model into a Llama3.3-based conversational framework that iteratively gathers additional social information that may represent a risk of infection. We evaluated the framework using large language model (LLM)-as-a-judge metrics and by comparing its risk assessment in different social contexts. Results: Based solely on social interaction data, a fine-tuned RobBERT model predicted infection risk with an area under the receiver operating characteristic curve (ROC AUC) of 0.73. It performed similarly to an LSTM model and a logistic regression on term frequency-inverse document frequency (TF-IDF) features, which both achieved a ROC AUC of 0.72. These three models slightly outperformed a Quantized Low-Rank Adaptation (QLoRA)-fine-tuned Mistral NeMo model (ROC AUC = 0.69). Llama3.3 performed well in our framework: the predicted infection risk converged often, and it asked fewer redundant questions than the smaller models (Mistral 7B, Gemma3 12B). In addition, the framework showed the ability to stratify, by risk of infection, synthetic users who had different types of social interactions. Conclusions: Combining simple language models with large language models can refine individual infection risk from contact tracing data in a high-circulation context. Our conversational framework may help optimize contact tracing by highlighting social contexts with a high risk of infection.",
+  "zh_abstract": "【背景】接触者追踪对于限制病原体传播和收集流行病学数据至关重要。然而，尽管有机器学习优化，它仍然耗时。大语言模型已被用于感染风险预测，但现有应用中没有一种能与用户对话以调整其风险估计。【目的】我们旨在开发一种迭代式检索增强生成对话框架，用于从文本社交数据预测2019冠状病毒病（COVID-19）感染风险。该对话代理旨在根据对社交互动的描述收集个性化风险因素。【方法】我们训练了一个长短期记忆（LSTM）模型，利用比利时鲁汶学生社区在大流行期间收集的19,434条文本社交互动描述来预测COVID-19感染风险。我们将该模型整合到基于Llama3.3的对话框架中，该框架迭代收集可能代表感染风险的额外社交信息。我们使用大语言模型作为评判者（LLM-as-a-judge）指标，并通过比较其在不同社交情境中的风险评估来评估该框架。【结果】仅基于社交互动数据，经过微调的RobBERT模型预测感染风险的受试者工作特征曲线下面积（ROC AUC）为0.73。其表现与LSTM模型以及基于词频-逆文档频率（TF-IDF）特征的逻辑回归相似，后两者均达到ROC AUC 0.72。这三个模型略优于经量化低秩适配（QLoRA）微调的Mistral NeMo模型（ROC AUC = 0.69）。Llama3.3在我们的框架中表现良好：预测的感染风险经常收敛，且比更小的模型（Mistral 7B、Gemma3 12B）提出更少的冗余问题。此外，该框架显示出能够按感染风险对具有不同类型社交互动的合成用户进行分层。【结论】将简单语言模型与大语言模型结合，可以在高传播情境下根据接触者追踪数据细化个体感染风险。我们的对话框架可能通过突出具有高感染风险的社交情境来帮助优化接触者追踪。",
   "day": "2026-11-01"
  },
  {
@@ -10048,31 +10479,6 @@
   "day": "2026-10-20"
  },
  {
-  "title": "医疗AI初创公司Ortet获5亿美元投资，拟从零构建原生医疗基础模型",
-  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNGhRZGpDcV9kNkxNbTR3MDUxekRkMzNROXBJdVlVSWZ3T1gyVXA1U0hTTnA5V2o2UEUtaWJtZEpyVV9idXJTUEp4UDlIQVlnMmZKTg?oc=5",
-  "desc": "",
-  "date": "2026-10-19T00:09:30+00:00",
-  "source": "虎嗅网",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://www.huxiu.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "688e0f16d625",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "产业动态",
-  "day": "2026-10-20"
- },
- {
   "title": "Who Will Regulate The AI Doctors Use? The FDA And The States Disagree",
   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWkzZWdEZVAwa1pVVXpWNGE3Y25kYmlqY3pRUmNjODFHMnFVSHkwVjhJcF8zc2NxWkc5LVlfS09peVM4YXE5UkE2OWRkMlNJQnpOUy04dEJzMEY3b3FFWkhNdDVVcGc3cTdWMHNHdDNuRVNIZFZNSEdZU1VGRFl0SHlSNWRSbVkwQV9ocXBzOUtJUmw5R2dHN0NVekFYTzR6LUpiZjFta0R6S19KM2lIeDNTbkxRbHJIMEJhWg?oc=5",
   "desc": "",
@@ -10555,31 +10961,6 @@
   "keep": true,
   "type": "论文",
   "reason": "公开数据集有复用价值，但仅见元数据、无验证，属值得一看档"
- },
- {
-  "title": "Artificial Intelligence in Gastroenterology: Towards Explainable, Generalisable and Clinically Actionable Decision Support.",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/42882337/",
-  "desc": "[Diagnostics (Basel, Switzerland)] Artificial intelligence is increasingly used in gastroenterology for endoscopic detection and characterisation, disease-activity assessment, risk prediction, treatment-response estimation and workflow support. However, high retrospective accuracy does not necessarily translate into reliable or beneficial clinical decision support. This structured narrative review examines the clinical development of artificial intelligence across gastrointestinal endoscopy, inflammatory bowel disease, hepatology and pancreaticobiliary diseases through three translational dimensions: explainability, generalisability and clinical actionability. Communication, human oversight and lifecycle governance are considered cross-cutting determinants of implementation. The evidence is most mature in gastrointestinal endoscopy, particularly for computer-aided polyp detection, although benefits vary across operators, indications and practice settings. Applications in inflammatory bowel disease, hepatology and pancreaticobiliary care remain predominantly retrospective, with limited prospective evidence that model outputs alter management or improve patient outcomes. Explainability is commonly represented by heatmaps or feature-attribution methods, but rarely evaluated in terms of clinician understanding, calibrated trust or patient communication. External validation is becoming more frequent, yet geographic and technological transportability, calibration and performance under dataset shift remain insufficiently assessed. Prospective implementation and health-economic studies are uncommon, and available economic evidence is largely model-based. Clinical artificial intelligence should therefore be evaluated as a sociotechnical intervention comprising the model, interface, users, workflow, communication process and associated care pathway. Translation requires clinically defined use cases, representative multicentre validation, human-centred evaluation, prospective assessment of benefits and harms, and continuous post-deployment surveillance. Clinical AI in gastroenterology should complement clinical expertise through transparent, contestable and continuously monitored decision support that preserves clinician accountability and supports informed, patient-centred decisions.",
-  "date": "2026-09-30T00:00:00+00:00",
-  "badge": "DOI 10.3390/diagnostics16193182",
-  "source": "PubMed · Diagnostics (Basel, Switzerland)",
-  "source_group": "PubMed",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "b406818c5902",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "[Diagnostics (Basel, Switzerland)] Artificial intelligence is increasingly used in gastroenterology for endoscopic detection and characterisation, disease-activity assessment, risk prediction, treatment-response estimation and workflow support. However, high retrospective accuracy does not necessarily translate into reliable or beneficial clinical decision support. This structured narrative review examines the clinical development of artificial intelligence across gastrointestinal endoscopy, inflammatory bowel disease, hepatology and pancreaticobiliary diseases through three translational dimensions: explainability, generalisability and clinical actionability. Communication, human oversight and lifecycle governance are considered cross-cutting determinants of implementation. The evidence is most mature in gastrointestinal endoscopy, particularly for computer-aided polyp detection, although benefits vary across operators, indications and practice settings. Applications in inflammatory bowel disease, hepatology and pancreaticobiliary care remain predominantly retrospective, with limited prospective evidence that model outputs alter management or improve patient outcomes. Explainability is commonly represented by heatmaps or feature-attribution methods, but rarely evaluated in terms of clinician understanding, calibrated trust or patient communication. External validation is becoming more frequent, yet geographic and technological transportability, calibration and performance under dataset shift remain insufficiently assessed. Prospective implementation and health-economic studies are uncommon, and available economic evidence is largely model-based. Clinical artificial intelligence should therefore be evaluated as a sociotechnical intervention comprising the model, interface, users, workflow, communication process and associated care pathway. Translation requires clinically defined use cases, representative multicentre validation, human-centred evaluation, prospective assessment of benefits and harms, and continuous post-deployment surveillance. Clinical AI in gastroenterology should complement clinical expertise through transparent, contestable and continuously monitored decision support that preserves clinician accountability and supports informed, patient-centred decisions.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
  },
  {
   "title": "AI-Assisted Discharge Documents for Children and Families in a Pediatric Emergency Department",

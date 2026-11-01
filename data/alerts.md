@@ -1,11 +1,11 @@
 以下数据源连续 3 次以上抓取为 0：
 
-- Nature Biomedical Engineering: 连续 5 次，最近错误: None
-- Microsoft Research: 连续 3 次，最近错误: None
-- FDA 新闻稿: 连续 26 次，最近错误: None
-- EMA: 连续 26 次，最近错误: None
-- MHRA: 连续 6 次，最近错误: None
-- WHO: 连续 26 次，最近错误: None
-- Hugging Face 数据集: 连续 9 次，最近错误: None
+- Nature Biomedical Engineering: 连续 6 次，最近错误: None
+- Microsoft Research: 连续 4 次，最近错误: None
+- FDA 新闻稿: 连续 27 次，最近错误: None
+- EMA: 连续 27 次，最近错误: None
+- MHRA: 连续 7 次，最近错误: None
+- WHO: 连续 27 次，最近错误: None
+- Hugging Face 数据集: 连续 10 次，最近错误: None
 
-(run 2026-11-01T02:24:43.544042+00:00)
+(run 2026-11-01T10:42:06.019631+00:00)
