@@ -34,7 +34,13 @@
 "processing": "model-enriched",
 "day": "2026-10-29",
 "abstract": "Abstract Fractures affect approximately 178 million people annually, and artificial intelligence (AI) tools for fracture detection are increasingly approved by regulators. We conducted an umbrella review and second-order meta-analysis (PROSPERO CRD42024516414), searching six databases to 4/06/2025 for systematic reviews or meta-analyses of AI fracture detection using any imaging modality. Screening, extraction, and quality assessment were performed in duplicate. We assessed review quality using AMSTAR-2, primary-study overlap using corrected covered area, and certainty using GRADE. Fifty reviews were included (25 systematic reviews and 25 meta-analyses; 387 primary studies). Twenty-one meta-analyses (269 primary studies) contributed to second-order meta-analysis, with slight overall overlap (4.31%). Pooled AI sensitivity was 0.897 (95% CI 0.882–0.911; 95% prediction interval 0.753–0.962) and specificity 0.904 (95% CI 0.891–0.916; prediction interval 0.824 to 0.950). Comparative evidence showed no consistent differences for AI, clinicians, and AI-assisted clinicians: however, this data was sparse and inconclusive. No review reported adverse events or other safety outcomes. Certainty was very low/low for almost all outcomes; all meta-analyses were rated critically low/low on AMSTAR-2. Although published estimates suggest high diagnostic accuracy, real-world and comparative performance remain uncertain. Prospective external validation, multi-reader-multi-case studies, and randomised trials are needed before broad clinical adoption.",
-"zh_abstract": "摘要 骨折每年影响约1.78亿人，用于骨折检测的人工智能（AI）工具正越来越多地获得监管机构批准。我们开展了一项伞状综述和二阶meta分析（PROSPERO CRD42024516414），检索了六个数据库至4/06/2025，纳入使用任何影像模态进行AI骨折检测的系统综述或meta分析。筛查、提取和质量评价均双人重复进行。我们使用AMSTAR-2评估综述质量，使用校正覆盖面积（corrected covered area）评估原始研究重叠，并使用GRADE评估证据确定性。共纳入50篇综述（25篇系统综述和25篇meta分析；387项原始研究）。21篇meta分析（269项原始研究）纳入二阶meta分析，总体重叠较小（4.31%）。合并的AI敏感度为0.897（95% CI 0.882–0.911；95%预测区间0.753–0.962），特异度为0.904（95% CI 0.891–0.916；预测区间0.824–0.950）。比较证据显示AI、临床医生和AI辅助的临床医生之间没有一致差异：然而，这些数据稀少且无定论。没有综述报告不良事件或其他安全性结局。几乎所有结局的确定性为极低/低；所有meta分析在AMSTAR-2上被评为极低/低。尽管已发表的估计提示诊断准确性高，但真实世界和比较性能仍不确定。在广泛临床采用之前，需要前瞻性外部验证、多读者多病例研究和随机试验。"
+"zh_abstract": "摘要 骨折每年影响约1.78亿人，用于骨折检测的人工智能（AI）工具正越来越多地获得监管机构批准。我们开展了一项伞状综述和二阶meta分析（PROSPERO CRD42024516414），检索了六个数据库至4/06/2025，纳入使用任何影像模态进行AI骨折检测的系统综述或meta分析。筛查、提取和质量评价均双人重复进行。我们使用AMSTAR-2评估综述质量，使用校正覆盖面积（corrected covered area）评估原始研究重叠，并使用GRADE评估证据确定性。共纳入50篇综述（25篇系统综述和25篇meta分析；387项原始研究）。21篇meta分析（269项原始研究）纳入二阶meta分析，总体重叠较小（4.31%）。合并的AI敏感度为0.897（95% CI 0.882–0.911；95%预测区间0.753–0.962），特异度为0.904（95% CI 0.891–0.916；预测区间0.824–0.950）。比较证据显示AI、临床医生和AI辅助的临床医生之间没有一致差异：然而，这些数据稀少且无定论。没有综述报告不良事件或其他安全性结局。几乎所有结局的确定性为极低/低；所有meta分析在AMSTAR-2上被评为极低/低。尽管已发表的估计提示诊断准确性高，但真实世界和比较性能仍不确定。在广泛临床采用之前，需要前瞻性外部验证、多读者多病例研究和随机试验。",
+"also": [
+{
+"source": "PubMed · Frontiers in public health",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42948225/"
+}
+]
 },
 {
 "title": "Automation Bias and Deskilling in Radiology AI: A Confidence-stratified Triage Model for Workflow Integration.",
@@ -140,7 +146,8 @@
 "abstract_days": [
 "2026-10-29",
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -321,7 +328,8 @@
 "abstract_days": [
 "2026-10-29",
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -357,7 +365,8 @@
 "abstract_days": [
 "2026-10-29",
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

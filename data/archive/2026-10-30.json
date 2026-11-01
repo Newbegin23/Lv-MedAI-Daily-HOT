@@ -219,7 +219,8 @@
 "day": "2026-10-30",
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -255,7 +256,8 @@
 "day": "2026-10-30",
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -293,7 +295,8 @@
 "day": "2026-10-30",
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -331,7 +334,8 @@
 "day": "2026-10-30",
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -484,40 +488,6 @@
 "day": "2026-10-30"
 },
 {
-"title": "Reproducibility without vendor names: emphasizing design over branding in AI evaluation.",
-"link": "https://pubmed.ncbi.nlm.nih.gov/42956827/",
-"date": "2026-10-29T00:00:00+00:00",
-"badge": "DOI 10.1093/jamia/ocag173",
-"source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
-"source_group": "PubMed · 重点期刊",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": true,
-"pop": null,
-"id": "a136f4b61581",
-"keep": true,
-"zh_title": "可复现性不必点名厂商：AI评估应重设计而非品牌",
-"summary": "仅见标题：该文主张AI评估的可复现性应强调研究设计而非厂商品牌。",
-"key_points": [],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"基准",
-"公平与安全"
-],
-"evidence": "同行评审",
-"score": 3,
-"reason": "仅标题无正文，观点类，信息量有限，按标题档从低给分。",
-"processing": "model-enriched",
-"day": "2026-10-30",
-"abstract_days": [
-"2026-10-30",
-"2026-10-31"
-],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
-},
-{
 "title": "NYU Langone brings OpenEvidence’s clinical AI into the EHR systemwide",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/nyu-langone-brings-openevidences-clinical-ai-ehr-systemwide",
 "date": "2026-10-30T02:45:14.943383+00:00",
@@ -644,6 +614,37 @@
 "reason": "两大监管机构协调属实质监管动向，但仅有标题无细节",
 "processing": "model-enriched",
 "day": "2026-10-30"
+},
+{
+"title": "Reproducibility without vendor names: emphasizing design over branding in AI evaluation.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42956827/",
+"date": "2026-10-29T00:00:00+00:00",
+"badge": "DOI 10.1093/jamia/ocag173",
+"source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "a136f4b61581",
+"keep": true,
+"zh_title": "AI评测可复现性：与其标注厂商名称不如强调设计",
+"summary": "该文为致编辑的通信，回应厂商AI工具评测中是否披露厂商名称的争议，主张聚焦研究设计。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"医疗器械",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 2,
+"reason": "通信信件，仅讨论厂商命名与可复现性，AI方法信息极少，属边缘档",
+"processing": "model-enriched",
+"day": "2026-10-30",
+"abstract": "To: Suzanne Bakken, PhD, RN, FAAN, FACMI, FIAHSI Editor-in-Chief Journal of the American Medical Informatics Association (JAMIA) Oxford University Press Dear Dr. Bakken, We thank the authors for their thoughtful correspondence and for raising important issues regarding transparency, reproducibility, and generalizability in evaluations of vendor-based artificial intelligence tools. We agree that these are important goals. However, in this instance, we do not believe that identifying the specific vendors evaluated in our randomized crossover trial would, by itself, substantially advance those goals. A central challenge in evaluating vendor-based AI products is that they evolve far more rapidly than most other clinical technologies or interventions. In the broader data science literature, authors can often specify model versions with some precision. In contrast, vendor-based products may change through frequent feature releases, workflow modifications, or institution-specific customization without a clear, standardized mechanism for communicating those changes to readers. Even during the course of our trial, both products continued to evolve. As a result, naming the vendors could create a false impression that any single vendor is persistently superior to another, which does not reflect how these systems are deployed in practice.",
+"zh_abstract": "致：Suzanne Bakken博士，注册护士，FAAN，FACMI，FIAHSI，《美国医学信息学协会杂志》（JAMIA）主编，牛津大学出版社\n尊敬的Bakken博士：\n我们感谢作者们深思熟虑的来信，以及他们就在评估基于供应商的人工智能工具时涉及的透明度、可重复性和泛化性问题提出的重要议题。我们同意这些是重要目标。然而，在此情形下，我们认为，指明我们随机交叉试验中所评估的具体供应商本身并不会实质性地推进这些目标。评估基于供应商的AI产品的一个核心挑战在于，它们比大多数其他临床技术或干预措施演变得快得多。在更广泛的数据科学文献中，作者通常可以较为精确地说明模型版本。相比之下，基于供应商的产品可能通过频繁的功能发布、工作流程修改或机构特定的定制而发生变化，却没有一个清晰、标准化的机制向读者传达这些变化。甚至在我们试验进行期间，两种产品也都在继续演变。因此，点名供应商可能会造成一种错误印象，即任何单一供应商始终优于另一供应商，而这并不反映这些系统在实践中的部署方式。"
 },
 {
 "title": "精神看病不靠只靠聊，专科大模型助力临床提质｜Nat Mach Intell探索AI辅助精神科决策新路径- 医疗健康专区",

@@ -36,6 +36,79 @@
 "day": "2026-10-31"
 },
 {
+"title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
+"link": "https://www.nature.com/articles/s41746-026-03398-4",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03398-4",
+"pop": null,
+"id": "8fc708f368bb",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "数字病理空间肿瘤微环境图学习预测胃癌预后",
+"summary": "提出可解释的GTMA框架，把全切片图像建模为空间图，在1871例队列与TCGA-STAD中验证其预后价值。",
+"key_points": [
+"GTMA将全切片图像建模为空间图，刻画组织交互",
+"在1871例大队列及TCGA-STAD（213例）中验证",
+"风险评分可补充TNM分期，识别同期同亚型高危患者"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"肿瘤",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "大样本并含外部数据集验证，但为回顾性预后研究，无临床结局，属重要档",
+"processing": "model-enriched",
+"day": "2026-10-31",
+"abstract": "Current gastric cancer (GC) risk stratification, based on TNM staging and molecular subtypes, often fails to capture intratumoral heterogeneity driving variable outcomes. Although the tumor microenvironment (TME) spatial architecture within histopathological images holds critical prognostic value, quantifying these interactions remains challenging. We present the Graph-based Tumor Microenvironment Aggregation (GTMA) framework, an interpretable deep learning approach modeling whole-slide images as spatial graphs to decipher tissue interactions. Validated in a large cohort ( n = 1871) and TCGA-STAD dataset ( n = 213), the GTMA-derived Risk Score (RS) provided prognostic information complementary to TNM staging and clinical models. Notably, the RS stratified patients into distinct risk groups within identical TNM stages and molecular subtypes, identifying high-risk patients traditionally overlooked. Integrative analysis revealed high-RS tumors feature a fibroblast-dominant, immune-excluded phenotype and distinct stromal spatial patterns. By linking digital pathology to biological TME patterns, GTMA offers a robust, interpretable AI tool for individualized prognostic risk stratification and precision oncology in GC.",
+"zh_abstract": "当前基于TNM分期和分子亚型的胃癌（GC）风险分层，常常无法捕捉导致结局差异的瘤内异质性。尽管组织病理学图像中的肿瘤微环境（TME）空间结构具有关键预后价值，但量化这些相互作用仍然具有挑战性。我们提出基于图的肿瘤微环境聚合（GTMA）框架，这是一种可解释的深度学习方法，将全切片图像建模为空间图以解析组织相互作用。在一个大型队列（n = 1871）和TCGA-STAD数据集（n = 213）中验证后，GTMA衍生的风险评分（RS）提供了与TNM分期和临床模型互补的预后信息。值得注意的是，RS在相同TNM分期和分子亚型内将患者分为不同风险组，识别出传统上被忽视的高风险患者。整合分析显示，高RS肿瘤具有成纤维细胞主导、免疫排斥的表型以及独特的间质空间模式。通过将数字病理学与生物学TME模式联系起来，GTMA为GC的个体化预后风险分层和精准肿瘤学提供了一种稳健、可解释的AI工具。"
+},
+{
+"title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
+"link": "https://www.nature.com/articles/s41746-026-03406-7",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03406-7",
+"pop": null,
+"id": "877feb979098",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "AnySleep：跨中心通道无关的高分辨率睡眠分期系统",
+"summary": "AnySleep可从任意EEG或EOG信号按可调时间分辨率进行睡眠分期，在28个数据集、逾2万夜记录上训练验证。",
+"key_points": [
+"对任意EEG/EOG通道配置，时间分辨率可调",
+"训练验证覆盖28个数据集、逾20万小时信号",
+"多中心泛化表现达当前最优水平"
+],
+"section": "临床预测与决策",
+"type": "模型",
+"tags": [
+"生理信号",
+"数据集"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "多中心大规模数据（28数据集、2万夜）验证，泛化性强，但未报告临床结局，属重要档",
+"processing": "model-enriched",
+"day": "2026-10-31",
+"abstract": "Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, polysomnography (PSG) recordings are traditionally scored in 30-s epochs for pragmatic, not physiological, reasons and vary in electrode count, montage, and subject characteristics. These constraints challenge harmonized multi-center studies and the discovery of robust biomarkers on shorter timescales. We present AnySleep, a deep neural network that scores sleep from any electroencephalography (EEG) or electrooculography (EOG) data at adjustable temporal resolutions. We trained and validated the model on over 20,000 overnight recordings (>200,000 h of EEG and EOG) from 28 datasets across multiple clinics to promote robust generalization across sites. The model attains state-of-the-art performance and surpasses or equals established baselines at 30-s epochs. Performance improves with more channels, yet remains strong when EOG is absent, or only EOG or single EEG derivations (frontal, central, or occipital) are available. On sub-30-s timescales, the model captures short wake intrusions consistent with arousals and improves the prediction of pathophysiological conditions (obstructive sleep apnea, narcolepsy type 1, insomnia) over 30-s scoring. We make the model publicly available to facilitate large-scale studies with heterogeneous electrode setups and accelerate biomarker discovery in sleep.",
+"zh_abstract": "睡眠对健康至关重要，但研究其动态变化需要人工睡眠分期，这是研究和临床护理中一项劳动密集型步骤。在不同中心，多导睡眠图（PSG）记录传统上以30秒epoch进行判读，这是出于实用性而非生理学原因，并且电极数量、导联组合和受试者特征各不相同。这些限制对协调一致的多中心研究以及在更短时间尺度上发现稳健生物标志物构成挑战。我们提出AnySleep，一种深度神经网络，可在可调的时间分辨率下从任何脑电图（EEG）或眼电图（EOG）数据中判读睡眠。我们在来自多个诊所的28个数据集、超过20,000次整夜记录（>200,000小时EEG和EOG）上训练并验证该模型，以促进跨站点的稳健泛化。该模型达到最先进性能，并在30秒epoch上超过或等于已有基线。性能随通道增多而提高，但在EOG缺失，或仅有EOG或单导EEG导出（额区、中央区或枕区）时仍保持较强。在低于30秒的时间尺度上，模型捕捉到与觉醒一致的短暂清醒侵入，并较30秒判读改善了对病理生理状况（阻塞性睡眠呼吸暂停、1型发作性睡病、失眠）的预测。我们公开该模型，以促进具有异质电极设置的大规模研究，并加速睡眠中的生物标志物发现。"
+},
+{
 "title": "Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42962674/",
 "date": "2026-10-30T00:00:00+00:00",
@@ -102,7 +175,8 @@
 "processing": "model-enriched",
 "day": "2026-10-31",
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -143,41 +217,6 @@
 "day": "2026-10-31"
 },
 {
-"title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
-"link": "https://www.nature.com/articles/s41746-026-03398-4",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03398-4",
-"pop": null,
-"id": "8fc708f368bb",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "数字病理空间肿瘤微环境图学习用于胃癌预后",
-"summary": "npj Digital Medicine 刊文，用可解释图学习建模数字病理中的空间肿瘤微环境模式以预测胃癌预后。",
-"key_points": [],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"病理",
-"肿瘤",
-"可解释性"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅有标题信息，无样本量、验证方式与结局数据，属增量档",
-"processing": "model-enriched",
-"day": "2026-10-31",
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
 "link": "https://www.nature.com/articles/s41746-026-03444-1",
 "date": "2026-10-30T00:00:00+00:00",
@@ -207,42 +246,10 @@
 "processing": "model-enriched",
 "day": "2026-10-31",
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
-"link": "https://www.nature.com/articles/s41746-026-03406-7",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03406-7",
-"pop": null,
-"id": "877feb979098",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AnySleep：跨中心高分辨率睡眠分期深度学习系统",
-"summary": "仅见标题与期刊信息：该文报道一种通道无关的深度学习睡眠分期系统，并在多中心队列中评估。",
-"key_points": [],
-"section": "临床预测与决策",
-"type": "模型",
-"tags": [
-"生理信号"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅有标题与出处、无摘要内容，信息不足按低档处理",
-"processing": "model-enriched",
-"day": "2026-10-31",
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "An uncertainty-aware deep learning-based registration model for adaptive lung cancer radiotherapy.",
@@ -309,7 +316,8 @@
 "processing": "model-enriched",
 "day": "2026-10-31",
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -342,7 +350,8 @@
 "processing": "model-enriched",
 "day": "2026-10-31",
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -412,7 +421,8 @@
 "processing": "model-enriched",
 "day": "2026-10-31",
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
