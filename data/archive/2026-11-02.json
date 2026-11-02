@@ -1,5 +1,44 @@
 [
 {
+"title": "Re-timing mortality risk through individualized modelling of lifespan trajectories",
+"link": "https://www.nature.com/articles/s41551-026-01822-4",
+"date": "2026-11-02T00:00:00+00:00",
+"source": "Nature Biomedical Engineering",
+"source_group": "Nature Biomedical Engineering",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41551-026-01822-4",
+"pop": null,
+"id": "6fb01140dd60",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "视网膜特征建模重建个体化寿命轨迹与死亡风险",
+"summary": "Nature BME 报道深度学习生物标志物 RetiME，将视网膜特征映射为个体死亡风险并重建个体化寿命轨迹。",
+"key_points": [
+"基于深度学习的视网膜生物标志物 RetiME",
+"映射视网膜特征到个体化死亡风险",
+"重建与观察到的死亡结局相关的寿命轨迹"
+],
+"section": "影像与病理",
+"type": "模型",
+"tags": [
+"医学影像",
+"眼科",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "同行评审影像基础模型，但摘要未提外部验证或前瞻设计",
+"processing": "model-enriched",
+"day": "2026-11-02",
+"abstract_days": [
+"2026-11-02"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
 "title": "Mind the Gap: Continuous magnification sampling for pathology foundation models",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003968?dgcid=rss_sd_all",
 "date": "2026-11-02T02:39:28.881491+00:00",
@@ -72,6 +111,118 @@
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
+"title": "Joint segmentation of pancreatic tumors and peripancreatic vessels via a clinical risk-aware uncertainty alignment framework",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004470?dgcid=rss_sd_all",
+"date": "2026-11-02T11:31:45.236857+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "bb35375a0b8c",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "风险感知不确定性对齐的胰腺肿瘤与胰周血管联合分割",
+"summary": "Medical Image Analysis 提出临床风险感知的不确定性对齐框架，用于胰腺肿瘤与胰周血管联合分割。",
+"key_points": [
+"联合分割胰腺肿瘤与胰周血管",
+"引入临床风险感知的不确定性对齐框架",
+"论文发表于 Medical Image Analysis"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"肿瘤",
+"手术"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "同行评审方法学论文，摘要未体现外部验证或多中心数据",
+"processing": "model-enriched",
+"day": "2026-11-02",
+"abstract_days": [
+"2026-11-02"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "A prospective randomized study of patient-centered AI for clinical visit preparation",
+"link": "https://arxiv.org/abs/2610.41437",
+"date": "2026-10-30T08:39:59+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2610.41437",
+"pop": null,
+"id": "99cbb42b5421",
+"keep": true,
+"zh_title": "面向就诊准备的患者中心 AI 前瞻性随机研究",
+"summary": "arXiv 预印本报告 802 名美国成人的前瞻性随机研究，评估 LLM 就诊准备智能体在提升就诊准备度上的效果。",
+"key_points": [
+"LLM 智能体帮助患者梳理病情、生成问题清单",
+"802 名成人、866 段对话，随机分为两版本与对照",
+"由盲法临床医生评估，智能体优于对照"
+],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"医学大模型",
+"智能体",
+"临床落地"
+],
+"evidence": "预印本",
+"score": 7,
+"reason": "前瞻性随机设计+盲法临床医生评估、样本 802，但为预印本未同行评审",
+"processing": "model-enriched",
+"abstract": "Patients often arrive at brief, time-constrained clinical visits unsure of what to expect or ask, and millions of adults now turn to general-purpose AI chatbots to prepare beforehand. Yet whether conversational AI improves visit readiness remains unclear. We designed a large language model (LLM)-based visit preparation agent to guide patients before an appointment by gathering clinical context, setting visit expectations, providing relevant health information, building a prioritized list of questions for their clinician, and generating a summary. In a prospective consented randomized study in the Google Health app, 802 U.S. adults held 866 health-related conversations with the visit preparation agent (standard or concise variant) or a minimally prompted control chatbot built on the same LLM. The visit preparation agent significantly outperformed the control across blinded clinician evaluations and patient self-reports. In clinician reviews of completed sessions (n = 272), the agent achieved a 16.6% higher rate of comprehensive preparation (67.2% vs. 50.6%; P < 0.05) and an 8.5% higher rate of alignment with patients' health context (98.9% vs. 90.4%; P < 0.01), while maintaining high medical safety and appropriateness across all study arms. Patient post-surveys (n = 460) showed 16.8% higher visit preparedness (73.8% vs. 57.0%; P < 0.01), 14.3% higher confidence in knowing what to ask (81.4% vs. 67.1%; P < 0.01), and 12.0% higher overall satisfaction (74.0% vs. 62.0%; P < 0.05). Clinician and participant metrics were not significantly correlated, indicating that expert review and patient self-assessment capture complementary dimensions of patient-facing AI. These findings suggest that LLM chatbots can safely help patients prepare for clinical visits, with greater benefit when following a structured workflow, and motivate future studies on in-visit communication and clinical outcomes.",
+"zh_abstract": "患者常常在短暂、时间受限的临床就诊中到来，却不确定会有什么预期或该问什么；如今数百万成年人转向通用人工智能聊天机器人以提前准备。然而，对话式 AI 是否能改善就诊准备度仍不清楚。我们设计了一种基于大语言模型（LLM）的就诊准备智能体，通过在预约前收集临床背景、设定就诊预期、提供相关健康信息、构建按优先级排列的向临床医生提问的问题清单，并生成摘要，来指导患者。在 Google Health 应用中进行的一项前瞻性、知情同意的随机研究中，802 名美国成年人使用就诊准备智能体（标准版或简版）或基于同一 LLM 构建的最低限度提示对照聊天机器人进行了 866 次健康相关对话。在盲法临床医生评估和患者自我报告中，就诊准备智能体均显著优于对照。在临床医生对已完成会话的审查中（n = 272），该智能体的全面准备率高出 16.6%（67.2% 对 50.6%；P < 0.05），与患者健康背景的一致性率高出 8.5%（98.9% 对 90.4%；P < 0.01），同时在所有研究组中维持了较高的医疗安全性和适当性。患者后测调查（n = 460）显示，就诊准备度高出 16.8%（73.8% 对 57.0%；P < 0.01），对知道该问什么的信心高出 14.3%（81.4% 对 67.1%；P < 0.01），总体满意度高出 12.0%（74.0% 对 62.0%；P < 0.05）。临床医生指标与参与者指标无显著相关性，表明专家审查和患者自我评估捕捉了面向患者的人工智能的互补维度。这些发现表明，LLM 聊天机器人可以安全地帮助患者为临床就诊做准备，遵循结构化工作流程时获益更大，并推动未来关于就诊中沟通和临床结局的研究。",
+"day": "2026-11-02"
+},
+{
+"title": "Clinical AI in 2025–2026 — Six Themes from the SAIL Year in Review",
+"link": "https://www.nejm.org/doi/full/10.1056/AIp2600817?af=R&rss=currentIssue",
+"date": "2026-10-16T05:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AIp2600817",
+"pop": null,
+"id": "6642f196b666",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "NEJM AI：2025–2026 临床 AI 六大主题年度回顾",
+"summary": "NEJM AI 观点文章基于 SAIL 年度回顾，梳理过去一年临床 AI 在评估、工作流、监管等六方面的进展与不均",
+"key_points": [
+"六大主题：评估、工作流整合、直接面向消费者、监管与社会影响等",
+"认为临床 AI 进展呈「锯齿状前沿」，成效并不均衡",
+"梳理已有里程碑、潜力与仍存的主要挑战",
+"内容源自 2026 年 5 月 SAIL 年度回顾研讨会"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床落地",
+"监管政策"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "年度回顾类观点文章，无新数据，属综述述评档次上限",
+"processing": "model-enriched",
+"day": "2026-11-02",
+"abstract": "AbstractIn the past year, the medical field's relationship to clinical AI has progressed from rapid and often speculative adoption toward evaluation of its impact on patient outcomes, clinical workflows, and society. Drawing from the Symposium on AI for Learning Health Systems (SAIL) Year in Review (May 2026), this Perspective examines six key areas that dominated the domain of clinical AI in the past year: clinical AI evaluation, workflow integration, direct-to-consumer applications, regulation and societal impacts, AI in medical education, and foundational advancements in technology. AI's successes across these areas have been uneven, reflecting its jagged frontier. We highlight milestones that illustrate what AI has already achieved in health care, its potential, and major challenges that remain ahead. (Funded by the Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health [grant number T32HD040128].).",
+"zh_abstract": "摘要：在过去一年中，医学领域与临床AI的关系已从快速且往往带有推测性的采用，转向评估其对患者结局、临床工作流程和社会的影响。本文借鉴学习型健康系统人工智能研讨会（Symposium on AI for Learning Health Systems，SAIL）年度回顾（2026年5月），考察过去一年主导临床AI领域的六个关键方面：临床AI评估、工作流程整合、直接面向消费者的应用、监管与社会影响、医学教育中的AI，以及技术的基础性进展。AI在这些领域取得的成功并不均衡，反映出其“参差不齐的前沿”。我们重点介绍一些里程碑，以说明AI在医疗保健中已经取得的成就、其潜力以及未来仍面临的主要挑战。（由美国国立卫生研究院下属的尤妮斯·肯尼迪·施莱弗国家儿童健康与人类发展研究所资助[资助编号 T32HD040128]。）"
+},
+{
 "title": "PharmaAgent: a real-world evaluation of high- and low-autonomy agentic systems for inpatient vancomycin dosing",
 "link": "https://www.medrxiv.org/content/10.64898/2026.10.23.26365968v1?rss=1",
 "date": "2026-10-29T00:00:00+00:00",
@@ -106,6 +257,79 @@
 "abstract": "Vancomycin has a narrow therapeutic window requiring individualized dosing and repeated monitoring, a process health systems delegate from physicians to pharmacists for consistency. We silently deployed PharmaAgent, LLM-based vancomycin dosing agentic systems, at Stanford Hospital for two months and compared high- and low-autonomy configurations, each with and without institutional guidelines. Across 403 dosing events in 316 patients, mean absolute percentage error against the treating pharmacist's order was 21.8% with high autonomy versus 37.8% with low autonomy, and recommendations were within 25% of the order in 73.4% versus 50.9% of events (P < 0.001); a second pharmacist was within 25% in 90.2%. Pharmacist review of 196 out-of-tolerance recommendations found a safety concern in 65.8%, more often with low autonomy (odds ratio 2.37). A higher-autonomy agent that self-debugged its intermediate steps proved more robust than stricter engineering, but neither configuration is ready to dose patients without pharmacist oversight.",
 "zh_abstract": "万古霉素治疗窗窄，需要个体化给药和反复监测，这一流程由卫生系统从医师委托给药师以保证一致性。我们在斯坦福医院静默部署了基于LLM的万古霉素给药智能体系统PharmaAgent，为期两个月，并比较了高自主性与低自主性配置，每种配置分别在有和没有机构指南的情况下运行。在316名患者的403次给药事件中，与治疗药师医嘱相比的平均绝对百分比误差在高自主性下为21.8%，低自主性下为37.8%；推荐意见与医嘱相差在25%以内的事件分别占73.4%和50.9%（P < 0.001）；第二位药师的相差在25%以内比例为90.2%。药师对196条超出容差范围的推荐意见进行审查，发现65.8%存在安全性顾虑，低自主性下更常见（比值比2.37）。一个会自我调试其中间步骤的更高自主性智能体被证明比更严格的工程化设计更稳健，但两种配置均未准备好在没有药师监督的情况下为患者给药。",
 "day": "2026-11-02"
+},
+{
+"title": "Intraoperative artificial intelligence for brain tumor surgery: from tissue diagnosis to real-time surgical guidance.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42967344/",
+"date": "2026-11-01T00:00:00+00:00",
+"badge": "DOI 10.3171/2026.8.FOCUS26439",
+"source": "PubMed · Neurosurgical focus",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "18045305e0c8",
+"keep": true,
+"zh_title": "脑肿瘤手术术中AI：从组织诊断到实时手术引导",
+"summary": "综述术中AI模型如何从手术室内实时获取分子与组织学信息以辅助脑肿瘤手术决策。",
+"key_points": [
+"2021 WHO分类使分子标志物主导胶质瘤诊断",
+"分子结果常在术后数天至数周才返回",
+"综述术中AI实时提取诊断相关信息"
+],
+"section": "影像与病理",
+"type": "观点",
+"tags": [
+"手术",
+"肿瘤",
+"神经科学"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "信息量较好的综述，但综述类最高限6分，无原始数据验证",
+"processing": "model-enriched",
+"abstract": "[Neurosurgical focus] The 2021 WHO CNS tumor classification marked a fundamental shift in neuro-oncology: molecular markers rather than histological appearance now define glioma diagnosis and guide treatment. Yet, in clinical practice the molecular information that matters most to a surgeon-IDH status, 1p/19q codeletion, and methylation class-typically arrives days to weeks after the operation it was meant to inform. Artificial intelligence (AI) is beginning to close that gap. Over the past several years, a growing body of work has demonstrated that AI models can extract diagnostically relevant molecular and histological information from data sources available in the operating room, in real time, at the point of surgical decision-making. In this review, the authors provide a comprehensive overview of state-of-the-art intraoperative AI models available to neurosurgeons during brain tumor resections. They examine AI-augmented approaches to established intraoperative techniques, such as cryosection and fluorescence-guided surgery, before turning to novel technologies including nanopore sequencing and stimulated Raman histology (SRH). The authors conclude by discussing barriers to widespread clinical adoption and what lies ahead for this field. For cryosection, models such as LGNet and the Cryosection Histopathology Assessment and Review Machine (CHARM) have demonstrated strong performance on intraoperative discrimination of primary CNS lymphoma and molecular subtyping of glioma, respectively, with CHARM achieving areas under the receiver operating characteristic curve of 0.88-0.93 across glioma subtypes. In fluorescence-guided surgery, hyperspectral imaging combined with machine learning has enabled classification of tumor type, grade, and IDH mutation based on the 5-aminolevulinic acid (5-ALA) signal with up to 93% accuracy, extracting molecular information from a modality already present in the operating room. For nanopore-based methylation classification, ensemble models such as Rapid Nanopore Brain Intraoperative Classification (ROBIN) have achieved 90% concordance with the final diagnosis prospectively in under 2 hours. In SRH, foundation models for infiltration detection now outperform FLAIR, contrast enhancement, and 5-ALA fluorescence in identifying tumor margins, while molecular classification models have achieved over 90% glioma subtype accuracy in multi-institutional cohorts. At the single-cell level, morphometric profiling of SRH images has revealed nuclear features di",
+"zh_abstract": "[Neurosurgical focus] 2021年世界卫生组织（WHO）中枢神经系统（CNS）肿瘤分类标志着神经肿瘤学的根本性转变：现在由分子标志物而非组织学表现来定义胶质瘤诊断并指导治疗。然而，在临床实践中，对外科医生最重要的分子信息——IDH状态、1p/19q共缺失和甲基化类别——通常在其本应指导的手术之后数天至数周才到达。人工智能（AI）正开始缩小这一差距。在过去几年中，越来越多的研究表明，AI模型可以从手术室中可用的数据源中，实时、在手术决策点提取具有诊断相关性的分子和组织学信息。在这篇综述中，作者全面概述了脑肿瘤切除术中神经外科医生可用的最先进术中AI模型。他们审视了对已建立的术中技术（如冷冻切片和荧光引导手术）的AI增强方法，随后转向包括纳米孔测序和受激拉曼组织学（SRH）在内的新技术。作者最后讨论了广泛临床应用的障碍以及该领域的前景。对于冷冻切片，LGNet和冷冻切片组织病理学评估与审查机器（Cryosection Histopathology Assessment and Review Machine，CHARM）等模型已分别在术中鉴别原发性CNS淋巴瘤和胶质瘤分子分型方面表现出强大性能，其中CHARM在胶质瘤各亚型中达到受试者工作特征曲线下面积0.88-0.93。在荧光引导手术中，高光谱成像联合机器学习已能够基于5-氨基乙酰丙酸（5-ALA）信号对肿瘤类型、分级和IDH突变进行分类，准确率高达93%，从而从手术室中已有的一种模态中提取分子信息。对于基于纳米孔的甲基化分类，快速纳米孔脑术中分类（Rapid Nanopore Brain Intraoperative Classification，ROBIN）等集成模型已在2小时内前瞻性地与最终诊断达到90%的一致性。在SRH中，用于浸润检测的基础模型在识别肿瘤边界方面现已优于FLAIR、对比增强和5-ALA荧光，而分子分类模型在多机构队列中已实现超过90%的胶质瘤亚型准确率。在单细胞水平，SRH图像的形态计量学分析已揭示核特征 di",
+"day": "2026-11-02"
+},
+{
+"title": "FPGL: A meta-learned implicit neural representation framework for medical image segmentation",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526003853?dgcid=rss_sd_all",
+"date": "2026-11-02T11:31:45.236857+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "dbe0333fdd09",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "FPGL：面向医学图像分割的元学习隐式神经表示框架",
+"summary": "提出元学习隐式神经表示框架FPGL用于医学图像分割，发表于Medical Image Analysis。",
+"key_points": [
+"提出元学习隐式神经表示分割框架",
+"面向医学图像分割任务",
+"同行评审期刊发表，未见外部验证信息"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "方法类论文，仅摘要信息，未见外部验证或公开代码，属增量档",
+"processing": "model-enriched",
+"day": "2026-11-02",
+"abstract_days": [
+"2026-11-02"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
 "title": "Algorithmic design choices as determinants of health equity: a causal simulation study of healthcare resource allocation",
@@ -209,6 +433,42 @@
 "day": "2026-11-02"
 },
 {
+"title": "Decision-only medical AI: early evidence and pairing with language models",
+"link": "https://www.medrxiv.org/content/10.64898/2026.10.21.26366149v1?rss=1",
+"date": "2026-10-24T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.10.21.26366149",
+"pop": null,
+"id": "316f482db215",
+"keep": true,
+"zh_title": "仅输出决策的医疗AI：早期证据及与大模型配对",
+"summary": "预印本测试两种决策式模型与一个大语言模型在2134个病例上的稳定性，配对后标签与压力诱因引起的决策改变降低约42%–81%。",
+"key_points": [
+"2134例病例、248万次模型调用，测量决策改变",
+"加入标签/压力线索使决策改变较中性措辞多13–14/100",
+"配对后降至2.6，留出报告降42%–48%；分诊准确率约81%–82%"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"基准",
+"公平与安全"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "预印本新方法+大规模调用与留出评估，但无临床结局与外部临床验证，属值得一看档",
+"processing": "model-enriched",
+"abstract": "Recently introduced decision-only AI returns probabilities over specified options rather than text. We tested the clinical consistency and potential bias susceptibility of the two available decision models, Jev and OpenAI Decisions, against a large language model (LLM), GPT-6 Luna, then paired each decision model with the LLM. Across 2,134 case presentations and 2,483,222 model calls, we measured decision changes after adding labels or pressure cues without changing clinical findings. In the original controlled challenges, these additions changed 13.4 more decisions per 100 than neutral wording for the decision models and 14.0 for the LLM. Pairing reduced this to 2.6, about 81% lower in development and 42% to 48% lower in held-out reports. Triage accuracy stayed near 81% to 82%. The paired Decisions workflow cost at most US$0.77 per 1,000 entries. We see this as a practical proof of concept for reducing framing sensitivity and flagging influential text for review.",
+"zh_abstract": "近期引入的仅做决策的 AI 返回的是指定选项上的概率，而非文本。我们测试了两种可用决策模型 Jev 和 OpenAI Decisions 相对于大语言模型（LLM）GPT-6 Luna 的临床一致性和潜在偏差易感性，然后将每个决策模型与 LLM 配对。在 2,134 份病例呈现和 2,483,222 次模型调用中，我们测量了在不改变临床发现的情况下添加标签或压力提示后的决策变化。在最初的对照挑战中，对于决策模型，这些添加每 100 次决策中改变的决策数比中性措辞多 13.4 次，而 LLM 多 14.0 次。配对后这一数值降至 2.6，在开发集中降低约 81%，在留出报告中降低 42% 至 48%。分诊准确率保持在 81% 至 82% 附近。配对的 Decisions 工作流程每 1,000 条记录的成本至多为 0.77 美元（US$0.77）。我们认为这是降低框架敏感性和标记有影响力文本以供审查的实用概念验证。",
+"day": "2026-11-02"
+},
+{
 "title": "MATS: A Multi-Agent Framework for Controllable and Reflective Tumor Synthesis",
 "link": "https://arxiv.org/abs/2610.41159",
 "date": "2026-10-30T02:34:50+00:00",
@@ -245,6 +505,42 @@
 "day": "2026-11-02"
 },
 {
+"title": "Artificial intelligence in healthcare: clinical applications, evidence maturity, risks, and life-cycle governance.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42967409/",
+"date": "2026-10-21T00:00:00+00:00",
+"badge": "DOI 10.1016/j.ijmedinf.2026.106771",
+"source": "PubMed · International journal of medical informatics",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "7f36c492ec93",
+"keep": true,
+"zh_title": "医疗 AI 的临床应用、证据成熟度、风险与全周期治理",
+"summary": "国际医学信息学杂志发表批判性叙述综述，分析医疗 AI 应用、证据特征、风险与全生命周期治理需求。",
+"key_points": [
+"以 28 篇可核验文献作批判性叙述综合",
+"指出技术性能不等于临床效用与公平性",
+"提出全生命周期治理要求"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"公平与安全",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "叙述性综述、非系统综述，纳入文献有限，结论为治理框架建议",
+"processing": "model-enriched",
+"abstract": "[International journal of medical informatics] Artificial intelligence (AI) is increasingly used across clinical, administrative, and public health settings, but technical performance alone does not establish clinical utility, safety, equity, or sustainability. To critically analyze contemporary healthcare AI applications, characterize source types and non-ordinal evidence profiles in the supporting literature, synthesize key opportunities and risks, and identify governance requirements for clinically useful, safe, equitable, and responsible implementation. We conducted a critical narrative synthesis using PubMed, the Virtual Health Library, Web of Science, and Scopus as source-discovery tools on July 16, 2026. A curated corpus of 28 bibliographically verifiable publications was assembled judgmentally to provide complementary coverage of clinical applications, evidence characteristics, implementation, risk, and life-cycle governance. Sources were classified by primary design and non-mutually exclusive evidentiary domains, and the evidence described within them was characterized using non-ordinal profile categories. Findings were synthesized qualitatively because of substantial heterogeneity across technologies, settings, and source designs. The curated corpus addressed diagnosis and imaging, prediction and monitoring, clinical documentation, conversational systems, public health, hospital operations, and specialty applications. Within this assembled corpus, technical-performance/validation and process-utility/workflow domains were represented more often than clinical or patient-safety outcomes, economic outcomes, or post-deployment surveillance; these document-level counts are descriptive and have no inferential weight beyond the selected sources. Reported or proposed benefits included diagnostic support, personalization, documentation, surveillance, and workflow efficiency. Recurrent risks included poor generalizability, bias, miscalibration, hallucinations, opacity, privacy concerns, interoperability problems, inappropriate automation, unclear accountability, and hidden costs. Within this non-exhaustive corpus, the evidence more consistently supported assistive, context-specific uses than generalized autonomous replacement. Responsible implementation requires a clearly defined intended use, governed data, contextual validation, risk-proportionate human oversight, traceability, equity and safety assessment, continuous monitoring, and procedures to restrict, suspend, or withdraw systems when performanc",
+"zh_abstract": "[International journal of medical informatics] 人工智能（AI）正越来越多地用于临床、行政和公共卫生场景，但仅靠技术性能并不能确立临床效用、安全性、公平性或可持续性。为批判性分析当代医疗保健 AI 应用、描述支持文献中的来源类型和非序数证据概况、综合关键机遇与风险，并识别实现临床有用、安全、公平和负责任实施所需的治理要求。我们于 2026 年 7 月 16 日以 PubMed、Virtual Health Library、Web of Science 和 Scopus 作为来源发现工具，进行了批判性叙述性综合。以判断性方式汇编了一个由 28 篇可通过文献目录核实的出版物组成的精选语料库，以提供对临床应用、证据特征、实施、风险和生命周期治理的互补覆盖。来源按主要设计和非互斥证据领域进行分类，并对其中描述的证据使用非序数概况类别进行特征描述。由于技术、环境和来源设计存在显著异质性，研究结果以定性方式综合。该精选语料库涉及诊断与影像、预测与监测、临床文书、对话系统、公共卫生、医院运营和专科应用。在这一汇编语料库中，技术性能/验证和流程效用/工作流领域的出现频率高于临床或患者安全结局、经济结局或部署后监测；这些文献层面的计数是描述性的，除所选来源外不具有推断权重。报告或提出的获益包括诊断支持、个性化、文书记录、监测和工作流效率。反复出现的风险包括泛化性差、偏倚、校准不良、幻觉、不透明性、隐私担忧、互操作性问题、不当自动化、问责不清和隐性成本。在这一非穷尽性语料库中，证据更一致地支持辅助性、情境特异性用途，而非泛化的自主替代。负责任实施需要明确界定的预期用途、受治理的数据、情境化验证、与风险相称的人工监督、可追溯性、公平性和安全性评估、持续监测，以及限制、暂停或撤除系统的程序，当性能",
+"day": "2026-11-02"
+},
+{
 "title": "AHA details recommendations to FDA on regulatory frameworks for GenAI-enabled medical devices",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnI5T09vUUpOVnJyT3hzekJJN0Z4alFHVkM1b1FYTTVNbGhCWU1xdEZGNnNJamtoa3BPdi1oa2c0YzRFNDdtOHJmZGNDcXFFaTNxX1pEdlNIaVJsYW1FdDk0TFZqMXNGcFhYS2tndzdyMkViTzJ4Q2RwdkJzenFZaU9zb3EzTVJHQ1BMS05DN1BDcGphNFlKYU5WT3NtVzc3MDBvSGRYUzctdlFTaWdXdlE4SkJtVjdKNWxfUmVLLUZ5bjR5akEw?oc=5",
 "date": "2026-10-19T20:28:13+00:00",
@@ -276,6 +572,78 @@
 "keep": true,
 "type": "监管",
 "reason": "行业协会就生成式AI器械监管提交建议，属监管层面信息，但非正式指南且无正文细节"
+},
+{
+"title": "Predicting the Risk of Pediatric Emergence Delirium",
+"link": "https://clinicaltrials.gov/study/NCT07906977",
+"date": "2026-10-30T00:00:00+00:00",
+"badge": "NCT07906977",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "c3cd4b8691db",
+"keep": true,
+"zh_title": "儿童苏醒期谵妄风险预测机器学习研究注册",
+"summary": "宁夏医科大学总医院注册观察性研究，拟纳入 470 例开发儿童苏醒期谵妄风险预测的可解释机器学习模型，尚无结果。",
+"key_points": [
+"观察性研究，计划入组 470 例，已完成",
+"目标是构建可解释的个体化风险预测模型",
+"注册信息未公布任何结果数据"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"临床决策支持",
+"可解释性"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅试验注册无结果，单中心观察性设计，样本数百例",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: General Hospital of Ningxia Medical University; conditions: Emergence Delirium in Pediatric Anesthesia; type: OBSERVATIONAL; enrollment: 470; status: COMPLETED] The incidence of PED ranges from 2% to 50%, with a peak occurring 5-15 minutes after emergence from anesthesia. PED seriously endangers pediatric patient safety and impairs family experience. Early recognition can guide prophylactic interventions to reduce its incidence. This study aims to develop machine learning models with high accuracy and interpretability for personalized risk prediction, so as to improve perioperative safety and expand the application of artificial intelligence in pediatric anesthesia, thereby yielding substantial clinical and social benefits.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：宁夏医科大学总医院；疾病：小儿麻醉苏醒期谵妄；类型：观察性；入组人数：470；状态：已完成] PED 的发生率范围为 2% 至 50%，在麻醉苏醒后 5-15 分钟达到峰值。PED 严重危害儿科患者安全并损害家庭体验。早期识别可指导预防性干预以降低其发生率。本研究旨在开发具有高准确性和可解释性的机器学习模型用于个性化风险预测，从而提高围手术期安全性并拓展人工智能在小儿麻醉中的应用，进而产生显著的临床和社会效益。",
+"day": "2026-11-02"
+},
+{
+"title": "Can Personalized Generative AI Bridge Cultural Distance?",
+"link": "https://www.nejm.org/doi/full/10.1056/AIltr2601017?af=R&rss=currentIssue",
+"date": "2026-10-22T04:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AIltr2601017",
+"pop": null,
+"id": "b23479fcae9a",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "个性化生成式 AI 能否弥合文化距离",
+"summary": "通讯文章回应 Cachia 等，区分个体个性化与文化适配，提出「文化距离」可作为可测量因素",
+"key_points": [
+"区分个体个性化与文化适配两个概念",
+"以 Flourish 为例讨论生成式 AI 心理支持",
+"主张开发与部署环境的文化距离可测量并影响结局"
+],
+"section": "大模型与智能体",
+"type": "观点",
+"tags": [
+"心理健康",
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 2,
+"reason": "短篇通讯回应，无数据与新方法，信息量接近边缘档",
+"processing": "model-enriched",
+"day": "2026-11-02",
+"abstract": "This Letter responds to Cachia and colleagues by distinguishing individual personalization from cultural adaptation in generative AI-supported mental health care. Using Flourish as an example, it proposes cultural distance between development and deployment settings as a measurable factor that may influence engagement and outcomes.",
+"zh_abstract": "本函回应Cachia及其同事，区分生成式AI支持的心理健康照护中的个体个性化与文化适应。以Flourish为例，提出开发环境与部署环境之间的文化距离是一个可测量因素，可能影响参与度和结局。"
 },
 {
 "title": "Comparing an AI-driven Hearing Test With the Standard Hearing Test in Adults With Hearing Loss and Tinnitus",
@@ -347,5 +715,34 @@
 "type": "论文",
 "reason": "预印本新方法，思路有新意但摘要未见外部验证与对照结果，属值得一看档",
 "zh_abstract": "自动放射学报告生成（automatic radiology report generation, RRG）旨在将医学图像转化为诊断文本，减少放射科医师的工作量并规范临床文档记录。然而，现有方法主要集中于单时间点分析，未能捕捉纵向检查中的疾病时间演变。尽管近期纵向RRG（longitudinal RRG, LRRG）方法纳入了历史数据，但它们常将不同时间点的图像组合在单一表示空间中，导致语义模糊和时间推理不一致。在本工作中，我们提出时间解耦与迭代互精炼模型（Temporal Decoupling with Iterative Mutual-Refinement Model, TIM），这是一个两阶段框架，明确将空间病理与时间进展解耦，并通过相互反馈迭代精炼报告。第一阶段执行时间解耦表示学习，分离时间演化模式"
+},
+{
+"title": "The Disability Gap in Healthcare AI: From Bias to Inclusive Co-Design, Testing, Deployment, and Governance",
+"link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRnNFSk9nR244MEZXV1RuWmpWbnA0YnNsZlZ4OEFvMDlRdlUzMG9IZVFnald5RTZKaVV4Y05TbmV4a1R2c25ucUo1R3NiMno4VGxGZnZLX3JlYWQxZmcyc1U4VkVHZmhpUll0SWxiT3hYc29mUFptbGJLU1hLcHE4UlFQVW90VVllRU1oQXJIY0sydUhJTXNfVnpRSUpSTHlKYTFIYnN5dTRNOW0xRWRvdGpTdjFLYW9STmUyaGN0Tm54YnlGYXNWQnFpMkNwUFRTOGYwbmxpS0kxYjBNd0h2VTBkQQ?oc=5",
+"date": "2026-10-30T12:07:30+00:00",
+"source": "Petrie-Flom Center",
+"source_group": "Google News · FDA AI",
+"home": "https://petrieflom.law.harvard.edu",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "9fab5dfaddc6",
+"keep": true,
+"zh_title": "医疗AI中的残障差距：从偏见到包容性共创与治理",
+"summary": "仅有标题：文章讨论医疗AI对残障群体的偏见问题，及共创、测试、部署与治理路径。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"公平与安全",
+"临床落地"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题、观点类且无实证内容，最高6分约束下取增量档",
+"processing": "model-enriched",
+"day": "2026-11-02"
 }
 ]

@@ -194,7 +194,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "论文",
-"reason": "同行评审、与医生对照，但仅比较费用、未见外部验证或临床结局"
+"reason": "同行评审、与医生对照，但仅比较费用、未见外部验证或临床结局",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIoa2600537?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
@@ -426,7 +432,13 @@
 "2026-10-31",
 "2026-11-01"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIltr2600987?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "AI-Assisted Molecular Review Refines SMO Inhibitor Candidacy in SHH Medulloblastoma",
@@ -457,7 +469,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "论文",
-"reason": "仅标题与在线发表信息，无摘要细节，属信息有限档"
+"reason": "仅标题与在线发表信息，无摘要细节，属信息有限档",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIcs2600997?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Eko Health Launches CORE 300: FDA-Cleared AI Stethoscope Unifying Traditional and Digital Listening for Adult and Pediatric Care",

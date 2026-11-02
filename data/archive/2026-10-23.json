@@ -182,7 +182,13 @@
 "2026-10-28",
 "2026-10-29"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AI-S2601250%4010.1056/ai_2026.3.issue-11?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Advancing automated phase recognition in cataract surgery through the SICS-155 challenge",
@@ -284,7 +290,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "观点",
-"reason": "仅标题无摘要，属观点类，信息量有限"
+"reason": "仅标题无摘要，属观点类，信息量有限",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIe2601260?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows",

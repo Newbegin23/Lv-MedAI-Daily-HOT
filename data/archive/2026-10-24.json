@@ -109,7 +109,13 @@
 "2026-10-29",
 "2026-10-30"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIx2601335?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Clinical AI governance for scalable innovation in value based healthcare systems",
@@ -221,7 +227,13 @@
 "2026-10-29",
 "2026-10-30"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIltr2601100?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Automatic segmentation and modeling of the aortic vessel tree: Overview of the SEG.A 2023 aorta segmentation challenge",

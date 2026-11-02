@@ -254,7 +254,13 @@
 "2026-10-30",
 "2026-10-31"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIltr2601137?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Geometry-Guided Graph Encoding Network (G 3 e-Net) for Patient-Specific Prediction of Vascular Haemodynamics",

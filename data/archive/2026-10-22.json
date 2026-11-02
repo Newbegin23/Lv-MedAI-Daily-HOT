@@ -33,7 +33,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "论文",
-"reason": "RCT前瞻性设计并报告工作流与沟通结局，但未见结果与样本量，仅给到重要档下限"
+"reason": "RCT前瞻性设计并报告工作流与沟通结局，但未见结果与样本量，仅给到重要档下限",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIoa2600136?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages",
@@ -106,7 +112,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "论文",
-"reason": "前瞻性多中心外部验证设计属加分，但条目仅标题、无结果数据"
+"reason": "前瞻性多中心外部验证设计属加分，但条目仅标题、无结果数据",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Performance uncertainty in medical image analysis: A large-scale investigation of confidence intervals",

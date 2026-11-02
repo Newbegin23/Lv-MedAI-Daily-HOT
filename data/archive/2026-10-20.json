@@ -525,7 +525,13 @@
 "_abs_err": "page: HTTP Error 403: Forbidden",
 "keep": true,
 "type": "观点",
-"reason": "仅有标题无正文的观点文章，按标题计上限6分，信息量有限取低档"
+"reason": "仅有标题无正文的观点文章，按标题计上限6分，信息量有限取低档",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIp2600773?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "AdvaMed’s 4 Policy Priorities, According to Its CEO",
