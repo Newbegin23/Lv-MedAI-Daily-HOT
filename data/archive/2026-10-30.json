@@ -220,7 +220,8 @@
 "abstract_days": [
 "2026-10-30",
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -257,7 +258,8 @@
 "abstract_days": [
 "2026-10-30",
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -296,7 +298,8 @@
 "abstract_days": [
 "2026-10-30",
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -335,7 +338,8 @@
 "abstract_days": [
 "2026-10-30",
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

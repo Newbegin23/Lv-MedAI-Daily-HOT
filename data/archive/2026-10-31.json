@@ -109,6 +109,44 @@
 "zh_abstract": "睡眠对健康至关重要，但研究其动态变化需要人工睡眠分期，这是研究和临床护理中一项劳动密集型步骤。在不同中心，多导睡眠图（PSG）记录传统上以30秒epoch进行判读，这是出于实用性而非生理学原因，并且电极数量、导联组合和受试者特征各不相同。这些限制对协调一致的多中心研究以及在更短时间尺度上发现稳健生物标志物构成挑战。我们提出AnySleep，一种深度神经网络，可在可调的时间分辨率下从任何脑电图（EEG）或眼电图（EOG）数据中判读睡眠。我们在来自多个诊所的28个数据集、超过20,000次整夜记录（>200,000小时EEG和EOG）上训练并验证该模型，以促进跨站点的稳健泛化。该模型达到最先进性能，并在30秒epoch上超过或等于已有基线。性能随通道增多而提高，但在EOG缺失，或仅有EOG或单导EEG导出（额区、中央区或枕区）时仍保持较强。在低于30秒的时间尺度上，模型捕捉到与觉醒一致的短暂清醒侵入，并较30秒判读改善了对病理生理状况（阻塞性睡眠呼吸暂停、1型发作性睡病、失眠）的预测。我们公开该模型，以促进具有异质电极设置的大规模研究，并加速睡眠中的生物标志物发现。"
 },
 {
+"title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
+"link": "https://www.nature.com/articles/s41746-026-03444-1",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03444-1",
+"pop": null,
+"id": "f6945d7159cb",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "初级保健漏诊专科转诊AI安全系统的准确性与影响",
+"summary": "在新加坡七家基层诊所准实验评估MR-AI识别咨询记录中漏开的专科转诊，并与医生复核比较。",
+"key_points": [
+"每周扫描约2.5万份记录，漏诊检出提升约七倍",
+"特异性99.9%、敏感性48.8%",
+"428例标记中225例经医生核实",
+"与七名医生盲法比较，PPV 61.8% 对 51.8%"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"临床NLP",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "七家诊所准实验部署、真实工作流检出提升并与医生头对头比较，属重要档",
+"processing": "model-enriched",
+"day": "2026-10-31",
+"abstract": "Missed specialist referrals in primary care pose substantial health and medico-legal risks, yet remain poorly understood. We developed an AI-supported safety system (MR-AI) to identify missed referrals from consultation notes, evaluated in a quasi-experimental study across seven primary care clinics in Singapore. MR-AI scanned ~25,000 notes weekly for referral intent without a corresponding order, achieving an estimated sevenfold increase in weekly missed referral detection (4.7 percentage point level increase; 95% CI 0.024–0.069; p < 0.001). Of 428 cases flagged, 225 were clinician-verified, alongside 31 patient-reported cases, yielding 256 total detections. MR-AI demonstrated 99.9% specificity and 48.8% sensitivity. In a blinded one-week comparison against seven physician reviewers, MR-AI achieved a PPV of 61.8% versus a human confirmation rate of 51.8% across 83 flagged cases, while requiring approximately 41 fewer projected staff-hours. AI-enabled surveillance substantially assisted in missed referral detection, though sustainable improvement will require complementary preventive workflow changes and future cost-effectiveness assessment.",
+"zh_abstract": "基层医疗中遗漏专科转诊会带来重大的健康和医疗法律风险，但对此仍知之甚少。我们开发了一种人工智能支持的安全系统（MR-AI），用于从就诊记录中识别遗漏的转诊，并在新加坡七家基层医疗诊所开展的一项准实验研究中进行了评估。MR-AI每周扫描约25,000份记录，查找有转诊意图但无相应医嘱的情况，估计使每周遗漏转诊检出增加七倍（水平提高4.7个百分点；95% CI 0.024–0.069；p < 0.001）。在428例被标记的病例中，225例经临床医生核实，另有31例为患者报告病例，合计256例检出。MR-AI的特异性为99.9%，敏感性为48.8%。在与7名医师审阅者进行的为期一周的盲法比较中，在83例被标记病例中，MR-AI的阳性预测值（PPV）为61.8%，而人工确认率为51.8%，同时预计所需工作人员工时约减少41小时。人工智能支持的监测在很大程度上协助了遗漏转诊的检出，但可持续改善将需要配套的预防性工作流程变革以及未来的成本效益评估。"
+},
+{
 "title": "Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42962674/",
 "date": "2026-10-30T00:00:00+00:00",
@@ -176,7 +214,8 @@
 "day": "2026-10-31",
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -215,41 +254,6 @@
 "abstract": "In psychiatric practice, the clinical intake interview remains a primary diagnostic instrument, requiring the clinician to establish rapport while disentangling complex, overlapping presentations. Here, we show that multi-turn reinforcement learning (RL) in simulation environments improves language model performance on structured text-based psychiatric intake, spanning history-taking, differential diagnosis, and initial management planning. In a randomized, double-blind crossover study ($N = 60$ matched scenario pairs, 120 encounters) comparing the RL-trained agent against its identically prompted base model, 32 board-certified psychiatrists role-played standardized patients while a separate panel of 15 independent, board-certified psychiatrists scored the de-identified transcripts. The trained agent outperformed the base model in 76.7% of matched scenario pairs ($p < 0.0001$), with gains on an adapted clinical-examination rubric ($d_z = 0.77$, $p < 0.0001$), patient-centered communication (82.0% vs. 65.2%, $p < 0.001$), and differential diagnosis appropriateness (68.3% vs. 33.3%, $p < 0.001$). Across 127 psychiatrist-validated simulated intake scenarios, the trained agent nearly doubled its base model's clinical rubric score (0.706 vs. 0.379; composite reward 0.564 vs. 0.294, $p < 0.0001$). To systematically probe conversational safety, we established two Delphi-consensus taxonomies, of clinical safety risks and relational competencies, from which 256 challenging adversarial presentations were derived; we find that training in simulation environments more than halved under-triage of acute safety risks (12.9% vs. 30.5%, $p < 0.0001$). Simulation environments thus provide a controlled testbed for training and stress-testing psychiatric conversational agents, with gains that transferred to psychiatrist-enacted encounters, though residual gaps require safeguards and clinician oversight.",
 "zh_abstract": "在精神科实践中，临床接诊访谈仍是主要的诊断工具，要求临床医生在建立融洽关系的同时，理清复杂且相互重叠的表现。在此，我们展示，模拟环境中的多轮强化学习（reinforcement learning, RL）可提高语言模型在结构化文本精神科接诊中的表现，涵盖病史采集、鉴别诊断和初始管理计划。在一项随机、双盲交叉研究中（$N = 60$ 对匹配场景，120次接诊），将经RL训练的智能体与接受相同提示的基础模型进行比较，32名委员会认证的精神科医生角色扮演标准化患者，而由另一个由15名独立、委员会认证的精神科医生组成的小组对去标识化转录文本进行评分。训练后智能体在76.7%的匹配场景对中优于基础模型（$p < 0.0001$），并在改编的临床检查评分量表（$d_z = 0.77$，$p < 0.0001$）、以患者为中心的沟通（82.0% 对 65.2%，$p < 0.001$）和鉴别诊断适当性（68.3% 对 33.3%，$p < 0.001$）方面均有改善。在127个经精神科医生验证的模拟接诊场景中，训练后智能体的临床评分量表得分几乎为基础模型的两倍（0.706 对 0.379；复合奖励 0.564 对 0.294，$p < 0.0001$）。为系统探究对话安全性，我们建立了两个德尔菲共识分类体系，分别关于临床安全风险和关系能力，并从中衍生出256个具有挑战性的对抗性表现；我们发现，在模拟环境中进行训练使急性安全风险的分诊不足减少了一半以上（12.9% 对 30.5%，$p < 0.0001$）。因此，模拟环境为训练和压力测试精神科对话智能体提供了受控测试平台，其收益可迁移至由精神科医生实施的接诊中，但残余差距仍需要保障措施和临床医生监督。",
 "day": "2026-10-31"
-},
-{
-"title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
-"link": "https://www.nature.com/articles/s41746-026-03444-1",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03444-1",
-"pop": null,
-"id": "f6945d7159cb",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AI安全系统识别基层漏诊转诊的准确性与影响",
-"summary": "仅见标题：该同行评审研究评估基层医疗中识别漏诊专科转诊的 AI 安全系统的准确性与影响。",
-"key_points": [],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床决策支持",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅标题无摘要，无法判断样本与验证设计，按标题信息量偏低打分",
-"processing": "model-enriched",
-"day": "2026-10-31",
-"abstract_days": [
-"2026-10-31",
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "An uncertainty-aware deep learning-based registration model for adaptive lung cancer radiotherapy.",
@@ -317,7 +321,8 @@
 "day": "2026-10-31",
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -351,7 +356,8 @@
 "day": "2026-10-31",
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -422,7 +428,8 @@
 "day": "2026-10-31",
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -689,7 +696,13 @@
 "score": 3,
 "reason": "仅标题、细节缺失的医院企业合作动态，属增量档",
 "processing": "model-enriched",
-"day": "2026-10-31"
+"day": "2026-10-31",
+"also": [
+{
+"source": "科技行者",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTFdIRWpvakl2V3pYYTBfNUlEV0twbWJrYS1fal9FOGVObmV3UVBoakV6RExDN0NUMXJQWk5JLWdUUkp0UWUtbFNPM3ZuQ3FB?oc=5"
+}
+]
 },
 {
 "title": "AI in radiology: powerful tools, persistent blind spots",

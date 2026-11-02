@@ -1,5 +1,43 @@
 [
 {
+"title": "Interpretability-driven feature engineering enables compact and accurate multi-outcome risk stratification at hospitalization for chronic hepatitis B",
+"link": "https://www.nature.com/articles/s41746-026-03439-y",
+"date": "2026-10-31T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03439-y",
+"pop": null,
+"id": "d82e04f00ec6",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "可解释性特征工程用于慢乙肝住院多结局风险分层",
+"summary": "基于SHAP主效应与交互效应构建精简模型，对慢乙肝住院患者的肝硬化与肝癌结局做风险分层。",
+"key_points": [
+"纳入22001名患者的36024条住院记录",
+"每结局选15个主效应特征加4个交互项",
+"采用时间验证与独立外部验证并做校准和决策曲线",
+"精简模型与全特征模型性能对比"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"可解释性",
+"电子病历"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "大样本三万六千条记录且含独立外部验证与决策曲线，属重要档",
+"processing": "model-enriched",
+"day": "2026-11-01",
+"abstract": "Clinical artificial intelligence (AI) often trades predictive performance against interpretability. This study develops an interpretability-driven feature engineering framework for multi-outcome risk stratification at hospitalization for chronic hepatitis B. A total of 36,024 hospitalization records from 22,001 patients were included. The framework integrating SHapley Additive exPlanations (SHAP)-based main and interaction effects was used to construct compact machine learning models for classifying disease non-progression, liver cirrhosis (LC), and hepatocellular carcinoma (HCC). SHAP main effects selected the top 15 features per outcome; TreeSHAP interactions selected four pairwise terms. Performance was evaluated using patient-level data splitting, temporal validation, and independent external validation, with calibration and decision-curve analyses. The full-feature models achieved superior discrimination (AUCs: 0.927, 0.897, and 0.899) for classifying hospitalization-recorded disease non-progression, LC, and HCC, respectively. The corresponding compact models maintained strong discrimination (AUCs: 0.911, 0.882, and 0.890) with 80.8% fewer features. Interaction models yielded subtle AUC shifts (AUCs: 0.912, 0.881, and 0.891) while characterizing potential clinical joint-effect patterns. Temporal validation yielded AUCs of 0.863, 0.827, and 0.847, while external validation yielded AUCs of 0.829, 0.865, and 0.827, respectively. The framework produced compact and transparent models for contemporaneous risk stratification in clinical practice, seamlessly uniting predictive accuracy with multi-level interpretability.",
+"zh_abstract": "临床人工智能（AI）常常在预测性能与可解释性之间权衡。本研究开发了一个可解释性驱动的特征工程框架，用于慢性乙型肝炎住院时的多结局风险分层。共纳入来自22,001名患者的36,024条住院记录。该框架整合基于SHapley Additive exPlanations（SHAP）的主效应和交互效应，用于构建紧凑的机器学习模型，以分类疾病未进展、肝硬化（LC）和肝细胞癌（HCC）。SHAP主效应为每个结局选择前15个特征；TreeSHAP交互效应选择四个两两交互项。使用患者层面数据划分、时间验证和独立外部验证评估性能，并进行校准和决策曲线分析。全特征模型在分类住院记录中的疾病未进展、LC和HCC方面分别取得更优的区分度（AUC：0.927、0.897和0.899）。相应的紧凑模型在特征减少80.8%的情况下仍保持较强区分度（AUC：0.911、0.882和0.890）。交互模型带来细微的AUC变化（AUC：0.912、0.881和0.891），同时刻画了潜在的临床联合效应模式。时间验证的AUC分别为0.863、0.827和0.847，外部验证的AUC分别为0.829、0.865和0.827。该框架生成了用于临床实践中同期风险分层的紧凑且透明的模型，将预测准确性与多层级可解释性无缝结合。"
+},
+{
 "title": "[Articles] An explainable artificial intelligence system for prognostic assessment and decision support in diabetic foot ulcer care: a multicentre derivation and validation study with prospective randomised evaluation",
 "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00537-7/fulltext?rss=yes",
 "date": "2026-10-31T12:14:48+00:00",
@@ -37,6 +75,120 @@
 "day": "2026-11-01"
 },
 {
+"title": "Understanding clinical reasoning variability in medical large language models: a mechanistic interpretability study",
+"link": "https://www.nature.com/articles/s41746-026-03423-6",
+"date": "2026-10-31T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03423-6",
+"pop": null,
+"id": "82d2394c6788",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "医学大模型临床推理不稳定性的机制可解释性研究",
+"summary": "对GPT-5等三个医学大模型用3035条系统扰动测试推理稳定性，并用稀疏自编码器分解内部表征。",
+"key_points": [
+"仅提示格式变化即可使分期准确率波动超50%",
+"在信息不足场景仍会给出确定性分期结论",
+"在5万份MIMIC-IV病历上训练稀疏自编码器解析表征",
+"MedGemma呈现分层编码：强特征记词形、弱特征记语义"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"可解释性",
+"临床NLP"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "同行评审的机制可解释性分析，规模可观但无外部验证或临床结局，属值得一看档",
+"processing": "model-enriched",
+"day": "2026-11-01",
+"abstract": "Medical large language models achieving high benchmark accuracy exhibit unexplained variability in clinical tasks, producing errors that clinicians cannot safeguard against. We evaluated clinical reasoning stability in GPT-5, MedGemma-27B-Text-IT, and OpenBioLLM-Llama3-70B using 3035 systematic perturbations from physician-validated oncology SOAP, brief vignette, and MIMIC cases. We trained sparse autoencoders on 1 billion tokens from 50,000 MIMIC-IV clinical notes to decompose their internal representation. We find models exhibit dramatic reasoning instability, shifting staging accuracy by over 50% based solely on prompt format, or generating definitive staging in clinically insufficient scenarios. Sparse autoencoder analysis revealed hierarchical encoding in MedGemma, where high-magnitude features encode lexical identity and low-magnitude features encode contextual meaning. OpenBioLLM distributes information uniformly. We demonstrate that these internal encoding structures differentially affect retrieval and reasoning interventions, suggesting interventions effective for one architecture may harm another. These results motivate architecture-specific safety validation as a component of pre-deployment evaluation for medical LLMs.",
+"zh_abstract": "医学大语言模型虽在基准测试中达到高准确率，却在临床任务中表现出无法解释的变异性，产生临床医生无法防范的错误。我们使用来自经医生验证的肿瘤学SOAP、简要病例摘要和MIMIC病例的3035个系统性扰动，评估了GPT-5、MedGemma-27B-Text-IT和OpenBioLLM-Llama3-70B的临床推理稳定性。我们在来自50,000份MIMIC-IV临床记录的10亿个token上训练稀疏自编码器，以分解其内部表征。我们发现模型表现出显著的推理不稳定性：仅因提示格式不同，分期准确率就会变化超过50%；或在临床信息不足的情况下生成确定性分期。稀疏自编码器分析揭示了MedGemma中的分层编码，其中高幅值特征编码词汇身份，低幅值特征编码上下文语义。OpenBioLLM则均匀分布信息。我们证明，这些内部编码结构对检索和推理干预产生不同影响，提示对一种架构有效的干预可能损害另一种架构。这些结果支持将针对特定架构的安全性验证作为医学大语言模型部署前评估的组成部分。"
+},
+{
+"title": "Generation of synthetic clinical text: a systematic review",
+"link": "https://www.nature.com/articles/s41746-026-03438-z",
+"date": "2026-10-31T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03438-z",
+"pop": null,
+"id": "b59e497d41c8",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "合成临床文本生成系统综述",
+"summary": "系统综述94篇文献，梳理合成医学自由文本的生成目的、技术路线与评估方法。",
+"key_points": [
+"从1398篇中筛出94篇相关文献",
+"2018年后相关研究显著增多",
+"用途含文本增强、辅助书写、语料构建与隐私保护",
+"分析各研究的生成技术与评估方法"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"生成模型",
+"隐私与联邦学习"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "纳入94项研究的系统综述，结论明确但属综述类，按上限取值得一看档",
+"processing": "model-enriched",
+"day": "2026-11-01",
+"abstract": "Generating clinical synthetic text represents an effective solution for common clinical NLP issues like sparsity and privacy. This paper aims to conduct a systematic review on generating synthetic medical free-text by formulating quantitative analysis to three research questions concerning (i) the purpose of generation, (ii) the techniques, and (iii) the evaluation methods. We searched PubMed, ScienceDirect, Web of Science, Scopus, IEEE, Google Scholar, and arXiv databases for publications associated with generating synthetic medical unstructured free-text. We have identified 94 relevant articles out of 1,398 collected ones. A great deal of attention has been given to the generation of synthetic medical text from 2018 onwards, where the main purpose of such a generation is towards text augmentation, assistive writing, corpus building, privacy-preserving, annotation, and usefulness. Transformer architectures were the main predominant technique used to generate the text, especially the GPTs. On the other hand, there were four main aspects of evaluation, including similarity, privacy, structure, and utility, where utility was the most frequent method used to assess the generated synthetic medical text. Although the generated synthetic medical text demonstrated a moderate possibility to act as real medical documents in different downstream NLP tasks, it has proven to be a great asset as augmented, complementary to the real documents, towards improving the accuracy and overcoming sparsity/undersampling issues. Yet, privacy is still a major issue behind generating synthetic medical text, where more human assessments are needed to check for the existence of any sensitive information. Despite that, advances in generating synthetic medical text will considerably accelerate the adoption of workflows and pipeline development, discarding the time-consuming legalities of data transfer.",
+"zh_abstract": "生成临床合成文本是解决稀疏性和隐私等常见临床NLP问题的有效方案。本文旨在通过围绕三个研究问题开展定量分析，对合成医学自由文本的生成进行系统综述，这三个问题涉及（i）生成目的、（ii）技术和（iii）评估方法。我们检索了PubMed、ScienceDirect、Web of Science、Scopus、IEEE、Google Scholar和arXiv数据库中与生成合成医学非结构化自由文本相关的出版物。我们从1,398篇收集到的文章中识别出94篇相关文章。自2018年起，合成医学文本的生成受到大量关注，此类生成的主要目的包括文本增强、辅助写作、语料库构建、隐私保护、注释和实用性。Transformer架构是用于生成文本的主要主流技术，尤其是各类GPT。另一方面，评估主要有四个方面，包括相似性、隐私、结构和效用，其中效用是评估所生成合成医学文本最常用的方法。尽管所生成的合成医学文本在不同下游NLP任务中表现出作为真实医学文档的中等可能性，但已证明其作为真实文档的增强和补充具有重要价值，可提高准确性并克服稀疏性/欠采样问题。然而，隐私仍是生成合成医学文本背后的主要问题，需要更多人工作业评估以检查是否存在任何敏感信息。尽管如此，合成医学文本生成方面的进展将显著加速工作流程的采用和流水线开发，摆脱数据转移中耗时的法律合规问题。"
+},
+{
+"title": "Predicting persistent fever in patients with cancer receiving antibiotics: a machine learning approach",
+"link": "https://www.nature.com/articles/s41746-026-03449-w",
+"date": "2026-10-31T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03449-w",
+"pop": null,
+"id": "eeae0e31bf0c",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "机器学习预测癌症患者抗生素治疗后持续发热",
+"summary": "用两家学术医院电子病历开发并外部验证模型，预测抗生素启动后48-72小时持续发热。",
+"key_points": [
+"基于两家学术医院EHR数据开发与外部验证",
+"最佳模型内部AUROC 0.82、外部0.78",
+"体温相关变量为主要预测因子",
+"决策曲线分析显示净获益为正向"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"电子病历",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "有外部验证与决策曲线，但为回顾性、未报告临床结局，属值得一看档",
+"processing": "model-enriched",
+"day": "2026-11-01",
+"abstract": "Persistent fever after initiating intravenous antibiotics is common in hospitalized patients with cancer and often leads to additional imaging and antimicrobial escalation. Early identification of patients unlikely to remain febrile could provide additional information during clinical reassessment. We developed and externally validated machine learning models to predict persistent fever 48-72 h after antibiotic initiation using electronic health records from two academic hospitals. Adult cancer patients with fever within 24-48 h of treatment were included. Models incorporated demographics, comorbidities, laboratory results, vital signs, and temperature patterns. The best-performing model achieved an AUROC of 0.82 (95% CI 0.79-0.84) internally and 0.78 (95% CI 0.77-0.79) externally. Temperature-related variables were the dominant predictors. Decision curve analysis demonstrated positive net benefit across much of the evaluated threshold range. Retrospective assessment suggested that approximately one quarter of antibiotic escalations and chest CT scans occurred in patients correctly predicted not to remain febrile, highlighting the potential contextual value of fever predictions. These findings indicate that short-term fever persistence can be predicted with clinically meaningful accuracy using routine data. However, clinical use should be limited to an adjunctive role rather than standalone rule-out decision-making, and prospective studies are required to evaluate safety, clinician uptake, and real-world impact.",
+"zh_abstract": "在开始静脉注射抗生素后持续发热在住院癌症患者中很常见，并且常导致额外影像学检查和抗菌治疗升级。早期识别不太可能持续发热的患者可在临床再评估期间提供额外信息。我们开发并外部验证了机器学习模型，利用两家学术医院的电子健康记录预测抗生素开始后48-72小时的持续发热。纳入在治疗24-48小时内发热的成年癌症患者。模型纳入人口学特征、合并症、实验室结果、生命体征和体温模式。表现最佳的模型在内部达到AUROC 0.82（95% CI 0.79-0.84），在外部达到0.78（95% CI 0.77-0.79）。体温相关变量是最主要的预测因素。决策曲线分析显示，在评估阈值范围的大部分区间内具有正向净获益。回顾性评估提示，大约四分之一的抗生素升级和胸部CT扫描发生在被正确预测为不会持续发热的患者中，突显了发热预测的潜在情境价值。这些发现表明，使用常规数据可以以具有临床意义的准确度预测短期发热持续。然而，临床使用应仅限于辅助作用，而非独立的排除决策，并且需要前瞻性研究评估安全性、临床医生接受度和真实世界影响。"
+},
+{
 "title": "Hierarchical multi-atlas fusion network for robust and interpretable cross-site analysis of functional connectomes in major depressive disorder",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004159?dgcid=rss_sd_all",
 "date": "2026-11-01T02:24:43.544042+00:00",
@@ -71,124 +223,10 @@
 "processing": "model-enriched",
 "day": "2026-11-01",
 "abstract_days": [
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
-},
-{
-"title": "Understanding clinical reasoning variability in medical large language models: a mechanistic interpretability study",
-"link": "https://www.nature.com/articles/s41746-026-03423-6",
-"date": "2026-10-31T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03423-6",
-"pop": null,
-"id": "82d2394c6788",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "医学大模型临床推理变异性的机制可解释性研究",
-"summary": "仅见标题：同行评审研究以机制可解释性视角分析医学大模型临床推理变异性。",
-"key_points": [
-"研究对象为医学大模型临床推理变异性",
-"采用机制可解释性分析路径",
-"同行评审发表于npj Digital Medicine"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"医学大模型",
-"可解释性"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "同行评审且切中医学LLM可解释性，但仅见标题，无方法与样本细节。",
-"processing": "model-enriched",
-"day": "2026-11-01",
-"abstract_days": [
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "Generation of synthetic clinical text: a systematic review",
-"link": "https://www.nature.com/articles/s41746-026-03438-z",
-"date": "2026-10-31T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03438-z",
-"pop": null,
-"id": "b59e497d41c8",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "合成临床文本生成：系统综述",
-"summary": "npj Digital Medicine 发表的系统综述，梳理合成临床文本生成领域的研究，来源仅提供题录信息，未给出纳入研究数量与结论。",
-"key_points": [
-"主题为合成临床文本的生成方法",
-"发表于 npj Digital Medicine，同行评审",
-"摘要与纳入研究细节未在来源中给出"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"临床NLP",
-"生成模型"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "系统综述属有信息量的综述档，但来源未给纳入研究数与结论，难上调",
-"processing": "model-enriched",
-"day": "2026-11-01",
-"abstract_days": [
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "Interpretability-driven feature engineering enables compact and accurate multi-outcome risk stratification at hospitalization for chronic hepatitis B",
-"link": "https://www.nature.com/articles/s41746-026-03439-y",
-"date": "2026-10-31T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03439-y",
-"pop": null,
-"id": "d82e04f00ec6",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "可解释性驱动特征工程助力慢性乙肝住院多结局风险分层",
-"summary": "npj Digital Medicine 刊发研究，用可解释性驱动的特征工程构建慢性乙肝住院患者多结局风险分层模型，仅见标题与出处信息。",
-"key_points": [
-"发表于 npj Digital Medicine，同行评审",
-"主题为慢性乙肝住院多结局风险分层",
-"以可解释性驱动特征工程实现紧凑模型"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床预测",
-"可解释性",
-"电子病历"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "规范期刊的临床预测建模研究，但仅见标题，无外部验证或样本量信息，属值得一看档",
-"processing": "model-enriched",
-"day": "2026-11-01",
-"abstract_days": [
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "MSRepaint: Multiple Sclerosis Repaint with conditional denoising diffusion implicit model for bidirectional lesion filling and synthesis",
@@ -261,7 +299,8 @@
 "processing": "model-enriched",
 "day": "2026-11-01",
 "abstract_days": [
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -302,40 +341,6 @@
 "day": "2026-11-01"
 },
 {
-"title": "Predicting persistent fever in patients with cancer receiving antibiotics: a machine learning approach",
-"link": "https://www.nature.com/articles/s41746-026-03449-w",
-"date": "2026-10-31T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03449-w",
-"pop": null,
-"id": "eeae0e31bf0c",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "机器学习预测接受抗生素治疗的癌症患者持续发热",
-"summary": "npj Digital Medicine 刊发研究，用机器学习预测接受抗生素治疗的癌症患者是否出现持续发热；仅见标题与期刊信息，摘要内容未提供。",
-"key_points": [],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床预测",
-"肿瘤"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅标题与期刊信息，无样本量、验证方式与结果，属增量档",
-"processing": "model-enriched",
-"day": "2026-11-01",
-"abstract_days": [
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "Topology-aware unsupervised domain adaptation for curvilinear structure segmentation",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003981?dgcid=rss_sd_all",
 "date": "2026-11-01T10:42:06.019631+00:00",
@@ -369,7 +374,8 @@
 "processing": "model-enriched",
 "day": "2026-11-01",
 "abstract_days": [
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
