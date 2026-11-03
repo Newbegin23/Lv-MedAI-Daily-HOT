@@ -1,5 +1,357 @@
 [
  {
+  "title": "OCTFlow: Unified conditional generation for balanced classification and annotated segmentation in retinal OCT",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003919?dgcid=rss_sd_all",
+  "date": "2026-11-03T03:58:19.499714+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "1a1f374a12dd",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "OCTFlow：视网膜OCT统一条件生成",
+  "summary": "提出OCTFlow统一条件生成框架，用于视网膜OCT的平衡分类与带标注分割。",
+  "key_points": [
+   "提出OCTFlow统一条件生成框架",
+   "同时服务平衡分类与带标注分割",
+   "应用对象为视网膜OCT影像"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "生成模型",
+   "眼科"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审方法论文，有新意，但摘要未给出外部验证与样本量",
+  "processing": "model-enriched",
+  "day": "2026-11-03",
+  "abstract_days": [
+   "2026-11-03"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Identification of local nonlinear shear-wave dynamics using Volterra kernels: application to prostate cancer detection.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42970650/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1109/TMI.2026.3749706",
+  "source": "PubMed · IEEE transactions on medical imaging",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ee916e737bc2",
+  "keep": true,
+  "zh_title": "Volterra核刻画剪切波动力学用于前列腺癌检测",
+  "summary": "提出用Volterra核识别局部非线性剪切波动力学，经仿真与体模验证，并用于前列腺癌在体检测。",
+  "key_points": [
+   "基于相邻位置剪切波粒子速度识别核",
+   "在仿真和明胶体模中验证",
+   "作者称首次在体应用于前列腺癌检测"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "方法有新意，但仅仿真/体模及在体验证，缺乏外部验证与样本信息",
+  "processing": "model-enriched",
+  "abstract": "[IEEE transactions on medical imaging] Cancer remains a major health concern worldwide. Shear-wave elastography (SWE) holds promise for cancer detection by quantifying linear elastic changes in tissue through shear-wave (SW) velocity estimation. However, shear viscosity and nonlinearity are often over-looked, despite their potential as additional biomarkers. This study evaluates the visco-hyperelastic properties of soft tissue, including linear shear modulus, shear viscosity, and shear nonlinearity. We propose using Volterra kernels to characterize local nonlinear SW dynamics, with kernel identification based on SW particle velocity measurements at adjacent locations. The method was validated using in-silico simulations and in-vitro gelatin phantoms. To evaluate its clinical relevance, we applied the method for prostate cancer (PCa) detection. To our knowledge, this is the first in-vivo assessment of voxel-based visco-hyperelastic properties of the prostate. In 90 patients, our results indicated that the linear kernel correlated with the linear shear modulus, while the quadratic kernel reflected both viscosity and nonlinearity. A convolutional neural network trained on these parameters with registered histopathology as ground truth achieved area under the receiver operating characteristic curve (AUC) values of 0.60 (95% confidence interval [CI]: 0.57, 0.62) and 0.66 (95% CI: 0.64, 0.68) for PCa detection, respectively-both significantly outperforming the linear shear modulus (AUC of 0.54; 95% CI, 0.52 to 0.56). Our findings suggest that Volterra kernels reflect information related to the visco-hyperelastic properties of prostate tissue, highlighting the potential of viscosity and nonlinearity as additional biomarkers for PCa detection.",
+  "zh_abstract": "[IEEE transactions on medical imaging] 癌症仍然是全球主要的健康问题。剪切波弹性成像（SWE）通过剪切波（SW）速度估计量化组织的线性弹性变化，有望用于癌症检测。然而，剪切黏性和非线性常被忽视，尽管它们有潜力作为附加生物标志物。本研究评估软组织的黏-超弹性特性，包括线性剪切模量、剪切黏性和剪切非线性。我们提出使用 Volterra 核表征局部非线性 SW 动力学，核识别基于相邻位置的 SW 粒子速度测量。该方法通过计算机模拟和体外明胶体模验证。为评估其临床相关性，我们将该方法用于前列腺癌（PCa）检测。据我们所知，这是首次对前列腺基于体素的黏-超弹性特性进行体内评估。在 90 例患者中，我们的结果表明线性核与线性剪切模量相关，而二次核反映黏性和非线性。以配准组织病理学为金标准，在这些参数上训练的卷积神经网络用于 PCa 检测的受试者工作特征曲线下面积（AUC）分别为 0.60（95% 置信区间 [CI]：0.57，0.62）和 0.66（95% CI：0.64，0.68），均显著优于线性剪切模量（AUC 为 0.54；95% CI，0.52 至 0.56）。我们的发现提示，Volterra 核反映与前列腺组织黏-超弹性特性相关的信息，突显黏性和非线性作为 PCa 检测附加生物标志物的潜力。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Patient attitudes toward artificial intelligence-driven dermatology.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42969910/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.jid.2026.08.008",
+  "source": "PubMed · The Journal of investigative dermatology",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "fa3ffa701df8",
+  "keep": true,
+  "zh_title": "患者对AI驱动皮肤科的态度：系统综述",
+  "summary": "PRISMA系统综述20项研究，梳理患者对皮肤科AI诊断、筛查与远程皮肤科工作流的信任条件。",
+  "key_points": [
+   "纳入2015–2026年20项实证研究",
+   "覆盖诊断、皮肤癌筛查和图像共享",
+   "患者信任呈条件性"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "系统综述20项研究，有信息量但非meta分析且无新数据",
+  "processing": "model-enriched",
+  "abstract": "[The Journal of investigative dermatology] Artificial intelligence (AI) systems are increasingly being developed for dermatology, but the conditions under which patients trust these tools remain poorly characterized. This Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided systematic narrative review synthesizes peer-reviewed empirical studies, published from January 1, 2015 through July 7, 2026, that directly assessed patient or public attitudes toward AI in dermatologic diagnosis, skin-cancer screening, image sharing, teledermatology image-quality support, and related patient-facing workflows. Eligible evidence included qualitative interviews and focus groups, surveys, preference/conjoint or vignette experiments, and early clinical deployments. Twenty studies met the inclusion criteria using the review framework. Across study designs, patients expressed conditional support for dermatology AI but consistently favored dermatologist-supervised AI over autonomous AI, especially for high-stakes diagnostic decisions. Trust was strengthened by visible clinician accountability, clear explanations of AI outputs and uncertainty, privacy safeguards, transparent data use, and evidence that performance is reliable across skin tone and diagnosis. Trust declined when AI was framed as replacing clinicians, when image governance was unclear, or when unequal performance was perceived. These findings support a model of augmented intelligence: dermatology AI should serve the clinical relationship; be subject to human oversight; and be evaluated and reported stratified by skin tone, diagnosis, and care context.",
+  "zh_abstract": "[The Journal of investigative dermatology] 人工智能（AI）系统越来越多地用于皮肤病学，但患者信任这些工具的条件仍不清楚。这项由系统评价和荟萃分析首选报告项目（PRISMA）指导的系统性叙述综述，综合了 2015 年 1 月 1 日至 2026 年 7 月 7 日发表的同行评审实证研究，这些研究直接评估患者或公众对 AI 用于皮肤病学诊断、皮肤癌筛查、图像共享、远程皮肤病学图像质量支持及相关面向患者工作流程的态度。符合条件证据包括定性访谈和焦点小组、调查、偏好/联合或情景实验，以及早期临床部署。使用该综述框架，20 项研究符合纳入标准。跨研究设计，患者对皮肤病学 AI 表达有条件支持，但始终更青睐由皮肤科医生监督的 AI，而非自主 AI，尤其在高风险诊断决策中。临床医生可见的问责、对 AI 输出和不确定性的清晰解释、隐私保障、透明的数据使用，以及性能在不同肤色和诊断中可靠的证据，增强了信任。当 AI 被表述为取代临床医生、图像治理不明确，或感知到性能不平等时，信任下降。这些发现支持增强智能模型：皮肤病学 AI 应服务于临床关系；应接受人类监督；并应按肤色、诊断和照护背景进行分层评估和报告。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Prospective AI-Assisted Screening of Biliary Tract Cancer Using Non-Contrast CT",
+  "link": "https://clinicaltrials.gov/study/NCT07911397",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "NCT07911397",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "af4cd1f5aeac",
+  "keep": true,
+  "zh_title": "AI平扫CT筛查胆道癌万人前瞻性试验",
+  "summary": "北京清华长庚医院注册万人前瞻性试验，验证AI在平扫CT上独立筛查胆道癌。",
+  "key_points": [
+   "拟入组10000例，干预性设计",
+   "AI独立分析平扫CT输出风险评分",
+   "尚未开始招募，无结果"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 6,
+  "reason": "万人前瞻性AI筛查试验注册，但尚无结果且未启动",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Beijing Tsinghua Chang Gung Hospital; conditions: Biliary Tract Cancer (BTC); type: INTERVENTIONAL; phase: NA; enrollment: 10000; status: NOT_YET_RECRUITING] Biliary tract cancer is a group of malignant tumors involving the intrahepatic bile ducts, extrahepatic bile ducts, and gallbladder. Early detection can be challenging because non-contrast computed tomography (NCCT), which is commonly performed in routine clinical practice, may provide limited information for identifying biliary tract cancer. This prospective study aims to clinically validate an artificial intelligence (AI) system for screening and detecting biliary tract cancer on NCCT images. The AI system will independently analyze eligible NCCT examinations and generate a patient-level risk score for biliary tract cancer. The study will evaluate the diagnostic performance of the AI system against a predefined clinical reference standard. The primary objective is to assess the ability of the AI system to distinguish patients with biliary tract cancer from those without biliary tract cancer using NCCT. Secondary objectives include evaluating sensitivity, specificity, positive predictive value, and negative predictive value. The study is designed to evaluate the clinical performance and potential screening value of AI-assisted analysis of NCCT. Routine clinical care and clinical decision-making will not be replaced by the AI system.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：北京清华长庚医院；疾病：胆道癌（BTC）；类型：干预性；分期：NA；入组人数：10000；状态：尚未招募（NOT_YET_RECRUITING）] 胆道癌是一组累及肝内胆管、肝外胆管和胆囊的恶性肿瘤。早期检测可能具有挑战性，因为常规临床实践中常用的平扫计算机断层扫描（NCCT）在识别胆道癌方面可能提供有限信息。这项前瞻性研究旨在临床验证一种在 NCCT 图像上筛查和检测胆道癌的人工智能（AI）系统。该 AI 系统将独立分析符合条件的 NCCT 检查，并生成患者水平的胆道癌风险评分。该研究将依据预先定义的临床参考标准评估 AI 系统的诊断性能。主要目标是评估 AI 系统使用 NCCT 区分胆道癌患者与无胆道癌患者的能力。次要目标包括评估敏感性、特异性、阳性预测值和阴性预测值。该研究旨在评估 AI 辅助分析 NCCT 的临床性能和潜在筛查价值。常规临床照护和临床决策不会被 AI 系统取代。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Identifying interstitial lung disease with large language models on clinical notes and claims",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366942v1?rss=1",
+  "date": "2026-11-02T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.30.26366942",
+  "pop": null,
+  "id": "b3f7e0c03736",
+  "keep": true,
+  "zh_title": "大语言模型基于临床笔记与理赔数据识别间质性肺病",
+  "summary": "预印本：在309例肿瘤患者中比较12个开源大模型与20种理赔算法识别ILD的表现及流行病学影响。",
+  "key_points": [
+   "单中心309例，双呼吸科医师裁定为参考标准",
+   "12个开源LLM零样本对比20种已发表理赔算法",
+   "评估PPV与产出率，并推算药物性ILD比值比衰减"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "医学大模型",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "回顾性单中心、样本数百例，无外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Interstitial lung disease (ILD) is a potentially fatal toxicity of immune checkpoint inhibitors and antibody-drug conjugates. Drug-safety studies in healthcare databases identify ILD with claims-based algorithms that trade positive predictive value (PPV) against sensitivity. We assessed whether large language models (LLMs) improve on these algorithms, with and without electronic health record (EHR) notes, and whether these gains translate into measurable epidemiological benefits. In 309 oncology patients with ILD diagnosis codes at Mass General Brigham, adjudicated by two pulmonologists, we compared 12 open-access LLMs with 20 published claims-based algorithms. LLMs received claims, EHR notes, or both, without task-specific training. Measures were PPV and yield (proportion classified positive). We projected the attenuation of a drug-induced ILD odds ratio under non-differential outcome misclassification. LLMs extended the PPV-yield frontier of the published algorithms with all three inputs. Across the 36 model--input evaluations, LLM PPV exceeded that of the best algorithm without specialist-coding requirements (Algorithm 4) by 14.3 percentage points on average. With claims alone, Qwen3-8B achieved 89.8% PPV (95% CI 78.2-95.6) at 15.9% yield, versus 86.7% at 4.9% for the highest-PPV algorithm. With notes alone, Qwen3-32B achieved 78.9% PPV at 49.2% yield, versus 64.6% at 51.1% for Algorithm~4. With combined claims and notes, Qwen3-14B achieved 100.0% PPV at 24.3% yield. Under a simulated drug-safety scenario with a true odds ratio of 3.0, the projected observed odds ratio was 2.67 with combined inputs versus 1.07 with Algorithm 4, corresponding to a 46-fold difference in the estimated sample size required for 80% power (591 versus 27,200 patients). Zero-shot LLMs offer a higher-PPV alternative to rule-based claims phenotyping for ILD, on all three input types. Because the claims-only configuration uses the same claims data as existing algorithms, it could be deployed in administrative databases without linked notes, and may recover drug-safety signal otherwise lost to outcome misclassification.",
+  "zh_abstract": "间质性肺病（ILD）是免疫检查点抑制剂和抗体-药物偶联物的一种潜在致死性毒性。医疗保健数据库中的药物安全性研究使用基于理赔数据的算法识别 ILD，这些算法在阳性预测值（PPV）与敏感性之间权衡。我们评估了大语言模型（LLM）在有无电子健康记录（EHR）笔记的情况下是否优于这些算法，以及这些增益是否能转化为可测量的流行病学获益。在 Mass General Brigham 的 309 例带有 ILD 诊断代码的肿瘤患者中（由两名呼吸科医生裁定），我们将 12 个开放获取 LLM 与 20 个已发表的基于理赔数据的算法进行比较。LLM 接收理赔数据、EHR 笔记或两者，且未进行任务特定训练。测量指标为 PPV 和产出率（被分类为阳性的比例）。我们预测了在非差异性结局错分下药物诱导 ILD 比值比的衰减。在全部三种输入下，LLM 扩展了已发表算法的 PPV-产出率前沿。在 36 项模型-输入评估中，LLM 的 PPV 平均比无需专科编码要求的最佳算法（算法 4）高 14.3 个百分点。仅使用理赔数据时，Qwen3-8B 在 15.9% 产出率下达到 89.8% PPV（95% CI 78.2-95.6），而最高 PPV 算法在 4.9% 产出率下为 86.7%。仅使用笔记时，Qwen3-32B 在 49.2% 产出率下达到 78.9% PPV，而算法 4 在 51.1% 产出率下为 64.6%。联合使用理赔数据和笔记时，Qwen3-14B 在 24.3% 产出率下达到 100.0% PPV。在真实比值比为 3.0 的模拟药物安全情景中，联合输入的预测观察比值比为 2.67，而算法 4 为 1.07，对应于达到 80% 把握度所需估计样本量的 46 倍差异（591 例对 27,200 例患者）。零样本 LLM 在所有三种输入类型上为 ILD 提供了比基于规则的理赔表型分析更高 PPV 的替代方案。由于仅理赔数据配置使用与现有算法相同的理赔数据，它可部署于无关联笔记的行政数据库，并可能恢复否则会因结局错分而丢失的药物安全信号。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "7 Potential Problems with Medicare’s AI Prior Authorization Experiment",
+  "link": "https://medcitynews.com/2026/11/7-potential-problems-with-medicares-ai-prior-authorization-experiment/",
+  "date": "2026-11-02T20:39:45+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "6a2b7cc63950",
+  "keep": true,
+  "zh_title": "Medicare AI事前授权试验的七个潜在问题",
+  "summary": "报道依据诉讼中取得的材料，对联邦政府用AI识别不必要医疗、加速事前授权的试点提出疑虑。",
+  "key_points": [
+   "联邦政府正试点用AI审核Medicare事前授权",
+   "报道称依据诉讼取得的材料提出七点担忧",
+   "涉及加速审批与降低支出的目标"
+  ],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "监管试点争议有参考价值，但为评论性报道、无原始数据",
+  "processing": "model-enriched",
+  "abstract": "The federal government is testing whether artificial intelligence can help Medicare identify unnecessary medical care, speed up the prior authorization process, and reduce healthcare spending. But a new report based on evidence recovered from a lawsuit raises concerns about the AI experiment. The post 7 Potential Problems with Medicare’s AI Prior Authorization Experiment appeared first on MedCity News .",
+  "zh_abstract": "联邦政府正在测试人工智能能否帮助Medicare（联邦医疗保险）识别不必要的医疗服务、加快预先授权（prior authorization）流程并降低医疗支出。但一份基于诉讼中获得的证据的新报告对这项AI实验提出了担忧。文章《Medicare人工智能预先授权实验的7个潜在问题》最初发表于MedCity News。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Athenahealth launches tool to bring patient health records into Anthropic's Claude",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/athenahealth-launches-tool-bring-patient-health-records-anthropics-claude",
+  "date": "2026-11-03T03:58:19.499714+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "2f4371b2f373",
+  "keep": true,
+  "zh_title": "athenahealth推出MCP连接，将患者病历接入Claude",
+  "summary": "athenahealth通过新MCP连接向外部AI助手开放患者健康记录，首站为Anthropic的Claude。",
+  "key_points": [
+   "EHR厂商向外部AI助手开放患者记录",
+   "首个合作方为Anthropic的Claude",
+   "定位为让患者基于自身临床数据获个性化回答"
+  ],
+  "section": "产业动态",
+  "type": "模型",
+  "tags": [
+   "电子病历",
+   "临床落地",
+   "智能体"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "主流EHR厂商开放患者数据接入AI，属有信息量的行业动态",
+  "processing": "model-enriched",
+  "abstract": "Electronic health record company athenahealth is opening up patient health records to outside AI assistants, starting with Anthropic’s Claude, through a new connection designed to give patients per | Athenahealth is opening up patient health records to outside AI assistants, starting with Anthropic’s Claude, through a new MCP connection designed to give patients personalized answers based on their clinical data.",
+  "zh_abstract": "电子健康记录公司athenahealth正通过一种旨在为患者提供……的新连接向外部AI助手开放患者健康记录，首先从Anthropic的Claude开始 | athenahealth正通过一种新的MCP连接向外部AI助手开放患者健康记录，首先从Anthropic的Claude开始，该连接旨在根据患者的临床数据为患者提供个性化答案。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Proposed Senate bill offers ideas for regs and reimbursement of health AI",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdLWm9RYWRqUzAwSy1CUlR6b0NCeHluWVRXc29SVWxOaWI0TERnTVVtWWdGNDF2ZWxJbWVKSHoxbHlfVWlpYUd2cVp0TnhYNmNTOEZnRnIyNks3VHVRbDRtaDlXNXRMZkE2Z3BxeUQtNDM2NHlDZ1pmdG0tZThKYnRybjBjbEZCclZkc094QlZ6dDA4MG9DTmJhQTZlOHpRbFNpXy1nYw?oc=5",
+  "date": "2026-11-02T15:30:00+00:00",
+  "source": "Healthcare IT News",
+  "source_group": "Google News · 行业媒体",
+  "home": "https://www.healthcareitnews.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "a78e1d502a38",
+  "keep": true,
+  "zh_title": "美参议院提案拟规范健康AI监管与报销",
+  "summary": "据标题，美国参议院提出法案，为健康AI的监管与医保报销提供思路（仅标题，未读全文）。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "监管层面立法提案属实质进展，但仅标题、无条文细节，按标题上限压至中档",
+  "processing": "model-enriched",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Conversational Interaction for LLM-Based Clinical Text-to-SQL: A User Study with Healthcare Professionals",
+  "link": "https://arxiv.org/abs/2611.00605",
+  "date": "2026-10-31T04:01:13+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.00605",
+  "pop": null,
+  "id": "4026e08a6884",
+  "keep": true,
+  "zh_title": "面向临床Text-to-SQL的对话式交互：医护人员用户研究",
+  "summary": "预印本：14名医生在MIMIC-IV上对比单轮与多轮对话式Text-to-SQL界面，可用性评分显著提升。",
+  "key_points": [
+   "14名常接触EHR数据的医生参与，被试内设计",
+   "SUS由68.2升至85.9，p<0.001",
+   "另分析21名医护人员交互日志"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "电子病历",
+   "智能体"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "真实临床用户可用性研究有信息量，但样本小、无临床结局",
+  "processing": "model-enriched",
+  "abstract": "Conversational text-to-SQL interfaces could give healthcare professionals natural-language access to electronic health record (EHR) data, but evidence for their real-world usability remains limited: prior evaluations have relied largely on curated benchmarks with fully specified questions or on simulated users. We report a user study in which 14 physicians who regularly work with EHR data used both a single-turn and a conversational multi-turn text-to-SQL interface over the MIMIC-IV database in a within-subjects design; dialogue analyses additionally drew on interaction logs from 21 healthcare professionals across the main study and two pilot studies. The conversational interface was consistently favored: mean System Usability Scale scores rose from 68.2, near the industry average, to 85.9 (p<0.001), with significant advantages across technology-acceptance constructs including performance expectancy, effort expectancy, self-efficacy, and behavioral intention. In post-study forced-choice comparisons, 93% of participants reported greater overall satisfaction with the conversational interface, 86% preferred it for real-world adoption, and 71% trusted its results more; no participant preferred or trusted the single-turn interface more. Turn-level analysis of 425 logged user turns showed that freely composed queries triggered clarification requests in 24.8% of cases versus 1.8% for predefined, fully specified questions, and 64.3% of clarification episodes stemmed from EHR- or clinical-domain knowledge. Conversational interaction is a practical prerequisite, rather than a convenience, for natural-language EHR access. The frequent need for clarification in realistic clinical queries further underscores the importance of conversational interfaces, while benchmark-style evaluation can substantially underrepresent the ambiguity of real clinical use.",
+  "zh_abstract": "对话式文本到SQL（text-to-SQL）接口可以让医疗专业人员以自然语言访问电子健康记录（EHR）数据，但有关其在真实世界中可用性的证据仍然有限：既往评估主要依赖问题完全明确的精选基准测试，或依赖模拟用户。我们报告了一项用户研究：14名经常处理EHR数据的医生在受试者内设计（within-subjects design）中，同时使用了基于MIMIC-IV数据库的单轮和对话式多轮text-to-SQL接口；对话分析还纳入了来自主要研究和两项试点研究的21名医疗专业人员的交互日志。对话式接口始终更受青睐：系统可用性量表（System Usability Scale）平均得分从接近行业平均水平的68.2升至85.9（p<0.001），并在绩效期望、努力期望、自我效能和行为意向等技术接受度构念上均具有显著优势。在研究后的强制选择比较中，93%的参与者报告对对话式接口的整体满意度更高，86%的参与者更倾向于在真实世界应用中采用该接口，71%的参与者更信任其结果；没有任何参与者更偏好或更信任单轮接口。对425条记录的用户轮次进行的轮次级分析显示，自由编写的查询在24.8%的情况下触发了澄清请求，而预先定义的、问题完全明确的查询仅为1.8%，且64.3%的澄清事件源于EHR或临床领域知识。对话式交互是实现自然语言EHR访问的实际前提，而非一种便利。真实临床查询中频繁需要澄清进一步凸显了对话式接口的重要性，而基准测试式评估可能大幅低估真实临床使用中的歧义性。",
+  "day": "2026-11-03"
+ },
+ {
+  "title": "Info x med 2.0准确率超95%、幻觉率小于4%！从“懂医学”到“有依据”，打造新一代循证医疗AI",
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hUWhQS20yTV81dXdpMUM4RU8xUWk2cDlTNWlFZ1dUejFaZEFteUhoaFc4a2NWQzNuY3VIdGZBREdQMkk5dzEyWHBMUjBRR2tJVi1lVWV6aUxKdVJDRVFOc3d0U19GY2NRR2hURkpJWDh6X3VtT3preA?oc=5",
+  "date": "2026-10-19T10:15:18+00:00",
+  "source": "新浪财经",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://finance.sina.com.cn",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "051e3fc9c523",
+  "score": 4,
+  "zh_title": "Info x med 2.0发布：主打循证医疗AI",
+  "tags": [
+   "医学大模型",
+   "生成模型"
+  ],
+  "evidence": "新闻",
+  "summary": "据标题，Info x med 2.0宣称准确率超95%、幻觉率低于4%，定位循证医疗AI（仅见标题，未读正文）。",
+  "abstract": "",
+  "key_points": [
+   "宣称准确率超95%",
+   "宣称幻觉率低于4%",
+   "定位从懂医学转向有依据"
+  ],
+  "processing": "model-enriched",
+  "section": "大模型与智能体",
+  "day": "2026-11-03",
+  "keep": true,
+  "type": "模型",
+  "reason": "企业方指标宣称，无对照、无外部验证与第三方评测，属增量档"
+ },
+ {
   "title": "Re-timing mortality risk through individualized modelling of lifespan trajectories",
   "link": "https://www.nature.com/articles/s41551-026-01822-4",
   "date": "2026-11-02T00:00:00+00:00",
@@ -34,7 +386,8 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract_days": [
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
@@ -68,7 +421,8 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract_days": [
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -106,7 +460,8 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract_days": [
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -145,7 +500,8 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract_days": [
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -327,7 +683,8 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract_days": [
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -970,7 +1327,8 @@
   "day": "2026-11-01",
   "abstract_days": [
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1046,7 +1404,8 @@
   "day": "2026-11-01",
   "abstract_days": [
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1121,7 +1480,8 @@
   "day": "2026-11-01",
   "abstract_days": [
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1897,7 +2257,8 @@
   "abstract_days": [
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2004,7 +2365,8 @@
   "abstract_days": [
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2039,7 +2401,8 @@
   "abstract_days": [
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2111,7 +2474,8 @@
   "abstract_days": [
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2383,6 +2747,10 @@
    {
     "source": "科技行者",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTFdIRWpvakl2V3pYYTBfNUlEV0twbWJrYS1fal9FOGVObmV3UVBoakV6RExDN0NUMXJQWk5JLWdUUkp0UWUtbFNPM3ZuQ3FB?oc=5"
+   },
+   {
+    "source": "手机新浪网",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iTXpQcHZJMXFQUHV0U1BUYnA1Z0YwMlQ4UXVTWFIxVWdQdjFlUjdVd2JJYlRwTEVWeWlKNmdtVmNYS0t4MU02dll4Y0t4MjRfWXJZZk9CTjRnYUxidTRIcDM0cXNRQXBjR3dZSTY4R2ZRRjU0NW5QZXVVdnpacFk?oc=5"
    }
   ]
  },
@@ -2636,7 +3004,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2674,7 +3043,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2714,7 +3084,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2754,7 +3125,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3350,7 +3722,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3533,7 +3906,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3571,7 +3945,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -4033,7 +4408,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -4147,7 +4523,8 @@
    "2026-10-30",
    "2026-10-31",
    "2026-11-01",
-   "2026-11-02"
+   "2026-11-02",
+   "2026-11-03"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -4425,6 +4802,10 @@
    {
     "source": "PubMed · Clinical & experimental ophthalmology",
     "link": "https://pubmed.ncbi.nlm.nih.gov/42927942/"
+   },
+   {
+    "source": "PubMed · Journal of the American Nutrition Association",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42970338/"
    }
   ]
  },
@@ -11293,31 +11674,6 @@
   "key_points": [],
   "processing": "metadata-only",
   "section": "落地与监管",
-  "day": "2026-10-20"
- },
- {
-  "title": "Info x med 2.0准确率超95%、幻觉率小于4%！从“懂医学”到“有依据”，打造新一代循证医疗AI",
-  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hUWhQS20yTV81dXdpMUM4RU8xUWk2cDlTNWlFZ1dUejFaZEFteUhoaFc4a2NWQzNuY3VIdGZBREdQMkk5dzEyWHBMUjBRR2tJVi1lVWV6aUxKdVJDRVFOc3d0U19GY2NRR2hURkpJWDh6X3VtT3preA?oc=5",
-  "desc": "",
-  "date": "2026-10-19T10:15:18+00:00",
-  "source": "新浪财经",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://finance.sina.com.cn",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "051e3fc9c523",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
   "day": "2026-10-20"
  },
  {

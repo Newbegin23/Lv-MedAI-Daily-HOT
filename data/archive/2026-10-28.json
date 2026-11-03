@@ -112,7 +112,8 @@
 "2026-10-30",
 "2026-10-31",
 "2026-11-01",
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -226,7 +227,8 @@
 "2026-10-30",
 "2026-10-31",
 "2026-11-01",
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -504,6 +506,10 @@
 {
 "source": "PubMed · Clinical & experimental ophthalmology",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42927942/"
+},
+{
+"source": "PubMed · Journal of the American Nutrition Association",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42970338/"
 }
 ]
 },

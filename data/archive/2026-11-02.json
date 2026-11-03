@@ -34,7 +34,8 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
@@ -68,7 +69,8 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -106,7 +108,8 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -145,7 +148,8 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -327,7 +331,8 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
