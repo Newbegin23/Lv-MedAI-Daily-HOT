@@ -14,30 +14,27 @@
 "id": "6fb01140dd60",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "视网膜特征建模重建个体化寿命轨迹与死亡风险",
-"summary": "Nature BME 报道深度学习生物标志物 RetiME，将视网膜特征映射为个体死亡风险并重建个体化寿命轨迹。",
+"zh_title": "视网膜影像建模个体寿命轨迹重估死亡风险",
+"summary": "基于视网膜照片与基础模型构建RetiME生物标志物，欧洲队列训练并在三个独立外部队列验证，可关联死亡风险并重建个体寿命轨迹。",
 "key_points": [
-"基于深度学习的视网膜生物标志物 RetiME",
-"映射视网膜特征到个体化死亡风险",
-"重建与观察到的死亡结局相关的寿命轨迹"
+"欧洲队列训练，外部验证覆盖东南亚、欧亚和北美",
+"与全因及特定死因死亡风险相关",
+"可预测多种系统性和眼部疾病，并重建个体寿命轨迹"
 ],
 "section": "影像与病理",
-"type": "模型",
+"type": "论文",
 "tags": [
 "医学影像",
-"眼科",
-"临床预测"
+"临床预测",
+"眼科"
 ],
 "evidence": "同行评审",
-"score": 6,
-"reason": "同行评审影像基础模型，但摘要未提外部验证或前瞻设计",
+"score": 8,
+"reason": "三个独立外部队列验证并报告死亡结局，属重要档；非前瞻性RCT故未到9",
 "processing": "model-enriched",
 "day": "2026-11-02",
-"abstract_days": [
-"2026-11-02",
-"2026-11-03"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "There is an urgent global need for affordable, large-scale health screening to enhance preventive care in the ageing population. Using low-cost, non-invasive retinal photographs and leveraging large foundation models, we developed a deep learning-based biomarker, Retinal Mortality Equivalent (RetiME), that directly mapped retinal features to individual mortality risk. Trained on a European cohort and externally validated across three independent external cohorts spanning Southeast Asia, Eurasia and North America, RetiME showed robust associations with all-cause and cause-specific mortality and predicted the incidence of a wide range of systemic and ocular diseases. Crucially, beyond static risk estimation, RetiME re-timed mortality risk by reconstructing personalized lifespan trajectories that were associated with observed mortality outcomes (for example, age of death). Clustering of these trajectories revealed distinct mortality patterns, spanning cancer-predominant, cardiometabolic and neurodegenerative risks, reflecting diverse ageing pathways captured by RetiME. Interpretability analyses showed that RetiME captures diverse biological and retinal features underlying mortality risk. Genome-wide analyses further identified genetic loci associated with RetiME. Collectively, these findings support further evaluation of retinal imaging and trajectory modelling as one component of a comprehensive assessment of mortality risk.",
+"zh_abstract": "全球迫切需要可负担的大规模健康筛查，以加强老龄人群的预防性照护。利用低成本、非侵入性的视网膜照片，并借助大型基础模型，我们开发了一种基于深度学习的生物标志物——视网膜死亡等效物（Retinal Mortality Equivalent, RetiME），其将视网膜特征直接映射至个体死亡风险。RetiME 在欧洲队列中训练，并在覆盖东南亚、欧亚和北美的三个独立外部队列中进行外部验证，显示出与全因死亡和特定原因死亡的稳健关联，并可预测多种系统性疾病和眼部疾病的发生率。关键在于，除静态风险估计之外，RetiME 还通过重建与观察到的死亡结局（例如死亡年龄）相关的个性化寿命轨迹，对死亡风险进行了重新定时。对这些轨迹进行聚类揭示了不同的死亡模式，涵盖以癌症为主、心脏代谢和神经退行性风险，反映了 RetiME 所捕捉到的多样化衰老通路。可解释性分析显示，RetiME 捕捉到了死亡风险背后的多样化生物学和视网膜特征。全基因组分析进一步识别出与 RetiME 相关的遗传位点。总体而言，这些发现支持进一步评估将视网膜成像和轨迹建模作为死亡风险综合评估的一个组成部分。"
 },
 {
 "title": "Mind the Gap: Continuous magnification sampling for pathology foundation models",
@@ -70,7 +67,8 @@
 "day": "2026-11-02",
 "abstract_days": [
 "2026-11-02",
-"2026-11-03"
+"2026-11-03",
+"2026-11-04"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -109,7 +107,8 @@
 "day": "2026-11-02",
 "abstract_days": [
 "2026-11-02",
-"2026-11-03"
+"2026-11-03",
+"2026-11-04"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -149,7 +148,8 @@
 "day": "2026-11-02",
 "abstract_days": [
 "2026-11-02",
-"2026-11-03"
+"2026-11-03",
+"2026-11-04"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -332,7 +332,8 @@
 "day": "2026-11-02",
 "abstract_days": [
 "2026-11-02",
-"2026-11-03"
+"2026-11-03",
+"2026-11-04"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
