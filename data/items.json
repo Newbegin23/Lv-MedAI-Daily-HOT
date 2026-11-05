@@ -1,5 +1,324 @@
 [
  {
+  "title": "External Validation of a Machine Learning Model for Delirium Risk.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42981091/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.42142",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "7efef409df01",
+  "keep": true,
+  "zh_title": "谵妄风险机器学习模型的跨院外部验证",
+  "summary": "在两家医院实景部署融合多模态与NLP的谵妄风险分层模型，开展跨院外部验证并评估其判别性能。",
+  "key_points": [
+   "模型融合多模态数据与自然语言处理",
+   "院内实景部署并在另一院区外部验证",
+   "对象为60岁以上非ICU住院患者"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "电子病历",
+   "临床NLP"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "实景临床部署加跨院外部验证，达重要档；样本与结局细节未给出未上调",
+  "processing": "model-enriched",
+  "abstract": "[JAMA network open] Although external validation of machine learning (ML)-based delirium risk models is a key stage in the model development pipeline, few published reports exist. Moreover, ML-based delirium risk models commonly degrade in performance during external validation. To examine the performance of a fusion multimodal with natural language processing (NLP) delirium risk stratification model in live clinical practice with cross-hospital external validation. This quality improvement study evaluated live clinical deployment of the model among patients 60 years or older who were admitted to non-intensive care units at Mount Sinai Hospital (MSH), with external validation performed at Mount Sinai Morningside Hospital (MSM), from December 1, 2024, to December 31, 2025. Primary outcomes were performance of the risk stratification model, assessed by area under the receiver operating characteristic curve (AUROC), and monthly delirium detection rates. A 2 × 2 confusion matrix was created, and the 4 cells were used to calculate model performance metrics and compare associated diagnostic yield between premodel deployment and active model deployment periods. The overall sample included 33 095 admissions to non-intensive care units at MSM and MSH (mean [SD] age, 74.86 (9.22) years; 15 601 women [47.1%], 17 271 men [52.2%]). A total of 9020 MSM inpatient admissions were assigned a delirium risk score by the risk stratification model during live clinical operations and were compared to 21 186 MSH inpatient admissions that were assigned a risk score by the same model. Age at admission significantly differed between patients at MSM and MSH (MSM: median [IQR] age, 75.79 [68.25-83.88] years vs MSH: 72.62 [66.64-79.65] years; P < .001). Patients from MSM and MSH also significantly differed by sex, race and ethnicity, surgical vs medical primary diagnosis, length of stay, and dementia prevalence rate. Among 11 909 MSM patients, patients in the pre-ML cohort (median [IQR] age, 78.00 [71.00-85.00] years) were significantly older than those in the post-ML cohort (median [IQR] age, 75.79 [68.25-83.88] years) (P < .001). The AUROC of the model was 0.91 (95% CI, 0.90-0.92) for MSM and 0.94 (95% CI, 0.93-0.94) for MSH. The positive predictive value of the model was 25.9% for MSM and 19.4% for MSH. For MSM, the mean monthly delirium detection rate significantly increased from 9.23% (95% CI, 8.07%-10.38%) to 19.59% (95% CI, 17.32%-21.85%) after model deployment (P < .001). In this quality improvem",
+  "zh_abstract": "[JAMA network open] 尽管基于机器学习（ML）的谵妄风险模型的外部验证是模型开发流程中的关键阶段，但已发表的报告很少。此外，基于ML的谵妄风险模型在外部验证期间性能通常会下降。旨在考察一种融合多模态与自然语言处理（NLP）的谵妄风险分层模型在真实临床实践中的表现，并进行跨医院外部验证。这项质量改进研究评估了该模型在2024年12月1日至2025年12月31日期间于西奈山医院（MSH）非重症监护病房收治的60岁及以上患者中的真实临床部署，并在西奈山晨边医院（MSM）进行了外部验证。主要结局为风险分层模型的性能（以受试者工作特征曲线下面积（AUROC）评估）和每月谵妄检出率。创建2×2混淆矩阵，并使用4个单元格计算模型性能指标，并比较模型部署前与模型主动部署期间的相关诊断产出。总体样本包括MSM和MSH非重症监护病房的33 095次入院（平均[SD]年龄，74.86（9.22）岁；15 601名女性[47.1%]，17 271名男性[52.2%]）。在真实临床运行期间，共9020次MSM住院入院由该风险分层模型分配谵妄风险评分，并与同一模型分配风险评分的21 186次MSH住院入院进行比较。入院时年龄在MSM和MSH患者间存在显著差异（MSM：中位[IQR]年龄，75.79[68.25-83.88]岁 vs MSH：72.62[66.64-79.65]岁；P < .001）。MSM和MSH患者在性别、种族和民族、外科与内科主要诊断、住院时间及痴呆患病率方面也存在显著差异。在11 909名MSM患者中，ML前队列患者（中位[IQR]年龄，78.00[71.00-85.00]岁）显著年长于ML后队列患者（中位[IQR]年龄，75.79[68.25-83.88]岁）（P < .001）。该模型对MSM的AUROC为0.91（95% CI，0.90-0.92），对MSH为0.94（95% CI，0.93-0.94）。该模型对MSM的阳性预测值为25.9%，对MSH为19.4%。对于MSM，模型部署后平均每月谵妄检出率从9.23%（95% CI，8.07%-10.38%）显著增至19.59%（95% CI，17.32%-21.85%）（P < .001）。在这项质量改进",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
+  "link": "https://www.nature.com/articles/s41746-026-03443-2",
+  "date": "2026-11-04T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03443-2",
+  "pop": null,
+  "id": "a5d9ec64970c",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "临床文本评估中LLM评判器的跨范式审计",
+  "summary": "仅见题录信息：npj Digital Medicine刊出对大语言模型评判器用于临床文本评估的跨范式审计研究。",
+  "key_points": [],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床NLP"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "仅有标题与刊载信息，无法评估方法与数据规模，按上限内取中位",
+  "processing": "model-enriched",
+  "day": "2026-11-05",
+  "abstract_days": [
+   "2026-11-05"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "KAMP-Net: Knowledge-aligned Multi-modal Prompt-tuning Network for Prostate Cancer Diagnosis from bpMRI",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004329?dgcid=rss_sd_all",
+  "date": "2026-11-05T03:35:56.466286+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "48a390e23582",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "面向前列腺癌bpMRI诊断的知识对齐多模态提示微调网络",
+  "summary": "仅见题录信息：Medical Image Analysis将发表KAMP-Net，用知识对齐多模态提示微调从bpMRI诊断前列腺癌。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "多模态",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "仅题录，方法与验证规模未知，按常规影像方法论文取中位",
+  "processing": "model-enriched",
+  "day": "2026-11-05",
+  "abstract_days": [
+   "2026-11-05"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "A Primer on Radiomics for the Practicing Orthopaedic Surgeon.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42970412/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.5435/JAAOSGlobal-D-25-00367",
+  "source": "PubMed · Journal of the American Academy of Orthopaedic Surgeons. Global research & reviews",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "0daa9ca7e5f4",
+  "keep": true,
+  "zh_title": "放射组学入门：写给执业骨科医生",
+  "summary": "面向骨科医生的入门综述，介绍放射组学等AI方法在影像分析与临床决策支持中的应用。",
+  "key_points": [
+   "涵盖计算机视觉、语言模型、预测分析等子领域",
+   "影像放射组学用于提取定量特征",
+   "模型可预测术后结局、住院时长与并发症"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "医学影像",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "面向外科医生的入门综述，无新数据与新方法，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of the American Academy of Orthopaedic Surgeons. Global research & reviews] Artificial intelligence (AI) is permeating many aspects of daily life. Medicine, and specifically orthopaedic surgery, is being influenced by the rapid growth and success of AI in serving as an adjunct to medical expertise. AI includes many nested subfields and applications such as computer vision, language models, and predictive analytics. Using standard machine learning methods, clinical decision support tools are being developed for clinicians to provide evidence-based, individualized care. Some models predict clinical and functional outcomes after a procedure, whereas others may incorporate administrative metrics to predict factors, such as length of stay, return to the emergency department, and complications. The application of AI to medical imaging focuses on the extraction of a large amount of quantitative data in the form of predefined features from clinical images that humans cannot perceive, a field known as radiomics. There has been recent interest, particularly in oncology, to apply radiomics to aid in diagnosis and prognostication of outcomes. Given the robust growth of radiomics literature, and the anticipated application in orthopaedic surgery, the purpose of this review article is to educate the orthopaedic surgery community on the practical importance and the basics of radiomics.",
+  "zh_abstract": "[Journal of the American Academy of Orthopaedic Surgeons. Global research & reviews] 人工智能（AI）正在渗透日常生活的许多方面。医学，尤其是骨科手术，正受到AI快速发展和成功作为医学专业能力辅助手段的影响。AI包括许多嵌套的子领域和应用，如计算机视觉、语言模型和预测分析。使用标准机器学习方法，正在为临床医生开发临床决策支持工具，以提供循证、个体化诊疗。一些模型预测某项操作后的临床和功能结局，而另一些模型可能纳入管理指标来预测诸如住院时间、重返急诊科和并发症等因素。AI在医学影像中的应用侧重于从临床图像中提取大量以预定义特征形式存在的、人类无法感知的定量数据，这一领域称为放射组学。近期尤其肿瘤学领域有兴趣应用放射组学来辅助诊断和预后判断。鉴于放射组学文献的强劲增长，以及其在骨科手术中的预期应用，本综述文章的目的是让骨科手术界了解放射组学的实际重要性和基础知识。",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "Cross-cancer knowledge transfer for lymph node metastasis prediction: Applicability of an axillary lymph node-based deep learning model",
+  "link": "https://www.biorxiv.org/content/10.64898/2026.11.04.764191v1?rss=1",
+  "date": "2026-11-04T00:00:00+00:00",
+  "source": "bioRxiv",
+  "source_group": "bioRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.04.764191",
+  "pop": null,
+  "id": "0547338caaf6",
+  "keep": true,
+  "zh_title": "跨癌种知识迁移预测淋巴结转移",
+  "summary": "预印本用乳腺癌腋窝淋巴结CT训练DenseNet-121集成模型，在256例其他原发癌淋巴结外部数据上测试跨解剖泛化。",
+  "key_points": [
+   "训练集为523例乳腺癌患者1128个腋窝淋巴结",
+   "采用固定裁剪与可调方形裁剪结合的集成策略",
+   "外部测试集仅256例CT图像"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "有跨解剖外部验证但样本量有限、为预印本，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Evaluation of lymph node (LN) metastasis is critical for cancer staging and treatment planning. Since radiologic hallmarks of metastatic LNs are shared across primary cancers, a computed tomography (CT)-based deep learning (DL) classifier developed from one anatomy may transfer to others. This study built a DenseNet-121 ensemble model using clinical-implication-applied preprocessing and evaluated its cross-anatomical generalizability to LNs from diverse primary cancers. A DenseNet-121 ensemble model combining fixed-size cropping (FSC) and adjustable square cropping (ASC) was trained from ImageNet initialization on an axillary lymph node (ALN) dataset (n = 1,128 from 523 breast cancer patients). The model utilized clinical-implication-applied perinodal cropping with bicubic filtering and standardized resizing. To test cross-anatomical generalizability, an external dataset of 256 CT images across four anatomical regions was evaluated: cervical, mediastinal, upper-abdominal, and lower-abdominal LNs. Perinodal free margins were systematically varied from 10% to 40% to optimize the balance between context preservation and surround interference. Bicubic filtering and standardized resizing yielded the highest internal performance on the original ALN dataset (FSC-ASC ensemble area under the receiver operating characteristic curve [AUROC] 0.958, 95% confidence interval [CI] 0.920-0.987 at 40% margin). The model demonstrated site-dependent, above-chance generalizability across all external regions. Cervical LNs achieved the highest performance at a 40% margin (AUROC 0.939, 95% CI 0.875-0.989). Mediastinal LNs peaked at a 10% margin (AUROC 0.796, 95% CI 0.672-0.903), with wider margins degrading performance due to adjacent structural interference. Upper-abdominal and lower-abdominal LNs reached optimal performance at a 30% margin (AUROC 0.814 for upper; AUROC 0.917 for lower). A single ALN-trained DL model can accurately predict LN metastasis across cervical, mediastinal, and abdominal stations through site-specific perinodal margin tuning. These findings support the feasibility of cross-cancer knowledge transfer and the clinical utility of generalizable backbones for pan-cancer nodal assessment.",
+  "zh_abstract": "淋巴结（LN）转移的评估对癌症分期和治疗计划至关重要。由于转移性LN的影像学特征在原发癌症之间共享，从某一解剖部位开发的基于计算机断层扫描（CT）的深度学习（DL）分类器可能迁移至其他部位。本研究使用应用临床含义的预处理构建了一个DenseNet-121集成模型，并评估其对不同原发癌症LN的跨解剖部位泛化性。一个结合固定尺寸裁剪（FSC）和可调方形裁剪（ASC）的DenseNet-121集成模型，从ImageNet初始化开始，在腋窝淋巴结（ALN）数据集（n = 1,128，来自523例乳腺癌患者）上训练。该模型采用应用临床含义的淋巴结周围裁剪，并结合双三次滤波和标准化调整尺寸。为检验跨解剖部位泛化性，评估了一个包含四个解剖区域共256张CT图像的外部数据集：颈部、纵隔、上腹部和下腹部LN。淋巴结周围自由边界从10%到40%系统变化，以优化背景保留与周围干扰之间的平衡。双三次滤波和标准化调整尺寸在原始ALN数据集上产生最高的内部性能（FSC-ASC集成在40%边界时的受试者工作特征曲线下面积[AUROC]为0.958，95%置信区间[CI] 0.920-0.987）。该模型在所有外部区域均表现出部位依赖性的、高于随机水平的泛化性。颈部LN在40%边界时达到最高性能（AUROC 0.939，95% CI 0.875-0.989）。纵隔LN在10%边界时达到峰值（AUROC 0.796，95% CI 0.672-0.903），更宽的边界因邻近结构干扰而降低性能。上腹部和下腹部LN在30%边界时达到最佳性能（上腹部AUROC 0.814；下腹部AUROC 0.917）。单一经ALN训练的DL模型通过部位特异性淋巴结周围边界调优，可准确预测颈部、纵隔和腹部各站LN转移。这些发现支持跨癌症知识迁移的可行性，以及可泛化骨干模型用于泛癌淋巴结评估的临床效用。",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "Evaluating uncertainty for detecting performance loss and guiding deferral after model transfer between hospital systems",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.03.26367064v1?rss=1",
+  "date": "2026-11-04T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.03.26367064",
+  "pop": null,
+  "id": "82ff79a71483",
+  "keep": true,
+  "zh_title": "模型跨院迁移后不确定性用于检测性能下降",
+  "summary": "预印本在MIMIC-IV训练三种神经网络做院内死亡预测，于eICU-CRD测试不确定性指标能否预警性能损失。",
+  "key_points": [
+   "迁移后AUROC由0.86-0.87降至0.76-0.77",
+   "熵与互信息均未能可靠反映性能下降",
+   "推迟熵最高20%可将剩余错误率降至6.3-8.0%"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "电子病历",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "跨医院系统外部验证、结论有方法学价值，但为预印本且无临床结局，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Clinical prediction models often perform worse after transfer between hospital systems, but deterioration becomes apparent only once outcomes are known. We investigated whether uncertainty measures available at prediction time warn of performance loss and can help identify individual predictions requiring review. Three neural network architectures were trained on MIMIC-IV for in-hospital mortality prediction and evaluated on eICU-CRD. Measures included predictive entropy, mutual information from Monte Carlo dropout and deep ensembles, and representation density. After transfer, AUROC fell from 0.86-0.87 to 0.76-0.77 and calibration worsened, while entropy and mutual information were lower. None of the measures reliably indicated the reduced performance. Deferring the 20% with the highest entropy reduced the remaining error rate from 17.5-20.1% to 6.3-8.0%; the deferred patients included 91-99% of false alarms but only 2-7% of missed deaths, which carried low uncertainty. Uncertainty therefore supported selective review but failed to reveal performance loss.",
+  "zh_abstract": "临床预测模型在医院系统之间迁移后往往表现更差，但性能下降只有在结局已知后才会显现。我们研究了预测时可得的不确定性度量是否能警示性能损失，并帮助识别需要复核的个体预测。我们在 MIMIC-IV 上训练了三种神经网络架构用于院内死亡预测，并在 eICU-CRD 上评估。度量包括预测熵、来自 Monte Carlo dropout 和 deep ensembles 的互信息，以及表示密度。迁移后，AUROC 从 0.86-0.87 降至 0.76-0.77，校准变差，而熵和互信息更低。没有任何度量能可靠指示性能下降。将熵最高的20%转交复核后，剩余错误率从17.5-20.1%降至6.3-8.0%；被转交复核的患者包括91-99%的假警报，但仅包括2-7%的漏报死亡，而这些漏报死亡具有低不确定性。因此，不确定性支持选择性复核，但未能揭示性能损失。",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+  "link": "https://arxiv.org/abs/2611.03826",
+  "date": "2026-11-02T19:03:08+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.03826",
+  "pop": null,
+  "id": "543bdf43eee6",
+  "keep": true,
+  "zh_title": "超越聚合指标重新审视下次就诊诊断预测",
+  "summary": "预印本提出按分布、时间与病史深度分维度的评估框架，比较规则、LLM提示、检索、记忆与多智能体方法。",
+  "key_points": [
+   "提出多维度评估框架，替代单一聚合指标",
+   "重复上次就诊记录在整体上优于多数LLM方法",
+   "检索与记忆方法在不同时间转移场景下各有优势"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "电子病历",
+   "智能体",
+   "基准"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "预印本评估框架有新意且有基线对比，但无外部临床验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifaceted nature: distributionally, models must handle variable-size diagnosis sets and long-tailed labels; temporally, they must distinguish persistent, newly recorded, and recurrent diagnoses; and both vary with observed history depth. We introduce an evaluation framework along these dimensions and apply it to rule-based heuristics, LLM-based prompting, retrieval, memory, and multi-agent approaches. This reveals that repeating the last visit outperforms most LLM-based approaches overall despite predicting no new or recurrent diagnoses, and that retrieval and memory exhibit distinct profiles whose relative strengths vary across temporal transitions and backbones. Motivated by this, we propose LONGINUS, a retrieval-memory multi-agent adjudication framework combining evidence retrieved from patient records with structured memory of the patient trajectory. Using cross-view agreement as a reliability heuristic, it preserves shared predictions and adjudicates disagreements without revealing their source. Across MIMIC-III and MIMIC-IV with four LLM backbones, LONGINUS achieves the best transition-specific performance among LLM-based methods in nearly all settings while remaining competitive with them on aggregate metrics.",
+  "zh_abstract": "下一次就诊诊断预测预报患者下一次就诊时记录的诊断，将回顾性电子健康记录转化为前瞻性临床预测。然而，传统的聚合评估掩盖了其多面性：在分布上，模型必须处理可变大小的诊断集和长尾标签；在时间上，模型必须区分持续性、新记录和复发性诊断；且二者随观察到的病史深度而变化。我们引入一个沿这些维度的评估框架，并将其应用于基于规则的启发式方法、基于LLM的提示、检索、记忆和多智能体方法。这揭示出，重复上一次就诊在总体上优于大多数基于LLM的方法，尽管其不预测任何新发或复发性诊断；并且检索和记忆表现出不同特征，其相对优势随时间的转换和骨干模型而变化。受此启发，我们提出LONGINUS，一种检索-记忆多智能体裁决框架，结合从患者记录中检索的证据与患者轨迹的结构化记忆。使用跨视图一致性作为可靠性启发式，它保留共享预测并对分歧进行裁决而不揭示其来源。在MIMIC-III和MIMIC-IV上，使用四个LLM骨干模型，LONGINUS在几乎所有设置中取得基于LLM方法中最佳的转换特异性性能，同时在聚合指标上保持与它们有竞争力。",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "Researchers Receive $4M NIH Grant to Build AI Model To Prevent Kidney Injury",
+  "link": "https://medcitynews.com/2026/11/researchers-receive-4m-nih-grant-to-build-ai-model-to-prevent-kidney-injury/",
+  "date": "2026-11-04T21:54:39+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "207e2502d67c",
+  "keep": true,
+  "zh_title": "西奈山获400万美元NIH资助开发肾损伤预测AI",
+  "summary": "报道称纽约西奈山医疗系统研究人员获NIH 400万美元资助，构建预测急性肾损伤风险的AI模型。",
+  "key_points": [
+   "资助金额为400万美元，来源为NIH",
+   "目标是预测手术相关急性肾损伤风险",
+   "用于支持个体化预防性照护"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "临床预测",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小额科研资助且无模型性能或验证信息，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Acute kidney injury is a common and sometimes serious surgical complication. Researchers at New York’s Mount Sinai health system are building AI models to better predict who’s most at risk, so that healthcare providers can offer individualized, preventive care. The post Researchers Receive $4M NIH Grant to Build AI Model To Prevent Kidney Injury appeared first on MedCity News .",
+  "zh_abstract": "急性肾损伤是一种常见且有时严重的手术并发症。纽约西奈山医疗系统（Mount Sinai Health System）的研究人员正在构建AI模型，以更好地预测谁的风险最高，从而使医疗提供者能够提供个体化、预防性护理。文章《研究人员获得400万美元NIH资助以构建AI模型以预防肾损伤》最初发表于MedCity News。",
+  "day": "2026-11-05"
+ },
+ {
+  "title": "uqleiguo/CR-NET",
+  "link": "https://github.com/uqleiguo/CR-NET",
+  "date": "2026-10-27T16:03:49Z",
+  "pop": "★ 4",
+  "image": "https://avatars.githubusercontent.com/u/5642943?v=4",
+  "shot": "https://opengraph.githubassets.com/1/uqleiguo/CR-NET",
+  "source": "GitHub",
+  "source_group": "GitHub",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "id": "879bc72f0194",
+  "keep": true,
+  "zh_title": "CR-NET：微波医学成像杂波去除网络代码",
+  "summary": "GitHub仓库公开物理引导耦合神经网络代码，用于医学微波传感成像中的杂波提取。",
+  "key_points": [
+   "仓库为Python实现的开源代码",
+   "方法出自2026年物理引导耦合网络论文",
+   "任务为微波医学成像杂波去除"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "生成模型"
+  ],
+  "evidence": "预印本",
+  "score": 3,
+  "reason": "仅代码仓库、缺乏性能与验证信息，属增量档",
+  "processing": "model-enriched",
+  "abstract": "This repository includes the codes that implement a clutter removal neural network for microwave medical imaging proposed in the paper \"Physics-Guided Coupled Neural Networks for Clutter Extraction in Medical Microwave Sensing\" written by Lei Guo, Alina Bialkowski, Indu Rajmohan, Syed Naqvi, and Amin Abbosh in 2026 (language: Python, homepage: , topics: )",
+  "zh_abstract": "该代码库包含实现论文《Physics-Guided Coupled Neural Networks for Clutter Extraction in Medical Microwave Sensing》中提出的用于微波医学成像的杂波去除神经网络的代码，该论文由 Lei Guo、Alina Bialkowski、Indu Rajmohan、Syed Naqvi 和 Amin Abbosh 于 2026 年撰写（语言：Python，主页：，主题：）。",
+  "day": "2026-11-05"
+ },
+ {
   "title": "[Articles] CT-based AI risk support for cystic renal masses: multicenter validation, reader study, and a randomized implementation study",
   "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00532-8/fulltext?rss=yes",
   "date": "2026-11-03T09:13:59+00:00",
@@ -72,45 +391,6 @@
   "day": "2026-11-04"
  },
  {
-  "title": "The TEMPO program and the future of digital mental health regulation in the US",
-  "link": "https://www.nature.com/articles/s41746-026-03464-x",
-  "date": "2026-11-03T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03464-x",
-  "pop": null,
-  "id": "92b3308ce5c8",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "TEMPO 试点与美国数字心理健康监管前景",
-  "summary": "npj Digital Medicine 评论文章讨论 FDA-CMS 的 TEMPO 试点，作为 AI 心理健康设备免于即时上市前批准的监管中间路径。",
-  "key_points": [
-   "传统 FDA  clearance 负担高，产品流向消费市场",
-   "TEMPO 允许以质量管理体系先行商业化",
-   "被视为真实世界数据沙盒与监管蓝图"
-  ],
-  "section": "落地与监管",
-  "type": "观点",
-  "tags": [
-   "监管政策",
-   "心理健康",
-   "医疗器械"
-  ],
-  "evidence": "同行评审",
-  "score": 5,
-  "reason": "涉及新监管试点，但为评论性文章，无实证数据，按综述观点档上限取中",
-  "processing": "model-enriched",
-  "day": "2026-11-04",
-  "abstract_days": [
-   "2026-11-04"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
- },
- {
   "title": "RETBind: a patient-level multimodal foundation model for unified cross-modal retinal representation learning",
   "link": "https://www.nature.com/articles/s41746-026-03426-3",
   "date": "2026-11-03T00:00:00+00:00",
@@ -126,28 +406,26 @@
   "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
   "keep": true,
   "zh_title": "RETBind：患者级多模态视网膜基础模型",
-  "summary": "同行评审论文提出面向视网膜影像的患者级多模态基础模型，实现跨模态统一表征学习。",
+  "summary": "npj Digital Medicine 发表患者级多模态眼科基础模型 RETBind，用配对 OCT 与超广角眼底图统一编码器预训练。",
   "key_points": [
-   "提出患者级多模态视网膜基础模型 RETBind",
-   "目标是跨模态统一视网膜表征学习",
-   "发表于 npj Digital Medicine，未见验证细节"
+   "统一编码器学习 OCT 与超广角眼底的跨模态对应",
+   "采用患者级配对影像做预训练策略",
+   "针对现有眼科基础模型单模态编码的局限"
   ],
   "section": "影像与病理",
   "type": "模型",
   "tags": [
-   "多模态",
    "眼科",
+   "多模态",
    "医学影像"
   ],
   "evidence": "同行评审",
-  "score": 5,
-  "reason": "同行评审的多模态眼底基础模型，但条目仅含标题与出处，无外部验证与数据细节",
+  "score": 6,
+  "reason": "同行评审新基础模型方法，摘要未提外部验证或多中心，属值得一看档",
   "processing": "model-enriched",
   "day": "2026-11-04",
-  "abstract_days": [
-   "2026-11-04"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "abstract": "Medical artificial intelligence (AI) holds considerable promise across a wide range of ophthalmic tasks, offering a practical path to patient-level diagnostic support. Foundation models further extend this potential by learning generalizable representations from large-scale unlabeled data, alleviating the burden of extensive manual annotation. However, existing ophthalmic foundation models largely rely on single-modality or modality-specific encoders, failing to capture patient-level cross-modal correspondence in real-world multimodal clinical workflows. To address these gaps, we propose RETBind, a patient-level multimodal foundation model with a unified encoder that explicitly learns cross-modal correspondence from paired clinical imaging using patient-level paired optical coherence tomography (OCT) and ultra-widefield (UWF) fundus imaging. This patient-level paired pretraining strategy enables the model to learn unified cross-modal representations of complementary information, improv-ing performance and robustness beyond single-modality approaches. Across nine benchmark datasets spanning ocular disease classification and segmentation tasks, RETBind achieved consistent improvements, particularly enhancing AUPR in clinically relevant imbalanced settings. Exploratory analyses further examined the potential of RETBind for systemic disease prediction from retinal imaging, collectively highlighting its ability to learn unified cross-modal representations within a single shared encoder, enabling direct interaction between modalities and supporting transfer across diverse retinal imaging tasks.",
+  "zh_abstract": "医学人工智能（AI）在广泛眼科任务中具有相当大的前景，为患者级诊断支持提供了一条实用路径。基础模型通过从大规模无标注数据中学习可泛化表征，进一步扩展了这种潜力，减轻了大量人工标注的负担。然而，现有眼科基础模型在很大程度上依赖单模态或模态特异性编码器，未能捕捉真实世界多模态临床工作流程中的患者级跨模态对应关系。为弥补这些空白，我们提出RETBind，一种具有统一编码器的患者级多模态基础模型，其利用患者级配对的光学相干断层扫描（OCT）和超广角（UWF）眼底成像，从配对临床影像中显式学习跨模态对应关系。这种患者级配对预训练策略使模型能够学习互补信息的统一跨模态表征，超越单模态方法提升性能和稳健性。在涵盖眼病分类和分割任务的九个基准数据集上，RETBind取得了持续改善，尤其在临床相关的失衡设置中提升了AUPR。探索性分析进一步考察了RETBind基于视网膜影像预测系统性疾病的能力，共同凸显了其在单一共享编码器内学习统一跨模态表征的能力，使模态之间能够直接交互，并支持在多样视网膜成像任务间迁移。"
  },
  {
   "title": "MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries",
@@ -186,6 +464,43 @@
   "day": "2026-11-04"
  },
  {
+  "title": "The TEMPO program and the future of digital mental health regulation in the US",
+  "link": "https://www.nature.com/articles/s41746-026-03464-x",
+  "date": "2026-11-03T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03464-x",
+  "pop": null,
+  "id": "92b3308ce5c8",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "TEMPO试点与数字心理健康监管走向",
+  "summary": "评论文章探讨FDA-CMS的TEMPO试点项目，为AI心理健康设备在未获上市前许可时开辟监管中间地带。",
+  "key_points": [
+   "传统FDA clearance负担重，AI心理健康设备多流向未监管消费市场",
+   "TEMPO允许企业在质量管理体系下先行商业化",
+   "该项目被视为积累真实世界数据的监管沙盒"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "监管政策",
+   "心理健康",
+   "医疗器械"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "监管评论文章，非正式指南或审批决定，属观点类增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-04",
+  "abstract": "The high burden of traditional FDA clearance drives many novel, AI-enabled mental health devices into unregulated consumer markets. The new FDA-CMS TEMPO pilot program establishes a vital regulatory middle ground, allowing companies to commercialize using a Quality Management System without immediate premarket authorization. This commentary explores how TEMPO serves as a sandbox for real-world data, offering a blueprint to reshape the future of US digital health regulation.",
+  "zh_abstract": "传统FDA许可的高负担促使许多新型、人工智能赋能的精神健康设备进入不受监管的消费市场。新的FDA-CMS TEMPO试点项目建立了一个至关重要的监管中间地带，允许公司使用质量管理体系（Quality Management System）进行商业化，而无需立即获得上市前授权。本评论探讨TEMPO如何作为真实世界数据的沙盒，为重塑美国数字健康监管的未来提供蓝图。"
+ },
+ {
   "title": "Emerging applications of machine learning and AI for predictive modeling in precision medicine",
   "link": "https://www.nature.com/articles/s41746-026-03393-9",
   "date": "2026-11-03T00:00:00+00:00",
@@ -219,9 +534,10 @@
   "processing": "model-enriched",
   "day": "2026-11-04",
   "abstract_days": [
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
  },
  {
   "title": "STAT+: FDA, CMS look to collaborate with states on health AI",
@@ -772,7 +1088,8 @@
   "day": "2026-11-03",
   "abstract_days": [
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1158,7 +1475,8 @@
   "abstract_days": [
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1198,7 +1516,8 @@
   "abstract_days": [
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1239,7 +1558,8 @@
   "abstract_days": [
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1423,7 +1743,8 @@
   "abstract_days": [
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2068,7 +2389,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2146,7 +2468,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2223,7 +2546,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3001,7 +3325,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3110,7 +3435,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3147,7 +3473,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3221,7 +3548,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3752,7 +4080,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3792,7 +4121,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3834,7 +4164,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3876,7 +4207,8 @@
    "2026-11-01",
    "2026-11-02",
    "2026-11-03",
-   "2026-11-04"
+   "2026-11-04",
+   "2026-11-05"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -11996,31 +12328,6 @@
   "zh_abstract": "【背景】深度学习可使疟疾显微镜检查在低资源环境中更易获得，但训练它通常需要数千张专家标注图像。半监督学习（SSL）通过同时从未标注图像中学习，降低了这一需求。然而，FixMatch 等方法使用固定置信度阈值接受伪标签，而降低该阈值以使用更多数据可能教会模型自信地犯错。这些无声失败很危险，因为它们从不会被标记以供专家审查。【方法】我们在 SSL 伪标签中加入不确定性检查。每张未标注图像在 Monte Carlo dropout 激活状态下通过模型十次；仅当平均预测的归一化预测熵低于 0.2 时才使用其伪标签，然后按模型置信度的 sigmoid 函数加权。我们在公开 Malaria Cell Images 数据集（27,558 张细胞图像；70:10:20 划分）上训练 ResNet-18，仅使用 20% 训练图像的标签。在六个随机种子下，我们将该方法与监督基线和阈值 0.95 与 0.80 的 FixMatch 进行比较，测量准确率、AUC 和无声失败率（SFR），即尽管置信度高于 0.95 但仍错误的预测所占比例。【结果】与阈值 0.80 的 FixMatch 相比，我们的方法将平均 SFR 从 2.28% 降至 1.52%，相对降低 33.2%（配对 t 检验，t = 4.29，p = 0.0078），且六次运行中 SFR 均更低。准确率（96.6% 对 96.4%）和 AUC（两者均为 0.991）未改变。平均 SFR 也低于阈值 0.95 的 FixMatch（1.97%）和监督基线（2.01%）。【结论】在接受伪标签前检查认知不确定性，在不降低准确率的情况下减少了半监督疟疾细胞分类中的自信错误。临床使用前仍需在全切片图像上进行患者层面和外部验证。"
  },
  {
-  "title": "Roche returns to China’s ADC powerhouse Hansoh for $15B biobucks pact",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1d2SUZjSk1rbkRMZXRYTkVBSnF1WlktYjFpc2ZUaFVyZ19KdUdRVVRFVU8wSXNsMG9MV0l0c1ZfZjE5UlVpcHlFZ2tXRnA0dGw4SHc1NnhKRlMtN0QwMWVHOFdCSE1HMXcwS0JhMHNiWm1vQXNoTnNsekw4UXplTm5oT2FOaEVrWWV2Y3dsa2liWTZ0TFNVbEdUVGNBdms?oc=5",
-  "desc": "",
-  "date": "2026-10-19T11:48:32+00:00",
-  "source": "Fierce Biotech",
-  "source_group": "Google News · 行业媒体",
-  "home": "https://www.fiercebiotech.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "675f3e8edb11",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
   "title": "Investment firm TCGX picks migraine biotech TriGemX to take public via SPAC",
   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaElGMFBmT0ctVWRkbS0yQTRzUjhFM2FfSnhveFQ1SWtOYWpSeVRqVVJZcVZTSktiamlCN0hpQkJWS1lVZG1aZXB4RXpnQmlYYmNJVDRCUXNLb0FWamt1eUtyUE9CMWpuTkl0dTBZTGRWamFQUlVoeEloNE5qOG90NzBOdHg1Vjhhak5qd3JQVkRUN1BicWNISzBoa2I3LUVkZGlfQUJnTWhMZw?oc=5",
   "desc": "",
@@ -12431,31 +12738,6 @@
   "key_points": [],
   "processing": "metadata-only",
   "section": "落地与监管",
-  "day": "2026-10-20"
- },
- {
-  "title": "《通用大模型人气周榜TOP20》NO.5：豆包强势登顶 ChatGPT回落",
-  "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aSC1nYzVPNVBHaUNjSVpZbVRNaXhpd0hQdnpIWnpscVNNUkdrczJTcGlMNTFhdGx5MWdRazlGT25xOXd0bEJqU0dNRDJNcmVrU1lZR0NnMzh4S1Q5SEdMd2Yybnk0dlI3LUhCMHduQkdIa3M?oc=5",
-  "desc": "",
-  "date": "2026-10-19T09:13:27+00:00",
-  "source": "潮新闻客户端",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://tidenews.com.cn",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "d8210e9bd781",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "大模型与智能体",
   "day": "2026-10-20"
  },
  {

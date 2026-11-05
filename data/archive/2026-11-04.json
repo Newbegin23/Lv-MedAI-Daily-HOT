@@ -72,45 +72,6 @@
 "day": "2026-11-04"
 },
 {
-"title": "The TEMPO program and the future of digital mental health regulation in the US",
-"link": "https://www.nature.com/articles/s41746-026-03464-x",
-"date": "2026-11-03T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03464-x",
-"pop": null,
-"id": "92b3308ce5c8",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "TEMPO 试点与美国数字心理健康监管前景",
-"summary": "npj Digital Medicine 评论文章讨论 FDA-CMS 的 TEMPO 试点，作为 AI 心理健康设备免于即时上市前批准的监管中间路径。",
-"key_points": [
-"传统 FDA  clearance 负担高，产品流向消费市场",
-"TEMPO 允许以质量管理体系先行商业化",
-"被视为真实世界数据沙盒与监管蓝图"
-],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"监管政策",
-"心理健康",
-"医疗器械"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "涉及新监管试点，但为评论性文章，无实证数据，按综述观点档上限取中",
-"processing": "model-enriched",
-"day": "2026-11-04",
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "RETBind: a patient-level multimodal foundation model for unified cross-modal retinal representation learning",
 "link": "https://www.nature.com/articles/s41746-026-03426-3",
 "date": "2026-11-03T00:00:00+00:00",
@@ -126,28 +87,26 @@
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
 "zh_title": "RETBind：患者级多模态视网膜基础模型",
-"summary": "同行评审论文提出面向视网膜影像的患者级多模态基础模型，实现跨模态统一表征学习。",
+"summary": "npj Digital Medicine 发表患者级多模态眼科基础模型 RETBind，用配对 OCT 与超广角眼底图统一编码器预训练。",
 "key_points": [
-"提出患者级多模态视网膜基础模型 RETBind",
-"目标是跨模态统一视网膜表征学习",
-"发表于 npj Digital Medicine，未见验证细节"
+"统一编码器学习 OCT 与超广角眼底的跨模态对应",
+"采用患者级配对影像做预训练策略",
+"针对现有眼科基础模型单模态编码的局限"
 ],
 "section": "影像与病理",
 "type": "模型",
 "tags": [
-"多模态",
 "眼科",
+"多模态",
 "医学影像"
 ],
 "evidence": "同行评审",
-"score": 5,
-"reason": "同行评审的多模态眼底基础模型，但条目仅含标题与出处，无外部验证与数据细节",
+"score": 6,
+"reason": "同行评审新基础模型方法，摘要未提外部验证或多中心，属值得一看档",
 "processing": "model-enriched",
 "day": "2026-11-04",
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Medical artificial intelligence (AI) holds considerable promise across a wide range of ophthalmic tasks, offering a practical path to patient-level diagnostic support. Foundation models further extend this potential by learning generalizable representations from large-scale unlabeled data, alleviating the burden of extensive manual annotation. However, existing ophthalmic foundation models largely rely on single-modality or modality-specific encoders, failing to capture patient-level cross-modal correspondence in real-world multimodal clinical workflows. To address these gaps, we propose RETBind, a patient-level multimodal foundation model with a unified encoder that explicitly learns cross-modal correspondence from paired clinical imaging using patient-level paired optical coherence tomography (OCT) and ultra-widefield (UWF) fundus imaging. This patient-level paired pretraining strategy enables the model to learn unified cross-modal representations of complementary information, improv-ing performance and robustness beyond single-modality approaches. Across nine benchmark datasets spanning ocular disease classification and segmentation tasks, RETBind achieved consistent improvements, particularly enhancing AUPR in clinically relevant imbalanced settings. Exploratory analyses further examined the potential of RETBind for systemic disease prediction from retinal imaging, collectively highlighting its ability to learn unified cross-modal representations within a single shared encoder, enabling direct interaction between modalities and supporting transfer across diverse retinal imaging tasks.",
+"zh_abstract": "医学人工智能（AI）在广泛眼科任务中具有相当大的前景，为患者级诊断支持提供了一条实用路径。基础模型通过从大规模无标注数据中学习可泛化表征，进一步扩展了这种潜力，减轻了大量人工标注的负担。然而，现有眼科基础模型在很大程度上依赖单模态或模态特异性编码器，未能捕捉真实世界多模态临床工作流程中的患者级跨模态对应关系。为弥补这些空白，我们提出RETBind，一种具有统一编码器的患者级多模态基础模型，其利用患者级配对的光学相干断层扫描（OCT）和超广角（UWF）眼底成像，从配对临床影像中显式学习跨模态对应关系。这种患者级配对预训练策略使模型能够学习互补信息的统一跨模态表征，超越单模态方法提升性能和稳健性。在涵盖眼病分类和分割任务的九个基准数据集上，RETBind取得了持续改善，尤其在临床相关的失衡设置中提升了AUPR。探索性分析进一步考察了RETBind基于视网膜影像预测系统性疾病的能力，共同凸显了其在单一共享编码器内学习统一跨模态表征的能力，使模态之间能够直接交互，并支持在多样视网膜成像任务间迁移。"
 },
 {
 "title": "MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries",
@@ -186,6 +145,43 @@
 "day": "2026-11-04"
 },
 {
+"title": "The TEMPO program and the future of digital mental health regulation in the US",
+"link": "https://www.nature.com/articles/s41746-026-03464-x",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03464-x",
+"pop": null,
+"id": "92b3308ce5c8",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "TEMPO试点与数字心理健康监管走向",
+"summary": "评论文章探讨FDA-CMS的TEMPO试点项目，为AI心理健康设备在未获上市前许可时开辟监管中间地带。",
+"key_points": [
+"传统FDA clearance负担重，AI心理健康设备多流向未监管消费市场",
+"TEMPO允许企业在质量管理体系下先行商业化",
+"该项目被视为积累真实世界数据的监管沙盒"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"心理健康",
+"医疗器械"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "监管评论文章，非正式指南或审批决定，属观点类增量档",
+"processing": "model-enriched",
+"day": "2026-11-04",
+"abstract": "The high burden of traditional FDA clearance drives many novel, AI-enabled mental health devices into unregulated consumer markets. The new FDA-CMS TEMPO pilot program establishes a vital regulatory middle ground, allowing companies to commercialize using a Quality Management System without immediate premarket authorization. This commentary explores how TEMPO serves as a sandbox for real-world data, offering a blueprint to reshape the future of US digital health regulation.",
+"zh_abstract": "传统FDA许可的高负担促使许多新型、人工智能赋能的精神健康设备进入不受监管的消费市场。新的FDA-CMS TEMPO试点项目建立了一个至关重要的监管中间地带，允许公司使用质量管理体系（Quality Management System）进行商业化，而无需立即获得上市前授权。本评论探讨TEMPO如何作为真实世界数据的沙盒，为重塑美国数字健康监管的未来提供蓝图。"
+},
+{
 "title": "Emerging applications of machine learning and AI for predictive modeling in precision medicine",
 "link": "https://www.nature.com/articles/s41746-026-03393-9",
 "date": "2026-11-03T00:00:00+00:00",
@@ -219,9 +215,10 @@
 "processing": "model-enriched",
 "day": "2026-11-04",
 "abstract_days": [
-"2026-11-04"
+"2026-11-04",
+"2026-11-05"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "STAT+: FDA, CMS look to collaborate with states on health AI",
