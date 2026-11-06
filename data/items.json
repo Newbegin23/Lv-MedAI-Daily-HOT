@@ -1,5 +1,438 @@
 [
  {
+  "title": "Generative Artificial Intelligence and Maternal Health Outcomes in Pregnant and Postpartum Individuals: A Randomized Clinical Trial.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42981095/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.41062",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "1a81c74859db",
+  "keep": true,
+  "zh_title": "生成式AI孕产妇健康聊天机器人随机试验",
+  "summary": "400名孕产期参与者随机1:1获得生成式AI母婴健康聊天机器人或主动对照，随访12个月评估焦虑抑郁症状。",
+  "key_points": [
+   "美国49州在线招募400人随机分组",
+   "干预为生成式AI母婴健康聊天机器人",
+   "主要结局为12个月焦虑与抑郁症状"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "心理健康"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "随机对照设计+12个月随访，属重要档，但样本约400且为症状结局",
+  "processing": "model-enriched",
+  "abstract": "[JAMA network open] Generative artificial intelligence (AI) chatbots are increasingly used to support maternal health, but randomized evidence is limited. To evaluate whether access to a generative AI maternal health chatbot improved 12-month maternal health outcomes. This 2-group randomized clinical trial enrolled 400 participants from October 2023 to December 2024, with 12-month follow-up completed in December 2025. Participants were recruited online across 49 US states and the District of Columbia. Eligible participants were English-speaking, aged 14 years or older, pregnant or parenting an infant younger than 6 months, and self-identified as members of racial and/or ethnic minoritized groups. Participants were randomized 1:1 to receive access to the chatbot or an active control consisting of monthly children's books. Primary outcomes were anxiety and depression symptoms at 12 months measured using the Generalized Anxiety Disorder-7 and Patient Health Questionnaire-9. Secondary outcomes included emergency department visits, pregnancy-related complications, postpartum care checkups, effective contraception use, and sleep duration. Among 400 randomized participants, the mean (SD) age was 32.6 (5.1) years; 200 (50%) were parenting an infant at enrollment; and 10 (2%) identified as American Indian or Alaska Native, 80 (20%) Asian, 188 (47%) Black or African American, 57 (14%) multiracial, and 65 (16%) Hispanic or Latino. The AI chatbot was not associated with differences in anxiety scores (adjusted mean difference, 0.10; 95% CI, -0.77 to 0.96) or depression scores (adjusted mean difference, -0.23; 95% CI, -1.05 to 0.59), nor with emergency department visits, postpartum care, contraception use, or sleep duration. Among participants pregnant at enrollment, the chatbot was associated with more self-reported pregnancy-related complications in the secondary 12-month end point analysis, but not in longitudinal analyses. Higher chatbot engagement was associated with longer sleep duration and higher anxiety scores in exploratory within-group analyses. In this randomized clinical trial of pregnant and postpartum individuals from racial and ethnic minoritized groups, access to a generative artificial intelligence maternal health chatbot did not improve maternal anxiety or depression at 12 months compared with an active control. Secondary and exploratory findings should be interpreted cautiously. ClinicalTrials.gov Identifier: NCT06053515.",
+  "zh_abstract": "[JAMA Network Open] 生成式人工智能（AI）聊天机器人越来越多用于支持孕产妇健康，但随机证据有限。评价获得生成式AI孕产妇健康聊天机器人是否改善12个月孕产妇健康结局。这项两组随机临床试验于2023年10月至2024年12月招募400名参与者，12个月随访于2025年12月完成。参与者通过在线方式在美国49个州和哥伦比亚特区招募。合格参与者为英语使用者、年龄14岁及以上、怀孕或正在抚养小于6个月婴儿、并自我认同为种族和/或族裔少数群体成员。参与者按1:1随机分配接受该聊天机器人访问权限或由每月儿童书籍组成的主动对照。主要结局为12个月时使用广泛性焦虑障碍量表-7和患者健康问卷-9测量的焦虑和抑郁症状。次要结局包括急诊就诊、妊娠相关并发症、产后保健检查、有效避孕使用和睡眠时长。在400名随机参与者中，平均（SD）年龄为32.6（5.1）岁；200名（50%）在入组时正在抚养婴儿；10名（2%）自我认同为美洲印第安人或阿拉斯加原住民，80名（20%）为亚裔，188名（47%）为黑人或非裔美国人，57名（14%）为多种族，65名（16%）为西班牙裔或拉丁裔。AI聊天机器人与焦虑评分差异无关（校正平均差，0.10；95% CI，-0.77至0.96）或抑郁评分差异无关（校正平均差，-0.23；95% CI，-1.05至0.59），也与急诊就诊、产后保健、避孕使用或睡眠时长无关。在入组时怀孕的参与者中，在次要12个月终点分析中，聊天机器人与更多自我报告的妊娠相关并发症相关，但在纵向分析中不相关。在探索性组内分析中，较高的聊天机器人参与度与更长的睡眠时长和更高的焦虑评分相关。在这项针对种族和族裔少数群体孕妇和产后个体的随机临床试验中，与主动对照相比，获得生成式人工智能孕产妇健康聊天机器人未改善12个月时的孕产妇焦虑或抑郁。次要和探索性发现应谨慎解读。ClinicalTrials.gov标识符：NCT06053515。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Ensemble-based uncertainty enables large-scale 3D segmentation quality control in population imaging",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004202?dgcid=rss_sd_all",
+  "date": "2026-11-06T03:30:18.458859+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "b03ad58076c2",
+  "keep": true,
+  "zh_title": "集成不确定性用于群体影像3D分割质控",
+  "summary": "医学图像分析论文，利用集成不确定性实现群体影像大规模3D分割质量控制的自动化。",
+  "key_points": [
+   "基于集成不确定性估计分割质量",
+   "面向大规模群体影像场景",
+   "作者含多家德国研究机构"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法学论文，面向大规模群体影像质控，缺乏性能与验证细节，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Tobias Norajitra, Tobias Nonnenmacher, Tobias Haueise, Fabian Isensee, Maximilian Zenk, Lea J. Michel, Jan Warszawski, Marc-Nicolas von Itter, Steffen Ringhof, Thoralf Niendorf, Jessica Krepel, Manuela Harries, Rafael Mikolajczyk, Jochen Hirsch, Daniel C. Hoinkiss, Thomas Kroencke, Josua Decker, Filippo Michelotti, Christoph M. Friedrich, Johannes Haubold",
+  "zh_abstract": "出版日期：2027年2月；来源：Medical Image Analysis，第116卷；作者：Tobias Norajitra, Tobias Nonnenmacher, Tobias Haueise, Fabian Isensee, Maximilian Zenk, Lea J. Michel, Jan Warszawski, Marc-Nicolas von Itter, Steffen Ringhof, Thoralf Niendorf, Jessica Krepel, Manuela Harries, Rafael Mikolajczyk, Jochen Hirsch, Daniel C. Hoinkiss, Thomas Kroencke, Josua Decker, Filippo Michelotti, Christoph M. Friedrich, Johannes Haubold",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Clinical stewardship for medical AI translation: A systematic review of technological, human, and organizational barriers",
+  "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00552-5?rss=yes",
+  "date": "2026-11-05T00:00:00+00:00",
+  "source": "Cell Reports Medicine",
+  "source_group": "Cell Reports Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "fff31fa13aac",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "医疗AI转化的临床守护框架系统综述",
+  "summary": "系统综述梳理阻碍医疗AI临床转化的技术、人员与组织壁垒，提出“临床守护”责任分配框架。",
+  "key_points": [
+   "系统综述识别转化中的证据缺口",
+   "框架涵盖人员、机构与技术系统",
+   "主张不将常规工作转回临床医生"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "系统综述提出治理框架，有信息量但无结局数据，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Wang et al. review contemporary medical AI studies to identify evidence gaps that can obstruct clinical translation. Their “clinical stewardship” framework assigns AI oversight across people, institutions, and technical systems, rather than shifting routine work back to clinicians.",
+  "zh_abstract": "Wang等综述当代医学AI研究，识别可能阻碍临床转化的证据缺口。其“临床守护（clinical stewardship）”框架将AI监督职责分配于人员、机构和技术系统之间，而不是将常规工作转回临床医生。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Vibe Coding versus Clinical Reality",
+  "link": "https://ai.nejm.org/doi/full/10.1056/AIp2600342?af=R&rss=currentIssue",
+  "date": "2026-11-04T06:00:00+00:00",
+  "source": "NEJM AI",
+  "source_group": "NEJM AI",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1056/AIp2600342",
+  "pop": null,
+  "id": "968b6a891e1a",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "氛围编程与临床现实之间的距离",
+  "summary": "观点文章：AI 大幅降低原型开发门槛，但从演示到安全合规的临床产品仍需工程与监管专业能力。",
+  "key_points": [
+   "心脏病医生借 AI 工具开发患者支持应用获编程赛第三",
+   "从可用演示到合规临床产品仍需工程师与安全专家",
+   "文中援引 EU MDR、FDA AI 指南与 GDPR 隐私要求"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "监管政策",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "观点类文章，无论点数据或验证，仅泛论监管门槛，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-06",
+  "abstract": "AbstractIn February 2026, a full-time interventional cardiologist placed third in a global coding competition with a postvisit patient support application called postvisit.ai. Many top participants had no formal engineering background but were domain experts who could describe a problem precisely enough for AI tools to translate it into working software. This process has been called \"vibe coding.\" We discuss what it means and whether it has any relevance to clinical reality. Although AI tools have dramatically lowered the barrier to building a prototype, turning a working demo into a safe, regulated product ready for clinical use still very much requires engineers, security specialists, and regulatory expertise. The EU Medical Device Regulation, the U.S. Food and Drug Administration guidance on AI in healthcare, and the privacy requirements of the General Data Protection Regulation and the Health Insurance Portability and Accountability Act all demand professional teams and rigorous processes that no amount of vibe coding can replace. None of this should discourage physicians from building. The natural next step is for them to move from consulting on software design to actively shaping the tools that they use, creating a new generation of physician-builders.",
+  "zh_abstract": "摘要 2026年2月，一位全职介入心脏病学家在一场全球编程竞赛中获得第三名，其参赛作品是一款名为 postvisit.ai 的诊后患者支持应用。许多顶尖参与者没有正式工程背景，而是领域专家，能够足够精确地描述问题，使 AI 工具将其转化为可运行的软件。这一过程被称为“vibe coding”。我们讨论其含义以及它是否与临床现实相关。尽管 AI 工具已大幅降低构建原型的门槛，但将可运行的演示转化为安全、受监管、可临床使用的产品，仍然非常需要工程师、安全专家和监管专业知识。欧盟医疗器械法规（EU Medical Device Regulation）、美国食品药品监督管理局（U.S. Food and Drug Administration）关于医疗保健中 AI 的指南，以及《通用数据保护条例》（General Data Protection Regulation）和《健康保险可携性和责任法案》（Health Insurance Portability and Accountability Act）的隐私要求，都要求专业团队和严格流程，这些都不是再多 vibe coding 所能替代的。这一切不应阻止医生去构建。自然的下一步是让他们从软件设计咨询转向积极塑造他们所使用的工具，创造新一代“医生-构建者”。"
+ },
+ {
+  "title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
+  "link": "https://www.nature.com/articles/s41746-026-03447-y",
+  "date": "2026-11-05T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03447-y",
+  "pop": null,
+  "id": "d4d95b166c32",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "通科-专科协作AI用于脑CT检查队列降级",
+  "summary": "npj Digital Medicine刊文，提出通科与专科协作AI模型用于平扫脑CT工作队列的安全降级排序。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题信息，影像工作队列优先级方法，无摘要细节，处增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-06",
+  "abstract_days": [
+   "2026-11-06"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Artificial Intelligence in Gallbladder Carcinoma: A Review of Research Studies and Clinical Evidence.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42986569/",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "DOI 10.1007/s12029-026-01625-5",
+  "source": "PubMed · Journal of gastrointestinal cancer",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "92db5c04fa1a",
+  "keep": true,
+  "zh_title": "胆囊癌人工智能研究的系统综述",
+  "summary": "系统综述纳入31项胆囊癌AI原始研究，发现多数为回顾性、单中心且仅内部验证，外部验证性能有限。",
+  "key_points": [
+   "31项研究中29项为回顾性",
+   "22项单中心、24项仅内部验证",
+   "外部队列中模型判别能力有限"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "肿瘤",
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "系统综述揭示证据质量缺口，结论明确但非临床结局研究，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of gastrointestinal cancer] Gallbladder carcinoma (GBC) is the most common biliary tract malignancy and is usually diagnosed at an advanced stage. Artificial intelligence (AI), including radiomics, machine learning (ML) and deep learning (DL), is increasingly applied to its diagnosis, surgical management and prognostication, but how far the reported performance can be trusted is unclear. PubMed/MEDLINE, Embase, Web of Science, the Cochrane Library and Google Scholar were searched to 5 May 2026 using database-specific search strategies. Each primary prediction-model study was characterized separately by design, number of centers and validation type (internal, temporal or external). Of 31 primary AI studies in GBC, 29 were retrospective, 22 were single-center and 24 reported internal validation only. In independent test or external cohorts, DL and ML models discriminated benign from malignant gallbladder lesions with areas under the curve (AUCs) of approximately 0.80-0.89; a multicenter model distinguishing xanthogranulomatous cholecystitis from GBC achieved an external AUC of 0.88, and automated computed tomography (CT) segmentation an external Dice score of 0.76. The best recurrence model achieved an AUC of 0.76 on internal (random-split) validation; none of the reviewed prognostic models reported a quantified external-validation estimate. Intraoperative AI is technically feasible but has no outcome data, and federated learning has been tested only in simulation. AI could plausibly assist several steps of GBC care, but the evidence is dominated by retrospective, single-center, internally validated studies from Asia, and metrics from different studies are not directly comparable. Prospective multicenter external validation, shared annotated datasets and standardized reporting are required before clinical adoption.",
+  "zh_abstract": "[Journal of Gastrointestinal Cancer] 胆囊癌（GBC）是最常见的胆道恶性肿瘤，通常诊断时已处于晚期。人工智能（AI），包括影像组学（radiomics）、机器学习（ML）和深度学习（DL），越来越多应用于其诊断、外科管理和预后判断，但所报告性能的可信程度尚不清楚。检索截至2026年5月5日，使用各数据库特定检索策略检索了PubMed/MEDLINE、Embase、Web of Science、Cochrane Library和Google Scholar。每项原始预测模型研究分别按设计、中心数量和验证类型（内部、时间或外部）进行特征描述。在31项GBC原始AI研究中，29项为回顾性研究，22项为单中心研究，24项仅报告内部验证。在独立测试或外部队列中，DL和ML模型鉴别良性与恶性胆囊病变的曲线下面积（AUC）约为0.80-0.89；一个区分黄色肉芽肿性胆囊炎与GBC的多中心模型达到外部AUC 0.88，自动计算机断层扫描（CT）分割达到外部Dice评分0.76。最佳复发模型在内部（随机拆分）验证中达到AUC 0.76；所综述的预后模型均未报告量化的外部验证估计值。术中AI在技术上可行，但无结局数据，联邦学习仅在模拟中测试。AI有可能协助GBC诊疗的多个步骤，但证据主要来自亚洲的回顾性、单中心、内部验证研究，且不同研究的指标不能直接比较。在临床采用之前，需要前瞻性多中心外部验证、共享标注数据集和标准化报告。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Leakage- and Label-Aware Benchmarking of Class-Imbalance Strategies for Multimodal Chest X-Ray and EHR Classification",
+  "link": "https://arxiv.org/abs/2611.07950",
+  "date": "2026-11-05T12:47:38+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.07950",
+  "pop": null,
+  "id": "005126f4127e",
+  "keep": true,
+  "zh_title": "多模态胸片与电子病历类别不平衡基准的泄漏审计",
+  "summary": "预印本审计MIMIC-CXR 29,083张胸片、10,479例患者的多模态基准，发现记录级划分存在标签泄漏，模型在未见患者上失效。",
+  "key_points": [
+   "记录级划分可被查表法近似复现，具误导性",
+   "在未见患者上各模型退化至全阳性预测",
+   "标签源自单次住院诊断码关键词匹配",
+   "约三分之一胸片标签与诊断码不一致"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "基准",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "大规模公开数据的方法学审计，揭示泄漏与标签问题，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Benchmarks of class-imbalance strategies for multimodal chest X-ray (CXR) and electronic health record (EHR) prediction are often evaluated on record-level splits of cohorts in which one patient contributes several radiographs. We audit such a benchmark on 29,083 MIMIC-CXR radiographs of 10,479 patients with eight diagnosis targets. First, the record-split benchmark was misleading: a lookup table that copies the label of a development-set radiograph with the same EHR vector nearly matched the best model, and on unseen patients every model fell to the level of predicting every case positive. Second, tracing the labels back to MIMIC-IV explained why: each patient's labels are keyword matches on the diagnosis codes of a single admission, copied, with one EHR vector per patient, to all of the patient's radiographs, so about a third of the radiographs carry labels that differ from the codes of their own admission. Third, under patient-separated evaluation with admission-aligned and rule-refined labels, the initial conclusions do not hold: in the evaluated configurations no imbalance strategy raised the observed mean macro F2 over no augmentation by more than 0.01, tuned tree ensembles showed no consistent advantage over tuned logistic regression, and the released EHR variables stayed at the level of the all-positive baseline, whereas the diagnostic history available at imaging time and image embeddings exceeded it, including, with rule-refined labels, a CheXpert-trained encoder that never saw these radiographs; RAD-DINO had seen 96.6% of them during self-supervised pretraining. Adding either encoder to the diagnostic history gave no statistically significant F2 gain; exploratory AUROC gains were significant with RAD-DINO but not with DenseNet. We provide reusable diagnostics, a leakage-aware protocol and a checklist.",
+  "zh_abstract": "针对多模态胸部X线（CXR）和电子健康记录（EHR）预测的类别不平衡策略基准，常在患者可贡献多张放射影像的队列的记录级划分上进行评估。我们在29,083张MIMIC-CXR放射影像、10,479名患者、八个诊断目标的此类基准上进行审计。首先，记录划分基准具有误导性：一张查找表——复制与同一EHR向量相对应的开发集放射影像的标签——几乎匹配最佳模型；而在未见患者上，每个模型都降至将所有病例预测为阳性的水平。其次，将标签回溯至MIMIC-IV解释了原因：每位患者的标签是对单次入院诊断代码的关键词匹配，并以每位患者一个EHR向量复制到该患者的所有放射影像上，因此约三分之一的放射影像携带的标签与其自身入院的代码不同。第三，在患者分离评估、入院对齐且规则精炼的标签下，初始结论不成立：在所评估的配置中，没有任何不平衡策略使观测到的平均宏F2较无增强提高超过0.01；调优的树集成模型相较调优的逻辑回归未显示一致优势；已发布的EHR变量仍停留在全阳性基线水平，而成像时可获得的诊断史和图像嵌入超过了该基线，包括在规则精炼标签下，一个从未见过这些放射影像的CheXpert训练编码器；RAD-DINO在自监督预训练期间已见过其中96.6%的影像。将任一编码器加入诊断史均未带来有统计学显著性的F2增益；探索性AUROC增益在RAD-DINO中显著，但在DenseNet中不显著。我们提供可复用的诊断工具、一种感知泄漏的协议和一份清单。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
+  "link": "https://huggingface.co/papers/2611.03360",
+  "date": "2026-11-02T00:00:00.000Z",
+  "pop": "▲ 2 upvotes",
+  "badge": "arXiv 2611.03360",
+  "source": "Hugging Face Daily Papers",
+  "source_group": "Hugging Face Daily Papers",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "id": "e99db1e0d406",
+  "keep": true,
+  "zh_title": "Kev-Bio：面向超声生物测量的系统一视觉语言模型",
+  "summary": "预印本提出 Kev-Bio 视觉语言模型，用临床测量问句引导超声解剖标志点检测，以语言模型决策表征建模定位可能性分布。",
+  "key_points": [
+   "针对产前、心脏等超声生物测量的卡尺定位问题",
+   "用文本指令替代任务专用预测头，提升灵活性",
+   "以决策表征显式建模定位模糊性",
+   "摘要未提及外部验证或临床结局"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "多模态",
+   "医学大模型"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "有新意的预印本方法，但仅摘要信息、无外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks. However, these measurements remain subject to interoperator variability as they rely largely on manual caliper placement. Conventional methods often use specialized prediction heads for different ultrasound tasks, whereas vision-language models offer flexibility through text instructions. However, direct coordinate prediction does not explicitly model spatial likelihood distributions, limiting the representation of localization ambiguity. **Methods:** We propose Kev-Bio, a vision-language model that uses clinical measurement questions to guide ultrasound landmark detection. Inspired by System One decision models, Kev-Bio uses decision representations of the language model to generate queries for each caliper endpoint. These queries are matched against shared dense ultrasound features to produce spatial probability maps, from which landmark coordinates and clinical measurements are derived. The model is trained end-to-end using both landmark localization and clinical measurement losses. **Results:** On the nine-view FU/GU Biometry 2026 dataset, Kev-Bio achieves a mean radial error (MRE) of 22.50 pixels and a clinical measurement mean absolute error (MAE) of 15.38, outperforming the compared baselines in overall performance. **Conclusion:** These results demonstrate the effectiveness of Kev-Bio for ultrasound landmark detection and clinical measurement across different anatomical views. Our code and models are available at https://github.com/moeinheidari7829/Kev-Bio.",
+  "zh_abstract": "**目的：** 超声生物测量广泛应用于各种临床应用，包括产前和心脏检查，通过将卡尺置于解剖标志处获得定量测量。然而，这些测量在很大程度上依赖手动放置卡尺，因此仍受操作者间变异性的影响。传统方法通常针对不同超声任务使用专门的预测头，而视觉-语言模型通过文本指令提供灵活性。然而，直接坐标预测并未显式建模空间似然分布，限制了对定位歧义的表示。**方法：** 我们提出Kev-Bio，一种视觉-语言模型，使用临床测量问题引导超声标志点检测。受System One决策模型启发，Kev-Bio利用语言模型的决策表示生成每个卡尺端点的查询。这些查询与共享的密集超声特征匹配，生成空间概率图，并由此推导标志点坐标和临床测量值。该模型使用标志点定位和临床测量损失进行端到端训练。**结果：** 在九视图FU/GU Biometry 2026数据集上，Kev-Bio达到22.50像素的平均径向误差（MRE）和15.38的临床测量平均绝对误差（MAE），总体性能优于所比较的基线方法。**结论：** 这些结果证明了Kev-Bio在不同解剖视图的超声标志点检测和临床测量中的有效性。我们的代码和模型可在https://github.com/moeinheidari7829/Kev-Bio获取。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "STAT+: As more doctors consult chatbots, health systems can block them — or buy in",
+  "link": "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/?utm_campaign=rss",
+  "date": "2026-11-05T09:30:00+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "1bbdc0d831ee",
+  "_abs_err": "page: no abstract in meta (178619 bytes; title: Doctors love AI chatbots. Should health systems block — or b; text: Doctors love AI chatbots. Should health systems block — or buy in?| STAT Skip to Main Content Manage)",
+  "keep": true,
+  "zh_title": "医生使用AI聊天机器人，医疗系统面临封禁或采购抉择",
+  "summary": "STAT 报道称数十万医生使用AI聊天机器人辅助诊疗决策，医疗系统担忧患者受保护健康数据面临新风险。",
+  "key_points": [
+   "大量医生已在诊疗决策中使用AI聊天机器人",
+   "医疗系统在封禁与正式采购之间选择",
+   "关注患者健康数据隐私风险"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "隐私与联邦学习",
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业报道揭示落地与隐私议题，但仅一句摘要、无数据，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Multimodal AI-Driven Out-of-Hospital Management for Hypertension and Cardiometabolic Risk",
+  "link": "https://clinicaltrials.gov/study/NCT07917676",
+  "date": "2026-11-04T00:00:00+00:00",
+  "badge": "NCT07917676",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "106e13e18fad",
+  "keep": true,
+  "zh_title": "多模态AI院外高血压与心血管代谢风险管理试验",
+  "summary": "新注册随机对照试验，拟入组150例高血压合并其他未达标风险因素成人，检验AI联合医护支持的院外管理方案。",
+  "key_points": [
+   "阜外医院申办，计划入组150例",
+   "1:1随机对照常规院外指导",
+   "尚未开始招募，无结果"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床决策支持",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅为试验注册、无结果，样本150较小，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: China National Center for Cardiovascular Diseases; conditions: Hypertension, Hyperglycemia, Dyslipidemia; type: INTERVENTIONAL; phase: NA; enrollment: 150; status: NOT_YET_RECRUITING] High blood pressure often occurs together with abnormal blood glucose, abnormal blood lipids, or abdominal obesity. Managing these conditions outside the hospital can be difficult. This study will test whether a digital health program that combines artificial intelligence (AI) with review and support by doctors and nurses improves health outcomes compared with standard out-of-hospital guidance. The study will enroll 150 adults aged 18 to 70 years who have hypertension and at least one additional cardiometabolic risk factor that is not at target. Participants will be randomly assigned in a 1:1 ratio to either the hybrid AI-assisted management group or the standard-guidance group. The intervention group will use a patient mini-program and connected devices to monitor blood pressure, glucose, and lifestyle information. The AI system will propose personalized medication, diet, exercise, and monitoring plans, which the healthcare team will review and confirm before delivery. The control group will receive routine printed health education and usual clinical follow-up. All participants will be followed for 6 months. The main outcome is the proportion of participants achieving blood pressure control together with control of at least one glycemic or lipid indicator. Other assessments include treatment adherence, cardiovascular events, hospitalizations, medical costs, quality of life, and system usability.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：中国国家心血管病中心（China National Center for Cardiovascular Diseases）；疾病：高血压、高血糖、血脂异常；类型：干预性（INTERVENTIONAL）；分期：不适用（NA）；入组人数：150；状态：尚未招募（NOT_YET_RECRUITING）] 高血压常与血糖异常、血脂异常或腹型肥胖同时发生。在医院外管理这些疾病可能较为困难。本研究将检验一种数字健康项目——结合人工智能（AI）与医生和护士的审核和支持——与标准院外指导相比是否改善健康结局。研究将入组150名18至70岁、患有高血压且至少有一项未达标的额外心血管代谢危险因素的成年人。参与者将按1:1比例随机分配至混合AI辅助管理组或标准指导组。干预组将使用患者小程序和连接设备监测血压、血糖和生活方式信息。AI系统将提出个体化用药、饮食、运动和监测方案，由医疗团队审核确认后交付。对照组将接受常规印刷健康教育及常规临床随访。所有参与者将随访6个月。主要结局是达到血压控制并同时至少一项血糖或血脂指标控制的参与者比例。其他评估包括治疗依从性、心血管事件、住院、医疗费用、生活质量和系统可用性。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Application of Machine Learning and Deep Learning in diagnosis Covid19",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.01.26367023v1?rss=1",
+  "date": "2026-11-05T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.01.26367023",
+  "pop": null,
+  "id": "66bb9634feb2",
+  "keep": true,
+  "zh_title": "机器学习与深度学习用于COVID-19诊断与结局预测",
+  "summary": "预印本用阿尔及利亚80例与法国99例队列，比较五种机器学习模型预测死亡、ICU入住与临床状态变化。",
+  "key_points": [
+   "两队列共179例住院患者，样本量小",
+   "评估LR、KNN、CART、朴素贝叶斯与SVM",
+   "预测死亡、ICU入住与病情改善或恶化",
+   "摘要未说明外部验证结果"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 3,
+  "reason": "小样本回顾性、仅常规分类器比较，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Predicting the progression of COVID-19 in hospitalised patients was an important challenge during the pandemic, particularly when healthcare resources were limited. This study investigates the use of machine learning (ML) and deep learning (DL) models to predict three clinical outcomes: death, admission to the intensive care unit (ICU), and clinical status (improvement or worsening). The study uses two patient datasets: an Algerian cohort of 80 patients from the Internal Medicine Department of the University Hospital Centre of Constantine, collected between July and August 2020, and a French cohort of 99 patients collected between March and May 2020. Five ML classifiers were evaluated: logistic regression (LR), k-nearest neighbours (KNN), classification and regression trees (CART), Naive Bayes (NB), and support vector machines (SVM). Their performance was examined in combination with three feature-selection methods: analysis of variance (ANOVA), mutual information (MI), and recursive feature elimination (RFE). The results were also compared with multilayer perceptron (MLP) models using one to five hidden layers. Model evaluation included 30 repetitions of five-fold cross-validation on the training data, followed by evaluation on a separate hold-out test set. The results showed that selecting 20 features generally provided better cross-validated accuracy than selecting 30 features or using the full feature set. The best-performing classifier-feature-selection combination varied across the six dataset-outcome tasks. LR combined with RFE was selected for three tasks, LR combined with ANOVA for one task, and CART combined with ANOVA for two tasks. The selected ML models achieved test-set accuracies ranging from 0.47 to 0.95 and higher accuracy than the average MLP results in five of the six tasks. These findings suggest that ML methods can be useful for exploring clinical outcomes in hospitalised COVID-19 patients. However, the small sample sizes and limitations of the available data mean that the results should be interpreted with caution. Further evaluation using larger and independent patient datasets is needed before these models can be considered for clinical use.",
+  "zh_abstract": "预测住院COVID-19患者的疾病进展是大流行期间的一项重要挑战，尤其是在医疗资源有限时。本研究探讨使用机器学习（ML）和深度学习（DL）模型预测三项临床结局：死亡、入住重症监护病房（ICU）以及临床状态（改善或恶化）。研究使用两个患者数据集：一个阿尔及利亚队列，来自君士坦丁大学医院中心内科的80名患者，收集于2020年7月至8月；以及一个法国队列，99名患者，收集于2020年3月至5月。评估了五种ML分类器：逻辑回归（LR）、k近邻（KNN）、分类与回归树（CART）、朴素贝叶斯（NB）和支持向量机（SVM）。这些分类器的性能与三种特征选择方法结合进行考察：方差分析（ANOVA）、互信息（MI）和递归特征消除（RFE）。结果还与使用1至5个隐藏层的多层感知机（MLP）模型进行比较。模型评估包括在训练数据上进行30次重复的五折交叉验证，随后在单独的留出测试集上评估。结果显示，选择20个特征通常比选择30个特征或使用完整特征集提供更好的交叉验证准确率。最佳表现的分类器-特征选择组合在六个数据集-结局任务中各不相同。LR联合RFE被选用于三个任务，LR联合ANOVA用于一个任务，CART联合ANOVA用于两个任务。所选ML模型在测试集上的准确率范围为0.47至0.95，并且在六个任务中的五个任务上准确率高于MLP的平均结果。这些发现表明，ML方法可用于探索住院COVID-19患者的临床结局。然而，样本量小和可用数据的局限性意味着结果应谨慎解读。在将这些模型考虑用于临床之前，需要使用更大且独立的患者数据集进行进一步评估。",
+  "day": "2026-11-06"
+ },
+ {
+  "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
+  "link": "https://www.nature.com/articles/s41746-026-03443-2",
+  "date": "2026-11-04T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03443-2",
+  "pop": null,
+  "id": "a5d9ec64970c",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "临床文本评估中大语言模型评审者的跨范式审计",
+  "summary": "以专家评审为参照，审计 6 个开放权重模型在 4 个德语临床数据集上的评审可靠性与偏差。",
+  "key_points": [
+   "覆盖报告、护理记录、出院小结与患者信四类语料",
+   "无任一提示配置在各范式下与专家稳定对齐",
+   "替换专家后 57.2% 评分类别改变、漏检 10.2% 错误"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "多数据集并以专家评审为外部参照，揭示 LLM 评审系统性偏差，属重要档",
+  "processing": "model-enriched",
+  "day": "2026-11-05",
+  "also": [
+   {
+    "source": "PubMed · NPJ digital medicine",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42982942/"
+   }
+  ],
+  "abstract": "Large language models are increasingly being used to evaluate clinical texts, a concept known as LLM-as-a-judge. However, most of the existing evidence focuses on English data and uses pooled agreement metrics that obscure clinically relevant failure modes. This study audited six open-weight models against expert judges on four German clinical datasets covering report and nursing documentation summarization, discharge summary generation, and patient letter generation. The models were evaluated across three paradigms and four prompt configurations. Alignment with experts varied by criterion and corpus, and no configuration proved reliable across paradigms. All judges exhibited position and identity bias. Substituting LLM-as-a-judge for the expert panel shifted 57.2% of pointwise categories, swapped 41.7% of pairwise winners, missed 10.2% of clinical errors, and inverted clinical priorities by overrating the criteria succinct and accurate. Therefore, LLM-as-a-judge is not a safe substitute for experts in German clinical text evaluations, and deployment thresholds should follow decision-impact analysis for LLM-as-a-judge in clinical contexts.",
+  "zh_abstract": "大型语言模型正越来越多地被用于评估临床文本，这一概念被称为 LLM-as-a-judge。然而，现有证据大多集中于英文数据，并使用会掩盖临床相关失效模式的汇总一致性指标。本研究以专家评审为对照，审计了六个开放权重模型在四个德语临床数据集上的表现，这些数据集涵盖报告和护理文书摘要、出院摘要生成以及患者信件生成。模型在三种范式和四种提示配置下接受评估。与专家的一致性因标准和语料库而异，且没有任何配置在所有范式中均被证明可靠。所有评审模型都表现出位置偏差和身份偏差。以 LLM-as-a-judge 替代专家小组，使 57.2% 的逐点评分类别发生改变，调换了 41.7% 的成对比较优胜者，漏掉 10.2% 的临床错误，并因高估“简洁”和“准确”这两个标准而颠倒了临床优先级。因此，在德语临床文本评估中，LLM-as-a-judge 不是专家的安全替代品；部署阈值应遵循针对临床情境中 LLM-as-a-judge 的决策影响分析。"
+ },
+ {
   "title": "External Validation of a Machine Learning Model for Delirium Risk.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42981091/",
   "date": "2026-11-02T00:00:00+00:00",
@@ -36,40 +469,6 @@
   "day": "2026-11-05"
  },
  {
-  "title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
-  "link": "https://www.nature.com/articles/s41746-026-03443-2",
-  "date": "2026-11-04T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03443-2",
-  "pop": null,
-  "id": "a5d9ec64970c",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "临床文本评估中LLM评判器的跨范式审计",
-  "summary": "仅见题录信息：npj Digital Medicine刊出对大语言模型评判器用于临床文本评估的跨范式审计研究。",
-  "key_points": [],
-  "section": "大模型与智能体",
-  "type": "论文",
-  "tags": [
-   "医学大模型",
-   "临床NLP"
-  ],
-  "evidence": "同行评审",
-  "score": 5,
-  "reason": "仅有标题与刊载信息，无法评估方法与数据规模，按上限内取中位",
-  "processing": "model-enriched",
-  "day": "2026-11-05",
-  "abstract_days": [
-   "2026-11-05"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
- },
- {
   "title": "KAMP-Net: Knowledge-aligned Multi-modal Prompt-tuning Network for Prostate Cancer Diagnosis from bpMRI",
   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004329?dgcid=rss_sd_all",
   "date": "2026-11-05T03:35:56.466286+00:00",
@@ -100,7 +499,8 @@
   "processing": "model-enriched",
   "day": "2026-11-05",
   "abstract_days": [
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -515,29 +915,27 @@
   "id": "c0330a2c0879",
   "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
   "keep": true,
-  "zh_title": "AI预测建模在精准医学中的应用与三项必要转变",
-  "summary": "该社论总结31篇论文，认为精准医学AI需在训练前融入领域知识，并提出机制可解释、人机协同、公平规模化三项转变。",
+  "zh_title": "机器学习与 AI 在精准医学预测建模中的新兴应用",
+  "summary": "社论汇总 31 篇论文，主张精准医学 AI 需在训练前整合领域知识并转向人机协同与群体公平。",
   "key_points": [
-   "社论性文章，梳理31篇论文",
-   "主张训练前融入结构性领域知识",
-   "提出机制可解释与人机协同方向"
+   "社论总结 31 篇精准医学 AI 预测建模研究",
+   "提出机制可解释、协同界面、群体干预三项转变",
+   "强调纯数据驱动模型不足支撑临床采用"
   ],
   "section": "临床预测与决策",
   "type": "观点",
   "tags": [
+   "临床预测",
    "可解释性",
    "公平与安全"
   ],
   "evidence": "同行评审",
   "score": 4,
-  "reason": "社论/综述类，无原始数据与验证，属观点档偏下",
+  "reason": "社论性综述，无新数据或验证，观点为主，属增量档",
   "processing": "model-enriched",
   "day": "2026-11-04",
-  "abstract_days": [
-   "2026-11-04",
-   "2026-11-05"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+  "abstract": "Pure data-driven artificial intelligence (AI) is insufficient for clinical adoption. This editorial summarizes 31 papers showing that precision medicine requires integrating structural domain knowledge before model training. We identify three necessary transitions: anchoring algorithms in biological laws for mechanistic interpretability; designing collaborative, human-centered clinical interfaces; and scaling equitable, population-level interventions. These shifts advance medical AI from technical novelty toward trustworthy, clinically grounded, and ethically deployed foundational science.",
+  "zh_abstract": "纯数据驱动的人工智能（AI）不足以用于临床采纳。这篇社论总结了 31 篇论文，表明精准医学需要在模型训练之前整合结构性领域知识。我们确定三项必要转变：将算法锚定于生物学规律以实现机制可解释性；设计协作式、以人为中心的临床界面；以及扩大公平的、人群层面的干预。这些转变推动医学 AI 从技术新奇走向可信、具有临床基础且符合伦理部署的基础科学。"
  },
  {
   "title": "STAT+: FDA, CMS look to collaborate with states on health AI",
@@ -1089,7 +1487,8 @@
   "abstract_days": [
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1476,7 +1875,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1517,7 +1917,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1559,7 +1960,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1744,7 +2146,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2390,7 +2793,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2469,7 +2873,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2547,7 +2952,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3326,7 +3732,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3436,7 +3843,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3474,7 +3882,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3549,7 +3958,8 @@
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
-   "2026-11-05"
+   "2026-11-05",
+   "2026-11-06"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -12475,31 +12885,6 @@
   "key_points": [],
   "processing": "metadata-only",
   "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "FDA in Flux — October 2026 Newsletter | Mintz - Health Care Viewpoints",
-  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdTNuX2d5XzJzb1J1aDM2S3loUDFraU40bl9STEhhYkxvSGt3UHNCQno4a0VWRkhUQ0tBUUcza0hpNExOT0QxcUdJZmlUeUhrcTJUbWo1S1ozd05KVVhoT25FVnV4M1ZuQ3kwWEFsdGMyS0wySmhhOTJZcThFTlBVVVN0N0Q?oc=5",
-  "desc": "",
-  "date": "2026-10-19T16:55:11+00:00",
-  "source": "JD Supra",
-  "source_group": "Google News · FDA AI",
-  "home": "https://www.jdsupra.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "5f0884910258",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "落地与监管",
   "day": "2026-10-20"
  },
  {

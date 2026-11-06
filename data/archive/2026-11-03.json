@@ -36,7 +36,8 @@
 "abstract_days": [
 "2026-11-03",
 "2026-11-04",
-"2026-11-05"
+"2026-11-05",
+"2026-11-06"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

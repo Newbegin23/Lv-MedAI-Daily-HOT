@@ -196,29 +196,27 @@
 "id": "c0330a2c0879",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "AI预测建模在精准医学中的应用与三项必要转变",
-"summary": "该社论总结31篇论文，认为精准医学AI需在训练前融入领域知识，并提出机制可解释、人机协同、公平规模化三项转变。",
+"zh_title": "机器学习与 AI 在精准医学预测建模中的新兴应用",
+"summary": "社论汇总 31 篇论文，主张精准医学 AI 需在训练前整合领域知识并转向人机协同与群体公平。",
 "key_points": [
-"社论性文章，梳理31篇论文",
-"主张训练前融入结构性领域知识",
-"提出机制可解释与人机协同方向"
+"社论总结 31 篇精准医学 AI 预测建模研究",
+"提出机制可解释、协同界面、群体干预三项转变",
+"强调纯数据驱动模型不足支撑临床采用"
 ],
 "section": "临床预测与决策",
 "type": "观点",
 "tags": [
+"临床预测",
 "可解释性",
 "公平与安全"
 ],
 "evidence": "同行评审",
 "score": 4,
-"reason": "社论/综述类，无原始数据与验证，属观点档偏下",
+"reason": "社论性综述，无新数据或验证，观点为主，属增量档",
 "processing": "model-enriched",
 "day": "2026-11-04",
-"abstract_days": [
-"2026-11-04",
-"2026-11-05"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract": "Pure data-driven artificial intelligence (AI) is insufficient for clinical adoption. This editorial summarizes 31 papers showing that precision medicine requires integrating structural domain knowledge before model training. We identify three necessary transitions: anchoring algorithms in biological laws for mechanistic interpretability; designing collaborative, human-centered clinical interfaces; and scaling equitable, population-level interventions. These shifts advance medical AI from technical novelty toward trustworthy, clinically grounded, and ethically deployed foundational science.",
+"zh_abstract": "纯数据驱动的人工智能（AI）不足以用于临床采纳。这篇社论总结了 31 篇论文，表明精准医学需要在模型训练之前整合结构性领域知识。我们确定三项必要转变：将算法锚定于生物学规律以实现机制可解释性；设计协作式、以人为中心的临床界面；以及扩大公平的、人群层面的干预。这些转变推动医学 AI 从技术新奇走向可信、具有临床基础且符合伦理部署的基础科学。"
 },
 {
 "title": "STAT+: FDA, CMS look to collaborate with states on health AI",

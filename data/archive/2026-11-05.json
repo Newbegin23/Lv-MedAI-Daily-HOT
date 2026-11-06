@@ -1,5 +1,48 @@
 [
 {
+"title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
+"link": "https://www.nature.com/articles/s41746-026-03443-2",
+"date": "2026-11-04T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03443-2",
+"pop": null,
+"id": "a5d9ec64970c",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "临床文本评估中大语言模型评审者的跨范式审计",
+"summary": "以专家评审为参照，审计 6 个开放权重模型在 4 个德语临床数据集上的评审可靠性与偏差。",
+"key_points": [
+"覆盖报告、护理记录、出院小结与患者信四类语料",
+"无任一提示配置在各范式下与专家稳定对齐",
+"替换专家后 57.2% 评分类别改变、漏检 10.2% 错误"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"医学大模型",
+"基准"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "多数据集并以专家评审为外部参照，揭示 LLM 评审系统性偏差，属重要档",
+"processing": "model-enriched",
+"day": "2026-11-05",
+"also": [
+{
+"source": "PubMed · NPJ digital medicine",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42982942/"
+}
+],
+"abstract": "Large language models are increasingly being used to evaluate clinical texts, a concept known as LLM-as-a-judge. However, most of the existing evidence focuses on English data and uses pooled agreement metrics that obscure clinically relevant failure modes. This study audited six open-weight models against expert judges on four German clinical datasets covering report and nursing documentation summarization, discharge summary generation, and patient letter generation. The models were evaluated across three paradigms and four prompt configurations. Alignment with experts varied by criterion and corpus, and no configuration proved reliable across paradigms. All judges exhibited position and identity bias. Substituting LLM-as-a-judge for the expert panel shifted 57.2% of pointwise categories, swapped 41.7% of pairwise winners, missed 10.2% of clinical errors, and inverted clinical priorities by overrating the criteria succinct and accurate. Therefore, LLM-as-a-judge is not a safe substitute for experts in German clinical text evaluations, and deployment thresholds should follow decision-impact analysis for LLM-as-a-judge in clinical contexts.",
+"zh_abstract": "大型语言模型正越来越多地被用于评估临床文本，这一概念被称为 LLM-as-a-judge。然而，现有证据大多集中于英文数据，并使用会掩盖临床相关失效模式的汇总一致性指标。本研究以专家评审为对照，审计了六个开放权重模型在四个德语临床数据集上的表现，这些数据集涵盖报告和护理文书摘要、出院摘要生成以及患者信件生成。模型在三种范式和四种提示配置下接受评估。与专家的一致性因标准和语料库而异，且没有任何配置在所有范式中均被证明可靠。所有评审模型都表现出位置偏差和身份偏差。以 LLM-as-a-judge 替代专家小组，使 57.2% 的逐点评分类别发生改变，调换了 41.7% 的成对比较优胜者，漏掉 10.2% 的临床错误，并因高估“简洁”和“准确”这两个标准而颠倒了临床优先级。因此，在德语临床文本评估中，LLM-as-a-judge 不是专家的安全替代品；部署阈值应遵循针对临床情境中 LLM-as-a-judge 的决策影响分析。"
+},
+{
 "title": "External Validation of a Machine Learning Model for Delirium Risk.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42981091/",
 "date": "2026-11-02T00:00:00+00:00",
@@ -36,40 +79,6 @@
 "day": "2026-11-05"
 },
 {
-"title": "Cross-paradigm audit of large language model judges for clinical text evaluation",
-"link": "https://www.nature.com/articles/s41746-026-03443-2",
-"date": "2026-11-04T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03443-2",
-"pop": null,
-"id": "a5d9ec64970c",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "临床文本评估中LLM评判器的跨范式审计",
-"summary": "仅见题录信息：npj Digital Medicine刊出对大语言模型评判器用于临床文本评估的跨范式审计研究。",
-"key_points": [],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"医学大模型",
-"临床NLP"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "仅有标题与刊载信息，无法评估方法与数据规模，按上限内取中位",
-"processing": "model-enriched",
-"day": "2026-11-05",
-"abstract_days": [
-"2026-11-05"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "KAMP-Net: Knowledge-aligned Multi-modal Prompt-tuning Network for Prostate Cancer Diagnosis from bpMRI",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004329?dgcid=rss_sd_all",
 "date": "2026-11-05T03:35:56.466286+00:00",
@@ -100,7 +109,8 @@
 "processing": "model-enriched",
 "day": "2026-11-05",
 "abstract_days": [
-"2026-11-05"
+"2026-11-05",
+"2026-11-06"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
