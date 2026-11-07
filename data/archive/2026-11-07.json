@@ -109,6 +109,186 @@
 "day": "2026-11-07"
 },
 {
+"title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
+"link": "https://www.nature.com/articles/s41746-026-03427-2",
+"date": "2026-11-05T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03427-2",
+"pop": null,
+"id": "e935f7bbd731",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "AI多时段风险分层预测HFpEF患者心衰住院：中国多中心队列",
+"summary": "中国多中心队列研究，用AI对尿酸升高合并HFpEF患者做多时间跨度心衰住院风险分层。",
+"key_points": [
+"中国多中心队列设计",
+"多时间跨度心衰住院风险预测",
+"目标人群为尿酸升高合并HFpEF"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "多中心队列且以住院结局为预测目标，但仅见摘要级信息，取6分",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract_days": [
+"2026-11-07"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+},
+{
+"title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
+"date": "2026-11-06T06:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": true,
+"badge": "DOI 10.1056/AIoa2600112",
+"pop": null,
+"id": "dedfad02c8c2",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "自身免疫病预测模型AURA的随机评估",
+"summary": "标题显示为NEJM AI刊发的自身免疫病风险预测模型AURA的随机化评估，未见正文。",
+"key_points": [],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "预测模型随机化评估设计有价值，但仅有标题信息，按标题上限取5分",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract_days": [
+"2026-11-07"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
+"title": "Ask Before You Look: A conversational multi-level pathology segmentation framework",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004494?dgcid=rss_sd_all",
+"date": "2026-11-07T10:31:44.727535+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "3c7d84e06d12",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "对话式病理多层级分割框架Ask Before You Look",
+"summary": "提出先提问后观察的对话式多层级病理图像分割框架，发表于Medical Image Analysis。",
+"key_points": [
+"对话式交互驱动的病理分割框架",
+"支持多层级分割任务",
+"发表于Medical Image Analysis"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "有新意的病理分割方法论文，但未见外部验证与代码信息",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract_days": [
+"2026-11-07"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "An explainable, bias-audited machine learning model to detect hidden hepatitis C from region-wide real-world health records",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367298v1?rss=1",
+"date": "2026-11-06T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.11.05.26367298",
+"pop": null,
+"id": "03a6405d2440",
+"keep": true,
+"zh_title": "可解释偏差审计模型从区域健康档案识别隐匿丙肝",
+"summary": "预印本回顾性队列研究用可解释提升机基于既有健康档案数据识别未诊断丙肝，在独立年度人群样本上原样评估。",
+"key_points": [
+"安达卢西亚人群数据库，病例25028例匹配对照",
+"2017-2022训练，2023年验证集设定阈值",
+"2024年独立非匹配人群样本外部评估",
+"模型经可解释性与偏差审计设计"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"电子病历",
+"临床预测",
+"公平与安全"
+],
+"evidence": "预印本",
+"score": 7,
+"reason": "大样本回顾性+独立年度人群外部验证，但属预印本且未报告前瞻结局",
+"processing": "model-enriched",
+"abstract": "Background: Although direct-acting antivirals have transformed hepatitis C virus (HCV) treatment, 25-30% of active infections in Spain remain undiagnosed. We aimed to develop and validate an interpretable machine-learning model to identify undiagnosed HCV infection using only data already recorded within the health system. Materials and Methods: We conducted a retrospective, population-based cohort study using the Andalusian Population Health Database (BPS). Individuals diagnosed with HCV between 2017 and 2024 (n=25,028) were matched, up to 10:1, to controls by birth year, sex, and health district. An Explainable Boosting Machine was trained on 2017-2022 data, with a threshold set in a 2023 validation set to guarantee [≥]60% sensitivity, then evaluated unmodified in an independent, non-matched, population-representative 2024 sample approximating real-world screening. Predictors comprised chronic-disease diagnoses and laboratory summary statistics recorded [≥]30 days before the index date; age and sex were excluded as matching variables. Predictors reflecting socioeconomic proxies or matching artefacts (pharmaceutical co-payment category, a zone-level deprivation index) were removed after explainability review. Results: In the independent test set, the model achieved an AUC of 0.837 (0.826 in validation), sensitivity 63.5%, specificity 91.8%, positive predictive value 7.0%, and negative predictive value 99.6%. Leading predictors were minimum alanine aminotransferase, HIV infection, dependence on non-tobacco substances, and platelet-count statistics, forming a clinically coherent, laboratory- and comorbidity-driven profile. Conclusion: An explainable model built exclusively from routine electronic health record data can identify undiagnosed HCV infection with discrimination comparable to previously published tools, evaluated under conditions approximating true population prevalence. Bias-auditing was feasible without sacrificing interpretability, supporting a scalable, equity-conscious instrument for the final phase of HCV elimination.",
+"zh_abstract": "【背景】尽管直接抗病毒药物已改变丙型肝炎病毒（hepatitis C virus, HCV）治疗格局，西班牙25-30%的活动性感染仍未确诊。我们旨在开发并验证一种可解释的机器学习模型，仅使用卫生系统内已记录的数据来识别未确诊的HCV感染。【方法】我们使用安达卢西亚人口健康数据库（Andalusian Population Health Database, BPS）开展了一项回顾性、基于人群的队列研究。2017年至2024年间诊断为HCV的个体（n=25,028）按出生年份、性别和卫生区与对照进行最多10:1匹配。在2017-2022年数据上训练可解释提升机（Explainable Boosting Machine），并在2023年验证集中设定阈值以保证灵敏度≥60%，随后在一个独立的、非匹配的、代表人群的2024年样本中不作修改地评估，该样本近似真实世界筛查。预测变量包括索引日期前≥30天记录的慢性病诊断和实验室汇总统计量；年龄和性别作为匹配变量被排除。在可解释性审查后，反映社会经济替代指标或匹配伪影的预测变量（药品共付类别、区域层面剥夺指数）被移除。【结果】在独立测试集中，模型达到AUC 0.837（验证集0.826）、灵敏度63.5%、特异度91.8%、阳性预测值7.0%、阴性预测值99.6%。主要预测变量为丙氨酸氨基转移酶最小值、HIV感染、对非烟草物质的依赖以及血小板计数统计量，形成具有临床一致性、由实验室和合并症驱动的特征谱。【结论】一个完全基于常规电子健康记录数据构建的可解释模型能够识别未确诊的HCV感染，其区分能力与既往已发表工具相当，并在近似真实人群患病率的条件下评估。偏倚审计在不牺牲可解释性的情况下可行，支持一种可扩展、具有公平意识的工具用于HCV消除的最后阶段。",
+"day": "2026-11-07"
+},
+{
+"title": "Implementing a Machine Learning Model for Delirium Risk in Clinical Practice-Beyond Discrimination.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42981099/",
+"date": "2026-11-02T00:00:00+00:00",
+"badge": "DOI 10.1001/jamanetworkopen.2026.42151",
+"source": "PubMed · JAMA network open",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": true,
+"pop": null,
+"id": "4d502e82ade1",
+"keep": true,
+"zh_title": "机器学习谵妄风险模型的临床实施：超越区分度",
+"summary": "JAMA Network Open刊文讨论机器学习谵妄风险模型在临床实践中的实施问题，仅有标题。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床预测",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "关注落地实施而非仅判别性能，但仅标题无细节，按标题上限取5分",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract_days": [
+"2026-11-07"
+],
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
+},
+{
 "title": "Patient-Friendly Simplifications of Outpatient Reports Using Large Language Models via Few-Shot Prompting: Blinded Comparative Evaluation.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42993868/",
 "date": "2026-11-06T00:00:00+00:00",
@@ -142,6 +322,41 @@
 "processing": "model-enriched",
 "abstract": "[Journal of medical Internet research] Effective communication between clinicians and patients plays an important role in the successful delivery of health care. In geriatric medicine, where multimorbidity, polypharmacy, and functional limitations often make treatment plans complex, AI simplifications of clinical reports into patient-friendly language offer a promising way to improve communication. This study investigated whether AI could generate patient-friendly simplifications of outpatient reports that were comparable to those authored by human experts. Gemma-3-27B-it, an instruction fine-tuned open-source large language model (LLM) by Google, was used, and few-shot prompting was applied to enable the generation of patient-friendly simplifications of 64 deidentified geriatric outpatient reports written in German while preserving clinical meaning. LLM-generated simplifications were compared with those produced by 2 medical experts in a blinded evaluation. Quality was assessed using three approaches: (1) embedding-based semantic similarity to the original report, (2) blinded expert review by 2 clinicians, and (3) review by patient representatives, with the latter 2 using a standardized Likert-scale questionnaire. AI-generated simplifications were comparable to geriatrician-authored simplifications regarding semantic similarity (P=.02) and were preferred by patient representatives (P<.001) as well as one expert reviewer (P=.001). Expert reviewers perceived physician-authored simplifications as more complete (P<.001), a finding that correlated with text length (P<.001). This study demonstrates the feasibility of using LLMs via few-shot prompting to simplify medical reports for improved perceived patient comprehension in geriatric care. Future prospective studies should examine whether such AI-driven simplifications positively impact objective health-related outcomes, adherence, and patient engagement.",
 "zh_abstract": "[Journal of medical Internet research] 临床医生与患者之间的有效沟通在成功提供医疗保健中发挥重要作用。在老年医学中，多病共存、多重用药和功能受限常使治疗计划复杂化，AI将临床报告简化为患者友好语言为改善沟通提供了一种有前景的方法。本研究调查了AI能否生成与人类专家撰写的简化版本相当的患者友好型门诊报告简化版本。使用由Google开发、经指令微调的开源大语言模型（LLM）Gemma-3-27B-it，并应用少样本提示（few-shot prompting），以生成64份以德语书写的去标识化老年门诊报告的患者友好型简化版本，同时保留临床含义。在盲法评估中，将LLM生成的简化版本与2名医学专家生成的简化版本进行比较。质量通过三种方法评估：（1）基于嵌入的与原始报告的语义相似度；（2）由2名临床医生进行盲法专家评审；（3）由患者代表评审，后两者使用标准化Likert量表问卷。AI生成的简化版本在语义相似度方面与老年科医生撰写的简化版本相当（P=.02），并且更受患者代表（P<.001）以及一名专家评审者（P=.001）偏好。专家评审者认为医生撰写的简化版本更完整（P<.001），这一发现与文本长度相关（P<.001）。本研究证明通过少样本提示使用LLM简化医疗报告以改善老年护理中患者感知理解程度的可行性。未来前瞻性研究应检验此类AI驱动的简化是否对客观健康相关结局、依从性和患者参与度产生积极影响。",
+"day": "2026-11-07"
+},
+{
+"title": "Unimodal imaging foundation models and vision-language models in MRI: A systematic review of emerging methods and clinical applications.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42994434/",
+"date": "2026-11-06T00:00:00+00:00",
+"badge": "DOI 10.1016/j.xcrm.2026.103134",
+"source": "PubMed · Cell reports. Medicine",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "9082da4f88d0",
+"keep": true,
+"zh_title": "MRI单模态基础模型与视觉语言模型系统综述",
+"summary": "系统综述35项MRI基础模型与视觉语言模型研究，梳理架构、下游应用与临床转化障碍。",
+"key_points": [
+"纳入35项MRI基础模型/VLM研究",
+"研究集中于神经影像与诊断分类",
+"自动报告生成临床保真度不足"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"医学大模型"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "系统综述信息量较好，但纳入35项研究且无新数据，属值得一看档",
+"processing": "model-enriched",
+"abstract": "[Cell reports. Medicine] Artificial intelligence in medical imaging is shifting from task-specific algorithms toward adaptable foundation models (FMs) and vision-language models (VLMs). However, applying these models to MRI remains challenging because clinical interpretation requires integrating multi-parametric, volumetric imaging across multiple sequences with clinical context. This systematic review evaluates 35 studies on unimodal FMs and multimodal VLMs in MRI, summarizing emerging architectures, downstream applications, and challenges to clinical translation. Current research is concentrated in neuroimaging, with diagnostic classification representing the most mature application. Segmentation and outcome prediction also show promise, whereas automated report generation remains limited by poor clinical fidelity despite strong linguistic fluency. Broader adoption is hindered by heterogeneous MRI acquisition, limited large-scale paired image-text datasets, and inadequate safety-focused evaluation metrics. Advancing clinical translation will require standardized multicenter datasets, stronger integration with electronic health records and pathology, robust evaluation frameworks, and improved model explainability.",
+"zh_abstract": "[Cell reports. Medicine] 医学影像中的人工智能正从任务特定算法转向可适应基础模型（foundation models, FMs）和视觉-语言模型（vision-language models, VLMs）。然而，将这些模型应用于MRI仍具挑战，因为临床解读需要整合跨多个序列的多参数、容积成像与临床背景。本系统综述评估了35项关于MRI中单模态FMs和多模态VLMs的研究，总结了新兴架构、下游应用及临床转化面临的挑战。当前研究集中于神经影像，诊断分类是最成熟的应用。分割和结局预测也显示出前景，而自动报告生成尽管语言流畅性强，仍受限于临床保真度差。更广泛采用受到MRI采集异质性、大规模配对图像-文本数据集有限以及缺乏以安全性为重点的评估指标等因素的阻碍。推进临床转化将需要标准化的多中心数据集、与电子健康记录和病理学更强整合、稳健的评估框架以及改进的模型可解释性。",
 "day": "2026-11-07"
 },
 {
@@ -184,6 +399,42 @@
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
+"title": "Scalable Bayesian Gaussian Process Classification for Cancer Histopathology: Calibrated Uncertainty Under Distribution Shift",
+"link": "https://arxiv.org/abs/2611.07127",
+"date": "2026-11-04T20:51:50+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2611.07127",
+"pop": null,
+"id": "1504b10c364f",
+"keep": true,
+"zh_title": "可扩展贝叶斯高斯过程用于癌症病理分类",
+"summary": "预印本提出基于冻结病理基础模型嵌入的可扩展贝叶斯高斯过程分类框架，在约30万训练点上实现HMC后验采样，并考察分布偏移下的不确定性校准。",
+"key_points": [
+"在Phikon冻结嵌入上做低秩高斯过程分类",
+"RPCholesky加速与HMC非中心参数化采样",
+"关注跨院分布偏移下的过度自信问题",
+"可扩展至约30万训练点规模"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"可解释性"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "方法有新意、规模可观，但预印本且未见外部验证或代码，属值得一看档",
+"processing": "model-enriched",
+"abstract": "Reliable uncertainty quantification is essential for clinical deployment of cancer diagnosis models, yet neural networks and variational Gaussian process methods can produce overconfident predictions, particularly under the distribution shifts that arise when models trained at one hospital are applied at another. We present a scalable Bayesian Gaussian Process Classification (GPC) framework that operates on frozen pathology foundation model embeddings (Phikon) and combines accelerated Randomly Pivoted Cholesky (RPCholesky) for low-rank kernel factorization, Hamiltonian Monte Carlo (HMC) with non-centered parameterization for posterior sampling, and a pivots-as-inducing-points scheme for prediction. This makes HMC posterior sampling in the low-rank latent representation tractable at N approximately 300,000 training points, enabling HC-based low-rank GPC on substantially larger datasets than prior MCMC-based demonstrations. We evaluate on two histopathology benchmarks for breast cancer metastasis detection: PCam and CAMELYON17-WILDS, where the latter tests calibration under hospital-level distribution shift. Compared to stochastic variational GP and neural network baselines, our method improves calibration and predictive performance - reducing expected calibration error by up to 88% and false negative rate by up to 90% - with the largest gains appearing under distribution shift, suggesting that HMC-based posterior sampling provides more trustworthy uncertainty estimates for cross-site pathology classification.",
+"zh_abstract": "可靠的不确定性量化对于癌症诊断模型的临床部署至关重要，然而神经网络和变分高斯过程方法可能产生过度自信的预测，尤其是在一家医院训练的模型应用于另一家医院时出现的分布偏移下。我们提出一种可扩展的贝叶斯高斯过程分类（Bayesian Gaussian Process Classification, GPC）框架，该框架在冻结的病理基础模型嵌入（Phikon）上运行，并结合用于低秩核分解的加速随机主元Cholesky（Randomly Pivoted Cholesky, RPCholesky）、采用非中心参数化的哈密顿蒙特卡洛（Hamiltonian Monte Carlo, HMC）进行后验采样，以及以主元作为诱导点的预测方案。这使得在约300,000个训练点规模下，对低秩潜在表示进行HMC后验采样变得可行，从而能够在比以往基于MCMC的演示大得多的数据集上实现基于HC的低秩GPC。我们在两个用于乳腺癌转移检测的组织病理学基准上评估：PCam和CAMELYON17-WILDS，其中后者检验医院级分布偏移下的校准。与随机变分GP和神经网络基线相比，我们的方法改善了校准和预测性能——将预期校准误差最多降低88%，将假阴性率最多降低90%——最大增益出现在分布偏移下，表明基于HMC的后验采样为跨站点病理分类提供了更可信的不确定性估计。",
+"day": "2026-11-07"
+},
+{
 "title": "Automated Radiation Target Contouring and Treatment Planning Via RATA: A Multi-Center RCT",
 "link": "https://clinicaltrials.gov/study/NCT07922902",
 "date": "2026-11-06T00:00:00+00:00",
@@ -216,6 +467,43 @@
 "processing": "model-enriched",
 "abstract": "[Newly registered clinical trial, no results yet; sponsor: zhaoxiaohui; conditions: Cancer, Malignant Neoplasms, Radiotherapy; type: INTERVENTIONAL; phase: NA; enrollment: 62; status: NOT_YET_RECRUITING] Radiotherapy, a cornerstone of comprehensive cancer treatment, relies heavily on clinician expertise for target volume contouring and treatment planning. Consequently, clinical practice is often constrained by procedural bottlenecks, inter-observer variability, and prolonged iterative feedback cycles. Although current artificial intelligence (AI) models have demonstrated progress in automated contouring, key limitations persist, including insufficient integration of multimodal clinical text, a lack of closed-loop dosimetric feedback, and limited generalizability across complex cancer types. This study aims to develop and validate RATA (Radiotherapy Treatment Multi-Agent Assistant), a novel large model system powered by a collaborative multi-agent architecture. Driven by Large Language Model (LLM) decision engines, RATA processes pathological imaging, electronic health records (EHR), and multimodal medical data to construct a end-to-end, fully automated closed-loop pipeline encompassing \"target contouring, plan design, dosimetric evaluation, and reflective refinement.\" Innovatively breaking through traditional unidirectional radiotherapy workflows, the system establishes a dosimetric feedback-driven adaptive iteration mechanism, leveraging dose distribution outcomes to guide multi-agent dynamic fine-tuning of target volumes, thereby mimicking the collaborative clinical logic between senior radiation oncologists and medical physicists. For validation, this study adopts a multi-center, three-stage clinical validation framework-comprising multi-center retrospective validation, human-AI collaborative efficacy assessment, and a prospective randomized controlled trial (RCT)-to comprehensively evaluate the system's performance in improving contouring precision, mitigating experience-dependent disparities across clinician seniority, and reducing total workflow processing time. Implementation of the RATA platform holds potential to eliminate redundant operational steps, enabling a minute-level \"scan-to-treat\" response. Furthermore, its natural language interaction interface optimizes human-AI collaboration and substantially reduces clinical workload. Overall, this study not only establishes a standardized, intelligent assistance paradigm for precision radiation oncology but also provides essential evidence-based support and technological foundations for the clinical translation of multimodal AI in complex cancer management.",
 "zh_abstract": "[新注册临床试验，尚无结果；申办者：zhaoxiaohui；疾病：Cancer（癌症）、Malignant Neoplasms（恶性肿瘤）、Radiotherapy（放疗）；类型：INTERVENTIONAL（干预性）；分期：NA（不适用）；入组人数：62；状态：NOT_YET_RECRUITING（尚未招募）] 放疗是综合癌症治疗的基石，其靶区勾画和治疗计划高度依赖临床医生的专业经验。因此，临床实践常受流程瓶颈、观察者间差异和漫长迭代反馈周期的制约。尽管当前人工智能（AI）模型在自动勾画方面已取得进展，但仍存在关键局限，包括多模态临床文本整合不足、缺乏闭环剂量学反馈，以及在复杂癌症类型间泛化能力有限。本研究旨在开发并验证RATA（Radiotherapy Treatment Multi-Agent Assistant，放疗治疗多智能体助手），这是一种由协作式多智能体架构驱动的新型大模型系统。RATA以大语言模型（LLM）决策引擎为驱动，处理病理影像、电子健康记录（EHR）和多模态医学数据，以构建涵盖“靶区勾画、计划设计、剂量学评估和反思性优化”的端到端、全自动闭环流程。该系统创新性地突破传统单向放疗工作流程，建立剂量学反馈驱动的自适应迭代机制，利用剂量分布结果指导多智能体对靶区进行动态微调，从而模拟资深放射肿瘤科医生与医学物理师之间的协作临床逻辑。在验证方面，本研究采用多中心、三阶段临床验证框架——包括多中心回顾性验证、人机协作疗效评估和前瞻性随机对照试验（RCT）——以全面评估该系统在提高勾画精度、减轻不同资历临床医生之间经验依赖差异以及缩短总工作流程处理时间方面的性能。RATA平台的实施有望消除冗余操作步骤，实现分钟级“扫描到治疗”（scan-to-treat）响应。此外，其自然语言交互界面优化了人机协作，并大幅降低临床工作量。总体而言，本研究不仅为精准放射肿瘤学建立了标准化智能辅助范式，还为多模态AI在复杂癌症管理中的临床转化提供了必要的循证支持和技术基础。",
+"day": "2026-11-07"
+},
+{
+"title": "Mayo Clinic Platform launches AI-driven clinical decision support tool",
+"link": "https://www.fiercehealthcare.com/ai-and-machine-learning/mayo-clinic-launches-ai-driven-clinical-decision-support-tool",
+"date": "2026-11-07T10:31:44.727535+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Fierce Healthcare",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "664bb5fa848d",
+"keep": true,
+"zh_title": "Mayo Clinic平台推出嵌入病历的AI临床决策支持",
+"summary": "Mayo Clinic Platform发布嵌入电子病历工作流的AI临床决策支持工具，11月起向符合条件医生开放。",
+"key_points": [
+"覆盖35个以上专科的专科化对话功能",
+"提供22个可经对话或语音调用的临床计算器",
+"直接嵌入电子病历工作流",
+"11月起对符合条件临床医生开放"
+],
+"section": "落地与监管",
+"type": "模型",
+"tags": [
+"临床决策支持",
+"临床落地",
+"电子病历"
+],
+"evidence": "新闻",
+"score": 5,
+"reason": "大型医疗机构EHR内规模化部署，但无效果数据，属一般行业动态",
+"processing": "model-enriched",
+"abstract": "Mayo Clinic launched an AI-enabled clinical decision support solution embedded directly in electronic health record workflows. | Beginning in November, eligible clinicians will have access to two key capabilities: a specialty-specific chat that covers more than 35 specialties and 22 clinical calculators available via chat or voice dictation.",
+"zh_abstract": "Mayo Clinic 推出了一种直接嵌入电子健康记录工作流程的 AI 赋能临床决策支持解决方案。| 从 11 月开始，符合条件的临床医生将可以使用两项关键功能：一个覆盖超过 35 个专科的专科特定聊天，以及可通过聊天或语音听写使用的 22 个临床计算器。",
 "day": "2026-11-07"
 },
 {
@@ -252,6 +540,42 @@
 "processing": "model-enriched",
 "abstract": "Using electronic health record (EHR) data to answer clinical research questions is challenging. It requires understanding the research question, finding relevant information across different sources, and combining that information to produce meaningful results. We developed an agentic large language model (LLM) pipeline that decomposes investigator-authored requests into source-specific tasks, generates and executes SQL on EHR, integrates structured and unstructured EHR evidence, and applies study-specific clinical note adjudication. We evaluated this workflow against data analyst-identified cohorts across 50 pediatric orthopedic clinical data query requests. Of these, 43 were included in manual-review-adjusted performance analyses. The median adjusted positive predictive value, sensitivity among patients identified by either approach, and corresponding F1 score were 0.93 (95% CI, 0.88-0.98), 0.92 (95% CI, 0.90-0.95) and 0.90 (95% CI, 0.87-0.94), respectively. These findings support the feasibility of translating natural-language research intent into executable, autonomous multi-stage EHR workflows.",
 "zh_abstract": "使用电子健康记录（EHR）数据回答临床研究问题具有挑战性。这需要理解研究问题、在不同来源中查找相关信息，并整合这些信息以产生有意义的结果。我们开发了一个智能体式大语言模型（LLM）流水线，将研究者编写的请求分解为针对特定数据源的任务，生成并在 EHR 上执行 SQL，整合结构化与非结构化 EHR 证据，并应用研究特定的临床笔记判定。我们在 50 项儿科骨科临床数据查询请求中，将该工作流程与数据分析师识别的队列进行对比评估。其中 43 项被纳入经人工复核调整的性能分析。调整后的阳性预测值中位数、两种方法任一识别患者中的敏感性及相应 F1 分数分别为 0.93（95% CI，0.88-0.98）、0.92（95% CI，0.90-0.95）和 0.90（95% CI，0.87-0.94）。这些发现支持将自然语言研究意图转化为可执行、自主的多阶段 EHR 工作流程的可行性。",
+"day": "2026-11-07"
+},
+{
+"title": "LeadWeaver: Topology-Aware Masked-Lead Modeling for Robust 12-Lead ECG Diagnosis",
+"link": "https://www.biorxiv.org/content/10.64898/2026.11.05.764472v1?rss=1",
+"date": "2026-11-06T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.11.05.764472",
+"pop": null,
+"id": "80834c6b67c0",
+"keep": true,
+"zh_title": "LeadWeaver：面向缺失与设备漂移导联的心电诊断",
+"summary": "预印本提出拓扑感知心电表示模型，用生理导联图与掩码导联潜空间补全应对导联缺失、损坏或设备差异。",
+"key_points": [
+"固定加可学习的生理导联图耦合各导联",
+"以潜空间补全替代波形合成",
+"可靠性路由决定诊断所依赖的导联",
+"在PTB-XL与CPSC类设置上评估"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"生理信号",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "针对导联缺失鲁棒性的新方法，公开数据集基线对比，尚无外部验证",
+"processing": "model-enriched",
+"abstract": "Clinical electrocardiography is organized as a structured set of correlated leads, yet most neural ECG classifiers assume that all twelve leads are present, correctly ordered, and acquired under the same device conditions at training and deployment. We propose LeadWeaver, a topology-aware ECG representation model designed for diagnosis under missing, corrupted, or device-shifted leads. LeadWeaver represents each lead as a temporal token stream, couples leads through a fixed-plus-learned physiological lead graph, and performs masked-lead latent completion rather than waveform synthesis. A reliability router estimates which observed leads should dominate each diagnostic decision, while a consistency objective aligns complete-lead and incomplete-lead predictions. We evaluate the model on PTB-XL and CPSC-style settings using complete-input diagnosis, arbitrary missing-lead subsets, lead corruption, cross-dataset transfer, calibration, and selective prediction. The central hypothesis is that robust ECG diagnosis requires explicitly modeling both inter-lead topology and uncertainty about unavailable evidence, rather than treating missing channels as zero-valued inputs.",
+"zh_abstract": "临床心电图被组织为一组结构化的相关导联，然而大多数神经 ECG 分类器假设所有十二个导联均存在、顺序正确，并且在训练和部署时处于相同设备条件下。我们提出 LeadWeaver，一种拓扑感知的 ECG 表示模型，旨在用于导联缺失、损坏或设备偏移情况下的诊断。LeadWeaver 将每个导联表示为时间 token 流，通过固定加可学习的生理导联图耦合导联，并执行掩码导联的潜在补全而非波形合成。可靠性路由器估计哪些观测导联应在每个诊断决策中占主导，而一致性目标使完整导联和不完整导联的预测对齐。我们在 PTB-XL 和 CPSC 风格设置上评估该模型，使用完整输入诊断、任意缺失导联子集、导联损坏、跨数据集迁移、校准和选择性预测。核心假设是，稳健的 ECG 诊断需要显式建模导联间拓扑结构以及对不可用证据的不确定性，而不是将缺失通道视为零值输入。",
 "day": "2026-11-07"
 },
 {
@@ -352,6 +676,41 @@
 "day": "2026-11-07"
 },
 {
+"title": "Evaluation of an AI-Assisted Tool for CLABSI Surveillance at VA Medical Centers",
+"link": "https://clinicaltrials.gov/study/NCT07918352",
+"date": "2026-11-05T00:00:00+00:00",
+"badge": "NCT07918352",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "8dd4ed08d863",
+"keep": true,
+"zh_title": "VA医疗中心AI辅助CLABSI监测工具评估",
+"summary": "马里兰大学注册的质量改进研究，评估VA生成式AI工具按NHSN标准开展CLABSI监测。",
+"key_points": [
+"生成式AI依NHSN标准判定CLABSI",
+"拟在VA体系内运行实施评估",
+"计划入组30例，尚未开始招募"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"临床决策支持"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "仅有试验注册信息、样本30例且无结果，属小规模增量",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: University of Maryland, Baltimore; conditions: Central Line-Associated Bloodstream Infection (CLABSI), Bacteremia, Bloodstream Infections; type: INTERVENTIONAL; phase: NA; enrollment: 30; status: NOT_YET_RECRUITING] Infection prevention and control programs at US hospitals perform surveillance to detect and publicly report hospital-onset central line-associated bloodstream infections (CLABSI) using standards set by CDC's National Healthcare Safety Network (NHSN). Because this process requires time-consuming review of the medical record by dedicated infection preventionists, VA has developed a generative artificial intelligence (AI) tool that applies the NHSN CLABSI standard to clinical data from the medical record. In this quality improvement initiative, we will evaluate the tool as it is implemented operationally across a cohort of VA medical centers in 3 randomized waves. The purpose of this evaluation is (1) to determine whether the tool reduces the time required for CLABSI surveillance, (2) to assess the objectivity and trustworthiness of the tool from the perspective of infection preventionists, and (3) to detect patient safety events.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办方：马里兰大学巴尔的摩分校（University of Maryland, Baltimore）；疾病：中心静脉导管相关血流感染（Central Line-Associated Bloodstream Infection, CLABSI）、菌血症、血流感染；类型：干预性；阶段：NA；入组人数：30；状态：尚未招募] 美国医院的感染预防与控制项目使用美国疾病控制与预防中心（CDC）国家医疗安全网络（National Healthcare Safety Network, NHSN）制定的标准进行监测，以发现并公开报告医院发生的中心静脉导管相关血流感染（CLABSI）。由于该过程需要专职感染预防人员耗时审查病历，美国退伍军人事务部（VA）开发了一种生成式人工智能（AI）工具，可将NHSN CLABSI标准应用于病历中的临床数据。在这项质量改进项目中，我们将随着该工具在一组VA医疗中心以3个随机批次投入实际运行来对其进行评估。本评估的目的是：（1）确定该工具是否减少CLABSI监测所需时间；（2）从感染预防人员角度评估该工具的客观性和可信度；（3）检测患者安全事件。",
+"day": "2026-11-07"
+},
+{
 "title": "Equiti acquires Lexi AI to combine AI, human medical interpretation",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/equiti-acquires-lexi-ai-combine-ai-human-medical-interpretation",
 "date": "2026-11-07T02:58:48.409549+00:00",
@@ -384,6 +743,41 @@
 "processing": "model-enriched",
 "abstract": "Equiti is acquiring Lexi AI to build a hybrid language-access model that combines AI language support with human medical interpreters. | The acquisition deal merges Lexi's immediate AI language support, covering over 35 languages and dialects, with Martti and its network of qualified medical interpreters to help healthcare organizations expand language access.",
 "zh_abstract": "Equiti 正在收购 Lexi AI，以构建一种混合式语言服务可及性模式，将 AI 语言支持与人类医学口译员相结合。 | 该收购交易将 Lexi 覆盖超过 35 种语言和方言的即时 AI 语言支持，与 Martti 及其合格医学口译员网络合并，以帮助医疗机构扩大语言服务可及性。",
+"day": "2026-11-07"
+},
+{
+"title": "The Big Challenge for AI in Healthcare Comes After Approval",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSW5WcktDc2k2ZVkxX0pyR09iTUZNem82b0FxRy0yNTlZdi0xT0lVdnc1Ri1jamd0aTVDT1BlOXEwYzIzSmxlMEl1Q1pJT3J0akNRYy1BbE54ZkV1QzhRUFZYMnY2M0Rjb2V2MlMxZHgtMVdveTFYenl4dlZZeXk3czdDa2ZHOGVRbTRfeEEzMlFrVE9VNHow?oc=5",
+"date": "2026-11-06T14:46:54+00:00",
+"source": "MedCity News",
+"source_group": "Google News · FDA AI",
+"home": "https://medcitynews.com",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "4187a326ffa1",
+"also": [
+{
+"source": "MedCity News",
+"link": "https://medcitynews.com/2026/11/the-big-challenge-for-ai-in-healthcare-comes-after-approval/"
+}
+],
+"keep": true,
+"zh_title": "AI医疗的真正挑战在获批之后",
+"summary": "仅见标题：文章讨论AI医疗产品获得监管批准之后面临的落地挑战。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"临床落地"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "仅标题的观点稿，无正文细节，属边缘档；主题相关但信息量低",
+"processing": "model-enriched",
 "day": "2026-11-07"
 },
 {
