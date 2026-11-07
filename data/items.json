@@ -1,5 +1,464 @@
 [
  {
+  "title": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion",
+  "link": "https://www.nature.com/articles/s41591-026-04724-9",
+  "date": "2026-11-06T00:00:00+00:00",
+  "source": "Nature Medicine",
+  "source_group": "Nature Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41591-026-04724-9",
+  "pop": null,
+  "id": "3cf1b441539c",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "步态基础模型：从3D骨骼运动预测多系统健康表型",
+  "summary": "Nature Medicine 研究基于3328名成人的3D骨骼运动数据开发步态基础模型，用于预测心血管代谢、心理健康与衰弱等临床特征与诊断。",
+  "key_points": [
+   "建模数据为3328名成人的3D骨骼运动",
+   "可预测心血管代谢、心理健康、衰弱等表型",
+   "成果发表于 Nature Medicine，经同行评审"
+  ],
+  "section": "临床预测与决策",
+  "type": "模型",
+  "tags": [
+   "生理信号",
+   "临床预测",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "大样本基础模型并预测多系统表型，但来源未提及外部验证或临床结局，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-07",
+  "abstract_days": [
+   "2026-11-07"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Physical Limits to AI Substitution across Physician Specialties — Implications for the Physician Workforce",
+  "link": "https://ai.nejm.org/doi/full/10.1056/AIp2600957?af=R&rss=currentIssue",
+  "date": "2026-11-04T06:00:00+00:00",
+  "source": "NEJM AI",
+  "source_group": "NEJM AI",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1056/AIp2600957",
+  "pop": null,
+  "id": "865d4337999b",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "AI替代医师的物理极限：各专科差异分析",
+  "summary": "基于2023年Medicare Part B约450亿美元账单，量化各专科中需当面操作、当前AI无法替代的工作占比。",
+  "key_points": [
+   "分析56个专科、58.9万名医师的账单数据",
+   "按每项服务是否需身体接触分类",
+   "需动手操作占比随毕业后培训年限上升"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "大样本医保数据分析，但非AI模型或临床结局验证，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-07",
+  "abstract": "AbstractAI can already interpret medical images, draft diagnostic assessments, and converse with patients - fueling predictions that it will replace physicians. Yet software cannot physically examine, biopsy, or operate on a patient, so the share of a specialty's work that requires in-person physical interaction sets a ceiling on how much of it AI alone could replace. Analyzing 2023 Medicare Part B claims - nearly US$45 billion in payments to 589,648 physicians across 56 specialties - we classify each billed service by whether it requires physical contact, setting aside evaluation and management (E&M) visits. The share of non-E&M work that is physical, and thus protected at present from AI substitution, varies widely across specialties and increases in the length of postgraduate training: Procedural fields such as dermatology and orthopedic surgery are largely shielded. Only about one fifth of all payments go to non-E&M services with no physical barrier to AI substitution. Physicians, however, concentrate in E&M-heavy specialties - family and internal medicine - where physical protection, as we measure it, is low. The fields most accessible as career paths and most needed to relieve primary care shortages thus face the greatest uncertainty, because AI could impact their work as either a substitute or a complement - an outcome shaped as much by how AI is designed, deployed, and reimbursed as by the technology itself.",
+  "zh_abstract": "摘要：AI 已经能够解读医学图像、起草诊断评估并与患者对话——这助长了其将取代医生的预测。然而，软件无法对患者进行体格检查、活检或手术，因此某一专科工作中需要面对面身体交互的部分，为 AI 单独所能替代的比例设定了上限。通过分析 2023 年 Medicare Part B 索赔——向 56 个专科的 589,648 名医生支付的近 450 亿美元——我们根据每项计费服务是否需要身体接触进行分类，并将评估与管理（E&M）就诊排除在外。非 E&M 工作中属于体力性、因而目前免受 AI 替代的工作占比，在不同专科之间差异很大，并随研究生培训时长增加而上升：皮肤科和骨科手术等操作型领域在很大程度上受到保护。所有支付中仅约五分之一流向没有身体屏障、可被 AI 替代的非 E&M 服务。然而，医生集中于 E&M 占比较高的专科——家庭医学和内科——按我们的衡量，这些专科的物理保护较低。因此，作为职业路径最易进入、也最需要用来缓解初级保健短缺的领域面临最大的不确定性，因为 AI 可能以替代或补充的方式影响其工作——这一结果既取决于 AI 的设计、部署和报销方式，也取决于技术本身。"
+ },
+ {
+  "title": "A statistical framework for evaluating the repeatability and reproducibility of large language models.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42987417/",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "DOI 10.1093/jamia/ocag186",
+  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "54f8576d8b1c",
+  "keep": true,
+  "zh_title": "量化大模型可重复性与再现性的统计框架",
+  "summary": "JAMIA 提出通用统计框架与Python包llmReproScore，从语义与内部两维度量化大语言模型输出的可重复性与再现性。",
+  "key_points": [
+   "建立四个指标，分语义与内部两维度",
+   "发布配套Python包llmReproScore",
+   "以USMLE题目测试多模型诊断推理输出"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审的评测方法学工作并公开工具包，应用示例有限，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of the American Medical Informatics Association : JAMIA] Systematic evaluation of variability in large language model (LLM)-generated outputs is critical for assessing their reliability. We developed a general statistical framework and Python package (llmReproScore) for quantifying the repeatability and reproducibility of LLM outputs. Following US Food and Drug Administration terminology, our framework establishes four metrics for quantifying LLM repeatability and reproducibility along two dimensions: semantic and internal. Semantic metrics quantify variability in the meaning of LLM-generated outputs, whereas internal metrics quantify variability in token-generation certainty. We validated these metrics, and as an illustrative use case, applied them to diagnostic reasoning outputs generated across LLMs and prompting strategies using US Medical Licensing Examination questions and 90 real-world rare disease cases from the Undiagnosed Diseases Network. Validation results showed that semantic scores aligned with human ratings (Spearman ρ = 0.88 for repeatability and 0.66 for reproducibility) and confirmed that internal metrics capture variability in token-generation certainty. In the illustrative use case, LLM repeatability was generally not associated with accuracy, suggesting that LLM output variability and accuracy capture distinct dimensions of model performance. The proposed metrics can be used to characterize LLM output variability and systematically compare models, prompts, and generation settings. These comparisons can inform more rigorous selection of LLM configurations based on repeatability and reproducibility. We developed and validated generalizable metrics for quantifying LLM output variability. The proposed metrics can complement accuracy-based evaluation to inform experimental design and support more rigorous comparison and selection of models, prompts, and generation settings.",
+  "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 系统评估大语言模型（LLM）生成输出的变异性对于评估其可靠性至关重要。我们开发了一个通用统计框架和Python包（llmReproScore），用于量化LLM输出的重复性和再现性。参照美国食品药品监督管理局（FDA）的术语，我们的框架沿两个维度建立了四项指标来量化LLM的重复性和再现性：语义和内部。语义指标量化LLM生成输出在含义上的变异性，而内部指标量化token生成确定性方面的变异性。我们验证了这些指标，并作为一个示例性用例，将其应用于使用美国医师执照考试（US Medical Licensing Examination）题目和来自未诊断疾病网络（Undiagnosed Diseases Network）的90个真实世界罕见病病例、跨LLM和提示策略生成的诊断推理输出。验证结果显示，语义评分与人工评分一致（重复性的Spearman ρ = 0.88，再现性的Spearman ρ = 0.66），并确认内部指标捕捉了token生成确定性的变异性。在示例性用例中，LLM重复性总体上与准确性无关，提示LLM输出变异性和准确性捕捉的是模型性能的不同维度。所提出的指标可用于表征LLM输出变异性，并系统比较模型、提示和生成设置。这些比较可为基于重复性和再现性更严格地选择LLM配置提供依据。我们开发并验证了用于量化LLM输出变异性的可推广指标。所提出的指标可以补充基于准确性的评估，为实验设计提供信息，并支持更严格地比较和选择模型、提示及生成设置。",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Patient-Friendly Simplifications of Outpatient Reports Using Large Language Models via Few-Shot Prompting: Blinded Comparative Evaluation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42993868/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.2196/101882",
+  "source": "PubMed · Journal of medical Internet research",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "11c17e48af9b",
+  "keep": true,
+  "zh_title": "大模型将门诊报告简化为患者友好语言的盲法比较",
+  "summary": "JMIR 研究用Gemma-3-27B-it配合少样本提示，将64份德语老年科门诊报告改写为患者友好版本，并经盲法评估与专家版本比较。",
+  "key_points": [
+   "样本为64份德语老年科门诊报告",
+   "采用Gemma-3-27B-it少样本提示",
+   "盲法评估与人类专家改写结果比较"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床NLP",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "盲法对照评估设计规范，但样本仅64份、单中心单语言，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of medical Internet research] Effective communication between clinicians and patients plays an important role in the successful delivery of health care. In geriatric medicine, where multimorbidity, polypharmacy, and functional limitations often make treatment plans complex, AI simplifications of clinical reports into patient-friendly language offer a promising way to improve communication. This study investigated whether AI could generate patient-friendly simplifications of outpatient reports that were comparable to those authored by human experts. Gemma-3-27B-it, an instruction fine-tuned open-source large language model (LLM) by Google, was used, and few-shot prompting was applied to enable the generation of patient-friendly simplifications of 64 deidentified geriatric outpatient reports written in German while preserving clinical meaning. LLM-generated simplifications were compared with those produced by 2 medical experts in a blinded evaluation. Quality was assessed using three approaches: (1) embedding-based semantic similarity to the original report, (2) blinded expert review by 2 clinicians, and (3) review by patient representatives, with the latter 2 using a standardized Likert-scale questionnaire. AI-generated simplifications were comparable to geriatrician-authored simplifications regarding semantic similarity (P=.02) and were preferred by patient representatives (P<.001) as well as one expert reviewer (P=.001). Expert reviewers perceived physician-authored simplifications as more complete (P<.001), a finding that correlated with text length (P<.001). This study demonstrates the feasibility of using LLMs via few-shot prompting to simplify medical reports for improved perceived patient comprehension in geriatric care. Future prospective studies should examine whether such AI-driven simplifications positively impact objective health-related outcomes, adherence, and patient engagement.",
+  "zh_abstract": "[Journal of medical Internet research] 临床医生与患者之间的有效沟通在成功提供医疗保健中发挥重要作用。在老年医学中，多病共存、多重用药和功能受限常使治疗计划复杂化，AI将临床报告简化为患者友好语言为改善沟通提供了一种有前景的方法。本研究调查了AI能否生成与人类专家撰写的简化版本相当的患者友好型门诊报告简化版本。使用由Google开发、经指令微调的开源大语言模型（LLM）Gemma-3-27B-it，并应用少样本提示（few-shot prompting），以生成64份以德语书写的去标识化老年门诊报告的患者友好型简化版本，同时保留临床含义。在盲法评估中，将LLM生成的简化版本与2名医学专家生成的简化版本进行比较。质量通过三种方法评估：（1）基于嵌入的与原始报告的语义相似度；（2）由2名临床医生进行盲法专家评审；（3）由患者代表评审，后两者使用标准化Likert量表问卷。AI生成的简化版本在语义相似度方面与老年科医生撰写的简化版本相当（P=.02），并且更受患者代表（P<.001）以及一名专家评审者（P=.001）偏好。专家评审者认为医生撰写的简化版本更完整（P<.001），这一发现与文本长度相关（P<.001）。本研究证明通过少样本提示使用LLM简化医疗报告以改善老年护理中患者感知理解程度的可行性。未来前瞻性研究应检验此类AI驱动的简化是否对客观健康相关结局、依从性和患者参与度产生积极影响。",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Estimating performance for safe deployment of machine learning models",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004330?dgcid=rss_sd_all",
+  "date": "2026-11-07T02:58:48.409549+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "dc7277504130",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "机器学习模型安全部署的性能估计",
+  "summary": "Medical Image Analysis 刊文讨论机器学习模型安全部署前的性能估计方法；来源仅提供题录信息，未见摘要内容。",
+  "key_points": [
+   "主题为模型部署前的性能估计",
+   "发表于 Medical Image Analysis",
+   "作者含Ben Glocker等，具体方法未见"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "题目与安全部署相关，但仅有题录无方法细节，信息有限，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-07",
+  "abstract_days": [
+   "2026-11-07"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Automated Radiation Target Contouring and Treatment Planning Via RATA: A Multi-Center RCT",
+  "link": "https://clinicaltrials.gov/study/NCT07922902",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "NCT07922902",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "d4aba70b5b3d",
+  "keep": true,
+  "zh_title": "RATA多智能体放疗靶区勾画与计划的多中心RCT",
+  "summary": "ClinicalTrials.gov 新注册多中心RCT，评估RATA多智能体助手自动勾画放疗靶区并制定计划，计划入组62例，尚未招募且无结果。",
+  "key_points": [
+   "多中心RCT，计划入组62例，尚未招募",
+   "RATA为放疗多智能体助手，融合多模态文本",
+   "设计含闭环剂量学反馈，暂无结果"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "智能体",
+   "肿瘤"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "前瞻RCT设计加分，但样本小、尚无结果，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: zhaoxiaohui; conditions: Cancer, Malignant Neoplasms, Radiotherapy; type: INTERVENTIONAL; phase: NA; enrollment: 62; status: NOT_YET_RECRUITING] Radiotherapy, a cornerstone of comprehensive cancer treatment, relies heavily on clinician expertise for target volume contouring and treatment planning. Consequently, clinical practice is often constrained by procedural bottlenecks, inter-observer variability, and prolonged iterative feedback cycles. Although current artificial intelligence (AI) models have demonstrated progress in automated contouring, key limitations persist, including insufficient integration of multimodal clinical text, a lack of closed-loop dosimetric feedback, and limited generalizability across complex cancer types. This study aims to develop and validate RATA (Radiotherapy Treatment Multi-Agent Assistant), a novel large model system powered by a collaborative multi-agent architecture. Driven by Large Language Model (LLM) decision engines, RATA processes pathological imaging, electronic health records (EHR), and multimodal medical data to construct a end-to-end, fully automated closed-loop pipeline encompassing \"target contouring, plan design, dosimetric evaluation, and reflective refinement.\" Innovatively breaking through traditional unidirectional radiotherapy workflows, the system establishes a dosimetric feedback-driven adaptive iteration mechanism, leveraging dose distribution outcomes to guide multi-agent dynamic fine-tuning of target volumes, thereby mimicking the collaborative clinical logic between senior radiation oncologists and medical physicists. For validation, this study adopts a multi-center, three-stage clinical validation framework-comprising multi-center retrospective validation, human-AI collaborative efficacy assessment, and a prospective randomized controlled trial (RCT)-to comprehensively evaluate the system's performance in improving contouring precision, mitigating experience-dependent disparities across clinician seniority, and reducing total workflow processing time. Implementation of the RATA platform holds potential to eliminate redundant operational steps, enabling a minute-level \"scan-to-treat\" response. Furthermore, its natural language interaction interface optimizes human-AI collaboration and substantially reduces clinical workload. Overall, this study not only establishes a standardized, intelligent assistance paradigm for precision radiation oncology but also provides essential evidence-based support and technological foundations for the clinical translation of multimodal AI in complex cancer management.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：zhaoxiaohui；疾病：Cancer（癌症）、Malignant Neoplasms（恶性肿瘤）、Radiotherapy（放疗）；类型：INTERVENTIONAL（干预性）；分期：NA（不适用）；入组人数：62；状态：NOT_YET_RECRUITING（尚未招募）] 放疗是综合癌症治疗的基石，其靶区勾画和治疗计划高度依赖临床医生的专业经验。因此，临床实践常受流程瓶颈、观察者间差异和漫长迭代反馈周期的制约。尽管当前人工智能（AI）模型在自动勾画方面已取得进展，但仍存在关键局限，包括多模态临床文本整合不足、缺乏闭环剂量学反馈，以及在复杂癌症类型间泛化能力有限。本研究旨在开发并验证RATA（Radiotherapy Treatment Multi-Agent Assistant，放疗治疗多智能体助手），这是一种由协作式多智能体架构驱动的新型大模型系统。RATA以大语言模型（LLM）决策引擎为驱动，处理病理影像、电子健康记录（EHR）和多模态医学数据，以构建涵盖“靶区勾画、计划设计、剂量学评估和反思性优化”的端到端、全自动闭环流程。该系统创新性地突破传统单向放疗工作流程，建立剂量学反馈驱动的自适应迭代机制，利用剂量分布结果指导多智能体对靶区进行动态微调，从而模拟资深放射肿瘤科医生与医学物理师之间的协作临床逻辑。在验证方面，本研究采用多中心、三阶段临床验证框架——包括多中心回顾性验证、人机协作疗效评估和前瞻性随机对照试验（RCT）——以全面评估该系统在提高勾画精度、减轻不同资历临床医生之间经验依赖差异以及缩短总工作流程处理时间方面的性能。RATA平台的实施有望消除冗余操作步骤，实现分钟级“扫描到治疗”（scan-to-treat）响应。此外，其自然语言交互界面优化了人机协作，并大幅降低临床工作量。总体而言，本研究不仅为精准放射肿瘤学建立了标准化智能辅助范式，还为多模态AI在复杂癌症管理中的临床转化提供了必要的循证支持和技术基础。",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Agentic Pipeline for Large-Scale Clinical Data Queries in Enterprise Electronic Health Records",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367378v1?rss=1",
+  "date": "2026-11-06T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.05.26367378",
+  "pop": null,
+  "id": "fc1598b2c056",
+  "keep": true,
+  "zh_title": "企业级电子病历大规模临床数据查询的智能体流水线",
+  "summary": "medRxiv预印本提出LLM智能体流水线，将研究请求拆解为SQL任务并整合结构化与文本病历证据。",
+  "key_points": [
+   "在50项儿科骨科查询请求上与分析师队列对比",
+   "43项纳入调整后分析",
+   "中位调整PPV为0.93（95%CI 0.88起）"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "智能体",
+   "医学大模型",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "有分析师队列对照的方法学预印本，但样本仅50项请求且无外部验证",
+  "processing": "model-enriched",
+  "abstract": "Using electronic health record (EHR) data to answer clinical research questions is challenging. It requires understanding the research question, finding relevant information across different sources, and combining that information to produce meaningful results. We developed an agentic large language model (LLM) pipeline that decomposes investigator-authored requests into source-specific tasks, generates and executes SQL on EHR, integrates structured and unstructured EHR evidence, and applies study-specific clinical note adjudication. We evaluated this workflow against data analyst-identified cohorts across 50 pediatric orthopedic clinical data query requests. Of these, 43 were included in manual-review-adjusted performance analyses. The median adjusted positive predictive value, sensitivity among patients identified by either approach, and corresponding F1 score were 0.93 (95% CI, 0.88-0.98), 0.92 (95% CI, 0.90-0.95) and 0.90 (95% CI, 0.87-0.94), respectively. These findings support the feasibility of translating natural-language research intent into executable, autonomous multi-stage EHR workflows.",
+  "zh_abstract": "使用电子健康记录（EHR）数据回答临床研究问题具有挑战性。这需要理解研究问题、在不同来源中查找相关信息，并整合这些信息以产生有意义的结果。我们开发了一个智能体式大语言模型（LLM）流水线，将研究者编写的请求分解为针对特定数据源的任务，生成并在 EHR 上执行 SQL，整合结构化与非结构化 EHR 证据，并应用研究特定的临床笔记判定。我们在 50 项儿科骨科临床数据查询请求中，将该工作流程与数据分析师识别的队列进行对比评估。其中 43 项被纳入经人工复核调整的性能分析。调整后的阳性预测值中位数、两种方法任一识别患者中的敏感性及相应 F1 分数分别为 0.93（95% CI，0.88-0.98）、0.92（95% CI，0.90-0.95）和 0.90（95% CI，0.87-0.94）。这些发现支持将自然语言研究意图转化为可执行、自主的多阶段 EHR 工作流程的可行性。",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "西门子医疗与阿里达摩院签约：加速普及 AI“一扫多筛”，一次 CT 扫描早期发现癌症等重大疾病",
+  "link": "https://news.google.com/rss/articles/CBMihAVBVV95cUxNTHBsNlJVSVZMSklZWVJ1bzdxTUxrdm1ueHdkNGx3TTMxTFZXZFVFZlBmSUpOelZSVXN6RU4yejhKaGdwa1M4bV9IanpPV2F6MnUzdWNkQl9Vd2ZJYVJIN3lmOWdLNWxnNjMzWU1SZGxhT19DQXVjNTJGY2k0eVlnRmhZOVJzMnFGMDlBRHFURzd2d0dxU2gzREJCamtqX2pQVnFoZEs2VW1yMTB4ZGFndUxNcG9NT2ppYkRIemZJd2t2U3kxTm5QQ1lIYmNIWFJNbGFtbml6cjA1Nm9GRmNwRmM5aFg4cml0TDB4cGpmeS1VUURhMkdPMG96SU1SNzV2ZlFBTDJkN3lRWGtCRlJ2REF2bkw0cDdjWWU3VGJWRE1ZbWZjdTF3UW5GSG9VTm9uTGJXYUQ5TV92TjdlSnhfaTVVU09OZjBpR2F1dktoSkVaOFpnRnN2NlZWZWFhZHBGdmZhX21pcmZOcDI1UW1ERlczb2N2Ykc1ZHNsbjNPbjE3aktqZDdNNjZnUDN4UmhQc3BQWjFHdHh5endpTnc3M0Vfa3k4bkp4N2RfSl9rZXlUcFdFcDhTN1F0OXlJZEJJdDF3RWs3Wlgxd01LXzlIYkNYMzJwWlBpSjFRYXBoU0tyLTBLaENnUTRGdmZLb0haNTNNMHhRY3ZpV3p4S2VnV2RkQXhLTGhzRHdGWVhoWnNmWlVYTHZFbkZIczBuLWV1ZFo1WDhRZ1RDd0Q5N1ROaGFXV1M5eEdoR1ZYN3JPSTlvSU1xNlAzUDNZRG5ueFBVbXFrYjVpTDJjVmo3M2JjMU5EQkZwbHpkV3hqdFI2R014OWx3S2d5SElZNUtUMEhRenIzZw?oc=5",
+  "date": "2026-11-06T17:19:22+00:00",
+  "source": "新浪网",
+  "source_group": "Google News · NMPA AI",
+  "home": "https://tech.sina.cn",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "3cb0e3350a9d",
+  "also": [
+   {
+    "source": "驱动之家",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xX0stZnVuTmVkbWpTa2trRTZ1Y080dV9zQ0pIMS02d3FRNE9MM2pCNmNNb05uQkRubjQ5eVdoTXhXV29naDk0UEplYTZkWmNYMmtZaHdfd1Y?oc=5"
+   }
+  ],
+  "keep": true,
+  "zh_title": "西门子医疗与阿里达摩院合作推进 AI 一扫多筛",
+  "summary": "西门子医疗与阿里达摩院签约，称合作推进 AI“一扫多筛”，在一次 CT 扫描中早期发现癌症等重大疾病。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "新闻",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "大型影像企业与达摩院的合作动态，但仅标题、无验证数据，属一般行业动态档",
+  "processing": "model-enriched",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Opinion: AI depends on medical records that don’t always tell the full truth about women",
+  "link": "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss",
+  "date": "2026-11-06T09:30:00+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "747269d87c1b",
+  "_abs_err": "page: no abstract in meta (178983 bytes; title: AI could reinforce medical records’ lies about women | STAT; text: AI could reinforce medical records’ lies about women | STAT Skip to Main Content Manage alerts for t)",
+  "keep": true,
+  "zh_title": "观点：女性健康AI依赖并不总是真实的病历",
+  "summary": "STAT观点文章指出，医疗记录对女性健康的记载常不完整，AI要发挥潜力需先解决记录真实性问题。",
+  "key_points": [
+   "文章为专家观点，非原创研究",
+   "指出病历对女性健康信息记录不完整",
+   "认为AI在女性健康的应用受限"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "电子病历"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "观点类文章，聚焦病历数据偏差，无新数据，属常规观点档",
+  "processing": "model-enriched",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "FDA’s AI in Early Phase Clinical Trials RFI: An Opportunity to Help Set the Rules of the Road",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYTcwVkh0amFLS1ZEMWtsckdEb1BCem5lWFJXVXBhTGpYMUpOYkNwTHNvMm5FQktfQ2QzdkM4aGl6Wm51RWpiX0lnTEpjUkczeGd3c09fcmdkY1gyOFRYS1h6Q2hSS1V0blpEdHZZckd3bjFzU0dyQ1FTQ01QOGZoVGR4SzVNQWNWdlQ0MzdiVGlORVZqYS1n?oc=5",
+  "date": "2026-11-06T07:03:03+00:00",
+  "source": "Crowell & Moring LLP",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.crowell.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "2604dd5f9792",
+  "keep": true,
+  "zh_title": "FDA 就早期临床试验中的 AI 公开征求意见",
+  "summary": "律所评论文章介绍 FDA 关于早期临床试验应用 AI 的信息征集（RFI），以及参与规则制定的机会。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "监管议题有价值，但为律所评论且仅标题，信息量有限，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Equiti acquires Lexi AI to combine AI, human medical interpretation",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/equiti-acquires-lexi-ai-combine-ai-human-medical-interpretation",
+  "date": "2026-11-07T02:58:48.409549+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "efec42195688",
+  "keep": true,
+  "zh_title": "Equiti收购Lexi AI，结合AI与人工医疗口译",
+  "summary": "Equiti宣布收购Lexi AI，将其覆盖35种以上语言的AI语言支持与人工医疗口译网络结合。",
+  "key_points": [
+   "收购Lexi AI整合AI语言支持与人工口译",
+   "覆盖35种以上语言和方言",
+   "交易金额未披露"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小型并购且金额未披露，属一般性行业动态，增量档",
+  "processing": "model-enriched",
+  "abstract": "Equiti is acquiring Lexi AI to build a hybrid language-access model that combines AI language support with human medical interpreters. | The acquisition deal merges Lexi's immediate AI language support, covering over 35 languages and dialects, with Martti and its network of qualified medical interpreters to help healthcare organizations expand language access.",
+  "zh_abstract": "Equiti 正在收购 Lexi AI，以构建一种混合式语言服务可及性模式，将 AI 语言支持与人类医学口译员相结合。 | 该收购交易将 Lexi 覆盖超过 35 种语言和方言的即时 AI 语言支持，与 Martti 及其合格医学口译员网络合并，以帮助医疗机构扩大语言服务可及性。",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Enhanced MRI brain tumor detection using deep learning in conjunction with explainable AI SHAP based diverse and multi feature analysis",
+  "link": "https://arxiv.org/abs/2611.07843",
+  "date": "2026-11-05T11:20:24+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.07843",
+  "pop": null,
+  "id": "fa9c0e2f092c",
+  "keep": true,
+  "zh_title": "多特征与SHAP可解释的深度学习脑肿瘤MRI检测",
+  "summary": "arXiv预印本比较LBP、Gabor、小波、CNN等多种特征与五种分类器组合，用于MRI脑肿瘤识别。",
+  "key_points": [
+   "融合手工特征与CNN特征做MRI肿瘤分类",
+   "使用SHAP提升模型可解释性",
+   "LBP配合SVC与CNN报告较高特异度与准确率"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "score": 3,
+  "reason": "预印本，特征组合式方法，仅报告指标无外部验证，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Recent innovations in medical imaging have markedly improved brain tumor identification, surpassing conventional diagnostic approaches that suffer from low resolution, radiation exposure, and limited contrast. Magnetic Resonance Imaging (MRI) is pivotal in precise and accurate tumor characterization owing to its high-resolution, non-invasive nature. This study investigates the synergy among multiple feature representation schemes such as local Binary Patterns (LBP), Gabor filters, Discrete Wavelet Transform, Fast Fourier Transform, Convolutional Neural Networks (CNN), and Gray-Level Run Length Matrix alongside five learning algorithms namely: k-nearest Neighbor, Random Forest, Support Vector Classifier (SVC), and probabilistic neural network (PNN), and CNN. Empirical findings indicate that LBP in conjunction with SVC and CNN obtained high specificity and accuracy, rendering it a promising method for MRI-based tumor diagnosis. Further to investigate the contribution of LBP, Statistical analysis chi-square and p-value tests are used to confirm the significant impact of LBP feature space for identification of brain Tumor. In addition, The SHAP analysis was used to identify the most important features in classification. In a small dataset, CNN obtained 97.8% accuracy while SVC yielded 98.06% accuracy. In subsequent analysis, a large benchmark dataset is also utilized to evaluate the performance of learning algorithms in order to investigate the generalization power of the proposed model. CNN achieves the highest accuracy of 98.9%, followed by SVC at 96.7%. These results highlight CNN's effectiveness in automated, high-precision tumor diagnosis. Code: https://github.com/asifrahman557/BrainTumorDetection",
+  "zh_abstract": "医学影像的最新创新显著改进了脑肿瘤识别，优于受低分辨率、辐射暴露和对比度受限困扰的传统诊断方法。磁共振成像（MRI）由于其高分辨率和非侵入性，在精确和准确的肿瘤表征中至关重要。本研究探讨了多种特征表示方案之间的协同作用，例如局部二值模式（LBP）、Gabor滤波器、离散小波变换、快速傅里叶变换、卷积神经网络（CNN）和灰度级游程长度矩阵（Gray-Level Run Length Matrix），以及五种学习算法，即：k近邻、随机森林、支持向量分类器（SVC）、概率神经网络（PNN）和CNN。实证结果表明，LBP结合SVC和CNN获得了高特异度和准确率，使其成为基于MRI的肿瘤诊断的一种有前景的方法。为进一步研究LBP的贡献，使用卡方检验和p值检验进行统计分析，以确认LBP特征空间对脑肿瘤识别的显著影响。此外，使用SHAP分析识别分类中最重要的特征。在小数据集中，CNN获得了97.8%的准确率，而SVC产生了98.06%的准确率。在后续分析中，还使用大型基准数据集评估学习算法的性能，以研究所提出模型的泛化能力。CNN达到最高准确率98.9%，其次是SVC的96.7%。这些结果凸显了CNN在自动化、高精度肿瘤诊断中的有效性。代码：https://github.com/asifrahman557/BrainTumorDetection",
+  "day": "2026-11-07"
+ },
+ {
+  "title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
+  "link": "https://www.nature.com/articles/s41746-026-03447-y",
+  "date": "2026-11-05T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03447-y",
+  "pop": null,
+  "id": "d4d95b166c32",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "通才-专科AI协作实现脑CT工作列表安全降级",
+  "summary": "多中心回顾性外部验证2001例急诊与创伤NCCT，通用CLIP基础模型与商用检测器协作实现安全降级。",
+  "key_points": [
+   "外部验证2001例，单用商用检测器漏检31例",
+   "协作系统按预设阈值召回全部异常检查",
+   "检查仍留在报告流程，仅降级排序"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "多模态",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "多中心外部验证加工作流安全设计，属重要档下限；为回顾性研究减分",
+  "processing": "model-enriched",
+  "day": "2026-11-06",
+  "abstract": "Safe deprioritization of non-contrast brain computed tomography (NCCT) demands high sensitivity and negative predictive value (NPV) across common and uncommon findings requiring clinical attention. Here, we present a collaborative safety net integrating BrainCT-CLIP, a generalist foundation model via contrastive language-image pre-training (CLIP), with commercial detectors. Every examination remained in the reporting workflow, deprioritized only when no model returned a positive result. In a retrospective multicenter external validation of consecutive emergency and trauma cohorts ( n = 2001), standalone commercial detectors left 31 of 324 remarkable examinations deprioritized, including 16 target-disease false negatives and 15 outside their indications. In contrast, the collaborative system recovered every remarkable examination at a threshold prespecified in the development cohort, achieving 100% sensitivity and NPV while deprioritizing 18% of examinations (368/2001; 95% CI, 17–20). These findings support generalist-specialist AI for safe worklist deprioritization under radiologist oversight, with high sensitivity for intracranial findings requiring clinical attention.",
+  "zh_abstract": "对非增强脑计算机断层扫描（NCCT）安全地降低优先级，要求在需要临床关注的常见和不常见发现中具有高灵敏度和阴性预测值（NPV）。在此，我们提出一种协作式安全网，将通过对比语言-图像预训练（CLIP）构建的通才基础模型 BrainCT-CLIP 与商用检测器整合。每项检查均保留在报告工作流程中，仅当没有任何模型返回阳性结果时才降低其优先级。在一项对连续急诊和创伤队列（n = 2001）进行的回顾性多中心外部验证中，单独使用商用检测器时，324 项有异常发现的检查中有 31 项被降低优先级，包括 16 项目标疾病假阴性和 15 项超出其适应证。相比之下，协作系统在开发队列中预先设定的阈值下识别出全部有异常发现的检查，达到 100% 灵敏度和 NPV，同时将 18% 的检查降低优先级（368/2001；95% CI，17–20）。这些发现支持在放射科医生监督下使用通才-专科 AI 进行安全的工作列表优先级降低，对需要临床关注的颅内发现具有高灵敏度。"
+ },
+ {
   "title": "Generative Artificial Intelligence and Maternal Health Outcomes in Pregnant and Postpartum Individuals: A Randomized Clinical Trial.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42981095/",
   "date": "2026-11-02T00:00:00+00:00",
@@ -140,40 +599,6 @@
   "day": "2026-11-06",
   "abstract": "AbstractIn February 2026, a full-time interventional cardiologist placed third in a global coding competition with a postvisit patient support application called postvisit.ai. Many top participants had no formal engineering background but were domain experts who could describe a problem precisely enough for AI tools to translate it into working software. This process has been called \"vibe coding.\" We discuss what it means and whether it has any relevance to clinical reality. Although AI tools have dramatically lowered the barrier to building a prototype, turning a working demo into a safe, regulated product ready for clinical use still very much requires engineers, security specialists, and regulatory expertise. The EU Medical Device Regulation, the U.S. Food and Drug Administration guidance on AI in healthcare, and the privacy requirements of the General Data Protection Regulation and the Health Insurance Portability and Accountability Act all demand professional teams and rigorous processes that no amount of vibe coding can replace. None of this should discourage physicians from building. The natural next step is for them to move from consulting on software design to actively shaping the tools that they use, creating a new generation of physician-builders.",
   "zh_abstract": "摘要 2026年2月，一位全职介入心脏病学家在一场全球编程竞赛中获得第三名，其参赛作品是一款名为 postvisit.ai 的诊后患者支持应用。许多顶尖参与者没有正式工程背景，而是领域专家，能够足够精确地描述问题，使 AI 工具将其转化为可运行的软件。这一过程被称为“vibe coding”。我们讨论其含义以及它是否与临床现实相关。尽管 AI 工具已大幅降低构建原型的门槛，但将可运行的演示转化为安全、受监管、可临床使用的产品，仍然非常需要工程师、安全专家和监管专业知识。欧盟医疗器械法规（EU Medical Device Regulation）、美国食品药品监督管理局（U.S. Food and Drug Administration）关于医疗保健中 AI 的指南，以及《通用数据保护条例》（General Data Protection Regulation）和《健康保险可携性和责任法案》（Health Insurance Portability and Accountability Act）的隐私要求，都要求专业团队和严格流程，这些都不是再多 vibe coding 所能替代的。这一切不应阻止医生去构建。自然的下一步是让他们从软件设计咨询转向积极塑造他们所使用的工具，创造新一代“医生-构建者”。"
- },
- {
-  "title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
-  "link": "https://www.nature.com/articles/s41746-026-03447-y",
-  "date": "2026-11-05T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03447-y",
-  "pop": null,
-  "id": "d4d95b166c32",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "通科-专科协作AI用于脑CT检查队列降级",
-  "summary": "npj Digital Medicine刊文，提出通科与专科协作AI模型用于平扫脑CT工作队列的安全降级排序。",
-  "key_points": [],
-  "section": "影像与病理",
-  "type": "论文",
-  "tags": [
-   "医学影像",
-   "临床决策支持"
-  ],
-  "evidence": "同行评审",
-  "score": 4,
-  "reason": "仅标题信息，影像工作队列优先级方法，无摘要细节，处增量档",
-  "processing": "model-enriched",
-  "day": "2026-11-06",
-  "abstract_days": [
-   "2026-11-06"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
  },
  {
   "title": "Artificial Intelligence in Gallbladder Carcinoma: A Review of Research Studies and Clinical Evidence.",
@@ -500,7 +925,8 @@
   "day": "2026-11-05",
   "abstract_days": [
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1488,7 +1914,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1876,7 +2303,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1918,7 +2346,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1961,7 +2390,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2147,7 +2577,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2794,7 +3225,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2874,7 +3306,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2953,7 +3386,8 @@
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
-   "2026-11-06"
+   "2026-11-06",
+   "2026-11-07"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -6060,7 +6494,13 @@
   "processing": "model-enriched",
   "abstract": "[The Journal of international medical research] Hepatitis remains a major global health challenge and an important contributor to liver fibrosis, cirrhosis, hepatocellular carcinoma, and liver-related mortality worldwide. Early diagnosis, effective treatment selection, and accurate prognostic stratification remain critical unmet needs in clinical hepatology. Artificial intelligence, particularly machine learning and deep learning, has emerged as a promising approach to addressing these challenges through the integration and analysis of large-scale, heterogeneous biomedical datasets. This narrative review synthesizes advances in artificial intelligence applications in hepatitis research and clinical practice published over the past decade, organized across three clinical domains: diagnosis, treatment optimization, and prognosis prediction. In the diagnostic domain, artificial intelligence-based approaches have been applied to medical imaging, digital pathology, and multi-omics data to enhance the detection, classification, and staging of liver disease. In the therapeutic domain, machine learning models have been increasingly deployed to support drug discovery, optimize therapeutic regimens, and predict individual treatment responses. In the prognostic domain, artificial intelligence-driven models have shown promising performance in predicting disease progression, survival outcomes, and clinical complications. Nevertheless, key limitations persist, including data heterogeneity, limited external generalizability, and barriers to clinical translation. Future progress will depend on prospective multicenter evaluation, use of interoperable multimodal data, development of transparent models that account for uncertainty, and evidence that artificial intelligence improves clinical decisions and patient outcomes rather than performance metrics alone.",
   "zh_abstract": "［《国际医学研究杂志》（The Journal of International Medical Research）］肝炎仍是全球重大健康挑战，也是全球肝纤维化、肝硬化、肝细胞癌和肝脏相关死亡的重要促成因素。早期诊断、有效治疗选择以及准确的预后分层仍是临床肝病学中关键且未被满足的需求。人工智能，尤其是机器学习和深度学习，通过整合和分析大规模、异质性生物医学数据集，已成为应对这些挑战的有前景的方法。本叙述性综述综合了过去十年发表的肝炎研究和临床实践中人工智能应用进展，按三个临床领域组织：诊断、治疗优化和预后预测。在诊断领域，基于人工智能的方法已应用于医学影像、数字病理学和多组学数据，以增强肝病的检测、分类和分期。在治疗领域，机器学习模型越来越多地被部署用于支持药物发现、优化治疗方案和预测个体治疗反应。在预后领域，人工智能驱动的模型在预测疾病进展、生存结局和临床并发症方面显示出有希望的性能。然而，关键局限性仍然存在，包括数据异质性、有限的外部可推广性以及临床转化障碍。未来的进展将取决于前瞻性多中心评估、使用可互操作的多模态数据、开发能够考虑不确定性的透明模型，以及证明人工智能改善临床决策和患者结局而不仅仅是性能指标的证据。",
-  "day": "2026-10-28"
+  "day": "2026-10-28",
+  "also": [
+   {
+    "source": "PubMed · Zhongguo gu shang = China journal of orthopaedics and traumatology",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42988406/"
+   }
+  ]
  },
  {
   "title": "AI-Simplified Discharge Summaries to Improve Patient Comprehension (ContextCare)",
@@ -13403,7 +13843,13 @@
   "keep": true,
   "type": "观点",
   "reason": "叙述性综述无系统检索与定量合并，按综述档位取中低分",
-  "zh_abstract": "[Healthcare (Basel, Switzerland)] 【背景】人工智能（AI）和大语言模型（LLM）可能使外科信息更易获取和理解。然而，这些工具不能取代临床医生在共享决策中的作用，也不能取代有效知情同意的要求。【方法】本叙述性综述沿外科患者路径展开，从诊断和解释到方案比较、共享决策和知情同意。它考察了传统数字工具、LLM辅助沟通、个性化预测、直接针对同意的研究、患者和专业人员视角以及法律、伦理和治理问题。未进行正式荟萃分析和研究层面偏倚风险评估。【结果】AI可能支持外科护理的若干阶段。诊断和预测系统可辅助临床医生。LLM可帮助解释已批准的信息、为患者咨询做准备并改进同意材料。传统交互式工具在改善理解方面证据最强。LLM辅助同意的证据仍主要基于模拟和文档分析。面向患者的使用需要来源控制、隐私保护和可见的临床监督。AI不能确立能力、自愿性或最终授权。我们提出一个五级框架，其中保障措施随临床影响力增加而增强。【结论】当AI使用已批准信息、服务于明确任务并始终处于临床监督之下时，它可能支持患者从诊断走向知情外科选择。当前证据不支持自主的AI介导同意或AI指导的治疗选择。目标应是更知情、偏好敏感的决定，而不是自动签名。"
+  "zh_abstract": "[Healthcare (Basel, Switzerland)] 【背景】人工智能（AI）和大语言模型（LLM）可能使外科信息更易获取和理解。然而，这些工具不能取代临床医生在共享决策中的作用，也不能取代有效知情同意的要求。【方法】本叙述性综述沿外科患者路径展开，从诊断和解释到方案比较、共享决策和知情同意。它考察了传统数字工具、LLM辅助沟通、个性化预测、直接针对同意的研究、患者和专业人员视角以及法律、伦理和治理问题。未进行正式荟萃分析和研究层面偏倚风险评估。【结果】AI可能支持外科护理的若干阶段。诊断和预测系统可辅助临床医生。LLM可帮助解释已批准的信息、为患者咨询做准备并改进同意材料。传统交互式工具在改善理解方面证据最强。LLM辅助同意的证据仍主要基于模拟和文档分析。面向患者的使用需要来源控制、隐私保护和可见的临床监督。AI不能确立能力、自愿性或最终授权。我们提出一个五级框架，其中保障措施随临床影响力增加而增强。【结论】当AI使用已批准信息、服务于明确任务并始终处于临床监督之下时，它可能支持患者从诊断走向知情外科选择。当前证据不支持自主的AI介导同意或AI指导的治疗选择。目标应是更知情、偏好敏感的决定，而不是自动签名。",
+  "also": [
+   {
+    "source": "PubMed · Medical education online",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42993682/"
+   }
+  ]
  },
  {
   "title": "fastino/Fastino-Nemotron-3.5-Super-VL-Healthcare",

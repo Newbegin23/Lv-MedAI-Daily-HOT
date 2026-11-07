@@ -265,7 +265,13 @@
 "processing": "model-enriched",
 "abstract": "[The Journal of international medical research] Hepatitis remains a major global health challenge and an important contributor to liver fibrosis, cirrhosis, hepatocellular carcinoma, and liver-related mortality worldwide. Early diagnosis, effective treatment selection, and accurate prognostic stratification remain critical unmet needs in clinical hepatology. Artificial intelligence, particularly machine learning and deep learning, has emerged as a promising approach to addressing these challenges through the integration and analysis of large-scale, heterogeneous biomedical datasets. This narrative review synthesizes advances in artificial intelligence applications in hepatitis research and clinical practice published over the past decade, organized across three clinical domains: diagnosis, treatment optimization, and prognosis prediction. In the diagnostic domain, artificial intelligence-based approaches have been applied to medical imaging, digital pathology, and multi-omics data to enhance the detection, classification, and staging of liver disease. In the therapeutic domain, machine learning models have been increasingly deployed to support drug discovery, optimize therapeutic regimens, and predict individual treatment responses. In the prognostic domain, artificial intelligence-driven models have shown promising performance in predicting disease progression, survival outcomes, and clinical complications. Nevertheless, key limitations persist, including data heterogeneity, limited external generalizability, and barriers to clinical translation. Future progress will depend on prospective multicenter evaluation, use of interoperable multimodal data, development of transparent models that account for uncertainty, and evidence that artificial intelligence improves clinical decisions and patient outcomes rather than performance metrics alone.",
 "zh_abstract": "［《国际医学研究杂志》（The Journal of International Medical Research）］肝炎仍是全球重大健康挑战，也是全球肝纤维化、肝硬化、肝细胞癌和肝脏相关死亡的重要促成因素。早期诊断、有效治疗选择以及准确的预后分层仍是临床肝病学中关键且未被满足的需求。人工智能，尤其是机器学习和深度学习，通过整合和分析大规模、异质性生物医学数据集，已成为应对这些挑战的有前景的方法。本叙述性综述综合了过去十年发表的肝炎研究和临床实践中人工智能应用进展，按三个临床领域组织：诊断、治疗优化和预后预测。在诊断领域，基于人工智能的方法已应用于医学影像、数字病理学和多组学数据，以增强肝病的检测、分类和分期。在治疗领域，机器学习模型越来越多地被部署用于支持药物发现、优化治疗方案和预测个体治疗反应。在预后领域，人工智能驱动的模型在预测疾病进展、生存结局和临床并发症方面显示出有希望的性能。然而，关键局限性仍然存在，包括数据异质性、有限的外部可推广性以及临床转化障碍。未来的进展将取决于前瞻性多中心评估、使用可互操作的多模态数据、开发能够考虑不确定性的透明模型，以及证明人工智能改善临床决策和患者结局而不仅仅是性能指标的证据。",
-"day": "2026-10-28"
+"day": "2026-10-28",
+"also": [
+{
+"source": "PubMed · Zhongguo gu shang = China journal of orthopaedics and traumatology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42988406/"
+}
+]
 },
 {
 "title": "AI-Simplified Discharge Summaries to Improve Patient Comprehension (ContextCare)",
