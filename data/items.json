@@ -1,5 +1,432 @@
 [
  {
+  "title": "ISLES’24: Final stroke infarct prediction with multimodal imaging and clinical data. Where do we stand?",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004317?dgcid=rss_sd_all",
+  "date": "2026-11-08T02:37:41.722094+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "8c534fe2d60e",
+  "keep": true,
+  "zh_title": "ISLES'24：多模态影像与临床数据的卒中梗死预测现状",
+  "summary": "Medical Image Analysis 刊出 ISLES'24 挑战总结，梳理多模态影像联合临床数据做卒中最终梗死预测的现状。",
+  "key_points": [
+   "ISLES'24 挑战的总结与现状评估",
+   "融合多模态影像与临床数据",
+   "任务为卒中最终梗死区域预测"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "基准",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审的挑战赛总结，涉及多中心数据与基准，但属综述性总结，按综述上限 6 分",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Ezequiel de la Rosa, Ruisheng Su, Mauricio Reyes, Evamaria O. Riedel, Hakim Baazaoui, The Anh Baran, Roland Wiest, Florian Kofler, Kaiyuan Yang, Murong Xu, Julian Deseoe, Lisa Herzog, David Robben, Mahsa Mojtahedi, Laura van Poppel, Lucas de Vries, Anthony Winder, Kimberly Amador, Nils D. Forkert, Gyeongyeon Hwang",
+  "zh_abstract": "出版日期：2027年2月 来源：《Medical Image Analysis》第116卷 作者：Ezequiel de la Rosa, Ruisheng Su, Mauricio Reyes, Evamaria O. Riedel, Hakim Baazaoui, The Anh Baran, Roland Wiest, Florian Kofler, Kaiyuan Yang, Murong Xu, Julian Deseoe, Lisa Herzog, David Robben, Mahsa Mojtahedi, Laura van Poppel, Lucas de Vries, Anthony Winder, Kimberly Amador, Nils D. Forkert, Gyeongyeon Hwang",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Silent Manipulation of Mental Health Treatment Recommendations From a Large Language Model.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42975904/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.41142",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "5c0f0ee51fac",
+  "keep": true,
+  "zh_title": "大模型心理健康治疗推荐可被静默操纵",
+  "summary": "研究显示，对开源大模型施加激活引导，可在不改权重、不改提示词且不告知用户的情况下改变其抑郁症治疗推荐。",
+  "key_points": [
+   "12个抑郁咨询情境，30档引导强度",
+   "激活引导不改变权重与提示词",
+   "推荐可被商业或意识形态目的静默改变"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "JAMA Netw Open同行评审，安全问题新颖，但仅12个情境的小规模非人研究，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract": "Importance: Large language models (LLMs) increasingly inform mental health decisions by patients and clinicians. Inference-time activation steering can shift model behavior on a target dimension without altering weights or prompts and without disclosure to users, allowing treatment recommendations to be silently changed for commercial or ideological reasons. Objective: To determine whether directional activation steering can shift an open-weights LLM's depression treatment recommendations. Design Setting and Participants: This non-human subjects study applied directional activation steering to an open-weights LLM (DeepSeek V4 Flash) responding to 12 depression-advice scenarios (4 favoring medication, 4 favoring avoidance, 4 neutral), generated at 30 amplitudes from -1.5 to +1.5 in 0.1 increments plus an unsteered baseline. Exposures: A single steering direction contrasting antidepressant medication with self-directed approaches (diet, exercise, meditation, dietary supplements), constructed from 16 paired training prompts and applied at the attention output of every transformer block; weights and system prompt were held constant. Main Outcomes and Measures: The extent to which medication and four self-care categories were addressed, scored 0 to 3 by a human-validated LLM rater (Claude Opus 4.7), the medication-versus-self-care balance, and clinician referral, estimated per unit of amplitude using mixed-effects models with a scenario random intercept. Results: Across 372 generations, steering produced a graded, dose-dependent shift in the medication-versus-self-care balance, which declined by 0.32 per unit of amplitude (β = -0.32; 95% CI, -0.39 to -0.25; P < .001); medication extent fell and self-care extent rose. The shift was largest for scenarios with no stated treatment preference (β = -0.44; 95% CI, -0.54 to -0.34; P < .001). A clinician referral appeared in 322 of 372 responses (87%) and did not vary with steering amplitude (P = .63). Conclusions and Relevance: In this open-weights LLM providing depression treatment information, inference-time activation steering shifted treatment recommendations without altering weights, prompt structure, or safety outputs, with the largest effect among users expressing no treatment preference. These findings suggest a need for LLM disclosure standards and independent auditing as such models inform clinical decisions.",
+  "zh_abstract": "【重要性】大语言模型（LLMs）正越来越多地影响患者和临床医生做出的心理健康决策。推理时激活引导（inference-time activation steering）能够在既不改变权重也不改变提示、且不向用户披露的情况下，使模型行为在某一目标维度上发生偏移，从而可能出于商业或意识形态原因被悄然改变治疗建议。【目的】确定方向性激活引导是否能改变一个开放权重LLM的抑郁症治疗建议。【设计、场景与参与者】这项非人类受试者研究将方向性激活引导应用于一个开放权重LLM（DeepSeek V4 Flash），使其对12个抑郁症建议情景（4个倾向药物治疗、4个倾向回避、4个中性）作出回应；这些情景在-1.5至+1.5范围内以0.1为增量生成30个幅度，另加一个未引导的基线。【暴露】一个单一的引导方向，用于对比抗抑郁药物治疗与自我主导方法（饮食、运动、冥想、膳食补充剂），由16对配对训练提示构建，并施加于每个transformer模块的注意力输出；权重和系统提示保持不变。【主要结局与指标】药物治疗和四个自我照护类别被涉及的程度（由经人工验证的LLM评分者（Claude Opus 4.7）按0至3分评分）、药物治疗与自我照护的平衡以及临床医生转诊，均使用以情景为随机截距的混合效应模型按每单位幅度估计。【结果】在372次生成中，引导在药物治疗与自我照护的平衡上产生了分级、剂量依赖性的偏移，每单位幅度下降0.32（β = -0.32；95% CI，-0.39至-0.25；P < .001）；药物治疗程度下降，自我照护程度上升。该偏移在未陈述治疗偏好的情景中最大（β = -0.44；95% CI，-0.54至-0.34；P < .001）。372条回应中有322条（87%）出现临床医生转诊，且不随引导幅度变化（P = .63）。【结论与意义】在这个提供抑郁症治疗信息的开放权重LLM中，推理时激活引导在不改变权重、提示结构或安全输出的情况下改变了治疗建议，其效应在未表达治疗偏好的使用者中最大。这些发现提示，随着此类模型影响临床决策，有必要制定LLM披露标准并开展独立审计。"
+ },
+ {
+  "title": "Artificial intelligence in dialysis.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42989632/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.1097/MNH.0000000000001234",
+  "source": "PubMed · Current opinion in nephrology and hypertension",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "525fa1258305",
+  "also": [
+   {
+    "source": "PubMed · Oncology nursing forum",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42987153/"
+   }
+  ],
+  "keep": true,
+  "zh_title": "透析中的AI：从算法开发走向临床实施与治理",
+  "summary": "综述指出透析 AI 已进入实施与治理阶段，涉及首项随机试验、21 项 RCT 的 meta 分析及学会框架。",
+  "key_points": [
+   "首项 AI 指导透析剂量随机试验已发表",
+   "干体重调整获 21 项 RCT 的 meta 分析支持",
+   "首个肾脏病学会 AI 负责任使用框架发布"
+  ],
+  "section": "临床预测与决策",
+  "type": "观点",
+  "tags": [
+   "临床决策支持",
+   "临床预测",
+   "监管政策"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "综述类最高 6 分；涵盖随机试验与 meta 分析及治理框架，信息密度较高",
+  "processing": "model-enriched",
+  "abstract": "[Current opinion in nephrology and hypertension] Artificial intelligence (AI) and machine learning in dialysis have matured beyond the initial phase of algorithm development. Recent work has shifted toward clinical implementation, evaluation, and governance. During the past year, the first randomized trial of AI-guided dosing in maintenance hemodialysis has been published, a meta-analysis of technology-guided dry-weight adjustment has appeared, and the first professional society framework for the responsible use of AI in kidney care has been released. The Anemia Control Model is now supported by hospitalization outcomes and cost-effectiveness analyses. A randomized trial demonstrated that AI-guided erythropoiesis-stimulating agent dosing achieved outcomes comparable to physician-directed dosing. Technology-guided dry-weight adjustment is supported by a meta-analysis of 21 randomized trials. Machine learning for vascular access is evolving toward preoperative clinical decision support, while peritoneal dialysis is beginning to receive greater attention from the machine learning community. Large language models are entering nephrology along two complementary paths: open generative systems for education and clinical support, and deterministic, protocol-driven frameworks designed for safety-critical bedside applications. At the same time, the U.S. Food and Drug Administration has released comprehensive lifecycle guidance for AI-enabled medical devices. The major challenge for AI in dialysis is no longer developing accurate prediction models. Instead, success will depend on effective workflow integration, validation across diverse patient populations, ongoing postdeployment monitoring, and demonstrating meaningful improvements in patient outcomes.",
+  "zh_abstract": "[Current Opinion in Nephrology and Hypertension] 透析中的人工智能（AI）和机器学习已超越算法开发的初始阶段。近期工作已转向临床实施、评估和治理。在过去一年中，首项关于维持性血液透析中 AI 指导给药的随机试验已发表，一项关于技术引导的干体重调整的荟萃分析已出现，并且首个关于在肾脏照护中负责任使用 AI 的专业学会框架已发布。贫血控制模型（Anemia Control Model）现已得到住院结局和成本效果分析的支持。一项随机试验表明，AI 指导的促红细胞生成素刺激剂给药取得了与医生指导给药相当的结果。技术引导的干体重调整得到一项纳入 21 项随机试验的荟萃分析支持。用于血管通路的机器学习正朝着术前临床决策支持方向发展，而腹膜透析正开始受到机器学习界更多关注。大语言模型正沿两条互补路径进入肾脏病学：用于教育和临床支持的开放式生成系统，以及为安全关键的床旁应用设计的确定性、方案驱动框架。与此同时，美国食品药品监督管理局（U.S. Food and Drug Administration）已发布针对 AI 赋能医疗器械的全面全生命周期指南。透析中 AI 的主要挑战不再是开发准确的预测模型。相反，成功将取决于有效的工作流程整合、在不同患者人群中的验证、持续的部署后监测，以及证明患者结局有意义的改善。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Artificial Intelligence Scribes and Same-Day Note Closure by Patient Language Preference and Interpreter Modality.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42993549/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.42403",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": true,
+  "pop": null,
+  "id": "2e402ba9d78e",
+  "keep": true,
+  "zh_title": "AI 病历助手与当日病历关闭率：按患者语言与口译方式分析",
+  "summary": "JAMA Network Open 研究：仅见标题，考察 AI 书记员（scribes）与当日病历关闭率在患者语言偏好及口译方式上的差异。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "公平与安全",
+   "电子病历"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "AI 病历助手属临床文书落地，含语言公平维度；但仅标题无摘要，信息有限",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract_days": [
+   "2026-11-08"
+  ],
+  "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
+ },
+ {
+  "title": "Voxelwise white-matter compositional connectivity mapping from diffusion MRI via reliability-aware hierarchical inference",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004500?dgcid=rss_sd_all",
+  "date": "2026-11-08T02:37:41.722094+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "d7071dd8df40",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "基于扩散MRI的体素级白质成分连接图：可靠性感知分层推断",
+  "summary": "医学图像分析期刊论文，提出可靠性感知的分层推断方法，从扩散 MRI 生成体素级白质成分连接图。",
+  "key_points": [
+   "方法为可靠性感知分层推断",
+   "对象为扩散 MRI 白质连接",
+   "仅见题录，未含实验与验证信息"
+  ],
+  "section": "影像与病理",
+  "tags": [
+   "医学影像",
+   "神经科学"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "影像方法学论文，题录信息有限，无性能对比与验证细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract_days": [
+   "2026-11-08"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "A decision-only model as a low-cost judge of medical AI answers",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366939v1?rss=1",
+  "date": "2026-11-02T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.30.26366939",
+  "pop": null,
+  "id": "8d3872b93549",
+  "keep": true,
+  "zh_title": "仅决策模型可作为医疗 AI 答案的低成本评判者",
+  "summary": "medRxiv 预印本：在五项临床基准上预注册评估，比较仅输出结构化概率的轻量决策模型与大模型评判者的表现。",
+  "key_points": [
+   "覆盖五个已验证临床基准任务",
+   "与专家评分者及多个大模型评判者对照",
+   "提出决策模型与廉价 LLM 的混合方案"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预注册、多基准对照的评测方法预印本，尚无外部临床验证",
+  "processing": "model-enriched",
+  "abstract": "BackgroundTesting and deploying medical AI systems at scale already results in more outputs than clinicians can review, and the use of large language models (LLMs) as judges is growing rapidly. Decision-only models, cheap and fast models that return structured probabilities rather than text, offer a potentially scalable option for that goal. MethodsIn an OSF pre-registered evaluation, we tested TypeSafe Jev 1.13 as a judge on tasks from five validated clinical benchmarks: rubric grading (HealthBench), planted clinical errors (When Rubrics Fail), risk in AI-written clinical documents (MedVAL), counseling ratings and failures (CounselBench) and physicians preferences between answers (Real-POCQi). Comparators were expert raters agreement with each other, OpenAI Decisions, GPT-6 Luna, a proposed hybrid team combining decision models and a cheap LLM and, as frontier comparators, GPT-6.1 Sol and Claude Opus 5.5. The main outcome was plain agreement with the expert label. ResultsThe test comprised 25,091 units and 213,913 model calls. Jevs agreement with expert labels averaged 64.7% over six tasks. On 3,614 matched units it averaged 66.1%, against 65.0% for Opus and 60.7% for Sol, and it was non-inferior to both on four of six tasks. Jev judged the whole pool in 17 minutes for US$1.46; per judgment, it cost 1/34 of Sols price and 1/152 of Opuss. A preset cutoff held its false-alarm rate on fresh planted-error answers, and in simulation, reviewing Jevs least-sure answers first found 1.4 times the errors of a random audit. Still, omissions were hard for both: at the same false-alarm rate, Jev missed 55.6% of planted omissions and Opus 48.1%, and Opus caught 8.8 points more planted errors overall. ConclusionsAcross more than 200,000 model calls, a decision-only model was non-inferior to two frontier judges on most tasks at a small fraction of their cost and time, while reporting how sure it was of every call. With local cutoffs and expert oversight of omissions and clinical documents, judging every output of a deployed medical AI system becomes more affordable.",
+  "zh_abstract": "【背景】大规模测试和部署医疗 AI 系统已经产生超出临床医生可审阅数量的输出，而使用大语言模型（LLM）作为评判者的做法正在迅速增长。仅决策模型（decision-only models）——即返回结构化概率而非文本的廉价、快速模型——为这一目标提供了一种潜在可扩展的选择。\n【方法】在一项 OSF 预注册评估中，我们将 TypeSafe Jev 1.13 作为评判者，在来自五个经过验证的临床基准的任务上进行测试：评分细则评分（HealthBench）、植入临床错误（When Rubrics Fail）、AI 撰写的临床文件中的风险（MedVAL）、咨询评分与失败（CounselBench）以及医生对答案的偏好（Real-POCQi）。对照包括专家评分者彼此之间的一致性、OpenAI Decisions、GPT-6 Luna、一个将决策模型与廉价 LLM 结合的拟议混合团队，以及作为前沿对照的 GPT-6.1 Sol 和 Claude Opus 5.5。主要结局是与专家标签的简单一致率。\n【结果】测试包含 25,091 个单元和 213,913 次模型调用。Jev 与专家标签的一致率在六项任务上平均为 64.7%。在 3,614 个匹配单元上，其平均一致率为 66.1%，而 Opus 为 65.0%，Sol 为 60.7%，并且它在六项任务中的四项上不劣于两者。Jev 在 17 分钟内以 1.46 美元评判了整个池；按单次判断计，其成本为 Sol 价格的 1/34、Opus 价格的 1/152。一个预设截断值在新鲜的植入错误答案上保持了其假警报率，并且在模拟中，优先审阅 Jev 最不确定的答案所发现的错误是随机审计的 1.4 倍。尽管如此，遗漏对两者都很难：在相同假警报率下，Jev 漏掉了 55.6% 的植入遗漏，Opus 漏掉了 48.1%，而 Opus 总体上多发现了 8.8 个百分点的植入错误。\n【结论】在超过 200,000 次模型调用中，仅决策模型在大多数任务上不劣于两个前沿评判模型，而成本和时间仅为其一小部分，同时报告其对每次调用的确定程度。借助本地截断值以及对遗漏和临床文件的专家监督，对已部署医疗 AI 系统的每一条输出进行评判变得更加可负担。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Multi-center Prospective Validation of Real-Time AI-EGGIM System",
+  "link": "https://clinicaltrials.gov/study/NCT07915843",
+  "date": "2026-11-04T00:00:00+00:00",
+  "badge": "NCT07915843",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "8a243fcfd549",
+  "keep": true,
+  "zh_title": "实时 AI-EGGIM 系统的多中心前瞻性验证",
+  "summary": "山东大学齐鲁医院注册的多中心前瞻性观察研究，计划入组 540 例，验证实时 AI 辅助 EGGIM 评分系统，尚无结果。",
+  "key_points": [
+   "多中心前瞻性观察设计，计划入组 540 例",
+   "AI 实时判读五个胃区并计算 EGGIM 总分",
+   "针对胃癌前病变胃肠上皮化生，尚未开始招募"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地",
+   "肿瘤"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "前瞻性多中心设计加分，但仅为试验注册、无结果数据",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Qilu Hospital of Shandong University; conditions: Gastric Intestinal Metaplasia; type: OBSERVATIONAL; enrollment: 540; status: NOT_YET_RECRUITING] Gastric intestinal metaplasia (GIM) is a precancerous condition associated with an increased risk of gastric cancer. The endoscopic grading of gastric intestinal metaplasia (EGGIM) score evaluates the extent of GIM across five standard gastric regions. The investigators developed a real-time artificial intelligence-assisted EGGIM (AI-EGGIM) system that automatically assigns an intestinal metaplasia grade to each region and calculates a total EGGIM score. This prospective multi-center validation study will consecutively enroll patients undergoing upper gastrointestinal endoscopy. The AI-EGGIM system will generate real-time grades for the five standard gastric regions. Regardless of endoscopic appearance or AI output, every patient will undergo five mapping biopsies, with one biopsy obtained from each standard region. Histopathological operative link on gastric intestinal metaplasia (OLGIM) staging will serve as the reference standard. The primary objective is to estimate the performance of an AI-EGGIM score ≥ 5 for identifying patients at high risk of gastric cancer.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：山东大学齐鲁医院；疾病：胃黏膜肠化生；类型：观察性；入组人数：540；状态：尚未招募] 胃黏膜肠化生（gastric intestinal metaplasia, GIM）是一种癌前病变，与胃癌风险增加相关。胃黏膜肠化生内镜分级（endoscopic grading of gastric intestinal metaplasia, EGGIM）评分评估 GIM 在五个标准胃区域的范围。研究者开发了一种实时人工智能辅助 EGGIM（AI-EGGIM）系统，可自动为每个区域分配肠化生分级并计算总 EGGIM 评分。这项前瞻性多中心验证研究将连续入组接受上消化道内镜检查的患者。AI-EGGIM 系统将实时生成五个标准胃区域的分级。无论内镜表现或 AI 输出如何，每位患者都将接受五点定位活检，每个标准区域取一块活检。组织病理学 OLGIM（operative link on gastric intestinal metaplasia）分期将作为参考标准。主要目标是评估 AI-EGGIM 评分 ≥ 5 用于识别胃癌高风险患者的性能。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Hierarchical Temporal Transformer for Cancer Grade Prediction and Cross-Cancer Transfer Learning from Pathology Reports",
+  "link": "https://www.biorxiv.org/content/10.64898/2026.11.05.764680v1?rss=1",
+  "date": "2026-11-06T00:00:00+00:00",
+  "source": "bioRxiv",
+  "source_group": "bioRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.05.764680",
+  "pop": null,
+  "id": "b4f74a3e2443",
+  "keep": true,
+  "zh_title": "分层时序Transformer从病理报告预测肿瘤分级并跨癌种迁移",
+  "summary": "预印本提出分层时序Transformer，用改编BiomedBERT编码病理报告并结合就诊间隔，在合成基准与4786份TCGA报告上做分级预测与跨癌种迁移。",
+  "key_points": [
+   "模型结合报告文本与就诊间隔的时间编码",
+   "两个合成基准各用十个随机种子评估",
+   "TCGA 14个癌种中保留3种做跨癌种测试"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "肿瘤",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "方法有新意但为预印本，仅内部/留出癌种验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Background: Language models for cancer reports usually read one document at a time and are tested on tumour types seen in training. Continuous-time sequence models address the first gap, but whether they use visit timing, not just order, is seldom tested. Methods: We developed the Hierarchical Temporal Transformer (HTT), which encodes reports with adapted BiomedBERT and reads the sequence with a cancer-type-conditioned temporal transformer. We evaluated it against best-possible AUROC ceilings on two synthetic benchmarks, one with the label stated in the text and one recoverable only from tumour sizes and visit intervals (ten seeds). Diagnostics led to an interval-aware time code (HTT-IA). On 4,786 TCGA pathology reports in 14 types, three types were withheld, and a text-only HTT was compared with a survival model. Results: On the phrase benchmark HTT reached AUROC 0.931 +/- 0.012 against 0.913 +/- 0.007 for a last-report baseline (+0.018, 95% CI -0.009 to +0.050); dates cannot raise the ceiling there. On the growth benchmark the initial time code scored 0.790, equal to a no-time model (0.787), whereas HTT-IA reached 0.843 (+0.053, 0.026 to 0.082) against ceilings of 0.894 without and 0.979 with dates. On unseen tumour types HTT reached 0.925 +/- 0.007, equal to in-distribution performance and to a single-report baseline. Text-only macro C-index was 0.592 (CALM 0.626-0.652). Conclusion: Cross-type transfer is carried by the pre-trained encoder. Visit timing is used only when the data make it identifiable and the time code is on a clinical scale. Ceilings, order-only ablations and re-dating probes are inexpensive checks for such models.",
+  "zh_abstract": "【背景】用于癌症报告的语言模型通常一次阅读一份文件，并在训练中见过的肿瘤类型上进行测试。连续时间序列模型解决了第一个缺口，但其是否使用就诊时间而不仅仅是顺序，鲜有检验。\n【方法】我们开发了分层时间 Transformer（Hierarchical Temporal Transformer, HTT），其使用适配的 BiomedBERT 编码报告，并使用以癌症类型为条件的时间 transformer 读取序列。我们在两个合成基准上将其与最佳可能 AUROC 上限进行比较，一个基准的标签在文本中明确陈述，另一个只能从肿瘤大小和就诊间隔中恢复（十个随机种子）。诊断分析促成了一种间隔感知时间编码（HTT-IA）。在 14 种类型的 4,786 份 TCGA 病理报告中，三种类型被留出，并将仅文本 HTT 与生存模型进行比较。\n【结果】在短语基准上，HTT 达到 AUROC 0.931 +/- 0.012，而最后报告基线为 0.913 +/- 0.007（+0.018，95% CI -0.009 至 +0.050）；在该基准中日期无法提高上限。在生长基准上，初始时间编码得分为 0.790，与无时间模型（0.787）相同，而 HTT-IA 达到 0.843（+0.053，0.026 至 0.082），对应上限为无日期时 0.894、有日期时 0.979。在未见肿瘤类型上，HTT 达到 0.925 +/- 0.007，与分布内性能以及单报告基线相同。仅文本的宏 C 指数为 0.592（CALM 0.626-0.652）。\n【结论】跨类型迁移由预训练编码器承载。仅当数据使就诊时间可识别且时间编码处于临床尺度时，才会使用就诊时间。上限、仅顺序消融和重新标注日期探针是此类模型的低成本检查。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "One-Third of 163 FDA-Cleared AI Medical Devices Got Algorithm Updates, but Most Reported No Clinical Benefit Data",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWdLWHZLWFlQam1tT19mcE5ZUi1TNEtJVUhNcjMyVko1S1BzSHp6dWJ0T0tfLXNMZlpvZW05QVh6MFd1RGNrODNOeDFNUlZoYkhqOHFqMTl5ZkpRbTNoUnZ5eVJoY3FlMXdwR2szTkNTTHVHaDgtdm1KdE4xaFhNM1VkZXJlZW9yYm9mT1lycno1UQ?oc=5",
+  "date": "2026-11-08T01:01:00+00:00",
+  "source": "Medical Daily",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.medicaldaily.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "332becb02c22",
+  "keep": true,
+  "zh_title": "163款FDA获批AI器械中三分之一更新过算法，多未报告临床获益数据",
+  "summary": "标题称163款FDA获批AI医疗器械中约三分之一经历算法更新，但多数未报告临床获益数据（仅标题，未读全文）。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "涉及FDA获批AI器械算法更新与证据缺口，属监管议题但仅标题",
+  "processing": "model-enriched",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "AI Didn’t Reduce Clinician Burden — It Just Moved It",
+  "link": "https://medcitynews.com/2026/11/ai-didnt-reduce-clinician-burden-it-just-moved-it/",
+  "date": "2026-11-05T14:51:00+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "f046dc2b602f",
+  "keep": true,
+  "zh_title": "AI并未减轻临床负担，只是把负担转移了",
+  "summary": "评论指出文档类AI工具虽解决了显眼的痛点，但并未真正减少临床医生的整体负担，只是将其转移。",
+  "key_points": [
+   "文档工具确有价值但只解决表层痛点",
+   "解决可见痛点不等于解决关键问题",
+   "对AI减轻负担的叙事提出质疑"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "临床落地",
+   "电子病历"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业评论，无数据与新证据，属增量观点档",
+  "processing": "model-enriched",
+  "abstract": "Documentation tools have value. They solve a visible pain point well. But solving a visible pain point is not the same as solving the right one. The post AI Didn’t Reduce Clinician Burden — It Just Moved It appeared first on MedCity News .",
+  "zh_abstract": "文档记录工具确有价值。它们很好地解决了一个明显的痛点。但解决一个明显的痛点并不等同于解决正确的问题。文章《AI 并未减轻临床医生负担——只是将其转移》首先发表于 MedCity News。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "AI-Based Model for Predicting Type 2 Diabetes Risk Using Lifestyle Factors Among Senior Nursing Students",
+  "link": "https://clinicaltrials.gov/study/NCT07916428",
+  "date": "2026-11-04T00:00:00+00:00",
+  "badge": "NCT07916428",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "a8312d6f2a5c",
+  "keep": true,
+  "zh_title": "基于生活方式因素预测护理高年级学生2型糖尿病风险的AI模型",
+  "summary": "埃及亚历山大大学注册观察性研究，拟对 200 名护理高年级学生构建并检验 2 型糖尿病风险 AI 模型。",
+  "key_points": [
+   "观察性设计，计划招募 200 人",
+   "尚未开始招募，无结果",
+   "以生活方式问卷为模型输入"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "公共卫生"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "单中心小样本、尚未招募且无结果，仅方案注册信息，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Alexandria University; conditions: Type 2 Diabetes Mellitus; type: OBSERVATIONAL; enrollment: 200; status: NOT_YET_RECRUITING] This study will develop and test an artificial intelligence (AI) model that estimates the risk of type 2 diabetes among senior (third- and fourth-year) nursing students at the Faculty of Nursing, Alexandria University, Egypt. Type 2 diabetes is common in Egypt, and many cases are not diagnosed. Daily habits such as diet, physical activity, and body weight play a major role in who develops it. Nursing students will become health care providers who teach patients about healthy living, so it is important to find those who may be at risk early. About 200 students will take part. Each student will complete a questionnaire about personal information and the Health-Promoting Lifestyle Profile II, which measures health habits such as nutrition, physical activity, stress management, and health responsibility. The researcher will measure height, weight, waist size, and blood pressure. Each student's diabetes risk will be scored using the Arabic version of the Australian Type 2 Diabetes Risk Assessment Tool (AUSDRISK), which classifies risk as low, moderate, or high. These data will be used to build a machine learning model that predicts each student's diabetes risk level from lifestyle and body measurement factors, and shows which factors influenced the prediction most. Students will then try the model and rate how useful and easy to use it is. No treatment or intervention will be given. The study aims to support early identification of students at risk and to provide a model that nursing education programs and community health nurses could use in preventive health efforts.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：亚历山大大学；疾病：2型糖尿病；类型：观察性（OBSERVATIONAL）；入组人数：200；状态：尚未招募（NOT_YET_RECRUITING）] 本研究将开发并测试一个人工智能（AI）模型，用于估计埃及亚历山大大学护理学院高年级（三年级和四年级）护理学生中2型糖尿病的风险。2型糖尿病在埃及很常见，且许多病例未被诊断。饮食、身体活动和体重等日常习惯在谁会发生该病方面起主要作用。护理学生将成为向患者传授健康生活知识的医疗保健提供者，因此早期发现可能处于风险中的学生很重要。约200名学生将参与。每名学生将完成一份关于个人信息的问卷以及健康促进生活方式量表 II（Health-Promoting Lifestyle Profile II），该量表测量营养、身体活动、压力管理和健康责任等健康习惯。研究者将测量身高、体重、腰围和血压。每名学生的糖尿病风险将使用澳大利亚2型糖尿病风险评估工具（AUSDRISK）阿拉伯语版本进行评分，该工具将风险分类为低、中或高。这些数据将用于构建一个机器学习模型，该模型根据生活方式和身体测量因素预测每名学生的糖尿病风险水平，并显示哪些因素对预测影响最大。随后学生将试用该模型，并评价其有用性和易用性。不给予任何治疗或干预。本研究旨在支持早期识别处于风险中的学生，并提供一个护理教育项目和社区健康护士可用于预防性健康工作的模型。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
+  "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
+  "date": "2026-11-06T06:00:00+00:00",
+  "source": "NEJM AI",
+  "source_group": "NEJM AI",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1056/AIoa2600112",
+  "pop": null,
+  "id": "dedfad02c8c2",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "AURA：自体免疫病预测模型的随机实用性评估",
+  "summary": "将可解释的ANA阳性自体免疫病预测模型嵌入电子病历，在单中心开展为期2年的随机实用性研究，评估其对诊断时点的影响。",
+  "key_points": [
+   "模型预测ANA阳性者发生系统性自身免疫病",
+   "1:1随机，干预组高危者加速风湿科评估",
+   "单中心学术医疗系统，随访2年"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "电子病历",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 8,
+  "reason": "前瞻随机实用性设计评估诊断时点结局，非仅准确率，但为单中心，属重要档",
+  "processing": "model-enriched",
+  "day": "2026-11-07",
+  "abstract": "BACKGROUND: No evidence-based guidance exists for triaging individuals with positive antinuclear antibody (ANA) tests for rheumatology referral. We developed and deployed an interpretable clinical prediction model to predict which individuals with incident positive ANA tests will develop systemic autoimmune disease and evaluated its effect on time to autoimmune disease diagnosis in a 2-year randomized pragmatic study. METHODS: The model was integrated into the electronic health record (EHR) at a single academic health system. All ANA-positive individuals were randomly assigned 1:1 independently of risk scores. In the intervention group, individuals with high-risk scores were invited for expedited rheumatology evaluation. In the control group, risk scores were calculated but not acted on. All participants received standard of care and could be referred to rheumatology. Chart reviews every 6 months assessed whether patients had undergone rheumatology evaluation and received a diagnosis of autoimmune disease. The primary outcome, time from positive ANA test to diagnosis, was analyzed using a Cox proportional-hazards model. Among individuals evaluated by rheumatology within 6 months of the positive ANA, the proportion diagnosed with an autoimmune disease was compared between study groups. RESULTS: Of 2385 randomly assigned individuals, 954 were analyzed in the intervention group and 1006 in the control group after postrandomization exclusions. Individuals in the intervention group had a significantly shorter time to autoimmune disease diagnosis from the date of positive ANA (hazard ratio, 1.9; 95% confidence interval, 1.3 to 2.7; P<0.001). Among individuals diagnosed with an autoimmune disease, the median time to diagnosis was 43 days in the intervention group and 138 days in the control group. Among those evaluated by rheumatology within 6 months of a positive ANA test, 23% in the intervention group and 16% in the control group were diagnosed with an autoimmune disease (P=0.07). CONCLUSIONS: In this randomized pragmatic study, the intervention incorporating the clinical prediction model was associated with a significantly shorter time to autoimmune disease diagnosis. (Funded by the National Institutes of Health and others.).",
+  "zh_abstract": "【背景】对于抗核抗体（ANA）检测阳性的个体，目前尚无基于证据的指导来分诊其风湿科转诊。我们开发并部署了一个可解释的临床预测模型，用于预测哪些新发ANA阳性检测的个体会发生系统性自身免疫病，并在一项为期2年的随机实用性研究中评估了其对自身免疫病诊断时间的影响。【方法】该模型被整合到单一学术医疗系统的电子健康记录（EHR）中。所有ANA阳性个体均按1:1随机分配，且分配与风险评分无关。在干预组中，高风险评分的个体被邀请接受加速的风湿科评估。在对照组中，计算风险评分但不据此采取行动。所有参与者均接受标准诊疗，并可被转诊至风湿科。每6个月进行一次病历审查，评估患者是否接受过风湿科评估以及是否获得自身免疫病诊断。主要结局为从ANA阳性检测到诊断的时间，采用Cox比例风险模型分析。在ANA阳性后6个月内接受风湿科评估的个体中，比较了各研究组之间被诊断为自身免疫病的比例。【结果】在2385名随机分配的个体中，随机化后排除后，干预组有954人、对照组有1006人被纳入分析。干预组个体自ANA阳性之日起至自身免疫病诊断的时间显著更短（风险比1.9；95%置信区间1.3至2.7；P<0.001）。在被诊断为自身免疫病的个体中，干预组的中位诊断时间为43天，对照组为138天。在ANA阳性检测后6个月内接受风湿科评估的个体中，干预组23%、对照组16%被诊断为自身免疫病（P=0.07）。【结论】在这项随机实用性研究中，纳入临床预测模型的干预与自身免疫病诊断时间显著缩短相关。（由美国国立卫生研究院等资助。）"
+ },
+ {
   "title": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion",
   "link": "https://www.nature.com/articles/s41591-026-04724-9",
   "date": "2026-11-06T00:00:00+00:00",
@@ -14,29 +441,62 @@
   "id": "3cf1b441539c",
   "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
   "keep": true,
-  "zh_title": "步态基础模型：从3D骨骼运动预测多系统健康表型",
-  "summary": "Nature Medicine 研究基于3328名成人的3D骨骼运动数据开发步态基础模型，用于预测心血管代谢、心理健康与衰弱等临床特征与诊断。",
+  "zh_title": "3D骨骼运动步态基础模型预测多系统健康表型",
+  "summary": "基于3328名深度表型成人的单深度相机3D骨骼运动数据，构建步态基础模型预测覆盖18个身体系统的健康表型。",
   "key_points": [
-   "建模数据为3328名成人的3D骨骼运动",
-   "可预测心血管代谢、心理健康、衰弱等表型",
-   "成果发表于 Nature Medicine，经同行评审"
+   "3328名深度表型成人，5项运动任务",
+   "学习嵌入优于人工步态特征",
+   "覆盖握力、睡眠等18个身体系统"
   ],
   "section": "临床预测与决策",
-  "type": "模型",
+  "type": "论文",
   "tags": [
    "生理信号",
-   "临床预测",
-   "多模态"
+   "临床预测"
   ],
   "evidence": "同行评审",
-  "score": 6,
-  "reason": "大样本基础模型并预测多系统表型，但来源未提及外部验证或临床结局，属值得一看档",
+  "score": 7,
+  "reason": "Nature Medicine发表，大样本基础模型覆盖18系统，但外部验证未明确，属重要档下限",
   "processing": "model-enriched",
   "day": "2026-11-07",
-  "abstract_days": [
-   "2026-11-07"
+  "abstract": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. Here we developed a gait foundation model for three-dimensional skeletal motion, which was recorded via a single-depth camera during 5 motor tasks, from 3,328 deeply phenotyped adults. Our purpose was to capture the full pattern of a person’s movement and use it to predict health phenotypes such as grip strength and sleep quality across 18 body systems. Gait is conventionally described by engineered features (for example, calculated measurements such as cadence and stride length), which may fail to capture the fine detail of how a person moves. Our model instead translates movement into learned embeddings: sets of numbers that describe how all body joints move together over time. Learned embeddings outperformed engineered features for prediction of age (Pearsonʼs r = 0.69), body mass index (r = 0.91) and visceral adipose tissue area (r = 0.83), and embeddings significantly predicted 1,887 of 3,210 tested phenotypes. Relative to a baseline model using age, body mass index, visceral adipose tissue and height alone, gait embeddings improved prediction in all 18 systems in males and 17 of 18 in females, as well as prediction of clinical diagnoses and medication use. Anatomical ablation analyses revealed that leg dynamics dominated metabolic and frailty predictions, and torso dynamics encoded sleep and lifestyle phenotypes. These findings establish gait as an independent, multisystem biosignal, motivating integration of gait analysis into routine clinical assessment as a scalable, passive vital sign.",
+  "zh_abstract": "步态正日益被视为一种生命体征，然而当前的方法将其视为特定病理的症状，而非系统性生物标志物。在此，我们开发了一个用于三维骨骼运动数据的步态基础模型；该数据通过单深度相机在5项运动任务中采集自3,328名深度表型化的成年人。我们的目的是捕捉一个人运动的完整模式，并用其预测跨越18个身体系统的健康表型，如握力和睡眠质量。步态通常由工程化特征（例如，计算得到的步频和步长等测量值）描述，这些特征可能无法捕捉一个人如何运动的细微细节。我们的模型则将运动转换为学习到的嵌入（learned embeddings）：即描述所有身体关节随时间如何协同运动的一组数字。学习到的嵌入在预测年龄（Pearson r = 0.69）、体质指数（r = 0.91）和内脏脂肪组织面积（r = 0.83）方面优于工程化特征，且嵌入显著预测了3,210个受测表型中的1,887个。相对于仅使用年龄、体质指数、内脏脂肪组织和身高的基线模型，步态嵌入改善了男性全部18个系统和女性18个系统中17个系统的预测，以及对临床诊断和药物使用的预测。解剖学消融分析显示，腿部动力学在代谢和衰弱预测中占主导，而躯干动力学编码了睡眠和生活方式表型。这些发现确立了步态作为一种独立的多系统生物信号，推动将步态分析作为一种可扩展的、被动的生命体征整合到常规临床评估中。"
+ },
+ {
+  "title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
+  "link": "https://www.nature.com/articles/s41746-026-03427-2",
+  "date": "2026-11-05T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03427-2",
+  "pop": null,
+  "id": "e935f7bbd731",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "多中心AI模型预测HFpEF合并UA患者心衰住院风险",
+  "summary": "中国多中心4367例不稳定型心绞痛合并HFpEF患者，用集成特征选择与12种机器学习模型预测12/24/36个月心衰住院风险并外部验证。",
+  "key_points": [
+   "多中心回顾性队列纳入4367例患者",
+   "外部验证AUC约0.836–0.839",
+   "预测12、24、36个月心衰住院风险"
   ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "多中心大样本且报告外部验证，但为回顾性研究，属重要档下限",
+  "processing": "model-enriched",
+  "day": "2026-11-07",
+  "abstract": "Heart failure with preserved ejection fraction (HFpEF) complicated by unstable angina (UA) represents a major challenge in chronic disease management with high risk of recurrent heart failure hospitalization (HFH), and despite the availability of multicenter real-world data, AI-driven tools for multi-horizon risk assessment remain limited. This multicenter retrospective cohort enrolled 4367 patients with UA and HFpEF, and an ensemble feature selection pipeline integrating LASSO, SVM-RFE and Boruta identified robust predictors, followed by training of twelve machine learning algorithms to estimate HFH risk at 12-, 24- and 36-month horizons with external validation. The optimal time-specific models (ET, GBDT and LightGBM) achieved strong discrimination in the training cohort with AUCs of 0.818, 0.834 and 0.863, and maintained performance in external validation with AUCs of 0.839, 0.836 and 0.851, respectively, while SHAP analysis highlighted diabetes mellitus, TyG-BMI and NT-proBNP as the most influential predictors. We developed and externally validated a multi-time-point machine learning framework for HFH risk stratification in UA and HFpEF, which showed acceptable calibration and potential clinical utility on decision-curve analysis. Further prospective and real-world validation across diverse populations and healthcare systems is needed to confirm clinical effectiveness and support translation into routine practice.",
+  "zh_abstract": "射血分数保留的心力衰竭（HFpEF）合并不稳定型心绞痛（UA）是慢性疾病管理中的一大挑战，其复发性心力衰竭住院（HFH）风险高；尽管已有多个中心的真实世界数据可用，用于多时间跨度风险评估的AI驱动工具仍然有限。本多中心回顾性队列纳入了4367例UA合并HFpEF患者，一个整合LASSO、SVM-RFE和Boruta的集成特征选择流程识别出稳健的预测因子，随后训练了十二种机器学习算法以估计12、24和36个月时间跨度的HFH风险，并进行了外部验证。最优的时间特异模型（ET、GBDT和LightGBM）在训练队列中表现出较强的区分能力，AUC分别为0.818、0.834和0.863，并在外部验证中保持性能，AUC分别为0.839、0.836和0.851；SHAP分析突出显示糖尿病、TyG-BMI和NT-proBNP是最有影响力的预测因子。我们开发并外部验证了用于UA合并HFpEF患者HFH风险分层的时间多点机器学习框架，其显示出可接受的校准度，并在决策曲线分析中显示出潜在的临床实用性。尚需在不同人群和医疗系统中开展进一步的前瞻性和真实世界验证，以确认临床有效性并支持其转化为常规实践。"
  },
  {
   "title": "Physical Limits to AI Substitution across Physician Specialties — Implications for the Physician Workforce",
@@ -109,78 +569,6 @@
   "day": "2026-11-07"
  },
  {
-  "title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
-  "link": "https://www.nature.com/articles/s41746-026-03427-2",
-  "date": "2026-11-05T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03427-2",
-  "pop": null,
-  "id": "e935f7bbd731",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "AI多时段风险分层预测HFpEF患者心衰住院：中国多中心队列",
-  "summary": "中国多中心队列研究，用AI对尿酸升高合并HFpEF患者做多时间跨度心衰住院风险分层。",
-  "key_points": [
-   "中国多中心队列设计",
-   "多时间跨度心衰住院风险预测",
-   "目标人群为尿酸升高合并HFpEF"
-  ],
-  "section": "临床预测与决策",
-  "type": "论文",
-  "tags": [
-   "临床预测",
-   "临床决策支持"
-  ],
-  "evidence": "同行评审",
-  "score": 6,
-  "reason": "多中心队列且以住院结局为预测目标，但仅见摘要级信息，取6分",
-  "processing": "model-enriched",
-  "day": "2026-11-07",
-  "abstract_days": [
-   "2026-11-07"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
- },
- {
-  "title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
-  "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
-  "date": "2026-11-06T06:00:00+00:00",
-  "source": "NEJM AI",
-  "source_group": "NEJM AI",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": true,
-  "badge": "DOI 10.1056/AIoa2600112",
-  "pop": null,
-  "id": "dedfad02c8c2",
-  "_abs_err": "page: HTTP Error 403: Forbidden",
-  "keep": true,
-  "zh_title": "自身免疫病预测模型AURA的随机评估",
-  "summary": "标题显示为NEJM AI刊发的自身免疫病风险预测模型AURA的随机化评估，未见正文。",
-  "key_points": [],
-  "section": "临床预测与决策",
-  "type": "论文",
-  "tags": [
-   "临床预测",
-   "临床决策支持"
-  ],
-  "evidence": "同行评审",
-  "score": 5,
-  "reason": "预测模型随机化评估设计有价值，但仅有标题信息，按标题上限取5分",
-  "processing": "model-enriched",
-  "day": "2026-11-07",
-  "abstract_days": [
-   "2026-11-07"
-  ],
-  "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
- },
- {
   "title": "Ask Before You Look: A conversational multi-level pathology segmentation framework",
   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004494?dgcid=rss_sd_all",
   "date": "2026-11-07T10:31:44.727535+00:00",
@@ -214,7 +602,8 @@
   "processing": "model-enriched",
   "day": "2026-11-07",
   "abstract_days": [
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -284,7 +673,8 @@
   "processing": "model-enriched",
   "day": "2026-11-07",
   "abstract_days": [
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -394,7 +784,8 @@
   "processing": "model-enriched",
   "day": "2026-11-07",
   "abstract_days": [
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1320,7 +1711,8 @@
   "abstract_days": [
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2315,7 +2707,8 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2704,7 +3097,8 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2747,7 +3141,8 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2791,7 +3186,8 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2978,7 +3374,8 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
-   "2026-11-07"
+   "2026-11-07",
+   "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -13991,31 +14388,6 @@
     "link": "https://www.gov.uk/government/news/uk-regulator-brings-new-ai-and-medtech-agenda-to-advamed"
    }
   ],
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "AI为什么会一本正经地“胡说八道”？",
-  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamRfTEx6aWZaa24teTRxWnZ4SW9fOUk2M2VtVmJMS0E4UkFZbXpIODFDeFZhVm1CMDlVOHY4cVBrTlcyc0FBX2ZsX2hHUjhuUjlRQUp4SmZSTHVOamVfTktYOGJSa3k5V0lVblVHOFFldXpxQV84WTlwb29JSEZZMVFTbDB1dnlDdU16QTlpVQ?oc=5",
-  "desc": "",
-  "date": "2026-10-19T14:37:00+00:00",
-  "source": "新浪网",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://k.sina.com.cn",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "c7dba39c1bdb",
   "score": null,
   "zh_title": "",
   "tags": [],

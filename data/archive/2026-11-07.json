@@ -1,5 +1,42 @@
 [
 {
+"title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
+"date": "2026-11-06T06:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AIoa2600112",
+"pop": null,
+"id": "dedfad02c8c2",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "AURA：自体免疫病预测模型的随机实用性评估",
+"summary": "将可解释的ANA阳性自体免疫病预测模型嵌入电子病历，在单中心开展为期2年的随机实用性研究，评估其对诊断时点的影响。",
+"key_points": [
+"模型预测ANA阳性者发生系统性自身免疫病",
+"1:1随机，干预组高危者加速风湿科评估",
+"单中心学术医疗系统，随访2年"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"电子病历",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 8,
+"reason": "前瞻随机实用性设计评估诊断时点结局，非仅准确率，但为单中心，属重要档",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract": "BACKGROUND: No evidence-based guidance exists for triaging individuals with positive antinuclear antibody (ANA) tests for rheumatology referral. We developed and deployed an interpretable clinical prediction model to predict which individuals with incident positive ANA tests will develop systemic autoimmune disease and evaluated its effect on time to autoimmune disease diagnosis in a 2-year randomized pragmatic study. METHODS: The model was integrated into the electronic health record (EHR) at a single academic health system. All ANA-positive individuals were randomly assigned 1:1 independently of risk scores. In the intervention group, individuals with high-risk scores were invited for expedited rheumatology evaluation. In the control group, risk scores were calculated but not acted on. All participants received standard of care and could be referred to rheumatology. Chart reviews every 6 months assessed whether patients had undergone rheumatology evaluation and received a diagnosis of autoimmune disease. The primary outcome, time from positive ANA test to diagnosis, was analyzed using a Cox proportional-hazards model. Among individuals evaluated by rheumatology within 6 months of the positive ANA, the proportion diagnosed with an autoimmune disease was compared between study groups. RESULTS: Of 2385 randomly assigned individuals, 954 were analyzed in the intervention group and 1006 in the control group after postrandomization exclusions. Individuals in the intervention group had a significantly shorter time to autoimmune disease diagnosis from the date of positive ANA (hazard ratio, 1.9; 95% confidence interval, 1.3 to 2.7; P<0.001). Among individuals diagnosed with an autoimmune disease, the median time to diagnosis was 43 days in the intervention group and 138 days in the control group. Among those evaluated by rheumatology within 6 months of a positive ANA test, 23% in the intervention group and 16% in the control group were diagnosed with an autoimmune disease (P=0.07). CONCLUSIONS: In this randomized pragmatic study, the intervention incorporating the clinical prediction model was associated with a significantly shorter time to autoimmune disease diagnosis. (Funded by the National Institutes of Health and others.).",
+"zh_abstract": "【背景】对于抗核抗体（ANA）检测阳性的个体，目前尚无基于证据的指导来分诊其风湿科转诊。我们开发并部署了一个可解释的临床预测模型，用于预测哪些新发ANA阳性检测的个体会发生系统性自身免疫病，并在一项为期2年的随机实用性研究中评估了其对自身免疫病诊断时间的影响。【方法】该模型被整合到单一学术医疗系统的电子健康记录（EHR）中。所有ANA阳性个体均按1:1随机分配，且分配与风险评分无关。在干预组中，高风险评分的个体被邀请接受加速的风湿科评估。在对照组中，计算风险评分但不据此采取行动。所有参与者均接受标准诊疗，并可被转诊至风湿科。每6个月进行一次病历审查，评估患者是否接受过风湿科评估以及是否获得自身免疫病诊断。主要结局为从ANA阳性检测到诊断的时间，采用Cox比例风险模型分析。在ANA阳性后6个月内接受风湿科评估的个体中，比较了各研究组之间被诊断为自身免疫病的比例。【结果】在2385名随机分配的个体中，随机化后排除后，干预组有954人、对照组有1006人被纳入分析。干预组个体自ANA阳性之日起至自身免疫病诊断的时间显著更短（风险比1.9；95%置信区间1.3至2.7；P<0.001）。在被诊断为自身免疫病的个体中，干预组的中位诊断时间为43天，对照组为138天。在ANA阳性检测后6个月内接受风湿科评估的个体中，干预组23%、对照组16%被诊断为自身免疫病（P=0.07）。【结论】在这项随机实用性研究中，纳入临床预测模型的干预与自身免疫病诊断时间显著缩短相关。（由美国国立卫生研究院等资助。）"
+},
+{
 "title": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion",
 "link": "https://www.nature.com/articles/s41591-026-04724-9",
 "date": "2026-11-06T00:00:00+00:00",
@@ -14,29 +51,62 @@
 "id": "3cf1b441539c",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "步态基础模型：从3D骨骼运动预测多系统健康表型",
-"summary": "Nature Medicine 研究基于3328名成人的3D骨骼运动数据开发步态基础模型，用于预测心血管代谢、心理健康与衰弱等临床特征与诊断。",
+"zh_title": "3D骨骼运动步态基础模型预测多系统健康表型",
+"summary": "基于3328名深度表型成人的单深度相机3D骨骼运动数据，构建步态基础模型预测覆盖18个身体系统的健康表型。",
 "key_points": [
-"建模数据为3328名成人的3D骨骼运动",
-"可预测心血管代谢、心理健康、衰弱等表型",
-"成果发表于 Nature Medicine，经同行评审"
+"3328名深度表型成人，5项运动任务",
+"学习嵌入优于人工步态特征",
+"覆盖握力、睡眠等18个身体系统"
 ],
 "section": "临床预测与决策",
-"type": "模型",
+"type": "论文",
 "tags": [
 "生理信号",
-"临床预测",
-"多模态"
+"临床预测"
 ],
 "evidence": "同行评审",
-"score": 6,
-"reason": "大样本基础模型并预测多系统表型，但来源未提及外部验证或临床结局，属值得一看档",
+"score": 7,
+"reason": "Nature Medicine发表，大样本基础模型覆盖18系统，但外部验证未明确，属重要档下限",
 "processing": "model-enriched",
 "day": "2026-11-07",
-"abstract_days": [
-"2026-11-07"
+"abstract": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. Here we developed a gait foundation model for three-dimensional skeletal motion, which was recorded via a single-depth camera during 5 motor tasks, from 3,328 deeply phenotyped adults. Our purpose was to capture the full pattern of a person’s movement and use it to predict health phenotypes such as grip strength and sleep quality across 18 body systems. Gait is conventionally described by engineered features (for example, calculated measurements such as cadence and stride length), which may fail to capture the fine detail of how a person moves. Our model instead translates movement into learned embeddings: sets of numbers that describe how all body joints move together over time. Learned embeddings outperformed engineered features for prediction of age (Pearsonʼs r = 0.69), body mass index (r = 0.91) and visceral adipose tissue area (r = 0.83), and embeddings significantly predicted 1,887 of 3,210 tested phenotypes. Relative to a baseline model using age, body mass index, visceral adipose tissue and height alone, gait embeddings improved prediction in all 18 systems in males and 17 of 18 in females, as well as prediction of clinical diagnoses and medication use. Anatomical ablation analyses revealed that leg dynamics dominated metabolic and frailty predictions, and torso dynamics encoded sleep and lifestyle phenotypes. These findings establish gait as an independent, multisystem biosignal, motivating integration of gait analysis into routine clinical assessment as a scalable, passive vital sign.",
+"zh_abstract": "步态正日益被视为一种生命体征，然而当前的方法将其视为特定病理的症状，而非系统性生物标志物。在此，我们开发了一个用于三维骨骼运动数据的步态基础模型；该数据通过单深度相机在5项运动任务中采集自3,328名深度表型化的成年人。我们的目的是捕捉一个人运动的完整模式，并用其预测跨越18个身体系统的健康表型，如握力和睡眠质量。步态通常由工程化特征（例如，计算得到的步频和步长等测量值）描述，这些特征可能无法捕捉一个人如何运动的细微细节。我们的模型则将运动转换为学习到的嵌入（learned embeddings）：即描述所有身体关节随时间如何协同运动的一组数字。学习到的嵌入在预测年龄（Pearson r = 0.69）、体质指数（r = 0.91）和内脏脂肪组织面积（r = 0.83）方面优于工程化特征，且嵌入显著预测了3,210个受测表型中的1,887个。相对于仅使用年龄、体质指数、内脏脂肪组织和身高的基线模型，步态嵌入改善了男性全部18个系统和女性18个系统中17个系统的预测，以及对临床诊断和药物使用的预测。解剖学消融分析显示，腿部动力学在代谢和衰弱预测中占主导，而躯干动力学编码了睡眠和生活方式表型。这些发现确立了步态作为一种独立的多系统生物信号，推动将步态分析作为一种可扩展的、被动的生命体征整合到常规临床评估中。"
+},
+{
+"title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
+"link": "https://www.nature.com/articles/s41746-026-03427-2",
+"date": "2026-11-05T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03427-2",
+"pop": null,
+"id": "e935f7bbd731",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "多中心AI模型预测HFpEF合并UA患者心衰住院风险",
+"summary": "中国多中心4367例不稳定型心绞痛合并HFpEF患者，用集成特征选择与12种机器学习模型预测12/24/36个月心衰住院风险并外部验证。",
+"key_points": [
+"多中心回顾性队列纳入4367例患者",
+"外部验证AUC约0.836–0.839",
+"预测12、24、36个月心衰住院风险"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "多中心大样本且报告外部验证，但为回顾性研究，属重要档下限",
+"processing": "model-enriched",
+"day": "2026-11-07",
+"abstract": "Heart failure with preserved ejection fraction (HFpEF) complicated by unstable angina (UA) represents a major challenge in chronic disease management with high risk of recurrent heart failure hospitalization (HFH), and despite the availability of multicenter real-world data, AI-driven tools for multi-horizon risk assessment remain limited. This multicenter retrospective cohort enrolled 4367 patients with UA and HFpEF, and an ensemble feature selection pipeline integrating LASSO, SVM-RFE and Boruta identified robust predictors, followed by training of twelve machine learning algorithms to estimate HFH risk at 12-, 24- and 36-month horizons with external validation. The optimal time-specific models (ET, GBDT and LightGBM) achieved strong discrimination in the training cohort with AUCs of 0.818, 0.834 and 0.863, and maintained performance in external validation with AUCs of 0.839, 0.836 and 0.851, respectively, while SHAP analysis highlighted diabetes mellitus, TyG-BMI and NT-proBNP as the most influential predictors. We developed and externally validated a multi-time-point machine learning framework for HFH risk stratification in UA and HFpEF, which showed acceptable calibration and potential clinical utility on decision-curve analysis. Further prospective and real-world validation across diverse populations and healthcare systems is needed to confirm clinical effectiveness and support translation into routine practice.",
+"zh_abstract": "射血分数保留的心力衰竭（HFpEF）合并不稳定型心绞痛（UA）是慢性疾病管理中的一大挑战，其复发性心力衰竭住院（HFH）风险高；尽管已有多个中心的真实世界数据可用，用于多时间跨度风险评估的AI驱动工具仍然有限。本多中心回顾性队列纳入了4367例UA合并HFpEF患者，一个整合LASSO、SVM-RFE和Boruta的集成特征选择流程识别出稳健的预测因子，随后训练了十二种机器学习算法以估计12、24和36个月时间跨度的HFH风险，并进行了外部验证。最优的时间特异模型（ET、GBDT和LightGBM）在训练队列中表现出较强的区分能力，AUC分别为0.818、0.834和0.863，并在外部验证中保持性能，AUC分别为0.839、0.836和0.851；SHAP分析突出显示糖尿病、TyG-BMI和NT-proBNP是最有影响力的预测因子。我们开发并外部验证了用于UA合并HFpEF患者HFH风险分层的时间多点机器学习框架，其显示出可接受的校准度，并在决策曲线分析中显示出潜在的临床实用性。尚需在不同人群和医疗系统中开展进一步的前瞻性和真实世界验证，以确认临床有效性并支持其转化为常规实践。"
 },
 {
 "title": "Physical Limits to AI Substitution across Physician Specialties — Implications for the Physician Workforce",
@@ -109,78 +179,6 @@
 "day": "2026-11-07"
 },
 {
-"title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
-"link": "https://www.nature.com/articles/s41746-026-03427-2",
-"date": "2026-11-05T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03427-2",
-"pop": null,
-"id": "e935f7bbd731",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AI多时段风险分层预测HFpEF患者心衰住院：中国多中心队列",
-"summary": "中国多中心队列研究，用AI对尿酸升高合并HFpEF患者做多时间跨度心衰住院风险分层。",
-"key_points": [
-"中国多中心队列设计",
-"多时间跨度心衰住院风险预测",
-"目标人群为尿酸升高合并HFpEF"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床预测",
-"临床决策支持"
-],
-"evidence": "同行评审",
-"score": 6,
-"reason": "多中心队列且以住院结局为预测目标，但仅见摘要级信息，取6分",
-"processing": "model-enriched",
-"day": "2026-11-07",
-"abstract_days": [
-"2026-11-07"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
-},
-{
-"title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
-"link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
-"date": "2026-11-06T06:00:00+00:00",
-"source": "NEJM AI",
-"source_group": "NEJM AI",
-"home": "",
-"evidence_hint": "同行评审",
-"thin_src": false,
-"thin": true,
-"badge": "DOI 10.1056/AIoa2600112",
-"pop": null,
-"id": "dedfad02c8c2",
-"_abs_err": "page: HTTP Error 403: Forbidden",
-"keep": true,
-"zh_title": "自身免疫病预测模型AURA的随机评估",
-"summary": "标题显示为NEJM AI刊发的自身免疫病风险预测模型AURA的随机化评估，未见正文。",
-"key_points": [],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床预测",
-"临床决策支持"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "预测模型随机化评估设计有价值，但仅有标题信息，按标题上限取5分",
-"processing": "model-enriched",
-"day": "2026-11-07",
-"abstract_days": [
-"2026-11-07"
-],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "Ask Before You Look: A conversational multi-level pathology segmentation framework",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004494?dgcid=rss_sd_all",
 "date": "2026-11-07T10:31:44.727535+00:00",
@@ -214,7 +212,8 @@
 "processing": "model-enriched",
 "day": "2026-11-07",
 "abstract_days": [
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -284,7 +283,8 @@
 "processing": "model-enriched",
 "day": "2026-11-07",
 "abstract_days": [
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -394,7 +394,8 @@
 "processing": "model-enriched",
 "day": "2026-11-07",
 "abstract_days": [
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
