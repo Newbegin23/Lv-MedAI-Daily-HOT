@@ -1,5 +1,40 @@
 [
  {
+  "title": "Large language models are unstable as autonomous medical evaluators across clinical tasks.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42995166/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.1093/jamia/ocag190",
+  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "a5276fa4ec46",
+  "keep": true,
+  "zh_title": "大模型作自主医学评判者跨任务不稳定",
+  "summary": "JAMIA 研究以 10 个 LLM 在 3 个临床任务上做自动评判、共 25,680 次判定，发现评判性能跨任务不稳定。",
+  "key_points": [
+   "10 个模型含 Claude、GPT、DeepSeek，温度 0 各评 3 次",
+   "任务为 LiveQA-Med、PubMedQA 与 MIMIC 分诊",
+   "无模型在各任务排名一致，难以跨任务沿用"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "同行评审，三个任务含独立数据集、2.5 万次判定，属重要档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of the American Medical Informatics Association : JAMIA] Large language models (LLMs) are increasingly used as automated evaluators of medical text (\"LLM-as-judge\"). We tested whether LLM-evaluator performance validated on one medical task against a human reference standard remains stable on a structurally different task. We evaluated 10 LLMs (3 locally served open-source and 7 API models: Claude, GPT, DeepSeek) as autonomous judges on 3 tasks with human reference labels: LiveQA-Med answer quality (n = 300), PubMedQA research appraisal (n = 300), and Emergency Severity Index (ESI) triage on MIMIC-IV-Ext (n = 256). Each case was scored 3 times per model at temperature zero (25 680 judgments). Analyses used cluster-bootstrap confidence intervals, quadratic-weighted Cohen's κ, and false-discovery-rate correction. Evaluator performance was unstable across tasks: no model ranked in the top 3 on all 3 tasks, and every model shifted by 3 or more rank positions between at least one pair of tasks. In the highest-stakes task, ESI level 1 (Resuscitation) cases were under-triaged in 89.1% of evaluations, in all 10 models (range 70.2%-96.9%). Best triage agreement only reached the human inter-rater range (Claude Opus quadratic-weighted κ = 0.60 [0.54, 0.66]). Locally served 7-27B models (no per-query charge) occupied the Pareto frontier on the text tasks but only its low-concordance end on triage. LLM-evaluator performance is unstable between medical tasks that differ in cognitive structure; performance validated on one task should not be assumed to transfer to another. Task-specific validation against human reference labels is required before deployment, and emergency triage demands human oversight at the highest-acuity tier.",
+  "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 大语言模型（LLM）正日益被用作医学文本的自动评估器（“LLM-as-judge”）。我们检验了：在某一医学任务上以人类参考标准验证的 LLM 评估器表现，在结构不同的任务上是否仍保持稳定。我们将 10 个 LLM（3 个本地部署的开源模型和 7 个 API 模型：Claude、GPT、DeepSeek）作为自主评判者，在 3 个具有人类参考标签的任务上进行评估：LiveQA-Med 答案质量（n = 300）、PubMedQA 研究评价（n = 300），以及 MIMIC-IV-Ext 上的急诊严重指数（ESI）分诊（n = 256）。每个病例在每个模型上以温度零重复评分 3 次（共 25 680 次判断）。分析使用聚类自助法置信区间、二次加权 Cohen's κ 和错误发现率校正。评估器表现跨任务不稳定：没有任何模型在全部 3 个任务上都排名前 3，且每个模型在至少一对任务之间排名移动 3 个或更多位次。在风险最高的任务中，ESI 1 级（复苏）病例在 89.1% 的评估中被分诊不足，且见于全部 10 个模型（范围 70.2%-96.9%）。最佳分诊一致性仅达到人类评分者间范围（Claude Opus 二次加权 κ = 0.60 [0.54, 0.66]）。本地部署的 7-27B 模型（无按查询计费）在文本任务上占据帕累托前沿，但在分诊上仅处于其低一致性端。LLM 评估器表现会在认知结构不同的医学任务之间不稳定；在一个任务上验证的表现不应假定可迁移到另一个任务。部署前需要针对具体任务使用人类参考标签进行验证，而急诊分诊在最高急症层级需要人类监督。",
+  "day": "2026-11-08"
+ },
+ {
   "title": "ISLES’24: Final stroke infarct prediction with multimodal imaging and clinical data. Where do we stand?",
   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004317?dgcid=rss_sd_all",
   "date": "2026-11-08T02:37:41.722094+00:00",
@@ -71,6 +106,41 @@
   "zh_abstract": "【重要性】大语言模型（LLMs）正越来越多地影响患者和临床医生做出的心理健康决策。推理时激活引导（inference-time activation steering）能够在既不改变权重也不改变提示、且不向用户披露的情况下，使模型行为在某一目标维度上发生偏移，从而可能出于商业或意识形态原因被悄然改变治疗建议。【目的】确定方向性激活引导是否能改变一个开放权重LLM的抑郁症治疗建议。【设计、场景与参与者】这项非人类受试者研究将方向性激活引导应用于一个开放权重LLM（DeepSeek V4 Flash），使其对12个抑郁症建议情景（4个倾向药物治疗、4个倾向回避、4个中性）作出回应；这些情景在-1.5至+1.5范围内以0.1为增量生成30个幅度，另加一个未引导的基线。【暴露】一个单一的引导方向，用于对比抗抑郁药物治疗与自我主导方法（饮食、运动、冥想、膳食补充剂），由16对配对训练提示构建，并施加于每个transformer模块的注意力输出；权重和系统提示保持不变。【主要结局与指标】药物治疗和四个自我照护类别被涉及的程度（由经人工验证的LLM评分者（Claude Opus 4.7）按0至3分评分）、药物治疗与自我照护的平衡以及临床医生转诊，均使用以情景为随机截距的混合效应模型按每单位幅度估计。【结果】在372次生成中，引导在药物治疗与自我照护的平衡上产生了分级、剂量依赖性的偏移，每单位幅度下降0.32（β = -0.32；95% CI，-0.39至-0.25；P < .001）；药物治疗程度下降，自我照护程度上升。该偏移在未陈述治疗偏好的情景中最大（β = -0.44；95% CI，-0.54至-0.34；P < .001）。372条回应中有322条（87%）出现临床医生转诊，且不随引导幅度变化（P = .63）。【结论与意义】在这个提供抑郁症治疗信息的开放权重LLM中，推理时激活引导在不改变权重、提示结构或安全输出的情况下改变了治疗建议，其效应在未表达治疗偏好的使用者中最大。这些发现提示，随着此类模型影响临床决策，有必要制定LLM披露标准并开展独立审计。"
  },
  {
+  "title": "Updated AI and/or Machine Learning-Based Medical Devices Cleared Through the FDA 510(k) Pathway.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42986649/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.41071",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "d0c50c17544e",
+  "keep": true,
+  "zh_title": "FDA 510(k) 路径 AI 医疗器械更新特征分析",
+  "summary": "横断面研究分析 FDA 510(k) 获批 AI/ML 医疗器械的更新特征与报告情况。",
+  "key_points": [
+   "研究对象为 FDA 510(k) 获批 AI/ML 医疗器械",
+   "关注器械更新特征与更新报告情况",
+   "属监管数据库横断面分析，非临床验证"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "监管数据库横断面分析，有信息量但非前瞻或外部验证，属值得一看档。",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract": "This cross-sectional study investigated characteristics and reporting of updates to artificial intelligence (AI)/machine learning–based medical devices cleared through the Food and Drug Administration (FDA) 501(k) pathway.",
+  "zh_abstract": "这项横断面研究调查了通过美国食品药品监督管理局（Food and Drug Administration，FDA）501(k)途径获批的基于人工智能（AI）/机器学习的医疗器械的特征及其更新报告情况。"
+ },
+ {
   "title": "Artificial intelligence in dialysis.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42989632/",
   "date": "2026-11-06T00:00:00+00:00",
@@ -110,6 +180,79 @@
   "processing": "model-enriched",
   "abstract": "[Current opinion in nephrology and hypertension] Artificial intelligence (AI) and machine learning in dialysis have matured beyond the initial phase of algorithm development. Recent work has shifted toward clinical implementation, evaluation, and governance. During the past year, the first randomized trial of AI-guided dosing in maintenance hemodialysis has been published, a meta-analysis of technology-guided dry-weight adjustment has appeared, and the first professional society framework for the responsible use of AI in kidney care has been released. The Anemia Control Model is now supported by hospitalization outcomes and cost-effectiveness analyses. A randomized trial demonstrated that AI-guided erythropoiesis-stimulating agent dosing achieved outcomes comparable to physician-directed dosing. Technology-guided dry-weight adjustment is supported by a meta-analysis of 21 randomized trials. Machine learning for vascular access is evolving toward preoperative clinical decision support, while peritoneal dialysis is beginning to receive greater attention from the machine learning community. Large language models are entering nephrology along two complementary paths: open generative systems for education and clinical support, and deterministic, protocol-driven frameworks designed for safety-critical bedside applications. At the same time, the U.S. Food and Drug Administration has released comprehensive lifecycle guidance for AI-enabled medical devices. The major challenge for AI in dialysis is no longer developing accurate prediction models. Instead, success will depend on effective workflow integration, validation across diverse patient populations, ongoing postdeployment monitoring, and demonstrating meaningful improvements in patient outcomes.",
   "zh_abstract": "[Current Opinion in Nephrology and Hypertension] 透析中的人工智能（AI）和机器学习已超越算法开发的初始阶段。近期工作已转向临床实施、评估和治理。在过去一年中，首项关于维持性血液透析中 AI 指导给药的随机试验已发表，一项关于技术引导的干体重调整的荟萃分析已出现，并且首个关于在肾脏照护中负责任使用 AI 的专业学会框架已发布。贫血控制模型（Anemia Control Model）现已得到住院结局和成本效果分析的支持。一项随机试验表明，AI 指导的促红细胞生成素刺激剂给药取得了与医生指导给药相当的结果。技术引导的干体重调整得到一项纳入 21 项随机试验的荟萃分析支持。用于血管通路的机器学习正朝着术前临床决策支持方向发展，而腹膜透析正开始受到机器学习界更多关注。大语言模型正沿两条互补路径进入肾脏病学：用于教育和临床支持的开放式生成系统，以及为安全关键的床旁应用设计的确定性、方案驱动框架。与此同时，美国食品药品监督管理局（U.S. Food and Drug Administration）已发布针对 AI 赋能医疗器械的全面全生命周期指南。透析中 AI 的主要挑战不再是开发准确的预测模型。相反，成功将取决于有效的工作流程整合、在不同患者人群中的验证、持续的部署后监测，以及证明患者结局有意义的改善。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Anatomical prior-guided implicit segmentation of challenging thin and tubular anatomical structures in CBCT images",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004263?dgcid=rss_sd_all",
+  "date": "2026-11-08T10:38:45.023369+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "6a4ddea27e73",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "解剖先验引导的CBCT细管状结构隐式分割",
+  "summary": "医学图像分析刊出方法论文，用解剖先验引导隐式分割CBCT中困难的细薄与管状结构。",
+  "key_points": [
+   "面向CBCT细薄与管状结构分割难题",
+   "引入解剖先验引导的隐式分割方法",
+   "同行评审期刊，摘要未提供性能数据"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法有新意且已同行评审，但缺乏对照与验证信息，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract_days": [
+   "2026-11-08"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Applying artificial intelligence to optical coherence tomography for detection and subtyping of basal cell carcinoma.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42985976/",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "DOI 10.1111/ddg.70571",
+  "source": "PubMed · Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "6a698cbdc0c3",
+  "keep": true,
+  "zh_title": "AI用于OCT检测与分型基底细胞癌",
+  "summary": "基于U-Net的OCT影像模型检测并分型基底细胞癌，含独立测试集与外部临床数据验证。",
+  "key_points": [
+   "U-Net模型训练用逾2.4万帧OCT图像",
+   "独立测试集26例扫描、3120帧",
+   "外部验证使用独立临床数据"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤",
+   "眼科"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审且含外部验证，但样本量有限、非前瞻性，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG] Basal cell carcinoma (BCC) is the most common cancer and a major public health burden. Noninvasive techniques such as optical coherence tomography (OCT) may reduce unnecessary biopsies and enable earlier detection. However, effective OCT interpretation requires expertise. Artificial intelligence (AI) may help overcome this barrier. An AI model based on a U-Net convolutional neural network was trained using 4,680 annotated OCT image frames from 39 BCCs, 5,640 frames from 47 premalignant and benign lesions, and 12,360 frames from 103 scans of healthy skin. Detection performance was evaluated on an independent test set comprising 26 scans (3,120 frames) from 16 BCCs, 5 premalignant lesions, and 5 benign lesions. External validation used independent clinical data from 25 histologically confirmed BCCs (18 nodular, 7 superficial). AI-assisted OCT generated visual overlays corresponding to established BCC features and identified tumor areas. In the independent test set, the area under the ROC curve was 95.5 % for nodular and 98.2 % for superficial BCC. In clinical validation, all BCCs were detected, and subtype concordance with histology was achieved in 21 of 25 cases (83 %). AI-assisted OCT shows potential to improve non-invasive BCC diagnostics and warrants further clinical evaluation.",
+  "zh_abstract": "[Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG] 基底细胞癌（BCC）是最常见的癌症，也是重大的公共卫生负担。光学相干断层扫描（OCT）等无创技术可减少不必要的活检并实现更早发现。然而，有效的OCT判读需要专业知识。人工智能（AI）可能有助于克服这一障碍。基于U-Net卷积神经网络的AI模型使用来自39例BCC的4,680个标注OCT图像帧、来自47个癌前病变和良性病变的5,640个帧，以及来自103次健康皮肤扫描的12,360个帧进行训练。检测性能在独立测试集上评估，该测试集包括来自16例BCC、5个癌前病变和5个良性病变的26次扫描（3,120个帧）。外部验证使用来自25例经组织学确诊的BCC（18例结节型，7例浅表型）的独立临床数据。AI辅助OCT生成了与既定BCC特征相对应的视觉叠加图，并识别了肿瘤区域。在独立测试集中，结节型BCC的ROC曲线下面积为95.5%，浅表型BCC为98.2%。在临床验证中，所有BCC均被检出，25例中有21例（83%）实现了与组织学的亚型一致性。AI辅助OCT显示出改善无创BCC诊断的潜力，值得进一步临床评估。",
   "day": "2026-11-08"
  },
  {
@@ -182,6 +325,111 @@
    "2026-11-08"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Meta-PET: A graininess-modulated test-time adaptive network for low-count PET denoising",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004354?dgcid=rss_sd_all",
+  "date": "2026-11-08T10:38:45.023369+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "909ecf49f219",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "Meta-PET：低计数 PET 去噪自适应网络",
+  "summary": "Medical Image Analysis 刊出 Meta-PET，提出颗粒度调制的测试时自适应网络用于低计数 PET 去噪；条目仅有题录信息。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅有题录、无摘要细节，方法类新工作信息有限，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-08",
+  "abstract_days": [
+   "2026-11-08"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "AI-Assisted vs Conventional Teleglaucoma Referral",
+  "link": "https://clinicaltrials.gov/study/NCT07917741",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "NCT07917741",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "a31cfdff53dd",
+  "keep": true,
+  "zh_title": "AI辅助与常规远程青光眼转诊随机对照试验",
+  "summary": "注册一项1386人随机试验，比较AI辅助远程青光眼转诊与常规转诊，尚未招募、无结果。",
+  "key_points": [
+   "干预为AI辅助远程青光眼转诊路径",
+   "主要终点为确诊青光眼所需时间",
+   "计划纳入1386人，尚未开始招募"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "眼科",
+   "临床决策支持",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 6,
+  "reason": "前瞻性RCT设计且样本较大，但仅为注册、无结果，不能上调至7分",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: University of Southern California; conditions: Glaucoma; type: INTERVENTIONAL; phase: NA; enrollment: 1386; status: NOT_YET_RECRUITING] This randomized controlled trial will compare an artificial intelligence (AI)-assisted teleglaucoma referral pathway with conventional referral among adults identified with referable glaucoma through the Los Angeles County Department of Health Services (LAC DHS) Teleretinal Screening Program. The primary objective is to determine whether AI-assisted referral reduces time to in-office diagnosis of manifest glaucoma. Secondary outcomes include glaucoma severity, visual function, need for glaucoma surgery, patient-reported quality of life and satisfaction, health system resource utilization, and cost-effectiveness.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：南加州大学；疾病：青光眼；类型：干预性；阶段：不适用；入组人数：1386；状态：尚未招募] 这项随机对照试验将在通过洛杉矶县卫生服务局（LAC DHS）远程视网膜筛查项目被识别为患有需转诊青光眼的成人中，比较人工智能（AI）辅助的远程青光眼转诊路径与常规转诊。主要目的是确定AI辅助转诊是否缩短了诊室内确诊显性青光眼的时间。次要结局包括青光眼严重程度、视觉功能、青光眼手术需求、患者报告的生活质量和满意度、卫生系统资源利用以及成本效果。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+  "link": "https://arxiv.org/abs/2611.08433",
+  "date": "2026-11-05T18:27:20+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.08433",
+  "pop": null,
+  "id": "f03cfc235c29",
+  "keep": true,
+  "zh_title": "MedGraph：用图记忆维护长期医疗对话中的患者状态",
+  "summary": "预印本提出面向长期医疗对话的图记忆系统，按时间抽取事实、归属到具体患者并链接成链，以改善检索准确性。",
+  "key_points": [
+   "归纳五种记忆系统的三类错误：状态过时、他人事实混入、缺安全事实",
+   "构建时抽取带日期事实并归属到对应个人，药物诊断测量成链保留历史状态",
+   "检索按患者事实链为单位、按问题所问时间点读取，并附原文对话"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床NLP",
+   "智能体"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预印本新方法，与五个基线记忆系统对比并自建基准，但无外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each session, attributes each fact to the person it describes, and links medication, diagnosis, and measurement records into chains that keep earlier states. Retrieval ranks the patient's chains as units, reads each chain at the time the question asks about, and adds the original dialogue text; a patient profile lists every recorded safety fact with every question. On MedMemoryBench, MedGraph has the highest overall accuracy with both a GPT and a Qwen backbone, 10.5 and 10.4 points above the strongest of five baselines, with efficient memory construction and answering in the GPT setting.",
+  "zh_abstract": "基于大语言模型（LLM）的医疗助手在跨就诊随访患者时，需要一种能在患者临床状态变化时保持其正确的记忆。我们考察了五种记忆系统在纵向医学对话中的错误，发现三类反复出现的原因：检索到的证据给出过时状态、包含他人的健康事实，或缺少答案所依赖的安全性事实。我们提出MedGraph，一种针对这三种情况构建的图记忆。构建过程从每次会话中提取带日期的事实，将每条事实归属于其所描述的人，并将药物、诊断和测量记录链接成保留早期状态的链。检索以患者为单元对其链进行排序，在问题所询问的时间点读取每条链，并加入原始对话文本；患者档案列出每条记录的安全性事实与每个问题。在MedMemoryBench上，MedGraph在GPT和Qwen骨干模型下均具有最高总体准确率，分别比五个基线中最强者高10.5和10.4分，并在GPT设置下具有高效的内存构建和回答。",
+  "day": "2026-11-08"
  },
  {
   "title": "A decision-only model as a low-cost judge of medical AI answers",
@@ -320,6 +568,105 @@
   "day": "2026-11-08"
  },
  {
+  "title": "Predicting Extubation Failure Using Machine Learning",
+  "link": "https://clinicaltrials.gov/study/NCT07918924",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "NCT07918924",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "aa53693c9ebf",
+  "keep": true,
+  "zh_title": "机器学习预测拔管失败：1065 例注册研究",
+  "summary": "印尼大学注册观察性研究，拟纳入 1065 例 ICU 成人，用机器学习预测拔管后 7 天内失败；目前尚无结果。",
+  "key_points": [
+   "来源为 ClinicalTrials.gov 注册，状态招募中",
+   "主要结局为再插管、气管切开或死亡",
+   "将分析年龄、血检等预测因子的重要性"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "前瞻性观察注册且样本量逾千，但尚无任何结果，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Universitas Indonesia; conditions: Extubation Failure, Critical Illness; type: OBSERVATIONAL; enrollment: 1065; status: RECRUITING] The goal of this observational study is to predict who will have problems after the breathing tube is removed. Taking out the tube is called extubation, and having these problems is called extubation failure. Participants are adults in the intensive care unit (ICU) who use a breathing machine (ventilator). The main questions it aims to answer are: * How well can computer tools predict problems in the 7 days after the tube is removed? * Which information, such as age or blood tests, matters most for the prediction? Extubation failure means the participant needs the tube put back in, needs a surgical opening in the neck to help breathing, or dies. Researchers will use machine learning to build the computer tools. Machine learning is a type of artificial intelligence that finds patterns in data. Researchers will compare five types of machine learning to see which works best. They will build the tools with participants from Dr. Cipto Mangunkusumo National General Hospital in Jakarta. They will test the tools with participants from Universitas Indonesia Hospital in Depok. Participants get their usual care. Doctors do not use the tools to make treatment decisions. Researchers will: * Record health information about participants before the tube is removed * Follow participants for 7 days after the tube is removed",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：印度尼西亚大学；疾病/状况：拔管失败、危重症；类型：观察性；入组人数：1065；状态：招募中] 这项观察性研究的目标是预测谁在呼吸管拔除后会出现问题。拔除管子称为拔管，出现这些问题称为拔管失败。参与者是重症监护病房（ICU）中使用呼吸机（ventilator）的成人。它旨在回答的主要问题是：\n* 计算机工具能在多大程度上预测拔管后 7 天内的问题？\n* 哪些信息（例如年龄或血液检查）对预测最重要？\n拔管失败意味着参与者需要重新插管、需要颈部手术开口以帮助呼吸，或死亡。研究人员将使用机器学习来构建这些计算机工具。机器学习是一种在数据中寻找模式的人工智能。研究人员将比较五种机器学习，以确定哪种效果最好。他们将使用雅加达 Dr. Cipto Mangunkusumo 国家综合医院的参与者来构建这些工具。他们将使用德波（Depok）印度尼西亚大学医院的参与者来测试这些工具。参与者接受常规护理。医生不会使用这些工具做出治疗决策。研究人员将：\n* 在拔管前记录参与者的健康信息\n* 在拔管后对参与者随访 7 天",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Prototyping OSA: A New Framework for Predicting Cardiovascular Outcomes and CPAP Benefit",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366770v1?rss=1",
+  "date": "2026-10-30T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.30.26366770",
+  "pop": null,
+  "id": "3e931ac54b93",
+  "keep": true,
+  "zh_title": "OSA原型分型：预测心血管结局与CPAP获益",
+  "summary": "基于SAVE试验2676例数据的二次分析，用多域机器学习划分5种OSA原型并估计各原型的心血管风险与CPAP效应。",
+  "key_points": [
+   "SAVE试验数据二次分析，2676名受试者、88个基线变量",
+   "高斯混合模型结合BIC与C-index选出五种原型，Cox模型估计MACE风险",
+   "用因果生存森林估计各原型的CPAP心血管效应，并比较生活质量与嗜睡量表"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "临床决策支持"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "基于RCT数据的二次分析、样本可观，但为回顾性再分析且无外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "RationaleObstructive sleep apnea (OSA) is associated with major adverse cardiac events (MACE); continuous positive airway pressure (CPAP) has not reduced MACE in randomized trials. We hypothesized that multidomain machine learning would identify OSA subgroups differing in cardiovascular risk and CPAP response. MethodsWe conducted a secondary analysis of SAVE trial data. After preprocessing, Gaussian mixture models were fitted; Bayesian information criterion and C-index selected five prototypes. Cox models estimated MACE risk by prototype. Baseline quality of life (EQoL), Epworth Sleepiness Scale (ESS), and Framingham Risk Score (FRS) were compared; an existing causal survival forest model estimated prototype-specific CPAP effects on cardiovascular risk. Measurements and Main ResultsAfter preprocessing, five OSA prototypes were identified among 2,676 participants using 88 baseline variables. Prototypes differed in selected demographic, cardiometabolic, medication, and sleep variables, including smoking status, diabetes, prior myocardial infarction/stroke, antiplatelet/lipid-lowering therapy, BMI, oxygenation metrics, apnea-hypopnea index, and ESS (overall p<0.001). They also differed in baseline EQoL, FRS, MACE rate, and predicted CPAP response. Prototype 1 had the highest ESS, FRS, and MACE rate, whereas Prototype 5 had the lowest FRS and MACE rate. Using the causal survival forest model to assess prototype-specific CPAP effects on cardiovascular risk, Prototype 5 was predicted to benefit from CPAP (p<0.05), whereas Prototypes 1, 3, and 4 showed no benefit or possible harm. ConclusionThese findings demonstrate heterogeneity in cardiovascular risk and predicted CPAP response, potentially explaining neutral trial results. After external validation, these prototypes could guide trial enrichment and targeted CPAP use to improve cardiovascular outcomes. Impact StatementThis study advances clinical medicine by identifying multidomain OSA prototypes that differ in baseline cardiovascular risk and predicted cardiovascular response to CPAP, potentially supporting more precise treatment selection and future cardiovascular-outcomes trials. It adds to the disease knowledge base by showing that OSA-related cardiovascular risk is not captured by conventional severity metrics alone, but reflects interactions among sleep, cardiometabolic, demographic, and clinical characteristics. These findings provide a framework for mechanistic and prospective studies of the biological",
+  "zh_abstract": "【背景】阻塞性睡眠呼吸暂停（OSA）与主要不良心脏事件（MACE）相关；随机试验中持续气道正压通气（CPAP）并未减少MACE。我们假设多域机器学习可识别心血管风险和CPAP反应不同的OSA亚组。【方法】我们对SAVE试验数据进行了二次分析。预处理后拟合高斯混合模型；贝叶斯信息准则和C指数选择了五个原型。Cox模型估计各原型的MACE风险。比较基线生活质量（EQoL）、Epworth嗜睡量表（ESS）和Framingham风险评分（FRS）；使用现有的因果生存森林模型估计原型特异性CPAP对心血管风险的影响。【结果】预处理后，使用88个基线变量在2,676名参与者中识别出五个OSA原型。各原型在所选人口学、心脏代谢、用药和睡眠变量上存在差异，包括吸烟状况、糖尿病、既往心肌梗死/卒中、抗血小板/降脂治疗、BMI、氧合指标、呼吸暂停低通气指数和ESS（总体p<0.001）。它们在基线EQoL、FRS、MACE发生率和预测的CPAP反应上也存在差异。原型1的ESS、FRS和MACE发生率最高，而原型5的FRS和MACE发生率最低。使用因果生存森林模型评估原型特异性CPAP对心血管风险的影响，预测原型5可从CPAP获益（p<0.05），而原型1、3和4显示无获益或可能有害。【结论】这些发现证明了心血管风险和预测CPAP反应的异质性，可能解释中性试验结果。经过外部验证后，这些原型可指导试验富集和靶向CPAP使用以改善心血管结局。【影响声明】本研究通过识别基线心血管风险和预测CPAP心血管反应不同的多域OSA原型，推进了临床医学，可能支持更精确的治疗选择和未来的心血管结局试验。它通过表明OSA相关心血管风险不能仅由传统严重程度指标捕捉，而是反映睡眠、心脏代谢、人口学和临床特征之间的相互作用，增加了疾病知识基础。这些发现为生物学（biological）的机制性和前瞻性研究提供了框架。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Weill Cornell Says Radiology Patients' Medical Details Were Entered Into AI Tools Without Authorization",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUs4UUZuZEc4a2xWakxRcmY2UVhKc3ROek10UWFWNEplWVI5Vm9FeFN4Yk0tRnRiS3F2VVBWaU40a2Q4elQ1Y05xTjE0Rm1yZ1ZaWWpkZTZzVWxNMFN3WHZTZVM0YlZ1WDZuYXhlTmxqZlRRbU9LckZaWkNSTEVqcDdaR2pJcDM3SXhYNThtTk5hTVVKcGRQODhlaWlkMnFyR09uS0lBOGZzQjJleDFUV3dCdGxQRm1uc05hUzZfN3psVE1FSi1v?oc=5",
+  "date": "2026-11-07T22:00:11+00:00",
+  "source": "inkl",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.inkl.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "743a62b138e4",
+  "keep": true,
+  "zh_title": "Weill Cornell称放射科患者信息未经授权被输入AI工具",
+  "summary": "据标题报道，Weill Cornell放射科患者医疗信息在未获授权情况下被录入AI工具。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "隐私与联邦学习",
+   "医学影像",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "隐私事件有治理价值，但仅标题、无细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-08"
+ },
+ {
   "title": "AI Didn’t Reduce Clinician Burden — It Just Moved It",
   "link": "https://medcitynews.com/2026/11/ai-didnt-reduce-clinician-burden-it-just-moved-it/",
   "date": "2026-11-05T14:51:00+00:00",
@@ -352,6 +699,76 @@
   "processing": "model-enriched",
   "abstract": "Documentation tools have value. They solve a visible pain point well. But solving a visible pain point is not the same as solving the right one. The post AI Didn’t Reduce Clinician Burden — It Just Moved It appeared first on MedCity News .",
   "zh_abstract": "文档记录工具确有价值。它们很好地解决了一个明显的痛点。但解决一个明显的痛点并不等同于解决正确的问题。文章《AI 并未减轻临床医生负担——只是将其转移》首先发表于 MedCity News。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "Machine Learning Based Detection of Chronic Kidney Disease using Full Blood Count from a Ghanaian Hospital Population with an Integrated Web Application",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366677v1?rss=1",
+  "date": "2026-10-31T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.27.26366677",
+  "pop": null,
+  "id": "395721e19796",
+  "keep": true,
+  "zh_title": "加纳医院用全血细胞计数机器学习检测 CKD",
+  "summary": "medRxiv 预印本：基于加纳 155 例患者数据，比较 11 种算法与多种重采样策略，评估全血细胞计数检测慢性肾病。",
+  "key_points": [
+   "单中心 155 例，其中 CKD 43 例（27.7%）",
+   "SMOTE 置于划分前时随机森林准确率 83.9%",
+   "结果显示重采样位置明显影响报告性能"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "公平与安全"
+  ],
+  "evidence": "预印本",
+  "score": 4,
+  "reason": "单中心 155 例小样本预印本，仅内部交叉验证，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Chronic kidney disease (CKD) is usually silent until advanced, and the tests confirming it are frequently unaffordable in sub-Saharan Africa, whereas the full blood count (FBC) is inexpensive and widely performed. We assessed whether machine learning applied to the FBC can detect CKD, and how far its reported performance depends on where synthetic minority oversampling (SMOTE) is applied. Records of 155 patients at the Ho Technical University Hospital, Ghana, 43 (27.7%) with CKD, yielded ten features: age, cardiovascular disease and eight raw FBC parameters. Eleven algorithms, six resampling strategies and thirteen ensembles were compared under repeated stratified cross-validation. With SMOTE applied before the train-test split, the protocol under which the deployed models were fitted, Random Forest and Extra Trees both reached an accuracy of 83.9%, with sensitivities of 0.893 and 0.857 and areas under the curve (AUC) of 0.925 and 0.939; repeated cross-validation gave an accuracy of 0.809 {+/-} 0.051 and an AUC of 0.897. With resampling confined to the training folds, the same features gave a held-out accuracy of 61.5% and an AUC of 0.604 in 39 unseen patients. Age was the only variable separating the groups after correction for multiple testing (median 64 versus 47 years, adjusted p = 0.0026). The models are deployed as NephroScan GH (https://nephroscangh.com), which explains every prediction. The FBC carries a real but moderate signal for CKD, and the 22.4 point gap between the two protocols quantifies how far a single preprocessing decision can move a reported accuracy.",
+  "zh_abstract": "慢性肾脏病（CKD）通常在进展前没有症状，而确认该病的检查在撒哈拉以南非洲往往难以负担，相比之下全血细胞计数（FBC）廉价且广泛开展。我们评估了将机器学习应用于 FBC 能否检测 CKD，以及其报告的性能在多大程度上取决于合成少数类过采样（SMOTE）应用的位置。加纳 Ho Technical University Hospital 的 155 名患者记录中，43 名（27.7%）患有 CKD，提取了十个特征：年龄、心血管疾病和八项原始 FBC 参数。在重复分层交叉验证下比较了 11 种算法、6 种重采样策略和 13 种集成模型。在训练-测试划分之前应用 SMOTE（即部署模型拟合时所采用的方案）时，随机森林和极端随机树均达到 83.9% 的准确率，灵敏度分别为 0.893 和 0.857，曲线下面积（AUC）分别为 0.925 和 0.939；重复交叉验证给出的准确率为 0.809 {+/-} 0.051，AUC 为 0.897。当重采样仅限训练折内时，相同特征在 39 名未见患者中给出的留出准确率为 61.5%，AUC 为 0.604。经过多重检验校正后，年龄是唯一区分两组的变量（中位数 64 岁对 47 岁，校正 p = 0.0026）。这些模型部署为 NephroScan GH（https://nephroscangh.com），可解释每一次预测。FBC 对 CKD 具有真实但中等的信号，而两种方案之间 22.4 个百分点的差距量化了单个预处理决策能使报告准确率移动多远。",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "MedMLX/medmlx",
+  "link": "https://github.com/MedMLX/medmlx",
+  "date": "2026-10-31T18:32:30Z",
+  "pop": "★ 28",
+  "image": "https://avatars.githubusercontent.com/u/339397543?v=4",
+  "shot": "https://opengraph.githubassets.com/1/MedMLX/medmlx",
+  "source": "GitHub",
+  "source_group": "GitHub",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "id": "52b7fbaf72e6",
+  "keep": true,
+  "zh_title": "MedMLX：面向苹果芯片的医学影像模型工具包",
+  "summary": "开源项目提供Python API、命令行与MCP服务器，用于在Apple Silicon上原生运行医学影像模型。",
+  "key_points": [
+   "支持在Apple Silicon上原生运行医学影像模型",
+   "提供Python API、CLI和MCP服务器三种接口",
+   "条目仅含仓库简介，未给出模型清单或性能数据"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "开源工具发布，但仅有仓库简介、无性能或验证信息，属增量档",
+  "processing": "model-enriched",
   "day": "2026-11-08"
  },
  {
@@ -388,6 +805,77 @@
   "abstract": "[Newly registered clinical trial, no results yet; sponsor: Alexandria University; conditions: Type 2 Diabetes Mellitus; type: OBSERVATIONAL; enrollment: 200; status: NOT_YET_RECRUITING] This study will develop and test an artificial intelligence (AI) model that estimates the risk of type 2 diabetes among senior (third- and fourth-year) nursing students at the Faculty of Nursing, Alexandria University, Egypt. Type 2 diabetes is common in Egypt, and many cases are not diagnosed. Daily habits such as diet, physical activity, and body weight play a major role in who develops it. Nursing students will become health care providers who teach patients about healthy living, so it is important to find those who may be at risk early. About 200 students will take part. Each student will complete a questionnaire about personal information and the Health-Promoting Lifestyle Profile II, which measures health habits such as nutrition, physical activity, stress management, and health responsibility. The researcher will measure height, weight, waist size, and blood pressure. Each student's diabetes risk will be scored using the Arabic version of the Australian Type 2 Diabetes Risk Assessment Tool (AUSDRISK), which classifies risk as low, moderate, or high. These data will be used to build a machine learning model that predicts each student's diabetes risk level from lifestyle and body measurement factors, and shows which factors influenced the prediction most. Students will then try the model and rate how useful and easy to use it is. No treatment or intervention will be given. The study aims to support early identification of students at risk and to provide a model that nursing education programs and community health nurses could use in preventive health efforts.",
   "zh_abstract": "[新注册临床试验，尚无结果；申办方：亚历山大大学；疾病：2型糖尿病；类型：观察性（OBSERVATIONAL）；入组人数：200；状态：尚未招募（NOT_YET_RECRUITING）] 本研究将开发并测试一个人工智能（AI）模型，用于估计埃及亚历山大大学护理学院高年级（三年级和四年级）护理学生中2型糖尿病的风险。2型糖尿病在埃及很常见，且许多病例未被诊断。饮食、身体活动和体重等日常习惯在谁会发生该病方面起主要作用。护理学生将成为向患者传授健康生活知识的医疗保健提供者，因此早期发现可能处于风险中的学生很重要。约200名学生将参与。每名学生将完成一份关于个人信息的问卷以及健康促进生活方式量表 II（Health-Promoting Lifestyle Profile II），该量表测量营养、身体活动、压力管理和健康责任等健康习惯。研究者将测量身高、体重、腰围和血压。每名学生的糖尿病风险将使用澳大利亚2型糖尿病风险评估工具（AUSDRISK）阿拉伯语版本进行评分，该工具将风险分类为低、中或高。这些数据将用于构建一个机器学习模型，该模型根据生活方式和身体测量因素预测每名学生的糖尿病风险水平，并显示哪些因素对预测影响最大。随后学生将试用该模型，并评价其有用性和易用性。不给予任何治疗或干预。本研究旨在支持早期识别处于风险中的学生，并提供一个护理教育项目和社区健康护士可用于预防性健康工作的模型。",
   "day": "2026-11-08"
+ },
+ {
+  "title": "wld007/dsh-medical-anonymizer",
+  "link": "https://github.com/wld007/dsh-medical-anonymizer",
+  "date": "2026-10-30T18:35:05Z",
+  "pop": "★ 5",
+  "image": "https://avatars.githubusercontent.com/u/112754859?v=4",
+  "shot": "https://opengraph.githubassets.com/1/wld007/dsh-medical-anonymizer",
+  "source": "GitHub",
+  "source_group": "GitHub",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "id": "eecce020abc8",
+  "keep": true,
+  "zh_title": "医疗数据批量匿名化开源插件",
+  "summary": "GitHub 开源插件，以规则识别结合可选本地或内网模型复核，对医疗数据做稳定假名替换并输出审计报告。",
+  "key_points": [
+   "JavaScript 插件，面向 DeepSeek Harness",
+   "规则识别加可选本地/内网模型复核",
+   "仅有仓库简介，无评测或使用数据"
+  ],
+  "section": "落地与监管",
+  "type": "模型",
+  "tags": [
+   "隐私与联邦学习",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小型开源工具，仅功能简介、无评测与使用情况，属增量档",
+  "processing": "model-enriched",
+  "abstract": "DeepSeek Harness 医疗数据批量匿名化插件：规则识别 + 可选本地/内网模型复核，稳定假名替换，输出审计报告。 (language: JavaScript, homepage: , topics: anonymization, data-masking, de-identification, deepseek-harness, dsh-plugin, healthcare, llm, medical, nodejs, phi, privacy, pseudonymization)",
+  "zh_abstract": "DeepSeek Harness 医疗数据批量匿名化插件：规则识别 + 可选本地/内网模型复核，稳定假名替换，输出审计报告。 (language: JavaScript, homepage: , topics: anonymization, data-masking, de-identification, deepseek-harness, dsh-plugin, healthcare, llm, medical, nodejs, phi, privacy, pseudonymization)",
+  "day": "2026-11-08"
+ },
+ {
+  "title": "京东健康发布2026医生行为白皮书：70.6%医生每日用AI，精神科成最大增量赛道",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQcnVQeXJMOEkzMXE4UkYxUlJicTdLcTYtNGhmMEtudjRZMWZnVkNTN0pMZUJpc2Zkb0piTUo2TVBCVXM2SG9yVVRONW5MaWFrLWtQbXRVc0p1akE2?oc=5",
+  "date": "2026-10-19T09:50:39+00:00",
+  "source": "Moomoo",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://www.moomoo.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "28388a84fb02",
+  "score": 4,
+  "zh_title": "京东健康白皮书：70.6%医生每日使用AI",
+  "tags": [
+   "临床落地",
+   "心理健康"
+  ],
+  "evidence": "新闻",
+  "summary": "京东健康发布医生行为白皮书，称70.6%医生每日使用AI，精神科为最大增量领域。",
+  "abstract": "",
+  "key_points": [
+   "白皮书称70.6%医生每日使用AI",
+   "精神科被列为最大增量领域",
+   "数据来自企业发布的行业报告"
+  ],
+  "processing": "model-enriched",
+  "section": "产业动态",
+  "day": "2026-11-08",
+  "keep": true,
+  "type": "观点",
+  "reason": "企业自发布的调查白皮书，仅标题含单一数据，无方法学信息"
  },
  {
   "title": "Randomized Evaluation of an Autoimmune Disease Prediction Model — AURA (AUtoimmune Risk Assessment)",
@@ -5230,7 +5718,13 @@
   "processing": "model-enriched",
   "abstract": "Large language model (LLM) agents are proposed for clinical prediction but are untested in pediatrics, where cohorts are small and outcomes are uncommon. Using records from 2,489 youth with type 2 diabetes (T2D) and 4,018 with type 1 diabetes (T1D), spanning structured data, note-derived social determinants and, in T1D, continuous glucose monitoring data, we predicted seven T2D outcomes, four also in T1D, at 24 months from 18 months of follow-up. CEDAR (Clinical Evidence-Driven Agent for Risk-prediction), an evidence-citing, self-auditing LLM pipeline, outperformed trained machine learning in both cohorts (pooled area under the receiver operating characteristic curve 0.815 versus 0.656 to 0.700 in T2D and 0.756 versus 0.603 to 0.631 in T1D), most on the sparsely screened outcomes. Only 4 of 70,246 values it cited did not match the chart. Reading only the evidence and reasoning cited by CEDAR, two pediatric endocrinologists reached the same prediction as CEDAR in about nine of ten cases, agreeing with each other on 90.5%.",
   "zh_abstract": "大型语言模型（LLM）智能体被提出用于临床预测，但尚未在儿科中测试，因为儿科队列小且结局不常见。使用2,489名2型糖尿病（T2D）青年和4,018名1型糖尿病（T1D）青年的记录，涵盖结构化数据、从病历记录衍生的社会决定因素，以及在T1D中的连续葡萄糖监测数据，我们从18个月随访预测24个月时的七个T2D结局，其中四个也在T1D中预测。CEDAR（Clinical Evidence-Driven Agent for Risk-prediction）是一个引用证据、自我审计的LLM流水线，在两个队列中均优于训练过的机器学习（合并受试者工作特征曲线下面积：T2D中0.815 vs 0.656至0.700，T1D中0.756 vs 0.603至0.631），最明显的是在筛查稀疏的结局上。它引用的70,246个数值中仅有4个与病历记录不匹配。仅阅读CEDAR引用的证据和推理，两名儿科内分泌科医生在约十分之九的病例中得出与CEDAR相同的预测，彼此一致率为90.5%。",
-  "day": "2026-10-31"
+  "day": "2026-10-31",
+  "also": [
+   {
+    "source": "PubMed · ArXiv",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42995767/"
+   }
+  ]
  },
  {
   "title": "Explainable artificial intelligence-based classification of asthma and COPD from xenon-129 ventilation magnetic resonance imaging.",
@@ -14388,31 +14882,6 @@
     "link": "https://www.gov.uk/government/news/uk-regulator-brings-new-ai-and-medtech-agenda-to-advamed"
    }
   ],
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "京东健康发布2026医生行为白皮书：70.6%医生每日用AI，精神科成最大增量赛道",
-  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQcnVQeXJMOEkzMXE4UkYxUlJicTdLcTYtNGhmMEtudjRZMWZnVkNTN0pMZUJpc2Zkb0piTUo2TVBCVXM2SG9yVVRONW5MaWFrLWtQbXRVc0p1akE2?oc=5",
-  "desc": "",
-  "date": "2026-10-19T09:50:39+00:00",
-  "source": "Moomoo",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://www.moomoo.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "28388a84fb02",
   "score": null,
   "zh_title": "",
   "tags": [],

@@ -485,7 +485,13 @@
 "processing": "model-enriched",
 "abstract": "Large language model (LLM) agents are proposed for clinical prediction but are untested in pediatrics, where cohorts are small and outcomes are uncommon. Using records from 2,489 youth with type 2 diabetes (T2D) and 4,018 with type 1 diabetes (T1D), spanning structured data, note-derived social determinants and, in T1D, continuous glucose monitoring data, we predicted seven T2D outcomes, four also in T1D, at 24 months from 18 months of follow-up. CEDAR (Clinical Evidence-Driven Agent for Risk-prediction), an evidence-citing, self-auditing LLM pipeline, outperformed trained machine learning in both cohorts (pooled area under the receiver operating characteristic curve 0.815 versus 0.656 to 0.700 in T2D and 0.756 versus 0.603 to 0.631 in T1D), most on the sparsely screened outcomes. Only 4 of 70,246 values it cited did not match the chart. Reading only the evidence and reasoning cited by CEDAR, two pediatric endocrinologists reached the same prediction as CEDAR in about nine of ten cases, agreeing with each other on 90.5%.",
 "zh_abstract": "大型语言模型（LLM）智能体被提出用于临床预测，但尚未在儿科中测试，因为儿科队列小且结局不常见。使用2,489名2型糖尿病（T2D）青年和4,018名1型糖尿病（T1D）青年的记录，涵盖结构化数据、从病历记录衍生的社会决定因素，以及在T1D中的连续葡萄糖监测数据，我们从18个月随访预测24个月时的七个T2D结局，其中四个也在T1D中预测。CEDAR（Clinical Evidence-Driven Agent for Risk-prediction）是一个引用证据、自我审计的LLM流水线，在两个队列中均优于训练过的机器学习（合并受试者工作特征曲线下面积：T2D中0.815 vs 0.656至0.700，T1D中0.756 vs 0.603至0.631），最明显的是在筛查稀疏的结局上。它引用的70,246个数值中仅有4个与病历记录不匹配。仅阅读CEDAR引用的证据和推理，两名儿科内分泌科医生在约十分之九的病例中得出与CEDAR相同的预测，彼此一致率为90.5%。",
-"day": "2026-10-31"
+"day": "2026-10-31",
+"also": [
+{
+"source": "PubMed · ArXiv",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42995767/"
+}
+]
 },
 {
 "title": "Explainable artificial intelligence-based classification of asthma and COPD from xenon-129 ventilation magnetic resonance imaging.",
