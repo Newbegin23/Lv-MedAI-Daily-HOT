@@ -213,7 +213,8 @@
 "day": "2026-11-07",
 "abstract_days": [
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -284,7 +285,8 @@
 "day": "2026-11-07",
 "abstract_days": [
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -395,7 +397,8 @@
 "day": "2026-11-07",
 "abstract_days": [
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

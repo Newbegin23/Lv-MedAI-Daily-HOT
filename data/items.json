@@ -1,5 +1,351 @@
 [
  {
+  "title": "Multimodal AI in Oral Cancer: A PRISMA-Guided Systematic Review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42999821/",
+  "date": "2026-11-07T00:00:00+00:00",
+  "badge": "DOI 10.1049/htl2.70105",
+  "source": "PubMed · Healthcare technology letters",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ba32f68fd794",
+  "keep": true,
+  "zh_title": "口腔癌多模态AI：PRISMA系统综述",
+  "summary": "PRISMA系统综述纳入2015–2025年82项研究，认为多模态AI在口腔癌诊断准确性与生存预测上总体优于单模态方法。",
+  "key_points": [
+   "纳入82项研究（2015–2025）",
+   "多模态在诊断准确性、AUC与生存预测上更优",
+   "注意力、图嵌入与融合Transformer表现突出"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "多模态",
+   "病理",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "系统综述纳入82项研究但为二手汇总、无新数据，按综述上限给6分",
+  "processing": "model-enriched",
+  "abstract": "[Healthcare technology letters] Oral cancer presents significant diagnostic and prognostic challenges, often due to late-stage detection and tumour heterogeneity. Recent advancements in artificial intelligence (AI), particularly deep learning (DL) and machine learning (ML), offer promising solutions by integrating multimodal biomedical data. This PRISMA-guided systematic review evaluates over 82 studies from 2015 to 2025 that apply convolutional neural networks, transformers and graph neural networks to oral cancer, using combinations of histopathology, radiology, genomics and clinical data. Results indicate that multimodal AI models consistently outperform unimodal approaches in diagnostic accuracy, AUC and survival prediction. Architectures employing attention mechanisms, graph embedding and fusion transformers demonstrate superior performance in tasks such as early lesion detection and treatment outcome modelling. Despite these advances, challenges persist in generalisability, data standardisation and clinical validation. Multimodal AI thus represents a paradigm shift toward precision oncology in oral cancer, warranting further research focused on interpretability, prospective validation and ethical clinical deployment.",
+  "zh_abstract": "[Healthcare technology letters] 口腔癌常因晚期发现和肿瘤异质性而带来显著的诊断和预后挑战。人工智能（AI）的最新进展，尤其是深度学习（DL）和机器学习（ML），通过整合多模态生物医学数据提供了有前景的解决方案。本项遵循PRISMA指南的系统综述评估了2015年至2025年间超过82项研究，这些研究将卷积神经网络、Transformer和图神经网络应用于口腔癌，并使用组织病理学、影像学、基因组学和临床数据的组合。结果表明，多模态AI模型在诊断准确性、AUC和生存预测方面始终优于单模态方法。采用注意力机制、图嵌入和融合Transformer的架构在早期病变检测和治疗结局建模等任务中表现出更优性能。尽管有这些进展，在泛化性、数据标准化和临床验证方面仍存在挑战。因此，多模态AI代表了口腔癌向精准肿瘤学的范式转变，值得进一步开展聚焦于可解释性、前瞻性验证和伦理临床部署的研究。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "MambaSleepCVD for prediction of long term cardiovascular outcomes from polysomnography",
+  "link": "https://www.nature.com/articles/s41746-026-03450-3",
+  "date": "2026-11-07T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03450-3",
+  "pop": null,
+  "id": "06a4558273f6",
+  "keep": true,
+  "zh_title": "MambaSleepCVD：多导睡眠图预测长期心血管结局",
+  "summary": "基于耦合Mamba的多模态融合框架，用整夜多导睡眠图预测长期心血管风险，并在SHHS队列上验证。",
+  "key_points": [
+   "耦合Mamba做跨模态与时间融合",
+   "对比单模态专用编码与多模态自监督预训练",
+   "SHHS数据集验证，性能与基线相当或更优"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "临床预测",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法有新意、队列规模较大，但仅单一公开队列验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Long-term cardiovascular disease (CVD) risk prediction remains a major global clinical priority. This study investigates how much prognostic information full-night polysomnography (PSG) carries after explicitly controlling demographic confounding, and whether combining specialized unimodal representations with continuous fusion mechanisms can effectively leverage it. We adopt a modular framework based on Coupled Mamba for simultaneous cross-modal and temporal fusion, capturing long-range dependencies and dynamic interactions between physiological modalities throughout sleep. With this capability, we assess whether specialized supervised representations from task-specific unimodal encoders offer prognostic value comparable to task-agnostic multimodal self-supervised pre-training. Validated on the Sleep Heart Health Study (SHHS) dataset, our approach achieves performance comparable to or better than current state-of-the-art architectures in the fully supervised, data-abundant regime, although the cardiac channel alone accounts for most of the discriminative signal. More importantly, we show that in the reference dataset chronological age strongly drives survival ranking; when provided as an explicit input, it can create a shortcut that obscures the contribution of PSG-derived physiology. Ultimately, our findings suggest that supervised unimodal experts integrated through a fusion engine provide a flexible pathway for prognostic risk ranking from sleep recordings, while reliable CVD screening will require independent external cohorts and explicit confounder control.",
+  "zh_abstract": "长期心血管疾病（CVD）风险预测仍然是全球主要的临床优先事项。本研究探讨在明确控制人口学混杂后，整夜多导睡眠图（PSG）携带多少预后信息，以及将专门化的单模态表征与连续融合机制相结合能否有效利用这些信息。我们采用基于 Coupled Mamba 的模块化框架，同时进行跨模态融合和时间融合，捕捉整个睡眠过程中生理模态之间的长程依赖和动态交互。借助这一能力，我们评估来自任务特定单模态编码器的专门化监督表征是否能提供与任务无关的多模态自监督预训练相当的预后价值。在 Sleep Heart Health Study（SHHS）数据集上验证时，我们的方法在完全监督、数据充足的情形下达到与当前最先进架构相当或更好的性能，尽管仅心脏通道就承载了大部分判别信号。更重要的是，我们表明在参考数据集中，实际年龄强烈驱动生存排序；当作为显式输入提供时，它可能形成捷径，掩盖源自 PSG 的生理信息的贡献。最终，我们的研究结果表明，通过融合引擎整合的监督单模态专家为从睡眠记录中进行预后风险排序提供了灵活路径，而可靠的 CVD 筛查将需要独立的外部队列和明确的混杂因素控制。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "Learning to fuse and reconstruct multi-view graphs for diabetic retinopathy grading",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004366?dgcid=rss_sd_all",
+  "date": "2026-11-09T02:51:12.830563+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "c910e754a419",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "多视图图融合与重建用于糖网分级",
+  "summary": "《医学图像分析》将刊出一项研究，提出多视图图融合与重建方法用于糖尿病视网膜病变分级；条目仅给出标题与作者，未见摘要。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "眼科"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅有标题与作者、无摘要，方法细节与验证情况未知，最多给中等偏下档",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Haoran Li, Yuxin Lin, Huan Wang, Xiaoling Luo, Qi Zhu, Jiahua Shi, Huaming Chen, Bo Du, Johan Barthelemy, Zongyan Xue, Jun Shen, Yong Xu",
+  "zh_abstract": "出版日期：2027年2月；来源：《Medical Image Analysis》第116卷；作者：Haoran Li、Yuxin Lin、Huan Wang、Xiaoling Luo、Qi Zhu、Jiahua Shi、Huaming Chen、Bo Du、Johan Barthelemy、Zongyan Xue、Jun Shen、Yong Xu",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+  "link": "https://arxiv.org/abs/2611.08922",
+  "date": "2026-11-06T03:08:38+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.08922",
+  "pop": null,
+  "id": "ef9dac0c4fa3",
+  "keep": true,
+  "zh_title": "Glyph：临床数据科学发现的可解释性引擎",
+  "summary": "arXiv预印本提出Glyph引擎，用于解释临床基础模型的隐嵌入特征，以自动提取超出现有表型定义的新特征并支持疾病机制发现。",
+  "key_points": [
+   "针对预定义表型限制发现范围的问题",
+   "解释临床基础模型隐嵌入以发现新特征",
+   "预印本，未经同行评审"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "可解释性",
+   "医学大模型",
+   "电子病历"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "方法有新意但仅预印本、无外部验证或结果细节",
+  "processing": "model-enriched",
+  "abstract": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers. Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes in multimodal and unstructured clinical data. Such pre-defined feature sets determine and limit which associations these approaches can discover. This limitation extends to agentic AI systems that use these tools to query population-scale data. In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives. This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret. To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery. We applied Glyph to abdominal CT volumes, CT radiology reports and laboratory measurements from 41,628 patients across different institutions. We identified 397 predictive concepts supported by 4,463 Bonferroni-significant associations. Moreover, a majority of discovered associations were automatically reproducible in held-out cohorts across different sites. Glyph concepts provided complementary associations to literature-derived markers, leading to gains in predictive power. We envision that interpretability can extend beyond a mechanistic understanding of neural networks to connecting implicitly learned features with clinical knowledge and establishing their significance for patient outcomes. We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+  "zh_abstract": "自动化科学发现有望促进对疾病机制的理解，并加速早期疾病标志物的识别。在人群规模上进行人工数据标注不可行，这推动了从多模态和非结构化临床数据中自动提取预定义表型的方法。此类预定义特征集决定并限制了这些方法能够发现的关联。这一局限性也延伸到使用这些工具查询人群规模数据的智能体式人工智能（agentic AI）系统。相比之下，在大规模临床数据上训练的基础模型（FMs）可以执行超出其训练目标的任务。这表明其潜在嵌入可能代表新的或尚未探索的特征，从而可能为疾病机制提供见解，然而此类潜在特征仍然难以解释。为应对这一挑战，我们引入了Glyph，这是一个自动化多阶段框架，使用FMs和稀疏自编码器从多模态和非结构化临床数据中提取特征，将其解释为编码的临床概念，并评估其对临床科学发现的价值。我们将Glyph应用于来自不同机构41,628例患者的腹部CT体积、CT放射学报告和实验室测量数据。我们识别出397个预测性概念，并由4,463个Bonferroni显著关联支持。此外，大多数发现的关联可在不同站点的留出队列中自动重现。Glyph概念与文献衍生标志物提供了互补关联，从而提升了预测效能。我们设想，可解释性可以超越对神经网络的机制性理解，将隐式学习到的特征与临床知识联系起来，并确立其对患者结局的重要性。我们在https://github.com/StanfordMIMI/Glyph发布了Glyph。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "AI-Assisted Differentiation of Pancreatic Cystic Lesions Using EUS Images and Clinical Features",
+  "link": "https://clinicaltrials.gov/study/NCT07919704",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "NCT07919704",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "e78c80999b93",
+  "keep": true,
+  "zh_title": "EUS图像+临床特征AI鉴别胰腺囊性病变",
+  "summary": "瑞金医院注册观察性诊断研究，计划400例，用超声内镜图像联合临床特征训练并验证AI以区分黏液性、浆液性囊性肿瘤与假性囊肿，尚无结果。",
+  "key_points": [
+   "观察性诊断研究，计划入组400例",
+   "回顾建模加前瞻性时序验证",
+   "尚未开始招募，无任何结果"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "仅为试验注册、无结果，样本量中等，属增量信息",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Ruijin Hospital; conditions: Pancreatic Mucinous Cystic Neoplasm, Pancreatic Serous Cystic Neoplasm, Pancreatic Pseudocyst; type: OBSERVATIONAL; enrollment: 400; status: NOT_YET_RECRUITING] Pancreatic mucinous cystic neoplasms (MCNs), serous cystic neoplasms (SCNs), and pancreatic pseudocysts (PPCs) often exhibit overlapping imaging features on endoscopic ultrasound (EUS). However, these conditions require different clinical management strategies. Accurate differentiation is therefore important for appropriate treatment planning. This study aims to develop and validate an artificial intelligence (AI) model that integrates EUS images and clinical features to differentiate MCNs, SCNs, and PPCs. The study is designed as an ambispective observational diagnostic study consisting of retrospective model development, prospective temporal validation, and a reader study involving EUS physicians. Approximately 400 adult patients with confirmed MCN, SCN, or PPC will be included. Retrospective clinical data and EUS images will be used for model development and internal validation. After model development is completed, newly diagnosed patients will be prospectively enrolled to independently evaluate the diagnostic performance of the model. The primary outcome is the patient-level macro-averaged area under the receiver operating characteristic curve (macro-AUROC) for three-class classification in the prospective validation cohort. Secondary outcomes include diagnostic accuracy, sensitivity, specificity, calibration, clinical net benefit, and the performance of EUS physicians with and without AI assistance. This study is expected to provide evidence for the potential clinical value of AI-assisted differentiation of pancreatic cystic lesions. No additional invasive procedures or study-specific treatments will be performed.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：瑞金医院；疾病：胰腺黏液性囊性肿瘤、胰腺浆液性囊性肿瘤、胰腺假性囊肿；类型：观察性；入组：400；状态：尚未招募] 胰腺黏液性囊性肿瘤（MCNs）、浆液性囊性肿瘤（SCNs）和胰腺假性囊肿（PPCs）在内镜超声（EUS）上常表现出重叠的影像学特征。然而，这些疾病需要不同的临床管理策略。因此，准确区分对于制定适当的治疗计划很重要。本研究旨在开发并验证一个整合EUS图像和临床特征的人工智能（AI）模型，以区分MCNs、SCNs和PPCs。本研究设计为一项双向性观察性诊断研究，包括回顾性模型开发、前瞻性时间验证以及涉及EUS医师的阅片者研究。将纳入约400例确诊为MCN、SCN或PPC的成年患者。回顾性临床数据和EUS图像将用于模型开发和内部验证。模型开发完成后，将前瞻性纳入新诊断患者，以独立评估模型的诊断性能。主要结局是前瞻性验证队列中三分类的患者层面宏平均受试者工作特征曲线下面积（macro-AUROC）。次要结局包括诊断准确性、敏感性、特异性、校准、临床净获益，以及EUS医师在有无AI辅助下的表现。本研究预期为AI辅助区分胰腺囊性病变的潜在临床价值提供证据。不进行额外侵入性操作或研究特定治疗。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "Missing the Point: Isolation Alone Will Not Build AI Safety",
+  "link": "https://medcitynews.com/2026/11/imprivata-ceo-is-missing-the-point-isolation-alone-will-not-build-ai-safety/",
+  "date": "2026-11-08T14:17:00+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "cbef61eedb31",
+  "keep": true,
+  "zh_title": "仅靠隔离无法构建医疗 AI 安全",
+  "summary": "评论文章认为，把 AI 智能体当作合同护士并限制其访问患者信息虽能降低风险，但也牺牲了关键机会。",
+  "key_points": [
+   "仅靠权限隔离不足以保障 AI 安全",
+   "过度限制会削弱智能体的应用价值",
+   "主张在风险与收益间重新权衡"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "智能体"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业观点文章，无论点证据或数据支撑，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Treating AI agents like contract nurses and minimizing their access to critical patient information certainly reduces potential risk. But, it also minimizes key opportunities. The post Missing the Point: Isolation Alone Will Not Build AI Safety appeared first on MedCity News .",
+  "zh_abstract": "将 AI 代理当作合同护士并尽量减少其对关键患者信息的访问，确实会降低潜在风险。但这也会减少关键机会。文章《Missing the Point: Isolation Alone Will Not Build AI Safety》首发于 MedCity News。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "Mathematical foundations of artificial intelligence in healthcare: a systematic review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42984626/",
+  "date": "2026-10-21T00:00:00+00:00",
+  "badge": "DOI 10.3389/frai.2026.1995929",
+  "source": "PubMed · Frontiers in artificial intelligence",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "90709e5fb08e",
+  "keep": true,
+  "zh_title": "医疗AI数学基础的系统综述",
+  "summary": "按PRISMA 2020系统检索2016年至2026年文献，纳入147项研究，梳理医疗AI的数学基础与方法趋势。",
+  "key_points": [
+   "检索三库，653条记录纳入147项",
+   "用VOSviewer做文献计量分析",
+   "JBI框架与AMSTAR-2评估质量"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "可解释性",
+   "基准"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "系统综述但主题宽泛、无新方法或临床结果，综述类上限内偏增量档",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in artificial intelligence] Artificial intelligence (AI) in healthcare relies on diverse mathematical frameworks, yet their contributions to model development, evaluation, interpretability, and clinical translation remain fragmented. This systematic review synthesized the classical and emerging mathematical foundations underpinning healthcare AI and examined major methodological and application trends. Following PRISMA 2020 guidelines, studies published between January 2016 and June 30, 2026, were identified through systematic searches of Scopus, Google Scholar, and PubMed/MEDLINE, with searches conducted using Harzing's Publish or Perish v8 where applicable. Bibliometric analysis was performed using VOSviewer, while methodological quality was assessed using an adapted JBI-based framework and AMSTAR-2 for systematic reviews. Of 653 records identified, 147 studies met the eligibility criteria. Non-mutually exclusive mathematical-domain coding identified linear algebra in 100/147 studies (68.0%), calculus and optimization in 91/147 (61.9%), and probability and statistics in 79/147 (53.7%), highlighting their roles in data representation, learning, optimization, inference, uncertainty quantification, and validation. A separate mutually exclusive classification of dominant methodological themes identified explainable and trustworthy AI in 24/147 studies (16.3%), statistics and learning theory in 23/147 (15.6%), probability and Bayesian methods in 23/147 (15.6%), calculus and optimization in 19/147 (12.9%), and linear algebra in 15/147 (10.2%). Radiology and medical imaging were the leading healthcare application (24.3%), while classification and diagnosis were the most frequent clinical task (17.1%). Overall, healthcare AI is supported by an interconnected mathematical ecosystem. Emerging approaches, including graph neural networks, Transformers, and quantum machine learning, require stronger external validation, standardized benchmarking, and rigorous evaluation for reliable clinical translation.",
+  "zh_abstract": "[Frontiers in artificial intelligence] 医疗保健中的人工智能（AI）依赖多种数学框架，但这些框架对模型开发、评估、可解释性和临床转化的贡献仍然零散。本系统综述综合了支撑医疗保健 AI 的经典和新兴数学基础，并考察了主要方法学和应用趋势。遵循 PRISMA 2020 指南，通过系统检索 Scopus、Google Scholar 和 PubMed/MEDLINE 识别 2016 年 1 月至 2026 年 6 月 30 日期间发表的研究，并在适用时使用 Harzing's Publish or Perish v8 进行检索。使用 VOSviewer 进行文献计量分析，同时使用改编的基于 JBI 的框架评估方法学质量，并使用 AMSTAR-2 评估系统综述。在识别出的 653 条记录中，147 项研究符合纳入标准。非互斥的数学领域编码显示，线性代数出现在 100/147 项研究（68.0%）中，微积分与优化出现在 91/147 项（61.9%）中，概率与统计出现在 79/147 项（53.7%）中，突显了它们在数据表示、学习、优化、推断、不确定性量化和验证中的作用。对主要方法学主题进行的另一项互斥分类显示，可解释与可信 AI 出现在 24/147 项研究（16.3%）中，统计与学习理论出现在 23/147 项（15.6%）中，概率与贝叶斯方法出现在 23/147 项（15.6%）中，微积分与优化出现在 19/147 项（12.9%）中，线性代数出现在 15/147 项（10.2%）中。放射学与医学成像是领先的医疗保健应用（24.3%），而分类与诊断是最常见的临床任务（17.1%）。总体而言，医疗保健 AI 由一个相互关联的数学生态系统支撑。新兴方法，包括图神经网络、Transformers 和量子机器学习，需要更强的外部验证、标准化基准测试和严格评估，以实现可靠的临床转化。",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "JoonasFI/OpenHolter",
+  "link": "https://github.com/JoonasFI/OpenHolter",
+  "date": "2026-11-03T21:02:04Z",
+  "pop": "★ 7",
+  "image": "https://avatars.githubusercontent.com/u/25513442?v=4",
+  "shot": "https://opengraph.githubassets.com/1/JoonasFI/OpenHolter",
+  "source": "GitHub",
+  "source_group": "GitHub",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "id": "7d0a59c2c0f3",
+  "keep": true,
+  "zh_title": "OpenHolter：Polar H10 开源心电记录与分析工具",
+  "summary": "面向 Polar H10 的开源心电记录工具，提供心搏分析、体位记录与 PDF 报告，并在 MIT-BIH 与 INCART 公开数据上验证。",
+  "key_points": [
+   "开源 Python 心电采集与分析工具",
+   "在 MIT-BIH、INCART 公开数据上验证",
+   "仅供研究使用，非医疗器械"
+  ],
+  "section": "临床预测与决策",
+  "type": "模型",
+  "tags": [
+   "生理信号",
+   "数据集"
+  ],
+  "evidence": "预印本",
+  "score": 4,
+  "reason": "开源工具+公开数据验证，但无临床评估、范围有限，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Open-source ECG recorder for the Polar H10: beat analysis, posture, PDF report. Openly validated on MIT-BIH and INCART. Research use only, not a medical device. (language: Python, homepage: , topics: )",
+  "zh_abstract": "用于 Polar H10 的开源心电图记录仪：心搏分析、体位、PDF 报告。在 MIT-BIH 和 INCART 上公开验证。仅供研究使用，不是医疗设备。（语言：Python，主页：，主题：）",
+  "day": "2026-11-09"
+ },
+ {
+  "title": "Artificial Intelligence-assisted Primary Care for Influenza Vaccination Among Chronic Patients in China (AIPC-Flu)",
+  "link": "https://clinicaltrials.gov/study/NCT07873255",
+  "date": "2026-10-14T00:00:00+00:00",
+  "badge": "NCT07873255",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "616e7490c234",
+  "score": 4,
+  "zh_title": "AI辅助基层医疗提升流感疫苗接种试验",
+  "tags": [
+   "临床落地",
+   "公共卫生"
+  ],
+  "evidence": "新闻",
+  "summary": "复旦注册的整群干预试验，拟入组1300例慢性病患者，评估AI辅助基层干预是否提高流感疫苗接种率及成本效果。",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Fudan University; conditions: Influenza Vaccination; type: INTERVENTIONAL; phase: NA; enrollment: 1300; status: NOT_YET_RECRUITING] The goal of this clinical trial is to evaluate whether an AI-assisted primary care intervention can increase influenza vaccination uptake among patients with chronic diseases and to assess the cost-effectiveness and potential for implementing the intervention in routine primary care. The main questions it aims to answer are: 1. Does the AI-assisted primary care intervention increase influenza risk perception, influenza vaccine literacy, vaccine confidence, intention to receive influenza vaccination, and influenza vaccination uptake among patients with chronic diseases? 2. Is the AI-assisted primary care intervention cost-effective compared with conventional health education? 3. Is the AI-assisted primary care intervention acceptable, feasible, and potentially sustainable for influenza vaccination promotion? Researchers will compare patients with chronic diseases who receive the AI-assisted primary care intervention with those who do not receive it to determine whether the intervention improves patients' literacy, confidence, intention, and uptake of influenza vaccination. Participants will: 1. Be recruited and randomly assigned to the intervention group or control group. Participants in the intervention group will have access to an AI assistant for influenza vaccine-related information and will receive an influenza vaccination recommendation from primary care physicians, while participants in the control group will receive routine health education. 2. Complete a survey questionnaire assessing patients' influenza risk perception, influenza vaccine literacy, vaccine confidence, and intention to receive influenza vaccination. 3. Have their influenza vaccination uptake assessed at the end of the trial.",
+  "key_points": [
+   "干预性设计，计划入组1300例",
+   "主要结局含接种意愿与实际接种率",
+   "同时评估成本效果与常规推广可行性"
+  ],
+  "processing": "model-enriched",
+  "section": "落地与监管",
+  "day": "2026-11-09",
+  "keep": true,
+  "type": "论文",
+  "reason": "前瞻性干预设计且有临床结局，但仅注册无结果，信息有限",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：复旦大学；疾病/状况：流感疫苗接种；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：1300；状态：NOT_YET_RECRUITING（尚未招募）] 本临床试验的目标是评估AI辅助基层医疗干预（AI-assisted primary care intervention）能否提高慢性病患者的流感疫苗接种率，并评估该干预在常规基层医疗中实施的成本效益和实施潜力。其旨在回答的主要问题是：1. AI辅助基层医疗干预能否提高慢性病患者的流感风险感知、流感疫苗素养、疫苗信心、接种流感疫苗意愿和流感疫苗接种率？2. 与常规健康教育相比，AI辅助基层医疗干预是否具有成本效益？3. AI辅助基层医疗干预在促进流感疫苗接种方面是否具有可接受性、可行性及潜在可持续性？研究人员将比较接受AI辅助基层医疗干预的慢性病患者与未接受该干预的患者，以确定该干预是否改善患者对流感疫苗接种的素养、信心、意愿和接种率。参与者将：1. 被招募并随机分配到干预组或对照组。干预组参与者可使用AI助手获取流感疫苗相关信息，并将收到基层医生的流感疫苗接种建议，而对照组参与者将接受常规健康教育。2. 完成一份调查问卷，评估患者的流感风险感知、流感疫苗素养、疫苗信心和接种流感疫苗意愿。3. 在试验结束时评估其流感疫苗接种情况。"
+ },
+ {
+  "title": "德适科技携手邕江实验室，推动中国医疗影像大模型落地东盟、普惠出海",
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mRFVIdHpPRjV4eUh0N09PcUpKdkpYeXMxRUZuaFlENTJOcTBzSlQzeVRrZkk1emhlN3RZTXEzZzNlZUladW5BTG9QQ3pWRXZBX1MxV2hVb2w0MVpPTlozd0UxVEphZFJM?oc=5",
+  "date": "2026-11-08T12:12:14+00:00",
+  "source": "央广网",
+  "source_group": "Google News · NMPA AI",
+  "home": "https://zj.cnr.cn",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "a7b1b5e06000",
+  "keep": true,
+  "zh_title": "德适科技与邕江实验室推动影像大模型出海东盟",
+  "summary": "仅标题信息：德适科技与邕江实验室合作，推动中国医疗影像大模型在东盟落地与普惠出海。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "医学大模型"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题的合作公告，宣传性质、无效果数据，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-09"
+ },
+ {
   "title": "Large language models are unstable as autonomous medical evaluators across clinical tasks.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42995166/",
   "date": "2026-11-06T00:00:00+00:00",
@@ -215,7 +561,8 @@
   "processing": "model-enriched",
   "day": "2026-11-08",
   "abstract_days": [
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -285,7 +632,8 @@
   "processing": "model-enriched",
   "day": "2026-11-08",
   "abstract_days": [
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -322,7 +670,8 @@
   "processing": "model-enriched",
   "day": "2026-11-08",
   "abstract_days": [
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -355,7 +704,8 @@
   "processing": "model-enriched",
   "day": "2026-11-08",
   "abstract_days": [
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1091,7 +1441,8 @@
   "day": "2026-11-07",
   "abstract_days": [
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1162,7 +1513,8 @@
   "day": "2026-11-07",
   "abstract_days": [
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -1273,7 +1625,8 @@
   "day": "2026-11-07",
   "abstract_days": [
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2200,7 +2553,8 @@
    "2026-11-05",
    "2026-11-06",
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3196,7 +3550,8 @@
    "2026-11-05",
    "2026-11-06",
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -9998,6 +10353,10 @@
    {
     "source": "Ortho Spine News",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQX1pCdG9RQ2JyM2JRelNSa0lqajIyUDFHNFlGZE5ZR08wUnE5UmpWWk1OUExXdkR6NnBQNTZrRUFHUmJvVVh2VDRjS1V1ckVZYTlEcU9BY1ZObnhDMVBWTkJzZ2FpbnhQREstb1ZWZ0RaVnlqa25KeUdoeVVlYllrclh2anNmWGpnY2ptOWlLN3dnUUt0Uk1VTk04NVdmQVoyLXVERkI0d2taUUE3Y3NQN2ttc2p2MnctdG9yVVBPWXI3S2dZenBUck1ULVQtTlYwNDUwWlE3RFVxRmIwUDJBVEVoMXlwQ2hCeEdr?oc=5"
+   },
+   {
+    "source": "Imaging Technology News",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONWNteFp0V0JnbmFVZTQ3VHRHc0d2cnN0VXBYVV9kYkVYaTBqcDFHN3drY1ZZV1VDZWJsNWZfS012MjNsOWtOdVM5US1Ed01RSEM1M1F2cUJMbXNSVi13RGJlRkMzR05IUWFTV0o1VkJaUFJaRnRvZTVtMnBYbjJFWkdUekxBOE5XcEtZQ0g4REZfcXNh?oc=5"
    }
   ]
  },
@@ -14600,31 +14959,6 @@
   "day": "2026-10-20"
  },
  {
-  "title": "Artificial Intelligence-assisted Primary Care for Influenza Vaccination Among Chronic Patients in China (AIPC-Flu)",
-  "link": "https://clinicaltrials.gov/study/NCT07873255",
-  "desc": "[Newly registered clinical trial, no results yet; sponsor: Fudan University; conditions: Influenza Vaccination; type: INTERVENTIONAL; phase: NA; enrollment: 1300; status: NOT_YET_RECRUITING] The goal of this clinical trial is to evaluate whether an AI-assisted primary care intervention can increase influenza vaccination uptake among patients with chronic diseases and to assess the cost-effectiveness and potential for implementing the intervention in routine primary care. The main questions it aims to answer are: 1. Does the AI-assisted primary care intervention increase influenza risk perception, influenza vaccine literacy, vaccine confidence, intention to receive influenza vaccination, and influenza vaccination uptake among patients with chronic diseases? 2. Is the AI-assisted primary care intervention cost-effective compared with conventional health education? 3. Is the AI-assisted primary care intervention acceptable, feasible, and potentially sustainable for influenza vaccination promotion? Researchers will compare patients with chronic diseases who receive the AI-assisted primary care intervention with those who do not receive it to determine whether the intervention improves patients' literacy, confidence, intention, and uptake of influenza vaccination. Participants will: 1. Be recruited and randomly assigned to the intervention group or control group. Participants in the intervention group will have access to an AI assistant for influenza vaccine-related information and will receive an influenza vaccination recommendation from primary care physicians, while participants in the control group will receive routine health education. 2. Complete a survey questionnaire assessing patients' influenza risk perception, influenza vaccine literacy, vaccine confidence, and intention to receive influenza vaccination. 3. Have their influenza vaccination uptake assessed at the end of the trial.",
-  "date": "2026-10-14T00:00:00+00:00",
-  "badge": "NCT07873255",
-  "source": "ClinicalTrials.gov",
-  "source_group": "ClinicalTrials.gov",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "616e7490c234",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Fudan University; conditions: Influenza Vaccination; type: INTERVENTIONAL; phase: NA; enrollment: 1300; status: NOT_YET_RECRUITING] The goal of this clinical trial is to evaluate whether an AI-assisted primary care intervention can increase influenza vaccination uptake among patients with chronic diseases and to assess the cost-effectiveness and potential for implementing the intervention in routine primary care. The main questions it aims to answer are: 1. Does the AI-assisted primary care intervention increase influenza risk perception, influenza vaccine literacy, vaccine confidence, intention to receive influenza vaccination, and influenza vaccination uptake among patients with chronic diseases? 2. Is the AI-assisted primary care intervention cost-effective compared with conventional health education? 3. Is the AI-assisted primary care intervention acceptable, feasible, and potentially sustainable for influenza vaccination promotion? Researchers will compare patients with chronic diseases who receive the AI-assisted primary care intervention with those who do not receive it to determine whether the intervention improves patients' literacy, confidence, intention, and uptake of influenza vaccination. Participants will: 1. Be recruited and randomly assigned to the intervention group or control group. Participants in the intervention group will have access to an AI assistant for influenza vaccine-related information and will receive an influenza vaccination recommendation from primary care physicians, while participants in the control group will receive routine health education. 2. Complete a survey questionnaire assessing patients' influenza risk perception, influenza vaccine literacy, vaccine confidence, and intention to receive influenza vaccination. 3. Have their influenza vaccination uptake assessed at the end of the trial.",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
   "title": "Empyrean Targets New Standard in Cancer Care with Vektra",
   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZzBoMEoxM0ppX0x0TnRPZkdVa2ptTHE0RUVzVkpQWGwxYWhmR3gyOXktZWZWWUgwRzVpVW5VSndBWDVNWmk5MU9xM2xJbWRWU2phME9FMGVjSDVCNWVwQWppTk55R1BjSG9yOFBxaXJxMjA4S05wZjh0Y2dCV012RWViZ2FsT3RjQXFMSF9ZaGdONmV2WDVQcExOWHhVMjAwa1ZJcllGS2JPTzZTN1hVM1h0Q29vbm8zUC1Keg?oc=5",
   "desc": "",
@@ -14891,31 +15225,6 @@
   "key_points": [],
   "processing": "metadata-only",
   "section": "临床预测与决策",
-  "day": "2026-10-20"
- },
- {
-  "title": "科大讯飞在通用大模型竞争中掉队：星火月活落后，2026年上半年由盈转亏",
-  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LYi02Q1ViSE03ZG1ta0hJMEhfSHJXWTY4eERxaTNRN1htdHV4a0kxUlhxeHJGR0NsZmw2eUlnSlRYejg1T01td0J6ZzVXR3FHdFpRaw?oc=5",
-  "desc": "",
-  "date": "2026-10-19T08:14:53+00:00",
-  "source": "虎嗅网",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://www.huxiu.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "8b980c91d2a7",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "大模型与智能体",
   "day": "2026-10-20"
  },
  {
