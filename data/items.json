@@ -1,5 +1,397 @@
 [
  {
+  "title": "Deep learning-based gait analysis predicts multisystem health phenotypes",
+  "link": "https://www.nature.com/articles/s41591-026-04725-8",
+  "date": "2026-11-09T00:00:00+00:00",
+  "source": "Nature Medicine",
+  "source_group": "Nature Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41591-026-04725-8",
+  "pop": null,
+  "id": "b01a6623c56d",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "深度学习步态分析预测多系统健康表型",
+  "summary": "基于3328名成人的深度相机三维骨骼运动数据构建步态基础模型，其嵌入可预测3210个表型中的1887个并提升多系统预测。",
+  "key_points": [
+   "深度相机采集五项运动任务的三维骨骼数据",
+   "步态嵌入预测3210个表型中的1887个",
+   "跨18个身体系统有预测增益，并改善诊断与用药预测"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "生理信号"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "大样本多表型预测研究，但未见外部验证或前瞻性设计，属值得一看档。",
+  "processing": "model-enriched",
+  "day": "2026-11-10",
+  "abstract": "We developed a gait foundation model from three-dimensional skeletal motion data of 3,328 deeply phenotyped adults, recorded using a depth camera during five motor tasks. Embeddings significantly predicted 1,887 of 3,210 phenotypic targets and provided predictive gains across all 18 body systems in men and 17 out of 18 in women, while also improving prediction of clinical diagnoses and medication use.",
+  "zh_abstract": "我们基于3,328名深度表型成年人在五项运动任务中通过深度相机记录的三维骨骼运动数据，开发了一个步态基础模型。嵌入显著预测了3,210个表型目标中的1,887个，并在男性全部18个身体系统以及女性18个身体系统中的17个中提供了预测增益，同时还改善了对临床诊断和药物使用的预测。"
+ },
+ {
+  "title": "AI-Based Tools for Stroke Diagnosis, Treatment and Outcome Prediction: a Multicentre Prospective Observational Study",
+  "link": "https://clinicaltrials.gov/study/NCT07924371",
+  "date": "2026-11-09T00:00:00+00:00",
+  "badge": "NCT07924371",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "c8db981fb3cf",
+  "keep": true,
+  "zh_title": "AI 工具用于卒中诊断、治疗与结局预测的多中心前瞻观察研究",
+  "summary": "UMBRELLA-P 在 6 国 7 家大学医院前瞻观察约 1 万例疑似卒中或 TIA 患者。",
+  "key_points": [
+   "多中心前瞻观察设计，计划入组 10000 例",
+   "覆盖院前、院内与院后全流程数据",
+   "新注册、尚无结果，未报告任何发现"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "临床决策支持",
+   "医学影像"
+  ],
+  "evidence": "新闻",
+  "score": 6,
+  "reason": "前瞻多中心大样本设计，但仅注册无结果",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Hospital Universitari Vall d'Hebron Research Institute; conditions: Stroke, Ischemic Stroke, Intracerebral Hemorrhage, Transient Ischemic Attack, Atrial Fibrillation; type: OBSERVATIONAL; enrollment: 10000; status: RECRUITING] Stroke is a leading cause of death and adult disability. Stroke care is still limited by fragmented care pathways, non-standardised diagnostic work-up and follow-up, and local, non-interoperable data systems across the pre-hospital, in-hospital and post-hospital settings. UMBRELLA-P is a multicentre, prospective, observational study in 7 university hospitals in 6 European countries (Spain, Italy, Belgium, the Netherlands, Germany and Switzerland). Adults with clinically suspected acute stroke or transient ischemic attack (TIA) are managed according to standard of care. Routine clinical, imaging, laboratory, ECG and patient-reported data are collected, pseudonymised, stored on a dedicated server at each hospital and harmonised to the OMOP Common Data Model. The harmonised data form a federated real-world data platform (U-Platform). On this platform, artificial intelligence (AI) models are trained and validated through federated learning, so that no patient data leave the participating sites. The models aim to predict short- and long-term outcomes, reduce time to treatment, and support diagnosis, triage, discharge, follow-up and secondary prevention. Five clinical sub-studies address pre-hospital triage, fast track to reperfusion, emergent intracerebral hemorrhage (ICH) management, TIA/minor stroke, and cardiac evaluation with blood biomarkers. The study is observational. The outputs of the AI models are used for research only and will not influence clinical decisions. Participants are followed for up to 12 months.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Hospital Universitari Vall d'Hebron Research Institute；疾病：卒中、缺血性卒中、脑内出血、短暂性脑缺血发作、心房颤动；类型：观察性；入组：10000；状态：招募中] 卒中是死亡和成人残疾的主要原因。卒中诊疗仍受限于碎片化的诊疗路径、非标准化的诊断检查和随访，以及院前、院内和院后环境中地方性、不可互操作的数据系统。UMBRELLA-P 是一项多中心、前瞻性、观察性研究，在 6 个欧洲国家（西班牙、意大利、比利时、荷兰、德国和瑞士）的 7 所大学医院开展。临床疑似急性卒中或短暂性脑缺血发作（TIA）的成人按标准诊疗进行管理。常规临床、影像、实验室、心电图和患者报告数据被收集、假名化、存储于各医院专用服务器，并协调至 OMOP 通用数据模型。协调后的数据构成联邦式真实世界数据平台（U-Platform）。在该平台上，AI 模型通过联邦学习进行训练和验证，因此患者数据不会离开参与站点。模型旨在预测短期和长期结局、缩短至治疗时间，并支持诊断、分诊、出院、随访和二级预防。五项临床子研究涉及院前分诊、快速通道至再灌注、急诊脑内出血（ICH）管理、TIA/轻型卒中和采用血液生物标志物的心脏评估。该研究为观察性研究。AI 模型的输出仅用于研究，不会影响临床决策。参与者随访长达 12 个月。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+  "link": "https://huggingface.co/papers/2611.08369",
+  "date": "2026-11-05T00:00:00.000Z",
+  "pop": "▲ 3 upvotes",
+  "badge": "arXiv 2611.08369",
+  "source": "Hugging Face Daily Papers",
+  "source_group": "Hugging Face Daily Papers",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "id": "a9a6dfe40e4d",
+  "keep": true,
+  "zh_title": "NPCBench：鼻咽癌多模态诊疗路径推理基准",
+  "summary": "预印本发布鼻咽癌“临床学徒式”基准，含4777个知识与问诊条目及100例患者诊疗路径队列。",
+  "key_points": [
+   "4777个知识点与问诊评估条目",
+   "100例患者、417项计分诊疗任务",
+   "以诊疗路径整体判断答案是否联合正确"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "基准",
+   "多模态",
+   "肿瘤"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预印本新基准规模较大，但未说明公开方式与外部评测",
+  "processing": "model-enriched",
+  "abstract": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, from guideline and foundational knowledge to case planning, longitudinal review, CarePath integration, and open-ended consultation. It contains 4,777 component and consultation items and a 100-patient CarePath cohort with 417 scored diagnostic and care tasks. The episode-level evaluation tests whether diagnostic and care answers are jointly correct within a care pathway. By linking stepwise tasks to patient-level care trajectories, NPCBench evaluates whether models ground decisions in visual evidence, interpret changes in patient state, and meet clinical requirements in consultation. Across 30 evaluated models, we observe a composition gap: strong performance on individual tasks does not ensure jointly correct diagnostic and care answers for the same patient. Among 21 multimodal models, strict CarePath success reaches at most 23%. Paired controls and physician calibration further examine evidence grounding, longitudinal revision, and consultation judging. Overall, NPCBench broadens the evaluation of medical artificial intelligence beyond static question-answering paradigms to an apprenticeship-oriented assessment of clinical workflows, thereby offering a testbed for evidence-based and temporally coherent reasoning in oncology care.",
+  "zh_abstract": "当前的医学基准通常将临床能力拆解为孤立的事实性问题、单图像任务或静态病例短述。这些测试对单个答案评分，但较少揭示模型能否将亚专科知识与多模态证据整合，并在整个照护过程中追踪患者病情。为弥合这一差距，我们提出NPCBench，这是一个针对鼻咽癌（nasopharyngeal carcinoma, NPC）的临床学徒制基准。NPCBench模拟专科培训，从指南和基础知识到病例规划、纵向回顾、CarePath整合和开放式咨询。它包含4,777个组成项和咨询条目，以及一个100例患者的CarePath队列，其中包含417项计分的诊断和照护任务。事件层面的评估检验诊断和照护答案在一条照护路径内是否联合正确。通过将分步任务与患者层面的照护轨迹相关联，NPCBench评估模型是否将决策建立在视觉证据上、解释患者状态变化，并在咨询中满足临床要求。在30个被评估模型中，我们观察到一种组合差距：在单项任务上的强劲表现并不能确保对同一患者作出联合正确的诊断和照护答案。在21个多模态模型中，严格的CarePath成功率最高仅为23%。配对对照和医生校准进一步考察证据依据、纵向修订和咨询评判。总体而言，NPCBench将医学人工智能的评估从静态问答范式扩展到以学徒制为导向的临床工作流程评估，从而为肿瘤照护中基于证据和时间连贯的推理提供了一个测试平台。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Randomized Trial Protocol: Head-to-Head Comparison of Two Ambient Artificial Intelligence Documentation Tools on Clinician Usability",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.07.26367514v1?rss=1",
+  "date": "2026-11-09T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.07.26367514",
+  "pop": null,
+  "id": "a6dac45771f2",
+  "keep": true,
+  "zh_title": "随机试验：两款环境AI记录工具头对头比较",
+  "summary": "UCLA单中心随机试验方案，374名门诊医生1:1比较两款商用环境AI病历记录工具的可用性与文书负担。",
+  "key_points": [
+   "单中心374名门诊临床医生1:1随机",
+   "评估可用性、文书负担与EHR时间",
+   "并考察开单编码支持与患者沟通体验"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "电子病历",
+   "临床NLP"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "随机对照设计有价值，但仅为试验方案、无结果，且为预印本",
+  "processing": "model-enriched",
+  "abstract": "Abstract Background: Ambient AI documentation reduces documentation burden and electronic health record (EHR) time for ambulatory clinicians. Newer features also queue orders and offer some level of coding support for clinician review. This study compares two commercial products deployed at UCLA Health. Objective: To compare Nabla and Epic Systems, Inc. ambient AI solution among ambulatory clinicians at UCLA Health on usability, documentation burden, perceived note quality, adoption, EHR time and productivity, clinician-reported experience with order queueing and coding support, coding and billing patterns and integrity, work productivity, and patient-reported communication experience. Methods: Two-arm parallel-group randomized trial, 1:1, among 374 ambulatory clinicians at a single academic health system who hold an active license for a standalone ambient application (Nabla). Randomization is covariate-constrained where cohort size permits, balancing age, sex, half-day clinic sessions, specialty group, and baseline System Usability Scale (SUS) score. Intervention runs 11/9/2026 to 1/17/2027, with the first four weeks as lead-in. The primary outcome is SUS score at follow-up, compared between arms. Analysis is by intention-to-treat using mixed-effects models. Ethics and dissemination: Determined exempt by the UCLA Institutional Review Board (IRB-26-2147). Survey completion indicates consent. No patient-level data are collected. Findings will directly inform operational decision making and will be published regardless of direction.",
+  "zh_abstract": "【背景】环境AI文档记录减轻了门诊临床医生的文档负担和电子健康记录（EHR）时间。较新的功能还可将医嘱排入队列，并提供一定程度的编码支持供临床医生审核。本研究比较在UCLA Health部署的两种商业产品。\n【目的】在UCLA Health门诊临床医生中比较Nabla与Epic Systems, Inc.环境AI解决方案在可用性、文档负担、感知记录质量、采用情况、EHR时间和生产率、临床医生报告的医嘱排队和编码支持体验、编码和计费模式与完整性、工作效率以及患者报告的沟通体验方面的差异。\n【方法】两臂平行组随机试验，1:1，在单一学术健康系统的374名门诊临床医生中开展，这些医生持有独立环境应用程序（Nabla）的有效许可证。在队列规模允许时采用协变量约束随机化，平衡年龄、性别、半日门诊时段、专科组和基线系统可用性量表（SUS）评分。干预时间为2026年11月9日至2027年1月17日，前四周为导入期。主要结局是随访时的SUS评分，在两臂之间进行比较。分析采用意向性治疗，使用混合效应模型。\n【伦理与传播】经UCLA机构审查委员会判定为豁免（IRB-26-2147）。完成调查即表示同意。不收集患者层面数据。研究结果将直接指导运营决策，并将无论方向如何均予以发表。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "AI in the Clinical Documentation Loop: Effects of LLM-Induced Note Bloat and Diagnostic Overcall on Downstream LLMs",
+  "link": "https://arxiv.org/abs/2611.10601",
+  "date": "2026-11-07T09:11:52+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.10601",
+  "pop": null,
+  "id": "fd7558512ff2",
+  "keep": true,
+  "zh_title": "LLM生成病历内容对下游模型的影响",
+  "summary": "预印本研究考察LLM撰写的病历内容造成的“膨胀”与诊断过度记录，如何影响后续读取同一病历的LLM。",
+  "key_points": [
+   "区分病历膨胀与临床发现失真两类伪影",
+   "以诊断过度记录作为失真案例",
+   "提示读写双向闭环带来的部署风险"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "电子病历",
+   "公平与安全"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预印本方法学分析有新意，但证据规模与验证有限",
+  "processing": "model-enriched",
+  "abstract": "Large language models (LLMs) are increasingly used to process medical records for healthcare tasks such as clinical documentation. Because these tools also generate documentation, the relationship is now bidirectional: models both read from and write to the record. Understanding how LLMs behave when reading records that already contain LLM-authored content is therefore critical for their safe deployment. In this study, we examine how LLM-authored content in the medical record affects downstream LLMs that read the same record. We consider two types of LLM-induced artifacts: bloat, in which LLM-generated summaries accumulate in the record and change the length and provenance of its content over time; and distortion, in which LLMs subtly alter clinical findings rather than fabricating facts outright. As a case of distortion, we study diagnostic overcall (documenting an unconfirmed differential diagnosis in the record) and test whether it propagates to the reader LLM's output. Across seven reader models from four families, we find evidence of both effects. First, LLM-generated summary notes modestly but consistently degraded downstream hospital-course generation compared with copy-forward and templated text of matched length. Second, injected overcalls reappeared in downstream outputs at rates that varied by reader model, without detectable changes in standard quality metrics. These findings show the need to monitor AI-generated content in medical records and to account for it when those records are later processed by AI.",
+  "zh_abstract": "大型语言模型（large language models, LLMs）越来越多地被用于处理医疗记录，以完成临床文档等医疗任务。由于这些工具也会生成文档，这种关系现在是双向的：模型既读取记录，也写入记录。因此，理解LLMs在读取已包含LLM撰写内容的记录时如何表现，对其安全部署至关重要。在本研究中，我们考察医疗记录中由LLM撰写的内容如何影响读取同一记录的下游LLMs。我们考虑两类由LLM引起的伪影：膨胀（bloat），即LLM生成的摘要累积在记录中，并随时间改变其内容的长度和来源；以及失真（distortion），即LLMs微妙地改变临床发现，而不是直接捏造事实。作为失真的一种情况，我们研究诊断过度判定（在记录中记录未经确认的鉴别诊断），并检验其是否会传播到读取该记录的LLM的输出中。在来自四个模型家族的七个读取器模型中，我们发现了两种效应的证据。首先，与匹配长度的复制前移文本和模板化文本相比，LLM生成的摘要记录会适度但持续地降低下游住院病程生成的质量。其次，注入的过度判定以因读取器模型而异的发生率重新出现在下游输出中，而标准质量指标未检测到变化。这些发现表明，需要监测医疗记录中AI生成的内容，并在这些记录随后由AI处理时将其纳入考虑。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Can General-Purpose Generative AI Supply Training Data for Medical Vision Models? A Multimodal Retrospective Study",
+  "link": "https://arxiv.org/abs/2611.10484",
+  "date": "2026-11-07T05:12:38+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.10484",
+  "pop": null,
+  "id": "c0d7b93bb417",
+  "keep": true,
+  "zh_title": "通用生成式 AI 能否为医学视觉模型提供训练数据",
+  "summary": "预印本回顾性评估通用图像生成模型合成医学影像用于训练与审计，并在真实数据上外部验证。",
+  "key_points": [
+   "覆盖胸片、眼底、CT 与颈动脉超声四模态",
+   "合成数据模型在真实数据上外部验证",
+   "肺炎任务 AUROC 0.877（n=14863）"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "生成模型",
+   "医学影像",
+   "数据集"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "大样本外部验证加分，但为预印本回顾性研究",
+  "processing": "model-enriched",
+  "abstract": "Background: Well-annotated, diverse medical imaging datasets remain a major constraint for vision-based medical AI. We evaluated Nano Banana, a general-purpose image generation and editing model, as a source of synthetic medical images for model training, subgroup augmentation, and model auditing. Methods: In this retrospective study across four imaging modalities, chest radiography, fundus photography, and CT models were trained only on synthetic images and externally validated on real-world data against real-data-trained models. Carotid ultrasound models were trained on a private Human Phenotype Project cohort (aged 40-75 years) with and without synthetic augmentation. Clinicians rated image plausibility. Evaluation used AUROC, AUPR, calibration, and decision curve analysis. Findings: Synthetic-only models achieved AUROCs of 0.877 (95% CI 0.843-0.910) for pneumonia (n=14863), 0.963 (0.948-0.975) for retinal detachment (n=1149), and 0.711 (0.600-0.823) for renal calculus (n=4122), comparable to real-data-trained models, but their calibration and net benefit were not consistently more favorable. With mixed synthetic-real training, a carotid ultrasound model produced an ordinal vascular age index that stratified 633 external subjects into subgroups differing in BMI and glucose (both p<0.01), linking vascular aging to cardiometabolic health. To stress-test shortcut learning, editing a moderate tessellated pattern into fundus photographs reduced the true-class probability for central serous chorioretinopathy from 0.996 to 0.822. Clinician-guided editing raised low-quality CT plausibility from 3.10/5 to 4.30/5. Interpretation: Synthetic data can complement real data in model training, subgroup representation, and model testing via controlled editing, but its clinical value should be assessed with calibration, decision curve analysis, and clinician review, not discrimination alone.",
+  "zh_abstract": "【背景】标注良好且多样化的医学影像数据集仍是基于视觉的医学人工智能的主要制约因素。我们评估了 Nano Banana——一种通用图像生成与编辑模型——作为合成医学图像来源，用于模型训练、亚组增强和模型审计。【方法】在这项回顾性研究中，涵盖四种成像模态；胸部X线摄影、眼底摄影和CT模型仅使用合成图像训练，并在真实世界数据上进行外部验证，与使用真实数据训练的模型进行比较。颈动脉超声模型在一个私有的 Human Phenotype Project 队列（年龄40-75岁）上训练，分别在有和无合成数据增强的条件下进行。临床医生对图像合理性进行评分。评估采用 AUROC、AUPR、校准和决策曲线分析。【结果】仅使用合成数据的模型在肺炎（n=14863）上达到 AUROC 0.877（95% CI 0.843-0.910），在视网膜脱离（n=1149）上为 0.963（0.948-0.975），在肾结石（n=4122）上为 0.711（0.600-0.823），与使用真实数据训练的模型相当，但其校准和净获益并非始终更优。采用合成-真实混合训练时，一个颈动脉超声模型产生了序数血管年龄指数，将633名外部受试者分层为BMI和血糖存在差异的亚组（两者 p<0.01），从而将血管老化与心脏代谢健康联系起来。为对捷径学习进行压力测试，将中等程度的镶嵌状（tessellated）图案编辑进眼底照片，使中心性浆液性脉络膜视网膜病变的真实类别概率从0.996降至0.822。临床医生引导的编辑将低质量CT的合理性从3.10/5提高至4.30/5。【解读】合成数据可在模型训练、亚组代表性和通过受控编辑进行模型测试方面补充真实数据，但其临床价值应通过校准、决策曲线分析和临床医生审查来评估，而不仅仅是判别能力。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Artificial Intelligence Use in Interventional Clinical Trials Registered on ClinicalTrials.gov.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43002404/",
+  "date": "2026-11-02T00:00:00+00:00",
+  "badge": "DOI 10.1001/jamanetworkopen.2026.42797",
+  "source": "PubMed · JAMA network open",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": true,
+  "pop": null,
+  "id": "b6fe39f097c0",
+  "keep": true,
+  "zh_title": "注册介入性临床试验中AI的使用情况",
+  "summary": "一篇同行评审论文，分析ClinicalTrials.gov注册介入性临床试验中人工智能的使用情况；仅有标题信息。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "监管政策"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅标题无正文，信息有限，属增量观察性分析",
+  "processing": "model-enriched",
+  "day": "2026-11-10",
+  "abstract_days": [
+   "2026-11-10"
+  ],
+  "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Doximity expands clinical AI footprint to more than 190 health systems",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-expands-clinical-ai-footprint-more-190-health-systems",
+  "date": "2026-11-10T04:42:30.568163+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "ade2da405e42",
+  "keep": true,
+  "zh_title": "Doximity临床AI覆盖逾190家医疗系统",
+  "summary": "据Fierce Healthcare报道，Doximity称已有超190家医疗系统购买其临床AI套件，并推出DoseCheck、与UpToDate合作。",
+  "key_points": [
+   "购买其AI套件的医疗系统由上季度165家增至190家以上",
+   "新推出DoseCheck，并宣布与UpToDate合作",
+   "以临床可靠性作为差异化竞争点"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "临床落地",
+   "临床决策支持"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "规模化商业部署有信息量，但属厂商自述、无临床结局数据，一般行业动态档",
+  "processing": "model-enriched",
+  "abstract": "Doximity is rapidly expanding its clinical AI footprint with health systems, with more than 190 organizations having now purchased its AI suite, up from 165 organizations last quarter. | Doximity is rapidly expanding its clinical AI footprint with health systems. The company is also making clinical reliability a major part of its competitive positioning, launching DoseCheck and a partnership with Wolters Kluwer's UpToDate.",
+  "zh_abstract": "Doximity 正在快速扩大其与医疗系统合作的临床 AI 布局，目前已有超过 190 家机构购买了其 AI 套件，高于上季度的 165 家。Doximity 正在快速扩大其与医疗系统合作的临床 AI 布局。该公司还将临床可靠性作为其竞争定位的重要组成部分，推出了 DoseCheck，并与 Wolters Kluwer 的 UpToDate 建立合作。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Multi-Agent Generative Artificial Intelligence for Transfusion Reaction Feature Extraction",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367389v1?rss=1",
+  "date": "2026-11-09T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.06.26367389",
+  "pop": null,
+  "id": "0e5e686234ab",
+  "keep": true,
+  "zh_title": "多智能体生成式 AI 提取输血反应特征",
+  "summary": "预印本开发开源多智能体流程，从自由文本病历提取 NHSN 输血反应特征，并用双医师盲评。",
+  "key_points": [
+   "从 NHSN 方案整理 181 个特征",
+   "三种开放权重模型评测 50 份文本",
+   "两名医师独立盲评模型输出"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "智能体",
+   "临床NLP"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "方法有新意的预印本，但样本仅 50 份文本",
+  "processing": "model-enriched",
+  "abstract": "BACKGROUND: Many transfusion reactions are not reported to hemovigilance systems, and the features needed to recognize them are often documented only in free-text clinical notes. We sought to develop and evaluate an open-source, multi-agent artificial intelligence (AI) pipeline to extract transfusion reaction features defined by the National Healthcare Safety Network (NHSN) Hemovigilance Module from clinical notes. METHODS: We curated 181 features from the NHSN protocol and developed a multi-stage pipeline that extracted features, their timing, and clinical details from free-text notes. Three open-weight large language models (Qwen 3.6-27B, GPT-OSS-120B, and Kimi K3) were applied to 50 notes from expert-written scenarios, published case reports, and MIMIC-IV discharge summaries. Two physicians independently evaluated every model output in a blinded interface. The primary analysis was restricted to feature occurrences with concordant physician assessments. RESULTS: Physicians agreed on 1,201 of 1,343 co-rated feature occurrences (89.4%; Krippendorff's alpha 0.73). Precision was above 0.98 for all models. Sensitivity was 0.774 (95% CI 0.745-0.800) for Kimi K3, 0.636 (0.604-0.667) for GPT-OSS-120B, and 0.624 (0.593-0.655) for Qwen 3.6-27B, and specificity ranged from 0.952 to 0.991. Omissions accounted for more than 94% of false negatives. Timing and clinical details were judged supported or reasonable in more than 92% and 97% of assessments, respectively. Results were consistent across note sources and in analyses including discordant assessments. CONCLUSION: Multi-agent AI pipelines provide a feasible method for extracting transfusion reaction signals from clinical notes with high precision. Our work may have applications in active hemovigilance, reaction classification, and big data research.",
+  "zh_abstract": "【背景】许多输血反应未上报至血液警戒系统，而识别这些反应所需的特征往往仅记录在自由文本临床笔记中。我们试图开发并评估一种开源、多智能体人工智能（AI）流水线，用于从临床笔记中提取由 National Healthcare Safety Network（NHSN）血液警戒模块定义的输血反应特征。【方法】我们从 NHSN 方案中整理了 181 个特征，并开发了一个多阶段流水线，从自由文本笔记中提取特征、其特征时间及临床细节。将三个开放权重的大语言模型（Qwen 3.6-27B、GPT-OSS-120B 和 Kimi K3）应用于 50 份笔记，这些笔记来自专家编写的场景、已发表的病例报告和 MIMIC-IV 出院小结。两名医生在盲态界面中独立评估每个模型的输出。主要分析仅限于医生评估一致的特征出现项。【结果】医生对 1,343 个共同评分的特征出现项中的 1,201 个达成一致（89.4%；Krippendorff's alpha 0.73）。所有模型的精确率均高于 0.98。Kimi K3 的灵敏度为 0.774（95% CI 0.745-0.800），GPT-OSS-120B 为 0.636（0.604-0.667），Qwen 3.6-27B 为 0.624（0.593-0.655），特异度范围为 0.952 至 0.991。遗漏占假阴性的 94% 以上。特征时间和临床细节分别在超过 92% 和超过 97% 的评估中被判定为有支持或合理。结果在不同笔记来源中以及在包含不一致评估的分析中均一致。【结论】多智能体 AI 流水线提供了一种可行的方法，可从临床笔记中以高精确率提取输血反应信号。我们的工作可能应用于主动血液警戒、反应分类和大数据研究。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Artificial Intelligence in Pediatric Hospital Medicine: Foundations, Clinical Applications, and Emerging Case Uses.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43001824/",
+  "date": "2026-11-01T00:00:00+00:00",
+  "badge": "DOI 10.3928/19382359-20260826-03",
+  "source": "PubMed · Pediatric annals",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "af378030aee7",
+  "keep": true,
+  "zh_title": "儿科医院医学中的AI：基础、应用与案例",
+  "summary": "综述梳理儿童医院医学中AI在病历记录、临床决策支持、预后建模等方面的应用、数据来源与现存局限。",
+  "key_points": [
+   "覆盖AI病历助手、病历总结与决策支持",
+   "涉及脓毒症预测、精准用药与罕见病诊断",
+   "数据源含电子病历、影像、可穿戴与基因组"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "临床NLP",
+   "电子病历",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述类上限6分，覆盖面广但无新证据、无系统评价",
+  "processing": "model-enriched",
+  "abstract": "[Pediatric annals] Artificial intelligence (AI) is rapidly transforming health care and has important implications for pediatric hospital medicine. Advances in machine learning and large language models have enabled applications that support patient care in the areas of clinical documentation, decision making, and prognostic modeling. Pediatric AI systems leverage diverse data sources, including electronic health records, medical imaging, physiologic monitoring, wearable devices, and genomic data. Current applications include AI-powered scribes, chart summarization, clinical decision support, prediction of sepsis and clinical deterioration, precision pharmacotherapy, rare disease diagnosis, and mental health interventions. These technologies have demonstrated potential to reduce clinician workload, enhance diagnostic accuracy, and facilitate earlier therapeutic interventions. However, significant challenges remain, including limited and heterogeneous pediatric datasets by virtue of age and developmental characteristics in children, bias, privacy concerns, lack of representativeness, and the need for rigorous validation and oversight. As AI adoption expands, pediatric hospitalists require foundational knowledge of AI principles and limitations to ensure safe, equitable, and effective implementation. With appropriate governance and multidisciplinary collaboration, AI has the potential to improve pediatric inpatient outcomes and health care delivery.",
+  "zh_abstract": "[Pediatric annals] 人工智能（artificial intelligence, AI）正在迅速改变医疗保健，并对儿科医院医学具有重要影响。机器学习和大型语言模型（large language models）的进展已使相关应用能够支持临床文档、决策和预后建模领域的患者照护。儿科AI系统利用多样化的数据来源，包括电子健康记录、医学影像、生理监测、可穿戴设备和基因组数据。当前应用包括AI驱动的记录员、病历摘要、临床决策支持、脓毒症和临床恶化的预测、精准药物治疗、罕见病诊断和心理健康干预。这些技术已显示出减少临床医生工作负荷、提高诊断准确性和促进更早治疗干预的潜力。然而，仍然存在重大挑战，包括由于儿童年龄和发育特征导致的儿科数据集有限且异质性高、偏倚、隐私问题、缺乏代表性，以及需要严格验证和监督。随着AI应用的扩大，儿科医院医学专科医生需要具备AI原理和局限性的基础知识，以确保安全、公平和有效的实施。通过适当的治理和多学科合作，AI有潜力改善儿科住院患者的结局和医疗保健服务。",
+  "day": "2026-11-10"
+ },
+ {
+  "title": "Artificial Intelligence in Pediatric Hospital Medicine: Governance, Ethics, Education, Research, and the Future Workforce.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43001826/",
+  "date": "2026-11-01T00:00:00+00:00",
+  "badge": "DOI 10.3928/19382359-20260826-05",
+  "source": "PubMed · Pediatric annals",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "08af3c4a2c7d",
+  "keep": true,
+  "zh_title": "儿科医院医学中的人工智能：治理、伦理、教育与研究",
+  "summary": "综述讨论儿科住院医疗中 AI 的治理、伦理、医学教育与研究议题，强调透明度与人监督。",
+  "key_points": [
+   "家庭在透明与人类监督下较能接受 AI 辅助",
+   "需治理问责、隐私、监管空白与部署后监测",
+   "算法偏倚与数据代表性或加剧医疗不平等"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "临床落地",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述述评类，无新数据，上限档内偏下",
+  "processing": "model-enriched",
+  "abstract": "[Pediatric annals] Artificial intelligence (AI) is increasingly influencing pediatric inpatient care, extending beyond clinical applications to many areas of health care delivery, medical education, and research. Studies suggest that families are receptive to AI-assisted care if transparency, human oversight, and shared decision making are maintained. Effective governance is necessary to address concerns related to accountability, privacy, regulatory gaps, postdeployment monitoring, and equitable implementation. Algorithmic bias, data representativeness, informed consent, and the potential for AI to exacerbate health care disparities pose new ethical concerns. Explainable AI may improve transparency, trust, and acceptance by clinicians through making AI-generated recommendations more understandable. AI can also transform medical education through personalized learning, simulation, and clinical decision support, while requiring new competencies in AI literacy. AI offers opportunities to expedite clinical trials and data analysis but requires pediatric-specific frameworks to address age-related bias and emphasize ethical use of pediatric data in research. Responsible implementation, strong oversight, multidisciplinary collaboration, and continued clinician leadership will be essential to realizing AI's potential while safeguarding the welfare of pediatric patients and their families.",
+  "zh_abstract": "[Pediatric Annals] 人工智能（AI）正日益影响儿科住院护理，其影响已超越临床应用，扩展到医疗保健服务、医学教育和研究的许多领域。研究表明，如果保持透明度、人工监督和共享决策，家庭对 AI 辅助护理持接受态度。有效的治理对于应对问责、隐私、监管空白、部署后监测和公平实施相关的问题十分必要。算法偏倚、数据代表性、知情同意，以及 AI 可能加剧医疗保健差异，带来了新的伦理关切。可解释 AI 可能通过使 AI 生成的建议更易理解，从而提高透明度、信任度和临床医生的接受度。AI 还可以通过个性化学习、模拟和临床决策支持改变医学教育，同时要求具备 AI 素养方面的新能力。AI 为加速临床试验和数据分析提供了机会，但需要儿科专用框架来应对年龄相关偏倚，并强调研究中儿科数据的伦理使用。负责任地实施、强有力的监督、多学科合作以及持续的临床医生领导，对于在保障儿科患者及其家庭福祉的同时实现 AI 的潜力至关重要。",
+  "day": "2026-11-10"
+ },
+ {
   "title": "Multimodal AI in Oral Cancer: A PRISMA-Guided Systematic Review.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42999821/",
   "date": "2026-11-07T00:00:00+00:00",
@@ -843,6 +1235,10 @@
    {
     "source": "PubMed · Oncology nursing forum",
     "link": "https://pubmed.ncbi.nlm.nih.gov/42987153/"
+   },
+   {
+    "source": "CASRAI",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcGpDclhScm4xVkdpdXQ3ZHo1RW80bGk4MDFsOWpnbHJncDZYX2JmUS1hRG9FMzFkSWhrSzduZGg3QTdtZFoyZXRuVkM2ZDh6Rmt1STMwdGxFdU9OVWlEdTA4TDhTc1V1bURCYmF3SGFHMGYxbDlmcXY2U1FQdmczNA?oc=5"
    }
   ],
   "keep": true,
@@ -902,7 +1298,8 @@
   "day": "2026-11-08",
   "abstract_days": [
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -973,7 +1370,8 @@
   "day": "2026-11-08",
   "abstract_days": [
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -1011,7 +1409,8 @@
   "day": "2026-11-08",
   "abstract_days": [
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1045,7 +1444,8 @@
   "day": "2026-11-08",
   "abstract_days": [
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1782,7 +2182,8 @@
   "abstract_days": [
    "2026-11-07",
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1854,7 +2255,8 @@
   "abstract_days": [
    "2026-11-07",
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -1966,7 +2368,8 @@
   "abstract_days": [
    "2026-11-07",
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2898,7 +3301,8 @@
    "2026-11-06",
    "2026-11-07",
    "2026-11-08",
-   "2026-11-09"
+   "2026-11-09",
+   "2026-11-10"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -12111,7 +12515,13 @@
   "processing": "model-enriched",
   "abstract": "Importance: Patients increasingly use artificial intelligence (AI) for health-related conversations, but evaluation measures largely reflect clinician judgment. Objective: To develop and preliminarily evaluate a patient instrument assessing the quality of patient-AI health conversations. Design: Cross-sectional survey conducted June 5-14, 2026, following patient-partnered instrument development and cognitive interviews. Setting: An anonymous online survey. Participants: A convenience sample of adults with prior use of large language models for personal health-related queries, recruited from an academic medical center-affiliated Insight Panel and patient peers. Exposures: Participants' own prior health-related conversations with AI tools of their choosing. Main Outcomes and Measures: The Patient-AI Rating instrument comprised 12 communication-quality and patient engagement items rated from 1 to 5 and a separately scored patient-perceived-harm item. Internal consistency was assessed using Cronbach alpha, with sensitivity analyses using first ratings only for those using the tool to rate multiple conversations and participant-mean profiles. We examined item-total correlations, inter-item structure, and between- and within-participant variation. Results: Fourteen participants contributed 46 complete ratings; among 13 providing demographics, median age was 63 years (IQR, 53-70 years), and 8 (62%) reported female gender. Participants provided a median of 2 ratings (range, 1-17). Cronbach alpha was 0.88 (95% CI, 0.83-0.93) across all ratings, 0.85 using first ratings only, and 0.92 using participant-mean profiles. Corrected item-total correlations ranged from 0.42 to 0.72; mean inter-item correlation was 0.40. No item deletion improved Cronbach alpha. The mean quality score was 4.43 (SD, 0.45). Among 9 participants contributing multiple ratings, the intraclass correlation coefficient was 0.45, suggesting inter-conversation variability. No perceived harm was reported in 44 of 46 ratings (96%); the harm item correlated minimally with the instrument total (r = 0.09). Conclusions and Relevance: In this small cross-sectional study of engaged patients, the Patient-AI Rating instrument showed promising internal consistency and variation across rated conversations. These findings support further evaluation of patient-reported communication quality alongside clinician-based measures. Validation in larger, more diverse populations, including assessment of construct and cri",
   "zh_abstract": "【重要性】患者越来越多地使用人工智能（AI）进行健康相关对话，但评估指标在很大程度上反映的是临床医生的判断。【目的】开发并初步评估一种患者工具，用于评估患者-AI健康对话的质量。【设计】在患者参与的工具开发和认知访谈之后，于2026年6月5日至14日开展的横断面调查。【环境】一项匿名在线调查。【参与者】便利样本，为曾使用大语言模型进行个人健康相关查询的成年人，从某学术医疗中心附属的Insight Panel和患者同伴中招募。【暴露】参与者本人既往使用其选择的AI工具进行的健康相关对话。【主要结局和测量】患者-AI评分工具（Patient-AI Rating instrument）由12个沟通质量和患者参与条目组成，按1至5分评分，另有一个单独评分的患者感知伤害条目。使用Cronbach alpha评估内部一致性，并进行敏感性分析：对使用该工具评价多次对话者仅使用首次评分，以及使用参与者均值剖面。我们检查了条目-总分相关性、条目间结构以及参与者间和参与者内变异。【结果】14名参与者提供了46份完整评分；在13名提供人口统计学信息者中，年龄中位数为63岁（IQR，53-70岁），8人（62%）报告为女性。参与者提供评分的中位数为2份（范围，1-17）。Cronbach alpha在所有评分中为0.88（95% CI，0.83-0.93），仅使用首次评分时为0.85，使用参与者均值剖面时为0.92。校正条目-总分相关性范围为0.42至0.72；平均条目间相关性为0.40。删除任何条目均未提高Cronbach alpha。平均质量评分为4.43（SD，0.45）。在提供多次评分的9名参与者中，组内相关系数为0.45，提示对话间存在变异。46份评分中有44份（96%）未报告感知伤害；伤害条目与工具总分的相关性极小（r = 0.09）。【结论与意义】在这项针对积极参与患者的小型横断面研究中，患者-AI评分工具显示出有前景的内部一致性以及所评价对话之间的变异。这些发现支持在基于临床医生的测量之外，进一步评估患者报告的沟通质量。需要在更大、更多样化的人群中进行验证，包括评估结构效度和 cri",
-  "day": "2026-10-24"
+  "day": "2026-10-24",
+  "also": [
+   {
+    "source": "PubMed · medRxiv : the preprint server for health sciences",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42996042/"
+   }
+  ]
  },
  {
   "title": "Artificial Intelligence (AI)-Initiated Clinical Decision Support in Hospitalist Practice",
@@ -15483,33 +15893,6 @@
   "evidence": "待核验",
   "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
   "abstract": "Patient-facing medical question answering with large language models (LLMs) is moving from research demonstrations to production deployments, yet evaluation remains anchored on factual correctness. Factuality is necessary but not sufficient: a response can be factually grounded and still issue a directive that, if acted on, would harm the patient. We introduce a risk-sensitive evaluation framework that scores responses by the presence and severity of six categories of risk-bearing language (treatment directives, contraindications, dosage expressions, urgency-triage cues, high-alert medication mentions, and overconfident assertions), anchored on published clinical harm taxonomies. Severity is classified by a three-judge LLM ensemble. We apply this framework to six 7-9B instruction-tuned models, three general (Mistral-7B, Phi-3.5-mini, Llama-3.1-8B) and three medically adapted (BioMistral-",
-  "key_points": [],
-  "processing": "metadata-only",
-  "section": "大模型与智能体",
-  "day": "2026-10-20"
- },
- {
-  "title": "entbappy/Medical-Agentic-Chatbot",
-  "link": "https://github.com/entbappy/Medical-Agentic-Chatbot",
-  "desc": " (language: Python, homepage: , topics: )",
-  "date": "2026-10-11T15:55:12Z",
-  "pop": "★ 6",
-  "image": "https://avatars.githubusercontent.com/u/68845761?v=4",
-  "shot": "https://opengraph.githubassets.com/1/entbappy/Medical-Agentic-Chatbot",
-  "source": "GitHub",
-  "source_group": "GitHub",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "badge": "",
-  "id": "a551d7ca4dd4",
-  "score": null,
-  "zh_title": "",
-  "tags": [],
-  "evidence": "待核验",
-  "summary": "未接入模型：仅提供公开题名与原始摘要，不是 AI 精读结论。",
-  "abstract": " (language: Python, homepage: , topics: )",
   "key_points": [],
   "processing": "metadata-only",
   "section": "大模型与智能体",
