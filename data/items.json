@@ -1,5 +1,81 @@
 [
  {
+  "title": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer",
+  "link": "https://www.nature.com/articles/s41591-026-04716-9",
+  "date": "2026-11-11T00:00:00+00:00",
+  "source": "Nature Medicine",
+  "source_group": "Nature Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41591-026-04716-9",
+  "pop": null,
+  "id": "76f0c76adf97",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "TROP2膜比值预测NSCLC抗体偶联药疗效",
+  "summary": "开发并验证计算病理标志物TROP2归一化膜比值，量化亚细胞定位，预测接受datopotamab deruxtecan治疗的非鳞NSCLC的PFS和OS改善。",
+  "key_points": [
+   "开发计算病理TROP2归一化膜比值",
+   "量化TROP2亚细胞定位",
+   "预测该药治疗的PFS和OS改善"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "肿瘤",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审计算病理研究，预测临床结局；验证范围与样本量未明",
+  "processing": "model-enriched",
+  "day": "2026-11-11",
+  "abstract_days": [
+   "2026-11-11"
+  ],
+  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+ },
+ {
+  "title": "Synthetic data to lower barriers towards equitable artificial intelligence in rapid diagnostic test interpretation",
+  "link": "https://www.nature.com/articles/s41746-026-03380-0",
+  "date": "2026-11-10T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03380-0",
+  "pop": null,
+  "id": "1646879e1c13",
+  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+  "keep": true,
+  "zh_title": "合成数据降低AI解读快速诊断试纸的门槛",
+  "summary": "研究提出SynSight，用合成数据训练分割与分类模型解读HIV与COVID-19快速诊断试纸，HIV灵敏度98%、特异度99%。",
+  "key_points": [
+   "无需真实图像即可训练ML流水线",
+   "HIV试纸：灵敏度98%、特异度99%",
+   "COVID-19试纸准确率最高99%"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "生成模型",
+   "医学影像",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审、以合成数据规避真实图像依赖有新意，但样本量与外部验证未明，属值得一看档",
+  "processing": "model-enriched",
+  "day": "2026-11-11",
+  "abstract": "Rapid diagnostic tests (RDTs) support affordable disease diagnosis. Machine learning (ML) can improve RDT interpretation but often relies on large, proprietary, and costly real-world image libraries. We present SynSight – a ML-enabled RDT segmentation and classification pipeline trained on synthetic data. Validated on HIV (98% sensitivity, 99% specificity) and COVID-19 RDTs (up to 99% accuracy), SynSight enables rapid ML training without real-world training images, keeping pace with new RDT development.",
+  "zh_abstract": "快速诊断检测（RDTs）有助于实现可负担的疾病诊断。机器学习（ML）可改善RDT判读，但往往依赖大型、专有且成本高昂的真实世界图像库。我们提出SynSight——一种基于合成数据训练的、由ML驱动的RDT分割与分类流程。SynSight在HIV（灵敏度98%、特异度99%）和COVID-19 RDTs（准确率高达99%）上得到验证，无需真实世界训练图像即可实现快速ML训练，并与新型RDT的开发保持同步。"
+ },
+ {
   "title": "[Articles] Two-step deep learning for candidemia prediction using time-series electronic health record data from the USA: a model development and validation study",
   "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00520-1/fulltext?rss=yes",
   "date": "2026-11-10T15:14:54+00:00",
@@ -136,6 +212,48 @@
   "processing": "model-enriched",
   "abstract": "Wong et al. review how in-context learning enables large language models to adapt to medical tasks using examples rather than model parameter updates. They map its applications and limitations and propose a risk-proportionate framework for evaluation, governance, and monitoring to guide responsible clinical translation.",
   "zh_abstract": "Wong 等综述了上下文学习如何使大语言模型利用示例而非模型参数更新来适应医学任务。他们梳理了其应用与局限性，并提出一个按风险相称的框架，用于评估、治理和监测，以指导负责任的临床转化。",
+  "day": "2026-11-11",
+  "also": [
+   {
+    "source": "PubMed · Cell reports. Medicine",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43008739/"
+   }
+  ]
+ },
+ {
+  "title": "Beyond the Stethoscope: Artificial Intelligence for Heart Failure Diagnosis and Phenotyping.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43009265/",
+  "date": "2026-11-10T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.cardfail.2026.07.025",
+  "source": "PubMed · Journal of cardiac failure",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "3ee203cd96c8",
+  "keep": true,
+  "zh_title": "超越听诊器：AI 用于心衰诊断与表型分型",
+  "summary": "综述介绍 AI 将常规临床数据用于心衰早筛与精细分型，并讨论了落地前需前瞻性验证。",
+  "key_points": [
+   "AI 心电图模型用于结构性心脏病机会性筛查",
+   "心电图联合超声的多模态方法助力识别 ATTR 心肌淀粉样变等表型",
+   "作者强调需前瞻性评估与配套工作流设计"
+  ],
+  "section": "临床预测与决策",
+  "type": "观点",
+  "tags": [
+   "临床预测",
+   "医学影像",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "综述类文章上限 6 分，内容有信息量但无新数据，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of cardiac failure] Artificial intelligence (AI) is reshaping cardiovascular medicine by transforming routinely collected clinical data into tools for earlier disease detection and more precise phenotyping. Heart failure (HF) represents a particularly compelling opportunity for AI-driven innovation, as many patients with structural heart disease remain unrecognized and traditional diagnostic frameworks often fail to capture disease heterogeneity. AI-enabled electrocardiogram (ECG) models, including EchoNext and PRESENT-SHD, highlight the potential for scalable opportunistic screening strategies for structural heart disease. Multimodal approaches, using ECGs and echocardiograms, are enabling earlier recognition of specific HF phenotypes, such as transthyretin cardiac amyloidosis. Successful implementation of these technologies will require prospective evaluation, thoughtful workflow integration, and responsible deployment. Early-career cardiologists are uniquely positioned to lead this transformation of AI in clinical medicine, ensuring that AI serves as a tool to augment clinical reasoning and ultimately advances more personalized, patient-centered cardiovascular care.",
+  "zh_abstract": "[Journal of cardiac failure] 人工智能（AI）正在重塑心血管医学，将常规收集的临床数据转化为更早发现疾病和更精准表型分型的工具。心力衰竭（HF）为AI驱动的创新提供了尤其有吸引力的机会，因为许多结构性心脏病患者仍未被识别，而传统诊断框架往往无法捕捉疾病异质性。AI赋能的心电图（ECG）模型，包括 EchoNext 和 PRESENT-SHD，凸显了针对结构性心脏病开展可扩展机会性筛查策略的潜力。使用ECG和超声心动图的多模态方法正在使特定HF表型（如转甲状腺素蛋白心脏淀粉样变性）的更早识别成为可能。这些技术的成功实施将需要前瞻性评估、审慎的工作流程整合和负责任的部署。处于职业生涯早期的心脏病科医生具有独特优势，可引领AI在临床医学中的这一转变，确保AI作为增强临床推理的工具，并最终推动更加个性化、以患者为中心的心血管诊疗。",
   "day": "2026-11-11"
  },
  {
@@ -171,6 +289,78 @@
   "processing": "model-enriched",
   "abstract": "[Physics in medicine and biology] Cerebrovascular diseases remain a major cause of mortality and long-term disability worldwide. Digital subtraction angiography (DSA) provides high-spatiotemporal-resolution visualization of cerebrovascular anatomy and contrast-agent dynamics and plays an important role in diagnosis, interventional treatment planning, and treatment assessment. Artificial intelligence (AI) has increasingly been applied to cerebrovascular DSA, yet the available evidence is distributed across diverse imaging settings, technical tasks, datasets, and validation strategies. This structured topical review provides a DSA-centered overview of AI-assisted cerebrovascular image analysis across 2D DSA, three-dimensional rotational angiography, and four-dimensional DSA. Literature from Web of Science Core Collection and major engineering databases was screened at title, abstract, and full-text levels using predefined eligibility criteria. The literature is organized around six interconnected tasks: image preprocessing, vessel and lesion segmentation, image registration, reconstruction and generation, disease diagnosis and detection, and hemodynamic analysis. Representative conventional and learning-based methods are reviewed together with their datasets, evaluation metrics, validation designs, and available data or code resources, with particular attention to the strength and limitations of the supporting evidence. Recent studies demonstrate increasing use of spatiotemporal modeling, deep learning, and image-generation techniques, but clinical translation remains constrained by small or single-center datasets, heterogeneous acquisition protocols and evaluation practices, limited external and prospective validation, model interpretability, and deployment requirements. Future work should emphasize acquisition-aware and physics-informed modeling, multicenter and privacy-preserving collaboration, clinically meaningful validation, and closer integration with neurointerventional workflows. By linking methodological developments with their supporting evidence and translational challenges, this review aims to support the development of more robust and clinically applicable AI methods for cerebrovascular DSA.",
   "zh_abstract": "[Physics in medicine and biology] 脑血管疾病仍然是全球死亡和长期残疾的主要原因。数字减影血管造影（DSA）可提供脑血管解剖结构和对比剂动力学的高时空分辨率可视化，并在诊断、介入治疗计划和治疗评估中发挥重要作用。人工智能（AI）已越来越多地应用于脑血管 DSA，但现有证据分散于不同的成像环境、技术任务、数据集和验证策略中。这篇结构化专题综述以 DSA 为中心，概述了二维 DSA、三维旋转血管造影和四维 DSA 中 AI 辅助的脑血管图像分析。来自 Web of Science Core Collection 和主要工程数据库的文献使用预定义的合格标准在标题、摘要和全文层面进行筛选。文献围绕六项相互关联的任务进行组织：图像预处理、血管和病灶分割、图像配准、重建与生成、疾病诊断与检测以及血流动力学分析。综述了代表性的传统方法和基于学习的方法及其数据集、评价指标、验证设计以及可获取的数据或代码资源，特别关注支持证据的优势与局限性。近期研究表明，时空建模、深度学习和图像生成技术的使用日益增多，但临床转化仍受限于小型或单中心数据集、异质性采集方案与评价实践、有限的外部验证和前瞻性验证、模型可解释性以及部署要求。未来工作应强调采集感知和物理知情建模、多中心和隐私保护协作、具有临床意义的验证，以及与神经介入工作流程更紧密的结合。通过将方法学进展与其支持证据和转化挑战相联系，本综述旨在支持开发更稳健、更具临床适用性的脑血管 DSA AI 方法。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+  "link": "https://huggingface.co/papers/2611.08969",
+  "date": "2026-11-06T04:30:15.000Z",
+  "pop": "▲ 2 upvotes",
+  "badge": "arXiv 2611.08969",
+  "source": "Hugging Face Daily Papers",
+  "source_group": "Hugging Face Daily Papers",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "id": "f2c36db6966d",
+  "keep": true,
+  "zh_title": "PhysioWave-T：面向生理信号的高效小波基础模型",
+  "summary": "提出面向EEG、ECG、sEMG的令牌高效小波基础模型，压缩序列长度并在多项EEG基准与癫痫检测上超过对照。",
+  "key_points": [
+   "小波尺度折叠压缩令牌序列",
+   "EEG模型30M参数、预训练超15M窗口",
+   "9项EEG指标中8项领先，并优于LUNA-L"
+  ],
+  "section": "临床预测与决策",
+  "type": "模型",
+  "tags": [
+   "生理信号",
+   "医学大模型",
+   "基准"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预印本新方法，大规模预训练与多基线对比，但缺外部临床验证",
+  "processing": "model-enriched",
+  "abstract": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subbands prior to tokenization, compressing sequence length from (J+1)CS to CS tokens for J levels, C channels, and S temporal patches. Route-specific front ends and learned channel-name embeddings allow one Transformer per modality to handle diverse montages and sampling rates, while unseen setups reuse the backbone via lightweight adapters. We pre-train a 30M-parameter EEG model on over 15M windows (19--128 channels), alongside ECG (30M) and sEMG (12M) encoders. Across four EEG routes, scale folding cuts Transformer latency by 4.0--7.2x and peak memory by 6.8--12.7x over scale expansion without accuracy loss. Our EEG encoder leads 8 of 9 metrics against BENDR, BIOT, LaBraM, and EEGPT, and surpasses LUNA-L on wearable seizure detection with fewer parameters. Reliability-aware latent fusion (RALF) further integrates summary tokens from independently pre-trained encoders via sample-adaptive weights. On SeizeIT2, RALF raises event sensitivity at 11 false alarms/h from 61.4% to 74.4% and window AUPRC from 0.321 to 0.399 over the best unimodal baseline, outperforming weighted-logit and concatenation fusion across all variants. PhysioWave-T also achieves state-of-the-art sEMG accuracies and top macro-F1 on PTB-XL Super and Chapman-Shaoxing. Code and models: https://github.com/ForeverBlue816/PhysioWave.",
+  "zh_abstract": "我们提出PhysioWave-T，这是一个面向EEG、ECG和sEMG的令牌高效小波基础模型系列。动态尺度折叠在令牌化之前重组J+1个小波子带，在J个层级、C个通道和S个时间块下，将序列长度从(J+1)CS个令牌压缩至CS个令牌。路由特定的前端和学习到的通道名称嵌入使每种模态的一个Transformer能够处理不同的导联组合和采样率，而未见过的设置可通过轻量级适配器复用主干网络。我们在超过1500万个窗口（19–128个通道）上预训练了一个3000万参数的EEG模型，并同时预训练了ECG（3000万参数）和sEMG（1200万参数）编码器。在四条EEG路径上，与尺度扩展相比，尺度折叠将Transformer延迟降低4.0–7.2倍，峰值内存降低6.8–12.7倍，且不损失准确率。我们的EEG编码器在9项指标中的8项上领先于BENDR、BIOT、LaBraM和EEGPT，并在可穿戴癫痫发作检测中以更少参数超过LUNA-L。可靠性感知潜在融合（RALF）进一步通过样本自适应权重整合来自独立预训练编码器的汇总令牌。在SeizeIT2上，相对于最佳单模态基线，RALF将每小时11次误报下的事件灵敏度从61.4%提高到74.4%，并将窗口AUPRC从0.321提高到0.399，在所有变体中均优于加权logit融合和拼接融合。PhysioWave-T还取得了最先进的sEMG准确率，并在PTB-XL Super和Chapman-Shaoxing上取得最高macro-F1。代码和模型：https://github.com/ForeverBlue816/PhysioWave。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
+  "link": "https://arxiv.org/abs/2611.14284",
+  "date": "2026-11-10T16:26:02+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.14284",
+  "pop": null,
+  "id": "0e116854a2c3",
+  "keep": true,
+  "zh_title": "环境AI scribe评估指标碎片化：96种测量方式",
+  "summary": "分析54项环境AI scribe评估研究，识别10个维度、40项指标和96种操作化方式，评估高度碎片化。",
+  "key_points": [
+   "54项研究归纳10个评估维度",
+   "40项指标被96种方式操作化",
+   "文书效率/时间最常测，安全与结局最少"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "基准",
+   "临床落地"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "预印本综述54项研究，揭示评估碎片化，有信息量但非系统综述",
+  "processing": "model-enriched",
+  "abstract": "Ambient artificial intelligence (AI) scribes have moved rapidly from experimental pilots to enterprise-wide deployment across health systems, promising reduced documentation burden and improved clinician experience. While research evaluating these tools has expanded quickly, there are no agreed-upon protocols or standardized metrics for assessing their performance, making it difficult to compare findings or cumulatively synthesize evidence across studies. Across 54 recent evaluation studies, we identify ten evaluation dimensions and 40 distinct metrics, operationalized in 96 different ways-35 of them (36%) used by only a single study. Assessment is dominated by documentation efficiency and time, measured in 44 of 54 studies. The other dimensions appear at broadly similar rates (16-24 studies each), and safety and clinical outcome least consistently of all. Ripple effects on the broader care system, such as impact on patients' care outcomes, redistribution of work, changes in billing and coding intensity, and downstream use of notes by other clinicians are rarely assessed. Moreover, the metrics used rely heavily on self-report and are fragmented and inconsistently operationalized, which limits comparability and hinders synthesis across studies. As an effort to support more rigorous and cumulative evaluation, in this paper we review the study designs, data sources, and metrics commonly used to evaluate ambient AI scribes in healthcare settings, discuss the limitations of current evaluation practice, and argue for a more holistic approach grounded in a standardized, multi-dimensional set of metrics.",
+  "zh_abstract": "环境人工智能（AI）记录助手已迅速从实验性试点走向卫生系统中的企业级部署，有望减轻文书负担并改善临床医生体验。尽管评估这些工具的研究迅速扩展，但目前尚无公认的方案或标准化指标来评估其性能，这使得比较研究结果或跨研究累积综合证据变得困难。在54项近期评估研究中，我们识别出十个评估维度和40项不同指标，这些指标以96种不同方式操作化——其中35项（36%）仅被一项研究使用。评估以文书效率和时间为主，在54项研究中有44项测量了这些方面。其他维度的出现率大致相似（各16–24项研究），而安全性和临床结局在所有维度中最不一致。对更广泛照护系统的连锁影响，例如对患者照护结局的影响、工作重新分配、计费和编码强度的变化，以及其他临床医生对记录的下游使用，很少被评估。此外，所用指标严重依赖自我报告，且碎片化、操作化不一致，这限制了可比性并阻碍了跨研究的综合。为支持更严谨和累积性的评估，本文综述了医疗环境中评估环境AI记录助手常用的研究设计、数据来源和指标，讨论了当前评估实践的局限性，并主张采用以标准化、多维度指标集为基础的更整体化方法。",
   "day": "2026-11-11"
  },
  {
@@ -210,44 +400,6 @@
   "day": "2026-11-11"
  },
  {
-  "title": "Synthetic data to lower barriers towards equitable artificial intelligence in rapid diagnostic test interpretation",
-  "link": "https://www.nature.com/articles/s41746-026-03380-0",
-  "date": "2026-11-10T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03380-0",
-  "pop": null,
-  "id": "1646879e1c13",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "合成数据降低快速诊断试剂判读AI的公平门槛",
-  "summary": "npj Digital Medicine 刊文探讨用合成数据降低快速诊断试剂判读AI实现公平可及的门槛，仅见标题信息。",
-  "key_points": [
-   "主题为快速诊断试剂判读的AI",
-   "以合成数据降低公平性门槛",
-   "仅见标题，未获摘要细节"
-  ],
-  "section": "落地与监管",
-  "type": "论文",
-  "tags": [
-   "公平与安全",
-   "医学影像"
-  ],
-  "evidence": "同行评审",
-  "score": 3,
-  "reason": "仅标题信息、方向偏公平性治理，内容不足以判断，属边缘档",
-  "processing": "model-enriched",
-  "day": "2026-11-11",
-  "abstract_days": [
-   "2026-11-11"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
- },
- {
   "title": "LLM-Supported Pain Neuroscience Education for Physiotherapy Students",
   "link": "https://clinicaltrials.gov/study/NCT07924319",
   "date": "2026-11-09T00:00:00+00:00",
@@ -280,6 +432,42 @@
   "processing": "model-enriched",
   "abstract": "[Newly registered clinical trial, no results yet; sponsor: İsmail Palalı; conditions: Pain, Chronic Pain, Health Professions Education; type: INTERVENTIONAL; phase: NA; enrollment: 120; status: COMPLETED] Physiotherapists need to explain pain to patients in a way that is scientifically accurate, understandable, and non-threatening. Pain neuroscience education (PNE) improves students' pain knowledge, but it is unclear whether this translates into retained ability to explain pain to patients. This randomized controlled trial tested whether adding structured feedback from a large language model (LLM; GPT-5.2 Instant, OpenAI, via the ChatGPT interface) to a standardized four-week PNE programme improves undergraduate physiotherapy students' pain-explanation competence compared with the same programme using standardized expert-developed (non-AI) feedback. The primary outcome was Pain Explanation Competence (PEC) on a previously unseen clinical transfer scenario, assessed without AI access 12 weeks after the intervention by three assessors blinded to group allocation.",
   "zh_abstract": "[新注册临床试验，尚无结果；申办者：İsmail Palalı；疾病/状况：疼痛、慢性疼痛、卫生专业教育；类型：INTERVENTIONAL（干预性）；阶段：NA（不适用）；入组人数：120；状态：COMPLETED（已完成）] 物理治疗师需要以科学准确、易于理解且不具威胁性的方式向患者解释疼痛。疼痛神经科学教育（PNE）可提高学生的疼痛知识，但尚不清楚这是否转化为向患者解释疼痛能力的保持。本随机对照试验测试：在标准化为期四周的PNE项目基础上，加入来自大型语言模型（LLM；GPT-5.2 Instant，OpenAI，通过ChatGPT界面）的结构化反馈，与使用标准化专家制定（非AI）反馈的同一项目相比，是否能改善本科物理治疗学生的疼痛解释能力。主要结局为在先前未见的临床迁移场景中的疼痛解释能力（Pain Explanation Competence，PEC），于干预后12周在无法使用AI的情况下由三名对分组分配设盲的评估者进行评估。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "Artificial Intelligence-Assisted Imaging for Diagnosis and Management of Focal Liver Lesions",
+  "link": "https://clinicaltrials.gov/study/NCT07926672",
+  "date": "2026-11-09T00:00:00+00:00",
+  "badge": "NCT07926672",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "c0bc93dc366b",
+  "keep": true,
+  "zh_title": "AI 辅助影像用于局灶性肝病变诊疗：万人试验注册",
+  "summary": "中山大学注册一项拟入组 1 万例的干预性试验，评估 AI 辅助影像诊断局灶性肝病变的临床价值。",
+  "key_points": [
+   "干预性试验，计划入组 10000 例，正在招募",
+   "目标为区分影像特征重叠的肝脏病变类型",
+   "尚无结果，仅注册信息可读"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "大样本前瞻性干预试验设计值得关注，但暂无任何结果数据",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Sun Yat-sen University; conditions: Focal Liver Lesions; type: INTERVENTIONAL; phase: NA; enrollment: 10000; status: RECRUITING] This study aims to evaluate the clinical value of artificial intelligence (AI)-assisted medical imaging in the diagnosis and management of focal liver lesions. Accurate diagnosis of focal liver lesions is important for selecting appropriate treatment strategies. However, distinguishing between different types of liver lesions can be challenging because of overlapping imaging features. AI-based imaging systems may help improve diagnostic accuracy and support clinical decision-making.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：中山大学；疾病：局灶性肝脏病变；类型：干预性；分期：不适用；入组：10000；状态：招募中] 本研究旨在评估人工智能（AI）辅助医学影像在局灶性肝脏病变诊断和管理中的临床价值。局灶性肝脏病变的准确诊断对于选择适当治疗策略很重要。然而，由于影像特征重叠，区分不同类型的肝脏病变可能具有挑战性。基于AI的影像系统可能有助于提高诊断准确性并支持临床决策。",
   "day": "2026-11-11"
  },
  {
@@ -319,6 +507,78 @@
   "day": "2026-11-11"
  },
  {
+  "title": "Natural-language cohort queries on a hospital data platform: accuracy and provenance in a real-world evaluation",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.09.26367645v1?rss=1",
+  "date": "2026-11-10T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.09.26367645",
+  "pop": null,
+  "id": "b18c31b87364",
+  "keep": true,
+  "zh_title": "医院数据平台自然语言队列查询真实世界评估",
+  "summary": "在多家三级医院评估商业自然语言查询平台，用25条提示检验脑肿瘤队列识别准确性与查询溯源。",
+  "key_points": [
+   "AIRE平台接入机构健康数据平台",
+   "25条自然语言提示对比人工SQL",
+   "评估队列识别准确性与查询级溯源"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "电子病历",
+   "临床落地"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "真实世界预印本评估，25条提示单队列，外部验证有限",
+  "processing": "model-enriched",
+  "abstract": "Background: Accessing routinely collected clinical data for research remains technically demanding across heterogeneous hospital systems. This proof-of-concept study aimed to evaluate the accuracy and query-level traceability of a commercial natural-language (NL) data-query platform implemented at a university hospital. Methods: An on-premises data integration platform with an NL query interface (AIRE; Briya, Tel Aviv, Israel) was connected to the institutional health data platform across three tertiary-care hospitals under an approved pseudonymization and governance framework. Implementation comprised regulatory and governance approval, and IT deployment. Twenty-five NL prompts addressing cohort identification and characterization in an adult ICD-10 C71-coded brain-tumor cohort (n = 1,594) were evaluated against manually written reference SQL and checked for a corresponding executed query in the exported log. Responses were classified into five categories. Prompts with unanswered or incorrect responses were re-posed in a new thread. Results: The platform was implemented over two years. Fifteen of 25 responses were exact (n = 11), concordant after definition alignment (n = 1), or incorrect but traceable from the logged SQL (n = 3); six were plausible but incorrect without a logged query, and four remained unanswered. No incorrect unlogged result recurred in a new thread. Across the initial and repeat evaluations, 22 of 23 logged responses were correct or traceable, whereas all eight unlogged responses were incorrect. Conclusions: Implementation was feasible but required substantial local institutional preparation. The NL interface reproduced SQL-derived results when definitions were explicit, while query-level provenance and verification of the displayed result were critical for identifying unreliable outputs.",
+  "zh_abstract": "【背景】在异质性医院系统中，获取常规收集的临床数据用于研究在技术上仍然困难。本概念验证研究旨在评估在大学医院实施的商业化自然语言（NL）数据查询平台的准确性及查询级可追溯性。【方法】在获批的假名化和治理框架下，将一个具有自然语言查询界面的本地部署数据集成平台（AIRE；Briya，以色列特拉维夫）连接到跨三家三级医院的机构健康数据平台。实施包括监管和治理审批以及IT部署。针对成人 ICD-10 C71 编码的脑肿瘤队列（n = 1,594）中队列识别和特征描述的25条自然语言提示，与人工编写的参考SQL进行对照评估，并在导出的日志中检查是否存在相应的已执行查询。回答被分为五类。未回答或回答错误的提示在一个新线程中重新提出。【结果】该平台部署耗时两年。25条回答中，15条为完全一致（n = 11）、定义对齐后一致（n = 1），或错误但可从记录SQL追溯（n = 3）；6条看似合理但错误且无记录查询，4条仍未回答。在新线程中未再出现错误的未记录结果。在初始和重复评估中，23条有记录回答中有22条正确或可追溯，而所有8条无记录回答均错误。【结论】实施可行，但需要大量本地机构准备工作。当定义明确时，自然语言界面可重现SQL得出的结果，而查询级来源和所显示结果的验证对于识别不可靠输出至关重要。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "Risk prediction models for macrovascular complications in type 2 diabetes mellitus: from traditional risk scores to multimodal intelligent prediction.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42997359/",
+  "date": "2026-10-14T00:00:00+00:00",
+  "badge": "DOI 10.3389/fendo.2026.1980631",
+  "source": "PubMed · Frontiers in endocrinology",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "ec24d5c13ac1",
+  "keep": true,
+  "zh_title": "2型糖尿病大血管并发症风险预测模型综述",
+  "summary": "综述从传统评分到机器学习、深度学习及多模态AI的T2DM大血管并发症风险预测模型及其局限。",
+  "key_points": [
+   "梳理传统评分至多模态AI模型演进",
+   "指出人群异质、结局定义不一等问题",
+   "强调外部验证、可解释性与落地不足"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "多模态",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审综述，覆盖多模态AI但非系统综述，证据级别有限",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in endocrinology] Macrovascular complications are the leading cause of morbidity and mortality in patients with type 2 diabetes mellitus (T2DM). Early risk identification and accurate risk stratification are essential for both primary and secondary cardiovascular prevention. With the rapid development of electronic health records, medical imaging, multi-omics technologies, and artificial intelligence (AI), risk prediction models for diabetic macrovascular complications have evolved from traditional statistical approaches to machine learning-, deep learning-, and multimodal AI-driven models. However, despite substantial improvements in predictive performance, current models remain limited by heterogeneous target populations, inconsistent outcome definitions, insufficient external validation, limited clinical interpretability, and inadequate real-world implementation, thereby restricting their clinical translation. This review summarizes the evolution, data sources, modeling methodologies, clinical applications, and future perspectives of risk prediction models for macrovascular complications in T2DM. We first describe the transition from conventional cardiovascular risk scores, including the Framingham Risk Score, to diabetes-specific models such as the UKPDS Risk Engine, ADVANCE, RECODe, and SCORE2-Diabetes, followed by the emergence of AI-based prediction models. We then review the major data sources used in contemporary prediction models, including clinical characteristics, laboratory biomarkers, vascular function and imaging, multi-omics profiles, and wearable device-derived data. Furthermore, we compare the strengths and limitations of traditional statistical methods, machine learning, deep learning, and multitask learning with respect to predictive performance, interpretability, and clinical applicability, and discuss the major challenges related to study design, external validation, data quality, algorithmic bias, and real-world implementation. Finally, we propose that future risk prediction models for diabetic macrovascular complications will evolve from single-source data to multimodal data integration, from static risk estimation to dynamic risk trajectories, from single outcomes to multiple interconnected cardiovascular outcomes, from prognosis prediction to individualized treatment benefit prediction, and from standalone algorithms to continuously learning clinical decision support systems. Emerging technologies, including foundation models, large language models",
+  "zh_abstract": "[Frontiers in endocrinology] 大血管并发症是2型糖尿病（T2DM）患者发病和死亡的主要原因。早期风险识别和准确的风险分层对于心血管疾病的一级和二级预防都至关重要。随着电子健康记录、医学影像、多组学技术和人工智能（AI）的快速发展，糖尿病大血管并发症的风险预测模型已从传统统计方法发展为机器学习、深度学习和多模态AI驱动的模型。然而，尽管预测性能有了实质性提升，当前模型仍受限于目标人群异质性、结局定义不一致、外部验证不足、临床可解释性有限以及真实世界实施不充分，从而限制了其临床转化。本综述总结了T2DM大血管并发症风险预测模型的演变、数据来源、建模方法、临床应用和未来展望。我们首先描述从传统心血管风险评分（包括Framingham风险评分）向糖尿病特异性模型（如UKPDS Risk Engine、ADVANCE、RECODe和SCORE2-Diabetes）的转变，随后介绍基于AI的预测模型的出现。然后，我们综述当代预测模型使用的主要数据来源，包括临床特征、实验室生物标志物、血管功能和影像、多组学特征以及可穿戴设备衍生数据。此外，我们比较传统统计方法、机器学习、深度学习和多任务学习在预测性能、可解释性和临床适用性方面的优势与局限，并讨论与研究设计、外部验证、数据质量、算法偏倚和真实世界实施相关的主要挑战。最后，我们提出糖尿病大血管并发症的未来风险预测模型将从单一来源数据走向多模态数据整合，从静态风险估计走向动态风险轨迹，从单一结局走向多个相互关联的心血管结局，从预后预测走向个体化治疗获益预测，从独立算法走向持续学习的临床决策支持系统。包括基础模型、大语言模型在内的新兴技术",
+  "day": "2026-11-11"
+ },
+ {
   "title": "FDA Flags Cyber, AI Risks in Autonomous Medical Robots",
   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZFczdmExbF8yVURhX0JCRHhBZUxvSWU5UEUzUlRrSEpTLVNXOVZ0eHA3UmxZQTA5bmVXSFVMOGpmS1BRbkJhT3ZSTmN0bEU0WmRpaHFwMUVfeUZjdmNBRDA4RWtPY3FBQ3ZKTmdhTjNwVHlzbXNUbG1UNUloS1ZTVGIzXzM4Uk5TSUpXTVg4YUkyNmhGMWVUQnF3?oc=5",
   "date": "2026-11-10T22:30:34+00:00",
@@ -345,6 +605,69 @@
   "evidence": "新闻",
   "score": 5,
   "reason": "监管层面风险提示有参考价值，但仅标题信息有限，标题类封顶6分",
+  "processing": "model-enriched",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "STAT+: MDCalc launches a ‘rumble strip’ for doctors using generative AI tools",
+  "link": "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/?utm_campaign=rss",
+  "date": "2026-11-11T09:30:00+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "1a8b35d7719d",
+  "_abs_err": "page: no abstract in meta (180515 bytes; title: MDCalc launches ‘rumble strip’ for doctors using generative ; text: MDCalc launches ‘rumble strip’ for doctors using generative AI| STAT Skip to Main Content Manage ale)",
+  "keep": true,
+  "zh_title": "MDCalc推出生成式AI回答校验工具CrossCover",
+  "summary": "MDCalc发布CrossCover，旨在帮助临床医生判断医疗AI聊天机器人回答是否可信。",
+  "key_points": [
+   "MDCalc推出CrossCover工具",
+   "旨在帮助医生信任AI聊天回答",
+   "报道未给出验证数据"
+  ],
+  "section": "产业动态",
+  "type": "模型",
+  "tags": [
+   "临床落地",
+   "生成模型"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "产品发布类行业动态，信息量有限，未给验证数据",
+  "processing": "model-enriched",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "PATIENT AI Act targets FDA, reimbursement gaps for AI-enabled health technology",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYXlEYTRNS3ZWZHVqYzBZMU03VkdTa3F3MmRMdHJDajBpVE81VlcwVi01c2RzZUo3VXhLZzhZb3hvYXJSTE1WVkZBMTFGWHZXNmRHdmJWVjhCd3k4MVozV2ZoMl9iNUljek5NMUtYMG1WUk54U3lCZWd2R1R3VEVVR0xvRjFKNVI2azd6X2pyNUc1MkxWaGhORGhXUTZEY0dsQVJ0cHdfR1RqSExBZ1QyZ2dUTQ?oc=5",
+  "date": "2026-11-11T02:20:26+00:00",
+  "source": "Hogan Lovells Cadwalader",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.hlc.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "626feae72bf6",
+  "keep": true,
+  "zh_title": "PATIENT AI Act 聚焦FDA审批与报销缺口",
+  "summary": "标题显示，PATIENT AI Act 旨在针对 AI 医疗技术的 FDA 审批与医保报销缺口提出立法应对。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "医疗器械"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "标题级立法动态，涉及审批与支付，但无具体条款细节，按标题上限档取5",
   "processing": "model-enriched",
   "day": "2026-11-11"
  },
@@ -386,6 +709,69 @@
   "day": "2026-11-11"
  },
  {
+  "title": "国家人工智能应用中试基地（医疗）探营：在这里，医疗AI从实验室走向千家万户",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYjB4c0I4bHI0dXV2b3p5d2pjWmhXQXc3WWV4YXdSdzFEU3QwZFV5UlZuYkcweGl0Z0tva3phVHJzclBGcDBlMDBNamppM0RLOVF1c2lnRzhKZTFhaFNaWXh4MTZNSy1uR0ZNMTZFVVA4cmdId29mZ05qdVl6V1BwNU0zR0NxZ1U5NU1EQw?oc=5",
+  "date": "2026-11-10T23:01:51+00:00",
+  "source": "Sohu",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://m.sohu.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "5e1538d9eca9",
+  "keep": true,
+  "zh_title": "国家人工智能应用中试基地（医疗）探营",
+  "summary": "标题显示，报道探访国家人工智能应用中试基地（医疗），主题是医疗AI从实验室走向应用的转化。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "临床落地",
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "仅标题，信息量有限，属转化基础设施类报道，按标题档取4",
+  "processing": "model-enriched",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "Opinion: AI’s health advice can be accurate and still make us sicker",
+  "link": "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/?utm_campaign=rss",
+  "date": "2026-11-10T09:30:00+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "65abd61c7230",
+  "_abs_err": "page: no abstract in meta (184418 bytes; title: Accurate medical advice from AI can still be dangerous | STA; text: Accurate medical advice from AI can still be dangerous | STAT Skip to Main Content Manage alerts for)",
+  "keep": true,
+  "zh_title": "评论：AI 健康建议准确也可能让人更不健康",
+  "summary": "评论指出准确的公共卫生信息也可能失效甚至反效，这一风险在 AI 与医疗场景中尤为突出。",
+  "key_points": [
+   "公共卫生传播信息正确不等于行为有效",
+   "AI 健康建议存在反效风险",
+   "仅观点表述，未提供具体研究细节"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "公共卫生"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "观点类短文，仅提出论点无数据支撑，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-11"
+ },
+ {
   "title": "Artificial Intelligence-Assisted 4D Dynamic Long-Axial PET Imaging for the Detection of Early Pancreatic Cancer Lesions",
   "link": "https://clinicaltrials.gov/study/NCT07925125",
   "date": "2026-11-09T00:00:00+00:00",
@@ -418,6 +804,75 @@
   "processing": "model-enriched",
   "abstract": "[Newly registered clinical trial, no results yet; sponsor: Ruijin Hospital; conditions: Pancreas Carcinoma, PDAC - Pancreatic Ductal Adenocarcinoma; type: OBSERVATIONAL; enrollment: 50; status: RECRUITING] Pancreatic ductal adenocarcinoma (PDAC) is associated with a poor prognosis, and early detection of pancreatic lesions is of great importance for improving patient outcomes. In this study, whole-body imaging with FDG and FAPI will be used to visualize the early development of pancreatic cancer lesions from multiple perspectives, including glucose metabolism, tumor fibrotic stroma, and integrin receptor expression. Furthermore, leveraging the advantages of four-dimensional dynamic long-axial PET imaging, artificial intelligence-assisted lesion detection and analysis will be performed to characterize lesions and differentiate between benign and malignant lesions. The imaging findings will subsequently be compared with postoperative histopathological results to evaluate the diagnostic performance of the proposed imaging approaches.",
   "zh_abstract": "[新注册临床试验，尚无结果；申办方：瑞金医院；疾病：胰腺癌，PDAC——胰腺导管腺癌；类型：观察性；入组人数：50；状态：招募中] 胰腺导管腺癌（PDAC）预后较差，早期发现胰腺病灶对于改善患者结局极为重要。在本研究中，将使用 FDG 和 FAPI 全身成像，从葡萄糖代谢、肿瘤纤维化间质和整合素受体表达等多个角度可视化胰腺癌病灶的早期发展。此外，利用四维动态长轴 PET 成像的优势，将进行人工智能辅助的病灶检测与分析，以表征病灶并区分良性和恶性病灶。随后，将影像学发现与术后组织病理学结果进行比较，以评估所提出的影像学方法的诊断性能。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "Effect of AI-Assisted Hand Hygiene Training on Hand Hygiene Competency in Newly Hired Workers",
+  "link": "https://clinicaltrials.gov/study/NCT07924696",
+  "date": "2026-11-09T00:00:00+00:00",
+  "badge": "NCT07924696",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "f8779e67c848",
+  "keep": true,
+  "zh_title": "AI辅助洗手培训对新员工洗手能力的效果",
+  "summary": "注册临床试验比较AI辅助即时反馈培训与常规带教对新入职医护人员洗手技能评分的影响，尚无结果。",
+  "key_points": [
+   "纳入260名新入职医护人员",
+   "AI屏幕即时反馈对比常规培训",
+   "主要评估洗手技能总分及难步骤"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "注册试验尚无结果，洗手培训场景，AI相关性有限",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Sir Run Run Shaw Hospital; conditions: Healthy Adult Participants; type: INTERVENTIONAL; phase: NA; enrollment: 260; status: COMPLETED] The goal of this clinical trial is to learn if artificial intelligence (AI)-assisted training works better than usual training. The training aims to improve handwashing skill in newly hired healthcare workers. The AI-assisted training uses a screen that shows feedback right away. The main questions it aims to answer are: Does AI-assisted training lead to higher overall handwashing skill scores than usual training? Does AI-assisted training improve harder handwashing steps? These include interlaced fingers, locked fingers, and fingertip rubbing. Researchers will compare AI-assisted training to usual instructor-led training. They will see if AI-assisted training improves handwashing skill. Participants will: Attend a 30-minute class on the World Health Organization (WHO) seven-step handwashing method. The class also explains how the skill test works. Be assigned by chance to usual training or AI-assisted training. Both trainings last 45 minutes. In the AI-assisted group, use a camera and screen. The screen shows their hand movements and gives feedback right away. This helps them correct their movements. Take a final handwashing skill test. The same AI system scores 12 parts of the WHO seven-step method. Two hundred sixty newly hired healthcare workers joined this study at one hospital in China. They included doctors, nurses, research staff, lab staff, and support staff.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：邵逸夫医院（Sir Run Run Shaw Hospital）；疾病/状况：健康成年参与者；类型：干预性；分期：不适用；入组人数：260；状态：已完成] 本临床试验的目标是了解人工智能（AI）辅助培训是否比常规培训效果更好。该培训旨在提高新入职医疗卫生工作者的洗手技能。AI辅助培训使用屏幕即时显示反馈。其主要旨在回答的问题是：AI辅助培训是否比常规培训带来更高的总体洗手技能评分？AI辅助培训是否改善较难的洗手步骤？这些步骤包括手指交叉、手指锁扣和指尖揉搓。研究人员将比较AI辅助培训与常规的讲师主导培训。他们将观察AI辅助培训是否改善洗手技能。参与者将：参加一堂30分钟的课程，学习世界卫生组织（WHO）七步洗手法。该课程还解释技能测试如何进行。被随机分配到常规培训或AI辅助培训。两种培训均持续45分钟。在AI辅助组中，使用摄像头和屏幕。屏幕显示其手部动作并即时给出反馈。这有助于他们纠正动作。参加最终的洗手技能测试。同一AI系统对WHO七步洗手法中的12个部分进行评分。260名新入职医疗卫生工作者在中国一家医院参加了本研究。他们包括医生、护士、科研人员、实验室人员和支持人员。",
+  "day": "2026-11-11"
+ },
+ {
+  "title": "AI-enabled virtual mental health startup Siggy launches from stealth",
+  "link": "https://www.fiercehealthcare.com/digital-health/ai-enabled-virtual-mental-health-startup-siggy-launches-stealth",
+  "date": "2026-11-11T11:18:19.079637+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "8063822d4045",
+  "keep": true,
+  "zh_title": "AI虚拟心理健康初创Siggy获600万美元种子前融资",
+  "summary": "Siggy结束隐身状态，获600万美元种子前融资，业务涵盖心理治疗、处方管理及AI接诊与会间支持。",
+  "key_points": [
+   "业务含治疗、处方管理与AI接诊",
+   "AI用于两次就诊之间的支持",
+   "种子前融资600万美元"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购",
+   "心理健康"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小额融资与产品发布，无效果数据，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Siggy, an AI-enabled virtual mental health provider, has launched out of stealth with $6 million in pre-seed funding. | Siggy combines therapy, prescription management and AI for intake and between-visits support.",
+  "zh_abstract": "Siggy是一家AI赋能的虚拟心理健康服务提供方，已结束隐身模式，获得600万美元种子前融资。| Siggy将治疗、处方管理以及用于接诊和就诊间支持的人工智能相结合。",
   "day": "2026-11-11"
  },
  {
