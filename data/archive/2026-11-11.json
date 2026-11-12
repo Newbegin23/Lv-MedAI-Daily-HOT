@@ -34,7 +34,8 @@
 "processing": "model-enriched",
 "day": "2026-11-11",
 "abstract_days": [
-"2026-11-11"
+"2026-11-11",
+"2026-11-12"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
@@ -142,7 +143,13 @@
 "score": 7,
 "reason": "金额超1亿美元的重要并购，符合大额交易加分档；但无临床或技术细节",
 "processing": "model-enriched",
-"day": "2026-11-11"
+"day": "2026-11-11",
+"also": [
+{
+"source": "Fierce Healthcare",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2V6b2xocDJ0MXRjakY1QjNnQWh3YUpSSS1FN09HRFhUSENzNGJ1RFAzcFdicTk2WWpnUUxBejVVc0JfcXRpMHBDaWstNm1GQTdzR1VkVlhVVUNhcXBoNy16WXRvbVFNN3dzcjgxSEFQSWYtUXRUM0U2THV6dElHZmh4eF9fLWtsbzljcXV1YklWOHRqQ3o0Qk5WdjZ0ZnRGbG1EUjNRRURSd0VPcUE?oc=5"
+}
+]
 },
 {
 "title": "Weakly supervised deep learning predicts perineural invasion from H&E whole-slide images in tongue squamous cell carcinoma: development and external validation.",
@@ -735,7 +742,13 @@
 "score": 4,
 "reason": "仅标题，信息量有限，属转化基础设施类报道，按标题档取4",
 "processing": "model-enriched",
-"day": "2026-11-11"
+"day": "2026-11-11",
+"also": [
+{
+"source": "Sohu",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q19PMjc2NURjTDRzSnhXSVNseDhYYkt0S2owYWJQVnU2al95M2FvVFBNYjROUnJ2Yy1uRjZUMGM0NmM3NXNsRTU4WE5SWXBlLWVsbHhB?oc=5"
+}
+]
 },
 {
 "title": "Opinion: AI’s health advice can be accurate and still make us sicker",
