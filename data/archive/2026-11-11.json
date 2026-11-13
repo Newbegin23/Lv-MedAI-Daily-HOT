@@ -14,12 +14,12 @@
 "id": "76f0c76adf97",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "TROP2膜比值预测NSCLC抗体偶联药疗效",
-"summary": "开发并验证计算病理标志物TROP2归一化膜比值，量化亚细胞定位，预测接受datopotamab deruxtecan治疗的非鳞NSCLC的PFS和OS改善。",
+"zh_title": "TROP2膜比值计算病理预测Dato-DXd肺癌疗效",
+"summary": "开发全监督计算病理QCS量化TROP2亚细胞表达，构建膜/膜+胞质比值NMR，用于预测Dato-DXd在NSCLC的临床结局。",
 "key_points": [
-"开发计算病理TROP2归一化膜比值",
-"量化TROP2亚细胞定位",
-"预测该药治疗的PFS和OS改善"
+"常规IHC视觉评分不能预测TROP2 ADC疗效",
+"QCS量化单个NSCLC细胞及亚细胞TROP2表达",
+"NMR为膜相对膜+胞质TROP2表达比值"
 ],
 "section": "影像与病理",
 "type": "论文",
@@ -30,14 +30,11 @@
 ],
 "evidence": "同行评审",
 "score": 6,
-"reason": "同行评审计算病理研究，预测临床结局；验证范围与样本量未明",
+"reason": "同行评审计算病理标志物研究，关联药物临床结局，但未见外部验证，属6分档。",
 "processing": "model-enriched",
 "day": "2026-11-11",
-"abstract_days": [
-"2026-11-11",
-"2026-11-12"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Datopotamab deruxtecan (Dato-DXd)—a trophoblast cell surface antigen 2 (TROP2)-directed antibody–drug conjugate—has demonstrated efficacy in patients with advanced nonsquamous non-small-cell lung cancer (NSCLC) ± actionable genomic alterations. However, TROP2 expression by pathologist assessment using conventional immunohistochemistry with visual scoring does not predict response to TROP2-directed antibody–drug conjugates in NSCLC. We developed TROP2 quantitative continuous scoring (QCS)—a fully supervised computational pathology approach that quantifies TROP2 expression in individual NSCLC cells and subcellular components from immunohistochemistry-stained slides. Using QCS to determine TROP2 expression at the tumor cell membrane and cytoplasm, normalized membrane ratio (NMR) was developed (ratio of membrane relative to membrane + cytoplasmic TROP2) in the biomarker-evaluable population of patients with advanced NSCLC in the TROPION-PanTumor01 study (n = 115). The TROP2 NMR cut-point was optimized and validated in patients with nonsquamous NSCLC without actionable genomic alterations (primary intended-use population, n = 221) in the biomarker-evaluable population (n = 352) of the TROPION-Lung01 trial. Association with clinical outcomes was assessed. Progression-free survival was longer in Dato-DXd-treated (median 7.2 versus 4.0 months; hazard ratio 0.40, 95% confidence interval 0.25–0.64) but not docetaxel-treated (median 4.1 versus 4.4 months; hazard ratio 0.94, 95% confidence interval 0.59–1.49) patients with TROP2 NMR-positive versus TROP2 NMR-negative samples (treatment by biomarker status interaction P = 0.0098), indicating that TROP2 NMR may be a predictive biomarker for Dato-DXd.",
+"zh_abstract": "Datopotamab deruxtecan（Dato-DXd）是一种靶向滋养层细胞表面抗原2（TROP2）的抗体偶联药物，已在晚期非鳞状非小细胞肺癌（NSCLC）±可靶向基因组改变患者中显示出疗效。然而，病理学家使用传统免疫组化视觉评分评估的TROP2表达，不能预测NSCLC患者对靶向TROP2的抗体偶联药物的反应。我们开发了TROP2定量连续评分（QCS）——一种全监督计算病理学方法，可从免疫组化染色切片中量化单个NSCLC细胞及亚细胞组分中的TROP2表达。在TROPION-PanTumor01研究（n = 115）的晚期NSCLC生物标志物可评估人群中，使用QCS确定肿瘤细胞膜和细胞质中的TROP2表达，开发了归一化膜比率（NMR）（膜TROP2与膜+细胞质TROP2的比值）。TROP2 NMR临界值在TROPION-Lung01试验的生物标志物可评估人群（n = 352）中，于无可用药基因组改变的非鳞状NSCLC患者（主要预期使用人群，n = 221）中进行了优化和验证。评估了其与临床结局的相关性。在Dato-DXd治疗的患者中，TROP2 NMR阳性样本较TROP2 NMR阴性样本的无进展生存期更长（中位7.2个月 vs 4.0个月；风险比0.40，95%置信区间0.25–0.64），但在多西他赛治疗的患者中并非如此（中位4.1个月 vs 4.4个月；风险比0.94，95%置信区间0.59–1.49）（治疗与生物标志物状态的交互作用P = 0.0098），表明TROP2 NMR可能是Dato-DXd的预测性生物标志物。"
 },
 {
 "title": "Synthetic data to lower barriers towards equitable artificial intelligence in rapid diagnostic test interpretation",

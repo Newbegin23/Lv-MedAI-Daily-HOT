@@ -1,5 +1,482 @@
 [
  {
+  "title": "The COSAS 2024 challenge: Cross-Organ and Cross-Scanner Adenocarcinoma Segmentation for domain generalization in computational pathology",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004597?dgcid=rss_sd_all",
+  "date": "2026-11-13T03:29:27.299173+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "89ccdcdb9726",
+  "keep": true,
+  "zh_title": "COSAS 2024挑战赛：跨器官跨扫描仪腺癌分割",
+  "summary": "医学图像分析刊出COSAS 2024挑战赛总结，聚焦计算病理中跨器官、跨扫描仪的域泛化分割。",
+  "key_points": [
+   "主题为腺癌分割的域泛化",
+   "强调跨器官与跨扫描仪差异",
+   "多团队参与的方法汇总报道"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "数据集",
+   "基准"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审挑战赛/基准，具多中心域泛化价值，但仅摘要信息",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Biwen Meng, Qian Da, Xi Long, Jiahao Wang, Ruochen Liu, Frauke Wilm, Katharina Breininger, Yuqi Li, Chuanguang Yang, Jiayan Huang, Shuoyu Xu, Huajia Wang, Xing Lu, Pengzhou Cai, Ze Zhao, Shashank Gupta, Nameeta Shah, Adrian Galdran, Prasad Dutande, Suhas Gajre",
+  "zh_abstract": "出版日期：2027年2月 来源：《医学图像分析》（Medical Image Analysis），第116卷 作者：Biwen Meng、Qian Da、Xi Long、Jiahao Wang、Ruochen Liu、Frauke Wilm、Katharina Breininger、Yuqi Li、Chuanguang Yang、Jiayan Huang、Shuoyu Xu、Huajia Wang、Xing Lu、Pengzhou Cai、Ze Zhao、Shashank Gupta、Nameeta Shah、Adrian Galdran、Prasad Dutande、Suhas Gajre",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Speak before the reveal: a practical method to protect clinical reasoning from artificial intelligence scribe deskilling, never-skilling, and mis-skilling.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43017790/",
+  "date": "2026-11-12T00:00:00+00:00",
+  "badge": "DOI 10.1093/jamia/ocag191",
+  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+  "source_group": "PubMed · 重点期刊",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "8bd857ebdc15",
+  "keep": true,
+  "zh_title": "先口述后揭示：防止AI病历助手削弱临床推理",
+  "summary": "JAMIA观点提出“先口述后揭示”方法，让医生在生成病历前先表述综合与计划，以防技能退化。",
+  "key_points": [
+   "区分技能退化、从未形成技能与错误内化三类风险",
+   "建议医生在查看AI输出前先口述推理",
+   "讨论培训、依从性、验证与治理策略"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "生成模型",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "视角文章提出可操作方法，但无实证评估，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Journal of the American Medical Informatics Association : JAMIA] Ambient artificial intelligence (AI) scribes are rapidly becoming normalized in clinical practice, yet governance frameworks focus on accuracy, privacy, consent, and medicolegal status. Risks to clinician capabilities have received less attention. Speak before the reveal is a proposed method in which clinicians verbalize critical cognitive steps, such as synthesis and plan, before note generation. Recent work distinguishes deskilling in senior clinicians, never-skilling from premature offload in trainees and mis-skilling, the internalization of AI errors and inappropriate use as sound practice. This Perspective builds on emerging evidence that reasoning before seeing AI output may protect unaided reasoning. Training implementation, evaluation, adherence challenges, validation methodology, and governance strategies for training bodies, health services, and scribe vendors are discussed. Speak before the reveal is a low-cost, testable approach to maintaining clinical reasoning for individuals or organizations. Successful AI scribe adoption requires preserving clinicians' ability to work without AI support.",
+  "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 环境人工智能（AI）记录助手（ambient AI scribes）正迅速在临床实践中常态化，然而治理框架却聚焦于准确性、隐私、知情同意和医疗法律地位。对临床医生能力构成的风险受到的关注较少。“先口述后揭示”（Speak before the reveal）是一种提出的方法，即临床医生在生成病历记录之前，口述关键的认知步骤，例如综合分析和计划。近期研究区分了资深临床医生的去技能化（deskilling）、受训者因过早卸载认知任务而从未习得技能（never-skilling），以及错误技能化（mis-skilling）——即将AI错误内化并把不当使用视为可靠实践。本观点文章基于新兴证据，即看到AI输出之前进行推理可能保护无辅助推理能力。文中讨论了培训实施、评估、依从性挑战、验证方法学，以及针对培训机构、卫生服务机构和记录助手供应商的治理策略。“先口述后揭示”是一种低成本、可检验的方法，可帮助个人或组织维持临床推理能力。成功采用AI记录助手需要保留临床医生在没有AI支持时工作的能力。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Is AI Really Saving Hospitals Money? A New Study Raises Questions About the Cost of AI-Driven Care",
+  "link": "https://medcitynews.com/2026/11/is-ai-really-saving-hospitals-money-a-new-study-raises-questions-about-the-cost-of-ai-driven-care/",
+  "date": "2026-11-12T17:54:03+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "e06265ee745c",
+  "keep": true,
+  "zh_title": "NEJM研究质疑AI生成照护计划的成本",
+  "summary": "MedCity News报道NEJM一项研究，称AI生成的照护计划费用可能远高于医生开具的方案。",
+  "key_points": [
+   "研究发表于NEJM",
+   "AI生成照护计划成本高于医生方案",
+   "报道未给出样本量与设计细节"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审研究涉及成本结局，但仅有二次报道、缺样本与设计信息，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Healthcare systems are investing in AI to streamline workflows and save money, but a new study in the New England Journal of Medicine shows that AI-generated care plans might actually cost far more than those ordered by physicians. . The post Is AI Really Saving Hospitals Money? A New Study Raises Questions About the Cost of AI-Driven Care appeared first on MedCity News .",
+  "zh_abstract": "医疗系统正投资于 AI，以简化工作流程并节省资金，但《新英格兰医学杂志》（New England Journal of Medicine）的一项新研究表明，AI 生成的护理计划实际上可能比医生开具的护理计划花费高得多。文章《AI 真的在为医院省钱吗？一项新研究对 AI 驱动护理的成本提出疑问》最初发表于 MedCity News。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "[Articles] Detecting low left ventricular ejection fraction from ECG using an interpretable and scalable predictor-driven framework: a model development and validation study",
+  "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00584-5/fulltext?rss=yes",
+  "date": "2026-11-12T15:14:40+00:00",
+  "source": "eClinicalMedicine",
+  "source_group": "eClinicalMedicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "c7508f0f0407",
+  "keep": true,
+  "zh_title": "用可解释框架从心电图检测低左室射血分数",
+  "summary": "模型开发与验证研究利用心电基础模型的诊断评分构建可解释框架，检测低左室射血分数。",
+  "key_points": [
+   "复用基础模型对常规心电表现的表示",
+   "构建可解释、可扩展的预测框架",
+   "作者称尚需人群筛查与国际大队列验证"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "临床预测",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "方法清晰、可解释，但条目未显示外部验证，属规范回顾性研究档",
+  "processing": "model-enriched",
+  "abstract": "Diagnostic scores of conventional ECG findings from ECG foundation models contain information relevant to the detection of ventricular dysfunction. These representations can be directly reused for low LVEF detection and further integrated into interpretable predictive models, providing a scalable and extensible computational framework for existing AI-ECG systems. Future research should validate the framework in population-based screening settings and larger international cohorts.",
+  "zh_abstract": "来自心电图（ECG）基础模型的常规ECG表现的诊断评分包含与检测心室功能障碍相关的信息。这些表征可直接重用于低左心室射血分数（LVEF）检测，并进一步整合到可解释的预测模型中，为现有AI-ECG系统提供可扩展且可延展的计算框架。未来研究应在基于人群的筛查环境和更大的国际队列中验证该框架。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "A frontier machine intelligence for human neuroimaging",
+  "link": "https://arxiv.org/abs/2611.15094",
+  "date": "2026-11-11T06:11:38+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.15094",
+  "pop": null,
+  "id": "061a5fe077d0",
+  "keep": true,
+  "zh_title": "Neuro-VL：百万级神经影像视觉语言模型",
+  "summary": "预印本提出在近百万例常规临床神经影像上训练的视觉语言模型Neuro-VL，可解读整套检查并用自然语言讨论所见。",
+  "key_points": [
+   "训练数据近百万例常规临床神经影像",
+   "内部及国际数据集上优于通用与专科模型",
+   "可完成诊断、定位等任务并对话交互"
+  ],
+  "section": "影像与病理",
+  "type": "模型",
+  "tags": [
+   "医学影像",
+   "多模态",
+   "神经科学"
+  ],
+  "evidence": "预印本",
+  "score": 7,
+  "reason": "百万级训练数据加国际外部验证，但为未经同行评审预印本，故不入里程碑档",
+  "processing": "model-enriched",
+  "abstract": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions remains a major challenge. Here, we show that Neuro-VL, a vision-language model trained on nearly one million neuroimaging studies from routine clinical care, can interpret complete imaging examinations and engage in natural language conversations about their findings. Across internal and international datasets, Neuro-VL outperformed frontier general-purpose and specialized medical models in diagnosing, localizing, and describing abnormalities, as well as generating comprehensive radiology reports. The model also compared serial examinations to assess disease progression and more reliably resisted misleading clinical assumptions than leading frontier models from OpenAI and Google. These results extend health system learning beyond individual predictions to interactive image interpretation and longitudinal disease monitoring. They demonstrate how the collective clinical experience of health systems can be used to develop medical AI with specialized expertise and broad clinical capabilities.",
+  "zh_abstract": "医学影像对于诊断疾病、指导治疗和长期监测患者至关重要。尽管人工智能推动了图像解读，但现有医学模型通常处理受限任务，而通用专有模型无法获取达到医学专业水平所需的私有临床影像。开发能够解读复杂检查并在临床决策背景下交流其发现的模型仍是一项重大挑战。在此，我们展示Neuro-VL——一个在来自常规临床照护的近100万项神经影像检查上训练的视觉-语言模型——能够解读完整影像检查，并就其发现进行自然语言对话。在内部和国际数据集上，Neuro-VL在诊断、定位和描述异常以及生成全面放射学报告方面优于前沿通用模型和专业医学模型。该模型还比较系列检查以评估疾病进展，并且比来自OpenAI和Google的领先前沿模型更可靠地抵御误导性临床假设。这些结果将卫生系统的学习从个体预测扩展到交互式图像解读和纵向疾病监测。它们表明，卫生系统的集体临床经验可用于开发具有专业专长和广泛临床能力的医学AI。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+  "link": "https://huggingface.co/papers/2611.13758",
+  "date": "2026-11-10T00:00:00.000Z",
+  "pop": "▲ 3 upvotes",
+  "badge": "arXiv 2611.13758",
+  "source": "Hugging Face Daily Papers",
+  "source_group": "Hugging Face Daily Papers",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "id": "55c0706707b7",
+  "keep": true,
+  "zh_title": "混合信号：面向脑电与心电的权重空间编程",
+  "summary": "预印本展示前沿语言模型可直接读取并编写EEG/ECG模型权重，甚至从零写出网络权重。",
+  "key_points": [
+   "语言模型可定位生物信号模型中的植入故障",
+   "仅凭架构、任务与少量受试者可生成权重",
+   "一组实验中接近梯度下降训练效果"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "医学大模型"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "预印本新方法有基线对比，但临床相关性有限，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens the door to ``training'' by reasoning rather than through gradient descent. Prior work has demonstrated its functionality and promise for game-playing networks and fixing specific failures in language models, even extending to diffusion models. In this work, we present its applicability to models trained on biosignal data, specifically EEG and ECG data. We show that frontier models are not only able to debug specific faults planted in biosignal-based models without being told what these faults are, but are even capable of writing all the weights of a network from scratch, given only the architecture, the task, and a minimal set of training subjects. In particular, in one set of experiments, a language model was able to match standard gradient-descent training using 6times fewer training subjects, through reasoning alone and without any gradient descent step. Networks written by Claude Opus 5.5 also scored higher than classic hand-crafted EEG pipelines (alpha band power, and common spatial patterns with linear discriminant analysis) when built from the same 5 subjects. We also highlight some of the limitations, which include the inability of language models to improve already well-trained classification models, and their incapacity to reliably recognize, from the weights alone, the task a network was trained on. Overall, our results indicate that weight-space programming can be useful for small networks, such as those deployed on edge devices and wearables, but the concept still requires further investigation before it can be used in practice.",
+  "zh_abstract": "权重空间编程使语言模型能够读取训练后神经网络的权重并对其进行编辑。这为通过推理而非梯度下降进行“训练”打开了大门。既往工作已证明其在游戏博弈网络以及修复语言模型特定故障方面的功能与前景，甚至已扩展到扩散模型。在本工作中，我们展示其适用于在生物信号数据（具体为EEG和ECG数据）上训练的模型。我们表明，前沿模型不仅能够在未被告知这些故障是什么的情况下调试植入基于生物信号模型中的特定故障，甚至能够仅给定架构、任务和最少量的训练受试者，就从零开始写出网络的所有权重。特别地，在一组实验中，一个语言模型仅通过推理且没有任何梯度下降步骤，使用少6倍的训练受试者就能匹配标准梯度下降训练。由Claude Opus 5.5写出的网络在基于相同5名受试者构建时，也比经典手工EEG流程（α波段功率，以及共空间模式结合线性判别分析）得分更高。我们还强调了一些局限性，包括语言模型无法改进已经训练良好的分类模型，以及它们无法仅凭权重可靠识别网络所训练的任务。总体而言，我们的结果表明，权重空间编程对小型网络（例如部署在边缘设备和可穿戴设备上的网络）可能有用，但该概念在可用于实践之前仍需进一步研究。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "[Viewpoint] The clinician–artificial intelligence scientist: a proposed career pathway in medicine",
+  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00100-7/fulltext?rss=yes",
+  "date": "2026-09-29T13:42:03+00:00",
+  "source": "Lancet Digital Health",
+  "source_group": "Lancet Digital Health",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "bec024d05973",
+  "keep": true,
+  "zh_title": "观点：临床医生—AI 科学家这一医学职业路径",
+  "summary": "《柳叶刀数字健康》观点文章提出“临床医生—AI 科学家”这一新职业路径，讨论其角色、挑战与培养策略。",
+  "key_points": [
+   "类比传统临床科学家，提出临床—AI 科学家角色",
+   "目标是连接技术开发与有意义的临床落地",
+   "属观点文章，未报告实证数据"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "观点/述评类无数据，按规则最高6分，取中低档",
+  "processing": "model-enriched",
+  "abstract": "Traditionally, the clinician–scientist has played a key role in translating fundamental discoveries into clinical practice across multiple medical disciplines. As medicine enters the era of artificial intelligence (AI), a similar role is needed to bridge the gap between technological development and meaningful clinical implementation—a role we term the clinician–AI scientist. In this Viewpoint, we examine the distinctive role, challenges, and development strategies of this potentially new career pathway for clinicians.",
+  "zh_abstract": "传统上，临床科学家（clinician–scientist）在多个医学学科中，将基础发现转化为临床实践方面发挥了关键作用。随着医学进入人工智能（AI）时代，需要一种类似的角色来弥合技术发展与有意义的临床实施之间的差距——我们将这一角色称为临床—AI科学家（clinician–AI scientist）。在这篇观点文章中，我们探讨了这一可能成为临床医生新职业路径的独特角色、挑战和发展策略。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Artificial intelligence in dermatophytosis: Toward better clinical diagnosis and management.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43014031/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.mycmed.2026.101671",
+  "source": "PubMed · Journal de mycologie medicale",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "1dfbcf6620c1",
+  "keep": true,
+  "zh_title": "人工智能在皮肤癣菌病诊断与管理中的应用",
+  "summary": "综述总结机器学习与深度学习在皮肤癣菌病临床照片、无创皮肤成像与实验室诊断中的应用。",
+  "key_points": [
+   "涵盖临床照片与无创皮肤成像分析",
+   "涉及治疗支持、随访与患者教育",
+   "为叙述性综述，未提供原始数据"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "叙述性综述、无新数据，按规则限于6分以下，取增量档",
+  "processing": "model-enriched",
+  "abstract": "[Journal de mycologie medicale] Dermatophytosis is one of the most common superficial fungal infections worldwide. However, its diagnosis and management remain challenging because its clinical manifestations often overlap with those of other dermatoses, conventional mycological tests have inherent limitations, the disease is prone to recurrence, and antifungal resistance has received increasing attention. This review summarizes current applications of artificial intelligence (AI) in dermatophytosis, with a focus on the use of machine learning and deep learning in clinical photographs, non-invasive skin imaging, and laboratory diagnostics, while also discussing their roles in treatment support, follow-up assessment, patient education, and adherence management. In addition, with the accumulation of molecular diagnostic, mass spectrometric, and epidemiological data, AI may also provide auxiliary support for extended applications such as resistance risk recognition. Current evidence suggests that AI can improve the efficiency, consistency, and objectivity of dermatophytosis diagnosis and provide quantitative support for treatment response assessment and long-term follow-up. With further improvement in research quality and the accumulation of clinical application experience, AI is expected to become increasingly integrated into dermatophytosis management workflows.",
+  "zh_abstract": "[Journal de mycologie medicale] 皮肤癣菌病是全球最常见的浅部真菌感染之一。然而，其诊断和管理仍具有挑战性，因为其临床表现常与其他皮肤病重叠，传统真菌学检查存在固有局限性，该病易复发，且抗真菌耐药性日益受到关注。本综述总结人工智能（AI）在皮肤癣菌病中的当前应用，重点介绍机器学习和深度学习在临床照片、无创皮肤成像和实验室诊断中的应用，同时讨论其在治疗支持、随访评估、患者教育和依从性管理中的作用。此外，随着分子诊断、质谱和流行病学数据的积累，AI还可能为耐药风险识别等扩展应用提供辅助支持。当前证据表明，AI可提高皮肤癣菌病诊断的效率、一致性和客观性，并为治疗反应评估和长期随访提供定量支持。随着研究质量的进一步提高和临床应用经验的积累，AI有望日益融入皮肤癣菌病管理流程。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Evaluating Large Language Models in Nursing Care Decision-Making: A Randomized Controlled Trial",
+  "link": "https://clinicaltrials.gov/study/NCT07933107",
+  "date": "2026-11-12T00:00:00+00:00",
+  "badge": "NCT07933107",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "278cbbb815eb",
+  "keep": true,
+  "zh_title": "大语言模型辅助护理决策的随机对照试验",
+  "summary": "台湾南部某医疗中心注册的随机对照试验，120名护士评估大模型辅助对护理计划质量与耗时的影响。",
+  "key_points": [
+   "随机分为独立规划与LLM辅助两组",
+   "覆盖内科、外科与重症监护护士",
+   "状态为已完成，尚无结果公布"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "随机设计但样本120且无结果数据，信息有限，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Chimei Medical Center; conditions: Nursing Care Planning; type: INTERVENTIONAL; phase: NA; enrollment: 120; status: COMPLETED] This study evaluates whether assistance from a large language model (LLM), a type of artificial intelligence that generates text, improves the quality of nursing care plans and reduces the time needed to complete them. The study included 120 registered nurses working in internal medicine wards, surgical wards, and intensive care units at a medical center in southern Taiwan. Nurses were randomly assigned to one of two groups: * Independent planning: Nurses prepared, reviewed, and submitted a care plan without LLM assistance. * LLM-assisted planning: Nurses entered prompts to obtain an LLM-generated draft, then reviewed and revised the draft before submitting their final care plan. Each nurse completed only the assigned workflow during a single study session. Participants completed a brief baseline questionnaire and prepared nursing problems, goals, and interventions for a standardized simulated clinical case. Tasks were performed in a secure hospital test environment without real patient data. Expert nurse raters who were not informed of group assignments independently evaluated the final care plans. The nursing care decision quality assessment has a maximum total score of 30 points, comprising decision-content quality (25 points) and decision-language quality (5 points). The system recorded task completion time. Researchers compare the two groups' final care-plan quality scores and task completion times.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：奇美医疗中心（Chimei Medical Center）；疾病/状况：护理照护计划；类型：干预性（INTERVENTIONAL）；分期：不适用（NA）；入组人数：120；状态：已完成（COMPLETED）] 本研究评估来自大型语言模型（LLM）——一种生成文本的人工智能——的辅助是否能提高护理照护计划的质量并减少完成这些计划所需的时间。研究纳入台湾南部一家医疗中心内科病房、外科病房和重症监护病房工作的120名注册护士。护士被随机分配至两组之一：• 独立计划：护士在无LLM辅助的情况下准备、审阅并提交护理计划。• LLM辅助计划：护士输入提示以获得LLM生成的草稿，然后在提交最终护理计划前审阅并修订草稿。每名护士在单次研究环节中仅完成所分配的工作流程。参与者完成一份简短基线问卷，并针对一个标准化模拟临床病例准备护理问题、目标和干预措施。任务在安全的医院测试环境中执行，不使用真实患者数据。未被告知分组情况的专家护士评分者独立评估最终护理计划。护理照护决策质量评估最高总分为30分，包括决策内容质量（25分）和决策语言质量（5分）。系统记录任务完成时间。研究人员比较两组的最终护理计划质量评分和任务完成时间。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "STAT+: New documents raise more questions about Medicare’s AI prior-authorization experiment",
+  "link": "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/?utm_campaign=rss",
+  "date": "2026-11-12T14:49:02+00:00",
+  "source": "STAT News",
+  "source_group": "STAT News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "a8d49f62c53a",
+  "_abs_err": "page: no abstract in meta (182400 bytes; title: STAT Health Tech: More questions around Medicare’s AI prior-; text: STAT Health Tech: More questions around Medicare’s AI prior-auth experiment Skip to Main Content Man)",
+  "keep": true,
+  "zh_title": "新文件令Medicare AI预授权试点再受质疑",
+  "summary": "STAT简讯称新披露文件使外界对Medicare的AI预授权实验产生更多疑问，同时提及Oura的AI布局与临床AI聊天机器人护栏。",
+  "key_points": [
+   "新文件引发对AI预授权实验的质疑",
+   "同期刊载Oura AI与临床聊天机器人内容",
+   "简讯未给出文件细节或数据"
+  ],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "医保AI预授权属监管议题，但仅为简讯摘要，无实质细节，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "dawahealth/medgemma-maternal-lora-v2",
+  "link": "https://huggingface.co/dawahealth/medgemma-maternal-lora-v2",
+  "date": "2026-11-12T13:17:01.000Z",
+  "pop": "♥ 4",
+  "source": "Hugging Face",
+  "source_group": "Hugging Face",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "id": "31a35322da50",
+  "keep": true,
+  "zh_title": "dawahealth 发布母婴健康 MedGemma LoRA 模型",
+  "summary": "Hugging Face 上线基于 MedGemma 的母婴健康 LoRA 微调模型，支持多种非洲语言，但仅可见标签信息。",
+  "key_points": [
+   "以 MedGemma 为基座做 LoRA/QLoRA 微调",
+   "面向母婴健康与非洲多语种场景",
+   "仓库仅提供标签，未见评测数据"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "医学大模型",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "领域微调模型发布，但仅标签信息、无外部评测，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "AI医疗器械迎“官方检查清单”：14个风险环节、从算法到数据全覆盖_医疗人工智能",
+  "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZaE9QUm9xMjF4SGFIWl83Qk4tWFZBWXVMX1k1ajV2YWFMcTNMbklZeGo2S0ZhYzhJT3hCczZXc0lta09HWnlaVjIzaGhJcExqUmtuT3F6enlXVFU0M2c?oc=5",
+  "date": "2026-11-09T08:00:00+00:00",
+  "source": "大健康派",
+  "source_group": "Google News · NMPA AI",
+  "home": "http://www.djkpai.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "d91be6b0ba63",
+  "keep": true,
+  "zh_title": "AI医疗器械官方检查清单：14个风险环节",
+  "summary": "仅见标题：报道称 AI 医疗器械有了官方检查清单，覆盖 14 个风险环节，从算法到数据，正文未提供。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "AI 医疗器械监管检查清单属实质监管动向，但仅有标题信息",
+  "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows",
+  "link": "https://www.fiercehealthcare.com/health-tech/zus-health-secures-33m-build-infrastructure-ai-powered-clinical-workflows",
+  "date": "2026-11-13T03:29:27.299173+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "96de2a27214c",
+  "keep": true,
+  "zh_title": "Zus Health融资3300万美元建临床数据层",
+  "summary": "Zus Health获3300万美元融资，定位为支撑AI临床工作流的互联患者数据基础设施。",
+  "key_points": [
+   "本轮融资规模3300万美元",
+   "押注互联患者数据层而非AI应用本身",
+   "服务对象为AI copilot与智能体开发者"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小额融资且为厂商定位陈述，无效果数据，属增量档",
+  "processing": "model-enriched",
+  "abstract": "As healthcare companies race to build AI copilots and agents, startup Zus Health is betting that the bigger opportunity is creating the connected patient data layer those applications need to work | As healthcare companies race to build AI copilots and agents, startup Zus Health is betting that the bigger opportunity is creating the connected patient data layer those applications need to work reliably.",
+  "zh_abstract": "随着医疗健康公司竞相构建 AI 副驾驶（copilots）和智能体（agents），初创公司 Zus Health 押注更大的机会在于创建这些应用运行所需的互联患者数据层 | 随着医疗健康公司竞相构建 AI 副驾驶（copilots）和智能体（agents），初创公司 Zus Health 押注更大的机会在于创建这些应用可靠运行所需的互联患者数据层。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "AI Clinical Decision Support: FDA & ONC DSI Rules",
+  "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45XzJLQVN3QXBqUVhiRURPaExIYmlaUkc3RDgtWDAzS1ZsZjJsQThMc0RWU2w2amN5azNmNzZlbkVOWHF2cjJSaGpfd2V0amFlVm1KUFVGaVJFYVQ0WGlzSHBHZDE?oc=5",
+  "date": "2026-11-10T04:39:51+00:00",
+  "source": "CASRAI",
+  "source_group": "Google News · FDA AI",
+  "home": "https://casrai.org",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "d1f28fc6e9e5",
+  "keep": true,
+  "zh_title": "AI临床决策支持：FDA与ONC的DSI规则",
+  "summary": "仅见标题：条目指向 FDA 与 ONC 关于 AI 临床决策支持的规则，正文内容未提供。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "监管政策",
+   "临床决策支持"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "监管规则议题相关，但仅标题、无实质内容，按标题上限下调",
+  "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
   "title": "Evaluation of a Rapid and Practical Deep Learning Framework for T1-weighted MRI-based Brain Age Estimation.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/43012635/",
   "date": "2026-11-11T00:00:00+00:00",
@@ -68,7 +545,8 @@
   "processing": "model-enriched",
   "day": "2026-11-12",
   "abstract_days": [
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -328,12 +806,12 @@
   "id": "76f0c76adf97",
   "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
   "keep": true,
-  "zh_title": "TROP2膜比值预测NSCLC抗体偶联药疗效",
-  "summary": "开发并验证计算病理标志物TROP2归一化膜比值，量化亚细胞定位，预测接受datopotamab deruxtecan治疗的非鳞NSCLC的PFS和OS改善。",
+  "zh_title": "TROP2膜比值计算病理预测Dato-DXd肺癌疗效",
+  "summary": "开发全监督计算病理QCS量化TROP2亚细胞表达，构建膜/膜+胞质比值NMR，用于预测Dato-DXd在NSCLC的临床结局。",
   "key_points": [
-   "开发计算病理TROP2归一化膜比值",
-   "量化TROP2亚细胞定位",
-   "预测该药治疗的PFS和OS改善"
+   "常规IHC视觉评分不能预测TROP2 ADC疗效",
+   "QCS量化单个NSCLC细胞及亚细胞TROP2表达",
+   "NMR为膜相对膜+胞质TROP2表达比值"
   ],
   "section": "影像与病理",
   "type": "论文",
@@ -344,14 +822,11 @@
   ],
   "evidence": "同行评审",
   "score": 6,
-  "reason": "同行评审计算病理研究，预测临床结局；验证范围与样本量未明",
+  "reason": "同行评审计算病理标志物研究，关联药物临床结局，但未见外部验证，属6分档。",
   "processing": "model-enriched",
   "day": "2026-11-11",
-  "abstract_days": [
-   "2026-11-11",
-   "2026-11-12"
-  ],
-  "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+  "abstract": "Datopotamab deruxtecan (Dato-DXd)—a trophoblast cell surface antigen 2 (TROP2)-directed antibody–drug conjugate—has demonstrated efficacy in patients with advanced nonsquamous non-small-cell lung cancer (NSCLC) ± actionable genomic alterations. However, TROP2 expression by pathologist assessment using conventional immunohistochemistry with visual scoring does not predict response to TROP2-directed antibody–drug conjugates in NSCLC. We developed TROP2 quantitative continuous scoring (QCS)—a fully supervised computational pathology approach that quantifies TROP2 expression in individual NSCLC cells and subcellular components from immunohistochemistry-stained slides. Using QCS to determine TROP2 expression at the tumor cell membrane and cytoplasm, normalized membrane ratio (NMR) was developed (ratio of membrane relative to membrane + cytoplasmic TROP2) in the biomarker-evaluable population of patients with advanced NSCLC in the TROPION-PanTumor01 study (n = 115). The TROP2 NMR cut-point was optimized and validated in patients with nonsquamous NSCLC without actionable genomic alterations (primary intended-use population, n = 221) in the biomarker-evaluable population (n = 352) of the TROPION-Lung01 trial. Association with clinical outcomes was assessed. Progression-free survival was longer in Dato-DXd-treated (median 7.2 versus 4.0 months; hazard ratio 0.40, 95% confidence interval 0.25–0.64) but not docetaxel-treated (median 4.1 versus 4.4 months; hazard ratio 0.94, 95% confidence interval 0.59–1.49) patients with TROP2 NMR-positive versus TROP2 NMR-negative samples (treatment by biomarker status interaction P = 0.0098), indicating that TROP2 NMR may be a predictive biomarker for Dato-DXd.",
+  "zh_abstract": "Datopotamab deruxtecan（Dato-DXd）是一种靶向滋养层细胞表面抗原2（TROP2）的抗体偶联药物，已在晚期非鳞状非小细胞肺癌（NSCLC）±可靶向基因组改变患者中显示出疗效。然而，病理学家使用传统免疫组化视觉评分评估的TROP2表达，不能预测NSCLC患者对靶向TROP2的抗体偶联药物的反应。我们开发了TROP2定量连续评分（QCS）——一种全监督计算病理学方法，可从免疫组化染色切片中量化单个NSCLC细胞及亚细胞组分中的TROP2表达。在TROPION-PanTumor01研究（n = 115）的晚期NSCLC生物标志物可评估人群中，使用QCS确定肿瘤细胞膜和细胞质中的TROP2表达，开发了归一化膜比率（NMR）（膜TROP2与膜+细胞质TROP2的比值）。TROP2 NMR临界值在TROPION-Lung01试验的生物标志物可评估人群（n = 352）中，于无可用药基因组改变的非鳞状NSCLC患者（主要预期使用人群，n = 221）中进行了优化和验证。评估了其与临床结局的相关性。在Dato-DXd治疗的患者中，TROP2 NMR阳性样本较TROP2 NMR阴性样本的无进展生存期更长（中位7.2个月 vs 4.0个月；风险比0.40，95%置信区间0.25–0.64），但在多西他赛治疗的患者中并非如此（中位4.1个月 vs 4.4个月；风险比0.94，95%置信区间0.59–1.49）（治疗与生物标志物状态的交互作用P = 0.0098），表明TROP2 NMR可能是Dato-DXd的预测性生物标志物。"
  },
  {
   "title": "Synthetic data to lower barriers towards equitable artificial intelligence in rapid diagnostic test interpretation",
@@ -1484,7 +1959,8 @@
   "abstract_days": [
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -2541,7 +3017,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2615,7 +3092,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -2656,7 +3134,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2693,7 +3172,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3433,7 +3913,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3508,7 +3989,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -3623,7 +4105,8 @@
    "2026-11-09",
    "2026-11-10",
    "2026-11-11",
-   "2026-11-12"
+   "2026-11-12",
+   "2026-11-13"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
