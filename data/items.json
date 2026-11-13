@@ -1,5 +1,40 @@
 [
  {
+  "title": "[Articles] Performance of artificial intelligence versus clinician left-ventricular segmentation of cardiac MRI for mortality prediction: a retrospective, multicentre, prognostic study",
+  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00065-8/fulltext?rss=yes",
+  "date": "2026-11-02T23:30:02+00:00",
+  "source": "Lancet Digital Health",
+  "source_group": "Lancet Digital Health",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "a57dd45b1261",
+  "keep": true,
+  "zh_title": "AI与临床医生心脏MRI左室分割及死亡预测对比",
+  "summary": "回顾性多中心预后研究：AI衍生射血分数对死亡的预测略优于临床医生分割所得射血分数。",
+  "key_points": [
+   "回顾性、多中心预后研究设计",
+   "AI衍生EF预测死亡略优于医生EF",
+   "作者认为需前瞻性研究验证一线应用"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "多中心外部验证并报告死亡结局，但为回顾性，属重要档",
+  "processing": "model-enriched",
+  "abstract": "AI-derived ejection fraction shows marginally superior prediction for mortality than clinician-derived ejection fraction in patients who had CMR. Findings support the potential utility of AI for first-line ejection-fraction measurement with clinician oversight, although this should be investigated in prospective studies.",
+  "zh_abstract": "在接受心脏磁共振（CMR）检查的患者中，AI 得出的射血分数对死亡率的预测能力略优于临床医生得出的射血分数。研究结果支持 AI 在临床医生监督下用于一线射血分数测量的潜在效用，不过这一点仍需在前瞻性研究中予以考察。",
+  "day": "2026-11-13"
+ },
+ {
   "title": "The COSAS 2024 challenge: Cross-Organ and Cross-Scanner Adenocarcinoma Segmentation for domain generalization in computational pathology",
   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004597?dgcid=rss_sd_all",
   "date": "2026-11-13T03:29:27.299173+00:00",
@@ -178,6 +213,77 @@
   "day": "2026-11-13"
  },
  {
+  "title": "OSS: Open suturing skills vision-based assessment challenge 2024–2025",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004287?dgcid=rss_sd_all",
+  "date": "2026-11-13T11:26:18.905042+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "a19401066ce2",
+  "keep": true,
+  "zh_title": "OSS：开放缝合技能视觉评估挑战赛2024–2025",
+  "summary": "介绍基于视觉的开放缝合技能评估挑战赛，属手术视频分析方向。",
+  "key_points": [
+   "主题为视觉驱动的开放缝合技能自动评估",
+   "以公开挑战赛形式组织，发表于 Medical Image Analysis",
+   "条目仅提供题录与作者信息，细节有限"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "手术",
+   "基准",
+   "数据集"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "公开手术技能评估挑战赛具一定价值，但仅题录信息、无细节，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Hanna Hoffmann, Setareh Bady, Claas de Boer, Max Kirchner, Jan Egger, Rainer Röhrig, Frank Hölzle, Lennart Johannes Gruber, Kunpeng Xie, Marlon Neuhaus, Victor Alves, Guilherme Barbosa, Leonardo Barroso, João Carvalho, Hao Chen, Gabriella d’Albenzio, André Ferreira, Nuno Gomes, Yuichiro Hayashi, Kousuke Hirasawa",
+  "zh_abstract": "出版日期：2027年2月；来源：Medical Image Analysis，第116卷；作者：Hanna Hoffmann、Setareh Bady、Claas de Boer、Max Kirchner、Jan Egger、Rainer Röhrig、Frank Hölzle、Lennart Johannes Gruber、Kunpeng Xie、Marlon Neuhaus、Victor Alves、Guilherme Barbosa、Leonardo Barroso、João Carvalho、Hao Chen、Gabriella d’Albenzio、André Ferreira、Nuno Gomes、Yuichiro Hayashi、Kousuke Hirasawa",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Memory-guided mutual information optimization in retinal imaging for early stroke detection and subtyping",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004512?dgcid=rss_sd_all",
+  "date": "2026-11-13T11:26:18.905042+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "b76f56633cbe",
+  "keep": true,
+  "zh_title": "视网膜影像记忆引导互信息优化用于卒中早筛分型",
+  "summary": "Medical Image Analysis刊文提出记忆引导互信息优化方法，用于视网膜影像的早期卒中检测与亚型分类。",
+  "key_points": [
+   "发表于Medical Image Analysis",
+   "方法为记忆引导的互信息优化",
+   "任务为视网膜影像卒中检测与分型"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "眼科"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅题录与方法线索，无性能数据与对照，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Shijia Zhou, Le Cao, Lei Mou, Hang Wang, Jinkui Hao, Xuening Zhang, Hongshuo Li, Leilei Yuan, Weicheng Liao, Thomas H. Julian, Meng Wang, Yonghuai Liu, William Robert Kwapong, Yanda Meng, Jianyang Xie, Yalin Zheng, Huazhu Fu, Jiang Liu, Bin Sheng, Alejandro F. Frangi",
+  "zh_abstract": "出版日期：2027年2月 来源：《Medical Image Analysis》第116卷 作者：Shijia Zhou, Le Cao, Lei Mou, Hang Wang, Jinkui Hao, Xuening Zhang, Hongshuo Li, Leilei Yuan, Weicheng Liao, Thomas H. Julian, Meng Wang, Yonghuai Liu, William Robert Kwapong, Yanda Meng, Jianyang Xie, Yalin Zheng, Huazhu Fu, Jiang Liu, Bin Sheng, Alejandro F. Frangi",
+  "day": "2026-11-13"
+ },
+ {
   "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
   "link": "https://huggingface.co/papers/2611.13758",
   "date": "2026-11-10T00:00:00.000Z",
@@ -213,6 +319,41 @@
   "day": "2026-11-13"
  },
  {
+  "title": "AI-Assisted Remote Monitoring for Patients With or at Risk of Malignant Bowel Obstruction",
+  "link": "https://clinicaltrials.gov/study/NCT07931989",
+  "date": "2026-11-12T00:00:00+00:00",
+  "badge": "NCT07931989",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "8ee5d636b883",
+  "keep": true,
+  "zh_title": "AI辅助远程症状监测用于恶性肠梗阻患者的试验",
+  "summary": "注册干预性试验，拟评估AI远程症状监测能否减少恶性肠梗阻相关住院。",
+  "key_points": [
+   "主要终点为90天内因肠梗阻住院比例",
+   "同时评估患者报告结局、生活质量与资源利用",
+   "拟入组140例，尚未开始招募，无结果"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "肿瘤"
+  ],
+  "evidence": "新闻",
+  "score": 5,
+  "reason": "前瞻性干预试验设计且关注临床结局，但尚未招募、无结果，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Hospital Universitario 12 de Octubre; conditions: Malignant Bowel Obstruction, Intestinal Obstruction; type: INTERVENTIONAL; phase: NA; enrollment: 140; status: NOT_YET_RECRUITING] The goal of this clinical trial is to learn whether artificial intelligence (AI)-assisted remote symptom monitoring can reduce hospital admissions related to malignant bowel obstruction (MBO) in patients with advanced cancer who have MBO or are at risk of developing MBO. The main questions it aims to answer are: * Does AI-assisted remote symptom monitoring reduce the proportion of patients who experience at least one hospital admission due to MBO within 90 days? * Does AI-assisted remote symptom monitoring improve patient-reported outcomes, quality of life, healthcare resource utilization, and survival outcomes compared with standard care? Researchers will compare AI-assisted remote symptom monitoring plus standard care with standard care alone to determine whether remote monitoring can reduce MBO-related hospital admissions and improve patient outcomes. Participants will receive study-specific assessments and follow-up for at least 90 days. Participants in the monitoring group will receive regular automated symptom-monitoring calls, and optional stool samples may be collected for microbiome research",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：Hospital Universitario 12 de Octubre；疾病/状况：恶性肠梗阻、肠梗阻；类型：干预性（INTERVENTIONAL）；分期：不适用（NA）；入组人数：140；状态：尚未招募（NOT_YET_RECRUITING）] 本临床试验的目标是了解人工智能（AI）辅助的远程症状监测能否减少晚期癌症患者中与恶性肠梗阻（MBO）相关的住院，这些患者患有MBO或存在发生MBO的风险。其主要旨在回答的问题是：* AI辅助的远程症状监测是否减少90天内因MBO经历至少一次住院的患者比例？* 与标准护理相比，AI辅助的远程症状监测是否改善患者报告结局、生活质量、医疗资源利用和生存结局？研究人员将比较AI辅助远程症状监测加标准护理与单独标准护理，以确定远程监测能否减少MBO相关住院并改善患者结局。参与者将接受研究特定评估和至少90天的随访。监测组参与者将接受定期自动症状监测电话，并可选采集粪便样本用于微生物组研究。",
+  "day": "2026-11-13"
+ },
+ {
   "title": "[Viewpoint] The clinician–artificial intelligence scientist: a proposed career pathway in medicine",
   "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00100-7/fulltext?rss=yes",
   "date": "2026-09-29T13:42:03+00:00",
@@ -244,6 +385,42 @@
   "processing": "model-enriched",
   "abstract": "Traditionally, the clinician–scientist has played a key role in translating fundamental discoveries into clinical practice across multiple medical disciplines. As medicine enters the era of artificial intelligence (AI), a similar role is needed to bridge the gap between technological development and meaningful clinical implementation—a role we term the clinician–AI scientist. In this Viewpoint, we examine the distinctive role, challenges, and development strategies of this potentially new career pathway for clinicians.",
   "zh_abstract": "传统上，临床科学家（clinician–scientist）在多个医学学科中，将基础发现转化为临床实践方面发挥了关键作用。随着医学进入人工智能（AI）时代，需要一种类似的角色来弥合技术发展与有意义的临床实施之间的差距——我们将这一角色称为临床—AI科学家（clinician–AI scientist）。在这篇观点文章中，我们探讨了这一可能成为临床医生新职业路径的独特角色、挑战和发展策略。",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "From task-specific networks to foundation models in diabetes care: a critical review of opportunities, evaluation gaps, and safety frontiers.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43017418/",
+  "date": "2026-10-28T00:00:00+00:00",
+  "badge": "DOI 10.3389/frai.2026.1983619",
+  "source": "PubMed · Frontiers in artificial intelligence",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "aa652e664c3d",
+  "keep": true,
+  "zh_title": "糖尿病照护从任务专用网络到基础模型的批判性综述",
+  "summary": "综述基础模型在糖尿病视网膜、血糖预测与临床语言模型中的进展及评估与安全缺口。",
+  "key_points": [
+   "既往以任务专用监督学习为主，如视网膜分级、血糖预测",
+   "RETFound 等基础模型在少标注下表现优于任务专用网络",
+   "指出评估缺口与安全性前沿问题"
+  ],
+  "section": "大模型与智能体",
+  "type": "观点",
+  "tags": [
+   "医学大模型",
+   "多模态",
+   "生理信号"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "有信息量的批判性综述，但非系统综述、无新数据，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in artificial intelligence] Artificial intelligence in diabetes care has historically relied on task-specific supervised learning, such as bespoke networks for retinopathy grading, kidney disease prediction, and glucose forecasting. The emergence of foundation models (FMs: large models pretrained on broad data, typically with self-supervision, and adapted to many downstream tasks) is displacing this paradigm across diabetes-relevant modalities: ophthalmic models such as RETFound, pretrained on 1.6 million retinal photographs, have been reported to outperform task-specific networks on retinopathy grading and systemic disease prediction, especially when labeled data are scarce; transformer-based time-series models are replacing long short-term memory (LSTM) pipelines for continuous glucose monitoring (CGM) forecasting; clinical large language models (LLMs) such as Med-PaLM and GPT-4 attain expert-level scores on medical question-answering benchmarks; and generative models supply synthetic CGM and electronic health record (EHR) data. This review provides a critical, modality-organized synthesis of this transition. We (i) formalize a three-era taxonomy: rule-based risk scores (era I), task-specific deep learning (era II, 2016-2020), and foundation models (era III, from 2021), and map the diabetes literature onto it; (ii) survey foundation-model architectures, pretraining objectives, and adaptation strategies across retinal imaging, CGM, longitudinal EHR, and multimodal data; (iii) expose an evaluation crisis: benchmark contamination of LLM medical evaluations, a near-universal absence in the literature we reviewed of external and prospective validation for retinal and CGM foundation models, miscalibration under dataset shift, and, to our knowledge and within the reviewed literature (January 2016-December 2025; negative findings are time-sensitive), the absence of any randomized evaluation of a foundation model in a diabetes workflow; and (iv) analyze safety risks: hallucinated insulin-dosing advice, automation bias, inherited algorithmic inequity, and privacy exposure during adaptation. We conclude that the decisive open problem is no longer representation learning but grounded, calibrated, causally informed deployment, requiring contamination-resistant evaluation, prospective trials, and hybrid architectures coupling foundation-model representations with treatment-effect estimation.",
+  "zh_abstract": "[Frontiers in artificial intelligence] 糖尿病护理中的人工智能历来依赖任务特定的监督学习，例如用于视网膜病变分级、肾脏疾病预测和血糖预测的定制网络。基础模型（FMs：在广泛数据上预训练、通常采用自监督、并适配于许多下游任务的大型模型）的出现正在糖尿病相关各模态中取代这一范式：例如，在160万张视网膜照片上预训练的RETFound等眼科模型，据报道在视网膜病变分级和系统性疾病预测方面优于任务特定网络，尤其是在标注数据稀缺时；基于Transformer的时间序列模型正在取代用于连续葡萄糖监测（CGM）预测的长短期记忆（LSTM）流程；Med-PaLM和GPT-4等临床大语言模型（LLMs）在医学问答基准上达到专家级分数；生成模型提供合成CGM和电子健康记录（EHR）数据。本综述对这一转变进行了批判性的、按模态组织的综合。我们（i）形式化了一个三时代分类法：基于规则的风险评分（时代I）、任务特定的深度学习（时代II，2016—2020年）和基础模型（时代III，自2021年起），并将糖尿病文献映射到该分类法上；（ii）综述视网膜影像、CGM、纵向EHR和多模态数据中的基础模型架构、预训练目标和适配策略；（iii）揭示一场评估危机：LLM医学评估存在基准污染；在我们综述的文献中，几乎普遍缺乏对视网膜和CGM基础模型的外部验证与前瞻性验证；数据集偏移下存在校准不良；并且据我们所知，在综述文献范围内（2016年1月—2025年12月；阴性发现具有时间敏感性），尚无任何在糖尿病工作流程中对基础模型进行的随机化评估；（iv）分析安全风险：幻觉性胰岛素给药建议、自动化偏差、继承的算法不平等以及适配过程中的隐私暴露。我们得出结论：决定性的未解决问题不再是表示学习，而是有现实依据、经过校准且纳入因果信息的部署，这要求抗污染评估、前瞻性试验，以及将基础模型表征与治疗效果估计耦合的混合架构。",
   "day": "2026-11-13"
  },
  {
@@ -384,6 +561,40 @@
   "day": "2026-11-13"
  },
  {
+  "title": "Norwest closes $4B global, multi-stage fund to fuel investments in healthcare, biotech and AI",
+  "link": "https://www.fiercehealthcare.com/finance/norwest-closes-4b-global-multi-stage-fund-fuel-investments-healthcare-biotech-and-ai",
+  "date": "2026-11-13T11:26:18.905042+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "4e79301fb07e",
+  "keep": true,
+  "zh_title": "Norwest完成40亿美元全球多阶段基金",
+  "summary": "Norwest关闭40亿美元全球多阶段基金，将继续投资美国、印度和以色列的科技、医疗健康和消费类公司。",
+  "key_points": [
+   "基金规模40亿美元，为全球多阶段基金",
+   "投向科技、医疗健康与消费领域",
+   "覆盖美国、印度和以色列市场"
+  ],
+  "section": "产业动态",
+  "type": "融资",
+  "tags": [
+   "融资与并购"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "大额基金但医疗AI仅为方向之一，非专项，信息有限",
+  "processing": "model-enriched",
+  "abstract": "Norwest closed a $4 billion global, multi-stage fund to continue backing technology, healthcare and consumer companies across the U.S., India and Israel. | Norwest closes $4B fund to invest in healthcare AI, biotech",
+  "zh_abstract": "Norwest 完成了一只规模 40 亿美元的全球性、多阶段基金募集，以继续投资于美国、印度和以色列的科技、医疗健康及消费类公司。 | Norwest 完成 40 亿美元基金募集，投资医疗健康 AI 与生物技术",
+  "day": "2026-11-13"
+ },
+ {
   "title": "AI医疗器械迎“官方检查清单”：14个风险环节、从算法到数据全覆盖_医疗人工智能",
   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZaE9QUm9xMjF4SGFIWl83Qk4tWFZBWXVMX1k1ajV2YWFMcTNMbklZeGo2S0ZhYzhJT3hCczZXc0lta09HWnlaVjIzaGhJcExqUmtuT3F6enlXVFU0M2c?oc=5",
   "date": "2026-11-09T08:00:00+00:00",
@@ -410,6 +621,41 @@
   "score": 5,
   "reason": "AI 医疗器械监管检查清单属实质监管动向，但仅有标题信息",
   "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "KQML-Liver: Interpretable Hybrid Quantum Machine Learning with Kolmogorov-Arnold Networks for Liver Disease Classification",
+  "link": "https://arxiv.org/abs/2611.15241",
+  "date": "2026-11-11T09:31:35+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.15241",
+  "pop": null,
+  "id": "9bcc64403ca2",
+  "keep": true,
+  "zh_title": "KQML-Liver：量子机器学习联合KAN的肝病分类",
+  "summary": "预印本提出融合参数化量子电路与Kolmogorov-Arnold网络的混合框架，在印度肝病患者数据集上做肝病分类并强调可解释性。",
+  "key_points": [
+   "量子电路负责特征表达，KAN负责可解释非线性映射",
+   "仅在ILPD公开数据集上评估",
+   "作者称既有研究存在数据泄漏与评估过简"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "可解释性"
+  ],
+  "evidence": "预印本",
+  "score": 4,
+  "reason": "单公开数据集、仅内部评估、以指标为主，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Liver disease remains a major global health concern, highlighting the need for reliable and accessible early detection methods. Although recent advances in machine learning, deep learning and quantum machine learning (QML) have introduced promising diagnostic tools, many approaches suffer from limited interpretability and inflated performance caused by data leakage or overly simplistic evaluation protocols. These constraints reduce their reliability in real-world clinical practice. This paper proposes KQML-Liver, a hybrid framework that integrates QML with Kolmogorov-Arnold Networks (KANs) to enhance predictive performance and interpretability. The architecture combines parameterized quantum circuits for expressive feature representation with KAN-based functional mappings that capture nonlinear relationships in an interpretable manner. Evaluated on the Indian Liver Patient Dataset (ILPD) under a rigorous preprocessing protocol preventing data leakage, the proposed model achieves 82% classification accuracy and 100% recall, detecting all positive cases, outperforming existing baselines while providing improved transparency in clinical predictions. These results suggest that hybrid KAN-quantum architectures offer a promising direction for interpretable AI-assisted medical diagnosis.",
+  "zh_abstract": "肝病仍然是全球重大健康问题，凸显了对可靠且可及的早期检测方法的需求。尽管机器学习、深度学习和量子机器学习（QML）的最新进展带来了有前景的诊断工具，但许多方法存在可解释性有限以及由数据泄漏或过于简化的评估方案导致的性能虚高问题。这些限制降低了它们在实际临床实践中的可靠性。本文提出KQML-Liver，一种将QML与Kolmogorov-Arnold网络（KANs）集成以提升预测性能和可解释性的混合框架。该架构将用于表达性特征表示的参数化量子电路与能够以可解释方式捕捉非线性关系的基于KAN的函数映射相结合。在严格防止数据泄漏的预处理方案下，于Indian Liver Patient Dataset（ILPD）上评估，所提出模型达到82%的分类准确率和100%的召回率，检测出所有阳性病例，优于现有基线，同时在临床预测中提供更高透明度。这些结果表明，KAN-量子混合架构为可解释的AI辅助医学诊断提供了一个有前景的方向。",
   "day": "2026-11-13"
  },
  {
@@ -473,6 +719,34 @@
   "evidence": "新闻",
   "score": 4,
   "reason": "监管规则议题相关，但仅标题、无实质内容，按标题上限下调",
+  "processing": "model-enriched",
+  "day": "2026-11-13"
+ },
+ {
+  "title": "Rivia launches AI-powered clinical trial data review module, with Scancell as early adopter",
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWENTdUhublFjeUlHd1NUZWRVZVZkWVFrNmtqYm1sUFdWSGZYYnNvWGpaQ0hQUTRtOVdRY1dJQ2U3TEZIWjEzSlliN0wwLVk1TWk0N2hkb0ZmNFJQX05TLWtkYXlkbEktV2RwU3FLeHNkUkJHc1k1UllpUkl6VzFjZE1QNzNaT2N0QkRqWmZjU3MxcEowQTU2dGpuaEwzUU9fclNSX1pjWGc?oc=5",
+  "date": "2026-11-11T18:00:00+00:00",
+  "source": "Fierce Biotech",
+  "source_group": "Google News · 行业媒体",
+  "home": "https://www.fiercebiotech.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "3441755cef59",
+  "keep": true,
+  "zh_title": "Rivia推出AI临床试验数据审查模块",
+  "summary": "Rivia发布AI驱动的临床试验数据审查模块，Scancell为早期采用方（仅标题信息）。",
+  "key_points": [],
+  "section": "产业动态",
+  "type": "模型",
+  "tags": [
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题的产品发布，缺技术细节与验证信息，属增量档",
   "processing": "model-enriched",
   "day": "2026-11-13"
  },
