@@ -562,7 +562,13 @@
 "processing": "model-enriched",
 "abstract": "[Diagnostic and interventional radiology (Ankara, Turkey)] Growing evidence shows that medical imaging has a substantial environmental impact. With the increasing adoption of artificial intelligence (AI) in clinical settings, it is important to explore how this technology may support environmental sustainability. Literature searches were performed across eight databases (PubMed, Wiley Online Library, Embase, Web of Science platform, the Cochrane Library, Cumulative Index to Nursing and Allied Health Literature Ultimate, Google Scholar, and MedRxiv) for the period January 2020-June 2026. Full-text sources in the English language were eligible for inclusion. The Joanna Briggs Institute checklists were employed for risk of bias assessment. All data were analyzed using a textual narrative synthesis. In total, 23 studies were deemed eligible for inclusion. The literature proposed that AI tools in medical imaging could be used to minimize energy consumption by optimizing patient scheduling, decreasing scanner idle times and workstation use, reducing computed tomography over-scanning, contrast agent usage, and radiation dose, harnessing low-field magnetic resonance imaging, and curtailing low-value imaging. However, AI technologies may also impact the environment in harmful ways. Although AI-powered solutions hold promise for improving sustainability in medical imaging, the true environmental impact remains largely unexplored. The findings of this work further strengthen the dual role of AI adoption in medical imaging related to environmental sustainability.",
 "zh_abstract": "[诊断与介入放射学（Diagnostic and Interventional Radiology，安卡拉，土耳其）] 越来越多的证据表明，医学影像具有显著的环境影响。随着人工智能（artificial intelligence, AI）在临床环境中的采用日益增加，探索该技术如何支持环境可持续性十分重要。文献检索覆盖八个数据库（PubMed、Wiley Online Library、Embase、Web of Science 平台、Cochrane Library、Cumulative Index to Nursing and Allied Health Literature Ultimate、Google Scholar 和 MedRxiv），检索时段为2020年1月至2026年6月。英文全文来源符合纳入条件。采用 Joanna Briggs Institute 清单进行偏倚风险评估。所有数据均采用文本叙述综合进行分析。共有23项研究被认为符合纳入条件。文献提出，医学影像中的AI工具可通过优化患者排程、减少扫描仪空闲时间和工作站使用、减少计算机断层扫描过度扫描、对比剂使用和辐射剂量、利用低场磁共振成像以及削减低价值影像检查来最小化能耗。然而，AI技术也可能以有害方式影响环境。尽管AI驱动的解决方案有望改善医学影像的可持续性，其真实环境影响仍在很大程度上未被探索。本研究结果进一步强化了医学影像中AI采用与环境可持续性相关的双重作用。",
-"day": "2026-10-31"
+"day": "2026-10-31",
+"also": [
+{
+"source": "PubMed · Advances in medical education and practice",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43022599/"
+}
+]
 },
 {
 "title": "AI-Assisted Instruction Versus Peer Learning for Sustained Lumbar Puncture Competency",
