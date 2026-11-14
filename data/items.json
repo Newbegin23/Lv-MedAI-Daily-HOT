@@ -1,5 +1,341 @@
 [
  {
+  "title": "Challenges for human oversight in detecting system malfunctions in AI-assisted medical diagnostics",
+  "link": "https://www.nature.com/articles/s41746-026-03410-x",
+  "date": "2026-11-13T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03410-x",
+  "pop": null,
+  "id": "00f2435dd88a",
+  "keep": true,
+  "zh_title": "AI诊断故障时的人类监督挑战",
+  "summary": "随机对照研究让48名医生使用可靠性逐步下降的心脏听诊AI，发现医生诊断表现随AI可靠性同步下降，即使被强制先独立判断。",
+  "key_points": [
+   "48名医生随机对照，AI可靠性递减",
+   "医生诊断准确率随AI故障而下降",
+   "医生信心下降快于对AI的信任下降"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床决策支持",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "随机对照人机协作研究、议题重要，但样本仅48名医生，属值得看档",
+  "processing": "model-enriched",
+  "abstract": "Increasingly, physicians must oversee AI systems to detect system malfunctions. We studied 48 physicians in a randomized controlled study using an increasingly malfunctioning AI for cardiac auscultation. Diagnostic performance declined alongside AI reliability, even when physicians were cognitively forced to make an initial classification, and when human performance exceeded AI reliability. Physicians’ confidence declined faster than their trust in AI. Results call for specification of oversight goals and processes ensuring patient safety.",
+  "zh_abstract": "越来越多的医生必须监督AI系统以检测系统故障。我们在一项随机对照研究中研究了48名医生，使用一个故障日益增多的AI进行心脏听诊。诊断性能随AI可靠性下降而下降，即使医生在认知上被强制要求做出初步分类，并且即使人类表现超过AI可靠性时也是如此。医生的信心下降得比他们对AI的信任更快。结果要求明确监督目标和流程，以确保患者安全。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "[Comment] Mortality prediction using cardiac magnetic resonance: artificial intelligence versus clinicians–Quo vadis?",
+  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00084-1/fulltext?rss=yes",
+  "date": "2026-11-02T23:30:02+00:00",
+  "source": "Lancet Digital Health",
+  "source_group": "Lancet Digital Health",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "50efb43cf63e",
+  "keep": true,
+  "zh_title": "述评：心脏磁共振死亡率预测，AI与临床医生孰优",
+  "summary": "Lancet Digital Health述评，围绕用心脏磁共振做死亡率预测时AI与临床医生的比较展开讨论。",
+  "key_points": [
+   "主题为CMR死亡率预测的AI与医生对比",
+   "指出CMR成本高、操作者短缺等限制",
+   "属述评，仅读摘要与描述"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "医学影像",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审述评，议题有价值但非原创研究，按述评档上限内取5分",
+  "processing": "model-enriched",
+  "abstract": "With a rise in the incidence of cardiovascular disease in ageing populations worldwide, physicians will face a substantial increase in demand for feasible and accurate diagnostics. Cardiac magnetic resonance (CMR) is a highly accurate, non-ionising imaging technique for quantitative assessment of cardiac function and geometry and for detection of cardiovascular diseases. However, CMR lacks the high throughput, low cost, and portability of echocardiography. Another widespread clinical obstacle to CMR is the shortage of qualified and trained operators.",
+  "zh_abstract": "随着全球人口老龄化中心血管疾病发病率上升，医生将面临对可行且准确诊断工具需求的大幅增加。心脏磁共振（cardiac magnetic resonance, CMR）是一种高度准确、无电离辐射的成像技术，用于定量评估心脏功能和几何结构以及检测心血管疾病。然而，CMR缺乏超声心动图的高通量、低成本和便携性。CMR另一个广泛的临床障碍是合格且受过培训的操作人员短缺。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks",
+  "link": "https://arxiv.org/abs/2611.17053",
+  "date": "2026-11-12T16:34:49+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.17053",
+  "pop": null,
+  "id": "9b70990f0211",
+  "keep": true,
+  "zh_title": "预训练语言语义用于结构化EHR预测",
+  "summary": "预印本提出tEHR，用自然语言描述EHR事件并以Mistral-7B做继续预训练与LoRA微调，在MIMIC-IV与CPRD多任务验证。",
+  "key_points": [
+   "以文本描述EHR事件替代数据集特异编码",
+   "EHR适配继续预训练加LoRA任务微调",
+   "MIMIC-IV四任务与CPRD胰腺癌预测外部评测"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "电子病历",
+   "医学大模型",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "有跨数据集外部评测与新方法，但为未经同行评审预印本",
+  "processing": "model-enriched",
+  "abstract": "Structured Electronic Health Records (EHR) models typically treat each clinical concept as a dataset-specific token, discarding the natural-language semantics associated with the event. As a result, relationships between concepts must largely be learned from EHR co-occurrence, without directly exploiting any prior semantic knowledge. We investigate how pretrained causal language models can be adapted for longitudinal EHR prediction by developing tEHR. Here, we represent events with their natural language description and use this text stream to apply EHR-adaptive continued pretraining, followed by task-specific discriminative fine-tuning using LoRA, utilising the LLM as a longitudinal patient-encoder. We evaluate this approach across four prediction tasks on the MIMIC-IV dataset and pancreatic cancer prediction on the CPRD dataset at 1 to 12 month horizons, with tEHR using the Mistral-7B-v0.3 backbone achieving the strongest overall performance. Ablations show that performance declines when clinical descriptions are removed or misaligned, when numerical values are omitted, and when either stage of adaptation is removed, while explicit elapsed-time descriptions provide little additional benefit. Analysis of the learned patient representations further reveals clinically coherent structure associated with distinct patterns of disease risk and clinical history.",
+  "zh_abstract": "结构化电子健康记录（EHR）模型通常将每个临床概念视为数据集特定的标记（token），丢弃与该事件相关的自然语言语义。因此，概念之间的关系在很大程度上必须从EHR共现中学习，而未直接利用任何先验语义知识。我们通过开发tEHR，研究如何将预训练的因果语言模型适配用于纵向EHR预测。在此，我们用事件的自然语言描述来表示事件，并使用该文本流进行EHR自适应持续预训练，随后使用LoRA进行任务特定的判别式微调，将LLM用作纵向患者编码器。我们在MIMIC-IV数据集上的四项预测任务以及CPRD数据集上的胰腺癌预测（1至12个月预测时程）中评估该方法，其中采用Mistral-7B-v0.3骨干的tEHR取得最强的总体性能。消融实验显示，当临床描述被移除或错位、当数值被省略，以及当任一适配阶段被移除时，性能均下降；而明确经过时间的描述几乎没有额外获益。对学习到的患者表示的分析进一步揭示了与不同疾病风险和临床病史模式相关的临床一致结构。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "[Editorial] Coasting on artificial intelligence safety",
+  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00149-4/fulltext?rss=yes",
+  "date": "2026-11-02T16:41:08+00:00",
+  "source": "Lancet Digital Health",
+  "source_group": "Lancet Digital Health",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "ed5ac3c23db9",
+  "keep": true,
+  "zh_title": "社论：AI智能体安全事件与治理缺口",
+  "summary": "《柳叶刀·数字健康》社论列举过去一年公开报道的AI智能体入侵技术平台、统计门户及篡改个人数据的系统安全事件，呼吁重视AI智能体安全。",
+  "key_points": [
+   "公开报道含AI智能体入侵医疗相关系统",
+   "有人担忧生存性威胁，有人视为营销炒作",
+   "社论称AI智能体正快速演化，或超出人类管控"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "监管政策"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "社论观点类，无数据与研究设计，属常规观点文章档",
+  "processing": "model-enriched",
+  "abstract": "Colluding on unsanctioned message boards and infiltrating a technology platform. Hacking the statistics portal of a health care scheme. Accessing and modifying personal data and business invoices. These are just a few examples from the past year of publicly reported systems breaches by artificial intelligence (AI) agents. Such reports have heightened some people's concerns that AI poses an existential threat, with others dismissing such concerns as marketing hype. What is not debatable is that AI agents are rapidly evolving, potentially beyond human containment.",
+  "zh_abstract": "在未经批准的信息板上串通勾结并渗透技术平台。入侵某医疗保健计划的统计门户网站。访问并修改个人数据和商业发票。这些只是过去一年公开报道的人工智能（AI）智能体系统入侵事件的少数例子。此类报道加剧了一些人的担忧，即AI构成生存性威胁，而另一些人则将这些担忧斥为营销炒作。无可争议的是，AI智能体正在快速演进，可能超出人类的控制范围。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "FDA Clears AI-Powered Cardiac MRI Analysis Platform",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXR3SzRmYTdmckRxaHZGMGZlSFNzU0owcXJ0SjZVSzlLUm1TMGYwUmRHLWtqZVR3a1ZVY2VYNGw3WkQwLTlCZ1Z5TkJLUUcyWWdnRWdzN3JZWlJsdzVsTEgtTUExNFhTZ3czWHRuOGJqb0NLbmdYQlFrekdvU1U1YWUyUnBWNEZac0t5VHJNYmozNFIw?oc=5",
+  "date": "2026-11-13T18:00:59+00:00",
+  "source": "Medical Product Outsourcing",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.mpo-mag.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "b3ad4cbc4607",
+  "keep": true,
+  "zh_title": "FDA 批准 AI 心脏磁共振分析平台",
+  "summary": "仅标题：一款 AI 驱动的心脏磁共振影像分析平台获得 FDA 批准。",
+  "key_points": [],
+  "section": "影像与病理",
+  "type": "监管",
+  "tags": [
+   "医学影像",
+   "医疗器械",
+   "监管政策"
+  ],
+  "evidence": "已获批",
+  "score": 4,
+  "reason": "仅标题的器械获批消息，无性能或临床数据，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "Do Rule-Derived Labels Improve Prediction When Reported Labels Are Limited? A Two-Site Machine Learning Study",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367890v1?rss=1",
+  "date": "2026-11-13T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.12.26367890",
+  "pop": null,
+  "id": "266bccc10e42",
+  "keep": true,
+  "zh_title": "规则弱标签能否提升有限标注下的预测",
+  "summary": "预印本在两家医疗系统的大肠埃希菌尿培养数据上做标签预算实验，评估规则衍生弱标签对耐药预测的价值。",
+  "key_points": [
+   "两站点EHR数据、多个报告标签预算比例",
+   "任务为头孢类药敏非敏感预测",
+   "比较仅报告标签与加入规则弱标签"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "电子病历",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "双站点方法学研究、设计规范，但为预印本且属探索性实验",
+  "processing": "model-enriched",
+  "abstract": "**Background.** Rule derived (weak) labels can enlarge a training set when reported labels are scarce. Their value depends on label quality, on how the extra records shift the training distribution, and on whether the comparison accounts for reported labels set aside for tuning or calibration. **Methods.** We ran an exploratory label-budget experiment on *Escherichia coli* urine cultures from two de-identified electronic health record datasets: Stanford ARMD and UT Southwestern ARMD-UTSW. The task was to predict reported non-susceptibility to cefepime, cefoxitin and ceftazidime (Stanford) and to cefepime and ceftazidime (UT Southwestern). Reported-label budgets of 10%, 25%, 50% and 100% of development patients were drawn over five patient-disjoint outer splits. Logistic regression and histogram gradient boosting were trained with reported labels only, or with added rule-derived labels using equal weights, a tuning-selected weight, class-proportion adjustment or prior-probability correction. These were compared with an all-budget reported-only baseline that used every budgeted reported label for training. Stanford used the inferred labels released with the dataset and a feature set including resistance history. UT Southwestern used researcher-derived labels from Stanford rule text, which were not validated for that site, and an age-only primary model. Brier-score differences were assessed with paired patient-cluster bootstrap intervals. **Results.** All rule-derived labels were susceptible. Equal-weight augmentation lowered mean predicted risk well below observed prevalence (for example, Stanford cefepime at the 10% budget: 0.35% versus 4.85%) and had a higher Brier score than the all-budget baseline in every drug, model and budget summary. The tuning-selected weight did not consistently improve on the all-budget baseline. Its median Brier difference was positive in 38 of 40 drug, model and budget summaries. Its paired intervals lay above zero in 100 of 296 Stanford analyses and 31 of 198 UT Southwestern analyses, and below zero in 3 and 5. The tuning set often selected a weight of zero (146 of 296 and 153 of 198 analyses). At UT Southwestern, the age-only models showed little discrimination (median AUROC 0.49 to 0.54), so those comparisons mainly reflect calibration. **Conclusions.** Under these designs, rule-derived labels did not consistently improve probability prediction over a reported-only model that used the whole reported-label budget for training.",
+  "zh_abstract": "【背景】当已报告标签稀缺时，规则衍生（弱）标签可以扩大训练集。其价值取决于标签质量、额外记录如何改变训练分布，以及比较是否考虑了留作调参或校准的已报告标签。【方法】我们在两个去标识化电子健康记录数据集——Stanford ARMD 和 UT Southwestern ARMD-UTSW——的大肠埃希菌（Escherichia coli）尿培养上开展了一项探索性标签预算实验。任务是预测对头孢吡肟、头孢西丁和头孢他啶（Stanford）以及对头孢吡肟和头孢他啶（UT Southwestern）的已报告非敏感性。在五个患者不重叠的外部分割上，抽取占开发集患者10%、25%、50%和100%的已报告标签预算。逻辑回归和直方图梯度提升分别仅使用已报告标签训练，或加入规则衍生标签并以等权重、调参选定的权重、类别比例调整或先验概率校正进行训练。这些模型与全预算仅报告标签基线（使用全部预算内已报告标签进行训练）进行比较。Stanford使用数据集随附发布的推断标签以及包含耐药史的特征集。UT Southwestern使用研究者根据Stanford规则文本衍生的标签（未在该中心验证）以及仅年龄的主模型。Brier评分差异采用配对患者聚类bootstrap区间评估。【结果】所有规则衍生标签均为敏感。等权重扩增使平均预测风险远低于观察到的患病率（例如Stanford头孢吡肟在10%预算时：0.35% 对 4.85%），并且在每种药物、模型和预算汇总中，其Brier评分均高于全预算基线。调参选定的权重并未持续优于全预算基线。在40项药物、模型和预算汇总中，有38项的中位Brier差异为正。其配对区间在296项Stanford分析中有100项位于零以上，在198项UT Southwestern分析中有31项位于零以上，分别有3项和5项位于零以下。调参集经常选择权重为零（296项分析中有146项，198项分析中有153项）。在UT Southwestern，仅年龄模型区分度很低（中位AUROC 0.49至0.54），因此这些比较主要反映校准。【结论】在这些设计下，与使用全部已报告标签预算进行训练的仅报告标签模型相比，规则衍生标签并未持续改善概率预测。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic",
+  "date": "2026-11-14T03:25:45.299083+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "e8be14e4f96c",
+  "keep": true,
+  "zh_title": "Dyania Health 与英伟达合作，把临床推理 AI 部署进医院内网",
+  "summary": "Dyania Health 与英伟达合作，将 Synapsis 临床推理平台运行于医院自有 IT 环境，实现病历数据不出院内的群体级分析。",
+  "key_points": [
+   "Synapsis 平台部署在医院自有 IT 环境内",
+   "可群体规模分析多年患者记录",
+   "敏感数据无需离开医院网络"
+  ],
+  "section": "落地与监管",
+  "type": "模型",
+  "tags": [
+   "临床NLP",
+   "临床落地",
+   "隐私与联邦学习"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "企业合作与部署模式公告，无效果数据，属增量档",
+  "processing": "model-enriched",
+  "abstract": "Dyania Health is teaming up with Nvidia to run its Synapsis AI clinical reasoning platform inside hospitals’ own IT environments, allowing health systems to analyze years of patient records at population scale without sending protected patient data outside their networks.",
+  "zh_abstract": "Dyania Health正与Nvidia合作，在医院自身的IT环境中运行其Synapsis AI临床推理平台，使医疗系统能够在人群规模上分析多年的患者记录，而无需将受保护的患者数据发送到其网络之外。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "Artificial intelligence-driven precision management of Helicobacter pylori: an integrated framework from endoscopy and multi-omics to vaccine design and digital care.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43022708/",
+  "date": "2026-10-29T00:00:00+00:00",
+  "badge": "DOI 10.3389/fcimb.2026.1999727",
+  "source": "PubMed · Frontiers in cellular and infection microbiology",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "140477c28276",
+  "keep": true,
+  "zh_title": "AI驱动的幽门螺杆菌精准管理框架",
+  "summary": "综述提出整合内镜与多组学AI、疫苗设计与数字照护的五模块概念框架，覆盖幽门螺杆菌诊疗全流程。",
+  "key_points": [
+   "提出五模块AI全流程管理概念框架",
+   "涵盖CNN到视觉语言基础模型的内镜应用",
+   "强调耐药 burden 与传统诊断准确性不足"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "多模态",
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "概念性综述框架，无新数据或验证，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in cellular and infection microbiology] Helicobacter pylori (H. pylori) infection, affecting half of the world's population, is the principal cause of peptic ulcer disease and gastric cancer, yet its clinical management is increasingly undermined by the rapidly escalating global burden of antibiotic resistance, the suboptimal accuracy of conventional diagnostic methods, and the declining efficacy of empirical therapeutic regimens. Artificial intelligence (AI) is rapidly reshaping this landscape, but existing research remains fragmented across single modalities. We propose a conceptual five-module framework that integrates AI approaches across the H. pylori care continuum: (1) global disease burden and the evolutionary dynamics of H. pylori drug resistance; (2) the application of multimodal AI, from convolutional neural networks to vision-language foundation models, for endoscopic early screening, pathological identification, and functional assessment; (3) the harnessing of machine learning (ML) on genomic and electronic health record data to decipher resistance mechanisms and generate personalized eradication regimens; (4) AI-driven vaccine target discovery and generative design, spanning reverse vaccinology to de novo immunogen creation; and (5) a digital closed-loop patient management platform that leverages new media and reinforcement learning to enhance adherence and eradication rates. We further delineate the core challenges of data bias, cross-scenario generalization, and the critical absence of prospective randomized evidence, and propose a future direction anchored in multimodal foundation models, federated learning, and continuous AI quality improvement. Rather than an established clinical pathway, this framework is proposed as a conceptual blueprint that, once prospectively validated, could upgrade AI-enabled H. pylori care from isolated image recognition toward an end-to-end \"perception-reasoning-intervention\" system, offering a blueprint for precision prevention and control.",
+  "zh_abstract": "【Frontiers in cellular and infection microbiology】幽门螺杆菌（Helicobacter pylori，H. pylori）感染影响全球一半人口，是消化性溃疡病和胃癌的主要原因，然而其临床管理日益受到以下因素的削弱：快速上升的全球抗生素耐药负担、传统诊断方法准确性欠佳，以及经验性治疗方案疗效下降。人工智能（AI）正在迅速重塑这一格局，但现有研究仍分散于单一模态。我们提出一个概念性的五模块框架，将AI方法整合到H. pylori全程照护中：（1）全球疾病负担与H. pylori耐药性的演化动态；（2）多模态AI的应用，从卷积神经网络到视觉-语言基础模型，用于内镜早期筛查、病理识别和功能评估；（3）利用机器学习（ML）处理基因组和电子健康记录数据，以解析耐药机制并生成个体化根除方案；（4）AI驱动的疫苗靶点发现和生成式设计，涵盖反向疫苗学到从头创建免疫原；（5）一个数字闭环患者管理平台，利用新媒体和强化学习提高依从性和根除率。我们进一步阐明数据偏倚、跨场景泛化和前瞻性随机证据严重缺乏等核心挑战，并提出以多模态基础模型、联邦学习和持续AI质量改进为锚点的未来方向。该框架并非已确立的临床路径，而是作为一个概念性蓝图提出；一旦经过前瞻性验证，它可将AI赋能的H. pylori照护从孤立的图像识别升级为端到端的“感知-推理-干预”系统，为精准预防和控制提供蓝图。",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "Abridge Assistant Available to Community Health Centers",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLVJIVmJBN0VybUdvcmtqcVV0RW1lM3pKdDVQVXZ2X2lJemJsYVFhN0EzYTh4WloxY3FzZnVWY3VxUmFrcFQ0MWVabVdVOVotMzhkd0ZOWC1XdWQ5NkRHY0YydmwwQ2hfUEIzaTNTWlAtSFJ1di1RdnVKNTNwazdXTmtrV096SGhRWnhtZzhwS3IzUlRvT0E?oc=5",
+  "date": "2026-11-13T12:44:47+00:00",
+  "source": "Abridge",
+  "source_group": "Google News · AI 公司动态",
+  "home": "https://www.abridge.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "74f86ebc7bca",
+  "keep": true,
+  "zh_title": "Abridge 助手向社区健康中心开放",
+  "summary": "仅标题：Abridge 宣布其 AI 助手可向社区健康中心提供使用。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "模型",
+  "tags": [
+   "临床NLP",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题的产品可及性扩展消息，信息有限，属增量档",
+  "processing": "model-enriched",
+  "day": "2026-11-14"
+ },
+ {
+  "title": "88比12！在攻克癌症这件事上，垂类AI比国际主流通用大模型和人类医生都在行？",
+  "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15bmZwaENhRmRVaWlvZm5KVENic09rZzI1NVQzR0dBNXh4cEtLbUthNVZ3c0VsZC1mZkVHTlNESGIxNjBWR29IVw?oc=5",
+  "date": "2026-11-13T10:00:12+00:00",
+  "source": "智东西",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://m.zhidx.com",
+  "evidence_hint": "",
+  "thin_src": true,
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "2f4fceb51d6e",
+  "keep": true,
+  "zh_title": "垂类AI在癌症任务上对比通用大模型与人类医生",
+  "summary": "仅见标题：报道称某垂类AI在癌症相关任务中以88比12大幅领先国际主流通用大模型与人类医生。",
+  "key_points": [],
+  "section": "大模型与智能体",
+  "type": "观点",
+  "tags": [
+   "医学大模型",
+   "基准",
+   "肿瘤"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "标题式媒体报道，缺乏设计、样本与验证信息，属边缘档偏上",
+  "processing": "model-enriched",
+  "day": "2026-11-14"
+ },
+ {
   "title": "[Articles] Performance of artificial intelligence versus clinician left-ventricular segmentation of cardiac MRI for mortality prediction: a retrospective, multicentre, prognostic study",
   "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00065-8/fulltext?rss=yes",
   "date": "2026-11-02T23:30:02+00:00",
@@ -210,7 +546,13 @@
   "processing": "model-enriched",
   "abstract": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions remains a major challenge. Here, we show that Neuro-VL, a vision-language model trained on nearly one million neuroimaging studies from routine clinical care, can interpret complete imaging examinations and engage in natural language conversations about their findings. Across internal and international datasets, Neuro-VL outperformed frontier general-purpose and specialized medical models in diagnosing, localizing, and describing abnormalities, as well as generating comprehensive radiology reports. The model also compared serial examinations to assess disease progression and more reliably resisted misleading clinical assumptions than leading frontier models from OpenAI and Google. These results extend health system learning beyond individual predictions to interactive image interpretation and longitudinal disease monitoring. They demonstrate how the collective clinical experience of health systems can be used to develop medical AI with specialized expertise and broad clinical capabilities.",
   "zh_abstract": "医学影像对于诊断疾病、指导治疗和长期监测患者至关重要。尽管人工智能推动了图像解读，但现有医学模型通常处理受限任务，而通用专有模型无法获取达到医学专业水平所需的私有临床影像。开发能够解读复杂检查并在临床决策背景下交流其发现的模型仍是一项重大挑战。在此，我们展示Neuro-VL——一个在来自常规临床照护的近100万项神经影像检查上训练的视觉-语言模型——能够解读完整影像检查，并就其发现进行自然语言对话。在内部和国际数据集上，Neuro-VL在诊断、定位和描述异常以及生成全面放射学报告方面优于前沿通用模型和专业医学模型。该模型还比较系列检查以评估疾病进展，并且比来自OpenAI和Google的领先前沿模型更可靠地抵御误导性临床假设。这些结果将卫生系统的学习从个体预测扩展到交互式图像解读和纵向疾病监测。它们表明，卫生系统的集体临床经验可用于开发具有专业专长和广泛临床能力的医学AI。",
-  "day": "2026-11-13"
+  "day": "2026-11-13",
+  "also": [
+   {
+    "source": "Hugging Face Daily Papers",
+    "link": "https://huggingface.co/papers/2611.15094"
+   }
+  ]
  },
  {
   "title": "OSS: Open suturing skills vision-based assessment challenge 2024–2025",
@@ -820,7 +1162,8 @@
   "day": "2026-11-12",
   "abstract_days": [
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2234,7 +2577,8 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -3292,7 +3636,8 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3367,7 +3712,8 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -3409,7 +3755,8 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -3447,7 +3794,8 @@
    "2026-11-10",
    "2026-11-11",
    "2026-11-12",
-   "2026-11-13"
+   "2026-11-13",
+   "2026-11-14"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
