@@ -683,6 +683,12 @@
 "score": 3,
 "reason": "标题式媒体报道，缺乏设计、样本与验证信息，属边缘档偏上",
 "processing": "model-enriched",
-"day": "2026-11-14"
+"day": "2026-11-14",
+"also": [
+{
+"source": "手机新浪网",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTlNnVC1WZk5aTFBWTTRuTkhuaFdRTXVPNTN0aTJRTHdGLV9yRjQxZU03TWlmQy1fNzJKenJCSGd3S0lPeWVXWHVEMmVSOUVlSlVTWi1mZkZhZnNudHcwSDJMWHlhajJFNmYtRVhsQjJCY29uTHU1VWNObGExeTB6ZThR?oc=5"
+}
+]
 }
 ]
