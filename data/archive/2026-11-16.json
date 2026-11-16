@@ -36,6 +36,77 @@
 "day": "2026-11-16"
 },
 {
+"title": "Future-Information Leakage in 30-Day Readmission Prediction: An Empirical Audit and a Calibrated Electronic Health Record Model in Medicare-Insured Adults",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.13.26368026v1?rss=1",
+"date": "2026-11-15T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.11.13.26368026",
+"pop": null,
+"id": "d77158872100",
+"keep": true,
+"zh_title": "30天再入院预测的未来信息泄漏审计",
+"summary": "基于MIMIC-IV约23.7万次住院，审计出院时点可得性并量化未来信息泄漏对性能与结论的扭曲。",
+"key_points": [
+"研究236,906次Medicare保险住院，患病率21.4%",
+"历史特征按原始时间戳重算，剔除全病程特征",
+"仅内部验证，采用XGBoost与患者分组交叉验证"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"电子病历",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "大样本方法学审计有借鉴价值，但为预印本且仅内部验证",
+"processing": "model-enriched",
+"abstract": "Objective: To develop and internally validate a calibrated discharge model of 30-day within-system readmission in Medicare-insured adults, and to quantify how a future-information leak and outcome artifacts distorted performance, timing, and subgroup conclusions. Materials and Methods: Retrospective study of 236,906 Medicare-insured MIMIC-IV v3.1 admissions (87,750 patients; prevalence 21.4%). Predictors were audited for discharge-time availability; history features were tested for future information and recomputed from raw timestamps. A consensus gradient-boosted (XGBoost) model was selected inside patient-grouped folds; CIs used patient-cluster bootstrap. Results: A feature documented as a prior 180-day length-of-stay trend used each patient's whole record, including later admissions; removing it and two derived terms lowered test area under the receiver operating characteristic curve (AUROC) from 0.774 to 0.706. The corrected procedure reached an out-of-fold AUROC of 0.7057 (95% CI 0.7016 to 0.7102; primary); the 44-feature model scored 0.7056 on the historically exposed test partition (calibration slope 0.99), above reconstructed LACE and HOSPITAL (both P<.001). A day-1 discrimination peak largely reflected 2,368 probable administrative continuations within 1 hour of discharge; merging these into the preceding stay gave test AUROC 0.698 (0.702 after refitting). The White minus Black AUROC difference was 0.003 (95% CI -0.018 to 0.024); specificity was lower for Black patients (0.61 vs 0.69). Discussion: Documentation audits and patient-grouped validation missed a leak that inflated discrimination and created spurious subgroup and calendar-period differences; simple empirical checks found it. Conclusion: Empirical leakage checks should accompany availability audits. The corrected model is calibrated, moderately discriminating, and needs external validation before clinical use.",
+"zh_abstract": "【目的】开发并在内部验证一个校准的30天系统内再入院出院模型，用于参加 Medicare 保险的成人，并量化未来信息泄漏和结局伪差如何扭曲性能、时间及亚组结论。\n【材料与方法】对236,906条 MIMIC-IV v3.1 中参加 Medicare 保险的住院记录（87,750名患者；患病率21.4%）进行回顾性研究。对预测变量进行出院时可用性审计；对病史特征检验未来信息，并从原始时间戳重新计算。在按患者分组的折内选择共识梯度提升（XGBoost）模型；置信区间使用患者簇自助法。\n【结果】一个被记录为先前的180天住院时长趋势的特征使用了每位患者的整个记录，包括后续住院；移除该特征和两个派生项后，测试集受试者工作特征曲线下面积（AUROC）从0.774降至0.706。校正后的流程达到折外 AUROC 0.7057（95% CI 0.7016至0.7102；主要结果）；44特征模型在历史暴露的测试分区上得分为0.7056（校准斜率0.99），高于重建的 LACE 和 HOSPITAL（均 P<.001）。第1天区分度峰值在很大程度上反映了出院1小时内2,368例可能的行政性连续住院；将这些合并到前一次住院后，测试 AUROC 为0.698（重新拟合后为0.702）。白人减黑人的 AUROC 差异为0.003（95% CI -0.018至0.024）；黑人患者的特异度较低（0.61 对 0.69）。\n【讨论】记录审计和按患者分组验证漏掉了一个泄漏，该泄漏抬高了区分度并产生了虚假的亚组和日历时期差异；简单的经验性检查发现了它。\n【结论】经验性泄漏检查应与可用性审计同时进行。校正后的模型已校准、具有中等区分度，在临床使用前需要外部验证。",
+"day": "2026-11-16"
+},
+{
+"title": "Implementing Artificial Intelligence in Daily Clinical Practice, from Voice Dictation to Operating Room Organization: A Targeted Narrative Review with Hysteroscopy as a Clinical Exemplar.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43030828/",
+"date": "2026-11-07T00:00:00+00:00",
+"badge": "DOI 10.3390/jcm15218688",
+"source": "PubMed · Journal of clinical medicine",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "ac5870ae5da1",
+"keep": true,
+"zh_title": "AI进入日常临床实践：以宫腔镜为例的叙述性综述",
+"summary": "（据摘要）叙述性综述梳理从语音听写、环境记录到手术室调度等AI落地环节，以宫腔镜为例区分图像级与患者级证据。",
+"key_points": [
+"覆盖语音记录、决策支持与手术室运营",
+"以宫腔镜为从技术性能到临床效用范例",
+"采用区分内部与独立验证的评估框架"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"手术",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "同行评审叙述性综述，关注落地与证据分级；综述类封顶6分，故取5",
+"processing": "model-enriched",
+"abstract": "[Journal of clinical medicine] Artificial intelligence (AI) is entering routine care through documentation tools, decision support, and hospital operations. The central question is whether these systems improve clinical work and patient care once embedded in routine workflows, not only whether they perform well on test data. This targeted narrative review follows AI from voice dictation and ambient documentation to operating room (OR) organization, using hysteroscopy as a clinical exemplar of the transition from technical performance to clinical utility. Evidence identified through targeted searches completed on 6 September 2026 was appraised with a framework that distinguishes image-level from patient-level results, internal from independent validation, and discrimination from clinical utility. Randomized trials and multisite observational data show modest, product-dependent benefits of clinician-reviewed ambient documentation; inaccuracies persist. Evidence for patient-message drafting derives from ratings of responses to public-forum questions and supports only bounded, supervised feasibility testing. In hysteroscopy, selected models discriminate well in narrowly defined tasks, but most studies are retrospective, image-level, or internally validated, and patient-level errors in high-risk categories are seldom reported. Reported gains in OR scheduling come largely from simulation. Safe implementation requires a defined clinical need, baseline measurement, subgroup-aware local validation, accountable review, and predefined criteria for expansion or withdrawal.",
+"zh_abstract": "[Journal of clinical medicine] 人工智能（AI）正通过文档工具、决策支持和医院运营进入常规诊疗。核心问题在于这些系统在嵌入常规工作流程后是否能改善临床工作和患者照护，而不仅仅是它们在测试数据上表现良好。本针对性叙述性综述追踪AI从语音听写和环境文档到手术室（OR）组织的应用，并以宫腔镜作为从技术性能向临床效用转变的临床范例。通过截至2026年9月6日完成的针对性检索所识别的证据，采用一个区分图像层面与患者层面结果、内部验证与独立验证、区分能力与临床效用的框架进行评价。随机试验和多中心观察数据显示，由临床医生审核的环境文档具有适度且因产品而异的获益；不准确之处仍然存在。患者信息起草的证据来源于对公共论坛问题回答的评分，仅支持有范围限制的、受监督的可行性测试。在宫腔镜中，选定模型在狭义定义任务中区分能力良好，但大多数研究为回顾性、图像层面或内部验证，且高风险类别中的患者层面错误很少被报告。所报告的手术室排程改善主要来自模拟。安全实施需要有明确的临床需求、基线测量、考虑亚组的本地验证、可问责的审核，以及预先设定的扩展或退出标准。",
+"day": "2026-11-16"
+},
+{
 "title": "HLTH26: Apple launches 200K-person study to examine how consumers use health AI",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/hlth26-apple-kicks-new-study-examine-use-ai-chatbots-health",
 "date": "2026-11-16T02:55:29.729631+00:00",
@@ -143,6 +214,41 @@
 "day": "2026-11-16"
 },
 {
+"title": "Artificial Intelligence Applications in Stroke Registry Research: Current Progress, Challenges, and Future Directions.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43036762/",
+"date": "2026-11-12T00:00:00+00:00",
+"badge": "DOI 10.5797/jnet.ra.2026-0135",
+"source": "PubMed · Journal of neuroendovascular therapy",
+"source_group": "PubMed",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "6922c63b688e",
+"keep": true,
+"zh_title": "AI在卒中登记研究中的应用：进展、挑战与方向",
+"summary": "叙述性综述梳理卒中登记研究流程中的困难，并讨论AI与大语言模型可提供的支持。",
+"key_points": [
+"聚焦登记研究从选题到成稿的各环节挑战",
+"以大语言模型近年的进展为主要讨论对象",
+"结合日本卒中数据库经验，属叙述性综述"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "叙述性综述，无新数据或验证，属增量档",
+"processing": "model-enriched",
+"abstract": "[Journal of neuroendovascular therapy] Registry-based studies provide real-world evidence that can support clinical decision-making, improve the quality of care, and advance understanding of disease. However, conducting registry-based studies requires substantial time and effort throughout the research workflow, including identifying clinical questions and gaps in existing knowledge, planning studies, developing protocols, collecting and analyzing data, and preparing manuscripts. This narrative review examines the challenges encountered in registry-based studies and discusses how artificial intelligence (AI) may help address them, based on evidence from the broader biomedical literature, with particular reference to our work involving the Japan Stroke Data Bank. AI, particularly large language models, which have advanced rapidly in recent years, has the potential to support literature searches, research question generation, and protocol development, although inaccurate outputs and fabricated references remain important concerns. Natural language processing may facilitate the extraction of structured information from electronic health records and reduce the burden of manual data collection. Machine learning approaches can identify complex relationships in large, high-dimensional datasets and may improve prediction, while large language models may assist with the selection of statistical methods, the generation of analytical code, and the interpretation of results. AI may also support manuscript preparation through language editing, drafting, and the creation of tables and figures. In the future, AI may make it technically feasible to automate much of the registry research workflow. Nevertheless, human oversight remains essential to verify accuracy, protect confidential information, and ensure transparency and accountability for research decisions and outputs. AI is reshaping traditional research processes and may facilitate the generation of novel research findings. However, AI should augment rather than replace the scientific and clinical judgment of researchers.",
+"zh_abstract": "[Journal of neuroendovascular therapy] 基于登记的研究提供真实世界证据，可支持临床决策、改善医疗质量并增进对疾病的理解。然而，开展基于登记的研究在整个研究流程中需要大量时间和精力，包括识别临床问题与现有知识空白、规划研究、制定方案、收集和分析数据以及准备稿件。本叙述性综述考察基于登记的研究中遇到的挑战，并基于更广泛生物医学文献中的证据讨论人工智能（AI）如何帮助应对这些挑战，特别参考我们涉及日本卒中数据库（Japan Stroke Data Bank）的工作。AI，尤其是近年来快速发展的大语言模型，有潜力支持文献检索、研究问题生成和方案制定，但不准确的输出和捏造的参考文献仍是重要关切。自然语言处理可能促进从电子健康记录中提取结构化信息，并减轻人工数据收集负担。机器学习方法可以识别大型高维数据集中的复杂关系，并可能改善预测，而大语言模型可能协助选择统计方法、生成分析代码和解释结果。AI还可能通过语言编辑、起草以及创建表格和图形来支持稿件准备。未来，AI可能使将大部分登记研究流程自动化在技术上可行。尽管如此，人工监督仍至关重要，以核实准确性、保护机密信息，并确保研究决策和输出的透明性与问责性。AI正在重塑传统研究流程，并可能促进新研究发现的形成。然而，AI应增强而非取代研究者的科学和临床判断。",
+"day": "2026-11-16"
+},
+{
 "title": "LabARIA: A Multi-Agent System for Integrative Analytics in Clinical Laboratories",
 "link": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367970v1?rss=1",
 "date": "2026-11-15T00:00:00+00:00",
@@ -209,7 +315,13 @@
 "score": 4,
 "reason": "行业合作动态但信息量有限，无数据与细节，属增量档",
 "processing": "model-enriched",
-"day": "2026-11-16"
+"day": "2026-11-16",
+"also": [
+{
+"source": "STAT",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUTJIWldKX3NmaVZIRnh4RE5zQ3UyNGFNZGlHdTl2OGZfSzdWWlhVMk5raTNKeEl1RS0yYy1EMEpWeUxUY2Z0Q3BRMGNRbDRlLWotVGxGbmRSUlhSVzFoYWZVYkxhRWRfMko3aDEwMU5MZWlMS2d2akF1d0t5Ynh4UXVyZ09OQnRKNzVuaTJoMDlPbVlUXzN3?oc=5"
+}
+]
 },
 {
 "title": "Causally Constrained and Uncertainty-Aware Cardiopulmonary Risk Prediction",
@@ -245,6 +357,115 @@
 "processing": "model-enriched",
 "abstract": "Routine chest computed tomography (CT) captures pulmonary, cardiac, and vascular phenotypes that jointly stratify lung cancer and cardiovascular disease, the two leading causes of death in lung-screening populations. Yet clinical risk calculators evaluate each disease in isolation and omit CT findings, whereas unconstrained machine learning overfits small hospital cohorts, learns treatment- and illness-confounded risk directions, and conceals uncertainty when patient records are incomplete. Here we present the Causal Envelope Agent (CE-Agent), a two-stage framework that compiles peer-reviewed epidemiological evidence into explicit constraints on risk-factor weights before any outcome is seen, while estimating local baseline risk and newly added CT phenotypes from cohort data. At deployment, closed-form uncertainty propagation accounts for missing clinical or CT inputs within milliseconds per patient, running over two orders of magnitude faster than Monte Carlo sampling and returning calibrated risk intervals that direct chart review and selective imaging to borderline patients. Across 53,452 lung-screening participants from 33 US hospitals and 6,814 multi-ethnic adults, CE-Agent outperforms cardiovascular calculators in lung screening, exceeds the Pooled Cohort Equations on hard atherosclerotic events while correcting their 1.7-fold risk overestimation, and generalizes from a single hospital or CT scanner to external sites while lowering required sample sizes up to fivefold. Applied unchanged to lung cancer, CE-Agent matches established screening models with accurate calibration even when restricted to risk-factor directions alone, and pairing both predictions improves joint cardiopulmonary triage from a single screening visit.",
 "zh_abstract": "常规胸部计算机断层扫描（CT）可捕获肺部、心脏和血管表型，这些表型共同对肺癌和心血管疾病进行分层，而这两者是肺部筛查人群中的两大主要死因。然而，临床风险计算器孤立评估每种疾病并遗漏CT发现，而无约束的机器学习会过拟合小型医院队列、学习受到治疗和疾病混杂的风险方向，并在患者记录不完整时隐藏不确定性。在此，我们提出Causal Envelope Agent（CE-Agent），这是一个两阶段框架，在观察到任何结局之前，将经同行评议的流行病学证据编译为对风险因素权重的显式约束，同时从队列数据估计本地基线风险和新加入的CT表型。在部署时，闭式不确定性传播可在每名患者数毫秒内考虑缺失的临床或CT输入，运行速度比蒙特卡洛采样快两个数量级以上，并返回校准风险区间，将病历审查和选择性影像检查导向临界患者。在来自33家美国医院的53,452名肺部筛查参与者和6,814名多种族成人中，CE-Agent在肺部筛查中优于心血管计算器，在硬性动脉粥样硬化事件上超过汇总队列方程（Pooled Cohort Equations），同时纠正其1.7倍的风险高估，并从单一医院或CT扫描仪推广到外部站点，同时将所需样本量降低最多五倍。原样应用于肺癌时，CE-Agent即使仅限制于风险因素方向，也能以准确校准匹配既有筛查模型；将两种预测配对可改善单次筛查就诊中的心肺联合分诊。",
+"day": "2026-11-16"
+},
+{
+"title": "Network scaling in swarm learning across real hospitals of different sizes: a KPI-driven analysis on the eICU Collaborative Research Database",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367729v1?rss=1",
+"date": "2026-11-12T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.11.11.26367729",
+"pop": null,
+"id": "091aa9f3c9fd",
+"keep": true,
+"zh_title": "真实医院间群体学习网络扩展的KPI分析",
+"summary": "基于eICU真实医院数据，用七项KPI框架评估群体学习网络从2家扩至6家医院时的收益变化。",
+"key_points": [
+"纳入25家医院71887例ICU住院，脓毒症患病率16.6%",
+"按床位规模分层选6家医院，穷举6种组网顺序",
+"采用Swarm Gain、Jain指数等七项KPI评估扩展效果"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"隐私与联邦学习",
+"临床预测",
+"电子病历"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "真实医院网络扩展+多KPI评估，预印本回顾性数据库分析，属值得一看档",
+"processing": "model-enriched",
+"abstract": "BackgroundDistributed learning lets hospitals train prediction models jointly without exchanging patient records, but how the benefits of a swarm network change as it grows, and which hospitals gain most, have so far been studied with artificial partitions of single-center databases. We examined network scaling on real hospitals that differ in size, volume and sepsis prevalence. MethodsWe applied the seven-KPI swarm-learning evaluation framework (Swarm Gain, Local Gain, Relative Local Gain, Model Stability Index, Jains index, Data Utility Index and label entropy) to progressive network scaling on the eICU Collaborative Research Database. From 25 hospitals (71,887 ICU stays; sepsis prevalence 16.6%), six hospitals stratified by bed size (two small, two medium, two large; 14,776 stays) formed networks of two, four and six hospitals in all six category-joining orders; four further hospitals served as substitutes in robustness checks. Swarm learning was simulated with the client-controlled workflow of NVIDIA FLARE (federated averaging, 30 rounds, five random seeds). The task was whole-stay sepsis classification from discretized vital-sign, laboratory and medication features with a 1,313-parameter feedforward network, with AUROC as the metric. ResultsNetwork AUROC increased with every addition in every ordering, from 0.734 (small-first), 0.755 (medium-first) and 0.781 (large-first) at two hospitals to 0.804 (SD 0.002) at six. Swarm Gain exceeded 1 at all nine unique transitions (mean 1.042 for 2[->] 4 and 1.020 for 4[->] 6 hospitals). Every hospital had Local Gain below 1; relative improvement over local training ranged from 4.1% for the strongest hospital (local AUROC 0.773) to 29.5% for the weakest (0.621), averaging 25.5% for small and 5.9% for large hospitals. Adding large hospitals gave existing members the largest gain (mean Relative Local Gain +6.2%); adding small hospitals never reduced it. Seed-to-seed variability fell from a coefficient of variation of 2.2% at two hospitals to 0.2% at six. Feature distributions were near-identical across hospitals (Data Utility Index 0.005-0.013), whereas the change in label entropy tracked Swarm Gain (r = 0.74). Substituting alternative medium or large hospitals left network AUROC between 0.790 and 0.805. ConclusionsOn real multi-hospital data, swarm participation improved every hospitals model, most for hospitals with the weakest local models, with no transition in which an addition harmed the network. Because all o",
+"zh_abstract": "【背景】分布式学习使医院能够在不交换患者记录的情况下联合训练预测模型，但群体网络（swarm network）的获益随其增长如何变化，以及哪些医院获益最大，迄今一直是在单中心数据库的人工划分上研究的。我们在规模、收治量和脓毒症患病率不同的真实医院中考察了网络扩展。【方法】我们将七项关键绩效指标（KPI）的群体学习评价框架（Swarm Gain、Local Gain、Relative Local Gain、Model Stability Index、Jain指数、Data Utility Index和标签熵）应用于eICU Collaborative Research Database上的渐进式网络扩展。从25家医院（71,887例ICU住院；脓毒症患病率16.6%）中，按床位规模分层选取6家医院（2家小型、2家中型、2家大型；14,776例住院），按全部六种类别加入顺序组成2家、4家和6家医院的网络；另有4家医院在稳健性检查中作为替代医院。群体学习使用NVIDIA FLARE的客户端控制工作流程进行模拟（联邦平均，30轮，五个随机种子）。任务是基于离散化生命体征、实验室和用药特征进行全住院期脓毒症分类，使用一个1,313参数的前馈网络，以AUROC为指标。【结果】网络AUROC在每种顺序下每次加入医院后均升高，从两家医院时的0.734（小型优先）、0.755（中型优先）和0.781（大型优先）升至六家医院时的0.804（SD 0.002）。Swarm Gain在全部九个独特转变中均超过1（2[->]4家医院的平均值为1.042，4[->]6家医院的平均值为1.020）。每家医院的Local Gain均低于1；相对于本地训练的改善范围从最强医院的4.1%（本地AUROC 0.773）到最弱医院的29.5%（0.621），小型医院平均为25.5%，大型医院平均为5.9%。加入大型医院给现有成员带来最大获益（平均Relative Local Gain +6.2%）；加入小型医院从未使其降低。种子间变异性从两家医院时的变异系数2.2%降至六家医院时的0.2%。各医院间特征分布几乎相同（Data Utility Index 0.005-0.013），而标签熵的变化与Swarm Gain相关（r = 0.74）。替换为其他中型或大型医院后，网络AUROC保持在0.790至0.805之间。【结论】在真实多医院数据上，参与群体学习改善了每家医院的模型，对本地模型最弱的医院改善最大，且没有任何一次加入医院损害网络的转变。因为所有 o",
+"day": "2026-11-16"
+},
+{
+"title": "mdexa-ai/mdexa-ai-native-database",
+"link": "https://github.com/mdexa-ai/mdexa-ai-native-database",
+"date": "2026-11-15T12:20:17Z",
+"pop": "★ 53",
+"image": "https://avatars.githubusercontent.com/u/355922602?v=4",
+"shot": "https://opengraph.githubassets.com/1/mdexa-ai/mdexa-ai-native-database",
+"source": "GitHub",
+"source_group": "GitHub",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"id": "9a79a2981ea3",
+"keep": true,
+"zh_title": "mdexa医疗AI数据集溯源数据库",
+"summary": "仓库提供医疗AI数据集的信息卡、JSON Schema、许可判定规则与哈希证据索引。",
+"key_points": [
+"记录数据集许可与来源溯源信息",
+"信息卡以CC BY 4.0开放，脚本为MIT许可",
+"含MCP与中医相关主题，仅存哈希不存原始数据"
+],
+"section": "落地与监管",
+"type": "模型",
+"tags": [
+"数据集",
+"监管政策"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "数据集治理工具，信息披露有限，属增量小工具",
+"processing": "model-enriched",
+"abstract": "Verified license and provenance records for datasets behind medical AI: information cards, JSON Schema, decision rules and evidence index (hashes only). Cards CC BY 4.0, scripts MIT. (language: JavaScript, homepage: https://mdexa.com/database/, topics: biomedical, data-provenance, dataset-licenses, healthcare, json-schema, license-verification, mcp, medical-ai, open-data, traditional-chinese-medicine)",
+"zh_abstract": "经核验的医疗人工智能背后数据集的许可证和来源记录：信息卡、JSON Schema、决策规则和证据索引（仅哈希值）。信息卡采用 CC BY 4.0，脚本采用 MIT。（语言：JavaScript；主页：https://mdexa.com/database/；主题：生物医学、数据来源、数据集许可证、医疗保健、json-schema、许可证验证、mcp、医疗人工智能、开放数据、传统中医）",
+"day": "2026-11-16"
+},
+{
+"title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+"link": "https://arxiv.org/abs/2611.18484",
+"date": "2026-11-13T17:59:40+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2611.18484",
+"pop": null,
+"id": "c2441f47a75b",
+"keep": true,
+"zh_title": "从AI远程监护到具身智能体机器人：范围综述",
+"summary": "范围综述梳理AI远程患者监护向智能体化与机器人具身演进，指出成熟智能体照护尚未出现。",
+"key_points": [
+"多数系统仍由人主导，决策-行动闭环多停留在原型",
+"医疗机器人把AI建议转为语音、动作与升级处置",
+"具身性、临床整合、人类监督与治理为设计前提"
+],
+"section": "大模型与智能体",
+"type": "观点",
+"tags": [
+"智能体",
+"临床落地",
+"公平与安全"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "范围综述无新数据，结论为领域尚未成熟，综述档上限内取低",
+"processing": "model-enriched",
+"abstract": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements. Further progress requires safe and interoperable care architectures in which intelligent components operate through clinically validated and accountable workflows. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
+"zh_abstract": "AI赋能的远程患者监测正在超越被动数据收集，向能够解读患者状态、协调照护并在家庭和临床环境中启动行动的代理式AI系统演进。这项结构化范围综述发现，成熟的代理式照护尚未出现：大多数系统仍由人类主导，而更强的决策-行动耦合和具身AI在很大程度上仍局限于原型和试点。医疗保健机器人通过将AI生成的建议和决策转化为语音、运动、提示、身体辅助、升级处置和照护协调，使从监测到行动的转变尤其明显，从而使具身性、临床整合、人类监督和治理成为基本设计要求。进一步进展需要安全且可互操作的照护架构，在其中智能组件通过经临床验证且可问责的工作流程运行。我们提出代理式机器人技术作为未来方向，用于嵌入照护生态系统的受监督系统，通过可审计、可中断且仍受人类监督和明确AI治理约束的工作流程，将AI代理和机器人与临床医生、照护者和患者连接起来。",
 "day": "2026-11-16"
 },
 {
@@ -317,6 +538,146 @@
 "processing": "model-enriched",
 "abstract": "2D-to-3D image registration is a key component for several medical imaging purposes such as intraoperative guidance, enabling the alignment between preoperative 3D volumes and real-time 2D images. While conventional optimisation-based methods often struggle with non-convex objectives, sensitivity to initialisation, and high computational demands, deep learning (DL) has emerged as a promising alternative, offering improved alignment robustness and the potential for real-time performance. This review provides a comprehensive analysis of DL frameworks developed to address the challenges inherent in 2D-to-3D registration. We first outline how core concepts of DL are adapted to the registration problem. We then examine recent methodological advancements from multiple perspectives, including pipeline design, architectural innovations, and domain adaptation strategies. Particular attention is given to quantitative metrics, highlighting how performance is defined and measured across studies. Across the 41 included studies, we find that direct regression is the most common pipeline (23 studies, against 18 iterative ones), that hybrid CNN-attention architectures are gaining ground, and that research remains heavily concentrated on X-ray-to-CT registration. We conclude by identifying the absence of per-case uncertainty estimation and the strong neglect of temporal or sequential modelling as the two methodological gaps most consequential for clinical readiness, and discuss state-space models as a way to add temporal memory within intraoperative latency budgets. Further opportunities lie in more principled domain adaptation and in the integration of foundation models for representation learning.",
 "zh_abstract": "2D到3D图像配准是若干医学成像用途（如术中引导）的关键组成部分，可实现术前3D体数据与实时2D图像之间的对齐。虽然传统的基于优化的方法常常难以应对非凸目标、对初始化敏感以及高计算需求，但深度学习（DL）已成为一种有前景的替代方案，提供更好的对齐稳健性和实时性能潜力。本综述对为应对2D到3D配准固有挑战而开发的DL框架进行了全面分析。我们首先概述DL的核心概念如何适配配准问题。随后，我们从多个视角考察近期方法学进展，包括流程设计、架构创新和域适应策略。特别关注定量指标，强调各研究如何定义和测量性能。在纳入的41项研究中，我们发现直接回归是最常见的流程（23项研究，对比18项迭代方法），混合CNN-注意力架构正在获得更多应用，且研究仍高度集中于X射线到CT配准。我们最后指出，缺乏逐病例不确定性估计以及对时间或序列建模的严重忽视，是对临床就绪度影响最大的两个方法学缺口，并讨论状态空间模型作为一种在术中延迟预算内加入时间记忆的方法。进一步的机会在于更原则化的域适应，以及整合基础模型进行表示学习。",
+"day": "2026-11-16"
+},
+{
+"title": "Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework",
+"link": "https://arxiv.org/abs/2610.24807",
+"date": "2026-10-17T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "arXiv 2610.24807",
+"pop": null,
+"id": "d005bf57a24e",
+"score": 5,
+"zh_title": "医学微调重塑而非降低患者端AI风险：基于评分表的LLM评审框架",
+"tags": [
+"医学大模型",
+"公平与安全",
+"基准"
+],
+"evidence": "预印本",
+"summary": "预印本提出按六类风险语言与严重度评分、由三模型评审团判定的患者端医疗问答评测框架，并比较六个7–9B模型。",
+"abstract": "Patient-facing medical question answering with large language models (LLMs) is moving from research demonstrations to production deployments, yet evaluation remains anchored on factual correctness. Factuality is necessary but not sufficient: a response can be factually grounded and still issue a directive that, if acted on, would harm the patient. We introduce a risk-sensitive evaluation framework that scores responses by the presence and severity of six categories of risk-bearing language (treatment directives, contraindications, dosage expressions, urgency-triage cues, high-alert medication mentions, and overconfident assertions), anchored on published clinical harm taxonomies. Severity is classified by a three-judge LLM ensemble. We apply this framework to six 7-9B instruction-tuned models, three general (Mistral-7B, Phi-3.5-mini, Llama-3.1-8B) and three medically adapted (BioMistral-",
+"key_points": [
+"六类风险语言含治疗指令与剂量等",
+"严重度由三个LLM评审集成判定",
+"评估六个7–9B通用与医学微调模型"
+],
+"processing": "model-enriched",
+"section": "大模型与智能体",
+"day": "2026-11-16",
+"keep": true,
+"type": "论文",
+"reason": "预印本提出风险敏感评测框架并比较六个小模型，证据有限，属值得一看档",
+"zh_abstract": "面向患者的医学问答正随着大型语言模型（LLMs）从研究演示走向生产部署，但其评估仍以事实正确性为核心。事实性必要但不充分：一个回答可以有事实依据，却仍发出若照此行动就会伤害患者的指令。我们引入一个风险敏感评估框架，根据六类承载风险的语言（治疗指令、禁忌证、剂量表述、紧急分诊线索、高危药品提及和过度自信断言）的存在与否及严重程度对回答评分，并以已发表的临床危害分类体系为依据。严重程度由由三名评审组成的 LLM 集成进行分类。我们将该框架应用于六个 7-9B 指令微调模型，其中三个通用模型（Mistral-7B、Phi-3.5-mini、Llama-3.1-8B）和三个医学适配模型（BioMistral-"
+},
+{
+"title": "3D Reconstruction and Generative AI in Undergraduate Urology Clerkship",
+"link": "https://clinicaltrials.gov/study/NCT07936903",
+"date": "2026-11-13T00:00:00+00:00",
+"badge": "NCT07936903",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "ebc4e2891ed7",
+"keep": true,
+"zh_title": "泌尿外科见习中3D重建与生成式AI教学",
+"summary": "南昌大学注册的干预性研究比较肾脏3D重建结合生成式AI对话教学与常规多媒体教学。",
+"key_points": [
+"180名本科医学生参与，2024年9月至2025年1月完成",
+"比较知识测试与临床推理测试前后变化",
+"教学结束后才注册，尚无结果公布"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"生成模型",
+"临床落地"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "单中心教学干预、180人、无结果且事后注册，属增量档",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Nanchang University; conditions: Medical Education, Education; type: INTERVENTIONAL; phase: NA; enrollment: 180; status: COMPLETED] This study examined whether a structured teaching program that combines three-dimensional reconstruction of kidney cases with generative artificial intelligence dialogue helps undergraduate medical students learn during their urology clerkship. One hundred and eighty students took part between September 2024 and January 2025. Students who received the combined program were compared with students who received conventional multimedia teaching. Both groups completed knowledge and clinical reasoning tests before and after teaching, and students in the combined group also completed satisfaction questionnaires. The study was registered after the teaching period had ended.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：南昌大学；疾病/条件：医学教育、教育；类型：干预性（INTERVENTIONAL）；阶段：NA；入组人数：180；状态：已完成（COMPLETED）] 本研究考察了一项结构化教学项目——将肾脏病例的三维重建与生成式人工智能对话相结合——是否有助于本科医学生在泌尿外科见习期间学习。2024年9月至2025年1月期间共有180名学生参与。接受联合项目的学生与接受传统多媒体教学的学生进行比较。两组在教学前后均完成知识和临床推理测试，联合组学生还填写了满意度问卷。该研究在教学期结束后才注册。",
+"day": "2026-11-16"
+},
+{
+"title": "Who Will Regulate The AI Doctors Use? The FDA And The States Disagree",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWkzZWdEZVAwa1pVVXpWNGE3Y25kYmlqY3pRUmNjODFHMnFVSHkwVjhJcF8zc2NxWkc5LVlfS09peVM4YXE5UkE2OWRkMlNJQnpOUy04dEJzMEY3b3FFWkhNdDVVcGc3cTdWMHNHdDNuRVNIZFZNSEdZU1VGRFl0SHlSNWRSbVkwQV9ocXBzOUtJUmw5R2dHN0NVekFYTzR6LUpiZjFta0R6S19KM2lIeDNTbkxRbHJIMEJhWg?oc=5",
+"date": "2026-10-19T10:30:00+00:00",
+"source": "Forbes",
+"source_group": "Google News · FDA AI",
+"home": "https://www.forbes.com",
+"evidence_hint": "",
+"thin_src": true,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "2d5f80b1c5d3",
+"score": 5,
+"zh_title": "谁来监管医生使用的AI？FDA与各州分歧",
+"tags": [
+"监管政策",
+"临床落地"
+],
+"evidence": "新闻",
+"summary": "（仅据标题）报道指出美国FDA与各州在医疗AI监管权限上存在分歧，讨论监管归属问题。",
+"abstract": "",
+"key_points": [
+"FDA与州层面在医疗AI监管上分歧",
+"聚焦医生所用AI工具由谁监管",
+"未提供具体法规条文或时间表"
+],
+"processing": "model-enriched",
+"section": "落地与监管",
+"day": "2026-11-16",
+"keep": true,
+"type": "监管",
+"reason": "监管权限争议类报道，有一定信息量但无实质法规进展，值得一看档"
+},
+{
+"title": "AI-Based Caries and Plaque Detection and Caries Risk Prediction in Children",
+"link": "https://clinicaltrials.gov/study/NCT07929753",
+"date": "2026-11-10T00:00:00+00:00",
+"badge": "NCT07929753",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "646bec987f3d",
+"keep": true,
+"zh_title": "儿童龋齿与牙菌斑AI检测及风险预测试验",
+"summary": "（据注册信息）土耳其马尔马拉大学注册观察性研究，拟用口内照片与三维扫描构建儿童龋齿、牙菌斑检测及风险预测AI系统。",
+"key_points": [
+"观察性设计，计划入组250名4–13岁儿童",
+"以口内照片和三维数字扫描为AI输入",
+"尚未开始招募，暂无任何结果"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"临床预测"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "单中心小样本观察性研究注册，尚无结果与验证，属增量档",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Marmara University; conditions: Dental Caries, Caries Risk, Dental Plaque; type: OBSERVATIONAL; enrollment: 250; status: NOT_YET_RECRUITING] This study aims to develop and evaluate an artificial intelligence (AI)-based system that can detect dental caries and dental plaque in children using intraoral digital scans and photographs, and use these findings to estimate each child's risk of developing dental caries. Children aged 4-13 years who attend Marmara University Faculty of Dentistry, Department of Pediatric Dentistry for routine dental care will be invited to participate. Participants will receive a clinical dental examination. Dental caries will be evaluated using standard clinical criteria, and dental plaque will be assessed using a plaque index. Intraoral photographs and three-dimensional digital scans of the teeth will also be obtained. Parents will complete a questionnaire about their child's toothbrushing habits, sugar consumption, fluoride use, dental visits, and selected sociodemographic factors. The collected digital images and scans will be used to train and test an AI model designed to automatically identify and measure areas of dental caries and plaque. The AI findings will then be combined with clinical examination results and oral health-related information to classify children as having low, moderate, or high caries risk. Based on the assigned caries risk level, individualized preventive recommendations such as oral hygiene instruction, dietary counseling, fluoride applications, professional plaque control, and follow-up visits will be provided. Participants will be followed according to their risk level and digital scans and clinical assessments will be repeated to evaluate changes in caries, plaque, and caries risk over time. The study is expected to provide information on whether AI-assisted digital imaging can support more objective, standardized and personalized caries risk assessment and preventive dental care in children.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办方：Marmara University；疾病/状况：龋齿、龋齿风险、牙菌斑；类型：观察性研究；入组人数：250；状态：尚未招募] 本研究旨在开发并评估一种基于人工智能（AI）的系统，该系统可利用口内数字扫描和照片检测儿童龋齿和牙菌斑，并利用这些发现估计每名儿童发生龋齿的风险。将邀请在Marmara University牙学院儿童牙科系接受常规牙科诊疗的4-13岁儿童参与。参与者将接受临床牙科检查。龋齿将使用标准临床标准进行评估，牙菌斑将使用菌斑指数进行评估。还将获取口内照片和牙齿三维数字扫描。家长将填写一份关于其子女刷牙习惯、糖摄入、氟化物使用、牙科就诊以及选定社会人口学因素的问卷。所收集的数字图像和扫描将用于训练和测试一个AI模型，该模型旨在自动识别和测量龋齿和牙菌斑区域。随后，AI发现将与临床检查结果和口腔健康相关信息相结合，将儿童分类为低、中或高龋齿风险。根据所分配的龋齿风险水平，将提供个体化预防建议，如口腔卫生指导、饮食咨询、氟化物应用、专业菌斑控制和随访就诊。参与者将根据其风险水平接受随访，并将重复数字扫描和临床评估，以评价龋齿、牙菌斑和龋齿风险随时间的变化。该研究预期将提供信息，说明AI辅助数字成像是否能够支持儿童更客观、标准化和个体化的龋齿风险评估及预防性牙科照护。",
 "day": "2026-11-16"
 },
 {
