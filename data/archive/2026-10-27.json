@@ -295,7 +295,13 @@
 "processing": "model-enriched",
 "abstract": "[Personalized medicine] We evaluated the transformative impact of AI modalities on clinical practice, distinguishing between retrospective algorithmic performance and prospective clinical effectiveness. Comprehensive searches were executed [databases searched: January 2016 to October 2024] across PubMed/Medline, Scopus, and Web of Science, identifying peer-reviewed original research and clinical trials. Non-peer-reviewed materials and commercial web sources were strictly excluded. AI technologies-particularly deep learning (DL), natural language processing (NLP), and foundation models-demonstrate high diagnostic accuracy in retrospective cohorts across radiology, dermatology, and pathology. In precision therapeutics, AI accelerates drug discovery and facilitates multi-omics integration for individualized treatment planning. Furthermore, autonomous AI systems have proven cost-effective in nationwide diabetic retinopathy screening programs. However, significant gaps remain between in-silico success and real-world clinical utility. Primary barriers include the lack of prospective randomized trials, pervasive risks of algorithmic bias threatening health equity, the \"black box\" nature of deep neural networks, and stringent interoperability challenges. AI serves as a potent computational catalyst for advancing personalized medicine. To transition from retrospective experimental success to standard-of-care clinical integration, future research endeavors must prioritize Explainable AI (XAI), federated learning frameworks for privacy preservation, and rigorous prospective clinical validation under standardized regulatory oversight.",
 "zh_abstract": "【个性化医疗】我们评估了人工智能模式对临床实践的变革性影响，并区分回顾性算法性能与前瞻性临床有效性。我们在PubMed/Medline、Scopus和Web of Science中执行了全面检索［检索数据库时间范围：2016年1月至2024年10月］，识别经同行评审的原创研究和临床试验。严格排除未经同行评审的材料和商业网络来源。人工智能技术——尤其是深度学习（deep learning, DL）、自然语言处理（natural language processing, NLP）和基础模型（foundation models）——在放射学、皮肤病学和病理学的回顾性队列中显示出高诊断准确性。在精准治疗中，人工智能加速药物发现，并促进多组学整合以用于个体化治疗规划。此外，自主人工智能系统已在全国性糖尿病视网膜病变筛查项目中证明具有成本效益。然而，计算机模拟（in-silico）成功与现实世界临床效用之间仍存在显著差距。主要障碍包括缺乏前瞻性随机试验、普遍存在的算法偏倚风险威胁健康公平、深度神经网络的“黑箱”性质，以及严峻的互操作性挑战。人工智能是推进个性化医疗的有力计算催化剂。为从回顾性实验成功过渡到临床标准诊疗整合，未来研究必须优先关注可解释人工智能（Explainable AI, XAI）、用于隐私保护的联邦学习框架，以及在标准化监管监督下进行严格的前瞻性临床验证。",
-"day": "2026-10-27"
+"day": "2026-10-27",
+"also": [
+{
+"source": "PubMed · Frontiers in oncology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43041688/"
+}
+]
 },
 {
 "title": "ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents",
