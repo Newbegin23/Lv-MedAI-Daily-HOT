@@ -107,7 +107,8 @@
 "day": "2026-11-17",
 "abstract_days": [
 "2026-11-17",
-"2026-11-18"
+"2026-11-18",
+"2026-11-19"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -285,7 +286,13 @@
 "processing": "model-enriched",
 "abstract": "[Methodist DeBakey cardiovascular journal] Coronary artery disease (CAD) remains the leading cause of death worldwide, yet the landscape is rapidly evolving as artificial intelligence (AI) is increasingly applied to its detection, diagnosis, and management. This review surveys the expanding role of AI across the full spectrum of CAD care. In screening, deep-learning electrocardiography and electronic health record-based digital markers enable earlier identification of clinically significant disease. In noninvasive imaging, AI-driven coronary computed tomography angiography automates calcium scoring, derives fractional flow reserve without invasive wires, and quantifies high-risk plaque features that predict incident adverse events. Within the cardiac catheterization laboratory, angiography-derived physiologic assessment and AI-guided intravascular imaging segmentation support real-time procedural decision-making. Beyond diagnosis, machine-learning models integrating multimodality imaging data improve risk stratification over conventional clinical scores, while pharmacogenomic algorithms and wearable-based digital rehabilitation platforms enable patient-centric secondary prevention. Despite this progress, significant challenges persist, including limited evidence from randomized trials, algorithmic bias in underrepresented populations, regulatory uncertainty surrounding software-as-a-medical-device frameworks, and the risk of clinician de-skilling. AI has the potential to act as a collaborative tool that augments-rather than replaces-physician judgment. Future directions include foundation models, multiomics integration, agentic AI workflows, and equity-centered deployment strategies to ensure that AI-driven advances benefit all individuals with CAD.",
 "zh_abstract": "[Methodist DeBakey 心血管杂志] 冠状动脉疾病（CAD）仍是全球首要死因，但随着人工智能（AI）越来越多地应用于其检测、诊断和管理，这一格局正在迅速演变。本综述概述了 AI 在 CAD 诊疗全谱系中日益扩大的作用。在筛查方面，深度学习心电图和基于电子健康记录的数字标志物能够更早识别具有临床意义的疾病。在无创影像方面，AI 驱动的冠状动脉计算机断层扫描血管造影可自动进行钙化评分、无需侵入性导丝即可推导血流储备分数，并量化可预测新发不良事件的高危斑块特征。在心导管实验室中，血管造影衍生的生理学评估和 AI 引导的血管内影像分割支持实时术中决策。除诊断外，整合多模态影像数据的机器学习模型较传统临床评分改善风险分层，而药物基因组学算法和基于可穿戴设备的数字康复平台使以患者为中心的二级预防成为可能。尽管取得这些进展，重大挑战仍然存在，包括随机试验证据有限、代表性不足人群中的算法偏倚、围绕软件即医疗器械框架的监管不确定性，以及临床医生技能退化的风险。AI 有潜力作为一种协作工具，增强而非取代医生的判断。未来方向包括基础模型、多组学整合、智能体式 AI 工作流以及以公平为中心的部署策略，以确保 AI 驱动的进展惠及所有 CAD 个体。",
-"day": "2026-11-17"
+"day": "2026-11-17",
+"also": [
+{
+"source": "PubMed · Heart failure clinics",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43039579/"
+}
+]
 },
 {
 "title": "Artificial Intelligence-enabled Management of Atrial Fibrillation(ABLE-AF Trial)",
