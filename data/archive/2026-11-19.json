@@ -141,7 +141,13 @@
 "processing": "model-enriched",
 "abstract": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedical tabular datasets spanning electronic health records, drug discovery, genomics, transcriptomics, proteomics, metabolomics, single-cell omics, and systems biology. TabBioMed unifies these datasets through a standardized, dataset-aware preprocessing and evaluation framework, enabling reproducible comparison across classification, regression, and multi-target tasks. We benchmark 23 models across classical baselines, gradient-boosted trees, neural tabular architectures, and tabular foundation models. Foundation models deliver the strongest family-level predictive performance. However, their gains are regime-dependent: tree-based models and tuned multilayer perceptrons remain highly competitive, often dominating under inference-time or training-cost constraints. Overall, TabBioMed shows that biomedical tabular learning is strongly context-dependent, with optimal model choice depending on data regime, task type, and computational budget. We release TabBioMed with curated datasets and splits, preprocessing code, baselines, and results, providing a reproducible benchmark for practical model selection and future methods development in biomedical machine learning, available at https://github.com/AI-sandbox/TabBioMed.",
 "zh_abstract": "机器学习的最新进展加速了生物医学预测，但在结构化生物医学数据上的评估仍然碎片化，尤其是对于具有高维、大样本量、缺失和类别不平衡的数据集。我们推出TabBioMed，一个大规模基准，包含94个经过整理的公开生物医学表格数据集，涵盖电子健康记录、药物发现、基因组学、转录组学、蛋白质组学、代谢组学、单细胞组学和系统生物学。TabBioMed通过标准化、感知数据集的预处理和评估框架统一这些数据集，从而能够在分类、回归和多目标任务之间进行可复现比较。我们对23个模型进行了基准测试，涵盖经典基线、梯度提升树、神经表格架构和表格基础模型。基础模型在家族层面提供了最强的预测性能。然而，它们的增益依赖于数据情形（regime）：基于树的模型和调优的多层感知机仍极具竞争力，在推理时间或训练成本约束下常常占优。总体而言，TabBioMed表明生物医学表格学习强烈依赖情境，最佳模型选择取决于数据情形、任务类型和计算预算。我们发布TabBioMed，包含整理后的数据集和划分、预处理代码、基线和结果，为生物医学机器学习中的实际模型选择和未来方法开发提供可复现的基准，网址为 https://github.com/AI-sandbox/TabBioMed。",
-"day": "2026-11-19"
+"day": "2026-11-19",
+"also": [
+{
+"source": "Hugging Face Daily Papers",
+"link": "https://huggingface.co/papers/2611.23779"
+}
+]
 },
 {
 "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
@@ -196,6 +202,10 @@
 {
 "source": "Respiratory Therapy",
 "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXRoamo1bnR5cUhiNnMwaEx0YldaWFVUelpUNlVxUW9ZbWs2TU1pTm0tWTlFV2k4N1VtRXhWaXdzdlZnaTFMUFozTzcxQ2FpcDRza3dRY1Fqc1k5Z0lYWFJMZTZ5MVdyZ2h1S01UWkZZLWRORnVnc0dQQ1ZTZjdGREJQSl8tRFRYY3hKbXFSWjZ6QVB3a2NMNjBqUjFqdTUzN2Nad0tEUFU0VjVJdzhYQXBfWVVsUXhoTG9mcGNVa09oZGpsWUdhT1Nn?oc=5"
+},
+{
+"source": "Zenopa",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXVjWHVTaEpmRFgyaWxhajFRdXI2Y1E5dFhlMExaNThCT0xNNGN5Nkg4LVZMNXc3X0ZwOExYUkJfY0h6MXpnakxQMkFkY0V0U2p0Wk53eHdfYUtXbi1qR3RtVW9LTUd3dnAtQWFWRzdDSHdwVGtDRlNPVklnc3pNUUdxeTB1bWltNjJIb1hQaHE?oc=5"
 }
 ],
 "keep": true,
@@ -282,7 +292,13 @@
 "score": 4,
 "reason": "厂商公开表态类新闻，无实质数据或监管进展，属增量档",
 "processing": "model-enriched",
-"day": "2026-11-19"
+"day": "2026-11-19",
+"also": [
+{
+"source": "STAT News",
+"link": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss"
+}
+]
 },
 {
 "title": "Multimodal Deep Learning Based on Chest CT and Clinical Features for Predicting the Risk of Postoperative Pulmonary Complications: A Decision Curve Analysis",
@@ -383,9 +399,10 @@
 "processing": "model-enriched",
 "day": "2026-11-19",
 "abstract_days": [
-"2026-11-19"
+"2026-11-19",
+"2026-11-20"
 ],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: HTTP Error 503: Service Temporarily Unavailable; openalex: empty"
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
 {
 "title": "Machine Learning Approaches to Biologic Therapy Response in Inflammatory Bowel Disease: A Review Article.",
