@@ -35,6 +35,80 @@
 "day": "2026-11-22"
 },
 {
+"title": "Effect of Previsit AI-Generated Document Summaries on Consultation Time and Patient–Physician Communication — The AI-INFOCARE Randomized Controlled Trial",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600136?af=R&rss=currentIssue",
+"date": "2026-10-15T05:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AIoa2600136",
+"pop": null,
+"id": "2ed16e198634",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "诊前AI生成通俗摘要对问诊时长与医患沟通的影响：AI-INFOCARE随机对照试验",
+"summary": "单中心随机对照试验纳入300例神经外科门诊患者，评估诊前经人工质控的AI通俗版病情摘要对医患互动质量与问诊时长的影响。",
+"key_points": [
+"单中心门诊RCT，300名成人1:1随机分组",
+"干预为经质量核查的AI生成通俗版病情摘要",
+"主要终点为患者报告医患互动质量FAPI"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床落地",
+"临床NLP"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "前瞻性RCT并报告沟通与问诊时长结局，属重要档；单中心300例限制上限",
+"processing": "model-enriched",
+"day": "2026-11-22",
+"abstract": "Background Limited health literacy, clinical jargon, and time-constrained consultations often impair patients' understanding of medical findings. We evaluated whether AI-generated, quality-checked lay language summaries provided before consultations improve communication-related outcomes. Methods In this single-center, randomized trial in an outpatient neurosurgical setting, 300 adults were randomly assigned 1:1 to standard care with or without a quality-checked, AI-generated layperson summary of their medical findings (Simply Onno) before consultation. The primary end point was patient-reported quality of physician-patient interaction (Fragebogen zur Arzt-Patient-Interaktion [FAPI]). Secondary end points included autonomy support (Health Care Climate Questionnaire [HCCQ]), encounter difficulty (Difficult Doctor-Patient Relationship Questionnaire [DDPRQ-10]), and consultation duration (minutes). Results The mean FAPI score was higher in the intervention group (4.42±0.51 vs. 4.25±0.54; difference, 0.17; 95% confidence interval [CI], 0.05 to 0.29; P=0.005; Hedges' g=0.33), driven by shared decision-making (difference, 0.29; 95% CI, 0.15 to 0.42), with no evidence of a difference in perceived empathy. Patient-rated autonomy support was higher (difference, 0.14; 95% CI, 0.06 to 0.23), whereas physicians rated their own autonomy support slightly lower (difference, -0.12; cluster-robust 95% CI, -0.21 to -0.04). Median consultation time was 25 versus 33 minutes in the intervention group versus the control group, respectively, an approximate 21% relative reduction (ratio of geometric means, 0.79; 95% CI, 0.70 to 0.88). For encounter difficulty (DDPRQ-10), we found potential evidence of a small increase (difference, 0.09; cluster-robust 95% CI, -0.03 to 0.21). Secondary end point confidence intervals were unadjusted for multiplicity. Conclusions AI-generated summaries provided before outpatient neurosurgical consultations were associated with better patient-reported interaction quality and autonomy support and shorter consultations. Physicians rated their own autonomy support as slightly lower in the intervention group; evidence for increased encounter difficulty was limited, with confidence intervals compatible with no difference. These findings support further evaluation of quality-checked, patient-facing document translation; effects on clinical outcomes and clinician workload require confirmation before routine adoption.",
+"zh_abstract": "【背景】有限的健康素养、临床术语以及时间受限的诊疗常常损害患者对医学发现的理解。我们评估了在诊疗前提供由AI生成并经质量核查的通俗语言摘要是否能改善与沟通相关的结果。【方法】在这项在门诊神经外科环境中开展的单中心随机试验中，300名成人按1:1随机分配至接受标准诊疗，加或不加在诊疗前提供其医学发现的由AI生成并经质量核查的通俗语言摘要（Simply Onno）。主要终点为患者报告的医患互动质量（Fragebogen zur Arzt-Patient-Interaktion [FAPI]）。次要终点包括自主性支持（Health Care Climate Questionnaire [HCCQ]）、就诊困难程度（Difficult Doctor-Patient Relationship Questionnaire [DDPRQ-10]）以及诊疗时长（分钟）。【结果】干预组平均FAPI评分更高（4.42±0.51 vs. 4.25±0.54；差值0.17；95%置信区间[CI] 0.05至0.29；P=0.005；Hedges' g=0.33），这一差异由共同决策驱动（差值0.29；95% CI 0.15至0.42），而在感知共情方面无差异证据。患者评定的自主性支持更高（差值0.14；95% CI 0.06至0.23），而医生对自身提供的自主性支持评分略低（差值-0.12；聚类稳健95% CI -0.21至-0.04）。干预组与对照组的中位诊疗时长分别为25分钟与33分钟，相对降低约21%（几何均数比0.79；95% CI 0.70至0.88）。对于就诊困难程度（DDPRQ-10），我们发现可能存在小幅增加的证据（差值0.09；聚类稳健95% CI -0.03至0.21）。次要终点的置信区间未针对多重性进行调整。【结论】在门诊神经外科诊疗前提供AI生成摘要与患者报告的互动质量和自主性支持更好以及诊疗时间更短相关。干预组中医生对自身提供的自主性支持评分略低；就诊困难程度增加的证据有限，其置信区间与无差异相容。这些发现支持进一步评估经质量核查、面向患者的文档翻译；在常规采用之前，其对临床结局和临床医生工作量的影响仍需确认。"
+},
+{
+"title": "Artificial Intelligence–Enhanced Auscultation to Identify Left Ventricular Dysfunction — Development and External Validation in Prospective Multicenter Studies",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue",
+"date": "2026-10-15T05:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1056/AIoa2600258",
+"pop": null,
+"id": "f7c5f26a4ecc",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "AI增强听诊识别左心室功能不全：前瞻性多中心开发与外部验证",
+"summary": "前瞻性多中心研究开发并外部验证结合数字听诊与单导联心电的AI集成模型，用于识别左室射血分数≤40%的左心室功能不全。",
+"key_points": [
+"四个标准听诊部位采集心音并同步单导联心电",
+"以超声LVEF≤40%定义左心室功能不全",
+"transformer与一维CNN集成模型，行外部验证"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"生理信号",
+"临床预测",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "前瞻性多中心设计并有外部验证，属重要档；样本量未在条目中说明",
+"processing": "model-enriched",
+"day": "2026-11-22",
+"abstract": "Background Left ventricular dysfunction (LVD) is common and associated with adverse prognosis, even in asymptomatic individuals. Early treatment improves outcomes, underscoring the need for efficient strategies to identify patients who may benefit from echocardiographic evaluation. This study aimed to develop and externally validate an AI auscultation method to detect LVD among patients referred for clinically indicated echocardiography. Methods In this prospective, multicenter study, adult patients referred for echocardiography were enrolled to undergo digital auscultation at four standard auscultation sites with simultaneous single-lead ECGs. LVD was defined as a left ventricular ejection fraction (LVEF) less than or equal to 40% on concurrent echocardiography. An ensemble model combining a transformer-based network and a one-dimensional convolutional neural network was trained on multicenter data and externally validated. The model's performance was compared with a seven-cardiologist reader substudy and clinical logistic regression models incorporating clinical variables, single-lead ECG-derived features, and B-type natriuretic peptide levels. Results The multicenter training cohort included 2359 patients (mean age, 69.7±13.5 years; 40.4% female; 8.9% with reduced LVEF). The external validation cohort of 964 patients (mean age, 68.6±15.4 years; 38.9% female; 7.6% with reduced LVEF) was obtained from another independent multicenter registry. The four-site AI auscultation outperformed ECG-only models and the clinical logistic models, achieving an area under the receiver operator curve (AUROC) of 0.926 (95% confidence interval [CI], 0.911 to 0.939) in the training cohort. In the external validation cohort, AUROC was 0.904 (95% CI, 0.876 to 0.930) and sensitivity, specificity, and accuracy were 86.3%, 74.2%, and 75.1%, respectively. In a 100-patient reader substudy, AI auscultation outperformed cardiologist consensus in accuracy (82.0% vs. 62.0%; P=0.004). Model performance was consistent across prespecified subgroups. The simplified two-site auscultation model retained high accuracy in the external validation cohort (AUROC, 0.903; 95% CI, 0.878 to 0.927). Conclusions AI auscultation accurately detected LVD among patients referred for clinically indicated echocardiography, supporting its potential as a scalable and accessible pre-echocardiographic risk-enrichment tool. Further validation is warranted before broader screening applications. (Funded by AMI Inc",
+"zh_abstract": "【背景】左心室功能障碍（LVD）常见，并且与不良预后相关，即使在无症状个体中也是如此。早期治疗可改善结局，这凸显了需要高效策略来识别可能从超声心动图评估中获益的患者。本研究旨在开发并外部验证一种AI听诊方法，用于在因临床指征转诊接受超声心动图检查的患者中检测LVD。【方法】在这项前瞻性、多中心研究中，因超声心动图检查转诊的成人患者被纳入，在四个标准听诊部位接受数字听诊，并同步记录单导联心电图。LVD定义为同期超声心动图显示左心室射血分数（LVEF）小于或等于40%。一个结合基于transformer的网络和一维卷积神经网络的集成模型在多中心数据上训练并进行外部验证。该模型的性能与一项由七名心脏科医生判读的子研究以及纳入临床变量、单导联心电图衍生特征和B型利钠肽水平的临床逻辑回归模型进行比较。【结果】多中心训练队列包括2359例患者（平均年龄69.7±13.5岁；女性40.4%；8.9%伴LVEF降低）。964例患者的外部验证队列（平均年龄68.6±15.4岁；女性38.9%；7.6%伴LVEF降低）来自另一个独立的多中心注册登记。四部位AI听诊优于仅使用心电图的模型和临床逻辑回归模型，在训练队列中达到受试者工作特征曲线下面积（AUROC）0.926（95%置信区间[CI] 0.911至0.939）。在外部验证队列中，AUROC为0.904（95% CI 0.876至0.930），敏感性、特异性和准确度分别为86.3%、74.2%和75.1%。在一项100例患者的判读者子研究中，AI听诊在准确度上优于心脏科医生共识判读（82.0% vs. 62.0%；P=0.004）。模型性能在预设亚组中保持一致。简化的两部位听诊模型在外部验证队列中保持高准确度（AUROC 0.903；95% CI 0.878至0.927）。【结论】AI听诊能够准确检测因临床指征转诊接受超声心动图检查患者中的LVD，支持其作为可扩展且可及的超声心动图前风险富集工具的潜力。在更广泛筛查应用之前仍需进一步验证。（由 AMI Inc 资助"
+},
+{
 "title": "FDA-Authorized AI/ML Tool for Sepsis Prediction: Development and Validation",
 "link": "https://ai.nejm.org/doi/full/10.1056/AIx2601439?af=R&rss=currentIssue",
 "date": "2026-11-19T06:00:00+00:00",
@@ -103,6 +177,80 @@
 "abstract": "AI-powered cardiac screening could evolve sports medicine by boosting accuracy, efficiency, and cost-effectiveness, with automated ECG interpretation based on foundation models becoming key for large-scale athlete screening. Before deployment, it is crucial to verify whether these clinically developed models are applicable to this population. We evaluated whether ECG foundation models trained on general clinical populations can diagnose athlete-specific ECG findings. We fine-tuned three models (ECG-FM, HuBERT-ECG, ECGFounder) on PhysioNet/CinC 2021, 87,662 samples, and tested them on 43 expert-annotated ECGs from highly trained/national-level athletes. Performance was strong on PhysioNet/CinC 2021 (AUROC 0.97, AUPRC 0.57, Sensitivity 0.89) but dropped on athletes’ data, confirming domain shift. ECGFounder performed best (AUROC 0.84, AUPRC 0.72, Sensitivity 0.57) and detected the most frequent findings, Sinus Bradycardia (AUROC 0.87) and Sinus Arrhythmia (AUROC 0.95), well. Per-label estimates for rare classes must be interpreted cautiously, given the small cohort. This work contributes to developing athlete-focused AI frameworks for reliable ECG-based screening.",
 "zh_abstract": "人工智能驱动的心脏筛查可能通过提高准确性、效率和成本效益来推动运动医学发展，而基于基础模型的自动化心电图解读正成为大规模运动员筛查的关键。部署前，必须验证这些临床开发的模型是否适用于该人群。我们评估了在一般临床人群上训练的心电图基础模型能否诊断运动员特有的心电图发现。我们在 PhysioNet/CinC 2021（87,662 个样本）上微调了三个模型（ECG-FM、HuBERT-ECG、ECGFounder），并在来自高度训练/国家级运动员的 43 份经专家标注的心电图上测试它们。在 PhysioNet/CinC 2021 上表现强劲（AUROC 0.97、AUPRC 0.57、敏感性 0.89），但在运动员数据上下降，证实了域偏移。ECGFounder 表现最佳（AUROC 0.84、AUPRC 0.72、敏感性 0.57），并良好检测出最常见发现：窦性心动过缓（Sinus Bradycardia）（AUROC 0.87）和窦性心律不齐（Sinus Arrhythmia）（AUROC 0.95）。鉴于队列较小，对罕见类别的逐标签估计必须谨慎解读。这项工作有助于开发以运动员为中心的人工智能框架，用于可靠的心电图筛查。",
 "day": "2026-11-22"
+},
+{
+"title": "Multimodal digital biomarker for asthma: complementary roles of vocal, clinical and demographic factors",
+"link": "https://www.nature.com/articles/s41746-026-03465-w",
+"date": "2026-11-22T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03465-w",
+"pop": null,
+"id": "b72eda7ef86c",
+"keep": true,
+"zh_title": "哮喘多模态数字标志物：语音、临床与人口学因素的互补作用",
+"summary": "基于1218人队列的专家混合框架，融合持续元音与朗读语音嵌入及临床人口学数据识别哮喘，AUROC 0.83。",
+"key_points": [
+"专家混合框架自适应融合语音与结构化临床数据",
+"Colive Voice队列1218例自报哮喘与对照匹配",
+"AUROC 0.83、Brier 0.18，优于单模态",
+"门控分析显示哮喘病例更依赖呼吸相关特征"
+],
+"section": "临床预测与决策",
+"type": "模型",
+"tags": [
+"生理信号",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "自报标签单队列、无外部验证，指标提升有限，属增量档",
+"processing": "model-enriched",
+"abstract": "Asthma affects over 260 million people worldwide, yet diagnosis remains dependent on spirometry and specialist assessment, limiting accessibility in primary care and low-resource settings. Vocal biomarkers offer a promising non-invasive alternative, but prior studies have largely focused on acoustic features without integrating clinical context. We present a multimodal Mixture-of-Experts framework for asthma identification that adaptively combines acoustic embeddings from sustained vowel phonation and reading passage tasks with structured clinical and demographic data. The model was evaluated on a matched cohort of 1218 self-reported asthma cases and healthy controls from the Colive Voice study. The multimodal model achieved an AUROC of 0.83 and Brier score of 0.18, outperforming unimodal approaches. Exploratory analysis of the gating mechanism in asthma cases showed that greater respiratory symptom burden was associated with increased weighting of reading-passage modality and reduced weighting of sustained-vowel phonation modality. These findings support the feasibility of voice-based identification of self-reported asthma; however, independent prospective validation remains necessary before clinical use.",
+"zh_abstract": "哮喘影响全球超过 2.6 亿人，但诊断仍依赖肺量计检查和专科评估，限制了其在初级保健和低资源环境中的可及性。声音生物标志物提供了一种有前景的非侵入性替代方案，但既往研究主要集中于声学特征，未整合临床背景。我们提出一个用于哮喘识别的多模态专家混合（Mixture-of-Experts）框架，该框架自适应地结合持续元音发声和朗读段落任务的声学嵌入与结构化临床和人口学数据。模型在来自 Colive Voice 研究的 1218 例自报哮喘病例和健康对照的匹配队列上进行了评估。多模态模型达到 AUROC 0.83 和 Brier 评分 0.18，优于单模态方法。对哮喘病例中门控机制的探索性分析显示，更大的呼吸症状负担与朗读段落模态权重增加及持续元音发声模态权重降低相关。这些发现支持基于声音识别自报哮喘的可行性；然而，在临床使用前仍需要独立的前瞻性验证。",
+"day": "2026-11-22"
+},
+{
+"title": "Hierarchical visual prompt disentanglement for continual rare disease diagnosis",
+"link": "https://www.sciencedirect.com/science/article/pii/S136184152600424X?dgcid=rss_sd_all",
+"date": "2026-11-22T11:45:50.241076+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"evidence_hint": "同行评审",
+"thin_src": false,
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "8839a219052c",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "面向持续罕见病诊断的层次化视觉提示解耦",
+"summary": "仅有题录信息：提出层次化视觉提示解耦方法，用于罕见病的持续学习诊断，发表于Medical Image Analysis。",
+"key_points": [
+"面向罕见病持续诊断场景",
+"提出层次化视觉提示解耦方法",
+"刊于Medical Image Analysis 2027年2月号",
+"无摘要，方法细节与验证规模未提供"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "仅题录无摘要与验证信息，方法类工作按增量档评估",
+"processing": "model-enriched",
+"day": "2026-11-22",
+"abstract_days": [
+"2026-11-22"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
 "title": "Ordinal conformal partial-label prediction for medical image grading",
@@ -180,6 +328,41 @@
 "day": "2026-11-22"
 },
 {
+"title": "A Blockchain-Enabled Federated Ensemble Framework for Privacy-Preserving Mortality Prediction Across Heterogeneous Healthcare Systems",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368466v1?rss=1",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"evidence_hint": "预印本",
+"thin_src": false,
+"thin": false,
+"badge": "DOI 10.64898/2026.11.19.26368466",
+"pop": null,
+"id": "8e7af5c6d304",
+"keep": true,
+"zh_title": "区块链联邦集成框架用于跨机构隐私保护死亡预测",
+"summary": "预印本模拟研究：智能合约经同行医院验证后方可纳入本地模型，以抵御投毒或替换模型。",
+"key_points": [
+"四家模拟医院基于XGBoost与随机森林的联邦集成",
+"合约要求同行验证AUROC中位数≥0.70方可准入",
+"采用加权logit平均或堆叠并做联邦重校准"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"隐私与联邦学习",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "方法有新意，但为单中心数据模拟的回顾性研究，无真实外部验证，属值得一看档",
+"processing": "model-enriched",
+"abstract": "Objective: To test whether a smart contract that admits hospital-trained models to a shared mortality model only after peer hospitals verify their performance can exclude poisoned or substituted models, and at what cost. Design: Retrospective simulation study of a federated learning protocol. Methodology: In the Blockchain-Enabled Federated Ensemble (BFE), hospitals committed SHA-256 digests of locally trained XGBoost and random-forest models to a Solidity contract; peers posted digest-bound validation AUROCs, and the contract admitted models with a median peer AUROC of at least 0.70. Admitted models were pooled by weighted logit averaging (BFE-PW) or stacking (BFE-Stack) with federated recalibration. Code and drafts were produced with an AI coding assistant under the authors' supervision. Setting: Four hospitals simulated from one academic centre with age, renal case-mix and laboratory-availability skew; a data-scarce regime keeping 5-20% of each hospital's patients; and a natural partition by care era. Participants: 425,215 adult admissions (186,103 patients; 2.35% in-hospital mortality) in MIMIC-IV v3.1, with predictors from the first 24 hours. Interventions: BFE against centralised, local-only, FedAvg, FedProx, median and Multi-Krum FedAvg and federated logistic regression, under seven attacks on training, attestation, recalibration and model delivery. Main outcome measures: AUROC and AUPRC (joint patient-clustered bootstrap), calibration, attack effects, gas and transactions. Results: Under gross label flipping, FedAvg lost 29% of its AUPRC while the contract excluded the poisoned models in every seed (Multi-Krum FedAvg was equally protected); all substituted models were detected, and collusion blocked release. A targeted flip of female deaths passed the gate and lowered sensitivity for deaths in women from 32.8% to 27.5%; poisoned recalibration inverted BFE-PW (AUROC 0.098) unless a median-of-sites recalibration was used (0.902). With large hospitals, BFE-PW matched FedAvg in AUROC (0.902) and BFE-Stack matched FedProx (0.907 and 0.906), below local-only (0.910) and centralised XGBoost (0.915), with lower AUPRC; with 5% of the data, BFE-PW exceeded local models (0.866 against 0.844). Pooled calibration hid two-fold under-prediction at one hospital (observed-to-expected ratio 2.13), which a local intercept corrected (0.93). One aggregation used 37 transactions and 3.3 million gas, rising roughly quadratically with consortium size. Conclusions: Contrac",
+"zh_abstract": "目的：检验一种智能合约能否在同行医院验证医院训练模型的表现后才允许其进入共享死亡率模型，从而排除被投毒或被替换的模型，以及其代价为何。设计：对一种联邦学习方案的回顾性模拟研究。方法：在区块链赋能的联邦集成（Blockchain-Enabled Federated Ensemble, BFE）中，医院将本地训练的 XGBoost 和随机森林模型的 SHA-256 摘要提交至 Solidity 合约；同行发布与摘要绑定的验证 AUROC，合约允许同行 AUROC 中位数至少为 0.70 的模型进入。获准模型通过加权 logit 平均（BFE-PW）或堆叠（BFE-Stack）并结合联邦重校准进行汇总。代码和草稿在作者监督下由 AI 编码助手生成。场景：四家医院从同一学术中心模拟，存在年龄、肾脏病例组合和实验室可用性偏倚；一个数据稀缺机制保留每家医院 5-20% 的患者；以及按诊疗时代进行自然划分。参与者：MIMIC-IV v3.1 中 425,215 例成人入院（186,103 名患者；院内死亡率 2.35%），预测变量来自前 24 小时。干预：将 BFE 与集中式、仅本地、FedAvg、FedProx、中位数 FedAvg 和 Multi-Krum FedAvg 以及联邦逻辑回归进行比较，涵盖针对训练、证明、重校准和模型交付的七种攻击。主要结局指标：AUROC 和 AUPRC（联合患者聚类 bootstrap）、校准、攻击效应、gas 和交易数。结果：在严重标签翻转下，FedAvg 损失了其 AUPRC 的 29%，而合约在每个随机种子中均排除了被投毒模型（Multi-Krum FedAvg 受到同等保护）；所有被替换模型均被检测到，合谋阻止了发布。针对女性死亡的定向翻转通过了门控，并将女性死亡的敏感性从 32.8% 降至 27.5%；被投毒的重校准使 BFE-PW 反转（AUROC 0.098），除非使用站点中位数重校准（0.902）。在医院数据量较大时，BFE-PW 的 AUROC 与 FedAvg 相当（0.902），BFE-Stack 与 FedProx 相当（0.907 和 0.906），但低于仅本地模型（0.910）和集中式 XGBoost（0.915），且 AUPRC 更低；在仅使用 5% 数据时，BFE-PW 超过本地模型（0.866 对 0.844）。汇总校准掩盖了一家医院两倍的预测不足（观察值与期望值之比 2.13），局部截距校正后为 0.93。一次聚合使用了 37 笔交易和 330 万 gas，并随联盟规模大致呈二次增长。结论：Contrac",
+"day": "2026-11-22"
+},
+{
 "title": "Uncertainty-Aware Multimodal Deep Learning for Prediction of Radiation-Induced Xerostomia in Head and Neck Cancer",
 "link": "https://arxiv.org/abs/2611.25481",
 "date": "2026-11-19T04:13:14+00:00",
@@ -251,6 +434,35 @@
 "processing": "model-enriched",
 "abstract": "Background: Patients' difficulties with illness and care (not understanding a result, distress, daily restrictions, not knowing where to go, family strain) may not surface in clinical encounters or records. Regulatory guidance on patient-focused drug development recognizes social-media listening as a source of patient experience data, but no systematic framework exists for Traditional Chinese discussions in Taiwan, and keyword pipelines measure such content poorly. Objective: To characterize patient-expressed needs, burdens and barriers (\"frictions\") in Taiwanese online health discussions with an eight-domain, Taiwan-contextualized framework, identify whose frictions they are, and assess how securely each is measured. Methods: From a 13.6-million-unit archive of the PTT forum and three ask-a-physician services, seeded samples of 9,131 pipeline-flagged units and 1,000 unflagged forum articles (10,130 distinct units) were read in full by a large language model under rubrics for relevance, author (patient or family member) and eight domains: information gap, emotional burden, lifestyle burden, medication experience, system navigation, access barrier, caregiver burden and cost burden. Profiles were reported separately for forum articles and physician submissions and checked against a second vendor, two physicians' independent labels of 160 accepted and rejected units, and the archive's keyword pipeline. Results: Among 2,395 model-confirmed forum articles, 83.1% voiced at least one friction: information gap 59.5% (physicians 86%-93%), emotional burden 39.0%, medication experience 24.1%, lifestyle burden 22.2% and system navigation 16.3%; access barrier, caregiver burden and cost burden were each below 7%. Of 3,105 submissions, nearly all were questions and 53.8% also carried a burden. Navigation rarely concerned insurance (9.1%). Family-authored forum articles (14.5%) more often voiced emotional burden (54.9% vs 36.3%), navigation (34.8% vs 13.2%; instrument-dependent) and access barriers (16.4% vs 4.7%), and patient-authored articles lifestyle burden (24.8% vs 6.9%); caregiver burden came with emotional burden in 86.0% of articles voicing it. Emotional and lifestyle burden were commoner in forum articles than submissions under the model, a second vendor and both physicians; medication experience and navigation were instrument-dependent, and physicians disagreed on cost (32% vs 4%). The keyword pipeline had stored its information-gap output for 29.9% of model-c",
 "zh_abstract": "【背景】患者因疾病和照护而面临的困难（不理解某项结果、痛苦、日常活动受限、不知道该去哪里、家庭压力）可能不会在临床接触或记录中显现。关于以患者为中心的药物开发的监管指南将社交媒体倾听视为患者体验数据的来源，但台湾繁体中文讨论尚无系统框架，且关键词流程对此类内容的测量效果很差。【目的】使用八领域、台湾情境化框架，刻画台湾在线健康讨论中患者表达的需求、负担和障碍（“摩擦”），识别这些摩擦属于谁，并评估每一项被测量的可靠程度。【方法】从 PTT 论坛和三个问医生服务的 1360 万单元档案中，抽取 9,131 个流程标记单元和 1,000 篇未标记论坛文章（10,130 个不同单元）的种子样本，由大语言模型依据相关性、作者（患者或家庭成员）和八个领域的评分规则进行全文阅读；八个领域为：信息缺口、情感负担、生活方式负担、用药体验、系统导航、可及性障碍、照护者负担和费用负担。分别报告论坛文章和医生提交内容的特征剖面，并与第二家供应商、两位医生对 160 个被接受和拒绝单元的独立标注以及档案的关键词流程进行核对。【结果】在 2,395 篇模型确认的论坛文章中，83.1% 表达了至少一种摩擦：信息缺口 59.5%（医生 86%-93%）、情感负担 39.0%、用药体验 24.1%、生活方式负担 22.2% 和系统导航 16.3%；可及性障碍、照护者负担和费用负担均低于 7%。在 3,105 份提交内容中，几乎全部都是问题，且 53.8% 也承载负担。导航很少涉及保险（9.1%）。家庭成员撰写的论坛文章（14.5%）更常表达情感负担（54.9% vs 36.3%）、系统导航（34.8% vs 13.2%；取决于测量工具）和可及性障碍（16.4% vs 4.7%），而患者撰写的文章更常表达生活方式负担（24.8% vs 6.9%）；在表达照护者负担的文章中，86.0% 同时伴随情感负担。在模型、第二家供应商和两位医生标注下，情感负担和生活方式负担在论坛文章中比提交内容中更常见；用药体验和系统导航取决于测量工具，且医生对费用负担存在分歧（32% vs 4%）。关键词流程已针对 29.9% 的 model-c 存储其信息缺口输出",
+"day": "2026-11-22"
+},
+{
+"title": "澳大利亚与美国人工智能赋能医疗器械监管格局的比较分析：基于 FDA 与 TGA 清单的横断面研究",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wZG9TMDFGaVB2ZnlnNG1JeW9SX29JaW5SdHV6dDFtMDhacVV6bW55Z2RIZHJjX1o4NF95ZWNXWjNqbS15UWtLUy1nREVHMnBZRk1OUXMyR09aVkVEQkVKOE1EeW1MR0hGWURlTG9n?oc=5",
+"date": "2026-11-21T03:39:12+00:00",
+"source": "生物通",
+"source_group": "Google News · NMPA AI",
+"home": "https://www.ebiotrade.com",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "0e1866c635a1",
+"keep": true,
+"zh_title": "澳美AI医疗器械监管格局比较：基于FDA与TGA清单的横断面研究",
+"summary": "标题显示：该横断面研究基于FDA与TGA清单，比较澳大利亚与美国的AI赋能医疗器械监管格局。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"医疗器械",
+"监管政策"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "仅标题，无法判断样本与方法细节；监管比较有信息量但属增量档",
+"processing": "model-enriched",
 "day": "2026-11-22"
 },
 {
@@ -395,6 +607,71 @@
 "processing": "model-enriched",
 "abstract": "On a panel at HLTH, experts discussed prior authorization denials and who should make the final call. The post Who Should Make Medical-Necessity Decisions: AI, Insurers or Treating Physicians? appeared first on MedCity News .",
 "zh_abstract": "在 HLTH 的一场专题讨论中，专家讨论了预先授权被拒以及应由谁作出最终决定。文章《谁应作出医疗必要性决定：AI、保险公司还是治疗医生？》首先发表于 MedCity News。",
+"day": "2026-11-22"
+},
+{
+"title": "Tempus Awarded Funding to Build Clinical AI Agent",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2RGQ3ZMMDVWamd0NXIyQlRWY3JjUXcxYUpKa2hXRkxZemdJTVg2WEpEU0dpZ0dNeE1mWlEyaGJGdHY5VzZYbFQzRmdwV0FHcjBJVF9RVXNlYjQxRWduRUNYWkozUU9yRTY4bVlyNEx0aUx2XzRxQlg4eEpsT0FKRUZJeTdHOTM5VllvZ2FWVlp6UQ?oc=5",
+"date": "2026-11-20T18:53:00+00:00",
+"source": "Medical Product Outsourcing",
+"source_group": "Google News · FDA AI",
+"home": "https://www.mpo-mag.com",
+"evidence_hint": "",
+"thin_src": true,
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "39ed290a68cd",
+"keep": true,
+"zh_title": "Tempus 获资助开发临床 AI 智能体",
+"summary": "据标题信息，Tempus 获得资金用于建设临床 AI 智能体。",
+"key_points": [],
+"section": "产业动态",
+"type": "融资",
+"tags": [
+"智能体",
+"融资与并购"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题，缺金额与细节，信息量有限，属增量档",
+"processing": "model-enriched",
+"day": "2026-11-22"
+},
+{
+"title": "AI-Assisted vs. Traditional Simulation for Safe Surgery Checklist Knowledge and Skills",
+"link": "https://clinicaltrials.gov/study/NCT07944573",
+"date": "2026-11-18T00:00:00+00:00",
+"badge": "NCT07944573",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"evidence_hint": "",
+"thin_src": false,
+"thin": false,
+"pop": null,
+"id": "5597d7bc48da",
+"keep": true,
+"zh_title": "AI辅助与传统模拟训练对安全手术核查表知识技能的影响",
+"summary": "一项新注册的干预性试验，拟在60名护理学生中比较AI辅助与传统模拟训练对安全手术核查表知识技能的效果。",
+"key_points": [
+"注册于ClinicalTrials.gov，尚未招募",
+"样本60人，护理教育场景",
+"比较AI辅助与传统模拟训练",
+"尚无结果数据"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"手术",
+"临床落地"
+],
+"evidence": "新闻",
+"score": 2,
+"reason": "小样本教育类试验注册，无结果，信息量低",
+"processing": "model-enriched",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Lokman Hekim University; conditions: Nursing Education; type: INTERVENTIONAL; phase: NA; enrollment: 60; status: NOT_YET_RECRUITING] More than 300 million surgical procedures are performed worldwide each year. However, surgical errors remain among the most common medical errors causing preventable patient harm. Although various health policies have been implemented globally and nationally, adverse events continue to occur due to factors such as high patient volumes and insufficient staffing. One of the most important initiatives developed to prevent surgery-related adverse events is the World Health Organization's \"Safe Surgery Saves Lives\" project. Within this initiative, the Surgical Safety Checklist was developed and has contributed to significant reductions in adverse events. The World Health Organization has encouraged countries to adapt the checklist to their healthcare systems. In Türkiye, it was revised by adding an additional section based on the principle that \"Safe surgery starts in the clinic.\" Current patient safety policies and initiatives largely focus on healthcare professionals. However, developing a culture of surgical safety should begin during undergraduate education. After graduation, students may adopt existing institutional practices regarding patient and surgical safety. Therefore, developing nursing students' knowledge, skills, and professional judgment regarding safe surgery before graduation is essential. This randomized controlled experimental study aims to compare the effectiveness of an artificial intelligence-assisted virtual simulation game and traditional simulation in improving nursing students' knowledge and skills regarding the Surgical Safety Checklist. The effects of these interventions on students' problem-solving skills and patient safety competencies will also be examined. Students, research fellows, and the statistician will be blinded. Data will be collected using the Surgical Safety Checklist Knowledge Test, Surgical Safety Checklist Skills Assessment Checklist, Problem Solving Inventory, and a scale assessing nursing students' patient safety competencies. Data will be analyzed using SPSS, with p\\<0.05 considered statistically significant.",
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：Lokman Hekim University；疾病/条件：护理教育；类型：干预性（INTERVENTIONAL）；阶段：NA；入组人数：60；状态：尚未招募（NOT_YET_RECRUITING）] 每年全球实施超过 3 亿例外科手术。然而，手术差错仍是导致可预防患者伤害的最常见医疗差错之一。尽管全球和国家层面已实施多种卫生政策，但由于患者数量大和人员配备不足等因素，不良事件仍持续发生。为预防手术相关不良事件而制定的最重要举措之一是世界卫生组织（World Health Organization）的“安全手术拯救生命”（Safe Surgery Saves Lives）项目。在该倡议中，开发了手术安全核查表（Surgical Safety Checklist），并已促进不良事件的显著减少。世界卫生组织鼓励各国根据其医疗体系调整核查表。在土耳其（Türkiye），基于“安全手术始于诊所”的原则，通过增加一个额外部分对其进行了修订。当前的患者安全政策和倡议主要聚焦于医疗专业人员。然而，培养手术安全文化应始于本科教育。毕业后，学生可能会采纳机构现有的患者和手术安全实践。因此，在毕业前培养护理学生对安全手术的知识、技能和专业判断至关重要。这项随机对照实验研究旨在比较人工智能辅助虚拟模拟游戏与传统模拟在提高护理学生关于手术安全核查表的知识和技能方面的有效性。还将考察这些干预措施对学生问题解决能力和患者安全胜任力的影响。学生、研究员和统计师将被设盲。数据将使用手术安全核查表知识测试、手术安全核查表技能评估核查表、问题解决量表（Problem Solving Inventory）以及评估护理学生患者安全胜任力的量表收集。数据将使用 SPSS 分析，p<0.05 被认为具有统计学显著性。",
 "day": "2026-11-22"
 }
 ]
