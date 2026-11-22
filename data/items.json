@@ -1,5 +1,403 @@
 [
  {
+  "title": "Virtual atrial fibrillation dynamics reflect clinical outcomes after catheter ablation",
+  "link": "https://www.nature.com/articles/s41746-026-03495-4",
+  "date": "2026-11-20T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03495-4",
+  "pop": null,
+  "id": "57e0a8701976",
+  "keep": true,
+  "zh_title": "虚拟房颤动力学可反映导管消融后临床结局",
+  "summary": "基于323例患者高密度电解剖图重建左房数字孪生，用虚拟房颤模拟分层消融后心律失常复发风险。",
+  "key_points": [
+   "重建323例左房数字孪生，计算节点恢复斜率",
+   "四种恢复模式可分层临床复发风险",
+   "虚拟房颤非持续者复发风险独立更低"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "生理信号"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "同行评审、样本323例并报告临床结局，但未见外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Chamber-wide assessment of restitution dynamics is not feasible in vivo during atrial fibrillation (AF) ablation. We reconstructed left-atrial digital twins from high-density (HD) bipolar electroanatomical maps in 323 patients, computed node-level restitution steepness (maximal restitution slope [Smax]; >0.4 million nodes), and induced virtual AF with standardized ramp pacing to classify sustainability (sustained ≥16 s vs non-sustained <16 s), excluding 32 cases with extensive low-voltage substrate and depressed mean Smax. We found that clustering of HD restitution profiles identifies four restitution patterns that stratify clinical atrial arrhythmia recurrence, with the Overall-Low pattern (aHR, 0.37) and the Average-Homogeneous pattern (aHR, 0.59) each showing lower risk than the Overall-High pattern. Furthermore, non-sustained virtual AF independently predicted lower recurrence (aHR: 0.27). Adding restitution pattern and sustainability to clinical covariates improved discrimination (ΔHarrell’s C-index: 0.050), and the combined digital-twin model remained incremental after adjustment for low-voltage area burden, supporting digital-twin outputs as complementary functional descriptors for risk stratification after pulmonary vein isolation.",
+  "zh_abstract": "在房颤（AF）消融术中，于体进行全腔恢复动力学评估不可行。我们基于 323 例患者的高密度（HD）双极电解剖标测图重建左心房数字孪生，计算节点级恢复陡度（最大恢复斜率 [Smax]；>40 万个节点），并用标准化斜坡起搏诱导虚拟 AF，以分类其可持续性（持续 ≥16 秒 vs 非持续 <16 秒），同时排除 32 例具有广泛低电压基质和平均 Smax 降低的病例。我们发现，HD 恢复谱的聚类识别出四种恢复模式，可对临床房性心律失常复发进行分层，其中 Overall-Low 模式（aHR，0.37）和 Average-Homogeneous 模式（aHR，0.59）均显示比 Overall-High 模式更低的风险。此外，非持续性虚拟 AF 独立预测较低的复发（aHR：0.27）。将恢复模式与可持续性加入临床协变量后改善了区分度（ΔHarrell’s C 指数：0.050），且联合数字孪生模型在调整低电压区负荷后仍具有增量价值，支持数字孪生输出作为肺静脉隔离后风险分层的补充功能描述指标。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "FDA-Authorized AI/ML Tool for Sepsis Prediction: Development and Validation",
+  "link": "https://ai.nejm.org/doi/full/10.1056/AIx2601439?af=R&rss=currentIssue",
+  "date": "2026-11-19T06:00:00+00:00",
+  "source": "NEJM AI",
+  "source_group": "NEJM AI",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": true,
+  "badge": "DOI 10.1056/AIx2601439",
+  "pop": null,
+  "id": "855c2cb223ed",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "FDA授权的脓毒症预测AI/ML工具：开发与验证",
+  "summary": "NEJM AI提前在线刊出，仅见标题：报告一款获FDA授权的脓毒症预测机器学习工具的开发与验证。",
+  "key_points": [],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "临床决策支持",
+   "监管政策"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "FDA授权脓毒症预测工具有监管意义，但仅有标题信息，按上限6分内取5",
+  "processing": "model-enriched",
+  "day": "2026-11-22",
+  "abstract_days": [
+   "2026-11-22"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+ },
+ {
+  "title": "ECG foundation models for cardiovascular screening in a cohort of young competitive athletes",
+  "link": "https://www.nature.com/articles/s41746-026-03474-9",
+  "date": "2026-11-21T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03474-9",
+  "pop": null,
+  "id": "95ae4c5d88bf",
+  "keep": true,
+  "zh_title": "心电图基础模型用于年轻竞技运动员心血管筛查",
+  "summary": "在8.7万条心电上微调三个心电基础模型，仅用43例专家标注运动员心电测试，显示明显域偏移。",
+  "key_points": [
+   "PhysioNet测试AUROC 0.97，运动员数据明显下降",
+   "ECGFounder表现最佳，AUROC 0.84",
+   "运动员外部测试集仅43例"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "医学大模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "同行评审且含外部人群测试，提示域偏移，但外部样本仅43例，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "AI-powered cardiac screening could evolve sports medicine by boosting accuracy, efficiency, and cost-effectiveness, with automated ECG interpretation based on foundation models becoming key for large-scale athlete screening. Before deployment, it is crucial to verify whether these clinically developed models are applicable to this population. We evaluated whether ECG foundation models trained on general clinical populations can diagnose athlete-specific ECG findings. We fine-tuned three models (ECG-FM, HuBERT-ECG, ECGFounder) on PhysioNet/CinC 2021, 87,662 samples, and tested them on 43 expert-annotated ECGs from highly trained/national-level athletes. Performance was strong on PhysioNet/CinC 2021 (AUROC 0.97, AUPRC 0.57, Sensitivity 0.89) but dropped on athletes’ data, confirming domain shift. ECGFounder performed best (AUROC 0.84, AUPRC 0.72, Sensitivity 0.57) and detected the most frequent findings, Sinus Bradycardia (AUROC 0.87) and Sinus Arrhythmia (AUROC 0.95), well. Per-label estimates for rare classes must be interpreted cautiously, given the small cohort. This work contributes to developing athlete-focused AI frameworks for reliable ECG-based screening.",
+  "zh_abstract": "人工智能驱动的心脏筛查可能通过提高准确性、效率和成本效益来推动运动医学发展，而基于基础模型的自动化心电图解读正成为大规模运动员筛查的关键。部署前，必须验证这些临床开发的模型是否适用于该人群。我们评估了在一般临床人群上训练的心电图基础模型能否诊断运动员特有的心电图发现。我们在 PhysioNet/CinC 2021（87,662 个样本）上微调了三个模型（ECG-FM、HuBERT-ECG、ECGFounder），并在来自高度训练/国家级运动员的 43 份经专家标注的心电图上测试它们。在 PhysioNet/CinC 2021 上表现强劲（AUROC 0.97、AUPRC 0.57、敏感性 0.89），但在运动员数据上下降，证实了域偏移。ECGFounder 表现最佳（AUROC 0.84、AUPRC 0.72、敏感性 0.57），并良好检测出最常见发现：窦性心动过缓（Sinus Bradycardia）（AUROC 0.87）和窦性心律不齐（Sinus Arrhythmia）（AUROC 0.95）。鉴于队列较小，对罕见类别的逐标签估计必须谨慎解读。这项工作有助于开发以运动员为中心的人工智能框架，用于可靠的心电图筛查。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Ordinal conformal partial-label prediction for medical image grading",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004688?dgcid=rss_sd_all",
+  "date": "2026-11-22T03:19:51.171696+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "de1642f50bad",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "面向医学图像分级的有序共形部分标签预测",
+  "summary": "仅见标题与期刊卷期信息：提出结合有序分级与共形预测的部分标签医学图像分级方法。",
+  "key_points": [
+   "仅获取标题与作者、卷期信息",
+   "方法涉及有序分级与共形预测",
+   "无摘要，数据与验证情况不明"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "仅有标题元数据，方法类增量研究，信息不足按低档打分",
+  "processing": "model-enriched",
+  "day": "2026-11-22",
+  "abstract_days": [
+   "2026-11-22"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "NeuroSim: a clinically informed multi-disorder EEG simulator with personalized pattern injection and AI-driven neurological modeling",
+  "link": "https://www.biorxiv.org/content/10.64898/2026.11.19.767788v1?rss=1",
+  "date": "2026-11-20T00:00:00+00:00",
+  "source": "bioRxiv",
+  "source_group": "bioRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.19.767788",
+  "pop": null,
+  "id": "99b0a82050d1",
+  "keep": true,
+  "zh_title": "NeuroSim：可注入个体化病理模式的多种EEG模拟器",
+  "summary": "预印本发布NeuroSim框架，可生成含五种神经疾病、多严重度可控病理模式的合成多通道脑电，用于缓解标注数据稀缺。",
+  "key_points": [
+   "覆盖阿尔茨海默病、帕金森病、精神分裂症、癫痫、额颞叶痴呆",
+   "生理驱动的基线生成器产生节律、诱发电位与伪迹",
+   "可按用户设定注入疾病特异模式与严重程度",
+   "针对真实EEG数据稀缺、隐私限制与站点异质"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "数据集",
+   "生成模型"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "合成数据方法有实用价值，但为预印本且未见下游诊断任务外部验证，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Deep learning for electroencephalography (EEG) based neurodiagnostics is constrained by the limited availability of labeled clinical recordings. Datasets covering Alzheimers disease (AD), Parkinsons disease (PD), schizophrenia (SCZ), epilepsy (EPI), and frontotemporal dementia (FTD) are scarce, demographically narrow, and heterogeneous across acquisition sites, while privacy requirements restrict data sharing. Existing EEG simulators typically address a single disorder or trade biological interpretability for statistical fidelity. This study presents NeuroSim, a simulation framework that generates synthetic multichannel EEG with user-controlled injection of disease-specific patterns across five disorders and multiple severity levels. A physiologically motivated baseline generator produces band-limited rhythms, event-related potentials, artifacts, and hierarchical subject-level and trial-level variability. Disease patterns are introduced through region-specific and severity-specific spectral modulation that encodes established biomarkers, including posterior alpha suppression in AD, motor beta enhancement in PD, and spike-wave discharges in EPI. An interactive interface exposes montage, sampling rate, duration, artifacts, stimuli, affected regions, and severity, and exports signals with reproducible metadata. The simulated signals reproduced the expected biomarker directionality under spectral, topographic, and multivariate statistical analysis. A convolutional-attention classifier trained on simulated data reached 95.3 to 96.8 percent hold-out accuracy, and post hoc explainability analyses produced class-separable embeddings with attributions concentrated on pathophysiologically expected electrodes. Application of the analysis pipeline to recordings from the Temple University Hospital EEG Corpus confirmed compatibility with heterogeneous clinical data. In subject-level augmentation experiments on real clinical EEG, supplementing real training data with NeuroSim samples increased classification accuracy from 91.6 to 94.5 percent for AD versus healthy controls and from 90.9 to 94.0 percent for PD versus healthy controls, exceeding the improvement obtained with conventional signal-level augmentation. NeuroSim is released as open-source software to support augmentation, benchmarking, and explainable artificial intelligence in neurological diagnostics.",
+  "zh_abstract": "基于脑电图（EEG）的神经诊断深度学习受限于标注临床记录的可用性有限。覆盖阿尔茨海默病（AD）、帕金森病（PD）、精神分裂症（SCZ）、癫痫（EPI）和额颞叶痴呆（FTD）的数据集稀缺、人口学范围狭窄、跨采集站点异质，而隐私要求限制数据共享。现有 EEG 模拟器通常只处理单一疾病，或以生物学可解释性换取统计保真度。本研究提出 NeuroSim，一个模拟框架，可生成合成多通道 EEG，并可由用户控制地在五种疾病和多个严重程度水平上注入疾病特异性模式。一个生理学驱动的基线生成器产生带限节律、事件相关电位、伪迹以及分层的受试者水平和试次水平变异性。疾病模式通过区域特异性和严重程度特异性的频谱调制引入，该调制编码已确立的生物标志物，包括 AD 中的后部 α 波抑制、PD 中的运动区 β 波增强以及 EPI 中的棘慢波放电。交互界面可设置导联布局（montage）、采样率、时长、伪迹、刺激、受影响区域和严重程度，并导出带有可复现元数据的信号。在频谱、地形和多变量统计分析下，模拟信号重现了预期的生物标志物方向性。一个在模拟数据上训练的卷积注意力分类器达到 95.3% 至 96.8% 的留出集准确率，事后可解释性分析产生了类别可分离的嵌入，其归因集中在病理生理学上预期的电极。将分析流程应用于 Temple University Hospital EEG Corpus 的记录，证实了其与异质临床数据的兼容性。在真实临床 EEG 的受试者级数据增强实验中，用 NeuroSim 样本补充真实训练数据，使 AD 与健康对照的分类准确率从 91.6% 提高到 94.5%，使 PD 与健康对照的分类准确率从 90.9% 提高到 94.0%，超过了使用传统信号级数据增强所获得的提升。NeuroSim 作为开源软件发布，以支持神经科诊断中的数据增强、基准测试和可解释人工智能。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Uncertainty-Aware Multimodal Deep Learning for Prediction of Radiation-Induced Xerostomia in Head and Neck Cancer",
+  "link": "https://arxiv.org/abs/2611.25481",
+  "date": "2026-11-19T04:13:14+00:00",
+  "source": "arXiv",
+  "source_group": "arXiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "arXiv 2611.25481",
+  "pop": null,
+  "id": "7c79fa8dc350",
+  "keep": true,
+  "zh_title": "不确定性感知多模态深度学习预测头颈癌放疗后口干",
+  "summary": "预印本提出BA-DiT框架，融合疗前CT与三维剂量分布，用贝叶斯分类器预测头颈癌放疗后口干症风险。",
+  "key_points": [
+   "融合CT影像与剂量分布，聚焦双侧腮腺及周边解剖",
+   "双向交叉注意力+潜在扩散Transformer自监督预训练",
+   "贝叶斯微调输出个体化风险与不确定性",
+   "摘要未提及外部验证或样本量"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "多模态",
+   "临床预测"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "方法有新意但为预印本，未见外部验证与样本规模，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "To develop and evaluate an uncertainty-aware multimodal learning framework for predicting radiation-induced xerostomia in patients receiving head-and-neck cancer radiotherapy. We developed a Bidirectional Attention-enhanced Diffusion Transformer (BA-DiT) that combines self-supervised multimodal representation learning with supervised Bayesian fine-tuning. The model integrates pretreatment CT images and three-dimensional dose distributions, focusing on bilateral parotid glands while incorporating surrounding anatomical and dosimetric information. During pretraining, bidirectional cross-attention integrates anatomical and dosimetric features, while a latent Diffusion Transformer learns joint representations through diffusion-based learning, feature reconstruction, and contrastive alignment. Supervised fine-tuning employs a Bayesian classifier to predict individualized xerostomia risk and quantify predictive uncertainty, with a learnable label-transition model accounting for potential toxicity label uncertainty. BA-DiT was developed using four independent cohorts (Moffitt, Emory, MSHS, and TCIA) and evaluated against baseline and ablation models. Evaluation included predictive performance, calibration, uncertainty quantification, decision curve analysis, and patient-level case studies. In independent MSHS and Emory cohorts, BA-DiT achieved AUCs of 0.83 and 0.80, respectively, outperforming baseline models. Predictive uncertainty peaked near the decision boundary, with aleatoric uncertainty being the predominant component. Uncertainty-based selective prediction generally improved net benefit among retained patients, with greater gains at lower prediction coverage. BA-DiT enables individualized xerostomia risk prediction while providing complementary uncertainty estimates, potentially supporting informed clinical decision-making and personalized toxicity management.",
+  "zh_abstract": "开发并评估一个不确定性感知的多模态学习框架，用于预测接受头颈癌放疗患者的放射性口干症。我们开发了一种双向注意力增强的扩散Transformer（BA-DiT），它将自监督多模态表示学习与有监督贝叶斯微调相结合。该模型整合治疗前CT图像和三维剂量分布，聚焦双侧腮腺，同时纳入周围解剖和剂量学信息。在预训练期间，双向交叉注意力整合解剖和剂量学特征，而潜在扩散Transformer通过基于扩散的学习、特征重建和对比对齐学习联合表示。有监督微调采用贝叶斯分类器预测个体化口干症风险并量化预测不确定性，并使用可学习的标签转移模型来考虑潜在的毒性标签不确定性。BA-DiT使用四个独立队列（Moffitt、Emory、MSHS和TCIA）进行开发，并针对基线和消融模型进行评估。评估包括预测性能、校准、不确定性量化、决策曲线分析和患者层面病例研究。在独立的MSHS和Emory队列中，BA-DiT分别达到AUC 0.83和0.80，优于基线模型。预测不确定性在决策边界附近达到峰值，其中偶然不确定性（aleatoric uncertainty）是主要成分。基于不确定性的选择性预测通常提高了保留患者的净获益，且在较低预测覆盖率下获益更大。BA-DiT能够实现个体化口干症风险预测，同时提供补充性不确定性估计，可能支持知情的临床决策和个体化毒性管理。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Patient-Expressed Needs, Burdens and Barriers in Taiwanese Online Health Discussions: A Taiwan-Contextualized Friction Framework Applied With Large Language Model-Based Social Listening",
+  "link": "https://www.medrxiv.org/content/10.64898/2026.11.17.26365957v1?rss=1",
+  "date": "2026-11-19T00:00:00+00:00",
+  "source": "medRxiv",
+  "source_group": "medRxiv",
+  "home": "",
+  "evidence_hint": "预印本",
+  "thin_src": false,
+  "thin": false,
+  "badge": "DOI 10.64898/2026.11.17.26365957",
+  "pop": null,
+  "id": "93f29a52d33a",
+  "keep": true,
+  "zh_title": "大模型社会倾听解析台湾线上健康讨论中的患者负担",
+  "summary": "预印本用大语言模型在PTT与三个问诊平台语料上，按台湾本地化八域框架刻画患者表达的需求、负担与障碍。",
+  "key_points": [
+   "数据源含1360万条PTT贴文与三个问诊服务",
+   "构建八域台湾情境化「摩擦」框架",
+   "对比关键词流水线与LLM识别效果",
+   "针对繁体中文讨论缺乏系统框架的空白"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "临床NLP",
+   "医学大模型",
+   "公共卫生"
+  ],
+  "evidence": "预印本",
+  "score": 5,
+  "reason": "大模型应用于患者体验文本分析，方法框架清晰但为预印本、无临床结局，属值得一看档",
+  "processing": "model-enriched",
+  "abstract": "Background: Patients' difficulties with illness and care (not understanding a result, distress, daily restrictions, not knowing where to go, family strain) may not surface in clinical encounters or records. Regulatory guidance on patient-focused drug development recognizes social-media listening as a source of patient experience data, but no systematic framework exists for Traditional Chinese discussions in Taiwan, and keyword pipelines measure such content poorly. Objective: To characterize patient-expressed needs, burdens and barriers (\"frictions\") in Taiwanese online health discussions with an eight-domain, Taiwan-contextualized framework, identify whose frictions they are, and assess how securely each is measured. Methods: From a 13.6-million-unit archive of the PTT forum and three ask-a-physician services, seeded samples of 9,131 pipeline-flagged units and 1,000 unflagged forum articles (10,130 distinct units) were read in full by a large language model under rubrics for relevance, author (patient or family member) and eight domains: information gap, emotional burden, lifestyle burden, medication experience, system navigation, access barrier, caregiver burden and cost burden. Profiles were reported separately for forum articles and physician submissions and checked against a second vendor, two physicians' independent labels of 160 accepted and rejected units, and the archive's keyword pipeline. Results: Among 2,395 model-confirmed forum articles, 83.1% voiced at least one friction: information gap 59.5% (physicians 86%-93%), emotional burden 39.0%, medication experience 24.1%, lifestyle burden 22.2% and system navigation 16.3%; access barrier, caregiver burden and cost burden were each below 7%. Of 3,105 submissions, nearly all were questions and 53.8% also carried a burden. Navigation rarely concerned insurance (9.1%). Family-authored forum articles (14.5%) more often voiced emotional burden (54.9% vs 36.3%), navigation (34.8% vs 13.2%; instrument-dependent) and access barriers (16.4% vs 4.7%), and patient-authored articles lifestyle burden (24.8% vs 6.9%); caregiver burden came with emotional burden in 86.0% of articles voicing it. Emotional and lifestyle burden were commoner in forum articles than submissions under the model, a second vendor and both physicians; medication experience and navigation were instrument-dependent, and physicians disagreed on cost (32% vs 4%). The keyword pipeline had stored its information-gap output for 29.9% of model-c",
+  "zh_abstract": "【背景】患者因疾病和照护而面临的困难（不理解某项结果、痛苦、日常活动受限、不知道该去哪里、家庭压力）可能不会在临床接触或记录中显现。关于以患者为中心的药物开发的监管指南将社交媒体倾听视为患者体验数据的来源，但台湾繁体中文讨论尚无系统框架，且关键词流程对此类内容的测量效果很差。【目的】使用八领域、台湾情境化框架，刻画台湾在线健康讨论中患者表达的需求、负担和障碍（“摩擦”），识别这些摩擦属于谁，并评估每一项被测量的可靠程度。【方法】从 PTT 论坛和三个问医生服务的 1360 万单元档案中，抽取 9,131 个流程标记单元和 1,000 篇未标记论坛文章（10,130 个不同单元）的种子样本，由大语言模型依据相关性、作者（患者或家庭成员）和八个领域的评分规则进行全文阅读；八个领域为：信息缺口、情感负担、生活方式负担、用药体验、系统导航、可及性障碍、照护者负担和费用负担。分别报告论坛文章和医生提交内容的特征剖面，并与第二家供应商、两位医生对 160 个被接受和拒绝单元的独立标注以及档案的关键词流程进行核对。【结果】在 2,395 篇模型确认的论坛文章中，83.1% 表达了至少一种摩擦：信息缺口 59.5%（医生 86%-93%）、情感负担 39.0%、用药体验 24.1%、生活方式负担 22.2% 和系统导航 16.3%；可及性障碍、照护者负担和费用负担均低于 7%。在 3,105 份提交内容中，几乎全部都是问题，且 53.8% 也承载负担。导航很少涉及保险（9.1%）。家庭成员撰写的论坛文章（14.5%）更常表达情感负担（54.9% vs 36.3%）、系统导航（34.8% vs 13.2%；取决于测量工具）和可及性障碍（16.4% vs 4.7%），而患者撰写的文章更常表达生活方式负担（24.8% vs 6.9%）；在表达照护者负担的文章中，86.0% 同时伴随情感负担。在模型、第二家供应商和两位医生标注下，情感负担和生活方式负担在论坛文章中比提交内容中更常见；用药体验和系统导航取决于测量工具，且医生对费用负担存在分歧（32% vs 4%）。关键词流程已针对 29.9% 的 model-c 存储其信息缺口输出",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "HLTH 2026: Viz.ai’s chief clinical officer on takeaways, goals of AI collab with National Rural Health Association",
+  "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/hlth-2026-vizais-chief-clinical-officer-takeaways-goals-national-rural",
+  "date": "2026-11-22T03:19:51.171696+00:00",
+  "source": "Fierce Healthcare",
+  "source_group": "Fierce Healthcare",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "cc321221e396",
+  "_abs_err": "page: no abstract in meta (818521 bytes; title: HLTH26: Where Viz.ai, NRHA's AI collab is making headway; text: HLTH26: Where Viz.ai, NRHA's AI collab is making headway Fierce Pharma Fierce Biotech Fierce Healthc)",
+  "keep": true,
+  "zh_title": "Viz.ai与全美乡村卫生协会AI合作进展回顾",
+  "summary": "报道Viz.ai首席临床官谈与全美乡村卫生协会AI合作近七个月来的收获与目标。",
+  "key_points": [
+   "合作已推进约七个月",
+   "聚焦疾病检测与诊疗协调平台落地",
+   "面向乡村医疗机构的AI可及性",
+   "内容为访谈式经验回顾"
+  ],
+  "section": "产业动态",
+  "type": "观点",
+  "tags": [
+   "临床落地",
+   "医疗器械"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "行业合作动态，无量化效果数据，属增量信息档",
+  "processing": "model-enriched",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Artificial intelligence and triple negative breast cancer: can pathomics help oncologists?",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43060867/",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "DOI 10.3389/fonc.2026.1883554",
+  "source": "PubMed · Frontiers in oncology",
+  "source_group": "PubMed",
+  "home": "",
+  "evidence_hint": "同行评审",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "86f120d31332",
+  "keep": true,
+  "zh_title": "人工智能与三阴性乳腺癌：病理组学能否帮助肿瘤医生",
+  "summary": "综述梳理病理组学与深度学习全切片分析在三阴性乳腺癌分型、生物标志物与疗效预测中的研究进展。",
+  "key_points": [
+   "覆盖分子亚型、TIL与治疗反应预测",
+   "提及多模态整合病理、组学与临床数据",
+   "属综述，未提供新数据"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "病理",
+   "肿瘤",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述类文章按上限6分内评分，内容为领域梳理，无新数据，取增量档",
+  "processing": "model-enriched",
+  "abstract": "[Frontiers in oncology] Triple-negative breast cancer (TNBC) is an aggressive and heterogeneous subtype of breast cancer with limited targeted therapies and poor prognosis. Recent advances in digital pathology and artificial intelligence (AI) are transforming traditional, qualitative histopathology into quantitative, data-driven analysis. Within computational pathology, pathomics (the extraction of handcrafted, high-dimensional features from digitized histological images) and deep learning (DL)-based whole-slide image analysis have been investigated for the prediction of molecular subtypes, biomarker expression, tumor-infiltrating lymphocytes, and treatment response in TNBC. AI models, including DL and multimodal systems integrating histopathology, omics, and clinical data, are being explored for patient stratification, risk assessment, and therapy personalization, encompassing chemotherapy, immunotherapy, PARP inhibitors, and antibody-drug conjugates. By linking spatial tissue architecture with molecular profiles, these approaches may provide new insights into tumor biology and the tumor microenvironment. Most TNBC-specific studies are retrospective, small or single-center, few have been externally validated and, to our knowledge, none has yet demonstrated clinical utility in prospective trials; prediction of biomarkers such as PD-L1 or homologous recombination deficiency from hematoxylin and eosin slides remains investigational and cannot replace validated testing. Despite these challenges, AI-assisted computational pathology is a promising decision-support tool, which complements and does not replace pathologists and oncologists, for enhancing diagnosis, prognosis, and therapeutic decision-making in TNBC.",
+  "zh_abstract": "[Frontiers in oncology] 三阴性乳腺癌（TNBC）是乳腺癌的一种侵袭性强且高度异质的亚型，靶向治疗有限且预后差。数字病理学和人工智能（AI）的最新进展正在将传统的定性组织病理学转变为定量的、数据驱动的分析。在计算病理学中，病理组学（pathomics，从数字化组织学图像中提取手工设计的高维特征）和基于深度学习（DL）的全切片图像分析已被研究用于预测TNBC的分子亚型、生物标志物表达、肿瘤浸润淋巴细胞和治疗反应。包括DL以及整合组织病理学、组学和临床数据的多模态系统在内的AI模型，正在被探索用于患者分层、风险评估和治疗个体化，涵盖化疗、免疫治疗、PARP抑制剂和抗体-药物偶联物。通过将空间组织结构与分子谱联系起来，这些方法可能为肿瘤生物学和肿瘤微环境提供新见解。大多数TNBC特异性研究为回顾性、小样本或单中心研究，少数经过外部验证，并且据我们所知，尚无研究在前瞻性试验中证明临床效用；从苏木精-伊红（H&E）切片预测PD-L1或同源重组缺陷等生物标志物仍处于研究阶段，不能替代经过验证的检测。尽管存在这些挑战，AI辅助的计算病理学是一种有前景的决策支持工具，可补充而非替代病理学家和肿瘤学家，用于增强TNBC的诊断、预后和治疗决策。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Pragmatic AI-Assisted Lung Cancer Translational Study",
+  "link": "https://clinicaltrials.gov/study/NCT07941128",
+  "date": "2026-11-17T00:00:00+00:00",
+  "badge": "NCT07941128",
+  "source": "ClinicalTrials.gov",
+  "source_group": "ClinicalTrials.gov",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "pop": null,
+  "id": "0ed0e15d87ed",
+  "keep": true,
+  "zh_title": "实用性AI辅助肺癌转化研究临床试验",
+  "summary": "新注册前瞻性干预试验，150例，比较AI辅助撰写病历与核对医嘱对文书质量、耗时与医嘱错误的影响。",
+  "key_points": [
+   "申办方为邵逸夫医院，尚在招募",
+   "AI仅起草文书与复核医嘱，不做治疗决策",
+   "主要比较文书质量、耗时与医嘱错误数"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "电子病历",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "前瞻性设计且有工作流结局指标，但刚注册无结果、样本150例，属增量档",
+  "processing": "model-enriched",
+  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Sir Run Run Shaw Hospital; conditions: Lung Cancer, Artificial Intelligence (AI), Large Language Model; type: INTERVENTIONAL; phase: NA; enrollment: 150; status: RECRUITING] The goal of this study is to learn whether an artificial intelligence (AI) tool helps healthcare providers write and revise medical notes and check medical orders. This prospective study compares routine documentation without AI to documentation with AI assistance. The AI tool helps draft notes and review orders, but it does not make treatment decisions. Researchers will compare the quality of the notes, the time spent writing them, and the number of order errors between the two methods. The results will help hospitals decide if AI can improve daily clinical workflows.",
+  "zh_abstract": "[新注册临床试验，尚无结果；申办方：Sir Run Run Shaw Hospital（邵逸夫医院）；疾病/状况：肺癌、人工智能（AI）、大语言模型；类型：干预性；分期：不适用；入组人数：150；状态：招募中] 本研究旨在了解人工智能（AI）工具是否帮助医疗保健提供者撰写和修订医疗记录并核对医嘱。这项前瞻性研究比较无AI辅助的常规记录与有AI辅助的记录。AI工具帮助起草记录和审查医嘱，但不做出治疗决策。研究人员将比较两种方法之间记录的质量、撰写所花时间以及医嘱错误数量。结果将帮助医院判断AI能否改善日常临床工作流程。",
+  "day": "2026-11-22"
+ },
+ {
+  "title": "Who Should Make Medical-Necessity Decisions: AI, Insurers or Treating Physicians?",
+  "link": "https://medcitynews.com/2026/11/who-should-make-medical-necessity-decisions-ai-insurers-or-treating-physicians/",
+  "date": "2026-11-19T23:44:27+00:00",
+  "source": "MedCity News",
+  "source_group": "MedCity News",
+  "home": "",
+  "evidence_hint": "",
+  "thin_src": false,
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "1f9e34a33957",
+  "keep": true,
+  "zh_title": "医疗必要性判定应由AI、保险方还是主治医生作出",
+  "summary": "HLTH小组讨论围绕预授权拒付，争论医疗必要性最终裁定权应归AI、支付方还是主治医师。",
+  "key_points": [
+   "议题聚焦预授权拒付争议",
+   "讨论AI在医疗必要性判定中的角色",
+   "涉及支付方与临床医生的权责划分",
+   "属会议观点而非研究数据"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "监管政策",
+   "临床落地",
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "治理议题有讨论价值但仅为会议观点、无实证，属增量档",
+  "processing": "model-enriched",
+  "abstract": "On a panel at HLTH, experts discussed prior authorization denials and who should make the final call. The post Who Should Make Medical-Necessity Decisions: AI, Insurers or Treating Physicians? appeared first on MedCity News .",
+  "zh_abstract": "在 HLTH 的一场专题讨论中，专家讨论了预先授权被拒以及应由谁作出最终决定。文章《谁应作出医疗必要性决定：AI、保险公司还是治疗医生？》首先发表于 MedCity News。",
+  "day": "2026-11-22"
+ },
+ {
   "title": "Harnessing smartwatches to spot undiagnosed hypertension",
   "link": "https://www.nature.com/articles/d41591-026-00058-8",
   "date": "2026-11-19T00:00:00+00:00",
@@ -894,7 +1292,13 @@
   "score": 2,
   "reason": "仅标题的会议参会预告，无实质内容，属边缘档",
   "processing": "model-enriched",
-  "day": "2026-11-20"
+  "day": "2026-11-20",
+  "also": [
+   {
+    "source": "Tempus Investor Relations",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZkx3c3dpZjhnYnpSMWNSZWdHS2FRa2tZYTY0dzM0WGlnMUhsTENBT2dYNDVoV2hFVmtyYU1QSW9uSnl1MGlGZS0xVWtqRUpReVFKR2Z1NzhqWmZjZ1VCdmtvUTR5dkFYWFZxemtMLUlYS2hxXzhOMmM5YmxTcUNQeHFZbnp6azNfR19oNUlhR3RTQkN0MXJacXRGWVFQdWxFeGpZaUo4YjBZZVJsSjBlYk9LSmRMU0xObzFBRTRJRUZLUndKcjZSbTVHRQ?oc=5"
+   }
+  ]
  },
  {
   "title": "记者观察 | AI问诊：可以问，不能“诊”",
@@ -1223,6 +1627,10 @@
    {
     "source": "STAT News",
     "link": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss"
+   },
+   {
+    "source": "STAT",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNTAtOFBwY2c1REVDVnhjSWVYdWRRYS0zLXJPMkpNX3JjUmdXRHRmU2FLT3Bzc2dNRVZLcGY2TWNObGFidkEybEE3ekJsUEg3TXBIMkVXUDRCTWN4RGxPam5ta1JsYWlnLUxhZFEtemp1NUJfR01DcXNmVjBXRnAyVkFrRTh1eVVwOWc3R1EtVXVLUmgzYlBBQlpuazlGdzQ1dVZPcg?oc=5"
    }
   ]
  },
@@ -1327,7 +1735,8 @@
   "abstract_days": [
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -1679,7 +2088,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1965,7 +2375,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -11303,7 +11714,13 @@
   "processing": "model-enriched",
   "day": "2026-11-02",
   "abstract": "AbstractIn the past year, the medical field's relationship to clinical AI has progressed from rapid and often speculative adoption toward evaluation of its impact on patient outcomes, clinical workflows, and society. Drawing from the Symposium on AI for Learning Health Systems (SAIL) Year in Review (May 2026), this Perspective examines six key areas that dominated the domain of clinical AI in the past year: clinical AI evaluation, workflow integration, direct-to-consumer applications, regulation and societal impacts, AI in medical education, and foundational advancements in technology. AI's successes across these areas have been uneven, reflecting its jagged frontier. We highlight milestones that illustrate what AI has already achieved in health care, its potential, and major challenges that remain ahead. (Funded by the Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health [grant number T32HD040128].).",
-  "zh_abstract": "摘要：在过去一年中，医学领域与临床AI的关系已从快速且往往带有推测性的采用，转向评估其对患者结局、临床工作流程和社会的影响。本文借鉴学习型健康系统人工智能研讨会（Symposium on AI for Learning Health Systems，SAIL）年度回顾（2026年5月），考察过去一年主导临床AI领域的六个关键方面：临床AI评估、工作流程整合、直接面向消费者的应用、监管与社会影响、医学教育中的AI，以及技术的基础性进展。AI在这些领域取得的成功并不均衡，反映出其“参差不齐的前沿”。我们重点介绍一些里程碑，以说明AI在医疗保健中已经取得的成就、其潜力以及未来仍面临的主要挑战。（由美国国立卫生研究院下属的尤妮斯·肯尼迪·施莱弗国家儿童健康与人类发展研究所资助[资助编号 T32HD040128]。）"
+  "zh_abstract": "摘要：在过去一年中，医学领域与临床AI的关系已从快速且往往带有推测性的采用，转向评估其对患者结局、临床工作流程和社会的影响。本文借鉴学习型健康系统人工智能研讨会（Symposium on AI for Learning Health Systems，SAIL）年度回顾（2026年5月），考察过去一年主导临床AI领域的六个关键方面：临床AI评估、工作流程整合、直接面向消费者的应用、监管与社会影响、医学教育中的AI，以及技术的基础性进展。AI在这些领域取得的成功并不均衡，反映出其“参差不齐的前沿”。我们重点介绍一些里程碑，以说明AI在医疗保健中已经取得的成就、其潜力以及未来仍面临的主要挑战。（由美国国立卫生研究院下属的尤妮斯·肯尼迪·施莱弗国家儿童健康与人类发展研究所资助[资助编号 T32HD040128]。）",
+  "also": [
+   {
+    "source": "NEJM AI",
+    "link": "https://ai.nejm.org/doi/full/10.1056/AIp2600817?af=R&rss=currentIssue"
+   }
+  ]
  },
  {
   "title": "PharmaAgent: a real-world evaluation of high- and low-autonomy agentic systems for inpatient vancomycin dosing",
@@ -14312,7 +14729,13 @@
   "keep": true,
   "type": "论文",
   "reason": "前瞻性设计含人机协作对照，但尚无结果、样本226例",
-  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Fondazione Policlinico Universitario Agostino Gemelli IRCCS；疾病：前列腺癌；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：226；状态：NOT_YET_RECRUITING（尚未招募）] 本研究的目标是了解一种名为 Prostate Intelligence（Pi）的人工智能（AI）软件在因疑似前列腺癌而接受前列腺 MRI 的成年有前列腺腺体人群中，于前列腺 MRI 上检测临床显著前列腺癌的准确程度。其主要旨在回答的问题是：- 单独使用 Pi 在患者层面检测临床显著前列腺癌（Gleason 分级 3+4 或更高）的敏感度和特异度如何？研究人员还将比较 Pi、单独放射科医生以及由 Pi 辅助的放射科医生，以观察 AI 辅助是否改变癌症检出。参与者将：* 作为其常规临床照护的一部分接受前列腺 MRI。每份 MRI 首先由放射科医生在不查看 AI 结果的情况下阅片；随后向该放射科医生展示 Pi 报告，由其生成最终的联合报告。* 如果 MRI 可疑，按常规实践接受靶向前列腺活检（最多两个病灶）。仅由 Pi 标记的区域也可能被活检。* 如果未接受活检，则在 MRI 后随访 12 个月，在 6 和 12 个月时进行 PSA 检测和临床评估，以确认不存在临床显著癌症。约 226 名参与者将在意大利两家中心入组（Fondazione Policlinico Universitario A. Gemelli IRCCS，罗马；IRCCS Ospedale San Raffaele，米兰）。"
+  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Fondazione Policlinico Universitario Agostino Gemelli IRCCS；疾病：前列腺癌；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：226；状态：NOT_YET_RECRUITING（尚未招募）] 本研究的目标是了解一种名为 Prostate Intelligence（Pi）的人工智能（AI）软件在因疑似前列腺癌而接受前列腺 MRI 的成年有前列腺腺体人群中，于前列腺 MRI 上检测临床显著前列腺癌的准确程度。其主要旨在回答的问题是：- 单独使用 Pi 在患者层面检测临床显著前列腺癌（Gleason 分级 3+4 或更高）的敏感度和特异度如何？研究人员还将比较 Pi、单独放射科医生以及由 Pi 辅助的放射科医生，以观察 AI 辅助是否改变癌症检出。参与者将：* 作为其常规临床照护的一部分接受前列腺 MRI。每份 MRI 首先由放射科医生在不查看 AI 结果的情况下阅片；随后向该放射科医生展示 Pi 报告，由其生成最终的联合报告。* 如果 MRI 可疑，按常规实践接受靶向前列腺活检（最多两个病灶）。仅由 Pi 标记的区域也可能被活检。* 如果未接受活检，则在 MRI 后随访 12 个月，在 6 和 12 个月时进行 PSA 检测和临床评估，以确认不存在临床显著癌症。约 226 名参与者将在意大利两家中心入组（Fondazione Policlinico Universitario A. Gemelli IRCCS，罗马；IRCCS Ospedale San Raffaele，米兰）。",
+  "also": [
+   {
+    "source": "PubMed · European urology focus",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43064602/"
+   }
+  ]
  },
  {
   "title": "Artificial Intelligence in Healthcare: From Predictive Models to Generative, Multimodal, and Agentic AI.",
@@ -19882,745 +20305,5 @@
   "type": "论文",
   "reason": "仅注册信息、无结果，观察性小规模；属增量档",
   "zh_abstract": "[新注册临床试验，尚无结果；申办者：南方医科大学第三附属医院；疾病：气胸、肠梗阻、椎弓峡部裂、肾结石；类型：观察性；入组人数：500；状态：尚未招募] 本研究检验一种人工智能（artificial intelligence, AI）工具是否能帮助放射科医生更准确地阅读X射线。放射科医生阅读X射线以发现肺炎、骨折和腹部问题等疾病。AI是一种用许多既往X射线训练过的计算机程序。它可能帮助放射科医生更快、更正确地发现疾病。本研究比较使用AI工具阅读X射线与不使用AI工具阅读X射线。谁参与 * 来自数家医院的十名放射科医生。* 来自大约300至500次既往医院就诊的X射线图像。* 不拍摄新的X射线。* 所有姓名和ID号码均从图像中移除。会发生什么 * 每位放射科医生两次阅读同一组X射线。* 一次，放射科医生不使用AI工具阅读。* 另一次，放射科医生可以看到AI结果。* 一半先不使用AI，然后切换到AI。另一半先使用AI，然后切换到不使用AI。* 两次之间有四周的间隔。* 研究人员测量每位放射科医生的准确度。他们还记录每张图像所需时间。可能的获益和风险 * 放射科医生可能不会获得直接的个人获益。* 结果可能显示AI未来是否能帮助医生更好地阅读X射线。* 这是一项低风险研究。AI工具从不直接告诉患者诊断。* 合格的放射科医生始终做出最终诊断。* 患者数据存储在锁定、加密的服务器上。"
- },
- {
-  "title": "Effect of Previsit AI-Generated Document Summaries on Consultation Time and Patient–Physician Communication — The AI-INFOCARE Randomized Controlled Trial",
-  "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600136?af=R&rss=currentIssue",
-  "date": "2026-10-15T05:00:00+00:00",
-  "source": "NEJM AI",
-  "source_group": "NEJM AI",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1056/AIoa2600136",
-  "pop": null,
-  "id": "2ed16e198634",
-  "score": 7,
-  "zh_title": "问诊前AI文档摘要对问诊时长与医患沟通的RCT",
-  "tags": [
-   "医学大模型",
-   "临床NLP",
-   "临床落地"
-  ],
-  "evidence": "同行评审",
-  "summary": "NEJM AI 刊出的随机对照试验，评估问诊前AI生成文档摘要对问诊时长与医患沟通的影响（仅见标题与刊载信息）。",
-  "abstract": "NEJM AI, Ahead of Print.",
-  "key_points": [
-   "随机对照试验设计",
-   "干预为问诊前AI生成文档摘要",
-   "结局为问诊时长与医患沟通"
-  ],
-  "processing": "model-enriched",
-  "section": "大模型与智能体",
-  "day": "2026-10-22",
-  "_abs_err": "page: HTTP Error 403: Forbidden",
-  "keep": true,
-  "type": "论文",
-  "reason": "RCT前瞻性设计并报告工作流与沟通结局，但未见结果与样本量，仅给到重要档下限",
-  "also": [
-   {
-    "source": "NEJM AI",
-    "link": "https://www.nejm.org/doi/full/10.1056/AIoa2600136?af=R&rss=currentIssue"
-   }
-  ]
- },
- {
-  "title": "Silent evaluation reveals context-dependent validity of automated metrics for AI-generated clinical messages",
-  "link": "https://www.nature.com/articles/s41746-026-03211-2",
-  "date": "2026-10-21T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03211-2",
-  "pop": null,
-  "id": "1d4e30feffcb",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "zh_title": "自动指标评估AI临床消息的有效性依赖情境",
-  "summary": "研究利用患者门户消息的分阶段部署，对比AI草稿展示组与未展示组，发现BLEU、ROUGE、BERTScore等自动指标与医生盲评的相关性随情境变化。",
-  "key_points": [
-   "展示组21073条，未展示组45127条",
-   "自动指标与医生盲评相关性依赖情境",
-   "2264条（11%）草稿被采纳，BERTScore F1为0.93"
-  ],
-  "section": "大模型与智能体",
-  "type": "论文",
-  "tags": [
-   "医学大模型",
-   "临床NLP",
-   "基准"
-  ],
-  "evidence": "同行评审",
-  "score": 6,
-  "reason": "大样本分阶段部署＋医生盲评，但无临床结局与外部验证，属值得一看档",
-  "processing": "model-enriched",
-  "day": "2026-10-22",
-  "abstract": "Abstract Evaluation of AI-generated patient communication lacks standardized frameworks, and automated metrics may not reflect clinical utility. We leveraged a staged rollout of GPT-generated draft responses (GDRs) to patient portal messages. Thirty primary care physicians received drafts from September 2023 to August 2024 under two conditions: an intervention group where AI drafts were displayed and edited ( n = 21,073), and a non-displayed group where drafts were generated but never shown to physicians, who composed responses independently ( n = 45,127). We evaluated messages using BLEU, ROUGE, BERTScore, and Flesch Reading Ease, and then correlated automated metrics with blinded physician ratings of effectiveness, misunderstanding potential, and harm. In the intervention group, 2264 (11%) drafts were incorporated into final messages with high semantic alignment (BERTScore F1 = 0.93). In the non-displayed group, independent physician messages showed moderate similarity to unseen drafts (BERTScore F1 = 0.83). Despite comparable semantic scores, physicians preferred human-authored messages (4.24/5). BERTScore correlated with physician quality ratings in the intervention group but not in the non-displayed. Automated metrics demonstrated context-dependent validity; they assessed editing fidelity but failed to evaluate whether AI-generated content matches independent human performance. Rigorous evaluation of clinical generative AI requires validation of metric meaning within specific use contexts.",
-  "zh_abstract": "对 AI 生成的患者沟通进行评估缺乏标准化框架，自动化指标可能无法反映临床效用。我们利用 GPT 生成的草稿回复（GDRs）在患者门户消息中的分阶段推广。30 名基层医生在 2023 年 9 月至 2024 年 8 月期间在两种条件下接收草稿：干预组显示并编辑 AI 草稿（n = 21,073），非显示组生成草稿但从未向医生展示，医生独立撰写回复（n = 45,127）。我们使用 BLEU、ROUGE、BERTScore 和 Flesch Reading Ease 评估消息，然后将自动化指标与盲法医生对有效性、误解可能性和危害的评分进行相关性分析。在干预组中，2264 份（11%）草稿被纳入最终消息，且语义一致性高（BERTScore F1 = 0.93）。在非显示组中，医生独立撰写的消息与未显示的草稿显示出中等相似性（BERTScore F1 = 0.83）。尽管语义得分相当，医生更偏好人类撰写的消息（4.24/5）。BERTScore 在干预组中与医生质量评分相关，但在非显示组中不相关。自动化指标表现出依赖情境的有效性；它们评估了编辑保真度，但未能评估 AI 生成内容是否与独立的人类表现相匹配。对临床生成式 AI 的严格评估需要在特定使用情境中验证指标含义。"
- },
- {
-  "title": "Artificial Intelligence–Enhanced Auscultation to Identify Left Ventricular Dysfunction — Development and External Validation in Prospective Multicenter Studies",
-  "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue",
-  "date": "2026-10-15T05:00:00+00:00",
-  "source": "NEJM AI",
-  "source_group": "NEJM AI",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1056/AIoa2600258",
-  "pop": null,
-  "id": "f7c5f26a4ecc",
-  "score": 6,
-  "zh_title": "AI辅助听诊识别左心室功能不全：前瞻性多中心外部验证",
-  "tags": [
-   "临床预测",
-   "生理信号",
-   "医疗器械"
-  ],
-  "evidence": "同行评审",
-  "summary": "NEJM AI在线发表，仅见标题信息：AI增强听诊用于左心室功能不全识别，并在前瞻性多中心研究中进行外部验证。",
-  "abstract": "NEJM AI, Ahead of Print.",
-  "key_points": [
-   "主题为AI增强听诊识别左心室功能不全",
-   "含前瞻性多中心研究设计及外部验证",
-   "仅标题可见，未见样本量与结果数据"
-  ],
-  "processing": "model-enriched",
-  "section": "临床预测与决策",
-  "day": "2026-10-22",
-  "_abs_err": "page: HTTP Error 403: Forbidden",
-  "keep": true,
-  "type": "论文",
-  "reason": "前瞻性多中心外部验证设计属加分，但条目仅标题、无结果数据",
-  "also": [
-   {
-    "source": "NEJM AI",
-    "link": "https://www.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue"
-   }
-  ]
- },
- {
-  "title": "Performance uncertainty in medical image analysis: A large-scale investigation of confidence intervals",
-  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004184?dgcid=rss_sd_all",
-  "date": "2026-10-20T03:40:50.887105+00:00",
-  "source": "Medical Image Analysis",
-  "source_group": "Medical Image Analysis",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "e2da4ee16bf1",
-  "score": 6,
-  "zh_title": "医学图像分析中的性能不确定性：置信区间大规模研究",
-  "tags": [
-   "医学影像",
-   "基准",
-   "可解释性"
-  ],
-  "evidence": "同行评审",
-  "summary": "《医学图像分析》刊发大规模研究，系统考察医学图像分析模型性能估计中置信区间的表现问题。",
-  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Pascaline André, Charles Heitz, Evangelia Christodoulou, Annika Reinke, Carole H. Sudre, Michela Antonelli, Patrick Godau, M. Jorge Cardoso, Antoine Gilson, Sophie Tezenas du Montcel, Gaël Varoquaux, Lena Maier-Hein, Olivier Colliot",
-  "key_points": [
-   "聚焦医学图像分析性能不确定性的量化",
-   "以置信区间为对象开展大规模考察",
-   "属评测方法学工作，未涉及临床结局"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "大规模方法学分析有参照价值，但仅见标题与作者信息",
-  "zh_abstract": "出版日期：2027 年 2 月 来源：Medical Image Analysis，第 116 卷 作者：Pascaline André、Charles Heitz、Evangelia Christodoulou、Annika Reinke、Carole H. Sudre、Michela Antonelli、Patrick Godau、M. Jorge Cardoso、Antoine Gilson、Sophie Tezenas du Montcel、Gaël Varoquaux、Lena Maier-Hein、Olivier Colliot"
- },
- {
-  "title": "Transparency features alone are insufficient for trust calibration in artificial intelligence diagnostic support.",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/42872605/",
-  "date": "2026-10-14T00:00:00+00:00",
-  "badge": "DOI 10.1093/jamia/ocag176",
-  "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
-  "source_group": "PubMed · 重点期刊",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "e7121554fcef",
-  "score": 6,
-  "zh_title": "透明度功能不足以校准临床医生对AI诊断的信任",
-  "tags": [
-   "可解释性",
-   "临床落地",
-   "公平与安全"
-  ],
-  "evidence": "同行评审",
-  "summary": "JAMIA随机对照实验纳入220名临床医生，比较无透明度、数值置信度与叙述性解释三种条件，均未显著影响信任或可信度感知。",
-  "abstract": "[Journal of the American Medical Informatics Association : JAMIA] Clinician trust in artificial intelligence (AI) is a frequently cited barrier to adoption, yet there is limited empirical evidence on how transparency features influence trust. This study aimed to address this evidence gap. We conducted a randomized controlled experiment in which 220 clinicians were randomized to 1 of 3 conditions: no transparency (control), numeric confidence scores, or narrative explanations with citations, using simulated AI diagnostic assistance across clinical case vignettes. Transparency did not influence tool-specific trust [F(2, 214) = 0.38, P = .68], global trust [F(2, 217) = 0.13, P = .88], or perceived information credibility [F(2, 210) = 0.42, P = .66]. Confidence increased following any AI assistance (+6.7%), but narrative explanations were associated with greater change in confidence compared with both control (P = .024) and numeric confidence (P = .0051). Participants changed or refined diagnoses after reviewing AI output 45.8% (SD 23.4%) of the time, with participants in the control group demonstrating higher levels of behavioral influence than transparency conditions (P = .0006). Trust, confidence, and behavioral influence represent distinct constructs and are impacted differently by transparency methods. The difference in these contributions to clinician-AI partnerships should be considered when designing for safe trust calibration, with particular consideration for the dissociation between trust and confidence. These findings suggest common interface transparency features alone failed to produce a detectable, meaningful shift in clinician trust in AI assistance and that changes may instead alter behavioral influence and confidence without a corresponding change in trust.",
-  "key_points": [
-   "220名临床医生随机分为三组进行病例情景实验",
-   "三种透明度条件对工具信任与总体信任均无显著差异",
-   "任何AI辅助后信心平均提升约6.7%"
-  ],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "对220名医生开展随机对照实验、设计规范，但属模拟情景、无临床结局",
-  "zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 临床医生对人工智能（AI）的信任是常被提及的采用障碍，然而关于透明度特征如何影响信任的实证证据有限。本研究旨在填补这一证据空白。我们开展了一项随机对照实验，将 220 名临床医生随机分配到 3 种条件中的 1 种：无透明度（对照）、数字置信度评分，或带有引用的叙述性解释，并在临床病例情景中使用模拟 AI 诊断辅助。透明度未影响工具特定信任 [F(2, 214) = 0.38, P = .68]、总体信任 [F(2, 217) = 0.13, P = .88] 或感知信息可信度 [F(2, 210) = 0.42, P = .66]。在任何 AI 辅助后置信度均增加（+6.7%），但与对照（P = .024）和数字置信度（P = .0051）相比，叙述性解释与更大的置信度变化相关。参与者在查看 AI 输出后改变或细化诊断的比例为 45.8%（SD 23.4%），其中对照组参与者表现出比透明度条件更高的行为影响水平（P = .0006）。信任、置信度和行为影响代表不同的构念，并受到透明度方法的不同影响。在设计安全的信任校准时应考虑这些对临床医生-AI 伙伴关系的贡献差异，尤其要考虑信任与置信度之间的分离。这些发现表明，仅常见的界面透明度特征未能对临床医生对 AI 辅助的信任产生可检测的、有意义的转变，并且这些变化可能反而改变行为影响和置信度，而没有相应的信任变化。"
- },
- {
-  "title": "[Articles] Status, challenges, and future directions of machine learning in the management of epilepsy: a systematic review and meta-analysis",
-  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00052-X/fulltext?rss=yes",
-  "date": "2026-09-03T22:30:04+00:00",
-  "source": "Lancet Digital Health",
-  "source_group": "Lancet Digital Health",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "d77e936503a6",
-  "score": 6,
-  "zh_title": "机器学习用于癫痫管理的系统综述与meta分析",
-  "tags": [
-   "临床预测",
-   "神经科学"
-  ],
-  "evidence": "同行评审",
-  "summary": "该系统综述与meta分析评估机器学习预测癫痫治疗结局的表现，指出异质性与偏倚限制其临床可用性。",
-  "abstract": "Although machine learning shows promise in predicting epilepsy treatment outcomes, the high heterogeneity and bias—particularly in small sample sizes, handling of missing data, and scarcity of studies with external validation—limit its clinical applicability. Future research should focus on larger, diverse datasets and standardised minimum reporting. Prospective trials are needed to evaluate machine learning models in real-world settings.",
-  "key_points": [
-   "系统综述与meta分析聚焦癫痫管理中的机器学习",
-   "主要局限：样本小、缺失数据处理、外部验证稀缺",
-   "建议扩大数据集、标准化最低报告并开展前瞻试验"
-  ],
-  "processing": "model-enriched",
-  "section": "临床预测与决策",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "系统综述+meta分析且结论明确，但纳入研究偏倚大、外部验证稀缺，未达重要档",
-  "zh_abstract": "尽管机器学习在预测癫痫治疗结局方面显示出前景，但高度异质性和偏倚——尤其是在样本量小、缺失数据处理以及具有外部验证的研究稀缺方面——限制了其临床适用性。未来研究应聚焦于更大、更多样化的数据集和标准化的最低报告要求。需要开展前瞻性试验以在真实世界环境中评估机器学习模型。"
- },
- {
-  "title": "[Articles] Performance and label efficiency of traditional deep-learning models and a retina-specific foundation model for ocular and systemic disease detection: a retrospective comparative study",
-  "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00054-3/fulltext?rss=yes",
-  "date": "2026-08-28T10:42:00+00:00",
-  "source": "Lancet Digital Health",
-  "source_group": "Lancet Digital Health",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "39c592058b0e",
-  "score": 6,
-  "zh_title": "传统深度学习与视网膜专用基础模型性能与标签效率对比",
-  "tags": [
-   "眼科",
-   "医学影像",
-   "基准"
-  ],
-  "evidence": "同行评审",
-  "summary": "《柳叶刀·数字健康》回顾性对比研究：大数据微调时传统模型与RETFound在眼病检测上性能相近，小数据微调时RETFound在全身疾病检测上占优。",
-  "abstract": "Under this specific study design, the performance of traditional deep-learning models is similar to that of RETFound for ocular disease detection when fine-tuned on large datasets. By contrast, RETFound shows an advantage in the detection of systemic disease when fine-tuned on smaller datasets. These findings offer insights into the respective merits and limitations of traditional models and foundation models. Future benchmarking on broader datasets is warranted.",
-  "key_points": [
-   "回顾性对比传统深度学习模型与RETFound",
-   "大样本微调下眼病检测性能相近",
-   "小样本微调下RETFound全身疾病检测有优势"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "回顾性对比研究，有方法学价值，但未见前瞻设计或临床结局证据",
-  "zh_abstract": "在这一特定研究设计下，当在大型数据集上进行微调时，传统深度学习模型在眼病检测方面的性能与 RETFound 相似。相比之下，当在较小数据集上进行微调时，RETFound 在系统性疾病检测方面显示出优势。这些发现为传统模型和基础模型各自的优点和局限性提供了见解。未来有必要在更广泛的数据集上进行基准测试。"
- },
- {
-  "title": "Noise2Match: Self-Supervised Low-Dose CT Denoising via Adaptive Inter-Slice Matching.",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/42886596/",
-  "date": "2026-10-16T00:00:00+00:00",
-  "badge": "DOI 10.1109/TMI.2026.3744092",
-  "source": "PubMed · IEEE transactions on medical imaging",
-  "source_group": "PubMed · 重点期刊",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "caa978e31af6",
-  "score": 5,
-  "zh_title": "Noise2Match：自适应层间匹配的自监督低剂量CT去噪",
-  "tags": [
-   "医学影像"
-  ],
-  "evidence": "同行评审",
-  "summary": "提出利用相邻CT切片相似性并处理非刚性错位的自监督低剂量CT去噪方法，无需配对干净数据。",
-  "abstract": "[IEEE transactions on medical imaging] With the rapid development of deep learning, supervised convolutional neural network methods have greatly improved the performance of low-dose computed tomography (CT) denoising. However, they require paired noisy-clean training data, which is difficult to obtain in practice. Some classic self-supervised denoising methods rely on the assumption of pixel-wise independent noise, making them ineffective for correlated noise in low-dose CT (LDCT) images. Considering the high similarity and weaker noise correlation between adjacent CT slices, several recently proposed self-supervised methods use adjacent LDCT slices for training. Nevertheless, these approaches fail to effectively account for the non-rigid mis-alignment between slices caused by anatomical variation, hindering them from satisfying the equal-mean condition required by the classic Noise2Noise framework. In this paper, we propose Noise2Match, a self-supervised LDCT denoising method based on adaptive inter-slice matching. Noise2Match introduces an inter-slice matching network to model the label transition process between adjacent slices, and then applies correction to the denoiser's outputs to better satisfy the equal-mean condition. We theoretically prove that, under idealized conditions, training Noise2Match using adjacent LDCT slices is equivalent to supervised training with paired noisy-clean images. We further find that Noise2Match can also effectively perform low-dose cone-beam CT (CBCT) denoising, which could be attributed to its correction operation that reduces inter-slice noise correlation. To the best of our knowledge, Noise2Match is the first effective image-domain self-supervised method for low-dose CBCT. Extensive experiments demonstrate that Noise2Match outperforms existing image-domain self-supervised methods, offering broader applicability and higher practical value.",
-  "key_points": [
-   "监督CNN去噪依赖难以获取的配对数据",
-   "经典自监督法假设噪声像素独立，不适用LDCT",
-   "针对切片间非刚性错位设计自适应匹配"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "方法有新意且发表于同行评审期刊，但摘要未体现外部验证或公开数据",
-  "zh_abstract": "[IEEE transactions on medical imaging] 随着深度学习的快速发展，监督式卷积神经网络方法已大幅提升低剂量计算机断层扫描（CT）去噪的性能。然而，这些方法需要配对的噪声-干净训练数据，而这在实际中难以获得。一些经典自监督去噪方法依赖于逐像素独立噪声的假设，使其对低剂量CT（LDCT）图像中的相关噪声无效。考虑到相邻CT层面之间的高度相似性和较弱噪声相关性，近期提出的若干自监督方法使用相邻LDCT层面进行训练。然而，这些方法未能有效考虑由解剖变异引起的层面间非刚性错位，阻碍其满足经典Noise2Noise框架所要求的等均值条件。本文提出Noise2Match，一种基于自适应层面间匹配的自监督LDCT去噪方法。Noise2Match引入层面间匹配网络来建模相邻层面之间的标签转移过程，然后对去噪器输出施加校正，以更好地满足等均值条件。我们从理论上证明，在理想化条件下，使用相邻LDCT层面训练Noise2Match等效于使用配对噪声-干净图像进行监督训练。我们进一步发现，Noise2Match也能有效执行低剂量锥形束CT（CBCT）去噪，这可能归因于其减少层面间噪声相关性的校正操作。据我们所知，Noise2Match是首个用于低剂量CBCT的有效图像域自监督方法。大量实验表明，Noise2Match优于现有图像域自监督方法，具有更广泛的适用性和更高的实用价值。"
- },
- {
-  "title": "Extending synthetic medical education: generating OSCE cases with LLMs",
-  "link": "https://www.nature.com/articles/s41746-026-03421-8",
-  "date": "2026-10-19T00:00:00+00:00",
-  "source": "npj Digital Medicine",
-  "source_group": "npj Digital Medicine",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.1038/s41746-026-03421-8",
-  "pop": null,
-  "id": "053eb508cbac",
-  "score": 4,
-  "zh_title": "用大语言模型生成OSCE考站病例",
-  "tags": [
-   "医学大模型",
-   "生成模型"
-  ],
-  "evidence": "同行评审",
-  "summary": "npj Digital Medicine 刊文探讨以大语言模型扩展合成式医学教育、生成OSCE病例（仅见标题信息）。",
-  "abstract": "npj Digital Medicine, Published online: 19 October 2026; doi:10.1038/s41746-026-03421-8 Extending synthetic medical education: generating OSCE cases with LLMs",
-  "key_points": [
-   "主题为大语言模型生成OSCE病例",
-   "属合成式医学教育方向",
-   "仅见标题与刊载信息，未见方法与结果"
-  ],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-  "keep": true,
-  "type": "论文",
-  "reason": "医学教育应用，仅标题信息、无方法与评估结果，属增量档"
- },
- {
-  "title": "Hierarchical visual prompt disentanglement for continual rare disease diagnosis",
-  "link": "https://www.sciencedirect.com/science/article/pii/S136184152600424X?dgcid=rss_sd_all",
-  "date": "2026-10-20T03:40:50.887105+00:00",
-  "source": "Medical Image Analysis",
-  "source_group": "Medical Image Analysis",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "8839a219052c",
-  "score": 4,
-  "zh_title": "分层视觉提示解耦的罕见病持续诊断",
-  "tags": [
-   "医学影像"
-  ],
-  "evidence": "同行评审",
-  "summary": "Medical Image Analysis 将发表基于分层视觉提示解耦的持续学习罕见病诊断方法（仅见标题与作者信息）。",
-  "abstract": "Publication date: February 2027 Source: Medical Image Analysis, Volume 116 Author(s): Yang Hu, Yuanyuan Chen, Qingjie Zeng, Yong Xia",
-  "key_points": [
-   "面向罕见病诊断的持续学习方法",
-   "采用分层视觉提示解耦策略",
-   "仅见题录信息，未见实验与验证细节"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "also": [
-   {
-    "source": "PubMed · Medical image analysis",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42893626/"
-   }
-  ],
-  "_abs_err": "page: HTTP Error 403: Forbidden",
-  "keep": true,
-  "type": "论文",
-  "reason": "图像方法类题录，信息仅限标题与期刊，无对比与验证信息"
- },
- {
-  "title": "Overview of CHIP 2026 Shared Task 1: Patient-Specific Phenotype Concept Recognition in Full-Text Biomedical Literature",
-  "link": "https://arxiv.org/abs/2610.29606",
-  "date": "2026-10-21T11:45:35+00:00",
-  "source": "arXiv",
-  "source_group": "arXiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "arXiv 2610.29606",
-  "pop": null,
-  "id": "c1e1005acdfe",
-  "keep": true,
-  "zh_title": "CHIP 2026共享任务一：患者级表型概念识别概述",
-  "summary": "介绍CHIP 2026共享任务一，基于200篇标注全文文献做患者级表型概念识别与关联。",
-  "key_points": [
-   "数据来自 PatientPheX 的 200 篇标注全文",
-   "含 506 名患者、15193 条表型提及",
-   "设全文识别与患者关联两个子任务"
-  ],
-  "section": "大模型与智能体",
-  "type": "论文",
-  "tags": [
-   "临床NLP",
-   "数据集",
-   "基准"
-  ],
-  "evidence": "预印本",
-  "score": 5,
-  "reason": "发布新标注数据与共享任务，规模中等且尚无方法结果，属值得一看档",
-  "processing": "model-enriched",
-  "abstract": "Automatic phenotype information extraction plays an important role in rare disease diagnosis, genotype-phenotype analysis, and precision medicine. However, accurately identifying phenotype concepts and determining their associations with specific patients remain challenging, particularly in full-text biomedical articles involving multiple patients and complex clinical descriptions. This paper presents an overview of CHIP 2026 Shared Task 1, which aims to promote the development of methods for patient-specific phenotype concept recognition from full-text biomedical literature. The task consists of two subtasks: full-text phenotype concept recognition and patient-specific phenotype association. For this evaluation, we used 200 annotated full-text biomedical articles from the PatientPheX dataset, containing 506 patients, 15,193 phenotype mentions, and 5,656 patient-phenotype associations. A total of 455 teams registered for the competition, with 189 and 103 valid submissions received on the Phase A and Phase B leaderboards, respectively. The best-performing system achieved an overall score of 0.7389 on the final test set, outperforming the baseline by 8.37 percentage points. The top-performing teams explored diverse approaches combining biomedical language models, large language models (LLMs), and ensemble strategies. The evaluation results highlight both the potential of these approaches and the remaining challenges in patient attribution and phenotype normalization from full-text biomedical literature. The post-evaluation phase remains open at https://tianchi.aliyun.com/competition/entrance/532512.",
-  "zh_abstract": "自动表型信息抽取在罕见病诊断、基因型-表型分析和精准医学中发挥着重要作用。然而，准确识别表型概念并确定其与特定患者的关联仍然具有挑战性，特别是在涉及多名患者和复杂临床描述的全文本生物医学文章中。本文概述CHIP 2026共享任务1，该任务旨在促进从全文本生物医学文献中进行患者特异性表型概念识别的方法开发。该任务包括两个子任务：全文本表型概念识别和患者特异性表型关联。本次评估中，我们使用了来自PatientPheX数据集的200篇标注全文本生物医学文章，包含506名患者、15,193个表型提及和5,656个患者-表型关联。共有455支团队注册参赛，Phase A和Phase B排行榜分别收到189份和103份有效提交。表现最佳的系统在最终测试集上总体得分为0.7389，比基线高出8.37个百分点。表现最佳的团队探索了结合生物医学语言模型、大语言模型（LLMs）和集成策略的多种方法。评估结果既突出了这些方法的潜力，也突出了从全文本生物医学文献中进行患者归属和表型标准化所面临的剩余挑战。评估后阶段仍在以下网址开放：https://tianchi.aliyun.com/competition/entrance/532512。",
-  "day": "2026-10-22"
- },
- {
-  "title": "Artificial Intelligence in Chronic Rhinosinusitis: From Molecular Profiling to Personalized Clinical Management-A Systematic Review.",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/42884055/",
-  "date": "2026-10-01T00:00:00+00:00",
-  "badge": "DOI 10.3390/ijms27198812",
-  "source": "PubMed · International journal of molecular sciences",
-  "source_group": "PubMed",
-  "home": "",
-  "evidence_hint": "同行评审",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "8344e49ecb44",
-  "score": 5,
-  "zh_title": "慢性鼻窦炎中的人工智能：从分子分型到个体化管理系统综述",
-  "tags": [
-   "临床预测",
-   "病理"
-  ],
-  "evidence": "同行评审",
-  "summary": "系统综述纳入31项研究，显示AI可助慢性鼻窦炎内型分层，但聚类方案异质性大、可重复性存疑。",
-  "abstract": "[International journal of molecular sciences] Chronic rhinosinusitis (CRS) is a heterogeneous inflammatory disease imposing a substantial health and economic burden. Artificial intelligence (AI) has emerged as a promising tool to address CRS complexity in both clinical and research settings. We conducted a systematic review following PRISMA guidelines, searching PubMed, Web of Science, and Embase for peer-reviewed articles utilizing machine learning, deep learning, and natural language processing, with a focus on molecular-level or immunologic mechanisms in CRS. Thirty-one studies were included in the qualitative synthesis. Our results demonstrate that while AI-driven analysis helps stratify patient endotypes, the identified schemes exhibit substantial heterogeneity in cluster numbers and features, raising concerns about their reproducibility. AI applications also included histopathological image interpretation, drug discovery, biologic therapy selection, and prognostic modeling to evaluate revision surgery risks and olfactory dysfunction. However, using the PROBAST+AI framework, we found that 87.1% of the assessed studies carry a high overall risk of bias, mainly due to the reliance on apparent performance or internal validation and limited independent evaluation of model performance, indicating that many reported performance estimates may be optimistic. Future large-scale, multicenter collaborations integrating AI into clinical workflows will be essential to establish reliable and generalizable AI applications for personalized CRS management.",
-  "key_points": [
-   "按PRISMA检索三个数据库，纳入31项研究",
-   "AI用于患者内型分层，但聚类数目与特征差异大",
-   "纳入研究含组织病理学等应用方向"
-  ],
-  "processing": "model-enriched",
-  "section": "临床预测与决策",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "系统综述纳入31项研究、结论明确，但异质性大，证据有限",
-  "zh_abstract": "[International journal of molecular sciences] 慢性鼻窦炎（CRS）是一种异质性炎症性疾病，造成沉重的健康和经济负担。人工智能（AI）已成为在临床和研究环境中应对 CRS 复杂性的一种有前景的工具。我们按照 PRISMA 指南开展了一项系统综述，检索 PubMed、Web of Science 和 Embase 中使用机器学习、深度学习和自然语言处理的同行评议文章，重点关注 CRS 中的分子水平或免疫学机制。31 项研究被纳入定性综合。我们的结果表明，虽然 AI 驱动分析有助于对患者内型进行分层，但所识别的方案在聚类数量和特征上表现出显著异质性，引发对其可重复性的担忧。AI 应用还包括组织病理学图像解读、药物发现、生物制剂治疗选择，以及评估翻修手术风险和嗅觉功能障碍的预后建模。然而，使用 PROBAST+AI 框架，我们发现 87.1% 的评估研究具有高总体偏倚风险，主要由于依赖表观性能或内部验证以及对模型性能的独立评估有限，表明许多报告的性能估计可能过于乐观。未来将 AI 整合到临床工作流程中的大规模、多中心合作对于建立可靠且可泛化的 AI 应用以实现个性化 CRS 管理至关重要。"
- },
- {
-  "title": "OncoReg: Medical Image Registration for Oncological Challenges",
-  "link": "https://arxiv.org/abs/2503.23179",
-  "date": "2026-10-19T00:00:00+00:00",
-  "source": "arXiv",
-  "source_group": "arXiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "arXiv 2503.23179",
-  "pop": null,
-  "id": "4be2193d0037",
-  "score": 5,
-  "zh_title": "OncoReg：面向肿瘤挑战的医学图像配准",
-  "tags": [
-   "医学影像",
-   "基准",
-   "隐私与联邦学习"
-  ],
-  "evidence": "预印本",
-  "summary": "arXiv预印本介绍OncoReg挑战赛，采用公开数据与院内私有数据两阶段框架，在保护隐私前提下开发可泛化的肿瘤图像配准方法。",
-  "abstract": "In modern cancer research, the vast volume of medical data generated is often underutilised due to challenges related to patient privacy. The OncoReg Challenge addresses this issue by enabling researchers to develop and validate image registration methods through a two-phase framework that ensures patient privacy while fostering the development of more generalisable AI models. Phase one involves working with a publicly available dataset, while phase two focuses on training models on a private dataset within secure hospital networks. OncoReg builds upon the foundation established by the Learn2Reg Challenge by incorporating the registration of interventional cone-beam computed tomography with standard planning fan-beam CT images in radiotherapy. Accurate image registration is crucial in oncology, particularly for dynamic treatment adjustments in image-guided radiotherapy, where precise ali",
-  "key_points": [
-   "两阶段框架兼顾隐私与模型泛化",
-   "纳入放疗锥形束CT与计划扇形束CT配准",
-   "延续Learn2Reg挑战赛基础"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "隐私保护的影像配准挑战与基准设计有新意，但为预印本且无结果数据",
-  "zh_abstract": "在现代癌症研究中，由于患者隐私相关挑战，所产生的大量医学数据往往未得到充分利用。OncoReg Challenge（OncoReg 挑战赛）通过一个两阶段框架应对这一问题，使研究人员能够开发和验证图像配准方法，该框架在确保患者隐私的同时促进开发更具泛化能力的 AI 模型。第一阶段涉及使用公开可用的数据集，而第二阶段侧重于在安全医院网络内基于私有数据集训练模型。OncoReg 在 Learn2Reg Challenge（Learn2Reg 挑战赛）所建立的基础上构建，将介入性锥形束计算机断层扫描（cone-beam computed tomography）与放疗中标准计划扇形束 CT 图像的配准纳入其中。准确的图像配准在肿瘤学中至关重要，尤其是在图像引导放疗中的动态治疗调整中，其中精确的 ali"
- },
- {
-  "title": "AMA Outlines Path Forward for FDA Oversight of Generative AI in Medicine",
-  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTQ2QlpWS0JURGFCdUZJeEI3Q3NHOVAySTBRcWZVTGtkNmxqa2QyVGlfWDJvWm8xb1hrUVVIbEJRLUtrZjhCODNadmppaXhrUUt6N3M2MEhwblJVQmZ3UFJ0c0tfQjhwVXVxZk9hZ25Ia3VUbDNJZnJlUUR0dWJoTWlpaTF6b1R2N0hBaGZaVUowT2ZoZVlHTVoxU09yVFQ0eXRLd2d2dlhlWXFPbHYycEpsbHg1VmtwVm9EZEdR?oc=5",
-  "date": "2026-10-19T18:18:07+00:00",
-  "source": "Florida Hospital News and Healthcare Report",
-  "source_group": "Google News · FDA AI",
-  "home": "https://southfloridahospitalnews.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "7d96808df03b",
-  "score": 5,
-  "zh_title": "AMA就FDA监管医疗生成式AI提出路径建议",
-  "tags": [
-   "监管政策",
-   "医学大模型"
-  ],
-  "evidence": "新闻",
-  "summary": "美国医学会发文阐述对FDA监管医疗生成式AI的路径建议（仅有标题，未读正文）。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "监管",
-  "reason": "重要行业组织就监管路径表态，具政策信息量，非正式法规"
- },
- {
-  "title": "Pre-Treatment Breast DCE-MRI AI Model to Predict Neoadjuvant Chemotherapy Benefit in Locally Advanced Triple-Negative Breast Cancer",
-  "link": "https://clinicaltrials.gov/study/NCT07880600",
-  "date": "2026-10-19T00:00:00+00:00",
-  "badge": "NCT07880600",
-  "source": "ClinicalTrials.gov",
-  "source_group": "ClinicalTrials.gov",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "f9266af58edb",
-  "score": 4,
-  "zh_title": "乳腺癌DCE-MRI AI预测新辅助化疗获益的前瞻多中心研究",
-  "tags": [
-   "医学影像",
-   "肿瘤",
-   "临床预测"
-  ],
-  "evidence": "新闻",
-  "summary": "福建肿瘤医院发起的多中心前瞻观察性研究，计划入组120例局部晚期三阴性乳腺癌，评估治疗前DCE-MRI的AI模型预测新辅助化疗获益的表现。",
-  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Fujian Cancer Hospital; conditions: Breast Neoplasm Female, Triple -Negative Breast Cancer; type: OBSERVATIONAL; enrollment: 120; status: RECRUITING] This study is a multicenter, prospective, observational cohort study to evaluate the predictive performance of pre-treatment DCE-MRI-based artificial intelligence (AI) models for neoadjuvant chemotherapy benefit in locally advanced triple-negative breast cancer. The study plans to enroll eligible locally advanced triple-negative breast cancer patients receiving routine standard neoadjuvant chemotherapy and stratify participants into high-benefit and low-benefit subgroups via the established AI model based on baseline breast DCE-MRI images. All enrolled patients will undergo systematic collection of baseline clinical-pathological data, pre-treatment DCE-MRI scans, neoadjuvant chemotherapy regimens, pathological complete response (pCR) status, objective response rate (ORR), and long-term survival endpoints including disease-free survival (DFS) and overall survival (OS). The primary objective compares the pCR rate between AI-defined high-benefit patients and published historical control data; secondary analyses compare ORR, pCR proportion, DFS and OS between AI-stratified high-benefit and low-benefit subgroups to comprehensively verify the clinical value of this imaging AI model for individualized neoadjuvant chemotherapy selection.",
-  "key_points": [
-   "多中心前瞻观察设计，计划入组120例",
-   "以基线DCE-MRI图像用AI模型划分高低获益组",
-   "采集临床病理与影像数据，尚无结果"
-  ],
-  "processing": "model-enriched",
-  "section": "影像与病理",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "前瞻多中心设计加分，但仅注册、样本120例且无结果，属增量档",
-  "zh_abstract": "【新注册临床试验，尚无结果；申办者：福建省肿瘤医院；疾病：女性乳腺肿瘤、三阴性乳腺癌；类型：观察性；入组人数：120；状态：招募中】本研究是一项多中心、前瞻性、观察性队列研究，旨在评估基于治疗前DCE-MRI的人工智能（AI）模型对局部晚期三阴性乳腺癌新辅助化疗获益的预测性能。研究计划纳入符合条件的、接受常规标准新辅助化疗的局部晚期三阴性乳腺癌患者，并基于基线乳腺DCE-MRI图像，通过已建立的AI模型将参与者分为高获益和低获益亚组。所有入组患者将系统收集基线临床-病理数据、治疗前DCE-MRI扫描、新辅助化疗方案、病理完全缓解（pCR）状态、客观缓解率（ORR）以及长期生存终点，包括无病生存期（DFS）和总生存期（OS）。主要目标是比较AI定义的高获益患者与已发表历史对照数据之间的pCR率；次要分析比较AI分层的高获益和低获益亚组之间的ORR、pCR比例、DFS和OS，以全面验证该影像AI模型在个体化新辅助化疗选择中的临床价值。"
- },
- {
-  "title": "Introducing Infrastructure as Code for deployment and governance of medical AI: A case study",
-  "link": "https://www.medrxiv.org/content/10.64898/2026.10.12.26365327v1?rss=1",
-  "date": "2026-10-13T00:00:00+00:00",
-  "source": "medRxiv",
-  "source_group": "medRxiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.64898/2026.10.12.26365327",
-  "pop": null,
-  "id": "cbbe00322e79",
-  "score": 5,
-  "zh_title": "医疗AI部署与治理的基础设施即代码案例",
-  "tags": [
-   "临床落地",
-   "隐私与联邦学习"
-  ],
-  "evidence": "预印本",
-  "summary": "预印本单中心案例：用基础设施即代码方式部署受治理的私有临床AI，实现合规访问与数据分析。",
-  "abstract": "Clinical AI deployment rarely reaches the bedside because both workstation integration and governed backend provisioning are challenging. We introduce a workflow that allows rapid and governed access to AI functionalities through a browser interface or API, enabling privacy-compliant data analysis. The complex setup for compliant healthcare applications such as a secure backend, private AI model endpoint, and managed identity configuration is encoded by itself, a concept known as Infrastructure as Code (IaC). IaC is a concept in which networks, access rights, and service endpoints are written down as machine-readable files that can be reviewed once and executed identically in any institution. Here, we apply this concept to a clinical use case. The process of deploying a governed, private clinical AI solution using this approach in a tertiary care center took, on average, 310.3 {+/-} 196.6 seconds (n=25, mean {+/-} SD). To further demonstrate the clinical value of this approach, we developed and deployed an LLM-based inconsistency checker, which identifies textual inconsistency in medical documents. When evaluating the tool on a set of 1,347 physician-approved clinical documents, the tool flagged a clinically severe inconsistency in 105 clinical documents (7.8%, approximately 1 in 13). In a severity-stratified physician audit, 149 of 150 sampled findings were confirmed (population-weighted PPV 98.2%; CI 94.8 - 100.0). In summary, we present the application of IaC frameworks to a healthcare use case and demonstrate that clinically useful AI applications can be deployed to physician workstations in hospital-governed cloud environments within a few minutes. DescriptionTo overcome the implementation barriers for use of AI in healthcare, we adapted Infrastructure as Code to a clinical use case and deployed a hospital-governed large language model service that clinicians reach from a browser without workstation software. Provisioned by Infrastructure as Code the service became available in 310 seconds on average, and its first clinical application, an inconsistency checker, detected inconsistencies in clinical documents with high positive predictive value.",
-  "key_points": [
-   "把网络、权限、服务端点写成机器可读文件",
-   "同一配置可在不同机构一致复现执行",
-   "三级中心部署平均耗时约310（±196，单位未标注）"
-  ],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "单中心实施案例，有流程细节但无对照与结局评估，属值得一看档",
-  "zh_abstract": "临床AI部署很少能到达床旁，因为工作站集成和受治理的后端配置都具有挑战性。我们介绍一种工作流程，可通过浏览器界面或API快速且受治理地访问AI功能，从而实现符合隐私要求的数据分析。合规医疗应用（如安全后端、私有AI模型端点以及托管身份配置）的复杂设置本身被编码，这一概念称为基础设施即代码（Infrastructure as Code, IaC）。IaC是这样一种概念：网络、访问权限和服务端点被写成机器可读文件，这些文件可被审查一次，并在任何机构中以相同方式执行。在此，我们将这一概念应用于一个临床用例。在一家三级医疗中心使用该方法部署受治理的私有临床AI解决方案的过程平均耗时310.3 ± 196.6秒（n=25，均值 ± 标准差）。为进一步证明该方法的临床价值，我们开发并部署了一个基于LLM的不一致性检查器，用于识别医疗文档中的文本不一致性。在1,347份经医生批准的临床文档集合上评估该工具时，该工具在105份临床文档中标记出临床严重的不一致性（7.8%，约每13份中1份）。在一项按严重程度分层的医生审核中，150个抽样发现中有149个得到确认（人群加权PPV 98.2%；CI 94.8 - 100.0）。总之，我们展示了IaC框架在医疗用例中的应用，并证明在医院治理的云环境中，可在几分钟内将具有临床价值的AI应用部署到医生工作站。描述：为克服在医疗保健中使用AI的实施障碍，我们将基础设施即代码适配到一个临床用例，并部署了一项由医院治理的大型语言模型服务，临床医生可从浏览器访问，而无需工作站软件。通过基础设施即代码进行配置后，该服务平均在310秒内可用，其首个临床应用——一个不一致性检查器——以高阳性预测值检测到临床文档中的不一致性。"
- },
- {
-  "title": "LLM Psychiatric Intake AI Clinical Performance Study",
-  "link": "https://clinicaltrials.gov/study/NCT07875816",
-  "date": "2026-10-15T00:00:00+00:00",
-  "badge": "NCT07875816",
-  "source": "ClinicalTrials.gov",
-  "source_group": "ClinicalTrials.gov",
-  "home": "",
-  "evidence_hint": "",
-  "thin_src": false,
-  "thin": false,
-  "pop": null,
-  "id": "89ba898d5f0e",
-  "score": 4,
-  "zh_title": "大模型精神科接诊辅助系统临床性能试验注册",
-  "tags": [
-   "医学大模型",
-   "心理健康",
-   "智能体"
-  ],
-  "evidence": "新闻",
-  "summary": "韩国江南Severance医院注册120例介入性试验，评估大模型精神科接诊支持系统对家属进行自适应访谈并生成结构化报告的表现。",
-  "abstract": "[Newly registered clinical trial, no results yet; sponsor: Gangnam Severance Hospital; conditions: Mental Disorders; type: INTERVENTIONAL; phase: NA; enrollment: 120; status: ACTIVE_NOT_RECRUITING] This study will evaluate the clinical performance and applicability of a large language model-based psychiatric intake support system for caregivers of patients undergoing an initial or re-intake psychiatric evaluation. Caregivers will complete a single adaptive AI interview remotely before the scheduled outpatient visit. The system will generate a structured clinician-facing report and diagnostic screening candidates for nine prespecified target conditions. Treating clinicians will review the AI-generated information while retaining full authority over the final clinical assessment and diagnosis. The system will be evaluated in terms of diagnostic-assistance performance, interview and information-collection performance, documentation quality, acceptability and user experience, and safety.",
-  "key_points": [
-   "单中心注册120例，状态为在招但未招募",
-   "系统对看护者远程自适应访谈并生成供医生报告",
-   "针对9种预设目标疾病给出筛查候选，医生保留最终诊断权"
-  ],
-  "processing": "model-enriched",
-  "section": "大模型与智能体",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "仅为新注册试验方案，尚无结果，样本量小",
-  "zh_abstract": "[新注册临床试验，尚无结果；申办者：Gangnam Severance Hospital；疾病：精神障碍；类型：干预性（INTERVENTIONAL）；分期：NA；入组人数：120；状态：活跃但未招募（ACTIVE_NOT_RECRUITING）] 本研究将评估一种基于大语言模型的精神科接诊支持系统在接受初次或再次精神科接诊评估的患者的照顾者中的临床性能和适用性。照顾者将在预定门诊就诊前远程完成一次自适应AI访谈。该系统将生成面向临床医生的结构化报告，以及针对九种预设目标疾病的诊断筛查候选。治疗临床医生将审查AI生成的信息，同时保留对最终临床评估和诊断的完全权限。该系统将接受评估，评估方面包括诊断辅助性能、访谈与信息收集性能、文档质量、可接受性与用户体验，以及安全性。"
- },
- {
-  "title": "Protege推出独立医疗AI测试，Disease Odyssey揭示诊断差距",
-  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOelYxVVRPeHdIWHc3UVk5ZExYRXowOFB0dkhnRGlEeE9pTVdvRXJ6d01Qbmw4MnpvZG9XZUtxSjZkV3F0dVN5QlJYNklHRHNsNEloM1cyVWdjVWRVbEIyLTBPNUc2bWQzeF9WOHJFOEd1SmhLbndIMUJjRDJLNVBvOF91YkJCWS02cWplRThtSmNMaVpNbnFGRnFnYmw3TEtYNnVsT016RE1XRU96bFFPaXpUVTNwblUwbTM4?oc=5",
-  "date": "2026-10-21T13:21:44+00:00",
-  "source": "Unite.AI",
-  "source_group": "Google News · 中文医疗AI",
-  "home": "https://www.unite.ai",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": true,
-  "badge": "",
-  "pop": null,
-  "id": "00504a9db162",
-  "keep": true,
-  "zh_title": "Protege推出独立医疗AI测试，揭示诊断差距",
-  "summary": "Protege推出独立医疗AI测试，Disease Odyssey据称揭示诊断差距（仅标题）。",
-  "key_points": [],
-  "section": "落地与监管",
-  "type": "监管",
-  "tags": [
-   "临床落地",
-   "医疗器械"
-  ],
-  "evidence": "新闻",
-  "score": 4,
-  "reason": "第三方AI评测产品发布，仅标题、无方法与结果细节",
-  "processing": "model-enriched",
-  "day": "2026-10-22"
- },
- {
-  "title": "Beyond the Scribe: Using Nominal Group Technique to Co-Design an Evaluation Framework for Patient-Held AI",
-  "link": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365669v1?rss=1",
-  "date": "2026-10-19T00:00:00+00:00",
-  "source": "medRxiv",
-  "source_group": "medRxiv",
-  "home": "",
-  "evidence_hint": "预印本",
-  "thin_src": false,
-  "thin": false,
-  "badge": "DOI 10.64898/2026.10.15.26365669",
-  "pop": null,
-  "id": "4336e5ea527f",
-  "score": 3,
-  "zh_title": "用名义群体技术共建患者端AI评价框架",
-  "tags": [
-   "临床落地",
-   "心理健康"
-  ],
-  "evidence": "预印本",
-  "summary": "medRxiv预印本，与大型科技公司合作，用名义群体技术共同设计患者持有的AI个人健康助手在真实场景中的评价框架。",
-  "abstract": "The explosive growth of ambient AI scribes in healthcare has focused almost exclusively on relieving clinician documentation burdens and enhancing clinician efficiency and reducing burnout. While most research has focused on the clinician experience, these same types of tools, such as a patient held AI Personal Health Assistant, can be put in the hands of patients to facilitate communication with healthcare providers, to provide greater autonomy and activation for patients in managing their own healthcare, and to facilitate the task of receiving and retaining complex new information. However, to ensure these tools serve as more than just administrative aids, we partnered with a large technology company to conceptually codesign how such a tool might be studied in real world settings in a way that reflected outcomes of greatest importance to patients and families. We used the Nominal Group Technique and engaged thirty three patients and caregivers and ten multidisciplinary clinicians in structured virtual sessions to identify the outcomes on which subsequent studies should hinge. Our findings reveal a significant misalignment between current industry trends and patient priorities. While the market emphasizes the scribe function for billing, stakeholders overwhelmingly prioritized the AIPHAs role in longitudinal care management and post visit coordination. The most critical outcome identified was the impact on communication and respect, suggesting that patients view AI as a mechanism to improve the human to human dynamic and ensure a shared understanding of the care plan. Our findings further highlighted that the primary hurdle for the use of patient held AI is not technical utility but clinician trust and the need for formal consent processes. Importantly, as this technology is new and integration into the clinical experience is still being explored, patients cannot assume they will have access to the transcript of their own encounter when that record is created and held by the health system. This gap highlights the potential value of a patient held tool, preserving discussions from their visit and follow up steps in clearer detail than they may receive in their clinical note or traditional visit summary. From a system perspective, this transition requires a strategic shift from measuring workflow focused efficiency to measuring patient side advocacy and engagement. By centering the evaluation of AI on these patient defined metrics and fundamentally designin",
-  "key_points": [
-   "聚焦患者端AI健康助手而非医生文书",
-   "采用名义群体技术开展共识式共创",
-   "以患者与家庭最看重的结局为评价核心"
-  ],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "论文",
-  "reason": "方法学共创类预印本，无模型性能或结局数据，属增量档",
-  "zh_abstract": "医疗领域中环境式AI记录工具（ambient AI scribes）的爆发式增长几乎只关注减轻临床医生文书负担、提高临床医生效率并减少职业倦怠。虽然大多数研究聚焦于临床医生体验，但同类工具，例如患者持有的AI个人健康助理（AI Personal Health Assistant，AIPHA），可以交到患者手中，以促进与医疗服务提供者的沟通，为患者管理自身医疗提供更大的自主权和激活度，并帮助患者接收和记住复杂的新信息。然而，为确保这些工具不仅仅作为行政辅助工具发挥作用，我们与一家大型科技公司合作，从概念上共同设计如何在真实世界环境中研究此类工具，使其反映对患者和家庭最重要的结局。我们采用名义群体技术（Nominal Group Technique），让33名患者和照护者以及10名多学科临床医生参与结构化虚拟会议，以确定后续研究应围绕的结局指标。我们的发现揭示了当前行业趋势与患者优先事项之间的显著错位。市场强调用于计费的记录功能，而利益相关者绝大多数优先考虑AIPHA在纵向照护管理和就诊后协调中的作用。所确定的最关键结局是对沟通和尊重的影响，这表明患者将AI视为改善人与人之间互动并确保对诊疗计划形成共同理解的机制。我们的发现进一步强调，使用患者持有的AI的主要障碍不是技术效用，而是临床医生信任以及正式知情同意流程的需求。重要的是，由于该技术尚新且融入临床体验的方式仍在探索中，当记录由卫生系统创建并持有时，患者不能假定自己能够获取其自身就诊的转录文本。这一差距凸显了患者持有工具的潜在价值，它能以比患者从临床记录或传统就诊摘要中可能获得的更清晰细节，保存其就诊讨论和随访步骤。从系统角度看，这一转变要求战略重心从衡量以工作流程为中心的效率转向衡量患者侧的倡导和参与。通过将AI评估集中于这些由患者定义的指标，并从根本上设计"
- },
- {
-  "title": "St Vincent's Australia convenes first national AI Clinical Council",
-  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTXR0NHgtbjVUeEdOdjE3SHNKZEpaMTBSQkJoaEwyWkZLNmNiUVR3bk5QVUV2ZHE1Wm8wUWhFdkhLd0lNRjh6NDhPUThUTVBfLWNtUUxJamZSZDZQMW93ZUFocjRjU09WMUY1bUVsNktXNFFnUkZnWjR2MzBkaVdxUkNLY0Rmak40THRZQXhoSDlXdHZ4TzJycWROaXpnZm0ySVRncURzNFp1aFk?oc=5",
-  "date": "2026-10-19T04:01:13+00:00",
-  "source": "Healthcare IT News",
-  "source_group": "Google News · 行业媒体",
-  "home": "https://www.healthcareitnews.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": false,
-  "badge": "",
-  "pop": null,
-  "id": "ec79dff4ab29",
-  "score": 3,
-  "zh_title": "澳大利亚圣文森特医院牵头成立首个全国 AI 临床委员会",
-  "tags": [
-   "临床落地",
-   "监管政策"
-  ],
-  "evidence": "新闻",
-  "summary": "仅据标题：澳大利亚圣文森特医院召集成立首个全国性 AI 临床委员会。",
-  "abstract": "",
-  "key_points": [],
-  "processing": "model-enriched",
-  "section": "落地与监管",
-  "day": "2026-10-22",
-  "keep": true,
-  "type": "监管",
-  "reason": "仅标题级治理动态，无细节无效果数据，属增量档；标题-only 上限 6"
- },
- {
-  "title": "Tempus Presents Data Demonstrating AI-Enabled Pre-Screening Can Help Identify Patients for Biomarker Testing in NSCLC",
-  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM2hWYmF4Zm1ERUVXdnFZY3JvQjlaWmlvaVJsVEtrdGdONmJ3TDlGQkJlY2Y0RVFSWE9vN3hqQ1ptUFpkVkxrNDh5N1o1eUlSaU1iX0RoR0ozQS16eHItd25MSkhnaHVoa3pQZWdMRG00bUZVdnJJMzZ4MThLYU5STlo4RkZaQVktUmg4YlpLUkV4VTZxd192OFFXTDBVVXR0bFFTckpGTS15cEtNNGN3SHBTdmxUY0tHUmhkUVl6dzhEX3I4bmtCN1p3cUdNSHdkd096d3RkelpBdDVRXzNwTS1Wcw?oc=5",
-  "date": "2026-10-19T14:10:42+00:00",
-  "source": "Tempus",
-  "source_group": "Google News · AI 公司动态",
-  "home": "https://www.tempus.com",
-  "evidence_hint": "",
-  "thin_src": true,
-  "thin": true,
-  "badge": "",
-  "pop": null,
-  "id": "f9cffeb5475d",
-  "keep": true,
-  "zh_title": "Tempus：AI预筛可助识别NSCLC生物标志物检测人群",
-  "summary": "Tempus称其数据显示AI辅助预筛有助于识别非小细胞肺癌中需做生物标志物检测的患者（仅标题）。",
-  "key_points": [],
-  "section": "临床预测与决策",
-  "type": "模型",
-  "tags": [
-   "肿瘤",
-   "临床决策支持"
-  ],
-  "evidence": "新闻",
-  "score": 3,
-  "reason": "企业自述数据发布，仅标题无样本与验证信息，属增量档",
-  "processing": "model-enriched",
-  "day": "2026-10-22"
  }
 ]

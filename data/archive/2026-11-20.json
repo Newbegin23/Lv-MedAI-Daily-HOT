@@ -466,7 +466,13 @@
 "score": 2,
 "reason": "仅标题的会议参会预告，无实质内容，属边缘档",
 "processing": "model-enriched",
-"day": "2026-11-20"
+"day": "2026-11-20",
+"also": [
+{
+"source": "Tempus Investor Relations",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZkx3c3dpZjhnYnpSMWNSZWdHS2FRa2tZYTY0dzM0WGlnMUhsTENBT2dYNDVoV2hFVmtyYU1QSW9uSnl1MGlGZS0xVWtqRUpReVFKR2Z1NzhqWmZjZ1VCdmtvUTR5dkFYWFZxemtMLUlYS2hxXzhOMmM5YmxTcUNQeHFZbnp6azNfR19oNUlhR3RTQkN0MXJacXRGWVFQdWxFeGpZaUo4YjBZZVJsSjBlYk9LSmRMU0xObzFBRTRJRUZLUndKcjZSbTVHRQ?oc=5"
+}
+]
 },
 {
 "title": "记者观察 | AI问诊：可以问，不能“诊”",

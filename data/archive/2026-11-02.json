@@ -236,7 +236,13 @@
 "processing": "model-enriched",
 "day": "2026-11-02",
 "abstract": "AbstractIn the past year, the medical field's relationship to clinical AI has progressed from rapid and often speculative adoption toward evaluation of its impact on patient outcomes, clinical workflows, and society. Drawing from the Symposium on AI for Learning Health Systems (SAIL) Year in Review (May 2026), this Perspective examines six key areas that dominated the domain of clinical AI in the past year: clinical AI evaluation, workflow integration, direct-to-consumer applications, regulation and societal impacts, AI in medical education, and foundational advancements in technology. AI's successes across these areas have been uneven, reflecting its jagged frontier. We highlight milestones that illustrate what AI has already achieved in health care, its potential, and major challenges that remain ahead. (Funded by the Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health [grant number T32HD040128].).",
-"zh_abstract": "摘要：在过去一年中，医学领域与临床AI的关系已从快速且往往带有推测性的采用，转向评估其对患者结局、临床工作流程和社会的影响。本文借鉴学习型健康系统人工智能研讨会（Symposium on AI for Learning Health Systems，SAIL）年度回顾（2026年5月），考察过去一年主导临床AI领域的六个关键方面：临床AI评估、工作流程整合、直接面向消费者的应用、监管与社会影响、医学教育中的AI，以及技术的基础性进展。AI在这些领域取得的成功并不均衡，反映出其“参差不齐的前沿”。我们重点介绍一些里程碑，以说明AI在医疗保健中已经取得的成就、其潜力以及未来仍面临的主要挑战。（由美国国立卫生研究院下属的尤妮斯·肯尼迪·施莱弗国家儿童健康与人类发展研究所资助[资助编号 T32HD040128]。）"
+"zh_abstract": "摘要：在过去一年中，医学领域与临床AI的关系已从快速且往往带有推测性的采用，转向评估其对患者结局、临床工作流程和社会的影响。本文借鉴学习型健康系统人工智能研讨会（Symposium on AI for Learning Health Systems，SAIL）年度回顾（2026年5月），考察过去一年主导临床AI领域的六个关键方面：临床AI评估、工作流程整合、直接面向消费者的应用、监管与社会影响、医学教育中的AI，以及技术的基础性进展。AI在这些领域取得的成功并不均衡，反映出其“参差不齐的前沿”。我们重点介绍一些里程碑，以说明AI在医疗保健中已经取得的成就、其潜力以及未来仍面临的主要挑战。（由美国国立卫生研究院下属的尤妮斯·肯尼迪·施莱弗国家儿童健康与人类发展研究所资助[资助编号 T32HD040128]。）",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIp2600817?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "PharmaAgent: a real-world evaluation of high- and low-autonomy agentic systems for inpatient vancomycin dosing",

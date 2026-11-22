@@ -761,7 +761,13 @@
 "keep": true,
 "type": "论文",
 "reason": "前瞻性设计含人机协作对照，但尚无结果、样本226例",
-"zh_abstract": "[新注册临床试验，尚无结果；申办者：Fondazione Policlinico Universitario Agostino Gemelli IRCCS；疾病：前列腺癌；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：226；状态：NOT_YET_RECRUITING（尚未招募）] 本研究的目标是了解一种名为 Prostate Intelligence（Pi）的人工智能（AI）软件在因疑似前列腺癌而接受前列腺 MRI 的成年有前列腺腺体人群中，于前列腺 MRI 上检测临床显著前列腺癌的准确程度。其主要旨在回答的问题是：- 单独使用 Pi 在患者层面检测临床显著前列腺癌（Gleason 分级 3+4 或更高）的敏感度和特异度如何？研究人员还将比较 Pi、单独放射科医生以及由 Pi 辅助的放射科医生，以观察 AI 辅助是否改变癌症检出。参与者将：* 作为其常规临床照护的一部分接受前列腺 MRI。每份 MRI 首先由放射科医生在不查看 AI 结果的情况下阅片；随后向该放射科医生展示 Pi 报告，由其生成最终的联合报告。* 如果 MRI 可疑，按常规实践接受靶向前列腺活检（最多两个病灶）。仅由 Pi 标记的区域也可能被活检。* 如果未接受活检，则在 MRI 后随访 12 个月，在 6 和 12 个月时进行 PSA 检测和临床评估，以确认不存在临床显著癌症。约 226 名参与者将在意大利两家中心入组（Fondazione Policlinico Universitario A. Gemelli IRCCS，罗马；IRCCS Ospedale San Raffaele，米兰）。"
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：Fondazione Policlinico Universitario Agostino Gemelli IRCCS；疾病：前列腺癌；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：226；状态：NOT_YET_RECRUITING（尚未招募）] 本研究的目标是了解一种名为 Prostate Intelligence（Pi）的人工智能（AI）软件在因疑似前列腺癌而接受前列腺 MRI 的成年有前列腺腺体人群中，于前列腺 MRI 上检测临床显著前列腺癌的准确程度。其主要旨在回答的问题是：- 单独使用 Pi 在患者层面检测临床显著前列腺癌（Gleason 分级 3+4 或更高）的敏感度和特异度如何？研究人员还将比较 Pi、单独放射科医生以及由 Pi 辅助的放射科医生，以观察 AI 辅助是否改变癌症检出。参与者将：* 作为其常规临床照护的一部分接受前列腺 MRI。每份 MRI 首先由放射科医生在不查看 AI 结果的情况下阅片；随后向该放射科医生展示 Pi 报告，由其生成最终的联合报告。* 如果 MRI 可疑，按常规实践接受靶向前列腺活检（最多两个病灶）。仅由 Pi 标记的区域也可能被活检。* 如果未接受活检，则在 MRI 后随访 12 个月，在 6 和 12 个月时进行 PSA 检测和临床评估，以确认不存在临床显著癌症。约 226 名参与者将在意大利两家中心入组（Fondazione Policlinico Universitario A. Gemelli IRCCS，罗马；IRCCS Ospedale San Raffaele，米兰）。",
+"also": [
+{
+"source": "PubMed · European urology focus",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43064602/"
+}
+]
 },
 {
 "title": "Artificial Intelligence in Healthcare: From Predictive Models to Generative, Multimodal, and Agentic AI.",
