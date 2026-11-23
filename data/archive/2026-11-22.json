@@ -139,7 +139,8 @@
 "processing": "model-enriched",
 "day": "2026-11-22",
 "abstract_days": [
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -248,7 +249,8 @@
 "processing": "model-enriched",
 "day": "2026-11-22",
 "abstract_days": [
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -286,7 +288,8 @@
 "processing": "model-enriched",
 "day": "2026-11-22",
 "abstract_days": [
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
