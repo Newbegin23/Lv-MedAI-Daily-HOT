@@ -141,7 +141,13 @@
 "processing": "model-enriched",
 "abstract": "Abstract Background: Ambient AI documentation reduces documentation burden and electronic health record (EHR) time for ambulatory clinicians. Newer features also queue orders and offer some level of coding support for clinician review. This study compares two commercial products deployed at UCLA Health. Objective: To compare Nabla and Epic Systems, Inc. ambient AI solution among ambulatory clinicians at UCLA Health on usability, documentation burden, perceived note quality, adoption, EHR time and productivity, clinician-reported experience with order queueing and coding support, coding and billing patterns and integrity, work productivity, and patient-reported communication experience. Methods: Two-arm parallel-group randomized trial, 1:1, among 374 ambulatory clinicians at a single academic health system who hold an active license for a standalone ambient application (Nabla). Randomization is covariate-constrained where cohort size permits, balancing age, sex, half-day clinic sessions, specialty group, and baseline System Usability Scale (SUS) score. Intervention runs 11/9/2026 to 1/17/2027, with the first four weeks as lead-in. The primary outcome is SUS score at follow-up, compared between arms. Analysis is by intention-to-treat using mixed-effects models. Ethics and dissemination: Determined exempt by the UCLA Institutional Review Board (IRB-26-2147). Survey completion indicates consent. No patient-level data are collected. Findings will directly inform operational decision making and will be published regardless of direction.",
 "zh_abstract": "【背景】环境AI文档记录减轻了门诊临床医生的文档负担和电子健康记录（EHR）时间。较新的功能还可将医嘱排入队列，并提供一定程度的编码支持供临床医生审核。本研究比较在UCLA Health部署的两种商业产品。\n【目的】在UCLA Health门诊临床医生中比较Nabla与Epic Systems, Inc.环境AI解决方案在可用性、文档负担、感知记录质量、采用情况、EHR时间和生产率、临床医生报告的医嘱排队和编码支持体验、编码和计费模式与完整性、工作效率以及患者报告的沟通体验方面的差异。\n【方法】两臂平行组随机试验，1:1，在单一学术健康系统的374名门诊临床医生中开展，这些医生持有独立环境应用程序（Nabla）的有效许可证。在队列规模允许时采用协变量约束随机化，平衡年龄、性别、半日门诊时段、专科组和基线系统可用性量表（SUS）评分。干预时间为2026年11月9日至2027年1月17日，前四周为导入期。主要结局是随访时的SUS评分，在两臂之间进行比较。分析采用意向性治疗，使用混合效应模型。\n【伦理与传播】经UCLA机构审查委员会判定为豁免（IRB-26-2147）。完成调查即表示同意。不收集患者层面数据。研究结果将直接指导运营决策，并将无论方向如何均予以发表。",
-"day": "2026-11-10"
+"day": "2026-11-10",
+"also": [
+{
+"source": "ClinicalTrials.gov",
+"link": "https://clinicaltrials.gov/study/NCT07953400"
+}
+]
 },
 {
 "title": "AI in the Clinical Documentation Loop: Effects of LLM-Induced Note Bloat and Diagnostic Overcall on Downstream LLMs",
