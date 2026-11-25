@@ -102,7 +102,8 @@
 "processing": "model-enriched",
 "day": "2026-11-24",
 "abstract_days": [
-"2026-11-24"
+"2026-11-24",
+"2026-11-25"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -206,7 +207,8 @@
 "processing": "model-enriched",
 "day": "2026-11-24",
 "abstract_days": [
-"2026-11-24"
+"2026-11-24",
+"2026-11-25"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: The read operation timed out; openalex: HTTP Error 404: Not Found"
 },
