@@ -267,7 +267,13 @@
 "processing": "model-enriched",
 "abstract": "[Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG] Basal cell carcinoma (BCC) is the most common cancer and a major public health burden. Noninvasive techniques such as optical coherence tomography (OCT) may reduce unnecessary biopsies and enable earlier detection. However, effective OCT interpretation requires expertise. Artificial intelligence (AI) may help overcome this barrier. An AI model based on a U-Net convolutional neural network was trained using 4,680 annotated OCT image frames from 39 BCCs, 5,640 frames from 47 premalignant and benign lesions, and 12,360 frames from 103 scans of healthy skin. Detection performance was evaluated on an independent test set comprising 26 scans (3,120 frames) from 16 BCCs, 5 premalignant lesions, and 5 benign lesions. External validation used independent clinical data from 25 histologically confirmed BCCs (18 nodular, 7 superficial). AI-assisted OCT generated visual overlays corresponding to established BCC features and identified tumor areas. In the independent test set, the area under the ROC curve was 95.5 % for nodular and 98.2 % for superficial BCC. In clinical validation, all BCCs were detected, and subtype concordance with histology was achieved in 21 of 25 cases (83 %). AI-assisted OCT shows potential to improve non-invasive BCC diagnostics and warrants further clinical evaluation.",
 "zh_abstract": "[Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG] 基底细胞癌（BCC）是最常见的癌症，也是重大的公共卫生负担。光学相干断层扫描（OCT）等无创技术可减少不必要的活检并实现更早发现。然而，有效的OCT判读需要专业知识。人工智能（AI）可能有助于克服这一障碍。基于U-Net卷积神经网络的AI模型使用来自39例BCC的4,680个标注OCT图像帧、来自47个癌前病变和良性病变的5,640个帧，以及来自103次健康皮肤扫描的12,360个帧进行训练。检测性能在独立测试集上评估，该测试集包括来自16例BCC、5个癌前病变和5个良性病变的26次扫描（3,120个帧）。外部验证使用来自25例经组织学确诊的BCC（18例结节型，7例浅表型）的独立临床数据。AI辅助OCT生成了与既定BCC特征相对应的视觉叠加图，并识别了肿瘤区域。在独立测试集中，结节型BCC的ROC曲线下面积为95.5%，浅表型BCC为98.2%。在临床验证中，所有BCC均被检出，25例中有21例（83%）实现了与组织学的亚型一致性。AI辅助OCT显示出改善无创BCC诊断的潜力，值得进一步临床评估。",
-"day": "2026-11-08"
+"day": "2026-11-08",
+"also": [
+{
+"source": "ClinicalTrials.gov",
+"link": "https://clinicaltrials.gov/study/NCT07959458"
+}
+]
 },
 {
 "title": "Artificial Intelligence Scribes and Same-Day Note Closure by Patient Language Preference and Interpreter Modality.",
