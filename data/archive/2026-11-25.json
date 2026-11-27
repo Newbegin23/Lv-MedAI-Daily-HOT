@@ -432,9 +432,10 @@
 "day": "2026-11-25",
 "abstract_days": [
 "2026-11-25",
-"2026-11-26"
+"2026-11-26",
+"2026-11-27"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (218824 bytes; title: Publisher Correction: Generational gains in cognitive capaci; text: Publisher Correction: Generational gains in cognitive capacity and dementia incidence rates in Weste); europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (220013 bytes; title: Publisher Correction: Generational gains in cognitive capaci; text: Publisher Correction: Generational gains in cognitive capacity and dementia incidence rates in Weste); europepmc: empty; openalex: empty"
 },
 {
 "title": "AI Medical Devices Advance Diagnostic Accuracy and Personalized Patient Care in Review",
